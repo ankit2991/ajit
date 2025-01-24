@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/my_background">
+
+
+    <RelativeLayout
+        android:id="@+id/llRvList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:ignore="NestedWeights">
+
+        <RelativeLayout
+            android:id="@+id/rl_no_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/txt_no"
+                android:fontFamily="@font/baloobhai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/no_data_available"
+                android:textColor="?attr/my_textColor"
+                android:textSize="@dimen/large_text_size"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_width="match_parent" android:paddingLeft="@dimen/content_padding_recycle"
+            android:paddingRight="@dimen/content_padding_recycle"
+            android:layout_height="match_parent" android:paddingTop="?attr/actionBarSize"
+            android:clipToPadding="false" android:drawSelectorOnTop="true"
+            android:paddingBottom="@dimen/value_1" />
+
+        <RelativeLayout
+            android:id="@+id/rl_progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:visibility="gone">
+
+            <fr.castorflex.android.circularprogressbar.CircularProgressBar
+                android:id="@+id/layout_loading_search"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:indeterminate="true"
+                style="@style/CircularThemeProgressBar_centre"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <com.mancj.materialsearchbar.MaterialSearchBar
+        android:id="@+id/searchBar"
+        style="@style/MaterialSearchBarLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:mt_hintColor="?attr/searchbar_text"
+        app:mt_backIconTint="?attr/searchbar_text"
+        app:mt_clearIconTint="?attr/searchbar_text"
+        app:mt_textColor="?attr/searchbar_text"
+        app:mt_menuIconTint="?attr/searchbar_text"
+        app:mt_navIconTint="?attr/searchbar_text"
+        app:mt_searchBarColor="?attr/searchbar_bg"
+        app:mt_textCursorTint="?attr/searchbar_text" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

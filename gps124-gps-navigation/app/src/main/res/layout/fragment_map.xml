@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/mapContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/ads_container"
+        app:layout_constraintHeight_percent="0.4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0">
+
+        <fragment
+            android:id="@+id/map"
+            class="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rlBottomContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.6">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/sheetHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingTop="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_3sdp"
+            android:paddingBottom="@dimen/_3sdp">
+
+
+            <ImageButton
+                android:id="@+id/btnRoutePopUpMenu"
+                android:layout_width="@dimen/_27sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/transpresnt"
+                android:contentDescription="@null"
+                android:scaleType="fitEnd"
+                android:src="@drawable/ic_more_vert_white_24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvRouteName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:maxLength="20"
+                android:singleLine="true"
+                android:text="@string/route_name"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black_colour"
+                android:textSize="@dimen/_13ssp"
+                app:layout_constraintEnd_toStartOf="@+id/btnRoutePopUpMenu"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvStopCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:singleLine="true"
+                android:text="@string/stops"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/_11ssp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvRouteName" />
+
+            <TextView
+                android:id="@+id/tvTotallTime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_11ssp"
+                android:layout_marginEnd="@dimen/_11ssp"
+                android:singleLine="true"
+                android:text=""
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/_10ssp"
+                app:layout_constraintBottom_toBottomOf="@+id/tvStopCount"
+                app:layout_constraintEnd_toStartOf="@+id/btnRoutePopUpMenu"
+                app:layout_constraintStart_toEndOf="@+id/tvStopCount"
+                app:layout_constraintTop_toTopOf="@+id/tvStopCount" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:id="@+id/viewSeperator"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_below="@+id/sheetHeader"
+            android:background="@color/quantum_grey200" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvStops"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/sheetHeader"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:clipToPadding="false"
+            android:paddingBottom="@dimen/_45sdp"
+            tools:listitem="@layout/item_stop_on_map_screen" />
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/layoutNoStopFound"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/viewSeperator"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <LinearLayout
+                android:id="@+id/addRemoveStopLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivNoStopFound"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:src="@drawable/ic_no_route_found" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:gravity="center_horizontal"
+                    android:lineSpacingExtra="2.7sp"
+                    android:padding="@dimen/_2sdp"
+                    android:text="@string/press_edit_button_to_add_editor_remove_stops"
+                    android:textColor="@color/light_gray"
+                    android:textSize="@dimen/_11ssp" />
+            </LinearLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <ProgressBar
+            android:id="@+id/loadingProgressBar"
+            android:layout_width="@dimen/_37sdp"
+            android:layout_height="@dimen/_37sdp"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            app:indicatorColor="@color/colorAccent" />
+
+        <RelativeLayout
+            android:id="@+id/rlBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:background="@android:color/transparent">
+
+            <Button
+                android:id="@+id/btnFinishRoute"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="@drawable/bg_green_solid_rounded_25sdp"
+                android:text="@string/finish_route"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14ssp"
+                android:visibility="gone" />
+
+
+            <Button
+                android:id="@+id/btnOptimizeRoute"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="@drawable/bg_blue_solid_rounded_25sdp"
+                android:text="@string/optimize_route"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13ssp"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/clBottomSheet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/rvStops"
+            android:layout_alignTop="@+id/rvStops"
+            android:layout_alignEnd="@+id/rvStops"
+            android:layout_alignBottom="@+id/rvStops">
+
+            <include
+                android:id="@+id/bottomsheet"
+                layout="@layout/layout_bottomsheet_for_subscription" />
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/btnEditRoute"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_25sdp"
+        android:background="@drawable/green_circle"
+        android:contentDescription="@null"
+        android:elevation="@dimen/_10sdp"
+        android:scaleType="centerInside"
+        app:backgroundTint="@color/green"
+        app:fabCustomSize="@dimen/_35sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/llbtnLocation"
+        app:srcCompat="@drawable/ic_edit_route"
+        tools:ignore="RelativeOverlap" />
+
+    <ImageButton
+        android:id="@+id/btnMapType"
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="@dimen/_27sdp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="@drawable/btn_white_rounded_4sdp"
+        android:contentDescription="@null"
+        android:elevation="@dimen/_2sdp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_map_type"
+        app:layout_constraintBottom_toTopOf="@+id/llbtnLocation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+    <RelativeLayout
+        android:id="@+id/llbtnLocation"
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_40sdp"
+        android:background="@drawable/btn_white_rounded_4sdp"
+        android:elevation="@dimen/_5sdp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/rlBottomContent"
+        app:layout_constraintEnd_toEndOf="@+id/btnMapType">
+
+        <ImageButton
+            android:id="@+id/btnCurrentLocation"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_28sdp"
+            android:layout_alignParentTop="true"
+            android:background="@color/transpresnt"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_current_location" />
+
+        <View
+            android:id="@+id/separatorCurrentLocation"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1ssp"
+            android:layout_below="@+id/btnCurrentLocation"
+            android:background="@color/light_gray" />
+
+        <ImageButton
+            android:id="@+id/btnFullScreen"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_28sdp"
+            android:layout_below="@+id/separatorCurrentLocation"
+            android:background="@color/transpresnt"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_collapsed_screen" />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

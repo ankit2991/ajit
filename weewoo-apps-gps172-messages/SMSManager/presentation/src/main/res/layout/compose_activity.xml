@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contentView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/list_background"
+    android:orientation="vertical"
+    tools:context="com.messaging.textrasms.manager.feature.compose.ComposeActivity">
+
+    <com.messaging.textrasms.manager.common.widget.QkTextView
+        android:id="@+id/composeBarNotSupport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:layout_marginRight="@dimen/_1sdp"
+        android:elevation="1dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/compose_bar_not_support"
+        android:textColor="@color/tools_theme"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/messageBackground"
+        app:textSize="secondary" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/itemBackground"
+        android:contentInsetStart="0dp"
+        android:contentInsetLeft="0dp"
+        android:contentInsetEnd="0dp"
+        android:contentInsetRight="0dp"
+        app:contentInsetStartWithNavigation="0dp"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintHeight_max="140dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:orientation="horizontal"
+            app:layout_constrainedHeight="true"
+            app:layout_constraintHeight_max="140dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/backcompose"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/ic_back_arrow"
+                android:visibility="visible"
+                app:tint="?android:attr/textColorPrimary" />
+
+            <com.messaging.textrasms.manager.common.widget.GroupAvatarView
+                android:id="@+id/avatars"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="start"
+                android:layout_toEndOf="@+id/backcompose"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/toolbar_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_toEndOf="@+id/avatars"
+                android:gravity="start"
+                android:orientation="vertical">
+
+
+                <com.messaging.textrasms.manager.common.widget.QkTextView
+                    android:id="@+id/toolbarTitle"
+                    style="@style/ToolbarText"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    tools:text="" />
+
+                <com.messaging.textrasms.manager.common.widget.QkTextView
+                    android:id="@+id/toolbarSubtitle"
+                    style="@style/ToolbarText"
+                    android:textColor="?android:attr/textColorTertiary"
+                    android:visibility="gone"
+                    app:textSize="secondary"
+                    tools:text="3 of 9 results" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/chips"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:scrollbars="vertical"
+                    tools:visibility="gone" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@drawable/ab_shadow"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/messageList"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingTop="8dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toTopOf="@id/composeBarNotSupport"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sendAsGroupBackground"
+        app:stackFromEnd="true"
+        tools:listitem="@layout/message_list_item_in" />
+
+    <com.messaging.textrasms.manager.common.widget.QkTextView
+        android:id="@+id/messagesEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="56dp"
+        android:gravity="center"
+        android:text="@string/compose_messages_empty"
+        android:textColor="?android:attr/textColorTertiary"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/sendAsGroupBackground"
+        app:textSize="secondary" />
+
+    <ProgressBar
+        android:id="@+id/loading"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        tools:progress="45"
+        tools:progressTint="@color/tools_theme" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/sendAsGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/sendAsGroupBackground"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+        <com.messaging.textrasms.manager.common.widget.QkEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:backgroundTint="?android:attr/textColorTertiary"
+            android:enabled="false"
+            android:hint="Recipient"
+            android:paddingLeft="@dimen/_15sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_12sdp"
+            android:textColorHint="?android:attr/textColorTertiary"
+            android:textSize="@dimen/_12sdp"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/plus"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/ic_add_black_24dp"
+            app:tint="?android:attr/textColorPrimary" />
+    </RelativeLayout>
+
+    <com.messaging.textrasms.manager.common.widget.QkTextView
+        android:id="@+id/sendAsGroupTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/compose_send_group_title"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@id/sendAsGroupSwitch"
+        app:layout_constraintStart_toStartOf="@id/sendAsGroupBackground"
+        app:layout_constraintTop_toTopOf="@id/sendAsGroupBackground"
+        app:textSize="primary" />
+
+    <com.messaging.textrasms.manager.common.widget.QkTextView
+        android:id="@+id/sendAsGroupSummary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="@string/compose_send_group_summary"
+        android:textColor="?android:attr/textColorTertiary"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@id/sendAsGroupTitle"
+        app:layout_constraintStart_toStartOf="@id/sendAsGroupTitle"
+        app:layout_constraintTop_toBottomOf="@id/sendAsGroupTitle"
+        app:textSize="secondary" />
+
+    <com.messaging.textrasms.manager.common.widget.QkSwitch
+        android:id="@+id/sendAsGroupSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:checked="true"
+        android:clickable="false"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/sendAsGroupBackground"
+        app:layout_constraintEnd_toEndOf="@id/sendAsGroupBackground"
+        app:layout_constraintTop_toTopOf="@id/sendAsGroupBackground" />
+
+    <View
+        android:id="@+id/sendAsGroupShadow"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@drawable/ab_shadow"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/sendAsGroupBackground" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="3dp"
+        android:background="?android:attr/divider"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/message"
+        app:layout_constraintTop_toBottomOf="@+id/messageList" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/composeBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:constraint_referenced_ids="messageBackground,attach,attachments,message,counter,send" />
+
+    <View
+        android:id="@+id/composeDivider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="3dp"
+        android:background="?android:attr/divider"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/messageBackground" />
+
+    <View
+        android:id="@+id/messageBackground"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/rounded_rectangle_22dp"
+        android:backgroundTint="?attr/bubbleColor"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_10sdp"
+        app:layout_constraintBottom_toTopOf="@+id/attachmentCard"
+        app:layout_constraintTop_toTopOf="@id/scheduledCancel" />
+
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/scheduledGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:constraint_referenced_ids="scheduledTitle,scheduledTime,scheduledCancel,scheduledSeparator" />
+
+    <com.messaging.textrasms.manager.common.widget.QkTextView
+        android:id="@+id/scheduledTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="@string/compose_scheduled_for"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/scheduledTime"
+        app:layout_constraintEnd_toStartOf="@id/scheduledCancel"
+        app:layout_constraintStart_toStartOf="@id/messageBackground"
+        app:layout_constraintTop_toTopOf="@id/scheduledCancel"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:textSize="secondary" />
+
+    <com.messaging.textrasms.manager.common.widget.QkTextView
+        android:id="@+id/scheduledTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="?android:attr/textColorTertiary"
+        app:layout_constraintBottom_toBottomOf="@id/scheduledCancel"
+        app:layout_constraintEnd_toStartOf="@id/scheduledCancel"
+        app:layout_constraintStart_toStartOf="@id/messageBackground"
+        app:layout_constraintTop_toBottomOf="@id/scheduledTitle"
+        app:textSize="secondary"
+        tools:text="Decemeber 23rd at 12:00AM" />
+
+    <ImageView
+        android:id="@+id/scheduledCancel"
+        android:layout_width="44dp"
+        android:layout_height="56dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_cancel_black_24dp"
+        app:layout_constraintBottom_toTopOf="@id/scheduledSeparator"
+        app:layout_constraintEnd_toEndOf="@id/messageBackground"
+        app:tint="?android:attr/textColorSecondary" />
+
+    <View
+        android:id="@+id/scheduledSeparator"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/divider"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/attachments"
+        app:layout_constraintEnd_toEndOf="@id/messageBackground"
+        app:layout_constraintStart_toStartOf="@id/messageBackground" />
+
+
+
+    <!--    <RelativeLayout-->
+    <!--        android:id="@+id/relativeBanner"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginBottom="@dimen/_1sdp"-->
+    <!--        android:gravity="center"-->
+    <!--        app:layout_constraintBottom_toTopOf="@id/scheduledTitle" />-->
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/attachments"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="horizontal"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toTopOf="@id/message"
+        app:layout_constraintEnd_toEndOf="@id/messageBackground"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/messageBackground"
+        tools:listitem="@layout/attachment_image_list_item" />
+
+    <FrameLayout
+        android:id="@+id/ad_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" >
+
+        <include layout="@layout/layout_big_native_ad"/>
+    </FrameLayout>
+
+
+    <com.messaging.textrasms.manager.common.widget.QkEditText
+        android:id="@+id/message"
+        style="@style/TextPrimary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:hint="@string/compose_hint"
+        android:inputType="textLongMessage|textCapSentences|textMultiLine"
+        android:maxHeight="@dimen/_200sdp"
+        android:maxLines="6"
+        android:minHeight="44dp"
+        android:paddingStart="16dp"
+        android:paddingTop="@dimen/_15sdp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="@dimen/_15sdp"
+        android:textColorHint="?android:attr/textColorTertiary"
+        android:textIsSelectable="true"
+        app:layout_constraintBottom_toBottomOf="@id/messageBackground"
+        app:layout_constraintEnd_toStartOf="@id/sim"
+        app:layout_constraintStart_toEndOf="@id/emoji" />
+
+
+    <ImageView
+        android:id="@+id/sim"
+        android:layout_width="@dimen/_38sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_margin="@dimen/_3sdp"
+        android:layout_marginStart="6dp"
+        android:background="?attr/selectableItemBackground"
+        android:contentDescription="@string/compose_sim_cd"
+        android:padding="@dimen/_9sdp"
+        android:src="@drawable/ic_sim_card_black_24dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/messageBackground"
+        app:layout_constraintEnd_toStartOf="@id/attach"
+        app:tint="@color/tools_theme" />
+
+    <com.messaging.textrasms.manager.common.widget.QkTextView
+        android:id="@+id/simIndex"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:textColor="?android:attr/textColorPrimaryInverse"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/sim"
+        app:layout_constraintEnd_toEndOf="@id/sim"
+        app:layout_constraintStart_toStartOf="@id/sim"
+        app:layout_constraintTop_toTopOf="@id/sim"
+        tools:ignore="SpUsage"
+        tools:text="1" />
+
+    <com.messaging.textrasms.manager.common.widget.QkTextView
+        android:id="@+id/counter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:textColor="?android:attr/textColorSecondary"
+        app:layout_constraintBottom_toTopOf="@id/send"
+        app:layout_constraintEnd_toEndOf="@id/send"
+        app:layout_constraintStart_toStartOf="@id/send"
+        app:textSize="tertiary"
+        tools:text="108 / 2" />
+
+
+    <ImageView
+        android:id="@+id/emoji"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginEnd="4dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/compose_send_cd"
+        android:padding="10dp"
+        android:src="@drawable/smiley_icon"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/messageBackground"
+        app:layout_constraintBottom_toTopOf="@id/attachmentCard"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/send"
+        android:layout_width="@dimen/_45sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="4dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/compose_send_cd"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/send_icon"
+        app:layout_constraintBottom_toBottomOf="@id/messageBackground"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <!--    <View-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="1dp"-->
+    <!--        android:background="?android:attr/divider"-->
+    <!--        android:visibility="gone"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent" />-->
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/attaching"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:constraint_referenced_ids="attachmentCard" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/attachmentCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="?android:attr/itemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/ad_view_container">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="false"
+            android:orientation="vertical">
+
+
+            <!--            <LinearLayout-->
+            <!--                android:id="@+id/gallery_attach_layout"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:orientation="vertical">-->
+
+
+            <RelativeLayout
+                android:id="@+id/sticker_main_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_200sdp"
+                android:layout_above="@+id/horizontal_view"
+                android:paddingTop="@dimen/_6sdp"
+                android:visibility="gone">
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/viewpager_gif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/tabsgif"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_3sdp"
+                    android:fitsSystemWindows="false"
+                    android:scrollbars="horizontal"
+                    android:visibility="visible" />
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/tabsgif"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_38sdp"
+                    android:layout_alignParentBottom="true"
+                    android:padding="0dp"
+                    android:visibility="visible"
+                    app:tabBackground="@drawable/tab_color_selector"
+                    app:tabIndicatorHeight="0dp"
+                    app:tabMode="scrollable"
+                    app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+                    app:tabTextColor="?android:attr/textColorSecondary">
+
+
+                </com.google.android.material.tabs.TabLayout>
+
+                <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                    android:id="@+id/no_internet"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    app:customFont="@string/fontName"
+                    android:text="@string/no_connection"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textSize="@dimen/_15sdp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/gallary_attach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/horizontal_view"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="@dimen/_10sdp"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:id="@+id/camera_recent"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_3sdp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <com.messaging.textrasms.manager.common.widget.SquareImageView
+                        android:id="@+id/imgview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/camera_img" />
+
+                    <ImageView
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_centerInParent="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/_3sdp"
+                        android:src="@drawable/camera_icon" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/image_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_95sdp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/pic_bg"
+                    android:gravity="center">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/_3sdp"
+                        android:scrollbars="vertical" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:id="@+id/horizontal_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/_6sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/cameraLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_6sdp"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:id="@+id/camera"
+                                android:layout_width="@dimen/_50sdp"
+                                android:layout_height="@dimen/_50sdp"
+                                android:layout_marginBottom="2dp"
+                                android:contentDescription="@string/compose_camera_cd"
+                                android:padding="@dimen/_5sdp"
+                                android:src="@drawable/camera" />
+
+                            <com.messaging.textrasms.manager.common.widget.QkTextView
+                                android:id="@+id/cameraLabel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:text="@string/Camera"
+                                android:textColor="?android:attr/textColorPrimary"
+                                android:textSize="@dimen/_12sdp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/galleryLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_6sdp"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:id="@+id/gallery"
+                                android:layout_width="@dimen/_50sdp"
+                                android:layout_height="@dimen/_50sdp"
+                                android:layout_marginBottom="2dp"
+                                android:contentDescription="@string/compose_gallery_cd"
+                                android:padding="@dimen/_5sdp"
+                                android:src="@drawable/gallery" />
+
+                            <com.messaging.textrasms.manager.common.widget.QkTextView
+                                android:id="@+id/galleryLabel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:text="@string/Gallery"
+                                android:textColor="?android:attr/textColorPrimary"
+                                android:textSize="@dimen/_12sdp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/stickerlayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_6sdp"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/sticker"
+                                android:layout_width="@dimen/_50sdp"
+                                android:layout_height="@dimen/_50sdp"
+                                android:layout_marginBottom="2dp"
+                                android:contentDescription="@string/compose_gallery_cd"
+                                android:padding="@dimen/_5sdp"
+                                android:src="@drawable/sticker" />
+
+                            <com.messaging.textrasms.manager.common.widget.QkTextView
+                                android:id="@+id/stickerLabel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:text="@string/Sticker"
+                                android:textColor="?android:attr/textColorPrimary"
+                                android:textSize="@dimen/_12sdp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/giflayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_6sdp"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:id="@+id/gif"
+                                android:layout_width="@dimen/_50sdp"
+                                android:layout_height="@dimen/_50sdp"
+                                android:layout_marginBottom="2dp"
+                                android:contentDescription="@string/compose_gallery_cd"
+                                android:padding="@dimen/_5sdp"
+                                android:src="@drawable/gif" />
+
+                            <com.messaging.textrasms.manager.common.widget.QkTextView
+                                android:id="@+id/gifLabel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:text="@string/Gif"
+                                android:textColor="?android:attr/textColorPrimary"
+                                android:textSize="@dimen/_12sdp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/contactLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_6sdp"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/contact"
+                                android:layout_width="@dimen/_50sdp"
+                                android:layout_height="@dimen/_50sdp"
+                                android:layout_marginBottom="2dp"
+                                android:contentDescription="@string/compose_contact_cd"
+                                android:padding="@dimen/_5sdp"
+                                android:src="@drawable/contact" />
+
+                            <com.messaging.textrasms.manager.common.widget.QkTextView
+                                android:id="@+id/contactLabel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:text="@string/Contact"
+                                android:textColor="?android:attr/textColorPrimary"
+                                android:textSize="@dimen/_12sdp" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/scheduleLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_6sdp"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/schedule"
+                                android:layout_width="@dimen/_50sdp"
+                                android:layout_height="@dimen/_50sdp"
+                                android:layout_marginBottom="2dp"
+                                android:contentDescription="@string/scheduled_compose_cd"
+                                android:padding="@dimen/_5sdp"
+                                android:src="@drawable/schedual" />
+
+                            <com.messaging.textrasms.manager.common.widget.QkTextView
+                                android:id="@+id/scheduleLabel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:text="@string/Schedule"
+                                android:textColor="?android:attr/textColorPrimary"
+                                android:textSize="@dimen/_12sdp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/locationLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_6sdp"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/location"
+                                android:layout_width="@dimen/_50sdp"
+                                android:layout_height="@dimen/_50sdp"
+                                android:layout_marginBottom="2dp"
+                                android:contentDescription="@string/compose_camera_cd"
+                                android:padding="@dimen/_5sdp"
+                                android:src="@drawable/location" />
+
+                            <com.messaging.textrasms.manager.common.widget.QkTextView
+                                android:id="@+id/locationLabel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:text="@string/Location"
+                                android:textColor="?android:attr/textColorPrimary"
+                                android:textSize="@dimen/_12sdp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/notesLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_6sdp"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/notes"
+                                android:layout_width="@dimen/_50sdp"
+                                android:layout_height="@dimen/_50sdp"
+                                android:layout_marginBottom="2dp"
+                                android:contentDescription="@string/compose_contact_cd"
+                                android:padding="@dimen/_5sdp"
+                                android:src="@drawable/notes" />
+
+                            <com.messaging.textrasms.manager.common.widget.QkTextView
+                                android:id="@+id/notesLabel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:text="@string/Notes"
+                                android:textColor="?android:attr/textColorPrimary"
+                                android:textSize="@dimen/_12sdp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+            <!--            </LinearLayout>-->
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <View
+        android:id="@+id/attachingBackground"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#44000000"
+        android:elevation="4dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/attachmentCard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/attach"
+        android:layout_width="@dimen/_38sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_margin="@dimen/_3sdp"
+        android:layout_marginStart="6dp"
+        android:contentDescription="@string/compose_attach_cd"
+        android:elevation="@dimen/_5sdp"
+        android:padding="@dimen/_7sdp"
+        android:src="@drawable/attach"
+        app:backgroundTint="@color/tools_theme"
+        app:layout_constraintBottom_toBottomOf="@id/messageBackground"
+        app:layout_constraintEnd_toStartOf="@+id/send"
+        app:tint="#0086FF" />
+
+    <LinearLayout
+        android:id="@+id/delete_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:padding="@dimen/_2sdp"
+            android:src="@drawable/ic_delete_multiple"
+            android:visibility="visible"
+            app:tint="?android:attr/textColorPrimary" />
+
+        <com.messaging.textrasms.manager.common.widget.QkTextView
+            android:id="@+id/delete_txt"
+            style="@style/ToolbarText"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/_2sdp"
+            android:text="Delete"
+            android:textColor="?android:attr/textColorPrimary"
+            android:visibility="visible" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

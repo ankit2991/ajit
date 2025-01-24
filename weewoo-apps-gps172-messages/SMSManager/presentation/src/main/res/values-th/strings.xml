@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sugest_update_title">มีการอัปเดต</string>
+    <string name="sugest_update_message">อัปเดตใหม่พร้อมใช้งานบน Google Play โปรดอัปเดตเวอร์ชันของคุณ</string>
+    <string name="force_update_title">มีการอัปเดต</string>
+    <string name="force_update_message">อัปเดตใหม่พร้อมใช้งานบน Google Play โปรดอัปเดตเวอร์ชันของคุณ</string>
+    <string name="update_ok">อัปเดต</string>
+    <string name="update_no">ไม่ใช่ตอนนี้</string>
+    <string name="app_name">#ข้อความ</string>
+    <string name="in_app_name">ข้อความ</string>
+    <string name="splash_app_name">ข้อความ SMS</string>
+    <string name="loading_msg">กรุณารอสักครู่...</string>
+    <string name="ads_loading_msg">โฆษณากำลังแสดง...</string>
+    <string name="shortcut_compose_long_label">การสนทนาใหม่</string>
+    <string name="shortcut_compose_short_label">เขียน</string>
+    <string name="shortcut_compose_disabled_message">ปิดใช้งานทางลัดแล้ว</string>
+    <string name="title_archived">ข้อความที่เก็บถาวร</string>
+    <string name="title_settings">การตั้งค่า</string>
+    <string name="title_notification_prefs">การแจ้งเตือน</string>
+    <string name="title_theme">ธีม</string>
+    <string name="title_conversations">ค้นหาหมายเลข,ชื่อ &amp; เพิ่มเติม</string>
+    <string name="title_compose">พิมพ์ชื่อหรือหมายเลขโทรศัพท์</string>
+    <string name="setup_skip">ข้าม</string>
+    <string name="setup_next">ดำเนินการต่อ</string>
+    <string name="menu_add_person">เพิ่มบุคคล</string>
+    <string name="menu_call">โทร</string>
+    <string name="menu_info">รายละเอียด</string>
+    <string name="menu_save">บันทึกไปที่แกลเลอรี่</string>
+    <string name="menu_share">แชร์</string>
+    <string name="main_drawer_open_cd">เปิดลิ้นชักการนำทาง</string>
+    <string name="main_title_selected">%d เลือกแล้ว</string>
+    <string name="main_menu_clear">ล้าง</string>
+    <string name="main_menu_archive">เก็บถาวร</string>
+    <string name="main_menu_unarchive">ยกเลิกการเก็บถาวร</string>
+    <string name="main_menu_delete">ลบ</string>
+    <string name="main_menu_add_contact">เพิ่มในรายชื่อติดต่อ</string>
+    <string name="main_menu_pin">ปักหมุดไว้ด้านบน</string>
+    <string name="main_menu_unpin">เลิกปักหมุด</string>
+    <string name="main_menu_read">ทำเครื่องหมายว่าอ่านแล้ว</string>
+    <string name="main_menu_unread">ทำเครื่องหมายว่ายังไม่ได้อ่าน</string>
+    <string name="select_all">เลือกทั้งหมด</string>
+    <string name="deselect_all">ยกเลิกการเลือกทั้งหมด</string>
+    <string name="main_menu_block">บล็อก</string>
+    <string name="main_syncing">กำลังจัดระเบียบข้อความ...</string>
+    <string name="main_sender_you">คุณ: %s</string>
+    <string name="main_draft">ร่าง: %s</string>
+    <string name="main_message_results_title">ผลลัพธ์ในข้อความ</string>
+    <string name="main_message_results">%d ข้อความ</string>
+    <string name="inbox_empty_text">การสนทนาของคุณจะปรากฏที่นี่</string>
+    <string name="inbox_search_empty_text">ไม่มีผลลัพธ์</string>
+    <string name="archived_empty_text">ยังไม่มีการสนทนาที่ถูกเก็บถาวร..</string>
+    <string name="main_fab_cd">เริ่มการสนทนาใหม่</string>
+    <string name="main_default_sms_title">ชอบส่งข้อความไหม?</string>
+    <string name="main_default_sms_message">ทำให้แอป SMS เป็นแอป SMS เริ่มต้น</string>
+    <string name="main_default_sms_change">เปลี่ยน</string>
+    <string name="main_permission_required">ต้องได้รับอนุญาต</string>
+    <string name="main_permission_sms">SMS ต้องได้รับอนุญาตให้ส่งและดูข้อความ SMS</string>
+    <string name="main_permission_contacts">SMS ต้องได้รับอนุญาตเพื่อดูรายชื่อติดต่อของคุณ</string>
+    <string name="main_permission_allow">อนุญาต</string>
+    <string name="main_permission_allow_read">อนุญาตให้อ่านและเขียนสิทธิ์</string>
+    <string name="drawer_inbox">กล่องจดหมาย</string>
+    <string name="drawer_archived">เก็บถาวรแล้ว</string>
+    <string name="drawer_scheduled">ข้อความที่กำหนดเวลาไว้</string>
+    <string name="drawer_blocking">รายการที่ถูกบล็อก</string>
+    <string name="drawer_calldorado">การตั้งค่าผู้โทร</string>
+    <string name="drawer_more">เพิ่มเติม</string>
+    <string name="drawer_group">ข้อความกลุ่ม</string>
+    <string name="drawer_settings">การตั้งค่า</string>
+    <string name="drawer_remove_ads">ลบโฆษณา</string>
+    <string name="drawer_help">ช่วยเหลือ &amp; ข้อเสนอแนะ</string>
+    <string name="drawer_invite">เชิญเพื่อน</string>
+    <string name="dialog_delete_title">ลบ</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">คุณแน่ใจหรือไม่ว่าต้องการลบการสนทนานี้</item>
+        <item quantity="other">คุณแน่ใจหรือไม่ว่าต้องการลบ %d การสนทนา</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>คัดลอกข้อความ</item>
+        <item>ส่งต่อ</item>
+        <item>ลบ</item>
+    </string-array>
+    <string name="compose_number_picker_title">เลือกหมายเลขโทรศัพท์</string>
+    <string name="compose_number_picker_default">%s ∙ ค่าเริ่มต้น</string>
+    <string name="compose_number_picker_once">เพียงครั้งเดียว</string>
+    <string name="compose_number_picker_always">เสมอ</string>
+    <string name="compose_title_selected">%d เลือกแล้ว</string>
+    <string name="compose_subtitle_results">%1$d จาก %2$d ผลลัพธ์</string>
+    <string name="contact_selected">%1$d จาก %2$d เลือกแล้ว</string>
+    <string name="compose_send_group_title">ส่งเป็นข้อความกลุ่ม</string>
+    <string name="compose_send_group_summary">ผู้รับและการตอบกลับจะปรากฏแก่ทุกคน</string>
+    <string name="compose_messages_empty"> เริ่มต้นการสนทนาของคุณ พูดอะไรบางอย่างที่ยอดเยี่ยม!</string>
+    <string name="compose_vcard_label">บัตรข้อมูลติดต่อ</string>
+    <string name="compose_scheduled_for">กำหนดเวลาไว้สำหรับ</string>
+    <string name="compose_scheduled_future"> เวลาควรเป็นเวลาในอนาคต!</string>
+    <string name="compose_scheduled_toast">เพิ่มในข้อความที่กำหนดเวลาไว้</string>
+    <string name="compose_hint">เขียนที่นี่...</string>
+    <string name="compose_menu_copy">คัดลอกข้อความ</string>
+    <string name="compose_menu_forward">ส่งต่อ</string>
+    <string name="compose_menu_delete">ลบ</string>
+    <string name="compose_menu_previous">ก่อนหน้า</string>
+    <string name="compose_menu_next">ถัดไป</string>
+    <string name="compose_menu_clear">ล้าง</string>
+    <string name="compose_details_title">รายละเอียดข้อความ</string>
+    <string name="compose_details_type">ประเภท: %s</string>
+    <string name="compose_details_from">จาก: %s</string>
+    <string name="compose_details_to">ถึง: %s</string>
+    <string name="compose_details_subject">หัวเรื่อง: %s</string>
+    <string name="compose_details_priority">ลำดับความสำคัญ: %s</string>
+    <string name="compose_details_size">ขนาด: %s</string>
+    <string name="compose_details_sent">ส่งแล้ว: %s</string>
+    <string name="compose_details_received">ได้รับแล้ว: %s</string>
+    <string name="compose_details_delivered">ส่งแล้ว: %s</string>
+    <string name="compose_details_error_code">รหัสข้อผิดพลาด: %d</string>
+    <string name="compose_attach_cd">เพิ่มไฟล์แนบ</string>
+    <string name="compose_gallery_cd">แนบรูปถ่าย</string>
+    <string name="compose_camera_cd">ถ่ายรูป</string>
+    <string name="compose_schedule_cd">กำหนดเวลาข้อความ</string>
+    <string name="compose_contact_cd">แนบผู้ติดต่อ</string>
+    <string name="compose_contact_error">เกิดข้อผิดพลาดในการอ่านข้อมูลติดต่อ</string>
+    <string name="compose_sim_cd">เลือก %s แล้ว เปลี่ยนซิมการ์ด</string>
+    <string name="compose_send_cd">ส่งข้อความ</string>
+    <string name="message_status_sending">กำลังส่ง...</string>
+    <string name="message_status_delivered">ส่งแล้ว %s</string>
+    <string name="message_status_failed">ไม่สามารถส่งได้</string>
+    <string name="info_title">รายละเอียดการติดต่อ</string>
+    <string name="info_copied_address">คัดลอกที่อยู่แล้ว</string>
+    <string name="info_name">ชื่อการสนทนา</string>
+    <string name="info_notifications">การแจ้งเตือน</string>
+    <string name="info_theme">ธีม</string>
+    <string name="info_archive">เก็บถาวร</string>
+    <string name="info_unarchive">ยกเลิกการเก็บถาวร</string>
+    <string name="info_block">บล็อก</string>
+    <string name="info_unblock">เลิกบล็อก</string>
+    <string name="info_delete">ลบการสนทนา</string>
+    <string name="gallery_error">ไม่สามารถโหลดสื่อได้</string>
+    <string name="gallery_toast_saved">บันทึกลงในแกลเลอรีแล้ว</string>
+    <string name="backup_title">สำรองและกู้คืน</string>
+    <string name="backup_backing_up">กำลังสำรองข้อความ</string>
+    <string name="backup_restoring">กำลังกู้คืนจากข้อมูลสำรอง</string>
+    <string name="backup_last">การสำรองข้อมูลครั้งล่าสุด</string>
+    <string name="backup_loading">กำลังโหลด...</string>
+    <string name="backup_never">ไม่เคย</string>
+    <string name="backup_restore_title">คืนค่า</string>
+    <string name="backup_restore_summary">เลือกข้อมูลสำรอง</string>
+    <string name="backup_restore_error_plus">โปรดปลดล็อค SMS+ เพื่อใช้การสำรองและกู้คืน</string>
+    <string name="backup_restore_error_backup">กำลังสำรองข้อมูล…</string>
+    <string name="backup_restore_error_restore">กำลังดำเนินการกู้คืน...</string>
+    <string name="backup_restore_confirm_title">กู้คืนจากข้อมูลสำรอง</string>
+    <string name="backup_restore_confirm_message">คุณแน่ใจหรือไม่ว่าต้องการกู้คืนข้อความจากข้อมูลสำรองนี้</string>
+    <string name="backup_restore_stop_title">หยุดการคืนค่า</string>
+    <string name="backup_restore_stop_message">ข้อความที่ถูกกู้คืนแล้วจะยังคงอยู่ในอุปกรณ์ของคุณ</string>
+    <string name="backup_restore_dialog_title">สำรองข้อมูล</string>
+    <string name="backup_restore_dialog_summary">/ข้อความ SMS/ข้อมูลสำรอง</string>
+    <string name="backup_restore_dialog_empty">ไม่พบข้อมูลสำรอง</string>
+
+    <plurals name="backup_message_count">
+        <item quantity="zero">ไม่มีข้อความ</item>
+        <item quantity="one">%d ข้อความ</item>
+        <item quantity="other">%d ข้อความ</item>
+    </plurals>
+    <string name="backup_disclaimer">จนถึงขณะนี้ เรารองรับเฉพาะ SMS โดยการสำรองและกู้คืนเท่านั้น!</string>
+    <string name="backup_now">สำรองข้อมูล</string>
+    <string name="backup_progress_parsing">กำลังแยกวิเคราะห์ข้อมูลสำรอง…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d ข้อความ</string>
+    <string name="backup_progress_saving">กำลังบันทึกข้อมูลสำรอง…</string>
+    <string name="backup_progress_syncing">กำลังซิงค์ข้อความ...</string>
+    <string name="backup_progress_finished">เสร็จสิ้นแล้ว!</string>
+    <string name="backup_notification_channel_name">สำรองและกู้คืน</string>
+    <string name="Message_notification_channel_name">ซิงค์ข้อความ</string>
+    <string name="scheduled_title">กำหนดเวลาแล้ว</string>
+    <string name="schedule_guide">คุณสามารถกำหนดเวลาข้อความได้โดยคลิกที่ปุ่มแนบซึ่งมอบให้กับหน้าจอการสนทนาข้อความ</string>
+    <string name="scheduled_empty_description">ส่งข้อความอัตโนมัติในเวลาที่คุณต้องการ</string>
+    <string name="scheduled_empty_message_1">เฮ้! เมื่อถึงเวลาที่จะเฉลิมฉลองช่วงเวลานั้น?</string>
+    <string name="scheduled_empty_message_2">เป็นวันที่ 5 มีนาคม </string>
+    <string name="scheduled_empty_message_3">เฮ๊ย! ดูสิว่าฉันเป็นเพื่อนที่ดีขนาดไหน กำลังฉลองวันของคุณ</string>
+    <string name="scheduled_empty_message_3_timestamp">ส่งวันที่ 5 มีนาคม&#x200A;</string>
+    <string name="scheduled_compose_cd">กำหนดเวลาข้อความ</string>
+    <string name="scheduled_options_title">ข้อความที่กำหนดเวลาไว้</string>
+    <string-array name="scheduled_options">
+        <item>ส่งตอนนี้</item>
+        <item>คัดลอกข้อความ</item>
+        <item>ลบ</item>
+    </string-array>
+    <string name="settings_category_appearance">ลักษณะที่ปรากฏ</string>
+    <string name="settings_category_general">ทั่วไป</string>
+    <string name="settings_categoryreply">ตอบกลับ</string>
+    <string name="settings_night_title">โหมดกลางคืน</string>
+    <string name="settings_text_size_title">ขนาดตัวอักษร</string>
+    <string name="settings_notifications_title">การแจ้งเตือน</string>
+    <string name="settings_notifications_o_summary">แตะเพื่อปรับแต่ง</string>
+    <string name="settings_notification_actions_title">การกระทำ</string>
+    <string name="settings_notification_action_1">ปุ่ม 1</string>
+    <string name="settings_notification_action_2">ปุ่ม 2</string>
+    <string name="settings_notification_action_3">ปุ่ม 3</string>
+    <string name="settings_notification_previews_title">ตัวอย่างการแจ้งเตือน</string>
+    <string name="settings_notification_wake_title">ปลุกหน้าจอ</string>
+    <string name="settings_vibration_title">การสั่นสะเทือน</string>
+    <string name="settings_ringtone_title">เสียง</string>
+    <string name="settings_ringtone_none">ไม่มี</string>
+    <string name="settings_reply_title">ตอบกลับ</string>
+    <string name="settings_reply_summary">ป๊อปอัปสำหรับข้อความใหม่</string>
+    <string name="settings_reply_tap_dismiss_title">แตะเพื่อยกเลิก</string>
+    <string name="settings_reply_tap_dismiss_summary">แตะที่ด้านนอกของป๊อปอัปเพื่อปิด</string>
+    <string name="settings_swipe_actions">การปัดนิ้ว</string>
+    <string name="settings_swipe_actions_right">ปัดไปทางขวา</string>
+    <string name="settings_swipe_actions_left">ปัดไปทางซ้าย</string>
+    <string name="settings_swipe_actions_change">เปลี่ยน</string>
+    <string name="not_now_txt">ไม่ใช่ตอนนี้</string>
+    <string name="process_title">กระบวนการนี้ \nใช้เวลาพอสมควร</string>
+    <string name="syncing_done">การซิงค์ข้อความเสร็จสิ้น....</string>
+    <string name="all_set_txt">เรียบร้อยแล้ว คุณพร้อมที่จะไปแล้ว</string>
+    <string name="Personal">ข้อความทั้งหมด</string>
+    <string name="Other">รู้จัก </string>
+    <string name="Spam">สแปม</string>
+    <string name="setting">การตั้งค่า</string>
+    <string name="Share">แชร์</string>
+    <string name="Rate">ให้คะแนนเรา</string>
+    <string name="edit">แก้ไข</string>
+    <string name="DarkMode">โหมดมืด</string>
+    <string name="BrightMode">โหมดสว่าง</string>
+    <string name="Camera">กล้อง</string>
+    <string name="Gallery">แกลเลอรี</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">ติดต่อ</string>
+    <string name="Schedule">กำหนดการ</string>
+    <string name="Location">ตำแหน่ง</string>
+    <string name="Notes">บันทึกย่อ</string>
+    <string name="no_msg">ยังไม่มีข้อความ…</string>
+    <string name="Start_Chat">เริ่มแชท</string>
+    <string name="Language">ภาษา</string>
+    <string name="rate_text">แนะนำเราแก่ผู้อื่นโดย \nให้คะแนนเราบน Play Store!</string>
+    <string name="sort_by">จัดเรียงตาม</string>
+    <string-array name="settings_swipe_actions">
+        <item>ไม่มี</item>
+        <item>เก็บถาวร</item>
+        <item>ลบ</item>
+        <item>โทร</item>
+        <item>ทำเครื่องหมายว่าอ่านแล้ว</item>
+        <item>ทำเครื่องหมายว่ายังไม่ได้อ่าน</item>
+    </string-array>
+    <string name="settings_mms_size_title">บีบอัดไฟล์แนบ MMS อัตโนมัติ</string>
+    <string name="settings_sync_title">ซิงค์ข้อความ</string>
+    <string name="settings_sync_summary">ซิงค์ข้อความของคุณกับฐานข้อมูล Android SMS ดั้งเดิมอีกครั้ง</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">การควบคุมการโทร</string>
+    <string name="blocking_manager_sia_title">ฉันควรตอบหรือไม่</string>
+    <string name="blocked_messages_title">ข้อความที่ถูกบล็อก</string>
+    <string name="blocked_messages_empty">ข้อความที่ถูกบล็อกของคุณจะปรากฏที่นี่</string>
+    <string name="blocking_block_title">บล็อก</string>
+    <string name="blocking_unblock_title">เลิกบล็อก</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">ไปต่อที่ %s และบล็อกหมายเลขนี้</item>
+        <item quantity="other">ดำเนินการต่อไปยัง %s และบล็อกหมายเลขเหล่านี้</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">ไปต่อที่ %s และอนุญาตหมายเลขนี้</item>
+        <item quantity="other">ดำเนินการต่อไปที่ %s และอนุญาตตัวเลขเหล่านี้</item>
+    </plurals>
+    <string name="widget_loading">กำลังโหลด...</string>
+    <string name="widget_more">ดูการสนทนาเพิ่มเติม</string>
+    <string name="qkreply_menu_read">ทำเครื่องหมายว่าอ่านแล้ว</string>
+    <string name="qkreply_menu_call">โทร</string>
+    <string name="qkreply_menu_delete">ลบ</string>
+    <string name="qkreply_menu_expand">แสดงเพิ่มเติม</string>
+    <string name="qkreply_menu_collapse">แสดงน้อยลง</string>
+    <string name="qkreply_menu_view">เปิดการสนทนา</string>
+    <string name="changelog_title">ใหม่ใน SMS</string>
+    <string name="changelog_version">เวอร์ชัน %s</string>
+    <string name="changelog_added">เพิ่มแล้ว</string>
+    <string name="changelog_improved">ปรับปรุงแล้ว</string>
+    <string name="changelog_fixed">แก้ไขแล้ว</string>
+    <string name="changelog_more">เพิ่มเติม</string>
+    <string name="changelog_dismiss">ยกเลิก</string>
+    <string-array name="notification_actions">
+        <item>ไม่มี</item>
+        <item>ทำเครื่องหมายว่าอ่านแล้ว</item>
+        <item>ตอบกลับ</item>
+        <item>โทร</item>
+        <item>ลบ</item>
+    </string-array>
+    <string name="button_yes">ใช่</string>
+    <string name="button_continue">ดำเนินการต่อ</string>
+    <string name="button_cancel">ยกเลิก</string>
+    <string name="button_delete">ลบ</string>
+    <string name="button_save">บันทึก</string>
+    <string name="button_stop">หยุด</string>
+    <string name="button_more">เพิ่มเติม</string>
+    <string name="button_set">ตั้งค่า</string>
+    <string name="button_undo">เลิกทำ</string>
+    <string name="toast_copied">คัดลอกแล้ว</string>
+    <string name="toast_archived">การสนทนาที่เก็บถาวร</string>
+    <string name="toast_sms_plus">คุณต้องปลดล็อค SMS+ เพื่อใช้งาน</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">ข้อความใหม่</item>
+        <item quantity="other">%s ข้อความใหม่</item>
+    </plurals>
+    <string name="notification_message_failed_title">ไม่ได้ส่งข้อความ</string>
+    <string name="notification_message_failed_text">ไม่สามารถส่งข้อความถึง %s ได้</string>
+    <string name="privacy_policy">นโยบายความเป็นส่วนตัว</string>
+    <string name="pocket_data_on">ต้องเปิดข้อมูลในกระเป๋าขณะส่ง MMS !</string>
+    <string name="inapp_details" translatable="false">หากต้องการลบโฆษณา ให้ลองใช้ \nการสมัครสมาชิกแบบพรีเมียมพร้อมรองรับโหมดมืด-ไลท์\nรองรับ Sms ตามกำหนดเวลา</string>
+    <string name="drawer_removeAds">ลบโฆษณา</string>
+    <string name="in_app_ads">messages_rad</string>
+    <string name="dialog_delete_message">คุณแน่ใจหรือไม่ว่าต้องการลบข้อความนี้?</string>
+    <string name="compose_bar_not_support">ผู้ส่งไม่สนับสนุนการตอบกลับ</string>
+    <string name="default_name">หากต้องการส่งหรือรับ SMS คุณต้องตั้งค่าให้เป็นแอปพลิเคชันเริ่มต้น คุณต้องการให้ข้อความกลายเป็นแอปพลิเคชันเริ่มต้นของคุณหรือไม่</string>
+    <string name="confirm_delete">ยืนยันการลบ</string>
+    <string name="confirm_delete_text">คุณแน่ใจหรือไม่ว่าต้องการลบบันทึกนี้</string>
+    <string name="title">ชื่อเรื่อง</string>
+    <string name="note">หมายเหตุ</string>
+    <string name="search">ค้นหา</string>
+    <string name="settings">การตั้งค่า</string>
+    <string name="share_to">แชร์ไปที่:</string>
+    <string name="sort">เรียงลำดับ</string>
+    <string name="empty_list_text">กดปุ่มที่มุมขวาล่างเพื่อเพิ่มบันทึกใหม่!</string>
+    <string name="new_note">บันทึกใหม่</string>
+    <string name="undo">เลิกทำ</string>
+    <string name="delete">ลบ</string>
+    <string name="exception">ข้อยกเว้น:</string>
+    <string name="edit_note">แก้ไขบันทึก</string>
+    <string name="drawer_feedback">ส่งคำติชม</string>
+    <string name="drawer_mode">โหมดแสง</string>
+    <string name="unlimited_access_user">เข้าถึงได้ไม่จำกัด \nคุณลักษณะทั้งหมด</string>
+    <string name="pro_user">คุณคือ \nผู้ใช้ระดับพรีเมียม</string>
+    <string name="sub_info_text"><b>การสมัครสมาชิกจะต่ออายุโดยอัตโนมัติจนกว่าคุณจะปิด</b></string>
+    <string name="cancel_purchase">คุณสามารถยกเลิกการต่ออายุการสมัครอัตโนมัติได้ในการสมัครสมาชิกบน Google Play</string>
+    <string name="remove_ads">ลบโฆษณา</string>
+    <string name="no_ads">ไม่มีโฆษณา</string>
+    <string name="free_trial">ทดลองใช้ฟรี 7 วัน จากนั้นต่ออายุอัตโนมัติ</string>
+    <string name="can_not_talk_right_now">ขออภัย ฉันไม่สามารถพูดคุยได้ในขณะนี้</string>
+    <string name="can_call_you_later">ฉันสามารถโทรหาคุณทีหลังได้ไหม?</string>
+    <string name="i_am_on_my_way">ฉันกำลังไป</string>
+    <string name="write_personal_message">เขียนข้อความส่วนตัว</string>
+    <string name="create_reminder">สร้างการแจ้งเตือนใหม่</string>
+    <string name="remind_me_about">เตือนฉันเกี่ยวกับ</string>
+    <string name="no_title">ไม่มีชื่อเรื่อง</string>
+    <string name="edit_contact">แก้ไขผู้ติดต่อ</string>
+    <string name="add_contact">เพิ่มผู้ติดต่อ</string>
+    <string name="messages">ข้อความ</string>
+    <string name="send_mail">ส่งจดหมาย</string>
+    <string name="calendar">ปฏิทิน</string>
+    <string name="web">เว็บ</string>
+    <string-array name="night_modes">
+        <item>ระบบ</item>
+        <item>โหมดสว่าง</item>
+        <item>โหมดมืด</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>แสดงชื่อและข้อความ</item>
+        <item>แสดงชื่อ</item>
+        <item>ซ่อนเนื้อหา</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>เล็ก</item>
+        <item>ปกติ</item>
+        <item>ใหญ่</item>
+        <item>ใหญ่ขึ้น</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>ไม่มีความล่าช้า</item>
+        <item>สั้น</item>
+        <item>ปานกลาง</item>
+        <item>ยาว</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>อัตโนมัติ</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>ไม่มีการบีบอัด</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>เอาล่ะ</item>
+        <item>ให้เวลาฉันสักครู่</item>
+        <item>กำลังไป</item>
+        <item>ขอบคุณ</item>
+        <item>ฟังดูดี</item>
+        <item>เป็นไงบ้าง?</item>
+        <item>ตกลง</item>
+        <item>ไม่</item>
+        <item>รักคุณ</item>
+        <item>ขออภัย</item>
+        <item>ฮ่าๆ</item>
+        <item>ไม่เป็นไร</item>
+    </string-array>
+    <string name="default_title">อนุญาตให้แอป Sms เป็นแอปเริ่มต้น</string>
+    <string name="set_as_defaault">ตั้งเป็นค่าเริ่มต้น</string>
+    <string name="love_app_title">ทำให้แอป SMS เป็นค่าเริ่มต้นของคุณ
+  แอป SMS</string>
+    <string-array name="gif">
+        <item>หน้าสัตว์</item>
+        <item>อีโมจิ</item>
+        <item>ผลไม้ &amp; ผัก</item>
+        <item>วันฮาโลวีน</item>
+        <item>ความรัก</item>
+    </string-array>
+    <string name="Sticker">สติ๊กเกอร์</string>
+    <string name="no_connection">ไม่มีการเชื่อมต่ออินเทอร์เน็ต</string>
+    <string-array name="sticker">
+        <item>เด็กชาย</item>
+        <item>การ์ตูน</item>
+        <item>ใบหน้า</item>
+        <item>เทศกาล</item>
+        <item>ผลไม้</item>
+        <item>สนุก</item>
+        <item>เด็กผู้หญิง</item>
+        <item>สติ๊กเกอร์ความรัก</item>
+        <item>อื่นๆ</item>
+        <item>ลูกสุนัข</item>
+    </string-array>
+    <string name="open_link_to_browser">เปิดลิงก์ไปยังเบราว์เซอร์</string>
+    <string name="battery_dialog"> ไม่อยากพลาด SMS สำคัญใช่ไหม? \n
+     ปิดการเพิ่มประสิทธิภาพแบตเตอรี่</string>
+    <string name="reason_to_change_battery_optimization_setting">นำทางไปยังข้อมูลแอป &gt; ขั้นสูง &gt; การเพิ่มประสิทธิภาพแบตเตอรี่ \nและเลือก \'ไม่เพิ่มประสิทธิภาพ\'</string>
+    <string name="feedback_txt">บอกเราเกี่ยวกับประสบการณ์ของคุณและให้คำแนะนำในการปรับปรุงแอป Message </string>
+    <string name="reason_to_change_battery"> ขั้นสูง &gt; การเพิ่มประสิทธิภาพแบตเตอรี่ &gt; \'อย่าเพิ่มประสิทธิภาพ\'</string>
+    <string name="drawer_transaction">ธุรกรรม</string>
+    <string name="drawer_promotion">โปรโมชั่น</string>
+    <string name="unknown">ไม่ทราบ </string>
+    <string name="priva"><u>นโยบายความเป็นส่วนตัว</u></string>
+    <string name="smsfilter">ตัวกรอง SMS</string>
+    <string name="by_click_t_c" translatable="false"><u>การคลิกแสดงว่าคุณยอมรับข้อกำหนดและเงื่อนไขของเรา</u></string>
+    <string name="continue_without_sub"><u>ดำเนินการต่อโดยไม่ต้องสมัครสมาชิก</u></string>
+    <string name="text_free_trial">เพลิดเพลินกับ X วัน <b>ทดลองใช้ฟรี</b> - จากนั้น X € / เดือน</string>
+    <string name="calldorado_message">ตรวจสอบ<b>ข้อความ</b>ทั้งหมดของคุณก่อนวางสาย! มีข่าว</string>
+    <string name="privacy_terms_description">เมื่อดำเนินการต่อ แสดงว่าคุณยอมรับและอนุมัติข้อกำหนดการใช้งานและนโยบายความเป็นส่วนตัว</string>
+    <string name="draw_over_description"><![CDATA[เพื่อแสดงข้อความ SMS ของเราที่ด้านบนของแอปอื่นๆ รับวิดเจ็ตการโทร SMS ทั้งหมดที่เป็นไปได้และอีกมากมาย]]></string>
+    <string name="ad_label">โฆษณา</string>
+    <string name="onboarding_continue_button">ดำเนินการต่อ</string>
+    <string name="onboarding_step_1_title">SMS &amp; ผู้จัดการ Messenger</string>
+    <string name="onboarding_step_1_subtitle">แชทกับเพื่อน สร้างกลุ่ม และจัดระเบียบกล่องจดหมายของคุณ</string>
+    <string name="onboarding_step_1_hight_light">แนวทางที่ไม่ซ้ำใครสำหรับคุณ</string>
+    <string name="onboarding_step_2_title">จัดระเบียบ &amp; เก็บข้อความ</string>
+    <string name="onboarding_step_2_subtitle">สำรองข้อมูล &amp; เรียกคืนข้อความของคุณ</string>
+    <string name="onboarding_step_2_hight_light">ผู้ใช้หลายพันคนชอบมัน</string>
+    <string name="onboarding_step_3_title">สนุกกับชีวิต &amp; ให้เราดูแลกล่องจดหมาย</string>
+    <string name="onboarding_step_3_subtitle">ยอมรับการอนุญาตเพื่อให้เราช่วยคุณจัดการกล่องจดหมายของคุณ</string>
+    <string name="onboarding_step_3_hight_light">อาจจะภายหลัง</string>
+    <string name="onboarding_allow_access_button">อนุญาตการเข้าถึง</string>
+    <string name="onboarding_step_4_title">ปรับปรุงแบตเตอรี่ของคุณโดยปล่อยให้เราจัดการเอง</string>
+    <string name="onboarding_step_4_subtitle">เราจะจัดการกับการรบกวนทาง SMS ที่น่ารำคาญ</string>
+    <string name="onboarding_step_4_hight_light">ผู้ใช้หลายพันคนชอบมัน</string>
+    <string name="onboarding_step_5_title">การทำงานแบบแยกหน้าจอบนแอปอื่นขณะสนทนา</string>
+    <string name="onboarding_step_5_subtitle">เพลิดเพลินกับวิดเจ็ตการโทรที่น่าทึ่งของเราที่ให้คุณทำงานหลายอย่างพร้อมกันได้</string>
+    <string name="onboarding_step_5_hight_light">ผู้ใช้หลายพันคนชอบมัน</string>
+    <string name="payment_card_title">แชท เลย!</string>
+    <string name="payment_card_price"><![CDATA[ฟรี 3 วัน, %s / %s]]></string>
+    <string name="payment_card_button">ลองตอนนี้ฟรี</string>
+    <string name="payment_card_hight_light">ปลอดภัยด้วย Play Store</string>
+    <string name="payment_card_weekly">รายสัปดาห์</string>
+    <string name="payment_card_monthly">รายเดือน</string>
+    <string name="payment_card_yearly">รายปี</string>
+    <string name="payment_card_auto_renew">สมัครสมาชิกต่ออายุอัตโนมัติ ยกเลิกได้ตลอดเวลา</string>
+    <string name="accessibility_service_description">คำอธิบายบริการการเข้าถึงของคุณ</string>
+    <string name="permission_txt"><font color="#FF8A00">ต้องได้รับอนุญาต:</font>\nอ่านสถานะโทรศัพท์ &amp; วาดทับแอปอื่นๆ</string>
+    <string name="opt_privacy">การดำเนินการต่อแสดงว่าคุณยอมรับและอนุมัติข้อกำหนดการใช้งานและนโยบายความเป็นส่วนตัว</string>
+    <string name="permission_required">สิทธิ์ที่จำเป็น</string>
+    <string name="permission_dialog_body">แอปนี้อาจทำงานไม่ถูกต้องหากไม่ได้รับอนุญาตจากโทรศัพท์ ทำตามคำแนะนำด้านล่างเพื่อเปิดใช้งาน:\n\n1. เลือก "สิทธิ์"\n2. ค้นหา "โทรศัพท์" ในรายการสิทธิ์แล้วแตะเพื่อเปิดใช้งาน</string>
+    <string name="go_premium">ไป <font color = "#FFE600">พรีเมียม!</font></string>
+    <string name="unlock_everything">ปลดล็อคทุกอย่าง &amp; ไม่มีโฆษณา</string>
+    <string name="start_three_day">เริ่มทดลองใช้ฟรี 3 วัน</string>
+    <string name="pro">โปร</string>
+    <string name="more_option">ตัวเลือกเพิ่มเติม</string>
+    <string name="rate_us_5">ให้คะแนนเรา 5 ดาว</string>
+    <string name="help_feedback">ช่วยเหลือ &amp; คำติชม</string>
+    <string name="send_message">ส่งข้อความ</string>
+    <string name="CTA_Button_Text">แตะเพื่อปลดล็อก <font color="#FFFBCD04">คุณสมบัติทั้งหมด</font></string>
+</resources>

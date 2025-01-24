@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/root_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/bg_conversation_left"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_input_conv_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="40dp"
+            android:gravity="start"
+            android:maxWidth="250dp"
+            android:text="hello"
+            android:textColor="#2b95cb"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view_line"
+            android:layout_width="0dp"
+            android:layout_height="0.9dp"
+            android:layout_marginTop="12dp"
+            android:background="#cecece"
+            app:layout_constraintEnd_toEndOf="@+id/tv_out_conv_left"
+            app:layout_constraintStart_toStartOf="@+id/tv_out_conv_left"
+            app:layout_constraintTop_toBottomOf="@+id/tv_input_conv_left" />
+
+        <TextView
+            android:id="@+id/tv_out_conv_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="40dp"
+            android:maxWidth="250dp"
+            android:text="Hello Hello how are you doing Hello how are you doing Hello how are you doing"
+            android:textColor="#1d608d"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_line" />
+
+        <ImageView
+            android:id="@+id/iv_speaker_left_conv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="12dp"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_out_conv_left"
+            app:layout_constraintTop_toBottomOf="@+id/tv_out_conv_left"
+            app:srcCompat="@drawable/ic_volume" />
+
+        <ImageView
+            android:id="@+id/iv_copy_left_conv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_out_conv_left"
+            android:padding="14dp"
+            app:srcCompat="@drawable/ic_copy_conversation"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_speaker_left_conv"
+            app:layout_constraintEnd_toStartOf="@+id/iv_speaker_left_conv"
+            app:layout_constraintTop_toTopOf="@+id/iv_speaker_left_conv"
+
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>

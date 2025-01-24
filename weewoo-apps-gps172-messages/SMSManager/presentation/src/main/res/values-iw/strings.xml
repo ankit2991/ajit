@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sugest_update_title">עדכון זמין</string>
+    <string name="sugest_update_message">עדכון חדש זמין ב-Google Play, אנא עדכן את הגרסה שלך</string>
+    <string name="force_update_title">עדכון זמין</string>
+    <string name="force_update_message">עדכון חדש זמין ב-Google Play, אנא עדכן את הגרסה שלך</string>
+    <string name="update_ok">עדכן</string>
+    <string name="update_no">לא כעת</string>
+    <string name="app_name">#הודעות</string>
+    <string name="in_app_name">הודעות</string>
+    <string name="splash_app_name">הודעות SMS</string>
+    <string name="loading_msg">אנא המתן...</string>
+    <string name="ads_loading_msg">הפרסומת מוצגת...</string>
+    <string name="shortcut_compose_long_label">שיחה חדשה</string>
+    <string name="shortcut_compose_short_label">לחבר</string>
+    <string name="shortcut_compose_disabled_message">קיצור דרך מושבת</string>
+    <string name="title_archived">הודעות שמורות</string>
+    <string name="title_settings">הגדרות</string>
+    <string name="title_notification_prefs">התראות</string>
+    <string name="title_theme">ערכת נושא</string>
+    <string name="title_conversations">חפש מספרים, שמות ועוד</string>
+    <string name="title_compose">הקלד שם או מספר טלפון</string>
+    <string name="setup_skip">דלג</string>
+    <string name="setup_next">המשך</string>
+    <string name="menu_add_person">הוסף אדם</string>
+    <string name="menu_call">התקשר</string>
+    <string name="menu_info">פרטים</string>
+    <string name="menu_save">שמור בגלריה</string>
+    <string name="menu_share">שתף</string>
+    <string name="main_drawer_open_cd">פתח את תפריט הניווט</string>
+    <string name="main_title_selected">%d נבחרו</string>
+    <string name="main_menu_clear">נקה</string>
+    <string name="main_menu_archive">שמור בארכיון</string>
+    <string name="main_menu_unarchive">הוצא מהארכיון</string>
+    <string name="main_menu_delete">מחק</string>
+    <string name="main_menu_add_contact">הוסף לאנשי קשר</string>
+    <string name="main_menu_pin">הצמד לראש</string>
+    <string name="main_menu_unpin">הסר הצמדה</string>
+    <string name="main_menu_read">סמן כנקרא</string>
+    <string name="main_menu_unread">סמן כלא נקרא</string>
+    <string name="select_all">בחר הכל</string>
+    <string name="deselect_all">בטל בחירה בהכל</string>
+    <string name="main_menu_block">חסום</string>
+    <string name="main_syncing">מארגן הודעות...</string>
+    <string name="main_sender_you">אתה: %s</string>
+    <string name="main_draft">טיוטה: %s</string>
+    <string name="main_message_results_title">תוצאות בהודעות</string>
+    <string name="main_message_results">%d הודעות</string>
+    <string name="inbox_empty_text">השיחות שלך יופיעו כאן</string>
+    <string name="inbox_search_empty_text">אין תוצאות</string>
+    <string name="archived_empty_text">אין עדיין שיחות מאורכות..</string>
+    <string name="main_fab_cd">התחל שיחה חדשה</string>
+    <string name="main_default_sms_title">אוהב לשוחח?</string>
+    <string name="main_default_sms_message">הגדר את אפליקציית ה-SMS שלך כאפליקציה ברירת המחדל ל-SMS</string>
+    <string name="main_default_sms_change">שנה</string>
+    <string name="main_permission_required">נדרשת הרשאה</string>
+    <string name="main_permission_sms">ה- SMS דורשת הרשאה לשליחה ולקריאת הודעות SMS</string>
+    <string name="main_permission_contacts">ה- SMS דורשת הרשאה לצפייה באנשי הקשר שלך</string>
+    <string name="main_permission_allow">אפשר</string>
+    <string name="main_permission_allow_read">אפשר קריאה וכתיבה</string>
+    <string name="drawer_inbox">תיבת הדואר הנכנס</string>
+    <string name="drawer_archived">הודעות מאורכות</string>
+    <string name="drawer_scheduled">הודעה מתוזמנת</string>
+    <string name="drawer_blocking">רשימת חסימות</string>
+    <string name="drawer_calldorado">הגדרות התקשרות</string>
+    <string name="drawer_more">יותר</string>
+    <string name="drawer_group">שלח הודעת קבוצה</string>
+    <string name="drawer_settings">הגדרות</string>
+    <string name="drawer_remove_ads">הסר פרסומות</string>
+    <string name="drawer_help">עזרה ומשוב</string>
+    <string name="drawer_invite">הזמן חברים</string>
+    <string name="dialog_delete_title">מחק</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">האם אתה בטוח שברצונך למחוק שיחה זו?</item>
+        <item quantity="other">האם אתה בטוח שברצונך למחוק %d שיחות?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>העתק טקסט</item>
+        <item>העברה הלאה</item>
+        <item>מחיקה</item>
+    </string-array>
+    <string name="compose_number_picker_title">בחר מספר טלפון</string>
+    <string name="compose_number_picker_default">%s ∙ ברירת מחדל</string>
+    <string name="compose_number_picker_once">פעם אחת בלבד</string>
+    <string name="compose_number_picker_always">תמיד</string>
+    <string name="compose_title_selected">%d נבחרו</string>
+    <string name="compose_subtitle_results">%1$d מתוך %2$d תוצאות</string>
+    <string name="contact_selected">%1$d מתוך %2$d נבחרו</string>
+    <string name="compose_messages_empty">תחילת השיחה שלך. אמור משהו מדהים!</string>
+    <string name="compose_vcard_label">כרטיס איש קשר</string>
+    <string name="compose_scheduled_for">תוכנן ל</string>
+    <string name="compose_scheduled_future">הזמן צריך להיות בעתיד!</string>
+    <string name="compose_scheduled_toast">נוסף להודעות מתוזמנות</string>
+    <string name="compose_hint">כתוב כאן…</string>
+    <string name="compose_menu_copy">העתק טקסט</string>
+    <string name="compose_menu_forward">העברה הלאה</string>
+    <string name="compose_menu_delete">מחיקה</string>
+    <string name="compose_menu_previous">הקודם</string>
+    <string name="compose_menu_next">הבא</string>
+    <string name="compose_menu_clear">נקה</string>
+    <string name="compose_details_title">פרטי הודעה</string>
+    <string name="compose_details_type">סוג: %s</string>
+    <string name="compose_details_from">מאת: %s</string>
+    <string name="compose_details_to">ל: %s</string>
+    <string name="compose_details_subject">נושא: %s</string>
+    <string name="compose_details_priority">עדיפות: %s</string>
+    <string name="compose_details_size">גודל: %s</string>
+    <string name="compose_details_sent">נשלח: %s</string>
+    <string name="compose_details_received">התקבל: %s</string>
+    <string name="compose_details_delivered">נמסר: %s</string>
+    <string name="compose_details_error_code">קוד שגיאה: %d</string>
+    <string name="compose_attach_cd">הוסף קובץ</string>
+    <string name="compose_gallery_cd">צרף תמונה</string>
+    <string name="compose_camera_cd">צלם תמונה</string>
+    <string name="compose_schedule_cd">הודעת תזמון</string>
+    <string name="compose_contact_cd">צרף איש קשר</string>
+    <string name="compose_contact_error">שגיאה בקריאת איש הקשר</string>
+    <string name="compose_sim_cd">%s נבחר, שנה כרטיס SIM</string>
+    <string name="compose_send_cd">שלח הודעה</string>
+    <string name="message_status_sending">שולח…</string>
+    <string name="message_status_delivered">נשלח %s</string>
+    <string name="message_status_failed">נכשל בשליחה</string>
+    <string name="info_title">פרטי איש קשר</string>
+    <string name="info_copied_address">כתובת הועתקה</string>
+    <string name="info_name">כותרת השיחה</string>
+    <string name="info_notifications">התראות</string>
+    <string name="info_theme">ערכת נושא</string>
+    <string name="info_archive">ארכיון</string>
+    <string name="info_unarchive">הוצא מארכיון</string>
+    <string name="info_block">חסימה</string>
+    <string name="info_unblock">ביטול חסימה</string>
+    <string name="info_delete">מחיקת השיחה</string>
+    <string name="gallery_error">לא ניתן לטעון מדיה</string>
+    <string name="gallery_toast_saved">נשמר לגלריה</string>
+    <string name="backup_title">גיבוי ושחזור</string>
+    <string name="backup_backing_up">מגבה הודעות</string>
+    <string name="backup_restoring">משחזר מגיבוי</string>
+    <string name="backup_last">הגיבוי האחרון</string>
+    <string name="backup_loading">טוען…</string>
+    <string name="backup_never">אף פעם</string>
+    <string name="backup_restore_title">שחזור</string>
+    <string name="backup_restore_summary">בחר גיבוי</string>
+    <string name="backup_restore_error_plus">אנא הפעל את SMS+ כדי להשתמש בגיבוי ושחזור</string>
+    <string name="backup_restore_error_backup">גיבוי בתהליך…</string>
+    <string name="backup_restore_error_restore">שחזור בתהליך…</string>
+    <string name="backup_restore_confirm_title">שחזור מגיבוי</string>
+    <string name="backup_restore_confirm_message">האם אתה בטוח שברצונך לשחזר את ההודעות שלך מגיבוי זה?</string>
+    <string name="backup_restore_stop_title">עצור שחזור</string>
+    <string name="backup_restore_stop_message">הודעות שכבר שוחזרו יישארו במכשיר שלך</string>
+    <string name="backup_restore_dialog_title">גיבויים</string>
+    <string name="backup_restore_dialog_summary">/הודעות SMS/גיבויים</string>
+    <string name="backup_restore_dialog_empty">לא נמצאו גיבויים</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">אין הודעות</item>
+        <item quantity="one">%d הודעה</item>
+        <item quantity="other">%d הודעות</item>
+    </plurals>
+    <string name="backup_disclaimer">עד כה, אנו תומכים רק בגיבוי ושחזור של הודעות SMS!</string>
+    <string name="backup_now">גיבוי</string>
+    <string name="backup_progress_parsing">מנתח את הגיבוי…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d הודעות</string>
+    <string name="backup_progress_saving">שומר את הגיבוי…</string>
+    <string name="backup_progress_syncing">סונכרן הודעות…</string>
+    <string name="backup_progress_finished">סיים!</string>
+    <string name="backup_notification_channel_name">גיבוי ושחזור</string>
+    <string name="Message_notification_channel_name">סנכרון הודעות</string>
+    <string name="scheduled_title">מתוזמן</string>
+    <string name="schedule_guide">ניתן לקבוע הודעה מתוזמנת על ידי לחיצה על כפתור הצרף שניתן במסך שיחת ההודעות.</string>
+    <string name="scheduled_empty_description">שלח אוטומטית הודעה, בדיוק ברגע שבו אתה רוצה</string>
+    <string name="scheduled_empty_message_1">היי! מתי הזמן לחגוג?</string>
+    <string name="scheduled_empty_message_2">זה ב-5 במרץ</string>
+    <string name="scheduled_empty_message_3">הייי! ראה מה חבר מעולה אני, חוגג איתך</string>
+    <string name="scheduled_empty_message_3_timestamp">שולח ב-5 במרץ</string>
+    <string name="scheduled_compose_cd">קבע הודעה מתוזמנת</string>
+    <string name="scheduled_options_title">הודעה מתוזמנת</string>
+    <string-array name="scheduled_options">
+        <item>שלח עכשיו</item>
+        <item>העתק טקסט</item>
+        <item>מחיקה</item>
+    </string-array>
+    <string name="settings_category_appearance">מראה</string>
+    <string name="settings_category_general">כללי</string>
+    <string name="settings_categoryreply">תגובה</string>
+    <string name="settings_night_title">מצב לילה</string>
+    <string name="settings_text_size_title">גודל פונט</string>
+    <string name="settings_notifications_title">התראות</string>
+    <string name="settings_notifications_o_summary">לחץ להתאמה אישית</string>
+    <string name="settings_notification_actions_title">פעולות</string>
+    <string name="settings_notification_action_1">כפתור 1</string>
+    <string name="settings_notification_action_2">כפתור 2</string>
+    <string name="settings_notification_action_3">כפתור 3</string>
+    <string name="settings_notification_previews_title">תצוגת התראות</string>
+    <string name="settings_notification_wake_title">העיר את המסך</string>
+    <string name="settings_vibration_title">רטט</string>
+    <string name="settings_ringtone_title">צליל</string>
+    <string name="settings_ringtone_none">ללא</string>
+    <string name="settings_reply_title">תגובה</string>
+    <string name="settings_reply_summary">חלון קופץ להודעות חדשות</string>
+    <string name="settings_reply_tap_dismiss_title">לחץ כדי לסגור</string>
+    <string name="settings_reply_tap_dismiss_summary">לחץ מחוץ לתיבת הקופץ כדי לסגור אותה</string>
+    <string name="settings_swipe_actions">פעולות גרירה</string>
+    <string name="settings_swipe_actions_right">גרירה ימינה</string>
+    <string name="settings_swipe_actions_left">גרירה שמאלה</string>
+    <string name="settings_swipe_actions_change">שינוי</string>
+    <string name="not_now_txt">לא כעת</string>
+    <string name="process_title">התהליך הזה ייקח זמן</string>
+    <string name="syncing_done">סנכרון הודעות הושלם....</string>
+    <string name="all_set_txt">הכל מוכן. אתה מוכן להתחיל</string>
+    <string name="Personal">כל ההודעות</string>
+    <string name="Other">מוכר</string>
+    <string name="Spam">זבל</string>
+    <string name="setting">הגדרות</string>
+    <string name="Share">שיתוף</string>
+    <string name="Rate">דרג אותנו</string>
+    <string name="edit">עריכה</string>
+    <string name="DarkMode">מצב חשוך</string>
+    <string name="BrightMode">מצב בהיר</string>
+    <string name="Camera">מצלמה</string>
+    <string name="Gallery">גלריה</string>
+    <string name="Gif">GIF</string>
+    <string name="Contact">איש קשר</string>
+    <string name="Schedule">מתוזמן</string>
+    <string name="Location">מיקום</string>
+    <string name="Notes">הערות</string>
+    <string name="no_msg">עדיין אין הודעות…</string>
+    <string name="Start_Chat">התחל שיחה</string>
+    <string name="Language">שפה</string>
+    <string name="rate_text">המלץ עלינו לאחרים על ידי הדרכתנו בחנות ה-Play!</string>
+    <string name="sort_by">מיין לפי</string>
+    <string-array name="settings_swipe_actions">
+        <item>ללא</item>
+        <item>ארכיון</item>
+        <item>מחיקה</item>
+        <item>קריאה</item>
+        <item>סמן כנקרא</item>
+        <item>סמן כלא נקרא</item>
+    </string-array>
+    <string name="settings_mms_size_title">דחיסת קבצים מצורפים ל-MMS באופן אוטומטי</string>
+    <string name="settings_sync_title">סנכרון הודעות</string>
+    <string name="settings_sync_summary">סנכרן מחדש את הודעותיך עם מסד הנתונים הקיים של Android SMS</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">בקרת שיחות</string>
+    <string name="blocking_manager_sia_title">האם צריך לענות?</string>
+    <string name="blocked_messages_title">הודעות חסומות</string>
+    <string name="blocked_messages_empty">ההודעות החסומות שלך יופיעו כאן</string>
+    <string name="blocking_block_title">חסום</string>
+    <string name="blocking_unblock_title">בטל חסימה</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">המשך אל %s וחסום את מספר זה</item>
+        <item quantity="other">המשך אל %s וחסום את המספרים הללו</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">המשך אל %s והתיר את מספר זה</item>
+        <item quantity="other">המשך אל %s והתיר את המספרים הללו</item>
+    </plurals>
+    <string name="widget_loading">טוען…</string>
+    <string name="widget_more">הצג מראיין יותר</string>
+    <string name="qkreply_menu_read">סמן כנקרא</string>
+    <string name="qkreply_menu_call">קרא</string>
+    <string name="qkreply_menu_delete">מחק</string>
+    <string name="qkreply_menu_expand">הצג יותר</string>
+    <string name="qkreply_menu_collapse">הצג פחות</string>
+    <string name="qkreply_menu_view">פתח שיחה</string>
+    <string name="changelog_title">חדש ב-SMS</string>
+    <string name="changelog_version">גרסה %s</string>
+    <string name="changelog_added">נוסף</string>
+    <string name="changelog_improved">שופר</string>
+    <string name="changelog_fixed">תוקן</string>
+    <string name="changelog_more">עוד</string>
+    <string name="changelog_dismiss">התעלם</string>
+    <string-array name="notification_actions">
+        <item>ללא</item>
+        <item>סמן כנקרא</item>
+        <item>תגובה</item>
+        <item>קרא</item>
+        <item>מחיקה</item>
+    </string-array>
+    <string name="button_yes">כן</string>
+    <string name="button_continue">המשך</string>
+    <string name="button_cancel">ביטול</string>
+    <string name="button_delete">מחק</string>
+    <string name="button_save">שמור</string>
+    <string name="button_stop">עצור</string>
+    <string name="button_more">עוד</string>
+    <string name="button_set">הגדר</string>
+    <string name="button_undo">בטל</string>
+    <string name="toast_copied">הועתק</string>
+    <string name="toast_archived">שיחה אורכיבה</string>
+    <string name="toast_sms_plus">עליך לפתוח את ה-SMS+ כדי להשתמש בזה</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">הודעה חדשה</item>
+        <item quantity="other">%s הודעות חדשות</item>
+    </plurals>
+    <string name="notification_message_failed_title">ההודעה לא נשלחה</string>
+    <string name="notification_message_failed_text">ההודעה ל-%s נכשלה בשליחה</string>
+    <string name="privacy_policy">מדיניות פרטיות</string>
+    <string name="pocket_data_on">המידע הפרטי חייב להיות פעיל בעת שליחת MMS!</string>
+    <string name="inapp_details" translatable="false">כדי להסיר מודעות, נסה מינוי פרימיום עם תמיכה במצב חשוך-בהיר\nתמיכה בהודעות מתוזמנות.</string>
+    <string name="drawer_removeAds">הסר מודעות</string>
+    <string name="in_app_ads">messages_rad</string>
+    <string name="dialog_delete_message">האם אתה בטוח שברצונך למחוק את ההודעה הזו?</string>
+    <string name="compose_bar_not_support">השולח אינו תומך בתגובות</string>
+    <string name="default_name">כדי לשלוח או לקבל SMS, עליך להגדיר אותו כיישום ברירת המחדל. האם ברצונך שהודעה תהיה היישום ברירת המחדל שלך?</string>
+    <string name="confirm_delete">אישור מחיקה</string>
+    <string name="confirm_delete_text">האם אתה בטוח שברצונך למחוק את ההודעה הזו?</string>
+    <string name="title">כותרת</string>
+    <string name="note">הערה</string>
+    <string name="search">חיפוש</string>
+    <string name="settings">הגדרות</string>
+    <string name="share_to">שיתוף בכיוון אל:</string>
+    <string name="sort">מיון</string>
+    <string name="empty_list_text">לחץ על הכפתור בתחתית הימין כדי להוסיף הערה חדשה!</string>
+    <string name="new_note">הערה חדשה</string>
+    <string name="undo">בטל</string>
+    <string name="delete">מחק</string>
+    <string name="exception">שגיאה:</string>
+    <string name="edit_note">עריכת הערה</string>
+    <string name="drawer_feedback">שלח משוב</string>
+    <string name="drawer_mode">מצב אור</string>
+    <string name="unlimited_access_user">גישה בלתי מוגבלת\nלכל התכונות</string>
+    <string name="pro_user">אתה משתמש פרימיום</string>
+    <string name="sub_info_text"><b>המינוי יחודר מחדש באופן אוטומטי עד שתבטל אותו.</b></string>
+    <string name="cancel_purchase">תוכל לבטל את התפקידים האוטומטיים של המינוי באיזור המינויים ב-Google Play</string>
+    <string name="remove_ads">הסר מודעות</string>
+    <string name="no_ads">ללא מודעות</string>
+    <string name="free_trial">ניסיון בחינם של 7 ימים, לאחר מכן חידוש אוטומטי</string>
+    <string name="can_not_talk_right_now">סליחה, לא יכול לדבר כרגע</string>
+    <string name="can_call_you_later">אני יכול להתקשר אליך מאוחר יותר?</string>
+    <string name="i_am_on_my_way">אני בדרכי</string>
+    <string name="write_personal_message">כתוב הודעה אישית</string>
+    <string name="create_reminder">צור תזכורת חדשה</string>
+    <string name="remind_me_about">תזכיר לי על</string>
+    <string name="no_title">ללא כותרת</string>
+    <string name="edit_contact">עריכת איש קשר</string>
+    <string name="add_contact">הוסף איש קשר</string>
+    <string name="messages">הודעות</string>
+    <string name="send_mail">שלח מייל</string>
+    <string name="calendar">לוח שנה</string>
+    <string name="web">רשת</string>
+    <string-array name="night_modes">
+        <item>מערכת</item>
+        <item>מצב בהיר</item>
+        <item>מצב חשוך</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>הצג שם והודעה</item>
+        <item>הצג שם</item>
+        <item>הסתר תוכן</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>קטן</item>
+        <item>רגיל</item>
+        <item>גדול</item>
+        <item>גדול יותר</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>ללא עיכוב</item>
+        <item>קצר</item>
+        <item>בינוני</item>
+        <item>ארוך</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>אוטומטי</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>ללא דחיסה</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>בסדר</item>
+        <item>תן לי רגע</item>
+        <item>בדרכי</item>
+        <item>תודה</item>
+        <item>נשמע טוב</item>
+        <item>מה קורה?</item>
+        <item>הסכמתי</item>
+        <item>לא</item>
+        <item>אוהב אותך</item>
+        <item>מצטער</item>
+        <item>ההודעה הזו הוצפה</item>
+        <item>כלום</item>
+    </string-array>
+    <string name="default_title">האם לאפשר ליישום SMS להיות היישום ברירת המחדל</string>
+    <string name="set_as_defaault">הגדר כברירת המחדל</string>
+    <string name="love_app_title">הפוך את היישום SMS ליישום SMS ברירת המחדל שלך</string>
+    <string-array name="gif">
+        <item>פרצוף חיה</item>
+        <item>Emoji</item>
+        <item>פירות וירקות</item>
+        <item>הלווין</item>
+        <item>אהבה</item>
+    </string-array>
+    <string name="Sticker">מדבקת</string>
+    <string name="no_connection">אין חיבור לאינטרנט.</string>
+    <string-array name="sticker">
+        <item>בחור</item>
+        <item>קריקטורה</item>
+        <item>פנים</item>
+        <item>חג</item>
+        <item>פרי</item>
+        <item>כיף</item>
+        <item>בחורה</item>
+        <item>מדבקת אהבה</item>
+        <item>אחרים</item>
+        <item>גור</item>
+    </string-array>
+    <string name="open_link_to_browser">פתח קישור בדפדפן</string>
+    <string name="battery_dialog"> אינך רוצה להחמיץ הודעות SMS חשובות? \nכבה אופטימיזצית סוללה</string>
+    <string name="reason_to_change_battery_optimization_setting">נווט אל מידע על היישום &gt; מתקדם &gt; אופטימיזצית סוללה \nובחר ‘אל תאופטמם’</string>
+    <string name="feedback_txt">ספר לנו על החוויה שלך והצעות לשיפור יישום ההודעות שלנו.</string>
+    <string name="reason_to_change_battery">מתקדם &gt; אופטימיזצית סוללה &gt; ‘אל תאופטמם’</string>
+    <string name="drawer_transaction">עסקאות</string>
+    <string name="drawer_promotion">קידום</string>
+    <string name="unknown">לא ידוע </string>
+    <string name="priva"><u>מדיניות פרטיות</u></string>
+    <string name="smsfilter">סינון SMS</string>
+    <string name="by_click_t_c" translatable="false"><u>על ידי הקלקה, אתה מאשר את תנאי השימוש ומדיניות הפרטיות שלנו.</u></string>
+    <string name="continue_without_sub"><u>המשך ללא מינוי</u></string>
+    <string name="text_free_trial">מהנה ימים X <b>במבצע התקופת ניסיון</b> - לאחר מכן X € / חודש</string>
+    <string name="calldorado_message">בדוק את כל ה<b>הודעות</b> שלך לפני לסיים את השיחה! יש חדשות</string>
+    <string name="privacy_terms_description">על ידי המשך, אתה מאשר ומסכים לתנאי השימוש ולמדיניות הפרטיות.</string>
+    <string name="draw_over_description"><![CDATA[כדי להציג מעל יישומים אחרים את ההודעות שלנו. קבל את כל האפשרויות של היישומים שלנו]]></string>
+    <string name="ad_label">פרסומת</string>
+    <string name="onboarding_continue_button">המשך</string>
+    <string name="onboarding_step_1_title">מנהל SMS &amp; Messenger</string>
+    <string name="onboarding_step_1_subtitle">שוחח עם חברים, צור קבוצות וארגן את תיבת הדואר שלך</string>
+    <string name="onboarding_step_1_hight_light">גישה ייחודית אליך</string>
+    <string name="onboarding_step_2_title">ארגן ואחסן הודעות</string>
+    <string name="onboarding_step_2_subtitle">גבה ושחזר את ההודעות שלך</string>
+    <string name="onboarding_step_2_hight_light">אלפי משתמשים כמוך אוהבים את זה</string>
+    <string name="onboarding_step_3_title">תהנה מהחיים ותניח לנו לטפל בתיבת הדואר שלך</string>
+    <string name="onboarding_step_3_subtitle">אשר את ההרשאות כדי שנוכל לעזור לך לנהל את תיבת הדואר שלך.</string>
+    <string name="onboarding_step_3_hight_light">אולי מאוחר יותר</string>
+    <string name="onboarding_allow_access_button">אפשר גישה</string>
+    <string name="onboarding_step_4_title">שפר את הסוללה שלך על ידי ניהול הודעות ה- SMS במקומך</string>
+    <string name="onboarding_step_4_subtitle">אנו נטפל בהפרעות מודעות של הודעות SMS.</string>
+    <string name="onboarding_step_4_hight_light">אלפי משתמשים כמוך אוהבים את זה</string>
+    <string name="onboarding_step_5_title">עבודה במסך מחולק ביישומים אחרים בזמן השיחה</string>
+    <string name="onboarding_step_5_subtitle">תהנה מהווידג\'ט שלנו שמאפשר לך לעבוד במסך מחולק ולעשות מספר משימות</string>
+    <string name="onboarding_step_5_hight_light">אלפי משתמשים כמוך אוהבים את זה</string>
+    <string name="payment_card_title">שוחח עכשיו!</string>
+    <string name="payment_card_price"><![CDATA[נסיון בחינם של 3 ימים, %s / %s]]></string>
+    <string name="payment_card_button">נסה עכשיו בחינם</string>
+    <string name="payment_card_hight_light">מאובטח עם חנות Play</string>
+    <string name="payment_card_weekly">שבועי</string>
+    <string name="payment_card_monthly">חודשי</string>
+    <string name="payment_card_yearly">שנתי</string>
+    <string name="payment_card_auto_renew">מינוי מתחדש אוטומטית, ניתן לביטול בכל עת</string>
+    <string name="accessibility_service_description">הסבר על שירות הנגישות שלך</string>
+    <string name="permission_txt"><font color="#FF8A00">הרשאות נדרשות:</font>\nקריאת מצב הטלפון וציור מעל יישומים אחרים</string>
+    <string name="opt_privacy">על ידי המשך, אתה מאשר ומסכים לתנאי השימוש ולמדיניות הפרטיות.</string>
+    <string name="permission_required">נדרשות הרשאות</string>
+    <string name="permission_dialog_body">יישום זה עשוי לא לעבוד כראוי בלעדי הרשאת הטלפון. עקוב אחר ההוראות הבאות כדי לאפשר אותו:\n\n1. בחר "הרשאות"\n2. מצא "טלפון" ברשימת ההרשאות והקש כדי להפעיל</string>
+    <string name="go_premium">היה <font color = "#FFE600">פרימיום!</font></string>
+    <string name="unlock_everything">פתח את כל האפשרויות ואל תצטרך לראות פרסומות</string>
+    <string name="start_three_day">התחל ניסיון בחינם לשלושה ימים</string>
+    <string name="pro">מקצועי</string>
+    <string name="more_option">אפשרויות נוספות</string>
+    <string name="rate_us_5">דרג אותנו ב 5 כוכבים</string>
+    <string name="help_feedback">עזרה ומשוב</string>
+    <string name="send_message">שלח הודעה</string>
+    <string name="CTA_Button_Text">הקש לשחרור כל <font color="#FFFBCD04">תכונות</font></string>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="otp_copy">Copied code</string>
+    <string name="text_copy">Copied text</string>
+    <string name="backup_progress_running">%d/%d messages</string>
+    <string name="backup_progress_syncing">Syncing messages…</string>
+</resources>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".activity.VoiceSearchActivity">
+
+        <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:background="@drawable/bg_toolbar"
+                android:minHeight="?attr/actionBarSize"
+                app:theme="@style/TransparentToolbar"
+                tools:ignore="MissingConstraints" />
+
+
+        <RelativeLayout
+                android:id="@+id/top_banner_ad_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+
+            <LinearLayout
+                    android:id="@+id/fb_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+                android:id="@+id/cvSourceLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/top_banner_ad_view"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:minHeight="@dimen/_100sdp"
+                app:cardCornerRadius="@dimen/_4sdp">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:id="@+id/sourcepicker"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_45sdp"
+                        android:background="@color/colorPrimary"
+                        android:drawableStart="@drawable/ic_placeholder"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:paddingStart="@dimen/_20sdp"
+                        android:paddingEnd="@dimen/_10sdp"
+                        android:text="Enter Source Location"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/_14ssp" />
+
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    <TextView
+                            android:id="@+id/sName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ellipsize="end"
+                            android:gravity="center|left"
+                            android:maxLines="1"
+                            android:paddingStart="@dimen/_3sdp"
+                            android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                            android:id="@+id/sAddress"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_weight="1"
+                            android:ellipsize="end"
+                            android:gravity="center|left"
+                            android:maxLines="1"
+                            android:paddingStart="@dimen/_3sdp"
+                            android:textSize="@dimen/_12ssp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+                android:id="@+id/cvDestinationLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cvSourceLocation"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:clickable="true"
+
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:minHeight="@dimen/_100sdp"
+                app:cardCornerRadius="@dimen/_4sdp">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:id="@+id/destinationpicker"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_45sdp"
+                        android:background="@color/colorPrimary"
+                        android:drawableStart="@drawable/ic_placeholder"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:paddingStart="@dimen/_20sdp"
+                        android:paddingEnd="@dimen/_10sdp"
+                        android:text="Enter Destination Location"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/_14ssp" />
+
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    <TextView
+                            android:id="@+id/dName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ellipsize="end"
+                            android:gravity="center|left"
+                            android:maxLines="1"
+                            android:paddingStart="@dimen/_3sdp"
+                            android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                            android:id="@+id/dAddress"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_weight="1"
+                            android:ellipsize="end"
+                            android:gravity="center|left"
+                            android:maxLines="1"
+                            android:paddingStart="@dimen/_3sdp"
+                            android:textSize="@dimen/_12ssp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+                android:id="@+id/btnFindRoute"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_below="@+id/cvDestinationLocation"
+                android:layout_marginStart="@dimen/_50sdp"
+                android:layout_marginTop="37dp"
+                android:layout_marginEnd="@dimen/_50sdp"
+                android:background="@drawable/bg_green_rounded_5sdp"
+                android:text="Find Route"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp" />
+
+        <RelativeLayout
+                android:id="@+id/ad_container_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

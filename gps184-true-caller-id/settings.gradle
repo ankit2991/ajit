@@ -1,0 +1,43 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        jcenter()
+
+        //maven { url 'https://android-sdk.is.com/' }
+
+        maven {
+            url 'https://sdk.tapjoy.com/'
+        }
+
+       // maven { url 'https://repo1.maven.org/maven2' }
+        //Non-listed GP market applications， Android X Version
+        /*maven {
+            url "https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_china"
+        }*/
+
+        //Launch GP market application， Android X Version
+        maven {
+            url  "https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea"
+        }
+
+        maven { url 'https://artifact.bytedance.com/repository/pangle' }
+        maven { url "https://cboost.jfrog.io/artifactory/chartboost-ads/" }
+
+
+        // For calldorado
+        maven { url 'https://maven.calldorado.com/nexus/content/repositories/thirdparty/' }
+        maven { url 'https://maven.calldorado.com/nexus/content/repositories/releases' }
+    }
+}
+include ':app'
+rootProject.name='Caller Id Information'

@@ -1,0 +1,477 @@
+<resources xmlns:ns0="http://schemas.android.com/tools" ns0:ignore="MissingTranslation">
+    <string name="sugest_update_title">Update beschikbaar</string>
+    <string name="sugest_update_message">Nieuwe update beschikbaar in Google Play, update alsjeblieft jouw versie</string>
+    <string name="force_update_title">Update beschikbaar</string>
+    <string name="force_update_message">Nieuwe update beschikbaar in Google Play, update alsjeblieft jouw versie</string>
+    <string name="update_ok">Update</string>
+    <string name="update_no">Niet nu</string>
+    <string name="app_name">#Berichten</string>
+    <string name="in_app_name">Berichten</string>
+    <string name="splash_app_name">SMS Berichten</string>
+    <string name="loading_msg">Even geduld...</string>
+    <string name="ads_loading_msg">Advertentie tonen...</string>
+    <string name="shortcut_compose_long_label">Nieuw gesprek</string>
+    <string name="shortcut_compose_short_label">Opstellen</string>
+    <string name="shortcut_compose_disabled_message">Snelkoppeling uitgeschakeld</string>
+    <string name="title_archived">Gearchiveerde Berichten</string>
+    <string name="title_settings">Instellingen</string>
+    <string name="title_notification_prefs">Meldingen</string>
+    <string name="title_theme">Thema</string>
+    <string name="title_conversations">Zoek nummers, namen &amp; meer</string>
+    <string name="title_compose">Typ een naam of telefoonnummer</string>
+    <string name="setup_skip">Overslaan</string>
+    <string name="setup_next">Doorgaan</string>
+    <string name="menu_add_person">Persoon toevoegen</string>
+    <string name="menu_call">Bellen</string>
+    <string name="menu_info">Details</string>
+    <string name="menu_save">Opslaan naar galerij</string>
+    <string name="menu_share">Delen</string>
+    <string name="main_drawer_open_cd">Navigatiemenu openen</string>
+    <string name="main_title_selected">%d geselecteerd</string>
+    <string name="main_menu_clear">Wissen</string>
+    <string name="main_menu_archive">Archiveren</string>
+    <string name="main_menu_unarchive">De-archiveren</string>
+    <string name="main_menu_delete">Verwijderen</string>
+    <string name="main_menu_add_contact">Toevoegen aan contacten</string>
+    <string name="main_menu_pin">Vastzetten bovenaan</string>
+    <string name="main_menu_unpin">Losmaken</string>
+    <string name="main_menu_read">Als gelezen markeren</string>
+    <string name="main_menu_unread">Als ongelezen markeren</string>
+    <string name="select_all">Alles selecteren</string>
+    <string name="deselect_all">Alles deselecteren</string>
+    <string name="main_menu_block">Blokkeer</string>
+    <string name="main_syncing">Berichten organiseren...</string>
+    <string name="main_sender_you">Jij: %s</string>
+    <string name="main_draft">Concept: %s</string>
+    <string name="main_message_results_title">Resultaten in berichten</string>
+    <string name="main_message_results">%d berichten</string>
+    <string name="inbox_empty_text">Je gesprekken verschijnen hier</string>
+    <string name="inbox_search_empty_text">Geen resultaten</string>
+    <string name="archived_empty_text">Nog geen gearchiveerde gesprekken..</string>
+    <string name="main_fab_cd">Start nieuw gesprek</string>
+    <string name="main_default_sms_title">Hou je van berichten?</string>
+    <string name="main_default_sms_message">Maak van de SMS-app jouw standaard SMS-app</string>
+    <string name="main_default_sms_change">Veranderen</string>
+    <string name="main_permission_required">Toestemming vereist</string>
+    <string name="main_permission_sms">SMS heeft toestemming nodig om SMS-berichten te verzenden en te bekijken</string>
+    <string name="main_permission_contacts">SMS heeft toestemming nodig om jouw contacten te bekijken</string>
+    <string name="main_permission_allow">Toestaan</string>
+    <string name="main_permission_allow_read">Lezen en schrijven toestemming toestaan</string>
+    <string name="drawer_inbox">Inbox</string>
+    <string name="drawer_archived">Gearchiveerd</string>
+    <string name="drawer_scheduled">Geplande Berichten</string>
+    <string name="drawer_blocking">Geblokkeerde Lijst</string>
+    <string name="drawer_calldorado">Bellersinstellingen</string>
+    <string name="drawer_more">Meer</string>
+    <string name="drawer_group">Groepsbericht</string>
+    <string name="drawer_settings">Instellingen</string>
+    <string name="drawer_remove_ads">Advertenties verwijderen</string>
+    <string name="drawer_help">Help &amp; feedback</string>
+    <string name="drawer_invite">Vrienden uitnodigen</string>
+    <string name="dialog_delete_title">Verwijderen</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Weet je zeker dat je dit gesprek wilt verwijderen?</item>
+        <item quantity="other">Weet je zeker dat je %d gesprekken wilt verwijderen?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Tekst kopiëren</item>
+        <item>Vooruit sturen</item>
+        <item>Verwijderen</item>
+    </string-array>
+    <string name="compose_number_picker_title">Kies een telefoonnummer</string>
+    <string name="compose_number_picker_default">%s ∙ Standaard</string>
+    <string name="compose_number_picker_once">Eenmalig</string>
+    <string name="compose_number_picker_always">Altijd</string>
+    <string name="compose_title_selected">%d geselecteerd</string>
+    <string name="compose_subtitle_results">%1$d van %2$d resultaten</string>
+    <string name="contact_selected">%1$d van %2$d Geselecteerd</string>
+    <string name="compose_send_group_title">Versturen als groepsbericht</string>
+    <string name="compose_send_group_summary">Ontvangers en antwoorden zijn zichtbaar voor iedereen</string>
+    <string name="compose_messages_empty">Begin van je gesprek. Zeg iets geweldigs!</string>
+    <string name="compose_vcard_label">Contactkaart</string>
+    <string name="compose_scheduled_for">Gepland voor</string>
+    <string name="compose_scheduled_future">tijd moet in de toekomst liggen!</string>
+    <string name="compose_scheduled_toast">Toegevoegd aan geplande berichten</string>
+    <string name="compose_hint">Schrijf hier…</string>
+    <string name="compose_menu_copy">Tekst kopiëren</string>
+    <string name="compose_menu_forward">Vooruit sturen</string>
+    <string name="compose_menu_delete">Verwijderen</string>
+    <string name="compose_menu_previous">Vorige</string>
+    <string name="compose_menu_next">Volgende</string>
+    <string name="compose_menu_clear">Wissen</string>
+    <string name="compose_details_title">Berichtdetails</string>
+    <string name="compose_details_type">Type: %s</string>
+    <string name="compose_details_from">Van: %s</string>
+    <string name="compose_details_to">Naar: %s</string>
+    <string name="compose_details_subject">Onderwerp: %s</string>
+    <string name="compose_details_priority">Prioriteit: %s</string>
+    <string name="compose_details_size">Grootte: %s</string>
+    <string name="compose_details_sent">Verzonden: %s</string>
+    <string name="compose_details_received">Ontvangen: %s</string>
+    <string name="compose_details_delivered">Bezorgd: %s</string>
+    <string name="compose_details_error_code">Foutcode: %d</string>
+    <string name="compose_attach_cd">Voeg een bijlage toe</string>
+    <string name="compose_gallery_cd">Voeg een foto toe</string>
+    <string name="compose_camera_cd">Maak een foto</string>
+    <string name="compose_schedule_cd">Bericht plannen</string>
+    <string name="compose_contact_cd">Voeg een contact toe</string>
+    <string name="compose_contact_error">Fout bij het lezen van contact</string>
+    <string name="compose_sim_cd">%s geselecteerd, SIM-kaart wijzigen</string>
+    <string name="compose_send_cd">Bericht versturen</string>
+    <string name="message_status_sending">Verzenden…</string>
+    <string name="message_status_delivered">Bezorgd %s</string>
+    <string name="message_status_failed">Verzenden mislukt</string>
+    <string name="info_title">Contactgegevens</string>
+    <string name="info_copied_address">Adres gekopieerd</string>
+    <string name="info_name">Titel van het gesprek</string>
+    <string name="info_notifications">Meldingen</string>
+    <string name="info_theme">Thema</string>
+    <string name="info_archive">Archief</string>
+    <string name="info_unarchive">De-archiveren</string>
+    <string name="info_block">Blokkeer</string>
+    <string name="info_unblock">Deblokkeer</string>
+    <string name="info_delete">Gesprek verwijderen</string>
+    <string name="gallery_error">Kan media niet laden</string>
+    <string name="gallery_toast_saved">Opgeslagen naar galerij</string>
+    <string name="backup_title">Back-up en herstel</string>
+    <string name="backup_backing_up">Berichten worden geback-upt</string>
+    <string name="backup_restoring">Herstellen van back-up</string>
+    <string name="backup_last">Laatste back-up</string>
+    <string name="backup_loading">Laden…</string>
+    <string name="backup_never">Nooit</string>
+    <string name="backup_restore_title">Herstellen</string>
+    <string name="backup_restore_summary">Selecteer een back-up</string>
+    <string name="backup_restore_error_plus">Ontgrendel alsjeblieft SMS+ om back-up en herstel te gebruiken</string>
+    <string name="backup_restore_error_backup">Back-up bezig…</string>
+    <string name="backup_restore_error_restore">Herstellen bezig…</string>
+    <string name="backup_restore_confirm_title">Herstellen van back-up</string>
+    <string name="backup_restore_confirm_message">Weet je zeker dat je jouw berichten vanuit deze back-up wilt herstellen?</string>
+    <string name="backup_restore_stop_title">Herstel stoppen</string>
+    <string name="backup_restore_stop_message">Berichten die al zijn hersteld, blijven op je apparaat staan</string>
+    <string name="backup_restore_dialog_title">Back-ups</string>
+    <string name="backup_restore_dialog_summary">/SMS Berichten/Back-ups</string>
+    <string name="backup_restore_dialog_empty">Geen back-ups gevonden</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">Geen berichten</item>
+        <item quantity="one">%d bericht</item>
+        <item quantity="other">%d berichten</item>
+    </plurals>
+    <string name="backup_disclaimer">Tot nu toe ondersteunden we alleen SMS bij Back-up en Herstel!</string>
+    <string name="backup_now">Back-up</string>
+    <string name="backup_progress_parsing">Back-up wordt geparseerd…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d berichten</string>
+    <string name="backup_progress_saving">Back-up wordt opgeslagen…</string>
+    <string name="backup_progress_syncing">Berichten worden gesynchroniseerd…</string>
+    <string name="backup_progress_finished">Klaar!</string>
+    <string name="backup_notification_channel_name">Back-up en herstel</string>
+    <string name="Message_notification_channel_name">Berichtsynchronisatie</string>
+    <string name="scheduled_title">Gepland</string>
+    <string name="schedule_guide">Je kunt een gepland bericht instellen door op de bijlageknop te klikken die beschikbaar is op het scherm voor het schrijven van een bericht.</string>
+    <string name="scheduled_empty_description">Automatisch een bericht verzenden op het exacte moment dat je wilt</string>
+    <string name="scheduled_empty_message_1">Hey! Wanneer is het tijd om te vieren?</string>
+    <string name="scheduled_empty_message_2">Het is op 5 maart</string>
+    <string name="scheduled_empty_message_3">Heyaa! Kijk eens wat voor geweldige vriend ik ben, jouw dag aan het vieren</string>
+    <string name="scheduled_empty_message_3_timestamp">Wordt verzonden op 5 maart</string>
+    <string name="scheduled_compose_cd">Plan een bericht</string>
+    <string name="scheduled_options_title">Gepland bericht</string>
+    <string-array name="scheduled_options">
+        <item>Nu verzenden</item>
+        <item>Tekst kopiëren</item>
+        <item>Verwijderen</item>
+    </string-array>
+    <string name="settings_category_appearance">Weergave</string>
+    <string name="settings_category_general">Algemeen</string>
+    <string name="settings_categoryreply">Antwoorden</string>
+    <string name="settings_night_title">Nachtmodus</string>
+    <string name="settings_text_size_title">Lettergrootte</string>
+    <string name="settings_notifications_title">Meldingen</string>
+    <string name="settings_notifications_o_summary">Tik om aan te passen</string>
+    <string name="settings_notification_actions_title">Acties</string>
+    <string name="settings_notification_action_1">Knop 1</string>
+    <string name="settings_notification_action_2">Knop 2</string>
+    <string name="settings_notification_action_3">Knop 3</string>
+    <string name="settings_notification_previews_title">Voorbeelden van meldingen</string>
+    <string name="settings_notification_wake_title">Scherm activeren</string>
+    <string name="settings_vibration_title">Trillen</string>
+    <string name="settings_ringtone_title">Geluid</string>
+    <string name="settings_ringtone_none">Geen</string>
+    <string name="settings_reply_title">Antwoorden</string>
+    <string name="settings_reply_summary">Pop-up voor nieuwe berichten</string>
+    <string name="settings_reply_tap_dismiss_title">Tik om te sluiten</string>
+    <string name="settings_reply_tap_dismiss_summary">Tik buiten de pop-up om deze te sluiten</string>
+    <string name="settings_swipe_actions">Veegacties</string>
+    <string name="settings_swipe_actions_right">Rechts vegen</string>
+    <string name="settings_swipe_actions_left">Links vegen</string>
+    <string name="settings_swipe_actions_change">WIJZIGEN</string>
+    <string name="not_now_txt">Niet nu</string>
+    <string name="process_title">Dit proces gaat enige tijd duren</string>
+    <string name="syncing_done">Berichtsynchronisatie voltooid....</string>
+    <string name="all_set_txt">Alles is klaar. Je bent er klaar voor</string>
+    <string name="Personal">Alle berichten</string>
+    <string name="Other">Bekend</string>
+    <string name="Spam">Spam</string>
+    <string name="setting">Instellingen</string>
+    <string name="Share">Delen</string>
+    <string name="Rate">Beoordeel ons</string>
+    <string name="edit">bewerk</string>
+    <string name="DarkMode">Donkere modus</string>
+    <string name="BrightMode">Heldere modus</string>
+    <string name="Camera">Camera</string>
+    <string name="Gallery">Galerij</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">Contact</string>
+    <string name="Schedule">Planning</string>
+    <string name="Location">Locatie</string>
+    <string name="Notes">Notities</string>
+    <string name="no_msg">Nog geen berichten…</string>
+    <string name="Start_Chat">Start chat</string>
+    <string name="Language">Taal</string>
+    <string name="rate_text">Beveel ons aan bij anderen door ons te beoordelen op de Play Store!</string>
+    <string name="sort_by">Sorteren op</string>
+    <string-array name="settings_swipe_actions">
+        <item>Geen</item>
+        <item>Archiveren</item>
+        <item>Verwijderen</item>
+        <item>Bellen</item>
+        <item>Markeren als gelezen</item>
+        <item>Markeren als ongelezen</item>
+    </string-array>
+    <string name="settings_mms_size_title">Automatisch MMS-bijlagen comprimeren</string>
+    <string name="settings_sync_title">Berichten synchroniseren</string>
+    <string name="settings_sync_summary">Synchroniseer opnieuw uw berichten met de native Android SMS-database</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Oproepbeheer</string>
+    <string name="blocking_manager_sia_title">Moet ik antwoorden?</string>
+    <string name="blocked_messages_title">Geblokkeerde berichten</string>
+    <string name="blocked_messages_empty">Uw geblokkeerde berichten worden hier weergegeven</string>
+    <string name="blocking_block_title">Blokkeer</string>
+    <string name="blocking_unblock_title">Deblokkeer</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">Ga verder naar %s en blokkeer dit nummer</item>
+        <item quantity="other">Ga verder naar %s en blokkeer deze nummers</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">Ga verder naar %s en sta dit nummer toe</item>
+        <item quantity="other">Ga verder naar %s en sta deze nummers toe</item>
+    </plurals>
+    <string name="widget_loading">Laden…</string>
+    <string name="widget_more">Meer gesprekken bekijken</string>
+    <string name="qkreply_menu_read">Als gelezen markeren</string>
+    <string name="qkreply_menu_call">Bellen</string>
+    <string name="qkreply_menu_delete">Verwijderen</string>
+    <string name="qkreply_menu_expand">Meer weergeven</string>
+    <string name="qkreply_menu_collapse">Minder weergeven</string>
+    <string name="qkreply_menu_view">Gesprek openen</string>
+    <string name="changelog_title">Nieuw in SMS</string>
+    <string name="changelog_version">Versie %s</string>
+    <string name="changelog_added">Toegevoegd</string>
+    <string name="changelog_improved">Verbeterd</string>
+    <string name="changelog_fixed">Opgelost</string>
+    <string name="changelog_more">Meer</string>
+    <string name="changelog_dismiss">Afwijzen</string>
+    <string-array name="notification_actions">
+        <item>Geen</item>
+        <item>Als gelezen markeren</item>
+        <item>Antwoorden</item>
+        <item>Bellen</item>
+        <item>Verwijderen</item>
+    </string-array>
+    <string name="button_yes">Ja</string>
+    <string name="button_continue">Doorgaan</string>
+    <string name="button_cancel">Annuleren</string>
+    <string name="button_delete">Verwijderen</string>
+    <string name="button_save">Opslaan</string>
+    <string name="button_stop">Stoppen</string>
+    <string name="button_more">Meer</string>
+    <string name="button_set">Instellen</string>
+    <string name="button_undo">Ongedaan maken</string>
+    <string name="toast_copied">Gekopieerd</string>
+    <string name="toast_archived">Gearchiveerd gesprek</string>
+    <string name="toast_sms_plus">Je moet SMS+ ontgrendelen om dit te gebruiken</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Nieuw bericht</item>
+        <item quantity="other">%s nieuwe berichten</item>
+    </plurals>
+    <string name="notification_message_failed_title">Bericht niet verzonden</string>
+    <string name="notification_message_failed_text">Het bericht naar %s kon niet worden verzonden</string>
+    <string name="privacy_policy">Privacybeleid</string>
+    <string name="pocket_data_on">Pocketgegevens moeten aan staan bij het verzenden van MMS!</string>
+    <string name="inapp_details" translatable="false">Om advertenties te verwijderen, probeer premium abonnement met ondersteuning voor donkere/lichte modus\nGeplande sms-ondersteuning.</string>
+    <string name="drawer_removeAds">Advertenties verwijderen</string>
+    <string name="in_app_ads">berichten_rad</string>
+    <string name="dialog_delete_message">Weet je zeker dat je dit bericht wilt verwijderen?</string>
+    <string name="compose_bar_not_support">De afzender ondersteunt geen antwoorden</string>
+    <string name="default_name">Om een sms te verzenden of te ontvangen, moet je deze instellen als de standaardapplicatie. Wil je het bericht als je standaardapplicatie instellen?</string>
+    <string name="confirm_delete">Bevestig Verwijdering</string>
+    <string name="confirm_delete_text">Weet je zeker dat je deze notitie wilt verwijderen?</string>
+    <string name="title">Titel</string>
+    <string name="note">Notitie</string>
+    <string name="search">Zoeken</string>
+    <string name="settings">Instellingen</string>
+    <string name="share_to">Delen met:</string>
+    <string name="sort">Sorteren</string>
+    <string name="empty_list_text">Druk op de knop rechtsonder om een nieuwe notitie toe te voegen!</string>
+    <string name="new_note">Nieuwe Notitie</string>
+    <string name="undo">Ongedaan maken</string>
+    <string name="delete">Verwijderen</string>
+    <string name="exception">Uitzondering:</string>
+    <string name="edit_note">Notitie Bewerken</string>
+    <string name="drawer_feedback">Feedback Versturen</string>
+    <string name="drawer_mode">Lichte modus</string>
+    <string name="unlimited_access_user">Onbeperkte Toegang \ntot Alle Functies</string>
+    <string name="pro_user">Je bent een \nPremium-gebruiker</string>
+    <string name="sub_info_text"><b>Het abonnement wordt automatisch verlengd totdat je het uitschakelt.</b></string>
+    <string name="cancel_purchase">Je kunt automatische abonnementsverlengingen annuleren in Abonnementen in Google Play</string>
+    <string name="remove_ads">Advertenties verwijderen</string>
+    <string name="no_ads">Geen advertenties</string>
+    <string name="free_trial">7 dagen gratis proefperiode, daarna automatisch verlengd</string>
+    <string name="can_not_talk_right_now">Sorry, ik kan nu niet praten</string>
+    <string name="can_call_you_later">Kan ik je later bellen?</string>
+    <string name="i_am_on_my_way">Ik ben onderweg</string>
+    <string name="write_personal_message">Schrijf een persoonlijk bericht</string>
+    <string name="create_reminder">Nieuwe herinnering maken</string>
+    <string name="remind_me_about">Herinner me aan</string>
+    <string name="no_title">Geen Titel</string>
+    <string name="edit_contact">Contact bewerken</string>
+    <string name="add_contact">Contact toevoegen</string>
+    <string name="messages">Berichten</string>
+    <string name="send_mail">Mail versturen</string>
+    <string name="calendar">Kalender</string>
+    <string name="web">Web</string>
+    <string-array name="night_modes">
+        <item>Systeem</item>
+        <item>Heldere Modus</item>
+        <item>Donkere Modus</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>Naam en bericht weergeven</item>
+        <item>Naam weergeven</item>
+        <item>Inhoud verbergen</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>Klein</item>
+        <item>Normaal</item>
+        <item>Groot</item>
+        <item>Groter</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>Geen vertraging</item>
+        <item>Kort</item>
+        <item>Gemiddeld</item>
+        <item>Lang</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Automatisch</item>
+        <item>100 KB</item>
+        <item>200 KB</item>
+        <item>300 KB</item>
+        <item>600 KB</item>
+        <item>1000 KB</item>
+        <item>2000 KB</item>
+        <item>Geen compressie</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>Oké</item>
+        <item>Geef me een moment</item>
+        <item>Onderweg</item>
+        <item>Bedankt</item>
+        <item>Klinkt goed</item>
+        <item>Wat is er?</item>
+        <item>Akkoord</item>
+        <item>Nee</item>
+        <item>Ik hou van je</item>
+        <item>Sorry</item>
+        <item>LOL</item>
+        <item>Geen probleem</item>
+    </string-array>
+    <string name="default_title">Sta toe dat Sms-app de standaard-app wordt</string>
+    <string name="set_as_defaault">Instellen als standaard</string>
+    <string name="love_app_title">Maak van SMS-app jouw standaard SMS-app</string>
+    <string-array name="gif">
+        <item>Dierengezichten</item>
+        <item>Emoji</item>
+        <item>Groenten &amp; Fruit</item>
+        <item>Halloween</item>
+        <item>Liefde</item>
+    </string-array>
+    <string name="Sticker">Sticker</string>
+    <string name="no_connection">Geen internetverbinding.</string>
+    <string-array name="sticker">
+        <item>Jongen</item>
+        <item>Cartoon</item>
+        <item>Gelaat</item>
+        <item>Festival</item>
+        <item>Fruit</item>
+        <item>Leuk</item>
+        <item>Meisje</item>
+        <item>Liefdessticker</item>
+        <item>Overige</item>
+        <item>Puppy</item>
+    </string-array>
+    <string name="open_link_to_browser">Link openen in browser</string>
+    <string name="battery_dialog"> Wil je geen belangrijke sms missen? \nSchakel batterijoptimalisatie uit</string>
+    <string name="reason_to_change_battery_optimization_setting">Ga naar App-info &gt; Geavanceerd &gt; Batterijoptimalisatie \nen selecteer ‘Niet optimaliseren’</string>
+    <string name="feedback_txt">Vertel ons over je ervaring en geef suggesties om de Berichten-app te verbeteren. </string>
+    <string name="reason_to_change_battery"> Geavanceerd &gt; Batterijoptimalisatie &gt; ‘Niet optimaliseren’</string>
+    <string name="drawer_transaction">Transacties</string>
+    <string name="drawer_promotion">Promoties</string>
+    <string name="unknown">Onbekend </string>
+    <string name="priva"><u>Privacybeleid</u></string>
+    <string name="smsfilter">SMS-filter</string>
+    <string name="by_click_t_c" translatable="false"><u>Door te klikken accepteert u onze Algemene Voorwaarden.</u></string>
+    <string name="continue_without_sub"><u>Doorgaan zonder abonnement</u></string>
+    <string name="text_free_trial">Geniet van X dagen <b>gratis proefperiode</b> - Daarna X € / maand</string>
+    <string name="calldorado_message">Controleer al je <b>berichten</b> voordat je het gesprek beëindigt! Er is nieuws</string>
+    <string name="privacy_terms_description">Door verder te gaan, accepteert u en keurt u de gebruiksvoorwaarden en het privacybeleid goed.</string>
+    <string name="draw_over_description"><![CDATA[Om boven andere apps te tonen onze SMS-berichten. Ontvang alle potentie van onze SMS-oproep-widgets en meer]]></string>
+    <string name="ad_label">AD</string>
+    <string name="onboarding_continue_button">Doorgaan</string>
+    <string name="onboarding_step_1_title">SMS- en Messenger-beheerder</string>
+    <string name="onboarding_step_1_subtitle">Chat met vrienden, maak groepen en organiseer je inbox</string>
+    <string name="onboarding_step_1_hight_light">Unieke benadering voor jou</string>
+    <string name="onboarding_step_2_title">Berichten organiseren en opslaan</string>
+    <string name="onboarding_step_2_subtitle">Maak een back-up en herstel je berichten</string>
+    <string name="onboarding_step_2_hight_light">Duizenden gebruikers vinden het leuk</string>
+    <string name="onboarding_step_3_title">Geniet van het leven en laat ons voor de inbox zorgen</string>
+    <string name="onboarding_step_3_subtitle">Accepteer de machtigingen zodat we je kunnen helpen je inbox te beheren.</string>
+    <string name="onboarding_step_3_hight_light">Misschien later</string>
+    <string name="onboarding_allow_access_button">Toegang toestaan</string>
+    <string name="onboarding_step_4_title">Verbeter je batterij door ons het werk te laten doen</string>
+    <string name="onboarding_step_4_subtitle">We zullen vervelende sms-onderbrekingen voor je regelen.</string>
+    <string name="onboarding_step_4_hight_light">Duizenden gebruikers vinden het leuk</string>
+    <string name="onboarding_step_5_title">Split-screen werken op andere apps tijdens het chatten</string>
+    <string name="onboarding_step_5_subtitle">Geniet van onze geweldige belwidget waarmee je kunt multitasken</string>
+    <string name="onboarding_step_5_hight_light">Duizenden gebruikers vinden het leuk</string>
+    <string name="payment_card_title">Chat nu!</string>
+    <string name="payment_card_price"><![CDATA[3 dagen gratis, %s / %s]]></string>
+    <string name="payment_card_button">Probeer nu gratis</string>
+    <string name="payment_card_hight_light">Beveiligd met Play Store</string>
+    <string name="payment_card_weekly">wekelijks</string>
+    <string name="payment_card_monthly">maandelijks</string>
+    <string name="payment_card_yearly">jaarlijks</string>
+    <string name="payment_card_auto_renew">automatisch verlengbaar abonnement, altijd opzegbaar</string>
+    <string name="accessibility_service_description">Uw toegankelijkheidsservicebeschrijving</string>
+    <string name="permission_txt"><font color="#FF8A00">Toestemming vereist:</font>\nTelefoonstatus lezen &amp; Over andere apps tekenen</string>
+    <string name="opt_privacy">Door verder te gaan, accepteert u en keurt u de gebruiksvoorwaarden en het privacybeleid goed.</string>
+    <string name="permission_required">Benodigde machtigingen</string>
+    <string name="permission_dialog_body">Deze app werkt mogelijk niet correct zonder de telefoonmachtiging. Volg de onderstaande instructies om deze in te schakelen:\n\n1. Selecteer "Machtigingen"\n2. Zoek "Telefoon" in de lijst met machtigingen en tik om in te schakelen</string>
+    <string name="go_premium">Word <font color = "#FFE600">Premium!</font></string>
+    <string name="unlock_everything">Alles ontgrendelen &amp; Geen advertenties</string>
+    <string name="start_three_day">Start 3 dagen gratis proefperiode</string>
+    <string name="pro">Pro</string>
+    <string name="more_option">Meer optie</string>
+    <string name="rate_us_5">Beoordeel ons met 5 sterren</string>
+    <string name="help_feedback">Help &amp; Feedback</string>
+    <string name="send_message">Bericht versturen</string>
+    <string name="CTA_Button_Text">Tik om alle functies te <font color="#FFFBCD04">ontgrendelen</font></string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/white_round_bg"
+    android:layoutDirection="ltr"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:layout_alignParentTop="true"
+        android:id="@+id/offers_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+        android:text="@string/language_selection"
+        android:textColor="#1d1d1d"
+        android:textSize="@dimen/_16ssp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/appLangList"
+        android:layout_below="@+id/offers_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:scrollbars="vertical"
+        tools:itemCount="23"
+        android:layout_alignParentBottom="true"
+        tools:listitem="@layout/row_language" />
+
+
+
+
+    
+</RelativeLayout>

@@ -1,0 +1,28 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 31
+
+    defaultConfig {
+        namespace "com.messaging.textrasms.manager.common"
+        minSdkVersion 21
+        targetSdkVersion 31
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+    }
+
+}
+
+dependencies {
+    implementation "androidx.core:core-ktx:$androidx_core_version"
+    implementation "com.jakewharton.timber:timber:$timber_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version_latest"
+    compileOnly 'com.github.pengrad:jdk9-deps:1.0'
+
+    implementation project(":android-smsmms")
+}
+
+repositories {
+    mavenCentral()
+}

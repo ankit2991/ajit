@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_container_app"
+    android:orientation="vertical"
+    tools:context="callerid.truecaller.trackingnumber.phonenumbertracker.block.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_size"
+        android:background="@drawable/bg_action_bar"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:fontFamily="@font/poppins_bold"
+            android:src="@drawable/header"
+            android:text="@string/in_app_name"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/adlayout"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="@dimen/_24sdp"
+                    android:paddingBottom="1dp">
+
+
+                    <RelativeLayout
+                        android:id="@+id/btn_spam_call"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/bg_button_outline_gray"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="@dimen/_20sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_36sdp"
+                            android:layout_height="@dimen/_36sdp"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"
+                            android:clickable="false"
+                            android:src="@drawable/ic_spam_caller" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/_15sdp"
+                            android:clickable="false"
+                            android:fontFamily="@font/poppins_semi_bold"
+                            android:text="Spam Call ID"
+                            android:textColor="@color/text_menu_button"
+                            android:textSize="15sp" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/btn_num_location"
+                            android:layout_width="@dimen/size_menu_main"
+                            android:layout_height="@dimen/size_menu_main"
+                            android:layout_gravity="left|center"
+                            android:layout_marginHorizontal="20dp"
+                            android:layout_marginVertical="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_button_outline_gray"
+                            android:foreground="?selectableItemBackgroundBorderless"
+                            android:gravity="bottom|center"
+                            android:orientation="vertical"
+                            android:paddingBottom="@dimen/_8sdp">
+
+                            <ImageView
+                                android:layout_width="@dimen/size_icon_menu_main"
+                                android:layout_height="@dimen/size_icon_menu_main"
+                                android:src="@drawable/icc_call_location" />
+
+                            <TextView
+                                style="@style/text_menu_main_style"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:gravity="center"
+                                android:text="Number Location" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/btn_recharge_plan"
+                            android:layout_width="@dimen/size_menu_main"
+                            android:layout_height="@dimen/size_menu_main"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="right|center"
+                            android:layout_marginHorizontal="20dp"
+                            android:layout_marginVertical="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_button_outline_gray"
+                            android:foreground="?selectableItemBackgroundBorderless"
+                            android:gravity="bottom|center"
+                            android:orientation="vertical"
+                            android:paddingBottom="@dimen/_8sdp">
+
+                            <ImageView
+                                android:layout_width="@dimen/size_icon_menu_main"
+                                android:layout_height="@dimen/size_icon_menu_main"
+                                android:src="@drawable/icc_recharge_plan" />
+
+                            <TextView
+                                style="@style/text_menu_main_style"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:gravity="center"
+                                android:text="Recharge Plans" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:id="@+id/btn_location_info"
+                            android:layout_width="@dimen/size_menu_main"
+                            android:layout_height="@dimen/size_menu_main"
+                            android:layout_marginHorizontal="20dp"
+                            android:layout_marginVertical="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_button_outline_gray"
+                            android:foreground="?selectableItemBackgroundBorderless"
+                            android:gravity="bottom|center"
+                            android:orientation="vertical"
+                            android:paddingBottom="@dimen/_8sdp">
+
+                            <ImageView
+                                android:layout_width="@dimen/size_icon_menu_main"
+                                android:layout_height="@dimen/size_icon_menu_main"
+                                android:src="@drawable/icc_location_info" />
+
+                            <TextView
+                                style="@style/text_menu_main_style"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:gravity="center"
+                                android:text="Location Info" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/btn_ussd_code"
+                            android:layout_width="@dimen/size_menu_main"
+                            android:layout_height="@dimen/size_menu_main"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="right|center"
+                            android:layout_marginHorizontal="20dp"
+                            android:layout_marginVertical="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_button_outline_gray"
+                            android:foreground="?selectableItemBackgroundBorderless"
+                            android:gravity="bottom|center"
+                            android:orientation="vertical"
+                            android:paddingBottom="@dimen/_8sdp">
+
+                            <ImageView
+                                android:layout_width="@dimen/size_icon_menu_main"
+                                android:layout_height="@dimen/size_icon_menu_main"
+                                android:src="@drawable/icc_ussd_codes" />
+
+                            <TextView
+                                style="@style/text_menu_main_style"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:gravity="center"
+                                android:text="USSD Code" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <LinearLayout
+                            android:id="@+id/btn_bank"
+                            android:layout_width="@dimen/size_menu_main"
+                            android:layout_height="@dimen/size_menu_main"
+                            android:layout_marginHorizontal="20dp"
+                            android:layout_marginVertical="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_button_outline_gray"
+                            android:foreground="?selectableItemBackgroundBorderless"
+                            android:gravity="bottom|center"
+                            android:orientation="vertical"
+                            android:paddingBottom="@dimen/_8sdp">
+
+                            <ImageView
+                                android:layout_width="@dimen/size_icon_menu_main"
+                                android:layout_height="@dimen/size_icon_menu_main"
+                                android:src="@drawable/icc_bank" />
+
+                            <TextView
+                                style="@style/text_menu_main_style"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:gravity="center"
+                                android:text="Bank" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_near_by_place"
+                            android:layout_width="@dimen/size_menu_main"
+                            android:layout_height="@dimen/size_menu_main"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="right|center"
+                            android:layout_marginHorizontal="20dp"
+                            android:layout_marginVertical="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_button_outline_gray"
+                            android:foreground="?selectableItemBackgroundBorderless"
+                            android:gravity="bottom|center"
+                            android:orientation="vertical"
+                            android:paddingBottom="@dimen/_8sdp">
+
+                            <ImageView
+                                android:layout_width="@dimen/size_icon_menu_main"
+                                android:layout_height="@dimen/size_icon_menu_main"
+                                android:src="@drawable/icc_near_by_place" />
+
+                            <TextView
+                                style="@style/text_menu_main_style"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:gravity="center"
+                                android:text="Near By Place" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:id="@+id/btn_sim_info"
+                            android:layout_width="@dimen/size_menu_main"
+                            android:layout_height="@dimen/size_menu_main"
+                            android:layout_marginHorizontal="20dp"
+                            android:layout_marginVertical="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_button_outline_gray"
+                            android:foreground="?selectableItemBackgroundBorderless"
+                            android:gravity="bottom|center"
+                            android:orientation="vertical"
+                            android:paddingBottom="@dimen/_8sdp">
+
+                            <ImageView
+                                android:layout_width="@dimen/size_icon_menu_main"
+                                android:layout_height="@dimen/size_icon_menu_main"
+                                android:src="@drawable/icc_sim_card_info" />
+
+                            <TextView
+                                style="@style/text_menu_main_style"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:gravity="center"
+                                android:text="SIM Card Info" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_setting"
+                            android:layout_width="@dimen/size_menu_main"
+                            android:layout_height="@dimen/size_menu_main"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="right|center"
+                            android:layout_marginHorizontal="20dp"
+                            android:layout_marginVertical="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_button_outline_gray"
+                            android:foreground="?selectableItemBackgroundBorderless"
+                            android:gravity="bottom|center"
+                            android:orientation="vertical"
+                            android:paddingBottom="@dimen/_8sdp">
+
+                            <ImageView
+                                android:layout_width="@dimen/size_icon_menu_main"
+                                android:layout_height="@dimen/size_icon_menu_main"
+                                android:src="@drawable/icc_setting" />
+
+                            <TextView
+                                style="@style/text_menu_main_style"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:gravity="center"
+                                android:text="Setting" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <LinearLayout
+            android:id="@+id/adlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <include layout="@layout/max_ad_native_layout" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

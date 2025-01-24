@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="macro.hd.wallpapers">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+
+    <uses-feature
+        android:name="android.software.live_wallpaper"
+        android:required="true" />
+
+    <application
+        android:name=".WallpapersApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:name">
+        <activity
+            android:name=".Interface.Activity.PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Interface.Activity.GradientActivity"
+            android:configChanges="orientation|screenLayout|navigation|screenSize"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeFull" />
+
+        <receiver
+            android:name=".NewAppWidget"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/new_app_widget_info" />
+        </receiver>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name=".Interface.Activity.MainNavigationActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".Interface.Activity.NotificationAlertActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Interface.Activity.MyDownloadActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Interface.Activity.CategoryListingActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="sensorPortrait" />
+
+        <provider
+            android:name=".Utilily.GenericFileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <receiver
+            android:name=".FileDownloadReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".fcm.FirebaseMessagingService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".Interface.Activity.PreviewActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/AppThemeFull" />
+        <activity
+            android:name=".Interface.Activity.SettingActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="sensorPortrait" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="7ab295a2a20decbb3204f669a42831b34c82b58a" />
+
+        <activity
+            android:name=".Interface.Activity.AboutUsActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Interface.Activity.Termsactivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Interface.Activity.WallpaperDetailActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/AppThemeFull" />
+        <activity
+            android:name=".Interface.Activity.DoubleWallpaperActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Interface.Activity.FavoriteActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="sensorPortrait" />
+
+        <service
+            android:name=".WallpapersService"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/wallpaper" />
+        </service>
+        <service
+            android:name=".AutoWallpaperChangerService"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/wallpaper" />
+        </service>
+
+        <activity
+            android:name=".Interface.Activity.AutoWallChangerActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".LiveWallpaperService"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/videowall" />
+        </service>
+
+        <activity
+            android:name=".Interface.Activity.SearchActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/app_id" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".Interface.Activity.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeFull">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SET_WALLPAPER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Interface.Activity.ThemeChangingActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeFull" />
+        <activity
+            android:name=".Interface.Activity.LiveWallDetailActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/AppThemeFull" />
+        <activity
+            android:name=".Interface.Activity.StockWallDetailActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/AppThemeFull" />
+
+        <service
+            android:name=".ExclusiveService.ExclusiveLiveWallpaperService"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/wallpaper_exclusive" />
+        </service>
+
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="@string/file_provider_authorities"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".Interface.Activity.CreateExclusiveActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="sensorPortrait" />
+
+        <service
+            android:name=".LightWallpaperService.EdgeWallpaperService"
+            android:enabled="true"
+            android:exported="true"
+            android:label="Borderlight"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/edge_wallpaper" />
+        </service>
+
+        <activity
+            android:name=".Interface.Activity.Transferactivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/AppThemeFull" />
+        <activity
+            android:name=".Interface.Activity.ApplicationIntroActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/Theme.Intro" />
+        <activity
+            android:name=".LightWallpaperService.EdgeSettings"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".LightWallpaperService.Edge_NotchSetings"
+            android:configChanges="locale|orientation|screenSize"
+            android:fitsSystemWindows="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+        <activity
+            android:name=".LightWallpaperService.Edge_ImgSettings"
+            android:configChanges="locale|orientation|screenSize"
+            android:fitsSystemWindows="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+        <activity
+            android:name=".BrowserIntentReceiverActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.Translucent">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="mobilerechargehub.com"
+                    android:scheme="http" />
+                <data
+                    android:host="mobilerechargehub.com"
+                    android:scheme="https" />
+                <data
+                    android:host="macro.hd.wallpapers"
+                    android:scheme="4kwallpapers" />
+                <data
+                    android:host="macro.hd.wallpapers"
+                    android:scheme="craftwall" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Interface.Activity.LanguageChangeActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name="com.adjust.sdk.AdjustReferrerReceiver"
+            android:permission="android.permission.INSTALL_PACKAGES"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

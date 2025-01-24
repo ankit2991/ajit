@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sugest_update_title">Actualització disponible</string>
+    <string name="sugest_update_message">Nova actualització disponible a Google Play, si us plau actualitzeu la vostra versió</string>
+    <string name="force_update_title">Actualització disponible</string>
+    <string name="force_update_message">Nova actualització disponible a Google Play, si us plau actualitzeu la vostra versió</string>
+    <string name="update_ok">Actualitza</string>
+    <string name="update_no">Ara no</string>
+    <string name="app_name">#Missatges</string>
+    <string name="in_app_name">Missatges</string>
+    <string name="splash_app_name">Missatges SMS</string>
+    <string name="loading_msg">Si us plau, espereu...</string>
+    <string name="ads_loading_msg">Mostrant anunci...</string>
+    <string name="shortcut_compose_long_label">Nova conversa</string>
+    <string name="shortcut_compose_short_label">Redactar</string>
+    <string name="shortcut_compose_disabled_message">Accés directe desactivat</string>
+    <string name="title_archived">Missatges arxivats</string>
+    <string name="title_settings">Configuració</string>
+    <string name="title_notification_prefs">Notificacions</string>
+    <string name="title_theme">Tema</string>
+    <string name="title_conversations">Cerca números, noms i més</string>
+    <string name="title_compose">Escriviu un nom o un número de telèfon</string>
+    <string name="setup_skip">Omet</string>
+    <string name="setup_next">Continua</string>
+    <string name="menu_add_person">Afegir persona</string>
+    <string name="menu_call">Trucar</string>
+    <string name="menu_info">Detalls</string>
+    <string name="menu_save">Desar a la galeria</string>
+    <string name="menu_share">Compartir</string>
+    <string name="main_drawer_open_cd">Obrir el calaix de navegació</string>
+    <string name="main_title_selected">%d seleccionats</string>
+    <string name="main_menu_clear">Netejar</string>
+    <string name="main_menu_archive">Arxivar</string>
+    <string name="main_menu_unarchive">Desarxivar</string>
+    <string name="main_menu_delete">Eliminar</string>
+    <string name="main_menu_add_contact">Afegir als contactes</string>
+    <string name="main_menu_pin">Fixar a dalt</string>
+    <string name="main_menu_unpin">Desfixar</string>
+    <string name="main_menu_read">Marcar com llegit</string>
+    <string name="main_menu_unread">Marcar com no llegit</string>
+    <string name="select_all">Seleccionar tot</string>
+    <string name="deselect_all">Desseleccionar tot</string>
+    <string name="main_menu_block">Bloquejar</string>
+    <string name="main_syncing">Organitzant missatges...</string>
+    <string name="main_sender_you">Tu: %s</string>
+    <string name="main_draft">Esborrany: %s</string>
+    <string name="main_message_results_title">Resultats als missatges</string>
+    <string name="main_message_results">%d missatges</string>
+    <string name="inbox_empty_text">Les vostres converses apareixeran aquí</string>
+    <string name="inbox_search_empty_text">Sense resultats</string>
+    <string name="archived_empty_text">Encara no hi ha cap conversa arxivada...</string>
+    <string name="main_fab_cd">Començar nova conversa</string>
+    <string name="main_default_sms_title">Us agrada enviar missatges?</string>
+    <string name="main_default_sms_message">Feu de l\'aplicació d\'SMS la vostra aplicació d\'SMS per defecte</string>
+    <string name="main_default_sms_change">Canviar</string>
+    <string name="main_permission_required">Permís requerit</string>
+    <string name="main_permission_sms">L\'aplicació d\'SMS necessita permisos per enviar i veure missatges d\'SMS</string>
+    <string name="main_permission_contacts">L\'aplicació d\'SMS necessita permisos per veure els vostres contactes</string>
+    <string name="main_permission_allow">Permetre</string>
+    <string name="main_permission_allow_read">Permetre la lectura i l\'escriptura</string>
+    <string name="drawer_inbox">Safata d\'entrada</string>
+    <string name="drawer_archived">Arxivat</string>
+    <string name="drawer_scheduled">Missatges programats</string>
+    <string name="drawer_blocking">Llista de bloquejats</string>
+    <string name="drawer_calldorado">Configuració de trucades</string>
+    <string name="drawer_more">Més</string>
+    <string name="drawer_group">Missatge de grup</string>
+    <string name="drawer_settings">Configuració</string>
+    <string name="drawer_remove_ads">Eliminar anuncis</string>
+    <string name="drawer_help">Ajuda i comentaris</string>
+    <string name="drawer_invite">Convida amics</string>
+    <string name="dialog_delete_title">Eliminar</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Segur que voleu suprimir aquesta conversa?</item>
+        <item quantity="other">Segur que voleu suprimir %d converses?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Copiar text</item>
+        <item>Reenviar</item>
+        <item>Eliminar</item>
+    </string-array>
+    <string name="compose_number_picker_title">Trieu un número de telèfon</string>
+    <string name="compose_number_picker_default">%s ∙ Per defecte</string>
+    <string name="compose_number_picker_once">Només una vegada</string>
+    <string name="compose_number_picker_always">Sempre</string>
+    <string name="compose_title_selected">%d seleccionats</string>
+    <string name="compose_subtitle_results">%1$d de %2$d resultats</string>
+    <string name="contact_selected">%1$d de %2$d seleccionats</string>
+    <string name="compose_send_group_title">Enviar com a missatge de grup</string>
+    <string name="compose_send_group_summary">Els destinataris i les respostes seran visibles per a tothom</string>
+    <string name="compose_messages_empty">Inici de la vostra conversa. Digueu alguna cosa genial!</string>
+    <string name="compose_vcard_label">Targeta de contacte</string>
+    <string name="compose_scheduled_for">Programat per a</string>
+    <string name="compose_scheduled_future"> el temps ha de ser futur!</string>
+    <string name="compose_scheduled_toast">Afegit als missatges programats</string>
+    <string name="compose_hint">Escriviu aquí...</string>
+    <string name="compose_menu_copy">Copiar text</string>
+    <string name="compose_menu_forward">Reenviar</string>
+    <string name="compose_menu_delete">Eliminar</string>
+    <string name="compose_menu_previous">Anterior</string>
+    <string name="compose_menu_next">Següent</string>
+    <string name="compose_menu_clear">Netejar</string>
+    <string name="compose_details_title">Detalls del missatge</string>
+    <string name="compose_details_type">Tipus: %s</string>
+    <string name="compose_details_from">De: %s</string>
+    <string name="compose_details_to">Per a: %s</string>
+    <string name="compose_details_subject">Assumpte: %s</string>
+    <string name="compose_details_priority">Prioritat: %s</string>
+    <string name="compose_details_size">Mida: %s</string>
+    <string name="compose_details_sent">Enviat: %s</string>
+    <string name="compose_details_received">Rebut: %s</string>
+    <string name="compose_details_delivered">Lliurat: %s</string>
+    <string name="compose_details_error_code">Codi d\'error: %d</string>
+    <string name="compose_attach_cd">Afegir un fitxer adjunt</string>
+    <string name="compose_gallery_cd">Adjuntar una foto</string>
+    <string name="compose_camera_cd">Fer una foto</string>
+    <string name="compose_schedule_cd">Programar el missatge</string>
+    <string name="compose_contact_cd">Adjuntar un contacte</string>
+    <string name="compose_contact_error">Error en llegir el contacte</string>
+    <string name="compose_sim_cd">%s seleccionat, canviar la targeta SIM</string>
+    <string name="compose_send_cd">Enviar missatge</string>
+    <string name="message_status_sending">Enviant…</string>
+    <string name="message_status_delivered">Lliurat %s</string>
+    <string name="message_status_failed">No s\'ha pogut enviar</string>
+    <string name="info_title">Detalls del contacte</string>
+    <string name="info_copied_address">Adreça copiada</string>
+    <string name="info_name">Títol de la conversa</string>
+    <string name="info_notifications">Notificacions</string>
+    <string name="info_theme">Tema</string>
+    <string name="info_archive">Arxiu</string>
+    <string name="info_unarchive">Desarxiu</string>
+    <string name="info_block">Bloquejar</string>
+    <string name="info_unblock">Desbloquejar</string>
+    <string name="info_delete">Eliminar conversa</string>
+    <string name="gallery_error">No s\'ha pogut carregar els mitjans</string>
+    <string name="gallery_toast_saved">Desat a la galeria</string>
+    <string name="backup_title">Còpia de seguretat i restauració</string>
+    <string name="backup_backing_up">S\'estan fent còpies de seguretat dels missatges</string>
+    <string name="backup_restoring">S\'està restaurat des de la còpia de seguretat</string>
+    <string name="backup_last">Darrera còpia de seguretat</string>
+    <string name="backup_loading">Carregant…</string>
+    <string name="backup_never">Mai</string>
+    <string name="backup_restore_title">Restaurar</string>
+    <string name="backup_restore_summary">Seleccioneu una còpia de seguretat</string>
+    <string name="backup_restore_error_plus">Si us plau desbloquegeu SMS+ per utilitzar la còpia de seguretat i la restauració</string>
+    <string name="backup_restore_error_backup">Còpia de seguretat en curs…</string>
+    <string name="backup_restore_error_restore">Restauració en curs…</string>
+    <string name="backup_restore_confirm_title">Restaurar des de la còpia de seguretat</string>
+    <string name="backup_restore_confirm_message">Segur que voleu restaurar els vostres missatges d\'aquesta còpia de seguretat?</string>
+    <string name="backup_restore_stop_title">Atura la restauració</string>
+    <string name="backup_restore_stop_message">Els missatges que ja s\'han restaurat romandran al vostre dispositiu</string>
+    <string name="backup_restore_dialog_title">Còpies de seguretat</string>
+    <string name="backup_restore_dialog_summary">/SMS Messages/Còpies de seguretat</string>
+    <string name="backup_restore_dialog_empty">No s\'ha trobat cap còpia de seguretat</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">Cap missatge</item>
+        <item quantity="one">%d missatge</item>
+        <item quantity="other">%d missatges</item>
+    </plurals>
+    <string name="backup_disclaimer">Fins ara, només hem donat suport a la còpia de seguretat i la restauració de missatges SMS!</string>
+    <string name="backup_now">Còpia de seguretat</string>
+    <string name="backup_progress_parsing">Analitzant la còpia de seguretat…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d missatges</string>
+    <string name="backup_progress_saving">Desant la còpia de seguretat…</string>
+    <string name="backup_progress_syncing">Sincronitzant missatges…</string>
+    <string name="backup_progress_finished">Acabat!</string>
+    <string name="backup_notification_channel_name">Còpia de seguretat i restauració</string>
+    <string name="Message_notification_channel_name">Sincronització de missatges</string>
+    <string name="scheduled_title">Programats</string>
+    <string name="schedule_guide">Podeu programar un missatge fent clic al botó d\'adjunt que es troba a la pantalla de conversa de missatges.</string>
+    <string name="scheduled_empty_description">Envieu automàticament un missatge en el moment exacte que vulgueu</string>
+    <string name="scheduled_empty_message_1">Ei! Quan és el moment de celebrar?</string>
+    <string name="scheduled_empty_message_2">És el 5 de març</string>
+    <string name="scheduled_empty_message_3">Ei! Mira quin bon amic que sóc, celebrant el teu dia</string>
+    <string name="scheduled_empty_message_3_timestamp">Enviant el 5 de març</string>
+    <string name="scheduled_compose_cd">Programar un missatge</string>
+    <string name="scheduled_options_title">Missatges programats</string>
+    <string-array name="scheduled_options">
+        <item>Enviar ara</item>
+        <item>Copiar text</item>
+        <item>Eliminar</item>
+    </string-array>
+    <string name="settings_category_appearance">Aparença</string>
+    <string name="settings_category_general">General</string>
+    <string name="settings_categoryreply">Respondre</string>
+    <string name="settings_night_title">Mode nit</string>
+    <string name="settings_text_size_title">Mida de la font</string>
+    <string name="settings_notifications_title">Notificacions</string>
+    <string name="settings_notifications_o_summary">Feu clic per personalitzar</string>
+    <string name="settings_notification_actions_title">Accions</string>
+    <string name="settings_notification_action_1">Botó 1</string>
+    <string name="settings_notification_action_2">Botó 2</string>
+    <string name="settings_notification_action_3">Botó 3</string>
+    <string name="settings_notification_previews_title">Previsualitzacions de notificacions</string>
+    <string name="settings_notification_wake_title">Activar pantalla</string>
+    <string name="settings_vibration_title">Vibració</string>
+    <string name="settings_ringtone_title">So</string>
+    <string name="settings_ringtone_none">Cap</string>
+    <string name="settings_reply_title">Respondre</string>
+    <string name="settings_reply_summary">Finestra emergent per a nous missatges</string>
+    <string name="settings_reply_tap_dismiss_title">Toqueu per descartar</string>
+    <string name="settings_reply_tap_dismiss_summary">Toqueu fora de la finestra emergent per tancar-la</string>
+    <string name="settings_swipe_actions">Accions de lliscament</string>
+    <string name="settings_swipe_actions_right">Lliscar a la dreta</string>
+    <string name="settings_swipe_actions_left">Lliscar a l\'esquerra</string>
+    <string name="settings_swipe_actions_change">CANVIAR</string>
+    <string name="not_now_txt">Ara no</string>
+    <string name="process_title">Aquest procés trigarà una estona</string>
+    <string name="syncing_done">Sincronització de missatges acabada....</string>
+    <string name="all_set_txt">Tot a punt. Esteu llestos per començar</string>
+    <string name="Personal">Tots els missatges</string>
+    <string name="Other">Coneguts </string>
+    <string name="Spam">Brossa</string>
+    <string name="setting">Configuració</string>
+    <string name="Share">Compartir</string>
+    <string name="Rate">Valora\'ns</string>
+    <string name="edit">editar</string>
+    <string name="DarkMode">Mode fosc</string>
+    <string name="BrightMode">Mode clar</string>
+    <string name="Camera">Càmera</string>
+    <string name="Gallery">Galeria</string>
+    <string name="Gif">GIF</string>
+    <string name="Contact">Contacte</string>
+    <string name="Schedule">Programar</string>
+    <string name="Location">Ubicació</string>
+    <string name="Notes">Notes</string>
+    <string name="no_msg">Encara no hi ha missatges…</string>
+    <string name="Start_Chat">Inicia el xat</string>
+    <string name="Language">Idioma</string>
+    <string name="rate_text">Recomaneu-nos als altres valorant-nos a Google Play!</string>
+    <string name="sort_by">Ordena per</string>
+    <string-array name="settings_swipe_actions">
+        <item>Cap</item>
+        <item>Arxiva</item>
+        <item>Elimina</item>
+        <item>Truca</item>
+        <item>Marca com a llegit</item>
+        <item>Marca com a no llegit</item>
+    </string-array>
+    <string name="settings_mms_size_title">Auto-comprimir els fitxers adjunts de MMS</string>
+    <string name="settings_sync_title">Sincronitzar missatges</string>
+    <string name="settings_sync_summary">Torna a sincronitzar els teus missatges amb la base de dades de missatges SMS d\'Android</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Control de trucades</string>
+    <string name="blocking_manager_sia_title">Hauria de contestar?</string>
+    <string name="blocked_messages_title">Missatges bloquejats</string>
+    <string name="blocked_messages_empty">Els teus missatges bloquejats apareixeran aquí</string>
+    <string name="blocking_block_title">Bloquejar</string>
+    <string name="blocking_unblock_title">Desbloquejar</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">Continuar a %s i bloquejar aquest número</item>
+        <item quantity="other">Continuar a %s i bloquejar aquests números</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">Continuar a %s i permetre aquest número</item>
+        <item quantity="other">Continuar a %s i permetre aquests números</item>
+    </plurals>
+    <string name="widget_loading">Carregant…</string>
+    <string name="widget_more">Veure més converses</string>
+    <string name="qkreply_menu_read">Marcar com llegit</string>
+    <string name="qkreply_menu_call">Trucar</string>
+    <string name="qkreply_menu_delete">Eliminar</string>
+    <string name="qkreply_menu_expand">Mostrar més</string>
+    <string name="qkreply_menu_collapse">Mostrar menys</string>
+    <string name="qkreply_menu_view">Obre la conversa</string>
+    <string name="changelog_title">Nou a SMS</string>
+    <string name="changelog_version">Versió %s</string>
+    <string name="changelog_added">Afegit</string>
+    <string name="changelog_improved">Millorat</string>
+    <string name="changelog_fixed">Solucionat</string>
+    <string name="changelog_more">Més</string>
+    <string name="changelog_dismiss">Descartar</string>
+    <string-array name="notification_actions">
+        <item>Cap</item>
+        <item>Marcar com llegit</item>
+        <item>Respondre</item>
+        <item>Trucar</item>
+        <item>Eliminar</item>
+    </string-array>
+    <string name="button_yes">Sí</string>
+    <string name="button_continue">Continuar</string>
+    <string name="button_cancel">Cancel·lar</string>
+    <string name="button_delete">Eliminar</string>
+    <string name="button_save">Guardar</string>
+    <string name="button_stop">Atura</string>
+    <string name="button_more">Més</string>
+    <string name="button_set">Establir</string>
+    <string name="button_undo">Desfer</string>
+    <string name="toast_copied">Copiat</string>
+    <string name="toast_archived">Conversa arxivada</string>
+    <string name="toast_sms_plus">Has de desbloquejar SMS+ per utilitzar això</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Nou missatge</item>
+        <item quantity="other">%s nous missatges</item>
+    </plurals>
+    <string name="notification_message_failed_title">Missatge no enviat</string>
+    <string name="notification_message_failed_text">El missatge a %s no s\'ha pogut enviar</string>
+    <string name="privacy_policy">Política de privacitat</string>
+    <string name="pocket_data_on">Les dades de butxaca han d\'estar enceses mentre s\'envia MMS !</string>
+    <string name="inapp_details" translatable="false">Per eliminar anuncis, prova la subscripció premium amb suport per al mode fosc-clar\nSuport per a missatges programats.</string>
+    <string name="drawer_removeAds">Elimina els anuncis</string>
+    <string name="in_app_ads">missatges_rad</string>
+    <string name="dialog_delete_message">Estàs segur que vols eliminar aquest missatge?</string>
+    <string name="compose_bar_not_support">El remitent no admet respostes</string>
+    <string name="default_name">Per enviar o rebre un SMS, has de configurar-lo com a aplicació per defecte. Vols que el missatge esdevingui la teva aplicació per defecte?</string>
+    <string name="confirm_delete">Confirmar l\'eliminació</string>
+    <string name="confirm_delete_text">Estàs segur que vols eliminar aquesta nota?</string>
+    <string name="title">Títol</string>
+    <string name="note">Nota</string>
+    <string name="search">Cerca</string>
+    <string name="settings">Configuració</string>
+    <string name="share_to">Compartir a:</string>
+    <string name="sort">Ordena</string>
+    <string name="empty_list_text">Prem el botó de la part inferior dreta per afegir una nota nova!</string>
+    <string name="new_note">Nota nova</string>
+    <string name="undo">Desfer</string>
+    <string name="delete">Eliminar</string>
+    <string name="exception">Excepció:</string>
+    <string name="edit_note">Editar nota</string>
+    <string name="drawer_feedback">Enviar comentaris</string>
+    <string name="drawer_mode">Mode clar</string>
+    <string name="unlimited_access_user">Accés il·limitat \na totes les funcions</string>
+    <string name="pro_user">Ets un usuari Premium</string>
+    <string name="sub_info_text"><b>La subscripció es renova automàticament fins que la desactives.</b></string>
+    <string name="cancel_purchase">Pots cancel·lar les renovacions automàtiques de la subscripció a Subscripció a Google Play</string>
+    <string name="remove_ads">Elimina els anuncis</string>
+    <string name="no_ads">Sense anuncis</string>
+    <string name="free_trial">Prova gratuïta de 7 dies, després es renova automàticament</string>
+    <string name="can_not_talk_right_now">Ho sento, ara no puc parlar</string>
+    <string name="can_call_you_later">Puc trucar-te més tard?</string>
+    <string name="i_am_on_my_way">Estic en camí</string>
+    <string name="write_personal_message">Escriu un missatge personal</string>
+    <string name="create_reminder">Crea un nou recordatori</string>
+    <string name="remind_me_about">Recorda\'m sobre</string>
+    <string name="no_title">Sense títol</string>
+    <string name="edit_contact">Editar contacte</string>
+    <string name="add_contact">Afegir contacte</string>
+    <string name="messages">Missatges</string>
+    <string name="send_mail">Envia correu</string>
+    <string name="calendar">Calendari</string>
+    <string name="web">Web</string>
+    <string-array name="night_modes">
+        <item>Sistema</item>
+        <item>Mode clar</item>
+        <item>Mode fosc</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>Mostrar nom i missatge</item>
+        <item>Mostrar nom</item>
+        <item>Ocultar contingut</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>Pequeña</item>
+        <item>Normal</item>
+        <item>Grande</item>
+        <item>Más grande</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>Sense retard</item>
+        <item>Curt</item>
+        <item>Mitjà</item>
+        <item>Llarg</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Automàtic</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>Sense compressió</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>D\'acord</item>
+        <item>Dóna\'m un moment</item>
+        <item>Estic de camí</item>
+        <item>Gràcies</item>
+        <item>Sona bé</item>
+        <item>Què passa?</item>
+        <item>D\'acord</item>
+        <item>No</item>
+        <item>T\'estimo</item>
+        <item>Ho sento</item>
+        <item>JAJA</item>
+        <item>No passa res</item>
+    </string-array>
+    <string name="default_title">Permetre que l\'aplicació d\'SMS sigui l\'aplicació per defecte</string>
+    <string name="set_as_defaault">Establir com a per defecte</string>
+    <string name="love_app_title">Fer de l\'aplicació d\'SMS la teva aplicació predeterminada</string>
+    <string-array name="gif">
+        <item>Cara d\'animal</item>
+        <item>Emoji</item>
+        <item>Fruites i verdures</item>
+        <item>Halloween</item>
+        <item>Amor</item>
+    </string-array>
+    <string name="Sticker">Adhesiu</string>
+    <string name="no_connection">Sense connexió a internet.</string>
+    <string-array name="sticker">
+        <item>Noi</item>
+        <item>Dibuix animat</item>
+        <item>Cara</item>
+        <item>Festival</item>
+        <item>Fruita</item>
+        <item>Diversió</item>
+        <item>Noia</item>
+        <item>Adhesiu d\'amor</item>
+        <item>Altres</item>
+        <item>Cadell</item>
+    </string-array>
+    <string name="open_link_to_browser">Obre l\'enllaç al navegador</string>
+    <string name="battery_dialog"> No vols perdre missatges importants? \nDesactiva l\'optimització de la bateria</string>
+    <string name="reason_to_change_battery_optimization_setting">Vés a Informació de l\'aplicació &gt; Avançat &gt; Optimització de la bateria \ni selecciona "No optimitzar"</string>
+    <string name="feedback_txt">Explica\'ns la teva experiència i dóna\'ns suggeriments per millorar l\'aplicació de missatges.</string>
+    <string name="reason_to_change_battery"> Avançat &gt; Optimització de la bateria &gt; "No optimitzar"</string>
+    <string name="drawer_transaction">Transaccions</string>
+    <string name="drawer_promotion">Promocions</string>
+    <string name="unknown">Desconegut </string>
+    <string name="priva"><u>Política de privacitat</u></string>
+    <string name="smsfilter">Filtre d\'SMS</string>
+    <string name="by_click_t_c" translatable="false"><u>Fent clic acceptes els nostres Termes i Condicions.</u></string>
+    <string name="continue_without_sub"><u>Continuar sense subscripció</u></string>
+    <string name="text_free_trial">Gaudiu d\'una prova gratuïta de %s dies - Després %s € / mes</string>
+    <string name="calldorado_message">Comprova tots els teus <b>missatges</b> abans de finalitzar la trucada! Hi ha novetats</string>
+    <string name="privacy_terms_description">En continuar, accepteu i aprovau els termes d\'ús i la política de privadesa.</string>
+    <string name="draw_over_description"><![CDATA[Per mostrar-se a sobre d\'altres aplicacions els nostres missatges SMS. Rebreu tot el potencial dels nostres widgets de trucades i molt més]]></string>
+    <string name="ad_label">ANUNCI</string>
+    <string name="onboarding_continue_button">Continua</string>
+    <string name="onboarding_step_1_title">Gestor d\'SMS i missatgeria</string>
+    <string name="onboarding_step_1_subtitle">Xateja amb amics, crea grups i organitza la safata d\'entrada</string>
+    <string name="onboarding_step_1_hight_light">Un enfocament únic per a tu</string>
+    <string name="onboarding_step_2_title">Organitza i guarda missatges</string>
+    <string name="onboarding_step_2_subtitle">Fes una còpia de seguretat i restaura els teus missatges</string>
+    <string name="onboarding_step_2_hight_light">Milers d\'usuaris els agrada</string>
+    <string name="onboarding_step_3_title">Gaudiu de la vida i deixa\'ns que ens ocupem de la safata d\'entrada</string>
+    <string name="onboarding_step_3_subtitle">Accepta els permisos perquè puguem ajudar-te a gestionar la safata d\'entrada.</string>
+    <string name="onboarding_step_3_hight_light">Potser més tard</string>
+    <string name="onboarding_allow_access_button">Permetre l\'accés</string>
+    <string name="onboarding_step_4_title">Millora la teva bateria deixant-nos fer la feina</string>
+    <string name="onboarding_step_4_subtitle">Ens encarregarem de les interrupcions molestes de missatges SMS.</string>
+    <string name="onboarding_step_4_hight_light">Milers d\'usuaris els agrada</string>
+    <string name="onboarding_step_5_title">Treballa en pantalla dividida en altres aplicacions mentre xateges</string>
+    <string name="onboarding_step_5_subtitle">Gaudeix del nostre increïble widget de trucades que et permet fer multitasca</string>
+    <string name="onboarding_step_5_hight_light">Milers d\'usuaris els agrada</string>
+    <string name="payment_card_title">Xateja ara!</string>
+    <string name="payment_card_price"><![CDATA[3 dies gratuïts, %s / %s]]></string>
+    <string name="payment_card_button">Prova ara gratuïtament</string>
+    <string name="payment_card_hight_light">Segur amb Google Play</string>
+    <string name="payment_card_weekly">setmanal</string>
+    <string name="payment_card_monthly">mensual</string>
+    <string name="payment_card_yearly">anual</string>
+    <string name="payment_card_auto_renew">subscripció renovable automàticament, cancel·la en qualsevol moment</string>
+    <string name="accessibility_service_description">La descripció del vostre servei d\'accessibilitat</string>
+    <string name="permission_txt"><font color="#FF8A00">Permís requerit:</font>\nLlegir l\'estat del telèfon i superposar-se a altres aplicacions</string>
+    <string name="opt_privacy">En continuar, accepteu i aprovau els termes d\'ús i la política de privadesa.</string>
+    <string name="permission_required">Permisos necessaris</string>
+    <string name="permission_dialog_body">Aquesta aplicació pot no funcionar correctament sense el permís del telèfon. Seguiu les instruccions següents per habilitar-lo:\n\n1. Seleccioneu "Permisos"\n2. Cerqueu "Telèfon" a la llista de permisos i toqueu per habilitar</string>
+    <string name="go_premium">Fes-te <font color = "#FFE600">premium!</font></string>
+    <string name="unlock_everything">Desbloqueja-ho tot i sense anuncis</string>
+    <string name="start_three_day">Comença la prova gratuïta de 3 dies</string>
+    <string name="pro">Pro</string>
+    <string name="more_option">Més opcions</string>
+    <string name="rate_us_5">Valora\'ns amb 5 estrelles</string>
+    <string name="help_feedback">Ajuda i comentaris</string>
+    <string name="send_message">Envia missatge</string>
+    <string name="CTA_Button_Text">Toqueu per desbloquejar totes les <font color="#FFFBCD04">funcionalitats</font></string>
+</resources>

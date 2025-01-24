@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Photo Editor</string>
+    <string name="feedback">Rückmeldung</string>
+
+    <string name="tap_to_select">Zum Auswählen tippen</string>
+    <string name="sharpen">Schärfen</string>
+
+    <string name="brightness">Helligkeit</string>
+    <string name="camera">Kamera</string>
+    <string name="dialog_discard_title">Änderungen werden nicht gespeichert. Willst du fortfahren?</string>
+    <string name="discard">Verwerfen</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="collage">Collage</string>
+    <string name="contrast">Kontrast</string>
+
+
+    <string name="rate_us">Bewerten Sie uns</string>
+    <string name="rating_dialog_feedback_title">Rückmeldung</string>
+    <string name="rating_dialog_maybe_later">Vielleicht später</string>
+    <string name="rating_dialog_submit">einreichen</string>
+    <string name="rating_promote">Wenn Camera Photo Editor Pro Sie glücklich und zufrieden macht. Bitte gib uns 5 Sterne</string>
+
+    <string name="saturation">Sättigung</string>
+    <string name="save">SPEICHERN</string>
+    <string name="save_and_share">Speichern und teilen</string>
+
+
+    <string name="settings">Mehr</string>
+    <string name="share_friend">App teilen</string>
+    <string name="share_photo">Foto teilen</string>
+
+    <string name="thank_you_2">Einen schönen Tag noch</string>
+    <string name="thank_you">Den Kontakt halten</string>
+    <string name="press_back">Bitte drücken Sie zum Beenden erneut zurück</string>
+    <string name="agree_to_continue">Zustimmen, fortzufahren</string>
+    <string name="privacy_policy">Datenschutz-Bestimmungen</string>
+    <string name="gallery">Galerie</string>
+    <string name="crop">Ernte</string>
+    <string name="adjust">Anpassen</string>
+    <string name="filters">Filter</string>
+    <string name="overlay">Überlagerung</string>
+    <string name="sticker">Aufkleber</string>
+    <string name="brush">Bürste</string>
+    <string name="fit">Fit</string>
+    <string name="blur">Verwischen</string>
+    <string name="splas">Spritzen</string>
+    <string name="beauty_tool">Schönheit</string>
+    <string name="layout">Layout</string>
+    <string name="border">Grenze</string>
+    <string name="ratio">Verhältnis</string>
+    <string name="bg">Hintergrund</string>
+</resources>

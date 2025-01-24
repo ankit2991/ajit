@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E8E8E8"
+    android:padding="12dp"
+    android:id="@+id/maxAdContainer">
+
+
+    <FrameLayout
+        android:id="@+id/nativeAdContainer"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewRectangleNative"
+        android:text="Loading Ad"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:textColor="@color/black"
+        />
+</RelativeLayout>

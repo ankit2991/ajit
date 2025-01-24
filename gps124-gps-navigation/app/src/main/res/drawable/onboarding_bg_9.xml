@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Image -->
+    <item>
+        <bitmap
+            android:src="@drawable/onboarding_9"
+            android:tileMode="disabled"/>
+    </item>
+    <!-- Top Gradient Overlay -->
+    <item android:gravity="top">
+        <inset
+            android:insetBottom="0dp"
+            android:insetTop="0dp"
+            android:insetLeft="0dp"
+            android:insetRight="0dp"
+            android:drawable="@drawable/onboarding_top_gradient">
+        </inset>
+    </item>
+    <!-- Bottom Gradient Overlay -->
+    <item android:gravity="bottom">
+        <inset
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:insetLeft="0dp"
+            android:insetRight="0dp"
+            android:drawable="@drawable/onboarding_bottom_gradient">
+        </inset>
+    </item>
+</layer-list>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="25dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_logo_clip"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/translator_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_cross_clip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/iv_logo_clip"
+            app:srcCompat="@drawable/ic_cross_dlg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/in_app_name"
+            android:textColor="#3375FD"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_logo_clip"
+            app:layout_constraintEnd_toStartOf="@+id/iv_cross_clip"
+            app:layout_constraintStart_toEndOf="@+id/iv_logo_clip"
+            app:layout_constraintTop_toTopOf="@+id/iv_logo_clip"
+            app:layout_constraintVertical_bias="0.13999999" />
+
+
+        <ImageView
+            android:id="@+id/iv_speaker_clip_src"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:padding="8dp"
+            app:layout_constraintStart_toStartOf="@+id/iv_logo_clip"
+            app:layout_constraintTop_toBottomOf="@+id/iv_logo_clip"
+            app:srcCompat="@drawable/ic_speaker_clip"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_clip_lang_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="English"
+            android:textColor="#7e7e7e"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_speaker_clip_src"
+            app:layout_constraintStart_toEndOf="@+id/iv_speaker_clip_src"
+            app:layout_constraintTop_toTopOf="@+id/iv_speaker_clip_src"
+
+            />
+
+        <ScrollView
+            android:id="@+id/sv_clip_input"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:minHeight="80dp"
+            app:layout_constraintEnd_toStartOf="@+id/iv_cross_clip"
+            app:layout_constraintStart_toStartOf="@+id/iv_speaker_clip_src"
+            app:layout_constraintTop_toBottomOf="@+id/iv_speaker_clip_src">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <TextView
+                    android:id="@+id/tv_clip_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/label_set_conversation_name"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/iv_clip_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sv_clip_input"
+            app:srcCompat="@drawable/ic_baseline_swap_vertical_circle_24" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0.7dp"
+            android:background="#dfdfdf"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_clip_switch"
+            app:layout_constraintEnd_toStartOf="@+id/iv_clip_switch"
+            app:layout_constraintStart_toStartOf="@+id/sv_clip_input"
+            app:layout_constraintTop_toTopOf="@+id/iv_clip_switch" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0.7dp"
+            android:background="#dfdfdf"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_clip_switch"
+            app:layout_constraintEnd_toEndOf="@+id/sv_clip_input"
+            app:layout_constraintStart_toEndOf="@+id/iv_clip_switch"
+            app:layout_constraintTop_toTopOf="@+id/iv_clip_switch" />
+
+        <ImageView
+            android:id="@+id/iv_speaker_clip_tar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:padding="8dp"
+            app:layout_constraintStart_toStartOf="@+id/iv_logo_clip"
+            app:layout_constraintTop_toBottomOf="@+id/iv_clip_switch"
+            app:srcCompat="@drawable/ic_speaker_clip" />
+
+        <Spinner
+            android:id="@+id/spinner_lang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:padding="0dp"
+            android:spinnerMode="dropdown"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_speaker_clip_tar"
+            app:layout_constraintEnd_toEndOf="@+id/sv_clip_input"
+            app:layout_constraintStart_toEndOf="@+id/iv_speaker_clip_tar"
+            app:layout_constraintTop_toTopOf="@+id/iv_speaker_clip_tar" />
+
+        <ScrollView
+            android:id="@+id/sv_clip_output"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:minHeight="80dp"
+            app:layout_constraintEnd_toStartOf="@+id/iv_cross_clip"
+            app:layout_constraintStart_toStartOf="@+id/iv_speaker_clip_tar"
+            app:layout_constraintTop_toBottomOf="@+id/iv_speaker_clip_tar">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <ProgressBar
+                    android:id="@+id/progress_clip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_clip_output"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#3375FD"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/tv_clip_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="5dp"
+            android:text="@string/label_clip_clear"
+            android:textColor="#3375FD"
+            android:textSize="17sp"
+            app:layout_constraintStart_toStartOf="@+id/sv_clip_output"
+            app:layout_constraintTop_toBottomOf="@+id/sv_clip_output"
+
+            />
+
+        <ImageView
+            android:id="@+id/iv_more_clip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="@+id/sv_clip_output"
+            app:layout_constraintTop_toBottomOf="@+id/sv_clip_output"
+            app:srcCompat="@drawable/ic_more_clip" />
+
+        <ImageView
+            android:id="@+id/iv_copy_clip_translation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/iv_more_clip"
+            app:srcCompat="@drawable/ic_copy_clip" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

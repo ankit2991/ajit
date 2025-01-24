@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_15sdp"
+    android:background="?attr/defaultbg"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/_7sdp"
+    android:paddingTop="@dimen/_7sdp"
+    android:paddingRight="@dimen/_7sdp"
+    android:paddingBottom="@dimen/_7sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/image"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.messaging.textrasms.manager.common.widget.QkTextView
+                    android:id="@+id/snackbarTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:paddingTop="10dp"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@id/snackbarMessage"
+                    app:layout_constraintEnd_toStartOf="@id/snackbarlayout"
+                    app:layout_constraintHorizontal_bias="0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:text="@string/main_default_sms_title" />
+
+                <com.messaging.textrasms.manager.common.widget.QkTextView
+                    android:id="@+id/snackbarMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginTop="2dp"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/snackbarlayout"
+                    app:layout_constraintHorizontal_bias="0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:text="@string/love_app_title" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/snackbarlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/top_layout"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_toLeftOf="@+id/image"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.messaging.textrasms.manager.common.widget.QkTextView
+                android:id="@+id/snackbarButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"
+                android:textAllCaps="true"
+                android:textColor="@color/tools_theme"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/snackbarMessage"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/snackbarTitle"
+                app:textColor="theme"
+                tools:text="@string/main_default_sms_change" />
+
+            <com.messaging.textrasms.manager.common.widget.QkTextView
+                android:id="@+id/notnow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="@dimen/_8sdp"
+                android:singleLine="true"
+                android:textAllCaps="true"
+                android:textColor="@color/tools_theme"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                tools:text="@string/not_now_txt" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_1sdp"
+            android:padding="@dimen/_8sdp"
+            android:src="@drawable/image" />
+    </RelativeLayout>
+</LinearLayout>

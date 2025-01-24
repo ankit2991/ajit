@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundpurchase"
+   >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/card_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+<!--
+        <ScrollView
+            android:id="@+id/scrl_content"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/card_background"
+            app:layout_constraintBottom_toTopOf="@+id/btn_continue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/card_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/btn_continue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lan_anim"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitCenter"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_unlock"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="step4.json"
+                app:lottie_loop="true"
+                app:lottie_speed="1" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gdl_onboarding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.55" />
+
+            <TextView
+                android:id="@+id/tv_desc1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="24dp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/arial_bold"
+                android:text="@string/purchase_reason_1"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lan_anim" />
+
+            <TextView
+                android:id="@+id/tv_desc2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="24dp"
+                android:fontFamily="@font/arial_bold"
+                android:text="@string/purchase_reason_2"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_desc1" />
+
+            <TextView
+                android:id="@+id/tv_desc3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/arial_bold"
+                android:text="@string/purchase_reason_3"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@+id/tv_ads"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_desc2"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="33dp"
+                android:layout_marginEnd="16dp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/arial_bold"
+                android:text="@string/gain_access"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toStartOf="@+id/imageView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="12dp"
+                android:src="@drawable/onboarding_purchase"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_unlock"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/arial_bold"
+                android:text="@string/unlock_the_ad_free_experience"
+                android:textColor="#3375FD"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+            <TextView
+                android:id="@+id/tv_ads"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="14dp"
+                android:fontFamily="@font/arial"
+                android:text="@string/u_continue_with_ads_u"
+                android:textColor="#939292"
+                app:layout_constraintBottom_toTopOf="@+id/tv_price"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/weekly_price"
+                android:textColor="#9a9a9a"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+<!--        </ScrollView>-->
+
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/onboarding_button"
+            android:fontFamily="@font/arial_bold"
+            android:minHeight="70dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="36dp"
+            android:text="@string/try_now_free"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/policies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:fontFamily="@font/arial_bold"
+        android:text="@string/privacy_policies"
+        android:textColor="#9696969C"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/terms"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraint1" />
+
+    <TextView
+        android:id="@+id/terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:fontFamily="@font/arial_bold"
+        android:text="@string/terms_amp_conditions"
+        android:textColor="#9696969C"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/policies"
+        app:layout_constraintTop_toBottomOf="@+id/constraint1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

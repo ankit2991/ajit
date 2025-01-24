@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/my_background"
+    tools:ignore="MissingDefaultResource">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/app_bar">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <LinearLayout
+                android:paddingLeft="@dimen/setting_row_w_height"
+                android:paddingRight="@dimen/setting_row_w_height"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="@dimen/setting_height"
+                android:background="?android:attr/selectableItemBackground"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_marginRight="@dimen/setting_img_margin"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="@dimen/setting_img_w"
+                    android:layout_height="@dimen/setting_img_height"
+                    android:src="@mipmap/ic_push_notification"
+                    app:tint="?attr/my_textColor" />
+                <TextView
+                    android:id="@+id/nav_push_notification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/baloobhai"
+                    android:gravity="center_vertical"
+                    android:text="@string/label_push_nitification"
+                    android:textColor="?attr/my_textColor"
+                    android:textSize="@dimen/setting_text_size" />
+
+                <Switch
+                    android:id="@+id/check_push_notification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true" />
+            </LinearLayout>
+
+            <View
+                android:layout_marginRight="@dimen/value_12"
+                android:layout_marginLeft="@dimen/value_12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:visibility="gone"
+                android:background="?attr/setting_devider"  />
+
+            <LinearLayout
+                android:paddingLeft="@dimen/setting_row_w_height"
+                android:paddingRight="@dimen/setting_row_w_height"
+                android:id="@+id/ll_cc"
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="@dimen/setting_height"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_marginRight="@dimen/setting_img_margin"
+                    android:layout_gravity="center_vertical"
+                    android:scaleType="centerCrop"
+                    android:layout_width="@dimen/setting_img_w"
+                    android:layout_height="@dimen/setting_img_height"
+                    app:tint="?attr/my_textColor"
+                    android:src="@mipmap/ic_cc"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/tv_cc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/baloobhai"
+                        android:gravity="center_vertical"
+                        android:text="@string/label_cc"
+                        android:textColor="?attr/my_textColor"
+                        android:textSize="@dimen/setting_text_size" />
+
+                    <TextView
+                        android:id="@+id/tv_cc1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/baloobhai"
+                        android:textSize="@dimen/small_text_size"
+                        android:text="Remove thumbnail cache from storage."
+                        android:textColor="?attr/my_textColor" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginRight="@dimen/value_12"
+                android:layout_marginLeft="@dimen/value_12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:visibility="gone"
+                android:background="?attr/setting_devider"  />
+
+                <LinearLayout
+                    android:paddingLeft="@dimen/setting_row_w_height"
+                    android:paddingRight="@dimen/setting_row_w_height"
+                    android:id="@+id/ll_notwork"
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_height="@dimen/setting_height"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true">
+
+                    <ImageView
+                        android:layout_marginRight="@dimen/setting_img_margin"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="@dimen/setting_img_w"
+                        android:scaleType="centerCrop"
+                        app:tint="?attr/my_textColor"
+                        android:layout_height="@dimen/setting_img_height"
+                        android:src="@mipmap/ic_help"/>
+                    <LinearLayout
+                        android:layout_width="match_parent" android:orientation="vertical"
+                        android:layout_height="wrap_content">
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:id="@+id/nav_live_not_work"
+                        android:fontFamily="@font/baloobhai"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/menu_wallpaper_not_working"
+                        android:textColor="?attr/my_textColor"
+                        android:textSize="@dimen/setting_text_size" />
+
+                        <TextView
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:fontFamily="@font/baloobhai"
+                            android:layout_height="wrap_content"
+                            android:text="@string/menu_wallpaper_not_working_sub"
+                            android:textColor="?attr/my_textColor"
+                            android:textSize="@dimen/small_text_size" />
+                    </LinearLayout>
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?attr/setting_devider"
+                    android:visibility="gone"/>
+
+                <LinearLayout
+                    android:paddingLeft="@dimen/setting_row_w_height"
+                    android:paddingRight="@dimen/setting_row_w_height"
+                    android:id="@+id/ll_apptour"
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_height="@dimen/setting_height"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true">
+
+                    <ImageView
+                        android:layout_marginRight="@dimen/setting_img_margin"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="@dimen/setting_img_w"
+                        android:scaleType="centerCrop"
+                        app:tint="?attr/my_textColor"
+                        android:layout_height="@dimen/setting_img_height"
+                        android:src="@mipmap/ic_app_tour"/>
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:id="@+id/nav_app_tour"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/baloobhai"
+                        android:layout_height="wrap_content"
+                        android:text="@string/menu_app_tour"
+                        android:textColor="?attr/my_textColor"
+                        android:textSize="@dimen/setting_text_size" />
+                </LinearLayout>
+                <View
+                    android:layout_marginRight="@dimen/value_12"
+                    android:layout_marginLeft="@dimen/value_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:visibility="gone"
+                    android:background="?attr/setting_devider" />
+
+
+                <LinearLayout
+                android:paddingLeft="@dimen/setting_row_w_height"
+                android:paddingRight="@dimen/setting_row_w_height"
+                android:id="@+id/ll_feedback"
+                android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_height="@dimen/setting_height"
+                    android:background="?android:attr/selectableItemBackground"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_marginRight="@dimen/setting_img_margin"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="@dimen/setting_img_w"
+                    android:scaleType="centerCrop"
+                    app:tint="?attr/my_textColor"
+                    android:layout_height="@dimen/setting_img_height"
+                    android:src="@mipmap/ic_feedback"/>
+                <TextView
+                    android:id="@+id/nav_sendfeedback"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/menu_feedback"
+                    android:fontFamily="@font/baloobhai"
+                    android:gravity="center_vertical"
+                    android:textColor="?attr/my_textColor"
+                    android:textSize="@dimen/setting_text_size" />
+            </LinearLayout>
+
+            <View
+                android:layout_marginRight="@dimen/value_12"
+                android:layout_marginLeft="@dimen/value_12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:visibility="gone"
+                android:background="?attr/setting_devider" />
+
+            <LinearLayout
+                android:paddingLeft="@dimen/setting_row_w_height"
+                android:paddingRight="@dimen/setting_row_w_height"
+                android:id="@+id/ll_privacy"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="@dimen/setting_height"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_marginRight="@dimen/setting_img_margin"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="@dimen/setting_img_w"
+                    android:scaleType="centerCrop"
+                    app:tint="?attr/my_textColor"
+                    android:layout_height="@dimen/setting_img_height"
+                    android:src="@mipmap/ic_privacy"/>
+
+                <TextView
+                    android:id="@+id/nav_privacy_policy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/menu_policy"
+                    android:gravity="center_vertical"
+                    android:fontFamily="@font/baloobhai"
+                    android:textColor="?attr/my_textColor"
+                    android:textSize="@dimen/setting_text_size" />
+            </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:visibility="gone"
+                    android:background="?attr/setting_devider"  />
+                <LinearLayout
+                    android:paddingLeft="@dimen/setting_row_w_height"
+                    android:paddingRight="@dimen/setting_row_w_height"
+                    android:id="@+id/ll_about_us"
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_height="@dimen/setting_height"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true">
+
+                    <ImageView
+                        android:layout_marginRight="@dimen/setting_img_margin"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="@dimen/setting_img_w"
+                        android:scaleType="centerCrop"
+                        app:tint="?attr/my_textColor"
+                        android:layout_height="@dimen/setting_img_height"
+                        android:src="@mipmap/ic_about"/>
+
+                    <TextView
+                        android:id="@+id/nav_about_us"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/menu_about_us"
+                        android:gravity="center_vertical"
+                        android:textColor="?attr/my_textColor"
+                        android:fontFamily="@font/baloobhai"
+                        android:textSize="@dimen/setting_text_size" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:visibility="gone"
+                    android:background="?attr/setting_devider"  />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

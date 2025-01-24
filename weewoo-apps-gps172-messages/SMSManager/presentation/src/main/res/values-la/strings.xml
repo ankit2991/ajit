@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sugest_update_title">Nova versio disponibilis</string>
+    <string name="sugest_update_message">Nova versio in Google Play disponibilis est, versionem tuam commuta</string>
+    <string name="force_update_title">Nova versio disponibilis</string>
+    <string name="force_update_message">Nova versio in Google Play disponibilis est, versionem tuam commuta</string>
+    <string name="update_ok">Commuto</string>
+    <string name="update_no">Nunc non</string>
+    <string name="app_name">#Messagia</string>
+    <string name="in_app_name">Messagia</string>
+    <string name="splash_app_name">Messagia SMS</string>
+    <string name="loading_msg">Exspecta...</string>
+    <string name="ads_loading_msg">Ad Demonstration...</string>
+    <string name="shortcut_compose_long_label">Nova conversatio</string>
+    <string name="shortcut_compose_short_label">Componere</string>
+    <string name="shortcut_compose_disabled_message">Conscissio desit</string>
+    <string name="title_archived">Messagia Archivata</string>
+    <string name="title_settings">Settitiones</string>
+    <string name="title_notification_prefs">Notationes</string>
+    <string name="title_theme">Temperamentum</string>
+    <string name="title_conversations">Numeros, nomina &amp; plura quaerere</string>
+    <string name="title_compose">Nomen vel numerum telephoni scribe</string>
+    <string name="setup_skip">Omitte</string>
+    <string name="setup_next">Perge</string>
+    <string name="menu_add_person">Addere personam</string>
+    <string name="menu_call">Telephonare</string>
+    <string name="menu_info">Detalium</string>
+    <string name="menu_save">Ad cistellam serva</string>
+    <string name="menu_share">Communica</string>
+    <string name="main_drawer_open_cd">Patefac navigationem claustram</string>
+    <string name="main_title_selected">%d lecti</string>
+    <string name="main_menu_clear">Claudere</string>
+    <string name="main_menu_archive">Archivare</string>
+    <string name="main_menu_unarchive">Exarchivare</string>
+    <string name="main_menu_delete">Deletare</string>
+    <string name="main_menu_add_contact">Ad contactus addere</string>
+    <string name="main_menu_pin">Supra adfixum</string>
+    <string name="main_menu_unpin">Adfixum removere</string>
+    <string name="main_menu_read">Legi signa</string>
+    <string name="main_menu_unread">Legere insignia</string>
+    <string name="select_all">Omnia eligere</string>
+    <string name="deselect_all">Nihil eligere</string>
+    <string name="main_menu_block">Obstruere</string>
+    <string name="main_syncing">Messagia ordiatur...</string>
+    <string name="main_sender_you">Tu: %s</string>
+    <string name="main_draft">Exemplar: %s</string>
+    <string name="main_message_results_title">Rerum in messagiis effectus</string>
+    <string name="main_message_results">%d messagia</string>
+    <string name="inbox_empty_text">Tuae conversationes hic apparebunt</string>
+    <string name="inbox_search_empty_text">Nulli effectus</string>
+    <string name="archived_empty_text">Adhuc nullae conversationes archivatae..</string>
+    <string name="main_fab_cd">Incohare novam conversationem</string>
+    <string name="main_default_sms_title">Messagia amas ?</string>
+    <string name="main_default_sms_message">Messagia tuam defaltam app SMS fac</string>
+    <string name="main_default_sms_change">Commutare</string>
+    <string name="main_permission_required">Permissio postulatur</string>
+    <string name="main_permission_sms">SMS necessitat permissum ad mittere et inspicere messagia SMS</string>
+    <string name="main_permission_contacts">SMS necessitat permissum ad tuos contactus inspicere</string>
+    <string name="main_permission_allow">Permittere</string>
+    <string name="main_permission_allow_read">Permittere Lege et Scribitionis Permissum</string>
+    <string name="drawer_inbox">Inscrotabulum</string>
+    <string name="drawer_archived">Archivata</string>
+    <string name="drawer_scheduled">Messagia Programmate</string>
+    <string name="drawer_blocking">Index Obstructionis</string>
+    <string name="drawer_calldorado">Caller Settitiones</string>
+    <string name="drawer_more">Plus</string>
+    <string name="drawer_group">Conversatio gregis</string>
+    <string name="drawer_settings">Settitiones</string>
+    <string name="drawer_remove_ads">Ads Tollere</string>
+    <string name="drawer_help">Auxilium &amp; responsio</string>
+    <string name="drawer_invite">Amicos invita</string>
+    <string name="dialog_delete_title">Deletare</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Certusne es hoc colloquium delere?</item>
+        <item quantity="other">Certusne es %d colloquia delere?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Exemplum textus</item>
+        <item>Proferre</item>
+        <item>Delere</item>
+    </string-array>
+    <string name="compose_number_picker_title">Elige numerum telephoni</string>
+    <string name="compose_number_picker_default">%s ∙ Defectus</string>
+    <string name="compose_number_picker_once">Unum</string>
+    <string name="compose_number_picker_always">Semper</string>
+    <string name="compose_title_selected">%d lecti</string>
+    <string name="compose_subtitle_results">%1$d ex %2$d effectibus</string>
+    <string name="contact_selected">%1$d ex %2$d Electi</string>
+    <string name="compose_send_group_title">Mittendum ut convivium colloquium</string>
+    <string name="compose_send_group_summary">Permittuntur destinatari et responsiones omnibus apparebunt</string>
+    <string name="compose_messages_empty">Inchoatio tuae conversationis. Aliquid egregium dic!</string>
+    <string name="compose_vcard_label">Carta contactus</string>
+    <string name="compose_scheduled_for">Programmatum ad</string>
+    <string name="compose_scheduled_future">tempus in futuro esse debet!</string>
+    <string name="compose_scheduled_toast">Ad messagia programmata adiectum est</string>
+    <string name="compose_hint">Hic scribe…</string>
+    <string name="compose_menu_copy">Exemplum textus</string>
+    <string name="compose_menu_forward">Proferre</string>
+    <string name="compose_menu_delete">Delere</string>
+    <string name="compose_menu_previous">Prior</string>
+    <string name="compose_menu_next">Sequens</string>
+    <string name="compose_menu_clear">Clarum</string>
+    <string name="compose_details_title">Detalium messagii</string>
+    <string name="compose_details_type">Genus: %s</string>
+    <string name="compose_details_from">Ex: %s</string>
+    <string name="compose_details_to">Ad: %s</string>
+    <string name="compose_details_subject">Argumentum: %s</string>
+    <string name="compose_details_priority">Praestantia: %s</string>
+    <string name="compose_details_size">Magnitudo: %s</string>
+    <string name="compose_details_sent">Missum: %s</string>
+    <string name="compose_details_received">Acceptum: %s</string>
+    <string name="compose_details_delivered">Traditum: %s</string>
+    <string name="compose_details_error_code">Codex erroris: %d</string>
+    <string name="compose_attach_cd">Adnexum adde</string>
+    <string name="compose_gallery_cd">Photographiam adnehe</string>
+    <string name="compose_camera_cd">Photographiam capere</string>
+    <string name="compose_schedule_cd">Messagium programmatur</string>
+    <string name="compose_contact_cd">Contactum adnehe</string>
+    <string name="compose_contact_error">Error legendo contactum</string>
+    <string name="compose_sim_cd">%s electi, mutationem SIM cardis fac</string>
+    <string name="compose_send_cd">Messagium mitte</string>
+    <string name="message_status_sending">Mitte...</string>
+    <string name="message_status_delivered">Traditum %s</string>
+    <string name="message_status_failed">Non transmissum</string>
+    <string name="info_title">Detalium contactus</string>
+    <string name="info_copied_address">Adres copiatum</string>
+    <string name="info_name">Titulus colloquii</string>
+    <string name="info_notifications">Notationes</string>
+    <string name="info_theme">Temperamentum</string>
+    <string name="info_archive">Archivium</string>
+    <string name="info_unarchive">Exarchivium</string>
+    <string name="info_block">Obstrue</string>
+    <string name="info_unblock">Solvendum</string>
+    <string name="info_delete">Colloquium delere</string>
+    <string name="gallery_error">Media non potuit cargar</string>
+    <string name="gallery_toast_saved">Ad cistellam conservatum</string>
+    <string name="backup_title">Reservatio et restauratio</string>
+    <string name="backup_backing_up">Messagia reservatur</string>
+    <string name="backup_restoring">Ex reserva restauratur</string>
+    <string name="backup_last">Ultima reservatio</string>
+    <string name="backup_loading">In cargo...</string>
+    <string name="backup_never">Numquam</string>
+    <string name="backup_restore_title">Restaura</string>
+    <string name="backup_restore_summary">Reservatium eligere</string>
+    <string name="backup_restore_error_plus">SMS+ recludere oportet ut reservatio et restauratio utaris</string>
+    <string name="backup_restore_error_backup">Reservatio agitur...</string>
+    <string name="backup_restore_error_restore">Restauratio agitur...</string>
+    <string name="backup_restore_confirm_title">Ex reserva restaurare</string>
+    <string name="backup_restore_confirm_message">Certusne es ex hac reserva messagia tua restaurare?</string>
+    <string name="backup_restore_stop_title">Restauratio sistere</string>
+    <string name="backup_restore_stop_message">Messagia iam restaurata in tuo apparatu manebunt</string>
+    <string name="backup_restore_dialog_title">Reservata</string>
+    <string name="backup_restore_dialog_summary">/SMS Messages/Reservata</string>
+    <string name="backup_restore_dialog_empty">Nulla reservata reperta</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">Nulla messagia</item>
+        <item quantity="one">%d messagium</item>
+        <item quantity="other">%d messagia</item>
+    </plurals>
+    <string name="backup_disclaimer">Usque modo, tantum SMS per reservatum et restauratum supportavimus!</string>
+    <string name="backup_now">Reserva</string>
+    <string name="backup_progress_parsing">Reservatio explicatur...</string>
+    <string name="backup_progress_running" formatted="false">%d/%d messagia</string>
+    <string name="backup_progress_saving">Reservatio servatur...</string>
+    <string name="backup_progress_syncing">Messagia syncronizantur...</string>
+    <string name="backup_progress_finished">Perfectum est!</string>
+    <string name="backup_notification_channel_name">Reservatio et restauratio</string>
+    <string name="Message_notification_channel_name">Messagium Sync</string>
+    <string name="scheduled_title">Programmata</string>
+    <string name="schedule_guide">Messagium programmare potes adnexo pulsatorio quod in tabella colloquii messagii datur.</string>
+    <string name="scheduled_empty_description">Messagium automatice mittendum, momento ipso quem vis</string>
+    <string name="scheduled_empty_message_1">Heus! Quando tempus est momentum celebrare?</string>
+    <string name="scheduled_empty_message_2">V Idibus Martiis est</string>
+    <string name="scheduled_empty_message_3">Heia! Ecce quid amicus praestans sim, diem tuum celebrans</string>
+    <string name="scheduled_empty_message_3_timestamp">Mittendum Martio V Idibus&#x200A;</string>
+    <string name="scheduled_compose_cd">Messagium programmare</string>
+    <string name="scheduled_options_title">Messagium programmatum</string>
+    <string-array name="scheduled_options">
+        <item>Nunc mitti</item>
+        <item>Exemplum textus</item>
+        <item>Delere</item>
+    </string-array>
+    <string name="settings_category_appearance">Species</string>
+    <string name="settings_category_general">Commune</string>
+    <string name="settings_categoryreply">Responsio</string>
+    <string name="settings_night_title">Nocturnus modus</string>
+    <string name="settings_text_size_title">Magnitudo litterarum</string>
+    <string name="settings_notifications_title">Notationes</string>
+    <string name="settings_notifications_o_summary">Ad personalia configuranda percutere</string>
+    <string name="settings_notification_actions_title">Actiones</string>
+    <string name="settings_notification_action_1">Pulsator 1</string>
+    <string name="settings_notification_action_2">Pulsator 2</string>
+    <string name="settings_notification_action_3">Pulsator 3</string>
+    <string name="settings_notification_previews_title">Prævisio notationum</string>
+    <string name="settings_notification_wake_title">Evigilatio tabellae</string>
+    <string name="settings_vibration_title">Vibratio</string>
+    <string name="settings_ringtone_title">Sonus</string>
+    <string name="settings_ringtone_none">Nullus</string>
+    <string name="settings_reply_title">Responsio</string>
+    <string name="settings_reply_summary">Popup pro novis messagiis</string>
+    <string name="settings_reply_tap_dismiss_title">Tap ad relegandum</string>
+    <string name="settings_reply_tap_dismiss_summary">Extra pupulam pulsato, ut eam claudas</string>
+    <string name="settings_swipe_actions">Actiones trahentes</string>
+    <string name="settings_swipe_actions_right">Recta trahens</string>
+    <string name="settings_swipe_actions_left">Sinistra trahens</string>
+    <string name="settings_swipe_actions_change">MUTARE</string>
+    <string name="not_now_txt">Non modo</string>
+    <string name="process_title">Hoc processu aliquantum tempus occupabit</string>
+    <string name="syncing_done">Messagium syncronizans factum est....</string>
+    <string name="all_set_txt">Omnia parata. Paratus ad vadendum es</string>
+    <string name="Personal">Omnia Messagia</string>
+    <string name="Other">Noti </string>
+    <string name="Spam">Stercorem</string>
+    <string name="setting">Speciationes</string>
+    <string name="Share">Dividere</string>
+    <string name="Rate">Nos iudica</string>
+    <string name="edit">emendare</string>
+    <string name="DarkMode">Modus Obscurus</string>
+    <string name="BrightMode">Modus Clarus</string>
+    <string name="Camera">Camera</string>
+    <string name="Gallery">Galeria</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">Contactus</string>
+    <string name="Schedule">Programma</string>
+    <string name="Location">Locatio</string>
+    <string name="Notes">Notationes</string>
+    <string name="no_msg">Adhuc nulla messagia…</string>
+    <string name="Start_Chat">Inchoa colloquium</string>
+    <string name="Language">Lingua</string>
+    <string name="rate_text">Nobis aliis commendando, per nos in Play Store aestimans!</string>
+    <string name="sort_by">Ordinare secundum</string>
+    <string-array name="settings_swipe_actions">
+        <item>Nullus</item>
+        <item>Archivium</item>
+        <item>Delere</item>
+        <item>Vocare</item>
+        <item>Quamquam recitare</item>
+        <item>Quamquam non recitare</item>
+    </string-array>
+    <string name="settings_mms_size_title">Automatica Compressio Adnexuum MMS</string>
+    <string name="settings_sync_title">Messagia Syncronizare</string>
+    <string name="settings_sync_summary">Messagia tuum cum nativo Android SMS database iterum syncronizare</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Controllo Vocem</string>
+    <string name="blocking_manager_sia_title">Debemne Respondeam?</string>
+    <string name="blocked_messages_title">Messagia Retenta</string>
+    <string name="blocked_messages_empty">Messagia tua retenta hic apparebunt</string>
+    <string name="blocking_block_title">Blocca</string>
+    <string name="blocking_unblock_title">Sblocca</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">Perge ad %s et hunc numerum blocca</item>
+        <item quantity="other">Perge ad %s et hos numeros blocca</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">Perge ad %s et hunc numerum concede</item>
+        <item quantity="other">Perge ad %s et hos numeros concede</item>
+    </plurals>
+    <string name="widget_loading">Caricando...</string>
+    <string name="widget_more">Mostra più conversazioni</string>
+    <string name="qkreply_menu_read">Segna come letto</string>
+    <string name="qkreply_menu_call">Chiama</string>
+    <string name="qkreply_menu_delete">Elimina</string>
+    <string name="qkreply_menu_expand">Mostra di più</string>
+    <string name="qkreply_menu_collapse">Mostra di meno</string>
+    <string name="qkreply_menu_view">Apri conversazione</string>
+    <string name="changelog_title">Novum in SMS</string>
+    <string name="changelog_version">Versio %s</string>
+    <string name="changelog_added">Additum</string>
+    <string name="changelog_improved">Emendatum</string>
+    <string name="changelog_fixed">Reparatum</string>
+    <string name="changelog_more">Plura</string>
+    <string name="changelog_dismiss">Dimittitur</string>
+    <string-array name="notification_actions">
+        <item>Nihil</item>
+        <item>Segna come letto</item>
+        <item>Responde</item>
+        <item>Voca</item>
+        <item>Elimina</item>
+    </string-array>
+    <string name="button_yes">Ita</string>
+    <string name="button_continue">Perge</string>
+    <string name="button_cancel">Cancella</string>
+    <string name="button_delete">Elimina</string>
+    <string name="button_save">Salva</string>
+    <string name="button_stop">Sista</string>
+    <string name="button_more">Plura</string>
+    <string name="button_set">Constitue</string>
+    <string name="button_undo">Resarce</string>
+    <string name="toast_copied">Copiata</string>
+    <string name="toast_archived">Conversatio archivata</string>
+    <string name="toast_sms_plus">SMS+ oportet uti</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Novum messagium</item>
+        <item quantity="other">%s nova messagia</item>
+    </plurals>
+    <string name="notification_message_failed_title">Messagium non missum</string>
+    <string name="notification_message_failed_text">Missum ad %s messagium non successit</string>
+    <string name="privacy_policy">Politica Secreta</string>
+    <string name="pocket_data_on">Datam de versicolore necesse est habere dum MMS mittuntur!</string>
+    <string name="inapp_details" translatable="false">Ut delendas ads, premium subscriptionem tenta, quae modum obscurum-lucem subnixum est\nMessagia programmate subnixa est.</string>
+    <string name="drawer_removeAds">Ads Delenda</string>
+    <string name="in_app_ads">messages_rad</string>
+    <string name="dialog_delete_message">Certe hoc messagium delere vis?</string>
+    <string name="compose_bar_not_support">Qui mittit non sustinet responsum</string>
+    <string name="default_name">Ut SMS mittere aut recipere possis, eam ut tua applicationem predefinias oportet. Visne ut hoc messagium tua applicatione predefinita fiat?</string>
+    <string name="confirm_delete">Deletio Confirmata</string>
+    <string name="confirm_delete_text">Certusne hoc commentum delere vis?</string>
+    <string name="title">Titulus</string>
+    <string name="note">Notatio</string>
+    <string name="search">Scrutare</string>
+    <string name="settings">Species</string>
+    <string name="share_to">Partire ad:</string>
+    <string name="sort">Ordinare</string>
+    <string name="empty_list_text">Pulsatorium in imo dextro adde ut novum commentum!</string>
+    <string name="new_note">Nova Notatio</string>
+    <string name="undo">Resarce</string>
+    <string name="delete">Elimina</string>
+    <string name="exception">Exceptio:</string>
+    <string name="edit_note">Notationem Emenda</string>
+    <string name="drawer_feedback">Mittas sententiam</string>
+    <string name="drawer_mode">Modus Lucis</string>
+    <string name="unlimited_access_user">Accessus Inlimitatus\nAd Omnes Modos</string>
+    <string name="pro_user">Tu es\nUsor Praestantissimus</string>
+    <string name="sub_info_text"><b>Subscriptio se ipsam renovat donec eam sistas.</b></string>
+    <string name="cancel_purchase">Subscriptiones automaticas sistere potes in Subscriptionibus in Google Play</string>
+    <string name="remove_ads">Ads Delenda</string>
+    <string name="no_ads">Nulla Ads</string>
+    <string name="free_trial">7 dies trial gratuitum, dein renovatio automatica</string>
+    <string name="can_not_talk_right_now">Dolorem, modo non loqui possum</string>
+    <string name="can_call_you_later">Te postmodo vocare possum?</string>
+    <string name="i_am_on_my_way">In via sum</string>
+    <string name="write_personal_message">Scribere notam personalem</string>
+    <string name="create_reminder">Creare novum admonitorium</string>
+    <string name="remind_me_about">Admonere me de</string>
+    <string name="no_title">Nullum Titulum</string>
+    <string name="edit_contact">Contactum Emendare</string>
+    <string name="add_contact">Contactum Adiungere</string>
+    <string name="messages">Messagia</string>
+    <string name="send_mail">Mittas epistulam</string>
+    <string name="calendar">Kalendario</string>
+    <string name="web">Rete</string>
+    <string-array name="night_modes">
+        <item>Systema</item>
+        <item>Modus Clarus</item>
+        <item>Modus Obscurus</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>Monstra nomen et nuntium</item>
+        <item>Monstra nomen</item>
+        <item>Celare contenta</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>Parvum</item>
+        <item>Normale</item>
+        <item>Magnus</item>
+        <item>Amplius</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>Nullo morae</item>
+        <item>Brevi</item>
+        <item>Medio</item>
+        <item>Longo</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Automatice</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>Sine compressione</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>Bene</item>
+        <item>Da mihi momentum</item>
+        <item>In via sum</item>
+        <item>Gratias</item>
+        <item>Bene sonat</item>
+        <item>Quid agitur?</item>
+        <item>Concedo</item>
+        <item>Minime</item>
+        <item>Te amo</item>
+        <item>Miserere</item>
+        <item>LOL</item>
+        <item>Est bene</item>
+    </string-array>
+    <string name="default_title">Permitte App SMS esse applicationem predefinitam</string>
+    <string name="set_as_defaault">Constitue ut Predefinitam</string>
+    <string name="love_app_title">Fiat applicatio SMS tua applicatio predefinita SMS</string>
+    <string-array name="gif">
+        <item>Facies Animalis</item>
+        <item>Emoji</item>
+        <item>Fruces &amp; Legumina</item>
+        <item>Halloween</item>
+        <item>Amor</item>
+    </string-array>
+    <string name="Sticker">Character</string>
+    <string name="no_connection">Non est connexio internet.</string>
+    <string-array name="sticker">
+        <item>Puer</item>
+        <item>Caricatura</item>
+        <item>Facies</item>
+        <item>Festum</item>
+        <item>Fructus</item>
+        <item>Ludus</item>
+        <item>Puella</item>
+        <item>Amor</item>
+        <item>Alii</item>
+        <item>Canis Parvus</item>
+    </string-array>
+    <string name="open_link_to_browser">Link in navigatorem aperi</string>
+    <string name="battery_dialog"> Importantem non desideras quidem Intermissam SMS? \n
+Extingue optimisationem battariæ</string>
+    <string name="reason_to_change_battery_optimization_setting">Naviga ad Informationem App &gt; Progressa &gt; Optimisationem Batteriæ \net ‘Non optimise’ eligite</string>
+    <string name="feedback_txt">Dic nobis de tua experientia et consilium da ut App Messagiorum melioretur.</string>
+    <string name="reason_to_change_battery">Progressa &gt; Optimisationem Batteriæ &gt; ‘Non optimise’</string>
+    <string name="drawer_transaction">Transactiones</string>
+    <string name="drawer_promotion">Promotiones</string>
+    <string name="unknown">Ignotus </string>
+    <string name="priva"><u>Secreta Secretorum</u></string>
+    <string name="smsfilter">Filtrum SMS</string>
+    <string name="by_click_t_c" translatable="false"><u>Per pulsationem tu condicionibus accedis.</u></string>
+    <string name="continue_without_sub"><u>Continue absque subscriptione</u></string>
+    <string name="text_free_trial">Diebus X <b>Gratis Permissu</b> - Postea X € / mensis</string>
+    <string name="calldorado_message">Omnes <b>messagia</b> ante colloquium inspice! Nuntii novi</string>
+    <string name="privacy_terms_description">Continuans, tu conditionibus usus ac secretis secretorum consentis et approbas.</string>
+    <string name="draw_over_description"><![CDATA[Super alia apps nostro App Messagiorum monstramus. Accipe omnem potentiam nostri App Messagiorum et widgets]]></string>
+    <string name="ad_label">AD</string>
+    <string name="onboarding_continue_button">Procedere</string>
+    <string name="onboarding_step_1_title">Gubernator SMS &amp; Conloquii</string>
+    <string name="onboarding_step_1_subtitle">Conloqui cum amicis, communitates facere, et epistulas in arce servare</string>
+    <string name="onboarding_step_1_hight_light">Approach Unicum Ad Te</string>
+    <string name="onboarding_step_2_title">Epistulas ordinare et conservare</string>
+    <string name="onboarding_step_2_subtitle">Messagia tuum backup facere et restaurare</string>
+    <string name="onboarding_step_2_hight_light">Millesimum Numerum Usorum Placet</string>
+    <string name="onboarding_step_3_title">Vitam frui et arcam tuam nobis curare</string>
+    <string name="onboarding_step_3_subtitle">Concedi permitiones ut inbox tuum administraremus.</string>
+    <string name="onboarding_step_3_hight_light">Forte postea</string>
+    <string name="onboarding_allow_access_button">Permitte accessum</string>
+    <string name="onboarding_step_4_title">Batteriam tuam meliora nos faciendo serva</string>
+    <string name="onboarding_step_4_subtitle">De molestis SMS nostrum curabimus.</string>
+    <string name="onboarding_step_4_hight_light">Millesimum Numerum Usorum Placet</string>
+    <string name="onboarding_step_5_title">Divisa in ecran aliae apps dum conloquimur</string>
+    <string name="onboarding_step_5_subtitle">Widgets nostri mirabiles qui multitask possunt gaude</string>
+    <string name="onboarding_step_5_hight_light">Millesimum Numerum Usorum Placet</string>
+    <string name="payment_card_title">Conloquere nunc!</string>
+    <string name="payment_card_price"><![CDATA[3-diebus gratis, %s / %s]]></string>
+    <string name="payment_card_button">Tentare nunc gratis</string>
+    <string name="payment_card_hight_light">Custoditur cum Store</string>
+    <string name="payment_card_weekly">cotidie</string>
+    <string name="payment_card_monthly">mense</string>
+    <string name="payment_card_yearly">anno</string>
+    <string name="payment_card_auto_renew">subsoriptio automata, semper cancellanda</string>
+    <string name="accessibility_service_description">Descriptio servitutis accessibilitatis tuae</string>
+    <string name="permission_txt"><font color="#FF8A00">Permissio Requiritur:</font>\nLegere status telephoni &amp;  Supra alia apps depictio</string>
+    <string name="opt_privacy">Continuans, tu conditionibus usus ac secretis secretorum consentis et approbas.</string>
+    <string name="permission_required">Permissiones Requiruntur</string>
+    <string name="permission_dialog_body">Hoc app fortasse non recte agit sine permissione telephoni. Sequere sub infrascriptas institutiones ut eam habeamus:\n\n1. Elige "Permissiones"\n2. In inventario permissionum "Telephono" quaere et pulsato permittes</string>
+    <string name="go_premium">I ad <font color = "#FFE600">Premium!</font></string>
+    <string name="unlock_everything">Omnia Soluta Et Sine Ads</string>
+    <string name="start_three_day">Tentare 3 Diebus Gratis</string>
+    <string name="pro">Pro</string>
+    <string name="more_option">Plura</string>
+    <string name="rate_us_5">Nos Appretia 5 Stellas</string>
+    <string name="help_feedback">Auxilium &amp; Suggestio</string>
+    <string name="send_message">Mitte Nuntium</string>
+    <string name="CTA_Button_Text">Ad attingo ut omnes Features <font color="#FFFBCD04">aperire</font></string>
+
+</resources>

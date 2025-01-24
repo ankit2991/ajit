@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/btnDrawerOnToolbar"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivToolbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:src="@drawable/ic_back_arrow_white_24"
+                android:elevation="0dp"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/btnDone"
+            android:layout_toEndOf="@+id/btnDrawerOnToolbar"
+            android:paddingStart="@dimen/_5sdp"
+            android:textColor="@color/white"
+            android:text="@string/route_planner"
+            android:textSize="@dimen/_16ssp"
+            android:gravity="center_vertical|start"
+            android:textAlignment="viewStart"
+            />
+
+        <Button
+            android:id="@+id/btnDone"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/bg_white_rounded_15sdp"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:text="@string/done"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/colorAccent"
+            />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

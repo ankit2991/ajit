@@ -1,0 +1,486 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="sugest_update_title">నవీకరణ అందుబాటులో</string>
+    <string name="sugest_update_message">Google Play లో కొత్త నవీకరణ అందుబాటులో ఉంది, దయచేసి మీ వెర్షన్‌ను నవీకరించండి</string>
+    <string name="force_update_title">నవీకరణ అందుబాటులో</string>
+    <string name="force_update_message">Google Play లో కొత్త నవీకరణ అందుబాటులో ఉంది, దయచేసి మీ వెర్షన్‌ను నవీకరించండి</string>
+    <string name="update_ok">నవీకరణ</string>
+    <string name="update_no">ఇప్పుడే లేదు</string>
+    <string name="app_name">#సందేశాలు</string>
+    <string name="in_app_name">సందేశాలు</string>
+    <string name="splash_app_name">ఎస్‌ఎమ్‌ఎస్ సందేశాలు</string>
+    <string name="loading_msg">దయచేసి వేచి ఉండండి...</string>
+    <string name="ads_loading_msg">విజెట్‌లు చూపిస్తున్నారు...</string>
+    <string name="shortcut_compose_long_label">కొత్త సంభాషణం</string>
+    <string name="shortcut_compose_short_label">రచించు</string>
+    <string name="shortcut_compose_disabled_message">శార్ట్‌కట్ డిసేబుల్ చేయబడింది</string>
+    <string name="title_archived">ఆర్కైవ్ చేయబడిన సందేశాలు</string>
+    <string name="title_settings">సెట్టింగులు</string>
+    <string name="title_notification_prefs">నోటిఫికేషన్‌లు</string>
+    <string name="title_theme">థీమ్</string>
+    <string name="title_conversations">సంఖ్యలను, పేర్లను మరియు మరిన్ని శోధించండి</string>
+    <string name="title_compose">ఒక పేరు లేదా ఫోన్ సంఖ్యను టైప్ చేయండి</string>
+    <string name="setup_skip">వద్దు</string>
+    <string name="setup_next">కొనసాగండి</string>
+    <string name="menu_add_person">వ్యక్తిని జోడించు</string>
+    <string name="menu_call">కాల్</string>
+    <string name="menu_info">వివరాలు</string>
+    <string name="menu_save">గ్యాలరీకి భద్రపరచండి</string>
+    <string name="menu_share">భాగించు</string>
+    <string name="main_drawer_open_cd">నావిగేషన్ డ్రాయర్ తెరవండి</string>
+    <string name="main_title_selected">%d ఎంపికలు చేయబడింది</string>
+    <string name="main_menu_clear">తేల్చుకోండి</string>
+    <string name="main_menu_archive">ఆర్కైవ్ చేయండి</string>
+    <string name="main_menu_unarchive">ఆర్కైవ్ ను తీసుకోండి</string>
+    <string name="main_menu_delete">తొలగించు</string>
+    <string name="main_menu_add_contact">సంప్రదించు</string>
+    <string name="main_menu_pin">పిన్ చేయండి</string>
+    <string name="main_menu_unpin">పిన్ తీసివేయి</string>
+    <string name="main_menu_read">చదవండి అంటే మార్క్</string>
+    <string name="main_menu_unread">చదవడం అనిపించండి</string>
+    <string name="select_all">అన్ని ఎంపికలు చేయండి</string>
+    <string name="deselect_all">అన్ని ఎంపికలను రద్దు చేయండి</string>
+    <string name="main_menu_block">నిరోధించు</string>
+    <string name="main_syncing">సందేశాలను అభ్యంతరంగంగా సరిచేస్తోంది...</string>
+    <string name="main_sender_you">మీరు: %s</string>
+    <string name="main_draft">డ్రాఫ్ట్: %s</string>
+    <string name="main_message_results_title">సందేశాలు లో ఫలితాలు</string>
+    <string name="main_message_results">%d సందేశాలు</string>
+    <string name="inbox_empty_text">మీ సంభాషణలు ఇక్కడ చూపబడతాయి</string>
+    <string name="inbox_search_empty_text">ఫలితాలేమీ లేవు</string>
+
+    <string name="archived_empty_text">ఇక్కడ ఆర్కైవ్ చేయబడిన సంభాషణలేవీ లేవు..</string>
+    <string name="main_fab_cd">కొత్త సంభాషణం ప్రారంభించు</string>
+    <string name="main_default_sms_title">సందేశాలకు ప్రేమ ఉందా ?</string>
+    <string name="main_default_sms_message">మీరు డిఫాల్ట్ ఎస్‌ఎమ్‌ఎస్ అనువర్తనాన్ని మార్చండి</string>
+    <string name="main_default_sms_change">మార్చండి</string>
+    <string name="main_permission_required">అనుమతి అవసరం</string>
+    <string name="main_permission_sms">ఎస్‌ఎమ్‌ఎస్ సందేశాలను పంపడానికి మరియు చూడడానికి అనుమతి అవసరం</string>
+    <string name="main_permission_contacts">మీ జాబితాను చూడటానికి అనుమతి అవసరం</string>
+    <string name="main_permission_allow">అనుమతి అందించు</string>
+    <string name="main_permission_allow_read">చదవండి మరియు రాయండి అనుమతిని అనుమతించు</string>
+    <string name="drawer_inbox">ఇన్‌బాక్స్</string>
+    <string name="drawer_archived">ఆర్కైవ్ చేయబడిన</string>
+    <string name="drawer_scheduled">షెడ్యూల్ చేయబడిన సందేశం</string>
+    <string name="drawer_blocking">నిరోధించిన జాబితా</string>
+    <string name="drawer_calldorado">కాలర్ సెట్టింగ్‌లు</string>
+    <string name="drawer_more">మరింత</string>
+    <string name="drawer_group">గుంపు సందేశం</string>
+    <string name="drawer_settings">సెట్టింగులు</string>
+    <string name="drawer_remove_ads">విజెట్‌లను తీసివేయి</string>
+    <string name="drawer_help">సహాయం &amp; ప్రతిస్పందన</string>
+    <string name="drawer_invite">స్నేహితులను ఆహ్వానించండి</string>
+    <string name="dialog_delete_title">తొలగించు</string>
+
+
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">ఈ సంభాషణను తొలగించాలని ఖచ్చితంగా ఉందా?</item>
+        <item quantity="other">%d సంభాషణాలను తొలగించాలని ఖచ్చితంగా ఉందా?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>పాఠ్యం కాపీ చేయి</item>
+        <item>అగ్రగామించు</item>
+        <item>తొలగించు</item>
+    </string-array>
+    <string name="compose_number_picker_title">ఫోన్ సంఖ్యను ఎంచుకోండి</string>
+    <string name="compose_number_picker_default">%s ∙ డిఫాల్ట్</string>
+    <string name="compose_number_picker_once">ఒకసారి</string>
+    <string name="compose_number_picker_always">ఎప్పుడూ</string>
+    <string name="compose_title_selected">%d ఎంపికలు చేసారు</string>
+    <string name="compose_subtitle_results">%1$d నుండి %2$d ఫలితాలు</string>
+    <string name="contact_selected">%1$d నుండి %2$d ఎంపికలు చేసారు</string>
+    <string name="compose_send_group_title">గ్రూప్ సందేశాన్ని పంపు</string>
+    <string name="compose_send_group_summary">స్వీకరించునవారికి మరియు జవాబులకు అభిలక్ష్యమైనవారికి ప్రదర్శించబడినవి</string>
+    <string name="compose_messages_empty">మీ సంభాషణ ప్రారంభం. ఏమి అంటేనో అని చెప్పండి!</string>
+    <string name="compose_vcard_label">సంప్రదించండి</string>
+    <string name="compose_scheduled_for">షెడ్యూల్ చేసినది</string>
+    <string name="compose_scheduled_future">సమయం భవిష్యత్తులో ఉండాలి!</string>
+    <string name="compose_scheduled_toast">షెడ్యూల్ చేయించిన సందేశాలుకు జోడించబడింది</string>
+    <string name="compose_hint">ఇక్కడ రాయండి…</string>
+    <string name="compose_menu_copy">పాఠ్యం కాపీ చేయి</string>
+    <string name="compose_menu_forward">అగ్రగామించు</string>
+    <string name="compose_menu_delete">తొలగించు</string>
+    <string name="compose_menu_previous">మునుపటి</string>
+    <string name="compose_menu_next">తరువాత</string>
+    <string name="compose_menu_clear">తెరిచేయండి</string>
+    <string name="compose_details_title">సందేశ వివరాలు</string>
+    <string name="compose_details_type">రకం: %s</string>
+    <string name="compose_details_from">నుండి: %s</string>
+    <string name="compose_details_to">కు: %s</string>
+    <string name="compose_details_subject">విషయం: %s</string>
+    <string name="compose_details_priority">ప్రధానత: %s</string>
+    <string name="compose_details_size">పరిమాణం: %s</string>
+    <string name="compose_details_sent">పంపినది: %s</string>
+    <string name="compose_details_received">స్వీకరించబడింది: %s</string>
+    <string name="compose_details_delivered">అందించబడింది: %s</string>
+    <string name="compose_details_error_code">లోప కోడ్: %d</string>
+    <string name="compose_attach_cd">అనుశంసించుకోండి</string>
+    <string name="compose_gallery_cd">ఫోటో చేర్చు</string>
+    <string name="compose_camera_cd">ఫోటో తీసుకోండి</string>
+    <string name="compose_schedule_cd">సందేశాన్ని షెడ్యూల్ చేయండి</string>
+    <string name="compose_contact_cd">ఒక సంప్రదాయికను చేర్చండి</string>
+    <string name="compose_contact_error">సంప్రదాయికను చదవడంలో లోపం</string>
+    <string name="compose_sim_cd">%s ఎంపిక చేసినవారు, SIM కార్డు మార్చండి</string>
+    <string name="compose_send_cd">సందేశాన్ని పంపు</string>
+    <string name="message_status_sending">పంపిస్తోంది…</string>
+    <string name="message_status_delivered">అందించబడింది %s</string>
+    <string name="message_status_failed">పంపడం విఫలమైంది</string>
+    <string name="info_title">సంప్రదాయం వివరాలు</string>
+    <string name="info_copied_address">చిరచిన చిరునామా కాపీ చేయబడింది</string>
+    <string name="info_name">సంభాషణ శీర్షిక</string>
+    <string name="info_notifications">అలర్టులు</string>
+    <string name="info_theme">థీమ్</string>
+    <string name="info_archive">ఆర్చైవ్</string>
+    <string name="info_unarchive">ఆర్చైవ్ ను తీసుకోండి</string>
+    <string name="info_block">నిషేధించు</string>
+    <string name="info_unblock">నిషేధించుకోవడం నివారించు</string>
+    <string name="info_delete">సంభాషణను తొలగించు</string>
+    <string name="gallery_error">మీడియాను లోడ్ చేయలేము</string>
+    <string name="gallery_toast_saved">గ్యాలరీకి సేవ్ చేయబడింది</string>
+    <string name="backup_title">బ్యాకప్ మరియు పునరుద్ధరణ</string>
+    <string name="backup_backing_up">సందేశాలను బ్యాకప్ చేస్తోంది</string>
+    <string name="backup_restoring">బ్యాకప్ నుండి పునరుద్ధరిస్తోంది</string>
+    <string name="backup_last">చివరి బ్యాకప్</string>
+    <string name="backup_loading">లోడ్ అవుతోంది…</string>
+    <string name="backup_never">ఎప్పుడూ లేదు</string>
+    <string name="backup_restore_title">పునరుద్ధరించు</string>
+    <string name="backup_restore_summary">బ్యాకప్ ఒకేసారి ఎంచుకోండి</string>
+    <string name="backup_restore_error_plus">దయచేసి SMS+ ను అన్‌లాక్ చేయండి బాకప్ మరియు పునరుద్ధరణను ఉపయోగించడానికి</string>
+    <string name="backup_restore_error_backup">బ్యాకప్ ప్రగతిలో…</string>
+    <string name="backup_restore_error_restore">పునరుద్ధరణ లో…</string>
+    <string name="backup_restore_confirm_title">బ్యాకప్ నుండి పునరుద్ధరించు</string>
+    <string name="backup_restore_confirm_message">మీరు ఈ బ్యాకప్ నుండి మీ సందేశాలను పునరుద్ధరించాలని నిశ్చయంగా ఉందా?</string>
+    <string name="backup_restore_stop_title">పునరుద్ధరించునట్లు ఆరంభం చేయండి</string>
+    <string name="backup_restore_stop_message">ఇప్పుడు పునరుద్ధరించబడిన సందేశాలు మీ పరికరంలో ఉండవు</string>
+    <string name="backup_restore_dialog_title">బ్యాకప్‌లు</string>
+    <string name="backup_restore_dialog_summary">/SMS సందేశాలు/బ్యాకప్‌లు</string>
+    <string name="backup_restore_dialog_empty">బ్యాకప్‌లు కనుగొనబడలేదు</string>
+
+    <plurals name="backup_message_count">
+        <item quantity="zero">సందేశాలు లేవు</item>
+        <item quantity="one">%d సందేశం</item>
+        <item quantity="other">%d సందేశాలు</item>
+    </plurals>
+
+    ```xml
+    <string name="backup_disclaimer">ఇప్పుడు, మేము బ్యాకప్ మరియు పునరుద్ధరణ ద్వారా మాత్రమే SMS ను మద్దతు చేస్తున్నాము!</string>
+    <string name="backup_now">బ్యాకప్</string>
+    <string name="backup_progress_parsing">బ్యాకప్ విశ్లేషణలు…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d సందేశాలు</string>
+    <string name="backup_progress_saving">బ్యాకప్ ను భద్రపరచుకోవడం…</string>
+    <string name="backup_progress_syncing">సందేశాలను సమకాలీకరించడం…</string>
+    <string name="backup_progress_finished">పూర్తయింది!</string>
+    <string name="backup_notification_channel_name">బ్యాకప్ మరియు పునరుద్ధరణ</string>
+    <string name="Message_notification_channel_name">సందేశ సింక్</string>
+    <string name="scheduled_title">షెడ్యూల్ చేయబడింది</string>
+    <string name="schedule_guide">మీరు సందేశ సంవాద స్క్రీన్‌పై ఇచ్చిన సందేశాన్ని షెడ్యూల్ చేయగలరు. అట్చ్ బటన్‌ను క్లిక్ చేసి షెడ్యూల్ సందేశం సెట్ చేయండి.</string>
+    <string name="scheduled_empty_description">స్వయంచాలకంగా మీరు కావలసిన సమయంలో సందేశాన్ని స్వయంచాలకంగా పంపడానికి</string>
+    <string name="scheduled_empty_message_1">హాయ్! సంబరాలు చేయడానికి సమయం ఎప్పుడు?</string>
+    <string name="scheduled_empty_message_2">మార్చి 5 న ఉంది</string>
+    <string name="scheduled_empty_message_3">హాయ్! మీ రోజుని చిత్రించడానికి ఎటువంటి మంచి స్నేహితున్నాను</string>
+    <string name="scheduled_empty_message_3_timestamp">మార్చి 5 న పంపు</string>
+    <string name="scheduled_compose_cd">సందేశాన్ని షెడ్యూల్ చేయండి</string>
+    <string name="scheduled_options_title">షెడ్యూల్ సందేశం</string>
+    <string-array name="scheduled_options">
+        <item>ఇప్పుడు పంపండి</item>
+        <item>వచ్చిన వచ్చినది కాపీ చేయి</item>
+        <item>తొలగించు</item>
+    </string-array>
+    <string name="settings_category_appearance">రూపము</string>
+    <string name="settings_category_general">సాధారణం</string>
+    <string name="settings_categoryreply">జవాబు</string>
+    <string name="settings_night_title">రాత్రి మోడ్</string>
+    <string name="settings_text_size_title">ఫాంట్ పరిమాణం</string>
+    <string name="settings_notifications_title">నోటిఫికేషన్‌లు</string>
+    <string name="settings_notifications_o_summary">సన్నిహితం చేయడానికి నొక్కండి</string>
+    <string name="settings_notification_actions_title">చర్యలు</string>
+    <string name="settings_notification_action_1">బటన్ 1</string>
+    <string name="settings_notification_action_2">బటన్ 2</string>
+    <string name="settings_notification_action_3">బటన్ 3</string>
+    <string name="settings_notification_previews_title">నోటిఫికేషన్ మునుపటికలు</string>
+    <string name="settings_notification_wake_title">స్క్రీన్ ఎగ్గడం</string>
+    <string name="settings_vibration_title">వైబ్రేషన్</string>
+    <string name="settings_ringtone_title">సౌండ్</string>
+    <string name="settings_ringtone_none">ఏమీ లేదు</string>
+    <string name="settings_reply_title">జవాబు</string>
+    <string name="settings_reply_summary">కొత్త సందేశాలకు పాపప్‌ప్ చూపించేందుకు</string>
+    <string name="settings_reply_tap_dismiss_title">నొక్కి తీసుకొనుట</string>
+    <string name="settings_reply_tap_dismiss_summary">పాపప్ బహిరంగంలో నొక్కి మూసివేయండి</string>
+    <string name="settings_swipe_actions">స్వైప్ చర్యలు</string>
+    <string name="settings_swipe_actions_right">కుడివైపు స్వైప్</string>
+    <string name="settings_swipe_actions_left">ఎడవివైపు స్వైప్</string>
+    <string name="settings_swipe_actions_change">మార్చు</string>
+    <string name="not_now_txt">ఇప్పుడు కాదు</string>
+    <string name="process_title">ఈ ప్రక్రియ కొన్ని సమయం పట్టుకుంటుంది</string>
+    <string name="syncing_done">సందేశ సింక్ పూర్తి....</string>
+    <string name="all_set_txt">అన్ని సెట్ అయ్యాయి. మీరు సిద్ధంగా వెళ్ళవచ్చు</string>
+    <string name="Personal">అన్ని సందేశాలు</string>
+    <string name="Other">తెలిసిన </string>
+    <string name="Spam">జంతువు</string>
+    <string name="setting">సెట్టింగ్స్</string>
+    <string name="Share">షేర్</string>
+    <string name="Rate">మాకు రేట్ చేయండి</string>
+    <string name="edit">సవరించు</string>
+    <string name="DarkMode">కారకం రోడ్</string>
+    <string name="BrightMode">తెలిసిన మోడ్</string>
+    <string name="Camera">కెమెరా</string>
+    <string name="Gallery">గ్యాలరీ</string>
+    <string name="Gif">గిఫ్</string>
+    <string name="Contact">సంప్రదించు</string>
+    <string name="Schedule">షెడ్యూల్</string>
+    <string name="Location">లొకేషన్</string>
+    <string name="Notes">గమనికలు</string>
+    <string name="no_msg">ఇంకా సందేశాలు లేవు…</string>
+    <string name="Start_Chat">చాట్ ప్రారంభించు</string>
+    <string name="Language">భాష</string>
+    <string name="rate_text">ప్లే స్టోర్‌లో మాకు రేట్ చేస్తూ ఇతరులకు సిఫార్సు చేయండి!</string>
+    <string name="sort_by">వింగ్స్ ద్వారా</string>
+    <string-array name="settings_swipe_actions">
+        <item>ఏమీ లేదు</item>
+        <item>ఆర్చైవ్</item>
+        <item>తొలగించు</item>
+        <item>కాల్</item>
+        <item>చదువుచేసేందుకు గుర్తించండి</item>
+        <item>చదువుచేయండి</item>
+    </string-array>
+    <string name="settings_mms_size_title">ఆటో-కాంప్రెస్ MMS అటాచ్మెంట్‌లు</string>
+    <string name="settings_sync_title">సందేశాలు సింక్ చేయండి</string>
+    <string name="settings_sync_summary">మీ సందేశాలను పునరాదాయంగా Android SMS డేటాబేసుతో సింక్ చేయండి</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">కాల్ నియంత్రణం</string>
+    <string name="blocking_manager_sia_title">నాకు సమాధానం ఉండాలా?</string>
+    <string name="blocked_messages_title">నిషేధించిన సందేశాలు</string>
+    <string name="blocked_messages_empty">మీ నిషేధించిన సందేశాలు ఇక్కడ కనిపిస్తాయి</string>
+    <string name="blocking_block_title">నిషేధించు</string>
+    <string name="blocking_unblock_title">నిషేధించనివ్వు</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">%s కు కొంత చొప్పున కొలపాలి</item>
+        <item quantity="other">%s కు కొంత చొప్పున కొలపాలి</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">%s కు పరిమితించి అనుమతించు</item>
+        <item quantity="other">%s కు పరిమితించి అనుమతించు</item>
+    </plurals>
+    <string name="widget_loading">లోడ్ అవుతోంది...</string>
+    <string name="widget_more">మరిన్ని చర్చలను చూడండి</string>
+    <string name="qkreply_menu_read">చదవండి</string>
+    <string name="qkreply_menu_call">కాల్</string>
+    <string name="qkreply_menu_delete">తొలగించు</string>
+    <string name="qkreply_menu_expand">మరిన్ని చూపించు</string>
+    <string name="qkreply_menu_collapse">తక్కువ చూపించు</string>
+    <string name="qkreply_menu_view">చర్చను తెరువుకోండి</string>
+    <string name="changelog_title">SMS లో కొత్తవి</string>
+    <string name="changelog_version">వెర్షన్ %s</string>
+    <string name="changelog_added">చేర్చబడినవి</string>
+    <string name="changelog_improved">మెరుగుపరచబడింది</string>
+    <string name="changelog_fixed">సరిచూడబడింది</string>
+    <string name="changelog_more">మరిన్ని</string>
+    <string name="changelog_dismiss">తిరస్కరించు</string>
+    <string-array name="notification_actions">
+        <item>ఏమీ లేదు</item>
+        <item>చదవండి గుర్తించు</item>
+        <item>జవాబు ఇవ్వు</item>
+        <item>కాల్</item>
+        <item>తొలగించు</item>
+    </string-array>
+
+    <string name="button_yes">అవును</string>
+    <string name="button_continue">కొనసాగండి</string>
+    <string name="button_cancel">రద్దు చేయండి</string>
+    <string name="button_delete">తొలగించు</string>
+    <string name="button_save">భద్రపరచు</string>
+    <string name="button_stop">నిలిచేయండి</string>
+    <string name="button_more">మరింత</string>
+    <string name="button_set">సెట్</string>
+    <string name="button_undo">అన్డు</string>
+    <string name="toast_copied">కాపీ చేయబడింది</string>
+    <string name="toast_archived">చర్చ ఆర్కైవ్ చేయబడింది</string>
+    <string name="toast_sms_plus">మీరు ఇదని ఉపయోగించడానికి SMS+ ను అన్లాక్ చేయాలి</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">కొత్త సందేశం</item>
+        <item quantity="other">%s కొత్త సందేశాలు</item>
+    </plurals>
+    <string name="notification_message_failed_title">సందేశం పంపబడలేదు</string>
+    <string name="notification_message_failed_text">%s కు సందేశం పంపబడలేదు</string>
+    <string name="privacy_policy">గౌప్యతా విధానం</string>
+    <string name="pocket_data_on">MMS పంపడానికి పాకెట్ డేటా ఆన్ ఉండాలి!</string>
+    <string name="inapp_details" translatable="false">ప్రకటనలు తొలగించేందుకు, డార్క్-లైట్ మోడ్ మద్దతు, షెడ్యూల్డ్ ఎస్ఎమ్ఎస్ మద్దతు తో ప్రీమియం సబ్‌స్క్రిప్షన్ ని ప్రయత్నించండి.</string>
+    <string name="drawer_removeAds">ప్రకటనలు తొలగించు</string>
+    <string name="in_app_ads">messages_rad</string>
+    <string name="dialog_delete_message">మీరు ఖచ్చితంగా ఈ సందేశాన్ని తొలగించాలని ఉంటుందా?</string>
+    <string name="compose_bar_not_support">పంపించేవారు సమాధానాలను మద్దతు చేయవలెను</string>
+    <string name="default_name">SMS పంపడానికి లేదా స్వీకరించడానికి, అది డిఫాల్ట్ అప్లికేషన్ గా సెట్ చేయాలి. మీరు మీ డిఫాల్ట్ అప్లికేషన్ గా సెట్ చేయాలని మీరు కోరుకుంటున్నారా?</string>
+    <string name="confirm_delete">తొలగించడానికి నిర్ధారణ</string>
+    <string name="confirm_delete_text">మీరు ఖచ్చితంగా ఈ గమనం తొలగించాలని ఉంటుందా?</string>
+    <string name="title">శీర్షిక</string>
+    <string name="note">గమనం</string>
+    <string name="search">వెతకండి</string>
+    <string name="settings">అమరికలు</string>
+    <string name="share_to">భాగస్వామ్యం చేయండి:</string>
+    <string name="sort">వర్గీకరణ</string>
+    <string name="empty_list_text">కొత్త గమనం జోడించడానికి కొత్త బటన్‌ను ప్రెస్ చేయండి!</string>
+    <string name="new_note">కొత్త గమనం</string>
+    <string name="undo">అన్డు</string>
+    <string name="delete">తొలగించు</string>
+    <string name="exception">అసాధ్యత</string>
+    <string name="edit_note">గమనం సవరించండి</string>
+    <string name="drawer_feedback">ప్రతిపాదన పంపండి</string>
+    <string name="drawer_mode">లైట్ మోడ్</string>
+    <string name="unlimited_access_user">అన్ని ఫీచర్లకు అనివాసిక ప్రవేశం</string>
+    <string name="pro_user">మీరు ప్రీమియం యూజర్ ఉన్నారు</string>
+    <string name="sub_info_text"><b>ఈ సబ్‌స్క్రిప్షన్ స్వయంచాలకంగా ప్రతిస్థాపించడానికి మీరు ఆర్థిక సంఘటన అయినప్పటికీ మరిన్ని పరిష్కారాలను ప్రయత్నించుకోవచ్చు.</b></string>
+    <string name="cancel_purchase">మీరు సబ్‌స్క్రిప్షన్ స్వయంచాలకంగా ప్రతిస్థాపించడానికి Google Play లో సబ్‌స్క్రిప్షన్‌లో ఆటోమాటిక్ సబ్‌స్క్రిప్షన్ నవీకరణాలను రద్దు చేయవచ్చు.</string>
+    <string name="remove_ads">ప్రకటనలు తొలగించు</string>
+    <string name="no_ads">ప్రకటనలు లేవు</string>
+    <string name="free_trial">7 రోజుల ఉచిత ప్రయత్నం, తరువాత స్వయంచాలకంగా నవీకరించబడుతుంది</string>
+    <string name="can_not_talk_right_now">క్షమించండి, నేను ఇప్పటికే మాట్లాడలేదు</string>
+    <string name="can_call_you_later">నేను మీకు తరువాత కాల్ చేయగలనున్నాను?</string>
+    <string name="i_am_on_my_way">నేను నా దారిలో ఉన్నాను</string>
+    <string name="write_personal_message">వ్యక్తిగత సందేశం రాయండి</string>
+    <string name="create_reminder">కొత్త గమనం సృష్టించండి</string>
+    <string name="remind_me_about">నాకు గురించి గుర్తుంచు</string>
+    <string name="no_title">శీర్షిక లేదు</string>
+    <string name="edit_contact">సంప్రదించినవారి మార్గదర్శించు</string>
+    <string name="add_contact">సంప్రదించినవారిని జోడించు</string>
+    <string name="messages">సందేశాలు</string>
+    <string name="send_mail">మెయిల్ పంపండి</string>
+    <string name="calendar">క్యాలెండర్</string>
+    <string name="web">వెబ్</string>
+    <string-array name="night_modes">
+        <item>వ్యవస్థ</item>
+        <item>ప్రకాశవంత మోడ్</item>
+        <item>కరిగిన మోడ్</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>పేరు మరియు సందేశం చూపు</item>
+        <item>పేరు చూపు</item>
+        <item>విషయాలను దాచు</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>చిన్నవి</item>
+        <item>సాధారణ</item>
+        <item>పెద్దవి</item>
+        <item>ఎక్కువవి</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>విలంబం లేదు</item>
+        <item>చిక్కగా</item>
+        <item>మధ్యస్థం</item>
+        <item>అధిక</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>స్వయంచాలకం</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>యాక్షన్ లేదు</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>మర్యాద ప్రియ</item>
+        <item>కొంత నిమిషాలు ఇవ్వండి</item>
+        <item>నేను నా దారిలో ఉన్నాను</item>
+        <item>ధన్యవాదాలు</item>
+        <item>సంగతి బాగుంది</item>
+        <item>ఏమి ఉన్నాయి?</item>
+        <item>సమ్మతించింది</item>
+        <item>కాదు</item>
+        <item>నాకు నచ్చింది</item>
+        <item>క్షమించు</item>
+        <item>లొల్</item>
+        <item>అది సరే</item>
+    </string-array>
+    <string name="default_title">డిఫాల్ట్ అప్లికేషన్‌ని అనుమతించండి</string>
+    <string name="set_as_defaault">డిఫాల్ట్ గా సెట్ చేయండి</string>
+    <string name="love_app_title">SMS అప్‌ప్‌ను మీ డిఫాల్ట్ SMS అప్‌ప్‌గా చేయండి</string>
+    <string-array name="gif">
+        <item>జంతు ముఖం</item>
+        <item>ఇమోజి</item>
+        <item>పండుగలు &amp; కూరగాయలు</item>
+        <item>హ్యాలోవీన్</item>
+        <item>ప్రేమ</item>
+    </string-array>
+    <string name="Sticker">స్టికర్</string>
+    <string name="no_connection">ఇంటర్‌నెట్ కనెక్షన్ లేదు.</string>
+    <string-array name="sticker">
+        <item>బాయ్</item>
+        <item>కార్టూన్</item>
+        <item>ముఖం</item>
+        <item>పండుగ</item>
+        <item>పండు</item>
+        <item>ఆట</item>
+        <item>అమ్మాయి</item>
+        <item>ప్రేమ స్టికర్</item>
+        <item>ఇతరమైన</item>
+        <item>పప్పు</item>
+    </string-array>
+    <string name="open_link_to_browser">వెబ్‌లాక్‌కు లింక్ తెరవండి</string>
+    <string name="battery_dialog">ప్రముఖమైన ఎస్ఎమ్ఎస్ లేకుండా ఉండాలా? \nబ్యాటరీ ఆప్టిమైజేషన్ ఆఫ్ చేయండి</string>
+    <string name="reason_to_change_battery_optimization_setting">అప్‌ ఇన్ఫో &gt; ఆధునిక &gt; బ్యాటరీ ఆప్టిమైజేషన్ \nఎంచుకోండి \'ఆప్టిమైజ్ కాకుండా\'</string>
+    <string name="feedback_txt">మీ అనుభవానికి గుర్తుచేయండి మరియు సలహా ఇస్తుంది సందేశం అనువర్తనాన్ని మెరుగుపరచండి.</string>
+    <string name="reason_to_change_battery">అధునాతన &gt; బ్యాటరీ ఆప్టిమైజేషన్ &gt; ‘ఆప్టిమైజ్ కాకుండా’</string>
+    <string name="drawer_transaction">లేనిది</string>
+    <string name="drawer_promotion">ప్రచారం</string>
+    <string name="unknown">తెలియని </string>
+    <string name="priva"><u>గౌప్యతా నియమాలు</u></string>
+    <string name="smsfilter">ఎస్‌ఎమ్‌ఎస్ ఫిల్టర్</string>
+    <string name="by_click_t_c" translatable="false"><u>నొక్కినప్పుడు మీరు మా నియమాలను అంగీకరిస్తారు.</u></string>
+    <string name="continue_without_sub"><u>సబ్‌స్క్రిప్షన్ లేకుండా కొనసాగండి</u></string>
+    <string name="text_free_trial">X రోజు <b>ఉచిత ప్రయోగం</b> - తర్వాత X € / నెల</string>
+    <string name="calldorado_message">కాల్ అవుట్ చేయడం ముందు మీ <b>సందేశాలను</b> తనిఖీ చేయండి! కొత్త వార్తలు ఉన్నాయి</string>
+    <string name="privacy_terms_description">కొన్ని మరియు గోప్యతా నియమాలను అనుమతించి, మీరు మళ్ళీ అంగీకరిస్తున్నారు.</string>
+    <string name="draw_over_description"><![CDATA[ఇతర అనువర్తనాల మీద మా SMS సందేశాలను చూపించడానికి. మా SMS కాల్ విడ్జెట్‌లు మరియు మరిన్ని సంభవాలను స్వీకరించండి]]></string>
+    <string name="ad_label">జాహీరాతు</string>
+    <string name="onboarding_continue_button">కొనసాగండి</string>
+    <string name="onboarding_step_1_title">SMS &amp; మెసేంజర్ మేనేజర్</string>
+    <string name="onboarding_step_1_subtitle">స్నేహితులతో చాట్ చేయండి, గుంపులు చేయండి మరియు మీ ఇన్‌బాక్స్‌ను సంగ్రహించండి</string>
+    <string name="onboarding_step_1_hight_light">మీకు అన్నింటికి అద్వితీయ మార్గం</string>
+    <string name="onboarding_step_2_title">సంగ్రహించండి &amp; స్టోర్ సందేశాలు</string>
+    <string name="onboarding_step_2_subtitle">మీ సందేశాలను బ్యాకప్ &amp; రీస్టోర్ చేయండి</string>
+    <string name="onboarding_step_2_hight_light">వలనని విన్నర్స్ తోడు ఇలాంటిది</string>
+    <string name="onboarding_step_3_title">జీవితం ఆనందించండి &amp; మీరు ఇన్‌బాక్స్‌ను నమోదు చేసుకోండి</string>
+    <string name="onboarding_step_3_subtitle">మాకు మీ ఇన్‌బాక్స్‌ను నిర్వహించడానికి మరియు మద్దతు చేసేందుకు అనుమతులను అంగీకరించండి.</string>
+    <string name="onboarding_step_3_hight_light">మారుకోండి తర్వాత</string>
+    <string name="onboarding_allow_access_button">ప్రవేశాన్ని అనుమతించండి</string>
+    <string name="onboarding_step_4_title">మీ బ్యాటరీని మంచంగా చేయండి మాకు పని చేయడం ద్వారా</string>
+    <string name="onboarding_step_4_subtitle">అలాన్ని ఆప్షన్ సందేశ విరామాలను నామూడండి.</string>
+    <string name="onboarding_step_4_hight_light">విన్నర్స్ తోడు ఇలాంటిది</string>
+    <string name="onboarding_step_5_title">చాట్ చేస్తూ ఇతర అనువర్తనాలపై స్ప్లిట్ స్క్రీన్ పని</string>
+    <string name="onboarding_step_5_subtitle">మీకు అనుమతిస్తున్న అద్భుతమైన కాల్ విడ్జెట్ ఆనందించండి మరియు బహుశా పనిచేస్తుంది</string>
+    <string name="onboarding_step_5_hight_light">విన్నర్స్ తోడు ఇలాంటిది</string>
+    <string name="payment_card_title">ఇప్పుడే చాట్ చేయండి!</string>
+    <string name="payment_card_price"><![CDATA[3-రోజు ఉచిత, %s / %s]]></string>
+    <string name="payment_card_button">ఉచితంగా ప్రయత్నించండి</string>
+    <string name="payment_card_hight_light">ప్లే స్టోర్‌తో సురక్షితం</string>
+    <string name="payment_card_weekly">వారపాత్ర</string>
+    <string name="payment_card_monthly">మాసికం</string>
+    <string name="payment_card_yearly">సంవత్సరం</string>
+    <string name="payment_card_auto_renew">స్వయంచాలక రీన్యూ సబ్‌స్క్రిప్షన్, ఏడుగురు ఎలాగా రద్దు చేయండి</string>
+    <string name="accessibility_service_description">మీ అభ్యాస సేవా వివరణ</string>
+    <string name="permission_txt"><font color="#FF8A00">అనుమతి అవసరం:</font>\nఫోన్ స్థితిని చూడండి &amp; ఇతర అనువర్తనాలపై ఉండండి</string>
+    <string name="opt_privacy">కొన్ని మరియు గోప్యతా నియమాలను అంగీకరించి, మీరు మళ్ళీ అంగీకరిస్తున్నారు.</string>
+    <string name="permission_required">అనుమతులు అవసరమైనవి</string>
+    <string name="permission_dialog_body">ఈ అనువర్తనం ఫోన్ అనుమతి లేకుండా సరిగ్గా పని చేయలేదు. దయచేసి దానిని సక్రియమగించడానికి క్రింది అనుసరించండి:\n\n1. "అనుమతులు" ఎంపికను ఎంచుకోండి\n2. అనుమతిలను జాబితాలో "ఫోన్" ని కనుగొనండి మరియు సక్రియమగించండి</string>
+    <string name="go_premium">ప్రీమియం చేయండి!</string>
+    <string name="unlock_everything">అన్ని అన్లాక్ చేయండి &amp; ఎడ్స్ లేకుండా</string>
+    <string name="start_three_day">మొదటి 3 రోజుల ఉచిత ప్రయోగం ప్రారంభించండి</string>
+    <string name="pro">ప్రో</string>
+    <string name="more_option">మరియు ఎక్కువ</string>
+    <string name="rate_us_5">5 స్టార్‌లతో మాకు రేట్ చేయండి</string>
+    <string name="help_feedback">సహాయం &amp; ఫీడ్‌బ్యాక్</string>
+    <string name="send_message">సందేశం పంపండి</string>
+    <string name="CTA_Button_Text">అన్ని ఫీచర్‌లు అన్‌లాక్ చేయడానికి <font color="#FFFBCD04">నొక్కండి</font></string>
+
+</resources>

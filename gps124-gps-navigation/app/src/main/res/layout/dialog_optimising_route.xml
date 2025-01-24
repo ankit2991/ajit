@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        app:cardCornerRadius="@dimen/_5sdp"
+
+        >
+        <RelativeLayout
+            android:id="@+id/ll"
+            android:orientation="vertical"
+            android:background="@drawable/ic_subscription_header"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <TextView
+                android:id="@+id/tvStatus"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:text="@string/optimizing_your_stops"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14ssp"
+                android:background="#99FFFFFF"
+                android:layout_alignParentTop="true"
+                />
+
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationView"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_90sdp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:visibility="visible" />
+
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/_10sdp"
+                android:thumb="@android:color/transparent"
+                android:thumbTint="@android:color/transparent"
+                android:progress="10"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_17sdp"
+                style="@style/horizentalProgressBarStyle"
+                android:layout_alignParentBottom="true"
+                />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

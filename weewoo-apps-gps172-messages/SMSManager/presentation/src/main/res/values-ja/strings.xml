@@ -1,0 +1,478 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="sugest_update_title">更新が利用可能です</string>
+    <string name="sugest_update_message">Google Play で新しいアップデートが利用可能です。バージョンを更新してください。</string>
+    <string name="force_update_title">更新が利用可能です</string>
+    <string name="force_update_message">Google Play で新しいアップデートが利用可能です。バージョンを更新してください。</string>
+    <string name="update_ok">更新</string>
+    <string name="update_no">今はしない</string>
+    <string name="app_name">#メッセージ</string>
+    <string name="in_app_name">メッセージ</string>
+    <string name="splash_app_name">SMS メッセージ</string>
+    <string name="loading_msg">お待ちください...</string>
+    <string name="ads_loading_msg">広告表示中...</string>
+    <string name="shortcut_compose_long_label">新しい会話</string>
+    <string name="shortcut_compose_short_label">作成</string>
+    <string name="shortcut_compose_disabled_message">ショートカットが無効です</string>
+    <string name="title_archived">保管されたメッセージ</string>
+    <string name="title_settings">設定</string>
+    <string name="title_notification_prefs">通知</string>
+    <string name="title_theme">テーマ</string>
+    <string name="title_conversations">番号、名前などを検索</string>
+    <string name="title_compose">名前または電話番号を入力</string>
+    <string name="setup_skip">スキップ</string>
+    <string name="setup_next">次へ</string>
+    <string name="menu_add_person">人を追加</string>
+    <string name="menu_call">電話</string>
+    <string name="menu_info">詳細</string>
+    <string name="menu_save">ギャラリーに保存</string>
+    <string name="menu_share">共有</string>
+    <string name="main_drawer_open_cd">ナビゲーションドロワーを開く</string>
+    <string name="main_title_selected">%d 件選択されました</string>
+    <string name="main_menu_clear">クリア</string>
+    <string name="main_menu_archive">アーカイブ</string>
+    <string name="main_menu_unarchive">アーカイブ解除</string>
+    <string name="main_menu_delete">削除</string>
+    <string name="main_menu_add_contact">連絡先に追加</string>
+    <string name="main_menu_pin">上部に固定</string>
+    <string name="main_menu_unpin">固定解除</string>
+    <string name="main_menu_read">既読にする</string>
+    <string name="main_menu_unread">未読にする</string>
+    <string name="select_all">すべて選択</string>
+    <string name="deselect_all">すべて選択解除</string>
+    <string name="main_menu_block">ブロック</string>
+    <string name="main_syncing">メッセージを整理しています...</string>
+    <string name="main_sender_you">あなた: %s</string>
+    <string name="main_draft">下書き: %s</string>
+    <string name="main_message_results_title">メッセージ内の結果</string>
+    <string name="main_message_results">%d 件のメッセージ</string>
+    <string name="inbox_empty_text">会話がここに表示されます</string>
+    <string name="inbox_search_empty_text">結果がありません</string>
+    <string name="archived_empty_text">まだアーカイブされた会話はありません..</string>
+    <string name="main_fab_cd">新しい会話を開始</string>
+    <string name="main_default_sms_title">メッセージを送りたいですか？</string>
+    <string name="main_default_sms_message">SMS アプリをデフォルトの SMS アプリに設定してください</string>
+    <string name="main_default_sms_change">変更</string>
+    <string name="main_permission_required">許可が必要です</string>
+    <string name="main_permission_sms">SMS は SMS メッセージの送信と表示の許可が必要です</string>
+    <string name="main_permission_contacts">SMS は連絡先の表示の許可が必要です</string>
+    <string name="main_permission_allow">許可</string>
+    <string name="main_permission_allow_read">読み取りおよび書き込みの許可を許可</string>
+    <string name="drawer_inbox">受信トレイ</string>
+    <string name="drawer_archived">アーカイブ済み</string>
+    <string name="drawer_scheduled">予約メッセージ</string>
+    <string name="drawer_blocking">ブロックリスト</string>
+    <string name="drawer_calldorado">コーラードラド設定</string>
+    <string name="drawer_more">その他</string>
+    <string name="drawer_group">グループメッセージ</string>
+    <string name="drawer_settings">設定</string>
+    <string name="drawer_remove_ads">広告を削除</string>
+    <string name="drawer_help">ヘルプとフィードバック</string>
+    <string name="drawer_invite">友達を招待</string>
+    <string name="dialog_delete_title">削除</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">この会話を削除しますか？</item>
+        <item quantity="other">%d 件の会話を削除しますか？</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>テキストをコピー</item>
+        <item>転送</item>
+        <item>削除</item>
+    </string-array>
+    <string name="compose_number_picker_title">電話番号を選択</string>
+    <string name="compose_number_picker_default">%s ∙ デフォルト</string>
+    <string name="compose_number_picker_once">一度のみ</string>
+    <string name="compose_number_picker_always">常に</string>
+    <string name="compose_title_selected">%d 件選択中</string>
+    <string name="compose_subtitle_results">%1$d / %2$d の結果</string>
+    <string name="contact_selected">%1$d / %2$d 選択済み</string>
+    <string name="compose_send_group_title">グループメッセージとして送信</string>
+    <string name="compose_send_group_summary">受信者と返信がすべての人に表示されます</string>
+    <string name="compose_messages_empty">会話の開始。何か素晴らしいことを言ってください！</string>
+    <string name="compose_vcard_label">連絡先カード</string>
+    <string name="compose_scheduled_for">予定</string>
+    <string name="compose_scheduled_future">時間は未来にする必要があります！</string>
+    <string name="compose_scheduled_toast">予約メッセージに追加されました</string>
+    <string name="compose_hint">ここに書く...</string>
+    <string name="compose_menu_copy">テキストをコピー</string>
+    <string name="compose_menu_forward">転送</string>
+    <string name="compose_menu_delete">削除</string>
+    <string name="compose_menu_previous">前へ</string>
+    <string name="compose_menu_next">次へ</string>
+    <string name="compose_menu_clear">クリア</string>
+    <string name="compose_details_title">メッセージの詳細</string>
+    <string name="compose_details_type">タイプ：%s</string>
+    <string name="compose_details_from">差出人：%s</string>
+    <string name="compose_details_to">宛先：%s</string>
+    <string name="compose_details_subject">件名：%s</string>
+    <string name="compose_details_priority">優先度：%s</string>
+    <string name="compose_details_size">サイズ：%s</string>
+    <string name="compose_details_sent">送信済：%s</string>
+    <string name="compose_details_received">受信：%s</string>
+    <string name="compose_details_delivered">配信済：%s</string>
+    <string name="compose_details_error_code">エラーコード：%d</string>
+    <string name="compose_attach_cd">添付ファイルを追加</string>
+    <string name="compose_gallery_cd">写真を添付</string>
+    <string name="compose_camera_cd">写真を撮影</string>
+    <string name="compose_schedule_cd">メッセージをスケジュール</string>
+    <string name="compose_contact_cd">連絡先を添付</string>
+    <string name="compose_contact_error">連絡先を読み取れませんでした</string>
+    <string name="compose_sim_cd">%s が選択されました。SIM カードを変更してください</string>
+    <string name="compose_send_cd">メッセージを送信</string>
+    <string name="message_status_sending">送信中...</string>
+    <string name="message_status_delivered">%s に配信済み</string>
+    <string name="message_status_failed">送信に失敗しました</string>
+    <string name="info_title">連絡先の詳細</string>
+    <string name="info_copied_address">アドレスがコピーされました</string>
+    <string name="info_name">会話のタイトル</string>
+    <string name="info_notifications">通知</string>
+    <string name="info_theme">テーマ</string>
+    <string name="info_archive">アーカイブ</string>
+    <string name="info_unarchive">アーカイブ解除</string>
+    <string name="info_block">ブロック</string>
+    <string name="info_unblock">ブロック解除</string>
+    <string name="info_delete">会話を削除</string>
+    <string name="gallery_error">メディアを読み込めませんでした</string>
+    <string name="gallery_toast_saved">ギャラリーに保存されました</string>
+    <string name="backup_title">バックアップと復元</string>
+    <string name="backup_backing_up">メッセージをバックアップしています</string>
+    <string name="backup_restoring">バックアップから復元しています</string>
+    <string name="backup_last">最終バックアップ</string>
+    <string name="backup_loading">読み込み中...</string>
+    <string name="backup_never">なし</string>
+    <string name="backup_restore_title">復元</string>
+    <string name="backup_restore_summary">バックアップを選択</string>
+    <string name="backup_restore_error_plus">バックアップと復元を使用するには SMS+ をロック解除してください</string>
+    <string name="backup_restore_error_backup">バックアップ中...</string>
+    <string name="backup_restore_error_restore">復元中...</string>
+    <string name="backup_restore_confirm_title">バックアップから復元</string>
+    <string name="backup_restore_confirm_message">このバックアップからメッセージを復元しますか？</string>
+    <string name="backup_restore_stop_title">復元を中止</string>
+    <string name="backup_restore_stop_message">すでに復元されたメッセージはデバイスに残ります</string>
+    <string name="backup_restore_dialog_title">バックアップ</string>
+    <string name="backup_restore_dialog_summary">/SMS Messages/バックアップ</string>
+    <string name="backup_restore_dialog_empty">バックアップが見つかりません</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">メッセージなし</item>
+        <item quantity="one">%d メッセージ</item>
+        <item quantity="other">%d メッセージ</item>
+    </plurals>
+    <string name="backup_disclaimer">これまでは、バックアップと復元でSMSのみをサポートしていました！</string>
+    <string name="backup_now">バックアップ</string>
+    <string name="backup_progress_parsing">バックアップを解析中...</string>
+    <string name="backup_progress_running" formatted="false">%d/%d メッセージ</string>
+    <string name="backup_progress_saving">バックアップを保存中...</string>
+    <string name="backup_progress_syncing">メッセージを同期中...</string>
+    <string name="backup_progress_finished">完了！</string>
+    <string name="backup_notification_channel_name">バックアップと復元</string>
+    <string name="Message_notification_channel_name">メッセージ同期</string>
+    <string name="scheduled_title">スケジュール済み</string>
+    <string name="schedule_guide">メッセージの会話画面にある添付ボタンをクリックして、スケジュールメッセージを設定できます。</string>
+    <string name="scheduled_empty_description">特定の時間に自動的にメッセージを送信します</string>
+    <string name="scheduled_empty_message_1">やあ！お祝いするのはいつですか？</string>
+    <string name="scheduled_empty_message_2">それは3月5日です</string>
+    <string name="scheduled_empty_message_3">やあ！私がどれほど素晴らしい友達かを見てください、あなたの日を祝っています</string>
+    <string name="scheduled_empty_message_3_timestamp">3月5日に送信</string>
+    <string name="scheduled_compose_cd">メッセージをスケジュール</string>
+    <string name="scheduled_options_title">スケジュールされたメッセージ</string>
+    <string-array name="scheduled_options">
+        <item>今すぐ送信</item>
+        <item>テキストをコピー</item>
+        <item>削除</item>
+    </string-array>
+    <string name="settings_category_appearance">外観</string>
+    <string name="settings_category_general">一般</string>
+    <string name="settings_categoryreply">返信</string>
+    <string name="settings_night_title">ナイトモード</string>
+    <string name="settings_text_size_title">フォントサイズ</string>
+    <string name="settings_notifications_title">通知</string>
+    <string name="settings_notifications_o_summary">タップしてカスタマイズ</string>
+    <string name="settings_notification_actions_title">アクション</string>
+    <string name="settings_notification_action_1">ボタン 1</string>
+    <string name="settings_notification_action_2">ボタン 2</string>
+    <string name="settings_notification_action_3">ボタン 3</string>
+    <string name="settings_notification_previews_title">通知のプレビュー</string>
+    <string name="settings_notification_wake_title">スクリーンを起こす</string>
+    <string name="settings_vibration_title">バイブレーション</string>
+    <string name="settings_ringtone_title">サウンド</string>
+    <string name="settings_ringtone_none">なし</string>
+    <string name="settings_reply_title">返信</string>
+    <string name="settings_reply_summary">新しいメッセージのポップアップ</string>
+    <string name="settings_reply_tap_dismiss_title">タップして閉じる</string>
+    <string name="settings_reply_tap_dismiss_summary">ポップアップの外側をタップして閉じます</string>
+    <string name="settings_swipe_actions">スワイプアクション</string>
+    <string name="settings_swipe_actions_right">右スワイプ</string>
+    <string name="settings_swipe_actions_left">左スワイプ</string>
+    <string name="settings_swipe_actions_change">変更</string>
+    <string name="not_now_txt">今はしない</string>
+    <string name="process_title">このプロセスには\n時間がかかります</string>
+    <string name="syncing_done">メッセージの同期が完了しました...</string>
+    <string name="all_set_txt">全てセットです。準備が整いました</string>
+    <string name="Personal">すべてのメッセージ</string>
+    <string name="Other">既知の</string>
+    <string name="Spam">迷惑</string>
+    <string name="setting">設定</string>
+    <string name="Share">共有</string>
+    <string name="Rate">評価する</string>
+    <string name="edit">編集</string>
+    <string name="DarkMode">ダークモード</string>
+    <string name="BrightMode">ブライトモード</string>
+    <string name="Camera">カメラ</string>
+    <string name="Gallery">ギャラリー</string>
+    <string name="Gif">GIF</string>
+    <string name="Contact">連絡先</string>
+    <string name="Schedule">スケジュール</string>
+    <string name="Location">場所</string>
+    <string name="Notes">ノート</string>
+    <string name="no_msg">まだメッセージはありません...</string>
+    <string name="Start_Chat">チャットを開始</string>
+    <string name="Language">言語</string>
+    <string name="rate_text">Play Store で評価して他の人にお勧めください！</string>
+    <string name="sort_by">並び替え</string>
+    <string-array name="settings_swipe_actions">
+        <item>なし</item>
+        <item>アーカイブ</item>
+        <item>削除</item>
+        <item>通話</item>
+        <item>既読にする</item>
+        <item>未読にする</item>
+    </string-array>
+    <string name="settings_mms_size_title">MMSの添付ファイルを自動的に圧縮</string>
+    <string name="settings_sync_title">メッセージの同期</string>
+    <string name="settings_sync_summary">ネイティブのAndroid SMSデータベースとメッセージを再同期</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">発信コントロール</string>
+    <string name="blocking_manager_sia_title">Should I Answer？</string>
+    <string name="blocked_messages_title">ブロックされたメッセージ</string>
+    <string name="blocked_messages_empty">ブロックされたメッセージはここに表示されます</string>
+    <string name="blocking_block_title">ブロック</string>
+    <string name="blocking_unblock_title">ブロック解除</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">%sに進んでこの番号をブロックします</item>
+        <item quantity="other">%sに進んでこれらの番号をブロックします</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">%sに進んでこの番号を許可します</item>
+        <item quantity="other">%sに進んでこれらの番号を許可します</item>
+    </plurals>
+    <string name="widget_loading">読み込み中…</string>
+    <string name="widget_more">さらに会話を表示</string>
+    <string name="qkreply_menu_read">既読にする</string>
+    <string name="qkreply_menu_call">通話</string>
+    <string name="qkreply_menu_delete">削除</string>
+    <string name="qkreply_menu_expand">詳細表示</string>
+    <string name="qkreply_menu_collapse">簡易表示</string>
+    <string name="qkreply_menu_view">会話を開く</string>
+    <string name="changelog_title">SMSの新機能</string>
+    <string name="changelog_version">バージョン %s</string>
+    <string name="changelog_added">追加されたもの</string>
+    <string name="changelog_improved">改善されたもの</string>
+    <string name="changelog_fixed">修正されたもの</string>
+    <string name="changelog_more">詳細</string>
+    <string name="changelog_dismiss">閉じる</string>
+    <string-array name="notification_actions">
+        <item>なし</item>
+        <item>既読にする</item>
+        <item>返信</item>
+        <item>通話</item>
+        <item>削除</item>
+    </string-array>
+    <string name="button_yes">はい</string>
+    <string name="button_continue">続行</string>
+    <string name="button_cancel">キャンセル</string>
+    <string name="button_delete">削除</string>
+    <string name="button_save">保存</string>
+    <string name="button_stop">停止</string>
+    <string name="button_more">さらに</string>
+    <string name="button_set">設定</string>
+    <string name="button_undo">元に戻す</string>
+    <string name="toast_copied">コピーしました</string>
+    <string name="toast_archived">会話をアーカイブしました</string>
+    <string name="toast_sms_plus">この機能を使用するにはSMS+をロック解除する必要があります</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">新しいメッセージ</item>
+        <item quantity="other">%s 新しいメッセージ</item>
+    </plurals>
+    <string name="notification_message_failed_title">メッセージが送信されませんでした</string>
+    <string name="notification_message_failed_text">%s へのメッセージの送信に失敗しました</string>
+    <string name="privacy_policy">プライバシーポリシー</string>
+    <string name="pocket_data_on">MMSを送信する際にはポケットデータをオンにする必要があります！</string>
+    <string name="inapp_details" translatable="false">広告を削除し、ダークモードとライトモードのサポート、スケジュールされたSMSのサポートを含むプレミアムサブスクリプションを試してください。</string>
+    <string name="drawer_removeAds">広告を削除</string>
+    <string name="in_app_ads">messages_rad</string>
+    <string name="dialog_delete_message">このメッセージを削除してもよろしいですか？</string>
+    <string name="compose_bar_not_support">送信者は返信をサポートしていません</string>
+    <string name="default_name">SMSを送受信するには、それをデフォルトのアプリケーションに設定する必要があります。メッセージをデフォルトのアプリケーションにしますか？</string>
+    <string name="confirm_delete">削除の確認</string>
+    <string name="confirm_delete_text">このノートを削除してもよろしいですか？</string>
+    <string name="title">タイトル</string>
+    <string name="note">ノート</string>
+    <string name="search">検索</string>
+    <string name="settings">設定</string>
+    <string name="share_to">共有先:</string>
+    <string name="sort">ソート</string>
+    <string name="empty_list_text">右下のボタンを押して新しいノートを追加してください！</string>
+    <string name="new_note">新しいノート</string>
+    <string name="undo">元に戻す</string>
+    <string name="delete">削除</string>
+    <string name="exception">例外:</string>
+    <string name="edit_note">ノートの編集</string>
+    <string name="drawer_feedback">フィードバックを送信</string>
+    <string name="drawer_mode">ライトモード</string>
+    <string name="unlimited_access_user">すべての機能に\n無制限アクセス</string>
+    <string name="pro_user">あなたは\nプレミアムユーザーです</string>
+    <string name="sub_info_text"><b>サブスクリプションは自動的に更新されます。オフにするまで。</b></string>
+    <string name="cancel_purchase">Google Play のサブスクリプションで自動的な更新をキャンセルできます</string>
+    <string name="remove_ads">広告を削除</string>
+    <string name="no_ads">広告なし</string>
+    <string name="free_trial">7日間の無料トライアル、その後自動更新</string>
+    <string name="can_not_talk_right_now">申し訳ありませんが、今は話せません</string>
+    <string name="can_call_you_later">後で電話してもいいですか？</string>
+    <string name="i_am_on_my_way">今、行きます</string>
+    <string name="write_personal_message">個人向けメッセージを書く</string>
+    <string name="create_reminder">新しいリマインダーを作成</string>
+    <string name="remind_me_about">私について思い出させてください</string>
+    <string name="no_title">タイトルなし</string>
+    <string name="edit_contact">連絡先の編集</string>
+    <string name="add_contact">連絡先の追加</string>
+    <string name="messages">メッセージ</string>
+    <string name="send_mail">メールを送信</string>
+    <string name="calendar">カレンダー</string>
+    <string name="web">ウェブ</string>
+    <string-array name="night_modes">
+        <item>システム</item>
+        <item>ライトモード</item>
+        <item>ダークモード</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>名前とメッセージを表示</item>
+        <item>名前を表示</item>
+        <item>内容を非表示</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>小</item>
+        <item>通常</item>
+        <item>大</item>
+        <item>より大きい</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>遅延なし</item>
+        <item>短い</item>
+        <item>中程度</item>
+        <item>長い</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>自動</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>圧縮なし</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>了解</item>
+        <item>少々お待ちください</item>
+        <item>今行きます</item>
+        <item>ありがとうございます</item>
+        <item>いいですね</item>
+        <item>どうしたの？</item>
+        <item>同意します</item>
+        <item>いいえ</item>
+        <item>愛してる</item>
+        <item>すみません</item>
+        <item>笑</item>
+        <item>大丈夫です</item>
+    </string-array>
+    <string name="default_title">SMSアプリをデフォルトに設定する</string>
+    <string name="set_as_defaault">デフォルトに設定</string>
+    <string name="love_app_title">SMSアプリをあなたのデフォルトのSMSアプリにする</string>
+    <string-array name="gif">
+        <item>動物の顔</item>
+        <item>絵文字</item>
+        <item>果物と野菜</item>
+        <item>ハロウィン</item>
+        <item>愛</item>
+    </string-array>
+    <string name="Sticker">ステッカー</string>
+    <string name="no_connection">インターネットに接続されていません。</string>
+    <string-array name="sticker">
+        <item>男の子</item>
+        <item>カートゥーン</item>
+        <item>顔</item>
+        <item>祭り</item>
+        <item>フルーツ</item>
+        <item>楽しい</item>
+        <item>女の子</item>
+        <item>愛のステッカー</item>
+        <item>その他</item>
+        <item>子犬</item>
+    </string-array>
+    <string name="open_link_to_browser">ブラウザでリンクを開く</string>
+    <string name="battery_dialog">重要なSMSを見逃したくないですか？\nバッテリーの最適化をオフにします</string>
+    <string name="reason_to_change_battery_optimization_setting">アプリ情報に移動して、詳細 > バッテリーの最適化を選択し、「最適化しない」を選択します</string>
+    <string name="feedback_txt">あなたの経験について教えてください。そして、メッセージアプリを改善するための提案をください。</string>
+    <string name="reason_to_change_battery">詳細 > バッテリーの最適化 > 「最適化しない」</string>
+    <string name="drawer_transaction">取引</string>
+    <string name="drawer_promotion">プロモーション</string>
+    <string name="unknown">不明</string>
+    <string name="priva"><u>プライバシーポリシー</u></string>
+    <string name="smsfilter">SMSフィルター</string>
+    <string name="by_click_t_c" translatable="false"><u>クリックして、利用規約に同意します。</u></string>
+    <string name="continue_without_sub"><u>サブスクリプションなしで続行</u></string>
+    <string name="text_free_trial">X日間の<b>無料トライアル</b>をお楽しみください - その後、X € / 月</string>
+    <string name="calldorado_message">通話を終了する前にすべての<b>メッセージ</b>を確認してください！ 新着情報があります</string>
+    <string name="privacy_terms_description">続行することで、利用規約とプライバシーポリシーに同意し承認します。</string>
+    <string name="draw_over_description"><![CDATA[他のアプリの上に表示するための、SMSメッセージのすべての潜在的な機能を受け取る。 あなたのSMSコールウィジェットを受け取り、さらに]]></string>
+    <string name="ad_label">広告</string>
+    <string name="onboarding_continue_button">続行</string>
+    <string name="onboarding_step_1_title">SMS＆メッセンジャーマネージャー</string>
+    <string name="onboarding_step_1_subtitle">友達とチャットし、グループを作成し、受信トレイを整理します</string>
+    <string name="onboarding_step_1_hight_light">あなたに合ったアプローチ</string>
+    <string name="onboarding_step_2_title">メッセージの整理と保存</string>
+    <string name="onboarding_step_2_subtitle">メッセージのバックアップと復元</string>
+    <string name="onboarding_step_2_hight_light">何千人ものユーザーが好きです</string>
+    <string name="onboarding_step_3_title">人生を楽しんで、受信トレイを管理させましょう</string>
+    <string name="onboarding_step_3_subtitle">受信トレイを管理するために許可を受けるための手順に従ってください。</string>
+    <string name="onboarding_step_3_hight_light">後で</string>
+    <string name="onboarding_allow_access_button">アクセスを許可</string>
+    <string name="onboarding_step_4_title">私たちに仕事をさせることでバッテリーを改善します</string>
+    <string name="onboarding_step_4_subtitle">邪魔なSMSの中断に対処します。</string>
+    <string name="onboarding_step_4_hight_light">何千人ものユーザーが好きです</string>
+    <string name="onboarding_step_5_title">チャットしながら他のアプリで画面分割作業</string>
+    <string name="onboarding_step_5_subtitle">素晴らしい通話ウィジェットをお楽しみください。それにより、マルチタスクが可能になります</string>
+    <string name="onboarding_step_5_hight_light">何千人ものユーザーが好きです</string>
+    <string name="payment_card_title">今すぐ チャット！</string>
+    <string name="payment_card_price"><![CDATA[3日間無料、%s / %s]]></string>
+    <string name="payment_card_button">今すぐ無料で試す</string>
+    <string name="payment_card_hight_light">Playストアでセキュリティ保護されています</string>
+    <string name="payment_card_weekly">週刊</string>
+    <string name="payment_card_monthly">月刊</string>
+    <string name="payment_card_yearly">年間</string>
+    <string name="payment_card_auto_renew">自動更新サブスクリプション、いつでもキャンセルできます</string>
+    <string name="accessibility_service_description">あなたのアクセシビリティサービスの説明</string>
+    <string name="permission_txt"><font color="#FF8A00">許可が必要です：</font>\n電話の状態を読み取る＆他のアプリの上に描画する</string>
+    <string name="opt_privacy">続行することで、利用規約とプライバシーポリシーに同意し承認します。</string>
+    <string name="permission_required">必要な許可</string>
+    <string name="permission_dialog_body">このアプリは、電話の許可なしで正常に動作しない場合があります。 以下の手順に従って有効にしてください：\n\n1. "権限"を選択\n2. パーミッションのリストから "電話" を見つけ、タップして有効にします</string>
+    <string name="go_premium">プレミアムに進む</string>
+    <string name="unlock_everything">すべての機能をロック解除＆広告なし</string>
+    <string name="start_three_day">3日間の無料トライアルを開始</string>
+    <string name="pro">プロ</string>
+    <string name="more_option">その他のオプション</string>
+    <string name="rate_us_5">5つ星で評価</string>
+    <string name="help_feedback">ヘルプ＆フィードバック</string>
+    <string name="send_message">メッセージを送信</string>
+    <string name="CTA_Button_Text">すべての機能をロック解除するにはタップしてくだ<font color="#FFFBCD04">さい</font></string>
+
+</resources>

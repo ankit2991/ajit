@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:buttonBarStyle">@style/MyButtonBar</item>
+        <item name="android:buttonBarButtonStyle">@style/MyBorderlessButton</item>
+    </style>
+
+    <style name="MyBorderlessButton" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <!-- Set background drawable and text size of the buttons here -->
+        <item name="android:background">@drawable/btn_rect</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:positiveButtonText">@android:color/white</item>
+    </style>
+
+    <style name="MyButtonBar">
+        <!-- Define a background for the button bar and a divider between the buttons here -->
+        <!--<item name="android:divider">....</item>-->
+        <!--<item name="android:dividerPadding">...</item>-->
+        <!--<item name="android:showDividers">...</item>-->
+        <!--<item name="android:background">@android:color/holo_purple</item>-->
+    </style>
+
+
+</resources>

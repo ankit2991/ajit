@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sugest_update_title">Eguneraketa dago</string>
+    <string name="sugest_update_message">Google Play-en eguneraketa berria dago, mesedez eguneratu zure bertsioa</string>
+    <string name="force_update_title">Eguneraketa dago</string>
+    <string name="force_update_message">Google Play-en eguneraketa berria dago, mesedez eguneratu zure bertsioa</string>
+    <string name="update_ok">Eguneratu</string>
+    <string name="update_no">Orain ez</string>
+    <string name="app_name">#Mezuak</string>
+    <string name="in_app_name">Mezuak</string>
+    <string name="splash_app_name">SMS Mezuak</string>
+    <string name="loading_msg">Itxaron mesedez...</string>
+    <string name="ads_loading_msg">Ad erakusten...</string>
+    <string name="shortcut_compose_long_label">Hizketa berria</string>
+    <string name="shortcut_compose_short_label">Sortu</string>
+    <string name="shortcut_compose_disabled_message">Atajoa desgaituta</string>
+    <string name="title_archived">Gordetako Mezuak</string>
+    <string name="title_settings">Ezarpenak</string>
+    <string name="title_notification_prefs">Jakinarazpenak</string>
+    <string name="title_theme">Gaia</string>
+    <string name="title_conversations">Bilatu zenbakiak, izenak eta gehiago</string>
+    <string name="title_compose">Idatzi izen bat edo telefono zenbakia</string>
+    <string name="setup_skip">Ataldu</string>
+    <string name="setup_next">Jarraitu</string>
+    <string name="menu_add_person">Pertsona bat gehitu</string>
+    <string name="menu_call">Deitu</string>
+    <string name="menu_info">Xehetasunak</string>
+    <string name="menu_save">Galerian gordetu</string>
+    <string name="menu_share">Partekatu</string>
+    <string name="main_drawer_open_cd">Aldiak ireki</string>
+    <string name="main_title_selected">%d hautatuta</string>
+    <string name="main_menu_clear">Garbitu</string>
+    <string name="main_menu_archive">Gordetzea</string>
+    <string name="main_menu_unarchive">Desgordetzea</string>
+    <string name="main_menu_delete">Ezabatu</string>
+    <string name="main_menu_add_contact">Kontaktuetara gehitu</string>
+    <string name="main_menu_pin">Goian pin</string>
+    <string name="main_menu_unpin">Despin</string>
+    <string name="main_menu_read">Iruzurra markatu</string>
+    <string name="main_menu_unread">Iruzurra kendu</string>
+    <string name="select_all">Hautatu denak</string>
+    <string name="deselect_all">Desaukeratu denak</string>
+    <string name="main_menu_block">Blokeatu</string>
+    <string name="main_syncing">Mezuak antolatzen...</string>
+    <string name="main_sender_you">Zu: %s</string>
+    <string name="main_draft">Zirriborroa: %s</string>
+    <string name="main_message_results_title">Emaitzak mezuak</string>
+    <string name="main_message_results">%d mezu</string>
+    <string name="inbox_empty_text">Zure elkarrizketak hemen agertuko dira</string>
+    <string name="inbox_search_empty_text">Emaitzarik ez</string>
+    <string name="archived_empty_text">Oraindik ez dago elkarrizketarik gorde...</string>
+    <string name="main_fab_cd">Hasi elkarrizketa berria</string>
+    <string name="main_default_sms_title">Gustuko duzu Mezuak?</string>
+    <string name="main_default_sms_message">SMS aplikazioa zure bertsio SMS aplikazioa bihurtu</string>
+    <string name="main_default_sms_change">Aldatu</string>
+    <string name="main_permission_required">Baimena beharrezkoa</string>
+    <string name="main_permission_sms">SMS beharrezkoa da SMS mezuen bidaltzeko eta ikusteko</string>
+    <string name="main_permission_contacts">SMS-ak zure kontaktuak ikusteko baimena behar du</string>
+    <string name="main_permission_allow">Baimendu</string>
+    <string name="main_permission_allow_read">Irakurri eta idatzi baimendu</string>
+    <string name="drawer_inbox">Sarrera</string>
+    <string name="drawer_archived">Gordetakoak</string>
+    <string name="drawer_scheduled">Arreta Mezuak</string>
+    <string name="drawer_blocking">Blokeatutako zerrenda</string>
+    <string name="drawer_calldorado">Dei ezarpenak</string>
+    <string name="drawer_more">Gehiago</string>
+    <string name="drawer_group">Taldea mezua</string>
+    <string name="drawer_settings">Ezarpenak</string>
+    <string name="drawer_remove_ads">Ad-ak kentzea</string>
+    <string name="drawer_help">Laguntza eta feedback</string>
+    <string name="drawer_invite">Lagunak gonbidatu</string>
+    <string name="dialog_delete_title">Ezabatu</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Ziur zaude elkarrizketa hau ezabatu nahi duzula?</item>
+        <item quantity="other">Ziur zaude %d elkarrizketa ezabatu nahi dituzula?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Kopiatu testua</item>
+        <item>Aurrera</item>
+        <item>Ezabatu</item>
+    </string-array>
+    <string name="compose_number_picker_title">Aukeratu telefono zenbakia</string>
+    <string name="compose_number_picker_default">%s ∙ Lehenetsia</string>
+    <string name="compose_number_picker_once">Bakarrik behin</string>
+    <string name="compose_number_picker_always">Betik</string>
+    <string name="compose_title_selected">%d hautatuta</string>
+    <string name="compose_subtitle_results">%1$d of %2$d emaitzak</string>
+    <string name="contact_selected">%1$d of %2$d Hautatuta</string>
+    <string name="compose_send_group_title">Talde mezua bidali</string>
+    <string name="compose_send_group_summary">Jasotzaile eta erantzunak guztiek ikusgai izango dituzte</string>
+    <string name="compose_messages_empty">Hasi zure elkarrizketa. Esan zerbait aparta!</string>
+    <string name="compose_vcard_label">Kontaktuko txartela</string>
+    <string name="compose_scheduled_for">Arretarako eguna</string>
+    <string name="compose_scheduled_future">denbora etorkizunean izan behar da!</string>
+    <string name="compose_scheduled_toast">Arreta mezuak gehituta</string>
+    <string name="compose_hint">Idatzi hemen…</string>
+    <string name="compose_menu_copy">Kopiatu testua</string>
+    <string name="compose_menu_forward">Aurrera</string>
+    <string name="compose_menu_delete">Ezabatu</string>
+    <string name="compose_menu_previous">Aurrekoa</string>
+    <string name="compose_menu_next">Hurrengoa</string>
+    <string name="compose_menu_clear">Garbitu</string>
+    <string name="compose_details_title">Mezuaren xehetasunak</string>
+    <string name="compose_details_type">Mota: %s</string>
+    <string name="compose_details_from">Nondik: %s</string>
+    <string name="compose_details_to">Nori: %s</string>
+    <string name="compose_details_subject">Gaia: %s</string>
+    <string name="compose_details_priority">Lehentasuna: %s</string>
+    <string name="compose_details_size">Tamaina: %s</string>
+    <string name="compose_details_sent">Bidalia: %s</string>
+    <string name="compose_details_received">Jasoa: %s</string>
+    <string name="compose_details_delivered">Entregatua: %s</string>
+    <string name="compose_details_error_code">Errore kodea: %d</string>
+    <string name="compose_attach_cd">Eranskina gehitu</string>
+    <string name="compose_gallery_cd">Argazkia erantsi</string>
+    <string name="compose_camera_cd">Argazkia hartu</string>
+    <string name="compose_schedule_cd">Mezua egutegian</string>
+    <string name="compose_contact_cd">Kontaktua erantsi</string>
+    <string name="compose_contact_error">Errorea kontaktoa irakurtzerakoan</string>
+    <string name="compose_sim_cd">%s hautatuta, SIM txartela aldatu</string>
+    <string name="compose_send_cd">Mezua bidali</string>
+    <string name="message_status_sending">Bidaltzen...</string>
+    <string name="message_status_delivered">Entregatua %s</string>
+    <string name="message_status_failed">Bidalketa hutsa</string>
+    <string name="info_title">Kontaktuen xehetasunak</string>
+    <string name="info_copied_address">Helbidea kopiatuta</string>
+    <string name="info_name">Elkarrizketa izena</string>
+    <string name="info_notifications">Jakinarazpenak</string>
+    <string name="info_theme">Gaia</string>
+    <string name="info_archive">Gordetzea</string>
+    <string name="info_unarchive">Desgordetzea</string>
+    <string name="info_block">Blokeatu</string>
+    <string name="info_unblock">Blokeoa kentzea</string>
+    <string name="info_delete">Elkarrizketa ezabatu</string>
+    <string name="gallery_error">Ezin izan da multimedia kargatu</string>
+    <string name="gallery_toast_saved">Galerian gorde da</string>
+    <string name="backup_title">Babeskopia eta berreskurapena</string>
+    <string name="backup_backing_up">Mezuak babesgabetzen</string>
+    <string name="backup_restoring">Babeskopiatik berreskuratzen</string>
+    <string name="backup_last">Azken babeskopia</string>
+    <string name="backup_loading">Kargatzen...</string>
+    <string name="backup_never">Inoiz ez</string>
+    <string name="backup_restore_title">Berreskuratu</string>
+    <string name="backup_restore_summary">Aukeratu babeskopia</string>
+    <string name="backup_restore_error_plus">Mesedu SMS+ desgaitu mesedu eta berreskurapena erabili ahal izateko</string>
+    <string name="backup_restore_error_backup">Babeskopia prozesuan…</string>
+    <string name="backup_restore_error_restore">Berreskurapen prozesuan…</string>
+    <string name="backup_restore_confirm_title">Babeskopiatik berreskuratu</string>
+    <string name="backup_restore_confirm_message">Ziur zaude mezuak babeskopi honetatik berreskuratu nahi dituzula?</string>
+    <string name="backup_restore_stop_title">Berreskurapen etetzea</string>
+    <string name="backup_restore_stop_message">Dagoeneko berreskuratutako mezuak zure gailuan geratuko dira</string>
+    <string name="backup_restore_dialog_title">Babeskopiak</string>
+    <string name="backup_restore_dialog_summary">/SMS Mezuak/Babeskopiak</string>
+    <string name="backup_restore_dialog_empty">Ez da babeskopirik aurkitu</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">Ez dago mezurik</item>
+        <item quantity="one">%d mezua</item>
+        <item quantity="other">%d mezu</item>
+    </plurals>
+    <string name="backup_disclaimer">Orain arte, SMSen babesgaitza eta berreskurapena bakarrik euskarri dugu!</string>
+    <string name="backup_now">Babesgaitza</string>
+    <string name="backup_progress_parsing">Babesgaitza aztertzen…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d mezu</string>
+    <string name="backup_progress_saving">Babesgaitza gordetzen…</string>
+    <string name="backup_progress_syncing">Mezuak sinkronizatzen…</string>
+    <string name="backup_progress_finished">Amaituta!</string>
+    <string name="backup_notification_channel_name">Babesgaitza eta berreskurapena</string>
+    <string name="Message_notification_channel_name">Mezuen sinkronizazioa</string>
+    <string name="scheduled_title">Egutegian</string>
+    <string name="schedule_guide">Mezu elkarrizketa pantailaren atxikitako botoian klik eginez mezu programa ezarri dezakezu.</string>
+    <string name="scheduled_empty_description">Mezu bat automatikoki bidali, nahi duzun momentu zehatzetan</string>
+    <string name="scheduled_empty_message_1">Kaixo! Momentua ospatzeko denbora noiz da?</string>
+    <string name="scheduled_empty_message_2">Martxoaren 5ean da</string>
+    <string name="scheduled_empty_message_3">Heyaa! Ikusi zer lagun aparta naiz, zure eguna ospatzen</string>
+    <string name="scheduled_empty_message_3_timestamp">Martxoaren 5ean bidaltzen&#x200A;</string>
+    <string name="scheduled_compose_cd">Mezua egutegian</string>
+    <string name="scheduled_options_title">Egutegiko mezua</string>
+    <string-array name="scheduled_options">
+        <item>Orain bidali</item>
+        <item>Kopiatu testua</item>
+        <item>Ezabatu</item>
+    </string-array>
+    <string name="settings_category_appearance">Itxura</string>
+    <string name="settings_category_general">Orokorra</string>
+    <string name="settings_categoryreply">Erantzuna</string>
+    <string name="settings_night_title">Gaueko modua</string>
+    <string name="settings_text_size_title">Letra tamaina</string>
+    <string name="settings_notifications_title">Jakinarazpenak</string>
+    <string name="settings_notifications_o_summary">Prestaketak egokitzen ditzakezu</string>
+    <string name="settings_notification_actions_title">Ekintzak</string>
+    <string name="settings_notification_action_1">Botoia 1</string>
+    <string name="settings_notification_action_2">Botoia 2</string>
+    <string name="settings_notification_action_3">Botoia 3</string>
+    <string name="settings_notification_previews_title">Jakinarazpenen aurrebista</string>
+    <string name="settings_notification_wake_title">Pantaila dendetzea</string>
+    <string name="settings_vibration_title">Bibraketa</string>
+    <string name="settings_ringtone_title">Soinua</string>
+    <string name="settings_ringtone_none">Bat ere ez</string>
+    <string name="settings_reply_title">Erantzuna</string>
+    <string name="settings_reply_summary">Mezu berrien leiho altxatua</string>
+    <string name="settings_reply_tap_dismiss_title">Altxatu-tapak</string>
+    <string name="settings_reply_tap_dismiss_summary">Pop-up-a kanpotik itxi ahal izateko kanpotik tapatu</string>
+    <string name="settings_swipe_actions">Swipe ekintzak</string>
+    <string name="settings_swipe_actions_right">Eskuinera swipe</string>
+    <string name="settings_swipe_actions_left">Ezkerreko swipe</string>
+    <string name="settings_swipe_actions_change">ALDATU</string>
+    <string name="not_now_txt">Orain ez</string>
+    <string name="process_title">Prozesu honek denbora bat behar du \nahazteko</string>
+    <string name="syncing_done">Mezuen sinkronizazioa amaituta....</string>
+    <string name="all_set_txt">Denetarik prest. Prest zaude!</string>
+    <string name="Personal">Mezu guztiak</string>
+    <string name="Other">Ezagunak </string>
+    <string name="Spam">Zaborra</string>
+    <string name="setting">Ezarpenak</string>
+    <string name="Share">Partekatu</string>
+    <string name="Rate">Baloratu gaitzazu</string>
+    <string name="edit">editatu</string>
+    <string name="DarkMode">Iluna Modua</string>
+    <string name="BrightMode">Argi Modua</string>
+    <string name="Camera">Kamera</string>
+    <string name="Gallery">Galeria</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">Kontaktua</string>
+    <string name="Schedule">Egutegia</string>
+    <string name="Location">Lokalizazioa</string>
+    <string name="Notes">Oharrak</string>
+    <string name="no_msg">Ez dago mezurik oraindik…</string>
+    <string name="Start_Chat">Hasieratu Elkarrizketa</string>
+    <string name="Language">Hizkuntza</string>
+    <string name="rate_text">Balorazioa emanez gero, gure aplikazioa \nbeste pertsonen artean gomendatu dezakezu!</string>
+    <string name="sort_by">Antolatu</string>
+    <string-array name="settings_swipe_actions">
+        <item>Ez</item>
+        <item>Archibatu</item>
+        <item>Ezabatu</item>
+        <item>Deitu</item>
+        <item>Irakurritu bezala markatu</item>
+        <item>Irakurri gabe markatu</item>
+    </string-array>
+    <string name="settings_mms_size_title">MMS agerpenak automatikoki konprimitu</string>
+    <string name="settings_sync_title">Mezuak sinkronizatu</string>
+    <string name="settings_sync_summary">Zure mezuak Androiden SMS datu-basearekin berriz sinkronizatu</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Deitu kontrola</string>
+    <string name="blocking_manager_sia_title">Nola erantzun behar dudan?</string>
+    <string name="blocked_messages_title">Blokeatutako mezuen zerrenda</string>
+    <string name="blocked_messages_empty">Blokeatutako mezuak hemen agertuko dira</string>
+    <string name="blocking_block_title">Blokeatu</string>
+    <string name="blocking_unblock_title">Desblokeatu</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">%s jarraitu eta zenbaki hau blokeatu</item>
+        <item quantity="other">%s jarraitu eta zenbaki hauek blokeatu</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">%s jarraitu eta zenbaki hau onartu</item>
+        <item quantity="other">%s jarraitu eta zenbaki hauek onartu</item>
+    </plurals>
+    <string name="widget_loading">Kargatzen…</string>
+    <string name="widget_more">Gehiago ikusi elkarrizketa</string>
+    <string name="qkreply_menu_read">Irkurri bezala markatu</string>
+    <string name="qkreply_menu_call">Deitu</string>
+    <string name="qkreply_menu_delete">Ezabatu</string>
+    <string name="qkreply_menu_expand">Gehiago erakutsi</string>
+    <string name="qkreply_menu_collapse">Gutxiago erakutsi</string>
+    <string name="qkreply_menu_view">Elkarrizketa ireki</string>
+    <string name="changelog_title">Berria SMSen</string>
+    <string name="changelog_version">Bertsioa %s</string>
+    <string name="changelog_added">Gehitua</string>
+    <string name="changelog_improved">Hobetua</string>
+    <string name="changelog_fixed">Konpondua</string>
+    <string name="changelog_more">Gehiago</string>
+    <string name="changelog_dismiss">Ezeztatu</string>
+    <string-array name="notification_actions">
+        <item>Ez</item>
+        <item>Irakurritu bezala markatu</item>
+        <item>Erantzun</item>
+        <item>Deitu</item>
+        <item>Ezabatu</item>
+    </string-array>
+    <string name="button_yes">Bai</string>
+    <string name="button_continue">Jarraitu</string>
+    <string name="button_cancel">Utzi</string>
+    <string name="button_delete">Ezabatu</string>
+    <string name="button_save">Gorde</string>
+    <string name="button_stop">Gelditu</string>
+    <string name="button_more">Gehiago</string>
+    <string name="button_set">Ezarri</string>
+    <string name="button_undo">Desegin</string>
+    <string name="toast_copied">Kopiatua</string>
+    <string name="toast_archived">Elkarrizketa artxibatu</string>
+    <string name="toast_sms_plus">Erabil dezakezun SMS+ erabili behar duzu</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Mezu berria</item>
+        <item quantity="other">%s mezu berri</item>
+    </plurals>
+    <string name="notification_message_failed_title">Mezua ez da bidalitu</string>
+    <string name="notification_message_failed_text">%s-ri bidalitako mezua ez da bidali</string>
+    <string name="privacy_policy">Pribatutasun-politika</string>
+    <string name="pocket_data_on">Mezu MMS bidaltzen bitartean data denda aktibatu behar duzu!</string>
+    <string name="inapp_details" translatable="false">Publizitateak kentzeko, saiakera bat egin \nBertsio premiumarekin, ilun-argi moduaren laguntza\nMezu programatuaren laguntza.</string>
+    <string name="drawer_removeAds">Publizitateak kendu</string>
+    <string name="in_app_ads">mezuak_rad</string>
+    <string name="dialog_delete_message">Ziur zaude mezu hau ezabatu nahi duzula?</string>
+    <string name="compose_bar_not_support">Bidalkideak ez du erantzunen laguntzarako</string>
+    <string name="default_name">SMS bat bidaltzeko edo jasotzeko, berezko aplikazio gisa ezartu behar duzu. Nahi duzu mezuak zure berezko aplikazio bihurtzea?</string>
+    <string name="confirm_delete">Ezabaketaren berrespena</string>
+    <string name="confirm_delete_text">Ziur zaude ohar hau ezabatu nahi duzula?</string>
+    <string name="title">Izenburua</string>
+    <string name="note">Oharra</string>
+    <string name="search">Bilatu</string>
+    <string name="settings">Ezarpenak</string>
+    <string name="share_to">Partekatu hona:</string>
+    <string name="sort">Antolatu</string>
+    <string name="empty_list_text">Eskuineko beheko botoian sakatu oharririk berri bat gehitzeko!</string>
+    <string name="new_note">Ohar berria</string>
+    <string name="undo">Desegin</string>
+    <string name="delete">Ezabatu</string>
+    <string name="exception">Salbuespena:</string>
+    <string name="edit_note">Oharra editatu</string>
+    <string name="drawer_feedback">Bidali feedback</string>
+    <string name="drawer_mode">Argi modua</string>
+    <string name="unlimited_access_user">Ezaugarri guztietarako Sarbidea</string>
+    <string name="pro_user">Zure premium erabiltzailea zara</string>
+    <string name="sub_info_text"><b>Suskripzioa automatikoki berriz egiten da itxi arte.</b></string>
+    <string name="cancel_purchase">Google play-en Subskripzioa zerrendan automatikoki berritzea utzi dezakezu</string>
+    <string name="remove_ads">Publizitateak kendu</string>
+    <string name="no_ads">Publizitate gabe</string>
+    <string name="free_trial">7 eguneko doako proba, gero automatikoki berritu</string>
+    <string name="can_not_talk_right_now">Barkatu, ezin dut orain hitz egin</string>
+    <string name="can_call_you_later">Zaila al da zuregana deitzea?</string>
+    <string name="i_am_on_my_way">Bidaia nago</string>
+    <string name="write_personal_message">Idatzi mezu pertsonala</string>
+    <string name="create_reminder">Sortu oharra berria</string>
+    <string name="remind_me_about">Gogoratu niri buruz</string>
+    <string name="no_title">Izenbururik ez</string>
+    <string name="edit_contact">Editatu kontaktua</string>
+    <string name="add_contact">Gehitu kontaktua</string>
+    <string name="messages">Mezuak</string>
+    <string name="send_mail">Posta elektronikoa bidali</string>
+    <string name="calendar">Egutegia</string>
+    <string name="web">Web</string>
+    <string-array name="night_modes">
+        <item>Sistemak</item>
+        <item>Argi modua</item>
+        <item>Ilun-argi modua</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>Izena eta mezua erakutsi</item>
+        <item>Izena erakutsi</item>
+        <item>Edukien ezkutatu</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>Txikia</item>
+        <item>Normala</item>
+        <item>Handia</item>
+        <item>Handiagoa</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>Ez kulturik</item>
+        <item>Laburra</item>
+        <item>Ertaina</item>
+        <item>Luzekoa</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Automatikoa</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>Komprimatu gabe</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>Ados</item>
+        <item>Espera zerbait</item>
+        <item>Bidaia egiten</item>
+        <item>Eskerrik asko</item>
+        <item>Ondo egiten du</item>
+        <item>Zer gertatzen da?</item>
+        <item>Ados</item>
+        <item>Ez</item>
+        <item>Maitasuna</item>
+        <item>Barkatu</item>
+        <item>JEJE</item>
+        <item>Ondo dago</item>
+    </string-array>
+    <string name="default_title">Agindu SMS aplikazioari berezkoa izan dadin</string>
+    <string name="set_as_defaault">Ezarri berezkoa gisa</string>
+    <string name="love_app_title">Egin SMS aplikazioa zure berezko SMS aplikazioa</string>
+    <string-array name="gif">
+        <item>Animalia aurpegiak</item>
+        <item>Emojiak</item>
+        <item>Ogi eta Barazkiak</item>
+        <item>Halloween</item>
+        <item>Maitasuna</item>
+    </string-array>
+    <string name="Sticker">Sticker</string>
+    <string name="no_connection">Interneteko konexiorik ez.</string>
+    <string-array name="sticker">
+        <item>Arroka</item>
+        <item>Kartuna</item>
+        <item>Aurpegiak</item>
+        <item>Jaialdia</item>
+        <item>Fruta</item>
+        <item>Dibertigarria</item>
+        <item>Neska</item>
+        <item>Maitasuna Sticker</item>
+        <item>Besteak</item>
+        <item>Txakurra</item>
+    </string-array>
+    <string name="open_link_to_browser">Esteka ireki nabigatzailean</string>
+    <string name="battery_dialog"> Garrantzitsua den SMSik galdu nahi ez duzu? \n
+Akumuladorearen optimizazioa desgaitu</string>
+    <string name="reason_to_change_battery_optimization_setting">Joan Aplikazioaren Infoan &gt; Aurreratua &gt; Akumuladorearen Optimizazioa \neta hautatu \'Ez optimizatu\'</string>
+    <string name="feedback_txt">Esperientziari buruz adierazi eta iradokiak emanez Hobetze aplikazioa.</string>
+    <string name="reason_to_change_battery"> Aurreratua &gt; Akumuladorearen Optimizazioa &gt; \'Ez optimizatu\'</string>
+    <string name="drawer_transaction">Trantsakzioak</string>
+    <string name="drawer_promotion">Promozioak</string>
+    <string name="unknown">Ezezaguna</string>
+    <string name="priva"><u>Pribatutasun politika</u></string>
+    <string name="smsfilter">SMS iragazkia</string>
+    <string name="by_click_t_c" translatable="false"><u>Klik eginez, Gure Erabilera eta Baldintzak onartzen dituzu.</u></string>
+    <string name="continue_without_sub"><u>Bidalketa gabe jarraitu</u></string>
+    <string name="text_free_trial">X egun doako proba, <b>%s</b> / %s</string>
+    <string name="calldorado_message">Ikuskatu zure <b>mezuak</b> telefonoa ixte baino lehen! Berriak daude</string>
+    <string name="privacy_terms_description">Jarraitzen baduzu, erabilera baldintzak eta pribatutasun politika onartu eta berresten dituzu.</string>
+    <string name="draw_over_description"><![CDATA[Beste aplikazioen gainean erakusteko gure SMS Mezuak. Jaso gure SMS deialdi widget eta gehiago]]></string>
+    <string name="ad_label">AP</string>
+    <string name="onboarding_continue_button">Jarraitu</string>
+    <string name="onboarding_step_1_title">SMS &amp; Messenger kudeatzailea</string>
+    <string name="onboarding_step_1_subtitle">Elkartu lagunekin, taldeak egin eta zure sarrerak antolatu</string>
+    <string name="onboarding_step_1_hight_light">Zuretzako metodo berezia</string>
+    <string name="onboarding_step_2_title">Mezuak antolatu &amp; gordetu</string>
+    <string name="onboarding_step_2_subtitle">Backup &amp; berreskuratu zure mezuen</string>
+    <string name="onboarding_step_2_hight_light">Milaka erabiltzaileak gustuko dute</string>
+    <string name="onboarding_step_3_title">Bizi bizitza &amp; gure gainetik zure sarrera zaintzeko</string>
+    <string name="onboarding_step_3_subtitle">Baimenak onartu zure sarrera kudeatzeko lagundu ahal izateko.</string>
+    <string name="onboarding_step_3_hight_light">Beste batean</string>
+    <string name="onboarding_allow_access_button">Baimendu sarrera</string>
+    <string name="onboarding_step_4_title">Akumuladorea hobetu gure lana eginez</string>
+    <string name="onboarding_step_4_subtitle">Zoritxarrez SMS deiturak baino gerturatzen gara.</string>
+    <string name="onboarding_step_4_hight_light">Milaka erabiltzaileak gustuko dute</string>
+    <string name="onboarding_step_5_title">Banatu pantaila beste aplikazioetan lanean bitartean</string>
+    <string name="onboarding_step_5_subtitle">Nabarmendu gure deialdi widget itzela multitask egiteko aukera ematen dizu</string>
+    <string name="onboarding_step_5_hight_light">Milaka erabiltzaileak gustuko dute</string>
+    <string name="payment_card_title">Zatoz txateatzera!</string>
+    <string name="payment_card_price"><![CDATA[3 egun doako, %s / %s]]></string>
+    <string name="payment_card_button">Saiatu doako 3 egun</string>
+    <string name="payment_card_hight_light">Segurtasuna Play Storekin</string>
+    <string name="payment_card_weekly">asteko</string>
+    <string name="payment_card_monthly">hilabete</string>
+    <string name="payment_card_yearly">urte</string>
+    <string name="payment_card_auto_renew">berregite automáticoa, bertan behera utzi ahal izateko</string>
+    <string name="accessibility_service_description">Zure lagin gaitasuna deskribapena</string>
+    <string name="permission_txt"><font color="#FF8A00">Baimen beharrezkoa:</font>\nTelefonoaren egoera irakurri &amp; beste aplikazioen gainean marraztu</string>
+    <string name="opt_privacy">Jarraitzen baduzu, erabilera baldintzak eta pribatutasun politika onartu eta berresten dituzu.</string>
+    <string name="permission_required">Beharrezko baimenak</string>
+    <string name="permission_dialog_body">Aplikazio honek ez du behar bezala funtzionatuko telefono baimena gabe. Jarraitzeko argibideak azpian eman dira:\n\n1. Hautatu "Baimenak"\n2. Bilatu "Telefonoa" baimen zerrendan eta sakatu gaitzeko</string>
+    <string name="go_premium">Egin <font color = "#FFE600">Premium-a!</font></string>
+    <string name="unlock_everything">Desblokeatu Denak &amp; Ez Ads</string>
+    <string name="start_three_day">Hasi 3 egun doako proba</string>
+    <string name="pro">Pro</string>
+    <string name="more_option">Aukera gehiago</string>
+    <string name="rate_us_5">Ebaluatu 5 izarrekin</string>
+    <string name="help_feedback">Laguntza &amp; Iritziak</string>
+    <string name="send_message">Bidali mezua</string>
+    <string name="CTA_Button_Text">Egin klik izena eman guztiak Ezaugarriak <font color="#FFFBCD04">desblokeatzeko</font></string>
+
+</resources>

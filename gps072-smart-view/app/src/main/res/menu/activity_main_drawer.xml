@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/i_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_prem"
+        android:icon="@drawable/i_premium"
+        android:title="Premium" />
+    <item
+        android:id="@+id/nav_restore"
+        android:icon="@drawable/i_restore"
+        android:title="Restore Purchases" />
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/i_share"
+        android:title="Share App" />
+    <item
+        android:id="@+id/nav_rate"
+        android:icon="@drawable/i_rate"
+        android:title="Rate Us" />
+    <item
+        android:id="@+id/nav_contact"
+        android:icon="@drawable/i_contact"
+        android:title="Contact Us" />
+
+</menu>

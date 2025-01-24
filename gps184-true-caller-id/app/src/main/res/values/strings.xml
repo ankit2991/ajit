@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Call Protect</string>
+    <string name="in_app_name">Call Protect</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="ram_free">Free RAM</string>
+    <string name="ram_total">Total RAM</string>
+    <string name="ram_used">Used RAM</string>
+    <string name="app_description">TRUE ID CALLER NAME</string>
+    <string name="start_page_tile">CALLER ID NAME</string>
+    <string name="start">Start</string>
+    <string name="rate_now">Rate now</string>
+    <string name="spam_call_id">Spam Call Id</string>
+    <string name="ussd_codes">Ussd Codes</string>
+    <string name="sim_card_info">Sim Card Info</string>
+    <string name="caller_info">Caller Info</string>
+    <string name="audio_managers">Audio managers</string>
+    <string name="system_usage">System Usage</string>
+    <string name="device_info">Device Info</string>
+    <string name="near_by_places">NEAR BY PLACES</string>
+
+    <string name="batt_health">Battery Health</string>
+    <string name="batt_remain">Battery Level</string>
+    <string name="batt_status">Battery Status</string>
+    <string name="batt_technology">Battery Tech.</string>
+    <string name="batt_temp">Battery Temp.</string>
+    <string name="batt_volte">Battery Voltage</string>
+
+    <string name="storage_free">Free Space</string>
+    <string name="storage_total">Total Space</string>
+    <string name="priva"><u>Privacy Policy</u></string>
+    <string name="priva1">Privacy Policy</string>
+    <string name="privacy">Agree with Terms  &amp; Cond.*</string>
+    <string name="notification_channel_id" />
+
+    <string name="step1">Select <b>\"Other Permissions\"</b> Option from the App setting page.</string>
+    <string name="step2">Select <b>\"Select start in background\"</b> Or It may be <b>\"Display popup while running in background\"</b>.</string>
+    <string name="step3">Select <b>"Accept"</b> option from the </string>
+    <string name="step4">Turn On Autostart Permission</string>
+    <string name="Cancel">Cancel</string>
+    <string name="open_location_settings">Open Setting</string>
+    <string name="gps_network_not_enabled">Location Service Is Off Turn It ON</string>
+    <string name="huawei_headline">"Turn on some permission "</string>
+    <string name="huawei_text">aaa</string>
+    <string name="go_to_protected">ssss</string>
+    <string name="accessibility_service_description">sss</string>
+
+    <string name="continue_with_ads"><u>Continue with ads</u></string>
+    <string name="price_payment_card">%s/%s</string>
+    <string name="try_now_for_free">TRY NOW FOR FREE</string>
+    <string name="subscribe_text">SUBSCRIBE FOR %s/%s</string>
+    <string name="facebook_app_id">1231968787651897</string>
+    <string name="facebook_client_token">954765d5f00796ff4f72ae241b46342f</string>
+    <string name="privacy_des">By continuing, you accepts and approve the terms of use and the privacy policy.</string>
+    <string name="settings">Settings</string>
+</resources>

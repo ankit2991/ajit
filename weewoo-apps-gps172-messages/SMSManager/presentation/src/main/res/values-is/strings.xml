@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sugest_update_title">Uppfærsla í boði</string>
+    <string name="sugest_update_message">Ný uppfærsla í boði á Google Play, vinsamlegast uppfærið útgáfuna ykkar</string>
+    <string name="force_update_title">Uppfærsla í boði</string>
+    <string name="force_update_message">Ný uppfærsla í boði á Google Play, vinsamlegast uppfærið útgáfuna ykkar</string>
+    <string name="update_ok">Uppfæra</string>
+    <string name="update_no">Ekki núna</string>
+    <string name="app_name">#Skilaboð</string>
+    <string name="in_app_name">Skilaboð</string>
+    <string name="splash_app_name">SMS Skilaboð</string>
+    <string name="loading_msg">Vinsamlegast bíðið...</string>
+    <string name="ads_loading_msg">Auglýsingar birtast...</string>
+    <string name="shortcut_compose_long_label">Ný samtals</string>
+    <string name="shortcut_compose_short_label">Skrifa</string>
+    <string name="shortcut_compose_disabled_message">Skammstöfun óvirk</string>
+    <string name="title_archived">Földruð skilaboð</string>
+    <string name="title_settings">Stillingar</string>
+    <string name="title_notification_prefs">Tilkynningar</string>
+    <string name="title_theme">Þema</string>
+    <string name="title_conversations">Leita númera, nöfn og fleira</string>
+    <string name="title_compose">Sláðu inn nafn eða símanúmer</string>
+    <string name="setup_skip">Sleppa</string>
+    <string name="setup_next">Halda áfram</string>
+    <string name="menu_add_person">Bæta við einstakling</string>
+    <string name="menu_call">Hringja</string>
+    <string name="menu_info">Upplýsingar</string>
+    <string name="menu_save">Vista í myndasafni</string>
+    <string name="menu_share">Deila</string>
+    <string name="main_drawer_open_cd">Opna skipulagsskúffu</string>
+    <string name="main_title_selected">%d valin</string>
+    <string name="main_menu_clear">Hreinsa</string>
+    <string name="main_menu_archive">Földra</string>
+    <string name="main_menu_unarchive">Opna</string>
+    <string name="main_menu_delete">Eyða</string>
+    <string name="main_menu_add_contact">Bæta við tengilið</string>
+    <string name="main_menu_pin">Festa efst</string>
+    <string name="main_menu_unpin">Afhenda</string>
+    <string name="main_menu_read">Merkið sem lesið</string>
+    <string name="main_menu_unread">Merkið sem ólesið</string>
+    <string name="select_all">Velja allt</string>
+    <string name="deselect_all">Afveldu allt</string>
+    <string name="main_menu_block">Loka</string>
+    <string name="main_syncing">Raða skilaboðum...</string>
+    <string name="main_sender_you">Þú: %s</string>
+    <string name="main_draft">Drög: %s</string>
+    <string name="main_message_results_title">Niðurstöður í skilaboðum</string>
+    <string name="main_message_results">%d skilaboð</string>
+    <string name="inbox_empty_text">Samtal ykkar birtast hér</string>
+    <string name="inbox_search_empty_text">Engar niðurstöður</string>
+    <string name="archived_empty_text">Engin földruð samræður ennþá..</string>
+    <string name="main_fab_cd">Byrja nýtt samtals</string>
+    <string name="main_default_sms_title">Áhuga á skilaboðum?</string>
+    <string name="main_default_sms_message">Gerðu SMS forritið þitt sjálfgefið SMS forrit</string>
+    <string name="main_default_sms_change">Breyta</string>
+    <string name="main_permission_required">Þörf á leyfi</string>
+    <string name="main_permission_sms">SMS þarf að leyfa að senda og skoða SMS skilaboð</string>
+    <string name="main_permission_contacts">SMS þarf að leyfa að skoða tengiliði þín</string>
+    <string name="main_permission_allow">Leyfa</string>
+    <string name="main_permission_allow_read">Leyfa Lestur og Skrifleyfi</string>
+    <string name="drawer_inbox">Innkassi</string>
+    <string name="drawer_archived">Földrað</string>
+    <string name="drawer_scheduled">Áætluð skilaboð</string>
+    <string name="drawer_blocking">Lokuð listi</string>
+    <string name="drawer_calldorado">Kallarstillingar</string>
+    <string name="drawer_more">Fleira</string>
+    <string name="drawer_group">Hópsamræða</string>
+    <string name="drawer_settings">Stillingar</string>
+    <string name="drawer_remove_ads">Fjarlægðu auglýsingar</string>
+    <string name="drawer_help">Hjálp og endurgjöf</string>
+    <string name="drawer_invite">Bjóða vinum</string>
+    <string name="dialog_delete_title">Eyða</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Ertu viss um að þú viljir eyða þessari samtölu?</item>
+        <item quantity="other">Ertu viss um að þú viljir eyða %d samtölum?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Afrita texta</item>
+        <item>Áfram</item>
+        <item>Eyða</item>
+    </string-array>
+    <string name="compose_number_picker_title">Veldu símanúmer</string>
+    <string name="compose_number_picker_default">%s ∙ Sjálfgefið</string>
+    <string name="compose_number_picker_once">Aðeins einu sinni</string>
+    <string name="compose_number_picker_always">Alltaf</string>
+    <string name="compose_title_selected">%d valin</string>
+    <string name="compose_subtitle_results">%1$d af %2$d niðurstöðum</string>
+    <string name="contact_selected">%1$d af %2$d Valin</string>
+    <string name="compose_send_group_title">Senda sem hópskilaboð</string>
+    <string name="compose_send_group_summary">Viðtakendur og svar verða sýnilegir fyrir öllum</string>
+    <string name="compose_messages_empty"> Byrjun á samtölunni þinni. Segðu eitthvað frábært!</string>
+    <string name="compose_vcard_label">Tengiliðakort</string>
+    <string name="compose_scheduled_for">Áætluð fyrir</string>
+    <string name="compose_scheduled_future"> tími ætti að vera í framtíðinni!</string>
+    <string name="compose_scheduled_toast">Bætt við áætluðum skilaboðum</string>
+    <string name="compose_hint">Skrifaðu hér...</string>
+    <string name="compose_menu_copy">Afrita texta</string>
+    <string name="compose_menu_forward">Áfram</string>
+    <string name="compose_menu_delete">Eyða</string>
+    <string name="compose_menu_previous">Fyrri</string>
+    <string name="compose_menu_next">Næsti</string>
+    <string name="compose_menu_clear">Hreinsa</string>
+    <string name="compose_details_title">Upplýsingar um skilaboð</string>
+    <string name="compose_details_type">Tegund: %s</string>
+    <string name="compose_details_from">Frá: %s</string>
+    <string name="compose_details_to">Til: %s</string>
+    <string name="compose_details_subject">Efni: %s</string>
+    <string name="compose_details_priority">Forgangur: %s</string>
+    <string name="compose_details_size">Stærð: %s</string>
+    <string name="compose_details_sent">Send: %s</string>
+    <string name="compose_details_received">Móttekið: %s</string>
+    <string name="compose_details_delivered">Afhent: %s</string>
+    <string name="compose_details_error_code">Villukóði: %d</string>
+    <string name="compose_attach_cd">Bæta við viðhengi</string>
+    <string name="compose_gallery_cd">Bæta við mynd</string>
+    <string name="compose_camera_cd">Taka mynd</string>
+    <string name="compose_schedule_cd">Áætla skilaboð</string>
+    <string name="compose_contact_cd">Bæta við tengilið</string>
+    <string name="compose_contact_error">Villa við að lesa tengilið</string>
+    <string name="compose_sim_cd">%s valið, breyta SIM-korti</string>
+    <string name="compose_send_cd">Senda skilaboð</string>
+    <string name="message_status_sending">Sendi...</string>
+    <string name="message_status_delivered">Afhent %s</string>
+    <string name="message_status_failed">Mistókst að senda</string>
+    <string name="info_title">Upplýsingar um tengilið</string>
+    <string name="info_copied_address">Heimilisfang afritað</string>
+    <string name="info_name">Titill samtals</string>
+    <string name="info_notifications">Tilkynningar</string>
+    <string name="info_theme">Þema</string>
+    <string name="info_archive">Földra</string>
+    <string name="info_unarchive">Opna</string>
+    <string name="info_block">Loka</string>
+    <string name="info_unblock">Afhenda lokun</string>
+    <string name="info_delete">Eyða samtali</string>
+    <string name="gallery_error">Gat ekki hlaðið miðlunum</string>
+    <string name="gallery_toast_saved">Vistað í myndasafni</string>
+    <string name="backup_title">Afrit og endurheimt</string>
+    <string name="backup_backing_up">Afrit skilaboða</string>
+    <string name="backup_restoring">Endurheimt frá afriti</string>
+    <string name="backup_last">Síðasta afrit</string>
+    <string name="backup_loading">Hleður…</string>
+    <string name="backup_never">Aldrei</string>
+    <string name="backup_restore_title">Endurheimt</string>
+    <string name="backup_restore_summary">Veldu afrit</string>
+    <string name="backup_restore_error_plus">Vinsamlegast opnaðu SMS+ til að nota afrit og endurheimt</string>
+    <string name="backup_restore_error_backup">Afrit í gangi…</string>
+    <string name="backup_restore_error_restore">Endurheimt í gangi…</string>
+    <string name="backup_restore_confirm_title">Endurheimt frá afriti</string>
+    <string name="backup_restore_confirm_message">Ertu viss um að þú viljir endurheimta skilaboðin þín frá þessu afriti?</string>
+    <string name="backup_restore_stop_title">Stöðva endurheimt</string>
+    <string name="backup_restore_stop_message">Skilaboð sem hafa nú þegar verið endurheimt munu vera á vélinni þinni</string>
+    <string name="backup_restore_dialog_title">Afrit</string>
+    <string name="backup_restore_dialog_summary">/SMS Skilaboð/Afrit</string>
+    <string name="backup_restore_dialog_empty">Engin afrit fundin</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">Engin skilaboð</item>
+        <item quantity="one">%d skilaboð</item>
+        <item quantity="other">%d skilaboð</item>
+    </plurals>
+    <string name="backup_disclaimer">Þar til nú, við höfum aðeins stutt SMS með afritum og endurheimt!</string>
+    <string name="backup_now">Afrita</string>
+    <string name="backup_progress_parsing">Greining afrits…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d skilaboð</string>
+    <string name="backup_progress_saving">Vista afrit…</string>
+    <string name="backup_progress_syncing">Samstilling skilaboða…</string>
+    <string name="backup_progress_finished">Lokið!</string>
+    <string name="backup_notification_channel_name">Afrit og endurheimt</string>
+    <string name="Message_notification_channel_name">Skilaboða Samstilling</string>
+    <string name="scheduled_title">Áætluð</string>
+    <string name="schedule_guide">Þú getur stillt áætluð skilaboð með því að smella á viðhengis hnappinn sem er gefinn á skjá skilaboðaumfjöllun.</string>
+    <string name="scheduled_empty_description">Sendu skilaboð sjálfkrafa, í nákvæmum stundum sem þú vilt</string>
+    <string name="scheduled_empty_message_1">Hæ! Hvenær er tíminn til að fagna stundinni?</string>
+    <string name="scheduled_empty_message_2">Það er 5. mars </string>
+    <string name="scheduled_empty_message_3">Hæaa! Líkaðu hvað ég er góður vinur, sem fagnar degi þínum</string>
+    <string name="scheduled_empty_message_3_timestamp">Sendið 5. mars&#x200A;</string>
+    <string name="scheduled_compose_cd">Áætla skilaboð</string>
+    <string name="scheduled_options_title">Áætluð skilaboð</string>
+    <string-array name="scheduled_options">
+        <item>Senda núna</item>
+        <item>Afrita texta</item>
+        <item>Eyða</item>
+    </string-array>
+    <string name="settings_category_appearance">Útlit</string>
+    <string name="settings_category_general">Almennt</string>
+    <string name="settings_categoryreply">Svara</string>
+    <string name="settings_night_title">Náttúru</string>
+    <string name="settings_text_size_title">Leturstærð</string>
+    <string name="settings_notifications_title">Tilkynningar</string>
+    <string name="settings_notifications_o_summary">Smelltu til að sérsníða</string>
+    <string name="settings_notification_actions_title">Aðgerðir</string>
+    <string name="settings_notification_action_1">Hnappur 1</string>
+    <string name="settings_notification_action_2">Hnappur 2</string>
+    <string name="settings_notification_action_3">Hnappur 3</string>
+    <string name="settings_notification_previews_title">Forsýning tilkynninga</string>
+    <string name="settings_notification_wake_title">Vekja skjá</string>
+    <string name="settings_vibration_title">Vibratiom</string>
+    <string name="settings_ringtone_title">Hljóð</string>
+    <string name="settings_ringtone_none">Enginn</string>
+    <string name="settings_reply_title">Svara</string>
+    <string name="settings_reply_summary">Popup fyrir ný skilaboð</string>
+    <string name="settings_reply_tap_dismiss_title">Smelltu til að loka</string>
+    <string name="settings_reply_tap_dismiss_summary">Smelltu utan um popup til að loka því</string>
+    <string name="settings_swipe_actions">Dragspenntar aðgerðir</string>
+    <string name="settings_swipe_actions_right">Hægri draga</string>
+    <string name="settings_swipe_actions_left">Vinstri draga</string>
+    <string name="settings_swipe_actions_change">BREYTA</string>
+    <string name="not_now_txt">Ekki núna</string>
+    <string name="process_title">Þessi ferill mun taka smá tíma</string>
+    <string name="syncing_done">Skilaboðasamstilling lokið....</string>
+    <string name="all_set_txt">Allt í lagi. Þú ert tilbúinn til að fara</string>
+    <string name="Personal">Allir Skilaboð</string>
+    <string name="Other">Þekkt </string>
+    <string name="Spam">Rusl</string>
+    <string name="setting">Stillingar</string>
+    <string name="Share">Deila</string>
+    <string name="Rate">Raða okkur</string>
+    <string name="edit">breyta</string>
+    <string name="DarkMode">Dimmuborgir</string>
+    <string name="BrightMode">Birta</string>
+    <string name="Camera">Myndavél</string>
+    <string name="Gallery">Myndasafn</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">Tengilið</string>
+    <string name="Schedule">Áætla</string>
+    <string name="Location">Staðsetning</string>
+    <string name="Notes">Athugasemdir</string>
+    <string name="no_msg">Engin skilaboð ennþá…</string>
+    <string name="Start_Chat">Byrja að spjalla</string>
+    <string name="Language">Tungumál</string>
+    <string name="rate_text">Mæltu með okkur fyrir öðrum með því að \nraða okkur á Play Store!</string>
+    <string name="sort_by">Raða eftir</string>
+    <string-array name="settings_swipe_actions">
+        <item>Engar</item>
+        <item>Afrita</item>
+        <item>Eyða</item>
+        <item>Hringja</item>
+        <item>Merkja sem lesin</item>
+        <item>Merkja sem ólesin</item>
+    </string-array>
+    <string name="settings_mms_size_title">Sjálfvirk samþjöppun viðhengja í MMS</string>
+    <string name="settings_sync_title">Samstilla skilaboð</string>
+    <string name="settings_sync_summary">Endursamstilla skilaboð þín með innfæddu Android SMS gagnagrunni</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Stjórnun kalls</string>
+    <string name="blocking_manager_sia_title">Skal ég svara?</string>
+    <string name="blocked_messages_title">Lokuð skilaboð</string>
+    <string name="blocked_messages_empty">Lokuð skilaboð þín munu birtast hér</string>
+    <string name="blocking_block_title">Loka</string>
+    <string name="blocking_unblock_title">Afljósa</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">Halda áfram til %s og lokka þetta númer</item>
+        <item quantity="other">Halda áfram til %s og lokka þessi númer</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">Halda áfram til %s og leyfa þetta númer</item>
+        <item quantity="other">Halda áfram til %s og leyfa þessi númer</item>
+    </plurals>
+    <string name="widget_loading">Hleður…</string>
+    <string name="widget_more">Skoða fleiri umræður</string>
+    <string name="qkreply_menu_read">Merkja sem lesið</string>
+    <string name="qkreply_menu_call">Hringja</string>
+    <string name="qkreply_menu_delete">Eyða</string>
+    <string name="qkreply_menu_expand">Sýna meira</string>
+    <string name="qkreply_menu_collapse">Sýna minna</string>
+    <string name="qkreply_menu_view">Opna umræðu</string>
+    <string name="changelog_title">Nýtt í SMS</string>
+    <string name="changelog_version">Útgáfa %s</string>
+    <string name="changelog_added">Bætt við</string>
+    <string name="changelog_improved">Bætt</string>
+    <string name="changelog_fixed">Lagað</string>
+    <string name="changelog_more">Fleira</string>
+    <string name="changelog_dismiss">Hafna</string>
+    <string-array name="notification_actions">
+        <item>Engar</item>
+        <item>Merkja sem lesið</item>
+        <item>Svara</item>
+        <item>Hringja</item>
+        <item>Eyða</item>
+    </string-array>
+    <string name="button_yes">Já</string>
+    <string name="button_continue">Halda áfram</string>
+    <string name="button_cancel">Hætta við</string>
+    <string name="button_delete">Eyða</string>
+    <string name="button_save">Vista</string>
+    <string name="button_stop">Stoppa</string>
+    <string name="button_more">Meira</string>
+    <string name="button_set">Setja</string>
+    <string name="button_undo">Afturkalla</string>
+    <string name="toast_copied">Afritað</string>
+    <string name="toast_archived">Skráð samtalið</string>
+    <string name="toast_sms_plus">Þú verður að opna SMS+ til að nota þetta</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Nýtt skilaboð</item>
+        <item quantity="other">%s ný skilaboð</item>
+    </plurals>
+    <string name="notification_message_failed_title">Skilaboð sendust ekki</string>
+    <string name="notification_message_failed_text">Skilaboð til %s sendust ekki</string>
+    <string name="privacy_policy">Persónuverndarstefna</string>
+    <string name="pocket_data_on">Vasa þarf að vera á meðan þú sendir MMS!</string>
+    <string name="inapp_details" translatable="false">Til að fjarlægja auglýsingar, prófaðu frískráningu með stuðningi við dimmt-ljósa \nhamarkaða, fyrirframplöntuð Sms-stuðning.</string>
+    <string name="drawer_removeAds">Fjarlægja auglýsingar</string>
+    <string name="in_app_ads">skilaboð_rad</string>
+    <string name="dialog_delete_message">Ertu viss um að þú viljir eyða þessum skilaboðum?</string>
+    <string name="compose_bar_not_support">Sendandi styður ekki svar</string>
+    <string name="default_name">Til að senda eða fá SMS skilaboð, þú verður að stilla það sem sjálfgefna forritið. Viltu að skilaboðið verði sjálfgefið forrit þitt?</string>
+    <string name="confirm_delete">Staðfesta Eyðingu</string>
+    <string name="confirm_delete_text">Ertu viss um að þú viljir eyða þessum athugasemdum?</string>
+    <string name="title">Titill</string>
+    <string name="note">Athugasemd</string>
+    <string name="search">Leita</string>
+    <string name="settings">Stillingar</string>
+    <string name="share_to">Deila með:</string>
+    <string name="sort">Raða</string>
+    <string name="empty_list_text">Ýttu á hnappinn neðst til hægri til að bæta við nýrri athugasemd!</string>
+    <string name="new_note">Ný athugasemd</string>
+    <string name="undo">Afturkalla</string>
+    <string name="delete">Eyða</string>
+    <string name="exception">Undantekning:</string>
+    <string name="edit_note">Breyta Athugasemd</string>
+    <string name="drawer_feedback">Senda endurgjöf</string>
+    <string name="drawer_mode">Ljós hönnun</string>
+    <string name="unlimited_access_user">Ótakmarkaður aðgangur \ná öllum eiginleikum</string>
+    <string name="pro_user">Þú ert \nPrémíum notandi</string>
+    <string name="sub_info_text"><b>Áskriftin endurnýjar sjálfkrafa þar til þú slökkt á henni.</b></string>
+    <string name="cancel_purchase">Þú getur hætt við sjálfkrafa endurheimt áskriftar í Áskrift á Google play</string>
+    <string name="remove_ads">Fjarlægja auglýsingar</string>
+    <string name="no_ads">Engar auglýsingar</string>
+    <string name="free_trial">7 dagar ókeypis tilraun, síðan endurnýjar sjálfkrafa</string>
+    <string name="can_not_talk_right_now">Afsakið, ég get ekki talað núna</string>
+    <string name="can_call_you_later">Get ég hringt í þig síðar?</string>
+    <string name="i_am_on_my_way">Ég er á leiðinni</string>
+    <string name="write_personal_message">Skrifa persónulega skilaboð</string>
+    <string name="create_reminder">Búa til nýjan minnismerki</string>
+    <string name="remind_me_about">Áminn mig um</string>
+    <string name="no_title">Enginn Titill</string>
+    <string name="edit_contact">Breyta tengilið</string>
+    <string name="add_contact">Bæta við tengilið</string>
+    <string name="messages">Skilaboð</string>
+    <string name="send_mail">Senda póst</string>
+    <string name="calendar">Dagatal</string>
+    <string name="web">Vefur</string>
+    <string-array name="night_modes">
+        <item>System</item>
+        <item>Ljósa Hönnun</item>
+        <item>Dimma Hönnun</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>Sýna nafn og skilaboð</item>
+        <item>Sýna nafn</item>
+        <item>Fela efni</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>Lítið</item>
+        <item>Venjulegt</item>
+        <item>Stórt</item>
+        <item>Stærra</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>Engin hleðsla</item>
+        <item>Stutt</item>
+        <item>Miðlung</item>
+        <item>Langt</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Sjálfvirk</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>Engin samþjöppun</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>Í lagi</item>
+        <item>Gefðu mér augnablik</item>
+        <item>Á leiðinni</item>
+        <item>Takk</item>
+        <item>Hljómar gott</item>
+        <item>Hvað er að?</item>
+        <item>Samþykkt</item>
+        <item>Nei</item>
+        <item>Elska þig</item>
+        <item>Afsakið</item>
+        <item>LOL</item>
+        <item>Það er í lagi</item>
+    </string-array>
+    <string name="default_title">Leyfa Sms forritið að vera sjálfgefið forrit</string>
+    <string name="set_as_defaault">Stilla sem sjálfgefið</string>
+    <string name="love_app_title">Gera SMS forritið þitt að sjálfgefna SMS forritinu</string>
+    <string-array name="gif">
+        <item>Dýra Andlit</item>
+        <item>Emoji</item>
+        <item>Ávextir &amp; Grænmeti</item>
+        <item>Halloween</item>
+        <item>Ást</item>
+    </string-array>
+    <string name="Sticker">Klistermærki</string>
+    <string name="no_connection">Engin nettenging.</string>
+    <string-array name="sticker">
+        <item>Strákur</item>
+        <item>Tölvuteiknimynd</item>
+        <item>Andlit</item>
+        <item>Hátíð</item>
+        <item>Ávöxtur</item>
+        <item>Skemmtun</item>
+        <item>Stelpa</item>
+        <item>Klistermærki um ást</item>
+        <item>Aðrir</item>
+        <item>Hvolpur</item>
+    </string-array>
+    <string name="open_link_to_browser">Opna hlekk í vafra</string>
+    <string name="battery_dialog">Ekki vilja missa mikilvæg Sms? \n
+    Slökkva á rafhlöðunarsparnað</string>
+    <string name="reason_to_change_battery_optimization_setting">Fara í App upplýsingar &gt; Framfarir &gt; Rafhlöðunarsparnaður og velja ‘Ekki spara’</string>
+    <string name="feedback_txt">Segðu okkur frá upplifun þinni og gefðu tillögur til að bæta forritið. </string>
+    <string name="reason_to_change_battery"> Framfarir &gt; Rafhlöðunarsparnaður &gt; ‘Ekki spara’</string>
+    <string name="drawer_transaction">Viðskipti</string>
+    <string name="drawer_promotion">Tilboð</string>
+    <string name="unknown">Óþekkt </string>
+    <string name="priva"><u>Persónuverndarstefna</u></string>
+    <string name="smsfilter">SMS Síun</string>
+    <string name="by_click_t_c" translatable="false"><u>Með því að smella samþykkir þú notkunar- og persónuverndarstefnuna okkar.</u></string>
+    <string name="continue_without_sub"><u>Haltu áfram án áskriftar</u></string>
+    <string name="text_free_trial">Njóttu X daga <b>Ókeypis Tilraun</b> - Síðan X € / mánuður</string>
+    <string name="calldorado_message">Skoðaðu öll þín <b>skilaboð</b> áður en þú endar símtal! Það eru fréttir</string>
+    <string name="privacy_terms_description">Með því að halda áfram, samþykkir og samþykkir þú notkunar- og persónuverndarstefnuna.</string>
+    <string name="draw_over_description"><![CDATA[Til að sýna ofan á öðrum forritum skilaboð okkar SMS. Fáðu allt mögulegt úr SMS símtali, vellir &amp; fleira]]></string>
+    <string name="ad_label">AD</string>
+    <string name="onboarding_continue_button">Haltu áfram</string>
+    <string name="onboarding_step_1_title">SMS &amp; Póstforritstjóri</string>
+    <string name="onboarding_step_1_subtitle">Talaðu við vinna, búðu til hópa og skipuleggðu innboxinn þinn</string>
+    <string name="onboarding_step_1_hight_light">Einstakt nálgun að þér</string>
+    <string name="onboarding_step_2_title">Skipuleggja &amp; geyma skilaboð</string>
+    <string name="onboarding_step_2_subtitle">Endurskylaðu &amp; endurheimt skilaboðin þín</string>
+    <string name="onboarding_step_2_hight_light">Þúsundir notenda líka það</string>
+    <string name="onboarding_step_3_title">Njóttu lífsins &amp; láttu okkur sér um innboxinn</string>
+    <string name="onboarding_step_3_subtitle">Samþykk permisions til að við getum hjálpað þér að stjórna innboxinn þínum.</string>
+    <string name="onboarding_step_3_hight_light">Kannski síðar</string>
+    <string name="onboarding_allow_access_button">Leyfa aðgang</string>
+    <string name="onboarding_step_4_title">Bættu rafhlöðuninni þinni með því að láta okkur gera vinnuna</string>
+    <string name="onboarding_step_4_subtitle">Við munum taka á um leiðinlega SMS-skiptingar.</string>
+    <string name="onboarding_step_4_hight_light">Þúsundir notenda líka það</string>
+    <string name="onboarding_step_5_title">Skilaboð á skjáskiptum í öðrum forritum á meðan talar</string>
+    <string name="onboarding_step_5_subtitle">Njóttu af hinum frábæra símtali okkar sem leyfir þér að framkvæma fleira en einn verkið</string>
+    <string name="onboarding_step_5_hight_light">Þúsundir notenda líka það</string>
+    <string name="payment_card_title">Talaðu núna!</string>
+    <string name="payment_card_price"><![CDATA[3 dagar ókeypis, %s / %s]]></string>
+    <string name="payment_card_button">Reyndu núna ókeypis</string>
+    <string name="payment_card_hight_light">Öruggt með Play Store</string>
+    <string name="payment_card_weekly">viku</string>
+    <string name="payment_card_monthly">mánaðarlega</string>
+    <string name="payment_card_yearly">árslega</string>
+    <string name="payment_card_auto_renew">sjálfvirkur endurheimt áskriftar, hægt að hætta hvenær sem er</string>
+    <string name="accessibility_service_description">Þjónustu fyrir aðgengi þitt</string>
+    <string name="permission_txt"><font color="#FF8A00">Þörf á leyfi:</font>\nLesa símans stað og Teikna yfir öðrum forritum</string>
+    <string name="opt_privacy">Með því að halda áfram, samþykkir og samþykkir þú notkunar- og persónuverndarstefnuna.</string>
+    <string name="permission_required">Leyfi krafist</string>
+    <string name="permission_dialog_body">Þetta forrit gæti ekki virkað rétt án símaleyfisins. Fylgdu leiðbeiningunum hér fyrir neðan til að virkja það:\n\n1. Veldu "Leyfis"</string>
+    <string name="go_premium">Fara <font color = "#FFE600">Prémíum!</font></string>
+    <string name="unlock_everything">Opna allt &amp; Engar auglýsingar</string>
+    <string name="start_three_day">Byrjaðu 3 daga ókeypis tilraun</string>
+    <string name="pro">Próf</string>
+    <string name="more_option">Fleiri valkostir</string>
+    <string name="rate_us_5">Einkunn okkur 5 stjörnur</string>
+    <string name="help_feedback">Hjálp &amp; Afturkallar</string>
+    <string name="send_message">Senda Skilaboð</string>
+    <string name="CTA_Button_Text">Smellið til að opna öll <font color="#FFFBCD04">eiginleika</font></string>
+
+</resources>

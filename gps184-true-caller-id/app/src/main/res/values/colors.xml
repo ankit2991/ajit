@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2999ff</color>
+    <color name="colorPrimaryDark">#2999ff</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#fff</color>
+    <color name="grey">#D0D0D0</color>
+    <color name="background_checkbox_uncheck">#BCBCBC</color>
+    <color name="black">#000</color>
+    <color name="app_bg">#f6f7fb</color>
+    <color name="orange_highligh">#4CAF50</color>
+    <color name="base_color">#fff</color>
+    <color name="border_color">#2999ff</color>
+    <color name="shadow_color">#832999FF</color>
+    <color name="colorHover">#FF0000</color>
+    <color name="orange">#F28705</color>
+    <color name="text_menu_button">#606B6F</color>
+    <color name="background_container_app">#F6F7FB</color>
+    <color name="background_card_spam">#00B4D8</color>
+
+</resources>

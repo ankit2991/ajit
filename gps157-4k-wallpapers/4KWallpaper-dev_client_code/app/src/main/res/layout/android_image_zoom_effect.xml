@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:fitsSystemWindows="false">
+    <!--<macro.hd.wallpapers.Utils.ZoomableImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fullScreenImageView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />-->
+
+
+    <RelativeLayout
+        android:id="@+id/rl_photos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <macro.hd.wallpapers.MyCustomView.GlideImageView
+        android:id="@+id/img_blurre"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparentBlackDetail"></View>
+
+    <LinearLayout android:id="@+id/ll_time"
+        android:layout_width="match_parent" android:layout_marginTop="100dp"
+        android:layout_height="wrap_content" android:gravity="center" android:visibility="gone"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/text_shadow"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="8"
+            android:textColor="@color/white"
+            android:textSize="55sp"></TextView>
+
+        <TextView
+            android:id="@+id/txt_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/text_shadow"
+            android:shadowDx="2"
+            android:shadowDy="2" android:text=""
+            android:shadowRadius="8"
+            android:textColor="@color/white"
+            android:textSize="16sp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/tView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloobhai"
+            android:gravity="center"
+            android:shadowColor="@color/text_shadow"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="8"
+            android:text="@string/preview_loading"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llPreviewApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlBottomView"
+        android:layout_marginLeft="@dimen/font_16"
+        android:layout_marginRight="@dimen/font_16"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/detail_icon_height_new"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/detail_icon_height_new"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_preview_gallery" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/detail_icon_height_new"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_preview_itune" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/detail_icon_height_new"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_preview_photo" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/detail_icon_height_new"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_preview_flick" />
+
+    </LinearLayout>
+
+    <macro.hd.wallpapers.MyCustomView.StatusBarView
+        android:id="@+id/statusBarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></macro.hd.wallpapers.MyCustomView.StatusBarView>
+
+    <ImageView android:id="@+id/img_close" android:background="@mipmap/ic_close_preview" android:layout_margin="16dp" android:layout_marginTop="60dp"
+        android:layout_width="40dp" android:layout_alignParentRight="true"  android:layout_below="@id/statusBarView"  android:padding="8dp" android:visibility="gone"
+        android:layout_height="40dp"></ImageView>
+
+    <RelativeLayout
+        android:id="@+id/rlBottomView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:id="@+id/viewBottomDivider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/divider_color"
+            android:visibility="gone"></View>
+
+        <ImageView
+            android:id="@+id/ivBottomView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/viewBottomDivider"></ImageView>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

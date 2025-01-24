@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_adverts"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false">
+
+
+    <macro.hd.wallpapers.MyCustomView.GlideImageView
+        android:id="@+id/img_blurre"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparentBlackDetail"></View>
+
+    <macro.hd.wallpapers.MyCustomView.StatusBarView
+        android:id="@+id/statusBarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></macro.hd.wallpapers.MyCustomView.StatusBarView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/AdContainer1"
+        android:layout_below="@+id/statusBarView"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/AdContainer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlBottomView"
+        android:layout_centerHorizontal="true"
+        android:background="@color/transparent"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="vertical">
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlBottomView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:id="@+id/viewBottomDivider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/divider_color"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/ivBottomView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/viewBottomDivider" />
+    </RelativeLayout>
+    <!--  <include
+          android:id="@+id/app_bar"
+          layout="@layout/app_bar_transparent"
+          />-->
+
+</RelativeLayout>

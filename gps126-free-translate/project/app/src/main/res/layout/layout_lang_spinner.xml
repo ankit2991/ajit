@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_spinner_lang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="fill_vertical"
+        android:text="@string/tarLang"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:drawableRightCompat="@drawable/ic_arrow_drop_down" />
+
+</RelativeLayout>

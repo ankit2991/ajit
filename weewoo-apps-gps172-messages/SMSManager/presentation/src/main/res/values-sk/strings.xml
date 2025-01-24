@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sugest_update_title">Dostupná aktualizácia</string>
+    <string name="sugest_update_message">Nová aktualizácia je dostupná na Google Play, prosím aktualizujte svoju verziu</string>
+    <string name="force_update_title">Dostupná aktualizácia</string>
+    <string name="force_update_message">Nová aktualizácia je dostupná na Google Play, prosím aktualizujte svoju verziu</string>
+    <string name="update_ok">Aktualizovať</string>
+    <string name="update_no">Nie teraz</string>
+    <string name="app_name">#Správy</string>
+    <string name="in_app_name">Správy</string>
+    <string name="splash_app_name">Správy SMS</string>
+    <string name="loading_msg">Prosím čakajte...</string>
+    <string name="ads_loading_msg">Zobrazuje sa reklama...</string>
+    <string name="shortcut_compose_long_label">Nový rozhovor</string>
+    <string name="shortcut_compose_short_label">Zostaviť</string>
+    <string name="shortcut_compose_disabled_message">Skratka deaktivovaná</string>
+    <string name="title_archived">Archivované správy</string>
+    <string name="title_settings">Nastavenia</string>
+    <string name="title_notification_prefs">Upozornenia</string>
+    <string name="title_theme">Téma</string>
+    <string name="title_conversations">Hľadať čísla, mená a viac</string>
+    <string name="title_compose">Napíšte meno alebo telefónne číslo</string>
+    <string name="setup_skip">Preskočiť</string>
+    <string name="setup_next">Pokračovať</string>
+    <string name="menu_add_person">Pridať osobu</string>
+    <string name="menu_call">Volanie</string>
+    <string name="menu_info">Podrobnosti</string>
+    <string name="menu_save">Uložiť do galérie</string>
+    <string name="menu_share">Zdieľať</string>
+    <string name="main_drawer_open_cd">Otvoriť bočný panel</string>
+    <string name="main_title_selected">%d vybratých</string>
+    <string name="main_menu_clear">Vyčistiť</string>
+    <string name="main_menu_archive">Archivovať</string>
+    <string name="main_menu_unarchive">Zrušiť archiváciu</string>
+    <string name="main_menu_delete">Odstrániť</string>
+    <string name="main_menu_add_contact">Pridať do kontaktov</string>
+    <string name="main_menu_pin">Pripnúť na vrch</string>
+    <string name="main_menu_unpin">Odopnúť</string>
+    <string name="main_menu_read">Označiť ako prečítané</string>
+    <string name="main_menu_unread">Označiť ako neprečítané</string>
+    <string name="select_all">Vybrať všetko</string>
+    <string name="deselect_all">Zrušiť výber všetkého</string>
+    <string name="main_menu_block">Blokovať</string>
+    <string name="main_syncing">Organizujem správy...</string>
+    <string name="main_sender_you">Vy: %s</string>
+    <string name="main_draft">Návrh: %s</string>
+    <string name="main_message_results_title">Výsledky vo správach</string>
+    <string name="main_message_results">%d správ</string>
+    <string name="inbox_empty_text">Vaše rozhovory sa tu zobrazia</string>
+    <string name="inbox_search_empty_text">Žiadne výsledky</string>
+    <string name="archived_empty_text">Zatiaľ žiadne archivované rozhovory..</string>
+    <string name="main_fab_cd">Začať nový rozhovor</string>
+    <string name="main_default_sms_title">Chcete správy ?</string>
+    <string name="main_default_sms_message">Urobte aplikáciu Správy vašou predvolenou SMS aplikáciou</string>
+    <string name="main_default_sms_change">Zmeniť</string>
+    <string name="main_permission_required">Vyžaduje sa povolenie</string>
+    <string name="main_permission_sms">SMS potrebuje povolenie na odosielanie a zobrazenie SMS správ</string>
+    <string name="main_permission_contacts">SMS potrebuje povolenie na zobrazenie vašich kontaktov</string>
+    <string name="main_permission_allow">Povoliť</string>
+    <string name="main_permission_allow_read">Povoliť čítanie a zápis povolenia</string>
+    <string name="drawer_inbox">Doručené</string>
+    <string name="drawer_archived">Archív</string>
+    <string name="drawer_scheduled">Naplánované správy</string>
+    <string name="drawer_blocking">Zablokované čísla</string>
+    <string name="drawer_calldorado">Nastavenia volania</string>
+    <string name="drawer_more">Viac</string>
+    <string name="drawer_group">Skupinová správa</string>
+    <string name="drawer_settings">Nastavenia</string>
+    <string name="drawer_remove_ads">Odstrániť reklamy</string>
+    <string name="drawer_help">Pomoc a spätná väzba</string>
+    <string name="drawer_invite">Pozvať priateľov</string>
+    <string name="dialog_delete_title">Odstrániť</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Ste si istí, že chcete vymazať tento rozhovor?</item>
+        <item quantity="other">Ste si istí, že chcete vymazať %d rozhovorov?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Kopírovať text</item>
+        <item>Poslať ďalej</item>
+        <item>Vymazať</item>
+    </string-array>
+    <string name="compose_number_picker_title">Vyberte telefónne číslo</string>
+    <string name="compose_number_picker_default">%s ∙ Predvolené</string>
+    <string name="compose_number_picker_once">Len raz</string>
+    <string name="compose_number_picker_always">Vždy</string>
+    <string name="compose_title_selected">%d vybraných</string>
+    <string name="compose_subtitle_results">%1$d z %2$d výsledkov</string>
+    <string name="contact_selected">%1$d z %2$d vybraných</string>
+    <string name="compose_send_group_title">Poslať ako skupinovú správu</string>
+    <string name="compose_send_group_summary">Príjemcovia a odpovede budú viditeľné pre všetkých</string>
+    <string name="compose_messages_empty"> Začiatok vášho rozhovoru. Napíšte niečo skvelé!</string>
+    <string name="compose_vcard_label">Kontaktná karta</string>
+    <string name="compose_scheduled_for">Naplánované na</string>
+    <string name="compose_scheduled_future"> čas musí byť v budúcnosti!</string>
+    <string name="compose_scheduled_toast">Pridané do naplánovaných správ</string>
+    <string name="compose_hint">Sem píšte…</string>
+    <string name="compose_menu_copy">Kopírovať text</string>
+    <string name="compose_menu_forward">Poslať ďalej</string>
+    <string name="compose_menu_delete">Vymazať</string>
+    <string name="compose_menu_previous">Predchádzajúce</string>
+    <string name="compose_menu_next">Ďalšie</string>
+    <string name="compose_menu_clear">Vyčistiť</string>
+    <string name="compose_details_title">Podrobnosti správy</string>
+    <string name="compose_details_type">Typ: %s</string>
+    <string name="compose_details_from">Od: %s</string>
+    <string name="compose_details_to">Komu: %s</string>
+    <string name="compose_details_subject">Predmet: %s</string>
+    <string name="compose_details_priority">Priorita: %s</string>
+    <string name="compose_details_size">Veľkosť: %s</string>
+    <string name="compose_details_sent">Odoslané: %s</string>
+    <string name="compose_details_received">Prijaté: %s</string>
+    <string name="compose_details_delivered">Doručené: %s</string>
+    <string name="compose_details_error_code">Kód chyby: %d</string>
+    <string name="compose_attach_cd">Pridať prílohu</string>
+    <string name="compose_gallery_cd">Pridať fotografiu</string>
+    <string name="compose_camera_cd">Vyfotografovať</string>
+    <string name="compose_schedule_cd">Naplánovať správu</string>
+    <string name="compose_contact_cd">Pridať kontakt</string>
+    <string name="compose_contact_error">Chyba pri čítaní kontaktu</string>
+    <string name="compose_sim_cd">%s vybrané, zmeniť SIM kartu</string>
+    <string name="compose_send_cd">Poslať správu</string>
+    <string name="message_status_sending">Odosielanie…</string>
+    <string name="message_status_delivered">Doručené %s</string>
+    <string name="message_status_failed">Nepodarilo sa odoslať</string>
+    <string name="info_title">Podrobnosti o kontakte</string>
+    <string name="info_copied_address">Adresa skopírovaná</string>
+    <string name="info_name">Názov rozhovoru</string>
+    <string name="info_notifications">Upozornenia</string>
+    <string name="info_theme">Téma</string>
+    <string name="info_archive">Archív</string>
+    <string name="info_unarchive">Odarchivovať</string>
+    <string name="info_block">Blokovať</string>
+    <string name="info_unblock">Odblokovať</string>
+    <string name="info_delete">Vymazať rozhovor</string>
+    <string name="gallery_error">Nepodarilo sa načítať médiá</string>
+    <string name="gallery_toast_saved">Uložené do galérie</string>
+    <string name="backup_title">Zálohovanie a obnovenie</string>
+    <string name="backup_backing_up">Zálohovanie správ</string>
+    <string name="backup_restoring">Obnovovanie zo zálohy</string>
+    <string name="backup_last">Posledná záloha</string>
+    <string name="backup_loading">Načítava sa…</string>
+    <string name="backup_never">Nikdy</string>
+    <string name="backup_restore_title">Obnoviť</string>
+    <string name="backup_restore_summary">Vyberte zálohu</string>
+    <string name="backup_restore_error_plus">Prosím, odomknite SMS+, aby ste mohli použiť zálohovanie a obnovovanie</string>
+    <string name="backup_restore_error_backup">Záloha prebieha…</string>
+    <string name="backup_restore_error_restore">Obnova prebieha…</string>
+    <string name="backup_restore_confirm_title">Obnoviť zo zálohy</string>
+    <string name="backup_restore_confirm_message">Ste si istí, že chcete obnoviť vaše správy z tejto zálohy?</string>
+    <string name="backup_restore_stop_title">Zastaviť obnovu</string>
+    <string name="backup_restore_stop_message">Správy, ktoré už boli obnovené, zostanú na vašom zariadení</string>
+    <string name="backup_restore_dialog_title">Zálohy</string>
+    <string name="backup_restore_dialog_summary">/SMS správy/Zálohy</string>
+    <string name="backup_restore_dialog_empty">Nenašli sa žiadne zálohy</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">Žiadne správy</item>
+        <item quantity="one">%d správa</item>
+        <item quantity="other">%d správ</item>
+    </plurals>
+    <string name="backup_disclaimer">Až doteraz sme podporovali iba zálohovanie a obnovenie SMS!</string>
+    <string name="backup_now">Zálohovať</string>
+    <string name="backup_progress_parsing">Analýza zálohy…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d správ</string>
+    <string name="backup_progress_saving">Ukladanie zálohy…</string>
+    <string name="backup_progress_syncing">Synchronizovanie správ…</string>
+    <string name="backup_progress_finished">Hotovo!</string>
+    <string name="backup_notification_channel_name">Zálohovanie a obnovenie</string>
+    <string name="Message_notification_channel_name">Synchronizácia správ</string>
+    <string name="scheduled_title">Naplánované</string>
+    <string name="schedule_guide">Naplánovanú správu môžete nastaviť kliknutím na tlačidlo priloženia v rozhovore so správami.</string>
+    <string name="scheduled_empty_description">Automaticky pošlite správu presne v okamihu, kedy chcete</string>
+    <string name="scheduled_empty_message_1">Ahoj! Kedy je čas na oslavu?</string>
+    <string name="scheduled_empty_message_2">Je to 5. marca </string>
+    <string name="scheduled_empty_message_3">Ahoj! Pozrite sa, aký som skvelý priateľ, oslavujem tvoj deň</string>
+    <string name="scheduled_empty_message_3_timestamp">Odosielanie 5. marca&#x200A;</string>
+    <string name="scheduled_compose_cd">Naplánovať správu</string>
+    <string name="scheduled_options_title">Naplánovaná správa</string>
+    <string-array name="scheduled_options">
+        <item>Odoslať teraz</item>
+        <item>Kopírovať text</item>
+        <item>Vymazať</item>
+    </string-array>
+    <string name="settings_category_appearance">Vzhľad</string>
+    <string name="settings_category_general">Všeobecné</string>
+    <string name="settings_categoryreply">Odpoveď</string>
+    <string name="settings_night_title">Nočný režim</string>
+    <string name="settings_text_size_title">Veľkosť písma</string>
+    <string name="settings_notifications_title">Upozornenia</string>
+    <string name="settings_notifications_o_summary">Kliknutím upravte</string>
+    <string name="settings_notification_actions_title">Akcie</string>
+    <string name="settings_notification_action_1">Tlačidlo 1</string>
+    <string name="settings_notification_action_2">Tlačidlo 2</string>
+    <string name="settings_notification_action_3">Tlačidlo 3</string>
+    <string name="settings_notification_previews_title">Náhľady upozornení</string>
+    <string name="settings_notification_wake_title">Osvietenie displeja</string>
+    <string name="settings_vibration_title">Vibrácie</string>
+    <string name="settings_ringtone_title">Zvuk</string>
+    <string name="settings_ringtone_none">Žiadny</string>
+    <string name="settings_reply_title">Odpoveď</string>
+    <string name="settings_reply_summary">Vyskakovacie okno pre nové správy</string>
+    <string name="settings_reply_tap_dismiss_title">Kliknutím zavrieť</string>
+    <string name="settings_reply_tap_dismiss_summary">Kliknite mimo vyskakovacieho okna, aby ste ho zavreli</string>
+    <string name="settings_swipe_actions">Akcie pri potiahnutí</string>
+    <string name="settings_swipe_actions_right">Potiahnutím vpravo</string>
+    <string name="settings_swipe_actions_left">Potiahnutím vľavo</string>
+    <string name="settings_swipe_actions_change">ZMENIŤ</string>
+    <string name="not_now_txt">Nie teraz</string>
+    <string name="process_title">Tento proces bude \nzabrať nejaký čas</string>
+    <string name="syncing_done">Synchronizácia správ dokončená....</string>
+    <string name="all_set_txt">Všetko nastavené. Ste pripravení na štart</string>
+    <string name="Personal">Všetky správy</string>
+    <string name="Other">Známe</string>
+    <string name="Spam">Spam</string>
+    <string name="setting">Nastavenia</string>
+    <string name="Share">Zdieľať</string>
+    <string name="Rate">Ohodnotiť nás</string>
+    <string name="edit">upraviť</string>
+    <string name="DarkMode">Tmavý režim</string>
+    <string name="BrightMode">Svetlý režim</string>
+    <string name="Camera">Kamera</string>
+    <string name="Gallery">Galéria</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">Kontakt</string>
+    <string name="Schedule">Naplánovať</string>
+    <string name="Location">Poloha</string>
+    <string name="Notes">Poznámky</string>
+    <string name="no_msg">Zatiaľ žiadne správy…</string>
+    <string name="Start_Chat">Začať chat</string>
+    <string name="Language">Jazyk</string>
+    <string name="rate_text">Odporučte nás ostatným tým, že nás ohodnotíte v Obchode Play!</string>
+    <string name="sort_by">Usporiadať podľa</string>
+    <string-array name="settings_swipe_actions">
+        <item>Žiadne</item>
+        <item>Archivovať</item>
+        <item>Vymazať</item>
+        <item>Volanie</item>
+        <item>Označiť ako prečítané</item>
+        <item>Označiť ako neprečítané</item>
+    </string-array>
+    <string name="settings_mms_size_title">Automatické komprimovanie príloh MMS</string>
+    <string name="settings_sync_title">Synchronizácia správ</string>
+    <string name="settings_sync_summary">Znova synchronizujte svoje správy so vstavanou databázou správ SMS v systéme Android</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Kontrola hovorov</string>
+    <string name="blocking_manager_sia_title">Mám odpovedať?</string>
+    <string name="blocked_messages_title">Blokované správy</string>
+    <string name="blocked_messages_empty">Vaše blokované správy sa tu zobrazia</string>
+    <string name="blocking_block_title">Blokovať</string>
+    <string name="blocking_unblock_title">Odblokovať</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">Pokračovať na %s a zablokovať tento číslo</item>
+        <item quantity="other">Pokračovať na %s a zablokovať tieto čísla</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">Pokračovať na %s a povoliť toto číslo</item>
+        <item quantity="other">Pokračovať na %s a povoliť tieto čísla</item>
+    </plurals>
+    <string name="widget_loading">Načítavanie…</string>
+    <string name="widget_more">Zobraziť viac konverzácií</string>
+    <string name="qkreply_menu_read">Označiť ako prečítané</string>
+    <string name="qkreply_menu_call">Volanie</string>
+    <string name="qkreply_menu_delete">Vymazať</string>
+    <string name="qkreply_menu_expand">Zobraziť viac</string>
+    <string name="qkreply_menu_collapse">Zobraziť menej</string>
+    <string name="qkreply_menu_view">Otvoriť konverzáciu</string>
+    <string name="changelog_title">Novinky v SMS</string>
+    <string name="changelog_version">Verzia %s</string>
+    <string name="changelog_added">Pridané</string>
+    <string name="changelog_improved">Vylepšené</string>
+    <string name="changelog_fixed">Opravené</string>
+    <string name="changelog_more">Viac</string>
+    <string name="changelog_dismiss">Zatvoriť</string>
+    <string-array name="notification_actions">
+        <item>Žiadne</item>
+        <item>Označiť ako prečítané</item>
+        <item>Odpovedať</item>
+        <item>Volanie</item>
+        <item>Vymazať</item>
+    </string-array>
+    <string name="button_yes">Áno</string>
+    <string name="button_continue">Pokračovať</string>
+    <string name="button_cancel">Zrušiť</string>
+    <string name="button_delete">Vymazať</string>
+    <string name="button_save">Uložiť</string>
+    <string name="button_stop">Zastaviť</string>
+    <string name="button_more">Viac</string>
+    <string name="button_set">Nastaviť</string>
+    <string name="button_undo">Späť</string>
+    <string name="toast_copied">Skopírované</string>
+    <string name="toast_archived">Archivovaná konverzácia</string>
+    <string name="toast_sms_plus">Pre použitie tohto musíte odomknúť SMS+</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Nová správa</item>
+        <item quantity="other">%s nových správ</item>
+    </plurals>
+    <string name="notification_message_failed_title">Správa sa nepodarilo odoslať</string>
+    <string name="notification_message_failed_text">Správa pre %s sa nepodarilo odoslať</string>
+    <string name="privacy_policy">Zásady ochrany osobných údajov</string>
+    <string name="pocket_data_on">Pri odosielaní MMS musí byť zapnutá mobilná dátová sieť!</string>
+    <string name="inapp_details" translatable="false">Ak chcete odstrániť reklamy, vyskúšajte prémiovú \npredplatnú verziu s podporou tmavého a svetlého režimu\nPodpora plánovaných správ.</string>
+    <string name="drawer_removeAds">Odstrániť reklamy</string>
+    <string name="in_app_ads">messages_rad</string>
+    <string name="dialog_delete_message">Ste si istý, že chcete túto správu vymazať?</string>
+    <string name="compose_bar_not_support">Odosielateľ nepodporuje odpovede</string>
+    <string name="default_name">Pre odoslanie alebo prijatie SMS musíte nastaviť aplikáciu ako predvolenú. Chcete, aby sa správa stala vašou predvolenou aplikáciou?</string>
+    <string name="confirm_delete">Potvrdiť vymazanie</string>
+    <string name="confirm_delete_text">Ste si istý, že chcete túto poznámku vymazať?</string>
+    <string name="title">Názov</string>
+    <string name="note">Poznámka</string>
+    <string name="search">Vyhľadávanie</string>
+    <string name="settings">Nastavenia</string>
+    <string name="share_to">Zdieľať s:</string>
+    <string name="sort">Zoradiť</string>
+    <string name="empty_list_text">Stlačte tlačidlo v pravom dolnom rohu pre pridanie novej poznámky!</string>
+    <string name="new_note">Nová poznámka</string>
+    <string name="undo">Späť</string>
+    <string name="delete">Vymazať</string>
+    <string name="exception">Výnimka:</string>
+    <string name="edit_note">Upraviť poznámku</string>
+    <string name="drawer_feedback">Poslať spätnú väzbu</string>
+    <string name="drawer_mode">Režim svetla</string>
+    <string name="unlimited_access_user">Neobmedzený prístup \nk všetkým funkciam</string>
+    <string name="pro_user">Ste \nPrémiový používateľ</string>
+    <string name="sub_info_text"><b>Predplatné sa automaticky obnovuje, pokiaľ ho nevypnete.</b></string>
+    <string name="cancel_purchase">Automatické obnovenie predplatného môžete zrušiť v položke Predplatné v službe Google Play</string>
+    <string name="remove_ads">Odstrániť reklamy</string>
+    <string name="no_ads">Žiadne reklamy</string>
+    <string name="free_trial">7-dňový bezplatný skúšobný obdobie, potom sa automaticky obnovuje</string>
+    <string name="can_not_talk_right_now">Prepáčte, práve teraz nemôžem hovoriť</string>
+    <string name="can_call_you_later">Môžem vás zavolať neskôr?</string>
+    <string name="i_am_on_my_way">Som na ceste</string>
+    <string name="write_personal_message">Napísať osobnú správu</string>
+    <string name="create_reminder">Vytvoriť novú pripomienku</string>
+    <string name="remind_me_about">Pripomínať mi o</string>
+    <string name="no_title">Žiadny názov</string>
+    <string name="edit_contact">Upraviť kontakt</string>
+    <string name="add_contact">Pridať kontakt</string>
+    <string name="messages">Správy</string>
+    <string name="send_mail">Poslať e-mail</string>
+    <string name="calendar">Kalendár</string>
+    <string name="web">Web</string>
+    <string-array name="night_modes">
+        <item>Systém</item>
+        <item>Svetlý režim</item>
+        <item>Tmavý režim</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>Zobraziť meno a správu</item>
+        <item>Zobraziť meno</item>
+        <item>Skryť obsah</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>Malé</item>
+        <item>Normálne</item>
+        <item>Veľké</item>
+        <item>Väčšie</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>Bez oneskorenia</item>
+        <item>Krátky</item>
+        <item>Stredný</item>
+        <item>Dlhý</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Automatické</item>
+        <item>100 KB</item>
+        <item>200 KB</item>
+        <item>300 KB</item>
+        <item>600 KB</item>
+        <item>1000 KB</item>
+        <item>2000 KB</item>
+        <item>Bez kompresie</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>OK</item>
+        <item>Dajte mi chvíľku</item>
+        <item>Som na ceste</item>
+        <item>Ďakujem</item>
+        <item>Znie to dobre</item>
+        <item>Ako sa máš?</item>
+        <item>Súhlasím</item>
+        <item>Nie</item>
+        <item>Milujem ťa</item>
+        <item>Ľutujem</item>
+        <item>LOL</item>
+        <item>To je v poriadku</item>
+    </string-array>
+    <string name="default_title">Povoliť aplikácii SMS ako predvolenú</string>
+    <string name="set_as_defaault">Nastaviť ako predvolené</string>
+    <string name="love_app_title">Urobte aplikáciu SMS vašou predvolenou SMS aplikáciou</string>
+    <string-array name="gif">
+        <item>Zvieracie tváre</item>
+        <item>Emoji</item>
+        <item>Ovocie a zelenina</item>
+        <item>Halloween</item>
+        <item>Láska</item>
+    </string-array>
+    <string name="Sticker">Nálepka</string>
+    <string name="no_connection">Žiadne pripojenie k internetu.</string>
+    <string-array name="sticker">
+        <item>Chlapec</item>
+        <item>Kreslené postavy</item>
+        <item>Tvár</item>
+        <item>Festival</item>
+        <item>Ovocie</item>
+        <item>Zábava</item>
+        <item>Dievča</item>
+        <item>Nálepka s nápisom "Milujem ťa"</item>
+        <item>Iné</item>
+        <item>Šteniatko</item>
+    </string-array>
+    <string name="open_link_to_browser">Otvoriť odkaz v prehliadači</string>
+    <string name="battery_dialog"> Nechcete zmeškať dôležité správy? \n
+Vypnite optimalizáciu batérie</string>
+    <string name="reason_to_change_battery_optimization_setting">Prejdite na Informácie o aplikácii &gt; Pokročilé &gt; Optimalizácia batérie \na vyberte možnosť „Neoptimalizovať“</string>
+    <string name="feedback_txt">Povedzte nám o svojom zážitku a poskytnite nám návrhy na zlepšenie aplikácie Správy.</string>
+    <string name="reason_to_change_battery"> Pokročilé &gt; Optimalizácia batérie &gt; „Neoptimalizovať“</string>
+    <string name="drawer_transaction">Transakcie</string>
+    <string name="drawer_promotion">Reklamy</string>
+    <string name="unknown">Neznámy</string>
+    <string name="priva"><u>Zásady ochrany osobných údajov</u></string>
+    <string name="smsfilter">Filtrovanie SMS</string>
+    <string name="by_click_t_c" translatable="false"><u>Kliknutím súhlasíte s našimi podmienkami používania.</u></string>
+    <string name="continue_without_sub"><u>Pokračovať bez predplatného</u></string>
+    <string name="text_free_trial">Užívajte si X dní <b>bezplatný skúšobný</b> obdobie - Potom X € / mesiac</string>
+    <string name="calldorado_message">Skontrolujte všetky <b>správy</b> pred ukončením hovoru! Sú tu novinky</string>
+    <string name="privacy_terms_description">Pokračovaním súhlasíte a schvaľujete podmienky používania a zásady ochrany osobných údajov.</string>
+    <string name="draw_over_description"><![CDATA[Na zobrazenie nad inými aplikáciami naše SMS správy. Využite všetok potenciál našich SMS volacích widgetov a ďalšie]]></string>
+    <string name="ad_label">REKLAMA</string>
+    <string name="onboarding_continue_button">Pokračovať</string>
+    <string name="onboarding_step_1_title">Správca SMS a Messengeru</string>
+    <string name="onboarding_step_1_subtitle">Rozprávajte sa s priateľmi, vytvárajte skupiny a organizujte si svoju priehradku</string>
+    <string name="onboarding_step_1_hight_light">Jedinečný prístup Pre Vás</string>
+    <string name="onboarding_step_2_title">Organizovať a uchovávať správy</string>
+    <string name="onboarding_step_2_subtitle">Zálohujte a obnovte svoje správy</string>
+    <string name="onboarding_step_2_hight_light">Tisíce používateľov to majú radi</string>
+    <string name="onboarding_step_3_title">Užívajte si život a nechajte nás, aby sme sa starali o priehradku</string>
+    <string name="onboarding_step_3_subtitle">Povoľte oprávnenia, aby sme vám pomohli spravovať vašu priehradku.</string>
+    <string name="onboarding_step_3_hight_light">Možno neskôr</string>
+    <string name="onboarding_allow_access_button">Povoliť prístup</string>
+    <string name="onboarding_step_4_title">Zlepšite svoju batériu tým, že nám dáte prácu</string>
+    <string name="onboarding_step_4_subtitle">Postaráme sa o otravné prerušenia SMS.</string>
+    <string name="onboarding_step_4_hight_light">Tisíce používateľov to majú radi</string>
+    <string name="onboarding_step_5_title">Pracujte v režime rozdeleného obrazovky v iných aplikáciách počas rozhovoru</string>
+    <string name="onboarding_step_5_subtitle">Užívajte si náš úžasný volací widget, ktorý vám umožňuje multitasking</string>
+    <string name="onboarding_step_5_hight_light">Tisíce používateľov to majú radi</string>
+    <string name="payment_card_title">Rozprávajte sa teraz!</string>
+    <string name="payment_card_price"><![CDATA[3-dňový bezplatný, %s / %s]]></string>
+    <string name="payment_card_button">Vyskúšajte teraz zadarmo</string>
+    <string name="payment_card_hight_light">Zabezpečené pomocou služby Play Store</string>
+    <string name="payment_card_weekly">týždenne</string>
+    <string name="payment_card_monthly">mesačne</string>
+    <string name="payment_card_yearly">ročne</string>
+    <string name="payment_card_auto_renew">automaticky obnoviteľné predplatné, kedykoľvek zrušiteľné</string>
+    <string name="accessibility_service_description">Popis vášho služby prístupnosti</string>
+    <string name="permission_txt"><font color="#FF8A00">Požadované oprávnenie:</font>\nČítanie stavu telefónu a vykresľovanie nad inými aplikáciami</string>
+    <string name="opt_privacy">Pokračovaním súhlasíte a schvaľujete podmienky používania a zásady ochrany osobných údajov.</string>
+    <string name="permission_required">Požadované oprávnenia</string>
+    <string name="permission_dialog_body">Táto aplikácia nemusí fungovať správne bez oprávnenia telefónu. Postupujte podľa pokynov nižšie, aby ste ho povolili:\n\n1. Vyberte možnosť „Oprávnenia“\n2. Nájdite „Telefón“ v zozname oprávnení a klepnutím naň ho povolte</string>
+    <string name="go_premium">Staňte sa <font color = "#FFE600">prémiovým</font> používateľom!</string>
+    <string name="unlock_everything">Odomknúť všetko a žiadne reklamy</string>
+    <string name="start_three_day">Začnite 3-dňový bezplatný skúšobný</string>
+    <string name="pro">PRO</string>
+    <string name="more_option">Viac možností</string>
+    <string name="rate_us_5">Hodnoťte nás 5 hviezdičkami</string>
+    <string name="help_feedback">Pomoc a spätná väzba</string>
+    <string name="send_message">Poslať správu</string>
+    <string name="CTA_Button_Text">Klepnutím odomknete všetky <font color="#FFFBCD04">Funkcie</font></string>
+</resources>

@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/exitLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Thank You For Using"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/adlayout"
+            android:layout_below="@+id/title"
+            android:gravity="center">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/exitads"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:overScrollMode="never" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/adlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/blankspace"
+            android:background="#F0F0F0"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rlads1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:padding="5dp"
+                    android:src="@drawable/exit_banner" />
+
+                <include layout="@layout/max_ad_native_layout" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/blankspace"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_above="@+id/btnexit"
+            android:background="#F0F0F0"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:id="@+id/btnexit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:gravity="center"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Tap To Exit"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

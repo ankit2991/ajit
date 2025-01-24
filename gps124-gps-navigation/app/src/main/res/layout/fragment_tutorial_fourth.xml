@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/circular_std"
+        android:gravity="center"
+        android:text="@string/tutorial_fourth_title"
+        android:textColor="@color/color_blue"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:fontFamily="@font/circular_std"
+        android:gravity="center"
+        android:text="@string/tutorial_fourth_desc"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+
+            <TableLayout
+                android:id="@+id/glPins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="32dp"
+                android:scrollbars="none"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvDes">
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/pin1"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@drawable/bg_blue_stroke_rounded_10sdp"
+                        android:src="@drawable/ic_pin_1" />
+
+                    <ImageView
+                        android:id="@+id/pin2"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:background="@drawable/bg_blue_stroke_rounded_10sdp"
+                        android:paddingVertical="@dimen/_25sdp"
+                        android:src="@drawable/ic_pin_2" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/pin3"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@drawable/bg_blue_stroke_rounded_10sdp"
+                        android:src="@drawable/ic_pin_3" />
+
+                    <ImageView
+                        android:id="@+id/pin4"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:background="@drawable/bg_blue_stroke_rounded_10sdp"
+                        android:paddingVertical="@dimen/_20sdp"
+                        android:src="@drawable/ic_pin_4" />
+                </TableRow>
+            </TableLayout>
+
+            <com.gpsnavigation.maps.gpsroutefinder.routemap.max_ad_manager.MaxAdNativeFrameLayout
+                android:id="@+id/native_ads_container"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/white"
+                android:visibility="visible"
+                android:layout_marginTop="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/glPins" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

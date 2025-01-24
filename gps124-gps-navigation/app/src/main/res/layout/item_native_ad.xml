@@ -1,0 +1,107 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="true"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/white"
+    android:layout_margin="@dimen/_4sdp"
+    app:cardCornerRadius="@dimen/_3sdp"
+    app:cardElevation="@dimen/_1sdp">
+
+    <FrameLayout
+        android:id="@+id/ad_unified_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.gms.ads.formats.MediaView
+                android:id="@+id/ad_media"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_170sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RelativeLayout
+                android:id="@+id/rl_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ad_media"
+                android:padding="@dimen/_4sdp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/adIcon"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:visibility="visible"
+                    />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_toEndOf="@+id/adIcon"
+                    android:layout_alignTop="@+id/adIcon"
+                    android:layout_alignBottom="@+id/adIcon">
+
+                    <TextView
+                        android:id="@+id/tvAdTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:text="ddggdfgdfgla"
+                        android:textSize="@dimen/_12ssp"
+                        android:textColor="@color/black"
+                        android:gravity="center_vertical"
+                        android:drawablePadding="@dimen/_5sdp"
+                        android:singleLine="true"
+                        android:drawableEnd="@drawable/ic_ad"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toTopOf="@+id/tvAdPrice"
+                        />
+
+                    <TextView
+                        android:id="@+id/tvAdPrice"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="dkklsjfkla"
+                        android:singleLine="true"
+                        android:textSize="@dimen/_10ssp"
+                        android:visibility="visible"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </RelativeLayout>
+
+
+            <Button
+                android:id="@+id/ad_call_to_action"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_38sdp"
+                android:layout_margin="@dimen/_8sdp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_14ssp"
+                android:textAllCaps="false"
+                android:visibility="visible"
+                android:background="@drawable/bg_rounded_btn"
+                app:layout_constraintTop_toBottomOf="@+id/rl_bottom"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_subscription">
+
+    <ImageView
+        android:id="@+id/iv_cross_subscription_plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:padding="12dp"
+        app:srcCompat="@drawable/ic_cross_white"
+        android:elevation="@dimen/_10sdp"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_upper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="Start Free Trial"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_upper"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_bottom_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.98" />
+
+    <TextView
+        android:id="@+id/tv_terms_of_services"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:text="@string/terms_of_services"
+        android:textColor="@color/color_white_light"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_bottom_line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_free_trial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_terms_of_services"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <RelativeLayout
+        android:id="@+id/btn_start_free_trial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/bg_button_subscription"
+        app:layout_constraintBottom_toTopOf="@+id/tv_free_trial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/_14sdp"
+            android:text="Start Free Trial"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_features_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="12dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_upper"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_globe_subscription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                app:srcCompat="@drawable/ic_subscription_globe" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/iv_globe_subscription"
+                android:text="100 + Languages"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_conversation_subscription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                app:srcCompat="@drawable/ic_subscription_conversation" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/iv_conversation_subscription"
+                android:text="Conversation"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_features_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="@dimen/_18sdp"
+        android:layout_marginEnd="12dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_features_first"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_translation_subscription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                app:srcCompat="@drawable/ic_subscription_translation" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/iv_translation_subscription"
+                android:text="Free Translation"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_camera_subscription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                app:srcCompat="@drawable/ic_subscription_cam" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/iv_camera_subscription"
+                android:text="Camera Translation"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="@dimen/_17sdp"
+        android:layout_marginEnd="12dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_features_second"
+        app:layout_constraintBottom_toTopOf="@+id/btn_start_free_trial"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:id="@+id/iv_no_ads"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                app:srcCompat="@drawable/ic_subscription_no_ads" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/iv_no_ads"
+                android:text="No ads"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

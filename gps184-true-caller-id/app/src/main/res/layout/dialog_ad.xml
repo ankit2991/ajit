@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gpb="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    gpb:cardCornerRadius="5dp"
+    android:layout_gravity="center"
+    gpb:cardBackgroundColor="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <com.jpardogo.android.googleprogressbar.library.GoogleProgressBar
+            android:id="@+id/google_progress"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            gpb:type="chrome_floating_circles" />
+
+        <TextView
+            android:id="@+id/esy_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:text="Please Wait"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

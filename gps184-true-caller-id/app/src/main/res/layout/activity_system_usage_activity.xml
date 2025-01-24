@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_container_app"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_size"
+        android:background="@drawable/bg_action_bar">
+
+        <ImageView
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_back"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/poppins_bold"
+            android:src="@drawable/header"
+            android:text="@string/system_usage"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:padding="@dimen/_8sdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/adlayout">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/adlayout"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/bg_button_outline_gray"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Battery Info"
+                            android:layout_marginStart="@dimen/_16sdp"
+                            android:fontFamily="@font/poppins_semi_bold"
+                            android:textColor="@color/text_menu_button"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/colorPrimary"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <TextView
+                            style="@style/text_device_info_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="start"
+                            android:text="@string/batt_remain" />
+
+                        <TextView
+                            android:id="@+id/batt_level_value"
+                            style="@style/text_device_info_value_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="Not Available " />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <ProgressBar
+                            android:id="@+id/progressBar"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:maxHeight="15dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <TextView
+                            style="@style/text_device_info_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="@string/batt_status" />
+
+                        <TextView
+                            android:id="@+id/batt_status_val"
+                            style="@style/text_device_info_value_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="SAMSUNG" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <TextView
+                            style="@style/text_device_info_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="@string/batt_health" />
+
+                        <TextView
+                            android:id="@+id/batt_health_val"
+                            style="@style/text_device_info_value_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="SAMSUNG" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <TextView
+                            style="@style/text_device_info_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="@string/batt_temp" />
+
+                        <TextView
+                            android:id="@+id/batt_temp_val"
+                            style="@style/text_device_info_value_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="SAMSUNG" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <TextView
+                            style="@style/text_device_info_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="@string/batt_technology" />
+
+                        <TextView
+                            android:id="@+id/batt_tech_val"
+                            style="@style/text_device_info_value_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="SAMSUNG" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <TextView
+                            style="@style/text_device_info_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:singleLine="true"
+                            android:text="@string/batt_volte" />
+
+                        <TextView
+                            android:id="@+id/batt_voltage_val"
+                            style="@style/text_device_info_value_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="SAMSUNG" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <TextView
+                            style="@style/text_device_info_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="System Uptime" />
+
+                        <TextView
+                            android:id="@+id/system_up_time"
+                            style="@style/text_device_info_value_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text="SAMSUNG" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/bg_button_outline_gray"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_16sdp"
+                                android:fontFamily="@font/poppins_semi_bold"
+                                android:text="RAM Info"
+                                android:textColor="@color/text_menu_button"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/colorPrimary"
+                            android:visibility="gone" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                style="@style/text_device_info_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:text="@string/ram_total" />
+
+                            <TextView
+                                android:id="@+id/ram_size"
+                                style="@style/text_device_info_value_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:gravity="center"
+                                android:text="Not Available " />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                style="@style/text_device_info_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:text="@string/ram_total" />
+
+                            <TextView
+                                android:id="@+id/ram_used"
+                                style="@style/text_device_info_value_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:gravity="center"
+                                android:text="SAMSUNG" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                style="@style/text_device_info_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:text="@string/ram_free" />
+                            >
+
+                            <TextView
+                                android:id="@+id/ram_free"
+                                style="@style/text_device_info_value_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:gravity="center"
+                                android:text="SAMSUNG" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/bg_button_outline_gray"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_16sdp"
+                                android:fontFamily="@font/poppins_semi_bold"
+                                android:text="Internal Storage Info"
+                                android:textColor="@color/text_menu_button"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/colorPrimary"
+                            android:visibility="gone" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                style="@style/text_device_info_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:text="@string/storage_total" />
+
+                            <TextView
+                                android:id="@+id/sd_total"
+                                style="@style/text_device_info_value_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:gravity="center"
+                                android:text="Not Available " />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                style="@style/text_device_info_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:text="@string/storage_free" />
+
+                            <TextView
+                                android:id="@+id/sd_free"
+                                style="@style/text_device_info_value_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:gravity="center"
+                                android:text="SAMSUNG" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/bg_button_outline_gray"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_16sdp"
+                                android:fontFamily="@font/poppins_semi_bold"
+                                android:text="External Storage Info"
+                                android:textColor="@color/text_menu_button"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/colorPrimary"
+                            android:visibility="gone" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                style="@style/text_device_info_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:text="@string/storage_total" />
+
+                            <TextView
+                                android:id="@+id/sdcard_total"
+                                style="@style/text_device_info_value_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:gravity="center"
+                                android:text="SAMSUNG" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                style="@style/text_device_info_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:text="@string/storage_free" />
+
+                            <TextView
+                                android:id="@+id/sd_used"
+                                style="@style/text_device_info_value_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:gravity="center"
+                                android:text="SAMSUNG" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <LinearLayout
+            android:id="@+id/adlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <include layout="@layout/max_ad_native_layout" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

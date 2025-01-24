@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="80.0dip"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/wrapTool"
+        android:layout_width="80.0dip"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple"
+        android:clickable="true"
+        android:paddingTop="10.0dip"
+        android:paddingBottom="10.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@id/imgToolIcon"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_margin="4.0dip"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" />
+
+
+        <TextView
+            android:id="@id/txtTool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:fontFamily="@font/encode_sans_medium"
+            android:textColor="@color/black"
+            android:textSize="12.0sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imgToolIcon" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@id/adIcon"
+        android:layout_width="18.0dip"
+        android:layout_height="18.0dip"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="4dp"
+        android:elevation="3dp"
+        android:src="@drawable/ad_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/adUnlockText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:elevation="3dp"
+        android:fontFamily="@font/roboto_black"
+        android:text="Unlock\nCollage"
+        android:textColor="@color/black"
+        android:textSize="7sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/adIcon"
+        app:layout_constraintStart_toStartOf="@+id/adIcon"
+        app:layout_constraintTop_toBottomOf="@+id/adIcon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

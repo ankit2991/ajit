@@ -1,0 +1,50 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdk 33
+    namespace 'com.nined.fcm'
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdk 33
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+
+    compileOptions {
+        sourceCompatibility = 17
+        targetCompatibility = 17
+    }
+    buildFeatures {
+        buildConfig = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    //implementation "com.google.firebase:firebase-messaging:20.2.0"
+
+    // Import the BoM for the Firebase platform
+    implementation platform('com.google.firebase:firebase-bom:32.3.1')
+    implementation 'com.google.firebase:firebase-messaging'
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+}

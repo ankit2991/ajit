@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="sugest_update_title">Diweddariad ar gael</string>
+    <string name="sugest_update_message">Diweddariad newydd ar gael ar Google Play, diweddara’ch fersiwn os gwelwch yn dda</string>
+    <string name="force_update_title">Diweddariad ar gael</string>
+    <string name="force_update_message">Diweddariad newydd ar gael ar Google Play, diweddara’ch fersiwn os gwelwch yn dda</string>
+    <string name="update_ok">Diweddaru</string>
+    <string name="update_no">Nid yn awr</string>
+    <string name="app_name">#Negeseuon</string>
+    <string name="in_app_name">Negeseuon</string>
+    <string name="splash_app_name">Negeseuon SMS</string>
+    <string name="loading_msg">Arhoswch...</string>
+    <string name="ads_loading_msg">Dangos hysbysebion...</string>
+    <string name="shortcut_compose_long_label">Sgwrs newydd</string>
+    <string name="shortcut_compose_short_label">Lluniadu</string>
+    <string name="shortcut_compose_disabled_message">Byrddau gwaith wedi’u hanalluogi</string>
+    <string name="title_archived">Negeseuon wedi eu cadw</string>
+    <string name="title_settings">Gosodiadau</string>
+    <string name="title_notification_prefs">Hysbysiadau</string>
+    <string name="title_theme">Thema</string>
+    <string name="title_conversations">Chwiliwch rhifau, enwau a mwy</string>
+    <string name="title_compose">Teipiwch enw neu rif ffôn</string>
+    <string name="setup_skip">Hepgor</string>
+    <string name="setup_next">Parhau</string>
+    <string name="menu_add_person">Ychwanegu person</string>
+    <string name="menu_call">Galw</string>
+    <string name="menu_info">Manylion</string>
+    <string name="menu_save">Cadw i’r oriel</string>
+    <string name="menu_share">Rhannu</string>
+    <string name="main_drawer_open_cd">Agor y drôr llywio</string>
+    <string name="main_title_selected">%d wedi’u dewis</string>
+    <string name="main_menu_clear">Clirio</string>
+    <string name="main_menu_archive">Cadw</string>
+    <string name="main_menu_unarchive">Dad-archif</string>
+    <string name="main_menu_delete">Dileu</string>
+    <string name="main_menu_add_contact">Ychwanegu at gysylltiadau</string>
+    <string name="main_menu_pin">Pinio i\'r brig</string>
+    <string name="main_menu_unpin">Dadbinio</string>
+    <string name="main_menu_read">Marcio fel wedi’i ddarllen</string>
+    <string name="main_menu_unread">Marcio fel heb ei ddarllen</string>
+    <string name="select_all">Dewis Pob</string>
+    <string name="deselect_all">Dewis Pob</string>
+    <string name="main_menu_block">Blocio</string>
+    <string name="main_syncing">Trefnu negeseuon...</string>
+    <string name="main_sender_you">Chi: %s</string>
+    <string name="main_draft">Drafft: %s</string>
+    <string name="main_message_results_title">Canlyniadau mewn negeseuon</string>
+    <string name="main_message_results">%d neges</string>
+    <string name="inbox_empty_text">Bydd eich sgwrsio’n ymddangos yma</string>
+    <string name="inbox_search_empty_text">Dim canlyniadau</string>
+    <string name="archived_empty_text">Dim sgwrsiau wedi eu cadw eto...</string>
+    <string name="main_fab_cd">Dechrau sgwrs newydd</string>
+    <string name="main_default_sms_title">Caru Negeseuon?</string>
+    <string name="main_default_sms_message">Gwnewch eich ap negeseuon SMS eich ap negeseuon SMS ddewisol</string>
+    <string name="main_default_sms_change">Newid</string>
+    <string name="main_permission_required">Angen Caniatâd</string>
+    <string name="main_permission_sms">Angen caniatâd SMS i anfon ac edrych ar negeseuon SMS</string>
+    <string name="main_permission_contacts">Angen caniatâd SMS i weld eich cysylltiadau</string>
+    <string name="main_permission_allow">Caniatâd</string>
+    <string name="main_permission_allow_read">Caniatâd Darllen a Gofyn</string>
+    <string name="drawer_inbox">Mewnflwch</string>
+    <string name="drawer_archived">Wedi’u Cadw</string>
+    <string name="drawer_scheduled">Negesau wedi’u Trefnu</string>
+    <string name="drawer_blocking">Rhestr Blocio</string>
+    <string name="drawer_calldorado">Gosodiadau Galwad</string>
+    <string name="drawer_more">Mwy</string>
+    <string name="drawer_group">Neges Grŵp</string>
+    <string name="drawer_settings">Gosodiadau</string>
+    <string name="drawer_remove_ads">Tynnu Hysbysebion</string>
+    <string name="drawer_help">Help a Sylwadau</string>
+    <string name="drawer_invite">Gwahodd Ffrindiau</string>
+    <string name="dialog_delete_title">Dileu</string>
+
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Ydych chi\’n siŵr eich bod am ddileu\’r sgwrs hon?</item>
+        <item quantity="other">Ydych chi\’n siŵr eich bod am ddileu %d sgwrs?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Copïo testun</item>
+        <item>Pan mae angen</item>
+        <item>Dileu</item>
+    </string-array>
+    <string name="compose_number_picker_title">Dewiswch rif ffon</string>
+    <string name="compose_number_picker_default">%s ∙ Ddioedol</string>
+    <string name="compose_number_picker_once">Jyst unwaith</string>
+    <string name="compose_number_picker_always">Bob amser</string>
+    <string name="compose_title_selected">%d wedi’u dewis</string>
+    <string name="compose_subtitle_results">%1$d o %2$d canlyniad</string>
+    <string name="contact_selected">%1$d o %2$d Dewiswyd</string>
+    <string name="compose_send_group_title">Anfon fel neges grŵp</string>
+    <string name="compose_send_group_summary">Bydd derbynwyr ac ymatebion yn weladwy i bawb</string>
+    <string name="compose_messages_empty">Dechrau ar eich sgwrs. Dweud rhywbeth gwych!</string>
+    <string name="compose_vcard_label">Card cyswllt</string>
+    <string name="compose_scheduled_for">Trefnwyd ar gyfer</string>
+    <string name="compose_scheduled_future">dylai fod yn y dyfodol!</string>
+    <string name="compose_scheduled_toast">Ychwanegwyd at negeseuon wedi’u trefnu</string>
+    <string name="compose_hint">Ysgrifennwch Yma…</string>
+    <string name="compose_menu_copy">Copïo testun</string>
+    <string name="compose_menu_forward">Plygu ymlaen</string>
+    <string name="compose_menu_delete">Dileu</string>
+    <string name="compose_menu_previous">Blaenorol</string>
+    <string name="compose_menu_next">Nesaf</string>
+    <string name="compose_menu_clear">Clirio</string>
+    <string name="compose_details_title">Manylion y neges</string>
+    <string name="compose_details_type">Math: %s</string>
+    <string name="compose_details_from">Oddi wrth: %s</string>
+    <string name="compose_details_to">At: %s</string>
+    <string name="compose_details_subject">Pwnc: %s</string>
+    <string name="compose_details_priority">Blaenoriaeth: %s</string>
+    <string name="compose_details_size">Maint: %s</string>
+    <string name="compose_details_sent">Anfonwyd: %s</string>
+    <string name="compose_details_received">Wedi’i dderbyn: %s</string>
+    <string name="compose_details_delivered">Wedi’i gyflwyno: %s</string>
+    <string name="compose_details_error_code">Cod gwall: %d</string>
+    <string name="compose_attach_cd">Ychwanegu atodiad</string>
+    <string name="compose_gallery_cd">Atodi llun</string>
+    <string name="compose_camera_cd">Tynnu llun</string>
+    <string name="compose_schedule_cd">Trefnu neges</string>
+    <string name="compose_contact_cd">Atodi cysylltiad</string>
+    <string name="compose_contact_error">Gwall wrth ddarllen cysylltiad</string>
+    <string name="compose_sim_cd">%s wedi’u dewis, newid cerdyn SIM</string>
+    <string name="compose_send_cd">Anfon neges</string>
+    <string name="message_status_sending">Yn anfon…</string>
+    <string name="message_status_delivered">Wedi’i gyflwyno %s</string>
+    <string name="message_status_failed">Wedi methu â’i anfon</string>
+    <string name="info_title">Manylion y Cyswllt</string>
+    <string name="info_copied_address">Cyfeiriad wedi’i gopïo</string>
+    <string name="info_name">Teitl y Sgwrs</string>
+    <string name="info_notifications">Hysbysiadau</string>
+    <string name="info_theme">Thema</string>
+    <string name="info_archive">Archif</string>
+    <string name="info_unarchive">Dad-archif</string>
+    <string name="info_block">Blocio</string>
+    <string name="info_unblock">Dad-blocio</string>
+    <string name="info_delete">Dileu sgwrs</string>
+    <string name="gallery_error">Wedi methu â llwytho’r cyfryngau</string>
+    <string name="gallery_toast_saved">Wedi’i gadw i’r oriel</string>
+    <string name="backup_title">Copïo ac adfer</string>
+    <string name="backup_backing_up">Yn copïo negeseuon</string>
+    <string name="backup_restoring">Adfer o’r copi</string>
+    <string name="backup_last">Dilyswyd diwethaf</string>
+    <string name="backup_loading">Llwytho…</string>
+    <string name="backup_never">Byth</string>
+    <string name="backup_restore_title">Adfer</string>
+    <string name="backup_restore_summary">Dewiswch gopi wrth adfer</string>
+    <string name="backup_restore_error_plus">Anfonwch SMS+ i ddefnyddio’r broses adfer</string>
+    <string name="backup_restore_error_backup">Copïo’n digwydd…</string>
+    <string name="backup_restore_error_restore">Adfer yn digwydd…</string>
+    <string name="backup_restore_confirm_title">Adfer o’r copi</string>
+    <string name="backup_restore_confirm_message">Ydych chi’n siŵr eich bod am adfer eich negeseuon o’r copi hwn?</string>
+    <string name="backup_restore_stop_title">Atal adfer</string>
+    <string name="backup_restore_stop_message">Bydd negeseuon sydd eisoes wedi’u hadfer yn aros ar eich dyfais</string>
+    <string name="backup_restore_dialog_title">Copïon cadwynol</string>
+    <string name="backup_restore_dialog_summary">/Negeseuon SMS/Copïon cadwynol</string>
+    <string name="backup_restore_dialog_empty">Dim copïon wedi’u darganfod</string>
+
+    <plurals name="backup_message_count">
+        <item quantity="zero">Dim negeseuon</item>
+        <item quantity="one">%d neges</item>
+        <item quantity="other">%d negeseuon</item>
+    </plurals>
+    <string name="backup_disclaimer">Hyd yma, dim ond SMS a gefnogir gan ein broses Copïo ac Adfer!</string>
+    <string name="backup_now">Copïo</string>
+    <string name="backup_progress_parsing">Dadansoddi copi…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d negeseuon</string>
+    <string name="backup_progress_saving">Cadw copi…</string>
+    <string name="backup_progress_syncing">Sync negeseuon…</string>
+    <string name="backup_progress_finished">Wedi Gorffen!</string>
+    <string name="backup_notification_channel_name">Copïo ac adfer</string>
+    <string name="Message_notification_channel_name">Sync Negeseuon</string>
+    <string name="scheduled_title">Wedi’u Trefnu</string>
+    <string name="schedule_guide">Gallwch osod negesau trefn ar ôl clicio ar y botwm atodi a roddir ar sgrin sgwrs negeseuon.</string>
+    <string name="scheduled_empty_description">Anfonwch neges yn awtomatig, ar yr eiliad union yr hoffech chi</string>
+    <string name="scheduled_empty_message_1">Hey! Pryd mae’r amser i ddathlu?</string>
+    <string name="scheduled_empty_message_2">Mae ar 5ed o Fawrth</string>
+    <string name="scheduled_empty_message_3">Heyaa! Edrychwch pa ffrind wych dw i’n, gan ddathlu dy ddiwrnod</string>
+    <string name="scheduled_empty_message_3_timestamp">Anfonir ar Fawrth 5ed</string>
+    <string name="scheduled_compose_cd">Trefnu neges</string>
+    <string name="scheduled_options_title">Neges Trefnwyd</string>
+    <string-array name="scheduled_options">
+        <item>Anfon nawr</item>
+        <item>Copïo testun</item>
+        <item>Dileu</item>
+    </string-array>
+    <string name="settings_category_appearance">Ymddangosiad</string>
+    <string name="settings_category_general">Cyffredinol</string>
+    <string name="settings_categoryreply">Ateb</string>
+    <string name="settings_night_title">Modd nos</string>
+    <string name="settings_text_size_title">Maint ffont</string>
+    <string name="settings_notifications_title">Hysbysiadau</string>
+    <string name="settings_notifications_o_summary">Pwyso i addasu</string>
+    <string name="settings_notification_actions_title">Gweithredoedd</string>
+    <string name="settings_notification_action_1">Botwm 1</string>
+    <string name="settings_notification_action_2">Botwm 2</string>
+    <string name="settings_notification_action_3">Botwm 3</string>
+    <string name="settings_notification_previews_title">Rhagolwg hysbysiadau</string>
+    <string name="settings_notification_wake_title">Deffro’r sgrin</string>
+    <string name="settings_vibration_title">Fibrasiwn</string>
+    <string name="settings_ringtone_title">Sain</string>
+    <string name="settings_ringtone_none">Dim</string>
+    <string name="settings_reply_title">Ateb</string>
+    <string name="settings_reply_summary">Popup ar gyfer negeseuon newydd</string>
+    <string name="settings_reply_tap_dismiss_title">Tapio i ddiweddaru</string>
+    <string name="settings_reply_tap_dismiss_summary">Tapio y tu allan i’r poptîn i’w gau</string>
+    <string name="settings_swipe_actions">Gweithredoedd Sgwid</string>
+    <string name="settings_swipe_actions_right">Sgwthio i’r dde</string>
+    <string name="settings_swipe_actions_left">Sgwthio i’r chwith</string>
+    <string name="settings_swipe_actions_change">NEWID</string>
+    <string name="not_now_txt">Nid yn awr</string>
+    <string name="process_title">Mae’r broses hon yn mynd i gymryd\nychydig o amser</string>
+    <string name="syncing_done">Sync negeseuon gorffen....</string>
+    <string name="all_set_txt">Yr holl beth. Rydych chi’n barod i fynd</string>
+    <string name="Personal">Pob Neges</string>
+    <string name="Other">Gwybodaeth</string>
+    <string name="Spam">Rwystro</string>
+    <string name="setting">Gosodiadau</string>
+    <string name="Share">Rhannu</string>
+    <string name="Rate">Rhoi sylwadau</string>
+    <string name="edit">golygu</string>
+    <string name="DarkMode">Modd Tywyll</string>
+    <string name="BrightMode">Modd Llachar</string>
+    <string name="Camera">Camera</string>
+    <string name="Gallery">Oriel</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">Cysylltiad</string>
+    <string name="Schedule">Amserlen</string>
+    <string name="Location">Lleoliad</string>
+    <string name="Notes">Nodiadau</string>
+    <string name="no_msg">Dim negeseuon eto…</string>
+    <string name="Start_Chat">Dechrau Sgwrs</string>
+    <string name="Language">Iaith</string>
+    <string name="rate_text">Argymell i eraill drwy \nrhoi sylwadau ar Play Store!</string>
+    <string name="sort_by">Trefnu yn ôl</string>
+    <string-array name="settings_swipe_actions">
+        <item>Dim</item>
+        <item>Archif</item>
+        <item>Dileu</item>
+        <item>Galw</item>
+        <item>Marcio fel wedi’i ddarllen</item>
+        <item>Marcio fel heb ei ddarllen</item>
+    </string-array>
+
+    <string name="settings_mms_size_title">Awtomatig- cywasgu atodiadau MMS</string>
+    <string name="settings_sync_title">Sync negeseuon</string>
+    <string name="settings_sync_summary">Ail-sync eich negeseuon gyda’r gronfa ddata SMS Android gwreiddiol</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Rheoli Galwad</string>
+    <string name="blocking_manager_sia_title">Dylai fi Ateb?</string>
+    <string name="blocked_messages_title">Negeseuon wedi’u Blocio</string>
+    <string name="blocked_messages_empty">Bydd eich negeseuon wedi’u blocio yn ymddangos yma</string>
+    <string name="blocking_block_title">Blocio</string>
+    <string name="blocking_unblock_title">Dad-Blocio</string>
+
+    <plurals name="blocking_block_external">
+        <item quantity="one">Parhewch i %s a blocio\'r rhif hwn</item>
+        <item quantity="other">Parhewch i %s a blocio\'r rhifau hyn</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">Parhewch i %s a chaniatáu\'r rhif hwn</item>
+        <item quantity="other">Parhewch i %s a chaniatáu\'r rhifau hyn</item>
+    </plurals>
+    <string name="widget_loading">Llwytho…</string>
+    <string name="widget_more">Gweld mwy o sgyrsiau</string>
+    <string name="qkreply_menu_read">Marcio fel wedi ei ddarllen</string>
+    <string name="qkreply_menu_call">Galw</string>
+    <string name="qkreply_menu_delete">Dileu</string>
+    <string name="qkreply_menu_expand">Dangos mwy</string>
+    <string name="qkreply_menu_collapse">Dangos llai</string>
+    <string name="qkreply_menu_view">Agor sgwrs</string>
+    <string name="changelog_title">Newyddion yn SMS</string>
+    <string name="changelog_version">Fersiwn %s</string>
+    <string name="changelog_added">Ychwanegwyd</string>
+    <string name="changelog_improved">Gwella</string>
+    <string name="changelog_fixed">Gwella</string>
+    <string name="changelog_more">Mwy</string>
+    <string name="changelog_dismiss">Dileu</string>
+    <string-array name="notification_actions">
+        <item>Dim</item>
+        <item>Marcio fel wedi ei ddarllen</item>
+        <item>Ateb</item>
+        <item>Galw</item>
+        <item>Dileu</item>
+    </string-array>
+    <string name="button_yes">Ie</string>
+    <string name="button_continue">Parhau</string>
+    <string name="button_cancel">Canslo</string>
+    <string name="button_delete">Dileu</string>
+    <string name="button_save">Cadw</string>
+    <string name="button_stop">Stopio</string>
+    <string name="button_more">Mwy</string>
+    <string name="button_set">Gosod</string>
+    <string name="button_undo">Dadwneud</string>
+    <string name="toast_copied">Copïwyd</string>
+    <string name="toast_archived">Sgwrs wedi ei archifo</string>
+    <string name="toast_sms_plus">Rhaid i chi ddatgloi SMS+ i ddefnyddio hyn</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Neges newydd</item>
+        <item quantity="other">%s negesau newydd</item>
+    </plurals>
+    <string name="notification_message_failed_title">Neges heb ei hanfon</string>
+    <string name="notification_message_failed_text">Wedi methu â chyrraedd y neges i %s</string>
+    <string name="privacy_policy">Polisi Preifatrwydd</string>
+    <string name="pocket_data_on">Rhaid i ddata boced fod ar gyfer anfon MMS!</string>
+    <string name="inapp_details" translatable="false">I gael gwared ar hysbysebion, rhoi cynnig ar y tanysgrifiad premium gyda chefnogaeth modd llachar tywyll.\nCefnogi negeseuon wedi\'u trefnu.</string>
+    <string name="drawer_removeAds">Tynnu hysbysebion</string>
+    <string name="in_app_ads">negeseuon_rad</string>
+    <string name="dialog_delete_message">Ydych chi\'n sicr eich bod am ddileu\'r neges hon?</string>
+    <string name="compose_bar_not_support">Nid yw\'r anfonwr yn cefnogi atebion</string>
+    <string name="default_name">I anfon neu dderbyn SMS, rhaid i chi ei osod fel y cais diofyn. Ydych chi eisiau i\'r neges fod yn eich cais diofyn?</string>
+    <string name="confirm_delete">Cadarnhau Dileu</string>
+    <string name="confirm_delete_text">Ydych chi\'n sicr eich bod am ddileu\'r nodyn hwn?</string>
+    <string name="title">Teitl</string>
+    <string name="note">Nodyn</string>
+    <string name="search">Chwilio</string>
+    <string name="settings">Gosodiadau</string>
+    <string name="share_to">Rhannu i:</string>
+    <string name="sort">Trefnu</string>
+    <string name="empty_list_text">Pwyswch y botwm ar y gwaelod dde i ychwanegu nodyn newydd!</string>
+    <string name="new_note">Nodyn Newydd</string>
+    <string name="undo">Dadwneud</string>
+    <string name="delete">Dileu</string>
+    <string name="exception">Eithriad:</string>
+    <string name="edit_note">Golygu Nodyn</string>
+    <string name="drawer_feedback">Anfon adborth</string>
+    <string name="drawer_mode">Modd Goleuedig</string>
+    <string name="unlimited_access_user">Mynediad Di-Limit \nAt Holl Nodweddion</string>
+    <string name="pro_user">Chi yw defnyddiwr Prif</string>
+    <string name="sub_info_text"><b>Mae\'r tanysgrifiad yn adnewyddu\'n awtomatig nes eich bod yn ei stopio.</b></string>
+    <string name="cancel_purchase">Gallwch ganslo adnewyddiannau tanysgrifiad awtomatig ym Mewngofnodi ar Google play</string>
+    <string name="remove_ads">Tynnu Hysbysebion</string>
+    <string name="no_ads">Dim Hysbysebion</string>
+    <string name="free_trial">Profiad am ddim am 7 diwrnod, wedyn ailnewid yn awtomatig</string>
+    <string name="can_not_talk_right_now">Mae\'n ddrwg gen i, ni allaf siarad ar hyn o bryd</string>
+    <string name="can_call_you_later">Ga i alw chi yn ddiweddarach?</string>
+    <string name="i_am_on_my_way">Rwy\'n ar fy ffordd</string>
+    <string name="write_personal_message">Ysgrifennwch neges bersonol</string>
+    <string name="create_reminder">Creu atgoffa newydd</string>
+    <string name="remind_me_about">Atgoffa fi am</string>
+    <string name="no_title">Dim Teitl</string>
+    <string name="edit_contact">Golygu Cyswllt</string>
+    <string name="add_contact">Ychwanegu Cyswllt</string>
+    <string name="messages">Negeseuon</string>
+    <string name="send_mail">Anfon Ebost</string>
+    <string name="calendar">Calendr</string>
+    <string name="web">Gwe</string>
+    <string-array name="night_modes">
+        <item>System</item>
+        <item>Modd Disglair</item>
+        <item>Modd Tywyll</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>Dangos enw a neges</item>
+        <item>Dangos enw</item>
+        <item>Cuddio cynnwys</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>Bach</item>
+        <item>Normal</item>
+        <item>Mawr</item>
+        <item>Mwy</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>Dim oedi</item>
+        <item>Byr</item>
+        <item>Cymedr</item>
+        <item>Hir</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Awtomatig</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>Dim cywasgu</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>Iawn</item>
+        <item>Rho fi funud</item>
+        <item>Ar fy ffordd</item>
+        <item>Diolch</item>
+        <item>Swnio\'n dda</item>
+        <item>Beth sy\'n bod?</item>
+        <item>Cytun</item>
+        <item>Nac ydw</item>
+        <item>Caru di</item>
+        <item>Mae\'n ddrwg</item>
+        <item>LOL</item>
+        <item>Mae hynny\'n iawn</item>
+    </string-array>
+    <string name="default_title">Caniatáu i\'r Ap Negesau fod yn ap ragosod</string>
+    <string name="set_as_defaault">Gosod fel Ragosod</string>
+    <string name="love_app_title">Gwneud yr ap SMS yn eich ap ragosod
+ ap SMS</string>
+    <string-array name="gif">
+        <item>Cynwyswyd Anifeiliaid</item>
+        <item>Emoji</item>
+        <item>Ffrwythau &amp; Llysiau</item>
+        <item>Halloween</item>
+        <item>Cariad</item>
+    </string-array>
+    <string name="Sticker">Sticer</string>
+    <string name="no_connection">Dim cysylltiad rhyngrwyd.</string>
+    <string-array name="sticker">
+        <item>Bachgen</item>
+        <item>Cartwn</item>
+        <item>Wyneb</item>
+        <item>Gwyl</item>
+        <item>Ffrwyth</item>
+        <item>Hwyl</item>
+        <item>Merch</item>
+        <item>Sticer Cariad</item>
+        <item>Eraill</item>
+        <item>Mochyn</item>
+    </string-array>
+    <string name="open_link_to_browser">Agor Dolen i Borwr</string>
+    <string name="battery_dialog"> Ddim eisiau colli Negeseuon Pwysig? \n
+Troiwch y golygu batteri i ffwrdd</string>
+    <string name="reason_to_change_battery_optimization_setting">Naviwgiwch i Wybodaeth Ap &gt; Uwch &gt; Optimeiddio Batteri \na dewiswch \'Peidiwch â optimeiddio\'</string>
+    <string name="feedback_txt">Dywedwch wrthym am eich profiad a rhoi awgrymiadau i wella\'r ap Neges.</string>
+    <string name="reason_to_change_battery"> Uwch &gt; Optimeiddio Batteri &gt; \'Peidiwch â optimeiddio\'</string>
+    <string name="drawer_transaction">Trafodiadau</string>
+    <string name="drawer_promotion">Hyrwyddiannau</string>
+    <string name="unknown">Anhysbys </string>
+    <string name="priva"><u>Polisi Preifatrwydd</u></string>
+    <string name="smsfilter">Hidlo Negeseuon Testun</string>
+    <string name="by_click_t_c" translatable="false"><u>Drwy glicio rydych yn derbyn ein Telerau ac Amodau.</u></string>
+    <string name="continue_without_sub"><u>Parhau heb ymdrech</u></string>
+    <string name="text_free_trial">Mwynhewch X diwrnod <b> Treial Am Ddim </b> - Yna X € / mis</string>
+    <string name="calldorado_message">Gwiriwch eich <b> negeseuon </b> i gyd cyn gorffen y galw! Mae newyddion</string>
+    <string name="privacy_terms_description">Drwy barhau, rydych yn derbyn ac yn cytuno ag telerau defnydd a\'r polisi preifatrwydd.</string>
+    <string name="draw_over_description"><![CDATA[I ddangos ar frig apiau eraill ein Negeseuon SMS. Cymerwch yr holl botensial o\'n widgetiau galw SMS & mwy]]></string>
+    <string name="ad_label">Hysbyseb</string>
+    <string name="onboarding_continue_button">Parhau</string>
+    <string name="onboarding_step_1_title">Rheolwr Negeseuon &amp; Messenger</string>
+    <string name="onboarding_step_1_subtitle">Sgwrsio gyda ffrindiau, gwneud grwpiau ac addasu eich blwch negeseuon</string>
+    <string name="onboarding_step_1_hight_light">Agwedd Unigryw Tuag Atoch</string>
+    <string name="onboarding_step_2_title">Trefnu &amp; storio negeseuon</string>
+    <string name="onboarding_step_2_subtitle">Cadwch a hadnewidiwch eich negeseuon</string>
+    <string name="onboarding_step_2_hight_light">Milwyr o ddefnyddwyr Fel y Mae</string>
+    <string name="onboarding_step_3_title">Mwynhewch eich bywyd &amp; gadewch i ni gofalu am y blwch negeseuon</string>
+    <string name="onboarding_step_3_subtitle">Derbynwch y caniatâd er mwyn i ni eich helpu i reoli eich blwch negeseuon.</string>
+    <string name="onboarding_step_3_hight_light">Efallai yn ddiweddarach</string>
+    <string name="onboarding_allow_access_button">Caniatáu Mynediad</string>
+    <string name="onboarding_step_4_title">Gwella eich batri drwy ein gadael ni i wneud y gwaith</string>
+    <string name="onboarding_step_4_subtitle">Byddwn ni\'n gofalu am ymyriadau negeseuon niweidiol SMS.</string>
+    <string name="onboarding_step_4_hight_light">Milwyr o ddefnyddwyr Fel y Mae</string>
+    <string name="onboarding_step_5_title">Gweithio ar sgrin rhanedig ar apiau eraill wrth sgwrsio</string>
+    <string name="onboarding_step_5_subtitle">Mwynhewch ein widget galw ffôn anhygoel sy\'n eich galluogi i wneud nifer o dasgau</string>
+    <string name="onboarding_step_5_hight_light">Milwyr o ddefnyddwyr Fel y Mae</string>
+    <string name="payment_card_title">Sgwrsio nawr!</string>
+    <string name="payment_card_price"><![CDATA[3 diwrnod am ddim, %s / %s]]></string>
+    <string name="payment_card_button">Rhowch gynnig am ddim nawr</string>
+    <string name="payment_card_hight_light">Diogelir gyda\'r Siop Chwarae</string>
+    <string name="payment_card_weekly">wythnosol</string>
+    <string name="payment_card_monthly">misol</string>
+    <string name="payment_card_yearly">blynyddol</string>
+    <string name="payment_card_auto_renew">tanysgrifiad awtomatig adnewyddadwy, canslo unrhyw bryd</string>
+    <string name="accessibility_service_description">Eich disgrifiad gwasanaeth hygyrchedd</string>
+    <string name="permission_txt"><font color="#FF8A00">Angen Caniatâd:</font>\nDarllen cyflwr ffon a Denu ar apiau eraill</string>
+    <string name="opt_privacy">Drwy barhau, rydych yn derbyn ac yn cytuno ag telerau defnydd a\'r polisi preifatrwydd.</string>
+    <string name="permission_required">Angeuon Angenrheidiol</string>
+    <string name="permission_dialog_body">Efallai na fydd yr ap yn gweithio\'n gywir heb ganiatâd ffôn. Dilynwch y cyfarwyddiadau isod i\'w alluogi:\n\n1. Dewiswch "Caniatâd"\n2. Canfod "Ffon" yn y rhestr o angenion ac ymchwiliwch i\'w alluogi</string>
+    <string name="go_premium">Dewch yn <font color = "#FFE600">Ffrwd!</font></string>
+    <string name="unlock_everything">Dadawg Popeth &amp; Dim Hysbysebion</string>
+    <string name="start_three_day">Dechrau Treial Am Ddim 3 Diwrnod</string>
+    <string name="pro">Pro</string>
+    <string name="more_option">Mwy O Opsiwn</string>
+    <string name="rate_us_5">Rhowch Ei Gorau 5 Seren</string>
+    <string name="help_feedback">Cymorth &amp; Adborth</string>
+    <string name="send_message">AnfonNeges</string>
+    <string name="CTA_Button_Text">Tapiwch i ddatgloi pob <font color="#FFFBCD04">Nodweddion</font></string>
+</resources>

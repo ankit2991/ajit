@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_close"
+        android:layout_width="19dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:background="@drawable/button_close"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".2" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/ic_shadow"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline1" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView">
+
+        <TextView
+            android:id="@+id/tvTitle"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:fontFamily="@font/inter_bold"
+            android:gravity="center|start"
+            android:paddingVertical="@dimen/_10sdp"
+            android:text="@string/new_premium_title"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sdp" />
+
+        <TextView
+            android:id="@+id/tvDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:fontFamily="@font/inter_bold"
+            android:gravity="center|start"
+            android:text="@string/new_premium_des"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_14sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:background="@drawable/bg_blue_stroke_rounded_10sdp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/select_yearly"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:src="@drawable/ic_select_radio" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/btn_subscribe"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:fontFamily="@font/arial_normal"
+                    android:gravity="center|end"
+                    android:maxLines="2"
+                    android:paddingEnd="@dimen/_5sdp"
+                    android:text="0€/Year"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_13ssp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/bg_black_stroke_rounded_10sdp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linear1">
+
+                <ImageView
+                    android:id="@+id/select_weekly"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:src="@drawable/ic_unselect_radio" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_continue_ad"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:fontFamily="@font/arial_normal"
+                    android:gravity="center|end"
+                    android:paddingEnd="@dimen/_5sdp"
+                    android:text="0€/Week"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_13ssp" />
+
+            </LinearLayout>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0" />
+            <TextView
+                android:id="@+id/tv_discount"
+                android:layout_width="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="@string/discount"
+                android:background="@drawable/bg_blue_solid_rounded_25sdp"
+                android:paddingVertical="@dimen/_3sdp"
+                android:textColor="@color/black"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:fontFamily="@font/inter_bold"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:backgroundTint="@color/discound_bg_color"
+                app:layout_constraintTop_toBottomOf="@+id/guideline3"
+                android:layout_height="wrap_content"/>
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.15" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/tv_cancel_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arial_normal"
+            android:gravity="center|start"
+            android:text="@string/auto_renewable_cancel_anytime"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_continue"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:background="@drawable/bg_blue_solid_rounded_8sdp"
+        android:drawableTint="@color/colorAccentBtn"
+        android:elevation="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:text="@string/btn_continue"
+        android:fontFamily="@font/mavenpro_bold"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tv_privacy"
+        tools:targetApi="m" />
+    <TextView
+        android:id="@+id/tv_privacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/arial_bold"
+        android:maxLines="2"
+        android:gravity="center"
+        android:text="Privacy"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_terms"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/arial_bold"
+        android:text="Terms"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_privacy"
+        app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:id="@+id/tv_restore"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/arial_bold"
+        android:text="Restore"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_privacy"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

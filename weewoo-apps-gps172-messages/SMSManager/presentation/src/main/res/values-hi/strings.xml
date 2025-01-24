@@ -1,0 +1,479 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="sugest_update_title">अपडेट उपलब्ध है</string>
+    <string name="sugest_update_message">Google Play पर नया अपडेट उपलब्ध है, कृपया अपने संस्करण को अपडेट करें</string>
+    <string name="force_update_title">अपडेट उपलब्ध है</string>
+    <string name="force_update_message">Google Play पर नया अपडेट उपलब्ध है, कृपया अपने संस्करण को अपडेट करें</string>
+    <string name="update_ok">अपडेट</string>
+    <string name="update_no">अभी नहीं</string>
+    <string name="app_name">#संदेश</string>
+    <string name="in_app_name">संदेश</string>
+    <string name="splash_app_name">SMS संदेश</string>
+    <string name="loading_msg">कृपया प्रतीक्षा करें...</string>
+    <string name="ads_loading_msg">विज्ञापन दिखाई जा रहा है...</string>
+    <string name="shortcut_compose_long_label">नया वार्तालाप</string>
+    <string name="shortcut_compose_short_label">रचना करें</string>
+    <string name="shortcut_compose_disabled_message">शॉर्टकट अक्षम</string>
+    <string name="title_archived">संग्रहित संदेश</string>
+    <string name="title_settings">सेटिंग्स</string>
+    <string name="title_notification_prefs">सूचना</string>
+    <string name="title_theme">थीम</string>
+    <string name="title_conversations">नंबर, नाम और अधिक खोजें</string>
+    <string name="title_compose">नाम या फोन नंबर लिखें</string>
+    <string name="setup_skip">छोड़ें</string>
+    <string name="setup_next">जारी रखें</string>
+    <string name="menu_add_person">व्यक्ति जोड़ें</string>
+    <string name="menu_call">कॉल</string>
+    <string name="menu_info">विवरण</string>
+    <string name="menu_save">गैलरी में सहेजें</string>
+    <string name="menu_share">साझा करें</string>
+    <string name="main_drawer_open_cd">नेविगेशन ड्रायर खोलें</string>
+    <string name="main_title_selected">%d चयनित</string>
+    <string name="main_menu_clear">साफ करें</string>
+    <string name="main_menu_archive">संग्रहित</string>
+    <string name="main_menu_unarchive">असंग्रहित</string>
+    <string name="main_menu_delete">हटाएँ</string>
+    <string name="main_menu_add_contact">संपर्कों में जोड़ें</string>
+    <string name="main_menu_pin">ऊपर रखें</string>
+    <string name="main_menu_unpin">ऊपर से हटाएँ</string>
+    <string name="main_menu_read">पढ़ा हुआ मार्क करें</string>
+    <string name="main_menu_unread">अपठित मार्क करें</string>
+    <string name="select_all">सभी चुनें</string>
+    <string name="deselect_all">सभी का चयन रद्द करें</string>
+    <string name="main_menu_block">अवरोधित</string>
+    <string name="main_syncing">संदेश संगठन किया जा रहा है...</string>
+    <string name="main_sender_you">आप: %s</string>
+    <string name="main_draft">ड्राफ्ट: %s</string>
+    <string name="main_message_results_title">संदेशों में परिणाम</string>
+    <string name="main_message_results">%d संदेश</string>
+    <string name="inbox_empty_text">आपकी बातचीतें यहाँ दिखाई जाएगी</string>
+    <string name="inbox_search_empty_text">कोई परिणाम नहीं</string>
+    <string name="archived_empty_text">अभी तक कोई संग्रहित बातचीत नहीं..</string>
+    <string name="main_fab_cd">नया संवाद शुरू करें</string>
+    <string name="main_default_sms_title">संदेश को पसंद किया गया है?</string>
+    <string name="main_default_sms_message">SMS ऐप को अपनी डिफ़ॉल्ट SMS एप्लिकेशन बनाएं</string>
+    <string name="main_default_sms_change">बदलें</string>
+    <string name="main_permission_required">अनुमति आवश्यक है</string>
+    <string name="main_permission_sms">SMS ने SMS संदेश भेजने और देखने के लिए अनुमति की आवश्यकता है</string>
+    <string name="main_permission_contacts">SMS आपके संपर्कों को देखने के लिए अनुमति की आवश्यकता है</string>
+    <string name="main_permission_allow">अनुमति दें</string>
+    <string name="main_permission_allow_read">पढ़ने और लिखने की अनुमति दें</string>
+    <string name="drawer_inbox">इनबॉक्स</string>
+    <string name="drawer_archived">संग्रहित</string>
+    <string name="drawer_scheduled">शेड्यूल किया गया संदेश</string>
+    <string name="drawer_blocking">अवरोधित सूची</string>
+    <string name="drawer_calldorado">कॉलर सेटिंग्स</string>
+    <string name="drawer_more">अधिक</string>
+    <string name="drawer_group">समूह संदेश</string>
+    <string name="drawer_settings">सेटिंग्स</string>
+    <string name="drawer_remove_ads">विज्ञापन हटाएँ</string>
+    <string name="drawer_help">सहायता और प्रतिक्रिया</string>
+    <string name="drawer_invite">मित्रों को आमंत्रित करें</string>
+    <string name="dialog_delete_title">हटाएँ</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">क्या आप इस बातचीत को हटाना चाहते हैं?</item>
+        <item quantity="other">क्या आप %d बातचीतों को हटाना चाहते हैं?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>पाठ की प्रतिलिपि</item>
+        <item>आगे भेजें</item>
+        <item>हटाएँ</item>
+    </string-array>
+    <string name="compose_number_picker_title">एक फोन नंबर चुनें</string>
+    <string name="compose_number_picker_default">%s ∙ डिफ़ॉल्ट</string>
+    <string name="compose_number_picker_once">केवल एक बार</string>
+    <string name="compose_number_picker_always">हमेशा</string>
+    <string name="compose_title_selected">%d चयनित</string>
+    <string name="compose_subtitle_results">%1$d में से %2$d परिणाम</string>
+    <string name="contact_selected">%1$d में से %2$d चयनित</string>
+    <string name="compose_send_group_title">समूह संदेश के रूप में भेजें</string>
+    <string name="compose_send_group_summary">प्राप्तकर्ता और उत्तरों को सभी को दिखाई जाएगी</string>
+    <string name="compose_messages_empty"> आपकी बातचीत की शुरुआत. कुछ शानदार लिखें!</string>
+    <string name="compose_vcard_label">संपर्क कार्ड</string>
+    <string name="compose_scheduled_for">इस समय के लिए निर्धारित किया गया</string>
+    <string name="compose_scheduled_future"> समय भविष्य में होना चाहिए!</string>
+    <string name="compose_scheduled_toast">निर्धारित संदेशों में जोड़ा गया</string>
+    <string name="compose_hint">यहाँ लिखें…</string>
+    <string name="compose_menu_copy">पाठ की प्रतिलिपि</string>
+    <string name="compose_menu_forward">आगे भेजें</string>
+    <string name="compose_menu_delete">हटाएँ</string>
+    <string name="compose_menu_previous">पिछला</string>
+    <string name="compose_menu_next">अगला</string>
+    <string name="compose_menu_clear">साफ करें</string>
+    <string name="compose_details_title">संदेश विवरण</string>
+    <string name="compose_details_type">प्रकार: %s</string>
+    <string name="compose_details_from">से: %s</string>
+    <string name="compose_details_to">को: %s</string>
+    <string name="compose_details_subject">विषय: %s</string>
+    <string name="compose_details_priority">प्राथमिकता: %s</string>
+    <string name="compose_details_size">आकार: %s</string>
+    <string name="compose_details_sent">भेजा गया: %s</string>
+    <string name="compose_details_received">प्राप्त: %s</string>
+    <string name="compose_details_delivered">पहुँचाया गया: %s</string>
+    <string name="compose_details_error_code">त्रुटि कोड: %d</string>
+    <string name="compose_attach_cd">एक संलग्नि जोड़ें</string>
+    <string name="compose_gallery_cd">फ़ोटो संलग्न करें</string>
+    <string name="compose_camera_cd">फ़ोटो खींचें</string>
+    <string name="compose_schedule_cd">संदेश को निर्धारित करें</string>
+    <string name="compose_contact_cd">संपर्क संलग्न करें</string>
+    <string name="compose_contact_error">संपर्क पढ़ने में त्रुटि</string>
+    <string name="compose_sim_cd">%s चयनित, SIM कार्ड बदलें</string>
+    <string name="compose_send_cd">संदेश भेजें</string>
+    <string name="message_status_sending">भेजा जा रहा है...</string>
+    <string name="message_status_delivered">पहुँचाया गया %s</string>
+    <string name="message_status_failed">भेजने में विफल</string>
+    <string name="info_title">संपर्क विवरण</string>
+    <string name="info_copied_address">पता की प्रतिलिपि</string>
+    <string name="info_name">बातचीत शीर्षक</string>
+    <string name="info_notifications">सूचनाएं</string>
+    <string name="info_theme">थीम</string>
+    <string name="info_archive">संग्रहीत</string>
+    <string name="info_unarchive">असंग्रहित</string>
+    <string name="info_block">अवरोधित</string>
+    <string name="info_unblock">अवरोध हटाएं</string>
+    <string name="info_delete">बातचीत हटाएं</string>
+    <string name="gallery_error">मीडिया लोड नहीं हो सका</string>
+    <string name="gallery_toast_saved">गैलरी में सहेजा गया</string>
+    <string name="backup_title">संग्रहण और पुनर्स्थापन</string>
+    <string name="backup_backing_up">संदेश संग्रहीत किए जा रहे हैं</string>
+    <string name="backup_restoring">पुनर्स्थापन किया जा रहा है</string>
+    <string name="backup_last">अंतिम संग्रहण</string>
+    <string name="backup_loading">लोड हो रहा है…</string>
+    <string name="backup_never">कभी नहीं</string>
+    <string name="backup_restore_title">पुनर्स्थापन</string>
+    <string name="backup_restore_summary">एक संग्रहण का चयन करें</string>
+    <string name="backup_restore_error_plus">कृपया प्रतिलिपि और पुनर्स्थापन का उपयोग करने के लिए SMS+ को अनलॉक करें</string>
+    <string name="backup_restore_error_backup">संग्रहण प्रगति में है...</string>
+    <string name="backup_restore_error_restore">पुनर्स्थापन प्रगति में है...</string>
+    <string name="backup_restore_confirm_title">संग्रहण से पुनर्स्थापन</string>
+    <string name="backup_restore_confirm_message">क्या आप इस संग्रहण से अपने संदेशों को पुनः स्थापित करना चाहते हैं?</string>
+    <string name="backup_restore_stop_title">पुनर्स्थापन रोकें</string>
+    <string name="backup_restore_stop_message">पहले से पुनः स्थापित संदेश आपके डिवाइस पर रहेंगे</string>
+    <string name="backup_restore_dialog_title">संग्रहण</string>
+    <string name="backup_restore_dialog_summary">/SMS Messages/संग्रहण</string>
+    <string name="backup_restore_dialog_empty">कोई संग्रहण नहीं मिला</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">कोई संदेश नहीं</item>
+        <item quantity="one">%d संदेश</item>
+        <item quantity="other">%d संदेश</item>
+    </plurals>
+    <string name="backup_disclaimer">अब तक, हम सिर्फ बैकअप और पुनर्स्थापन द्वारा एसएमएस का समर्थन करते थे!</string>
+    <string name="backup_now">बैकअप</string>
+    <string name="backup_progress_parsing">बैकअप को पार्सिंग किया जा रहा है...</string>
+    <string name="backup_progress_running" formatted="false">%d/%d संदेश</string>
+    <string name="backup_progress_saving">बैकअप को सहेजा जा रहा है...</string>
+    <string name="backup_progress_syncing">संदेशों को सिंक किया जा रहा है...</string>
+    <string name="backup_progress_finished">समाप्त!</string>
+    <string name="backup_notification_channel_name">बैकअप और पुनर्स्थापन</string>
+    <string name="Message_notification_channel_name">संदेश सिंक</string>
+    <string name="scheduled_title">निर्धारित</string>
+    <string name="schedule_guide">आप संदेश चर्चा स्क्रीन पर दिए गए संलग्न का दबाकर संचित संदेश को सेट कर सकते हैं।</string>
+    <string name="scheduled_empty_description">संदेश को स्वचालित रूप से, उसी क्षण भेजें, जिस क्षण आप चाहते हैं</string>
+    <string name="scheduled_empty_message_1">हेय! खुशी का पल मनाने का समय कब है?</string>
+    <string name="scheduled_empty_message_2">5 मार्च को है</string>
+    <string name="scheduled_empty_message_3">हेया! देखो कैसा अच्छा दोस्त हूं, तुम्हारे दिन की खुशियाँ मनाता हूं</string>
+    <string name="scheduled_empty_message_3_timestamp">मार्च 5 को भेजा जाएगा</string>
+    <string name="scheduled_compose_cd">संदेश को निर्धारित करें</string>
+    <string name="scheduled_options_title">निर्धारित संदेश</string>
+    <string-array name="scheduled_options">
+        <item>अब भेजें</item>
+        <item>पाठ की प्रतिलिपि</item>
+        <item>हटाएँ</item>
+    </string-array>
+    <string name="settings_category_appearance">उपस्थिति</string>
+    <string name="settings_category_general">सामान्य</string>
+    <string name="settings_categoryreply">उत्तर</string>
+    <string name="settings_night_title">रात का मोड</string>
+    <string name="settings_text_size_title">फॉन्ट आकार</string>
+    <string name="settings_notifications_title">सूचनाएँ</string>
+    <string name="settings_notifications_o_summary">निर्धारित करने के लिए टैप करें</string>
+    <string name="settings_notification_actions_title">कार्रवाइयाँ</string>
+    <string name="settings_notification_action_1">बटन 1</string>
+    <string name="settings_notification_action_2">बटन 2</string>
+    <string name="settings_notification_action_3">बटन 3</string>
+    <string name="settings_notification_previews_title">सूचना पूर्वावलोकन</string>
+    <string name="settings_notification_wake_title">स्क्रीन जगाना</string>
+    <string name="settings_vibration_title">हल्का</string>
+    <string name="settings_ringtone_title">ध्वनि</string>
+    <string name="settings_ringtone_none">कोई नहीं</string>
+    <string name="settings_reply_title">जवाब</string>
+    <string name="settings_reply_summary">नए संदेशों के लिए पॉपअप</string>
+    <string name="settings_reply_tap_dismiss_title">खाक्षी करने के लिए टैप करें</string>
+    <string name="settings_reply_tap_dismiss_summary">पॉपअप को बंद करने के लिए पॉपअप के बाहर टैप करें</string>
+    <string name="settings_swipe_actions">स्वाइप कार्रवाइयाँ</string>
+    <string name="settings_swipe_actions_right">दाएं स्वाइप</string>
+    <string name="settings_swipe_actions_left">बाएं स्वाइप</string>
+    <string name="settings_swipe_actions_change">बदलें</string>
+    <string name="not_now_txt">अभी नहीं</string>
+    <string name="process_title">इस प्रक्रिया को पूरा होने में \nकुछ समय लगेगा</string>
+    <string name="syncing_done">संदेश सिंकिंग की पूर्ति....</string>
+    <string name="all_set_txt">सभी तैयार हैं। आप शुरू हो सकते हैं</string>
+    <string name="Personal">सभी संदेश</string>
+    <string name="Other">पहचाने गए</string>
+    <string name="Spam">कचरा</string>
+    <string name="setting">सेटिंग्स</string>
+    <string name="Share">शेयर</string>
+    <string name="Rate">हमें रेट करें</string>
+    <string name="edit">संपादित करें</string>
+    <string name="DarkMode">डार्क मोड</string>
+    <string name="BrightMode">चमकदार मोड</string>
+    <string name="Camera">कैमरा</string>
+    <string name="Gallery">गैलरी</string>
+    <string name="Gif">जीआईएफ</string>
+    <string name="Contact">संपर्क</string>
+    <string name="Schedule">निर्धारित करें</string>
+    <string name="Location">स्थान</string>
+    <string name="Notes">टिप्पणियाँ</string>
+    <string name="no_msg">अब तक कोई संदेश नहीं...</string>
+    <string name="Start_Chat">चैट शुरू करें</string>
+    <string name="Language">भाषा</string>
+    <string name="rate_text">हमें प्ले स्टोर पर \nरेट करके अन्यों को हमारी सिफारिश करें!</string>
+    <string name="sort_by">इसके अनुसार क्रमबद्ध करें</string>
+    <string-array name="settings_swipe_actions">
+        <item>कोई नहीं</item>
+        <item>संग्रहीत</item>
+        <item>हटाएँ</item>
+        <item>कॉल</item>
+        <item>पढ़ा गया चिह्न लगाएं</item>
+        <item>अपठित चिह्न लगाएं</item>
+    </string-array>
+    <string name="settings_mms_size_title">MMS अनुलग्नकों को स्वचालित रूप से कॉम्प्रेस करें</string>
+    <string name="settings_sync_title">संदेशों को सिंक करें</string>
+    <string name="settings_sync_summary">अपने संदेशों को मूल Android SMS डेटाबेस के साथ पुनर्सिंक्रित करें</string>
+    <string name="blocking_manager_sms_title">एसएमएस</string>
+    <string name="blocking_manager_call_control_title">कॉल नियंत्रण</string>
+    <string name="blocking_manager_sia_title">क्या मैं जवाब दूँ?</string>
+    <string name="blocked_messages_title">अवरोधित संदेश</string>
+    <string name="blocked_messages_empty">आपके अवरोधित संदेश यहाँ दिखाई जाएंगे</string>
+    <string name="blocking_block_title">अवरोधित करें</string>
+    <string name="blocking_unblock_title">अवरोध समाप्त करें</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">%s पर जारी रहें और इस नंबर को अवरोधित करें</item>
+        <item quantity="other">%s पर जारी रहें और इन नंबरों को अवरोधित करें</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">%s पर जारी रहें और इस नंबर को अनुमति दें</item>
+        <item quantity="other">%s पर जारी रहें और इन नंबरों को अनुमति दें</item>
+    </plurals>
+    <string name="widget_loading">लोड हो रहा है...</string>
+    <string name="widget_more">और अधिक चर्चाओं को देखें</string>
+    <string name="qkreply_menu_read">पढ़ा हुआ मार्क करें</string>
+    <string name="qkreply_menu_call">कॉल</string>
+    <string name="qkreply_menu_delete">हटाएँ</string>
+    <string name="qkreply_menu_expand">अधिक दिखाएं</string>
+    <string name="qkreply_menu_collapse">कम दिखाएं</string>
+    <string name="qkreply_menu_view">चर्चा खोलें</string>
+    <string name="changelog_title">SMS में नया</string>
+    <string name="changelog_version">संस्करण %s</string>
+    <string name="changelog_added">जोड़ा गया</string>
+    <string name="changelog_improved">बेहतर किया गया</string>
+    <string name="changelog_fixed">ठीक किया गया</string>
+    <string name="changelog_more">अधिक</string>
+    <string name="changelog_dismiss">खारिज करें</string>
+    <string-array name="notification_actions">
+        <item>कोई नहीं</item>
+        <item>पढ़ा हुआ मार्क करें</item>
+        <item>उत्तर दें</item>
+        <item>कॉल</item>
+        <item>हटाएँ</item>
+    </string-array>
+    <string name="button_yes">हाँ</string>
+    <string name="button_continue">जारी रखें</string>
+    <string name="button_cancel">रद्द करें</string>
+    <string name="button_delete">हटाएँ</string>
+    <string name="button_save">सहेजें</string>
+    <string name="button_stop">रोकें</string>
+    <string name="button_more">और अधिक</string>
+    <string name="button_set">सेट करें</string>
+    <string name="button_undo">पूर्ववत करें</string>
+    <string name="toast_copied">कॉपी किया गया</string>
+    <string name="toast_archived">संवाद संग्रहीत किया गया</string>
+    <string name="toast_sms_plus">आपको इसे उपयोग करने के लिए SMS+ को अनलॉक करना होगा</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">नया संदेश</item>
+        <item quantity="other">%s नए संदेश</item>
+    </plurals>
+    <string name="notification_message_failed_title">संदेश नहीं भेजा गया</string>
+    <string name="notification_message_failed_text">%s को संदेश भेजने में विफल हुआ</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="pocket_data_on">MMS भेजते समय पॉकेट डेटा चालू होना चाहिए!</string>
+    <string name="inapp_details" translatable="false">विज्ञापनों को हटाने के लिए, प्रीमियम सदस्यता लें जो डार्क-लाइट मोड समर्थन और निर्धारित एसएमएस समर्थन के साथ आती है।</string>
+    <string name="drawer_removeAds">विज्ञापनों को हटाएं</string>
+    <string name="in_app_ads">messages_rad</string>
+    <string name="dialog_delete_message">क्या आप वाकई इस संदेश को हटाना चाहते हैं?</string>
+    <string name="compose_bar_not_support">प्रेषक उत्तर समर्थन का समर्थन नहीं करता है</string>
+    <string name="default_name">SMS भेजने या प्राप्त करने के लिए, आपको इसे डिफ़ॉल्ट अनुप्रयोग के रूप में सेट करना होगा। क्या आप चाहते हैं कि संदेश आपके डिफ़ॉल्ट अनुप्रयोग बन जाए?</string>
+    <string name="confirm_delete">मिटाने की पुष्टि करें</string>
+    <string name="confirm_delete_text">क्या आप वाकई इस नोट को हटाना चाहते हैं?</string>
+    <string name="title">शीर्षक</string>
+    <string name="note">ध्यान दें</string>
+    <string name="search">खोजें</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="share_to">इसे साझा करें:</string>
+    <string name="sort">क्रमबद्ध करें</string>
+    <string name="empty_list_text">नई नोट जोड़ने के लिए निचले दाएँ बटन को दबाएं!</string>
+    <string name="new_note">नई नोट</string>
+    <string name="undo">पूर्ववत</string>
+    <string name="delete">हटाएँ</string>
+    <string name="exception">अपवाद:</string>
+    <string name="edit_note">नोट संपादित करें</string>
+    <string name="drawer_feedback">प्रतिक्रिया भेजें</string>
+    <string name="drawer_mode">प्रकाश मोड</string>
+    <string name="unlimited_access_user">सभी सुविधाओं का असीमित उपयोग</string>
+    <string name="pro_user">आप प्रीमियम उपयोगकर्ता हैं</string>
+    <string name="sub_info_text"><b>सदस्यता स्वचालित रूप से पुनः सम्मिलित होती है जब तक आप इसे बंद नहीं करते।</b></string>
+    <string name="cancel_purchase">आप गूगल प्ले पर सदस्यता में स्वचालित पुनर्नवीकरण को समाप्त कर सकते हैं</string>
+    <string name="remove_ads">विज्ञापनों को हटाएं</string>
+    <string name="no_ads">कोई विज्ञापन नहीं</string>
+    <string name="free_trial">7-दिन की मुफ्त परीक्षण, फिर स्वचालित रूप से नवीनीकरण</string>
+    <string name="can_not_talk_right_now">माफ़ कीजिए, मैं अभी बात नहीं कर सकता</string>
+    <string name="can_call_you_later">क्या मैं आपको बाद में कॉल कर सकता हूं?</string>
+    <string name="i_am_on_my_way">मैं रास्ते में हूं</string>
+    <string name="write_personal_message">व्यक्तिगत संदेश लिखें</string>
+    <string name="create_reminder">नई याददाश्त बनाएं</string>
+    <string name="remind_me_about">मुझे याद दिलाएं</string>
+    <string name="no_title">कोई शीर्षक नहीं</string>
+    <string name="edit_contact">संपर्क संपादित करें</string>
+    <string name="add_contact">संपर्क जोड़ें</string>
+    <string name="messages">संदेश</string>
+    <string name="send_mail">मेल भेजें</string>
+    <string name="calendar">कैलेंडर</string>
+    <string name="web">वेब</string>
+    <string-array name="night_modes">
+        <item>सिस्टम</item>
+        <item>चमकदार मोड</item>
+        <item>डार्क मोड</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>नाम और संदेश दिखाएं</item>
+        <item>नाम दिखाएं</item>
+        <item>सामग्री छिपाएं</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>छोटा</item>
+        <item>सामान्य</item>
+        <item>बड़ा</item>
+        <item>और बड़ा</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>कोई विलम्ब नहीं</item>
+        <item>लघु</item>
+        <item>मध्यम</item>
+        <item>लंबा</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>स्वचालित</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>कोई संपीड़न नहीं</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>ठीक है</item>
+        <item>मुझे कुछ समय दें</item>
+        <item>मैं रास्ते में हूँ</item>
+        <item>धन्यवाद</item>
+        <item>अच्छा लगता है</item>
+        <item>क्या हाल है?</item>
+        <item>सहमत</item>
+        <item>नहीं</item>
+        <item>तुमसे प्यार करता हूँ</item>
+        <item>माफ़ कीजिए</item>
+        <item>हँसी</item>
+        <item>ठीक है</item>
+    </string-array>
+    <string name="default_title">SMS ऐप को डिफ़ॉल्ट एप्लिकेशन के रूप में अनुमति दें</string>
+    <string name="set_as_defaault">डिफ़ॉल्ट के रूप में सेट करें</string>
+    <string name="love_app_title">SMS ऐप को अपना डिफ़ॉल्ट SMS ऐप बनाएं</string>
+    <string-array name="gif">
+        <item>जानवर का चेहरा</item>
+        <item>इमोजी</item>
+        <item>फल और सब्जियाँ</item>
+        <item>हैलोवीन</item>
+        <item>प्यार</item>
+    </string-array>
+    <string name="Sticker">स्टिकर</string>
+    <string name="no_connection">कोई इंटरनेट कनेक्शन नहीं।</string>
+    <string-array name="sticker">
+        <item>लड़का</item>
+        <item>कार्टून</item>
+        <item>चेहरा</item>
+        <item>त्योहार</item>
+        <item>फल</item>
+        <item>मज़ा</item>
+        <item>लड़की</item>
+        <item>प्यार स्टिकर</item>
+        <item>अन्य</item>
+        <item>पप्पी</item>
+    </string-array>
+    <string name="open_link_to_browser">ब्राउज़र में लिंक खोलें</string>
+    <string name="battery_dialog">महत्वपूर्ण SMS को छोड़ना नहीं चाहते? \nबैटरी अनुकूलन बंद करें</string>
+    <string name="reason_to_change_battery_optimization_setting">ऐप जानकारी &gt; उन्नत &gt; बैटरी अनुकूलन में जाएं \nऔर \'अनुकूल न करें\' का चयन करें</string>
+    <string name="feedback_txt">हमें अपने अनुभव के बारे में बताएं और संदेश ऐप को सुधारने के सुझाव दें।</string>
+    <string name="reason_to_change_battery">उन्नत &gt; बैटरी अनुकूलन &gt; \'अनुकूल न करें\'</string>
+    <string name="drawer_transaction">लेन-देन</string>
+    <string name="drawer_promotion">प्रोमोशन</string>
+    <string name="unknown">अज्ञात</string>
+    <string name="priva"><u>गोपनीयता नीति</u></string>
+    <string name="smsfilter">एसएमएस फ़िल्टर</string>
+    <string name="by_click_t_c" translatable="false"><u>क्लिक करके आप हमारी नियम और शर्तें स्वीकार करते हैं।</u></string>
+    <string name="continue_without_sub"><u>सदस्यता के बिना जारी रखें</u></string>
+    <string name="text_free_trial">X-दिन का <b>नि: शुल्क परीक्षण</b> - फिर X € / महीना</string>
+    <string name="calldorado_message">कॉल समाप्त करने से पहले सभी <b>मैसेज</b> जांचें! खबर है</string>
+    <string name="privacy_terms_description">जारी रखने पर, आप उपयोग की शर्तें और गोपनीयता नीति को स्वीकार और मंजूर करते हैं।</string>
+    <string name="draw_over_description"><![CDATA[अन्य ऐप्स के ऊपर हमारे एसएमएस संदेश दिखाने के लिए। हमारे एसएमएस कॉल विजेट और अधिक की संभावना प्राप्त करें]]></string>
+    <string name="ad_label">विज्ञापन</string>
+    <string name="onboarding_continue_button">जारी रखें</string>
+    <string name="onboarding_step_1_title">एसएमएस और मैसेंजर प्रबंधक</string>
+    <string name="onboarding_step_1_subtitle">दोस्तों के साथ चैट करें, समूह बनाएं और अपने इनबॉक्स को संगठित करें</string>
+    <string name="onboarding_step_1_hight_light">आपके लिए अनूठा दृष्टिकोण</string>
+    <string name="onboarding_step_2_title">संदेशों को संगठित करें और स्टोर करें</string>
+    <string name="onboarding_step_2_subtitle">अपने संदेशों का बैकअप और रिस्टोरेशन करें</string>
+    <string name="onboarding_step_2_hight_light">हजारों उपयोगकर्ता इसे पसंद करते हैं</string>
+    <string name="onboarding_step_3_title">जीवन का आनंद लें और हमें इनबॉक्स की देखभाल करने दें</string>
+    <string name="onboarding_step_3_subtitle">अपने इनबॉक्स को प्रबंधित करने में हमारी मदद के लिए अनुमतियाँ स्वीकार करें।</string>
+    <string name="onboarding_step_3_hight_light">शायद बाद में</string>
+    <string name="onboarding_allow_access_button">पहुँच दें</string>
+    <string name="onboarding_step_4_title">हमारे द्वारा काम करने द्वारा अपने बैटरी को सुधारें</string>
+    <string name="onboarding_step_4_subtitle">हम चिड़चिड़े एसएमएस बाधाओं का ध्यान रखेंगे।</string>
+    <string name="onboarding_step_4_hight_light">हजारों उपयोगकर्ता इसे पसंद करते हैं</string>
+    <string name="onboarding_step_5_title">चैट करते समय अन्य ऐप्स पर स्प्लिट स्क्रीन काम करें</string>
+    <string name="onboarding_step_5_subtitle">हमारे अद्भुत कॉल विजेट का आनंद लें जो आपको मल्टीटास्किंग करने देता है</string>
+    <string name="onboarding_step_5_hight_light">हजारों उपयोगकर्ता इसे पसंद करते हैं</string>
+    <string name="payment_card_title">अभी बात करो!</string>
+    <string name="payment_card_price"><![CDATA[3-दिन मुफ्त, %s / %s]]></string>
+    <string name="payment_card_button">अभी मुफ्त परीक्षण करें</string>
+    <string name="payment_card_hight_light">प्ले स्टोर के साथ सुरक्षित</string>
+    <string name="payment_card_weekly">साप्ताहिक</string>
+    <string name="payment_card_monthly">मासिक</string>
+    <string name="payment_card_yearly">वार्षिक</string>
+    <string name="payment_card_auto_renew">स्वत: नवीनीकरण योग्य सदस्यता, किसी भी समय रद्द करें</string>
+    <string name="accessibility_service_description">आपकी पहुंचने वाली सेवा का विवरण</string>
+    <string name="permission_txt"><font color="#FF8A00">आवश्यक अनुमति:</font>\nफोन स्थिति पढ़ें और अन्य ऐप्स के ऊपर ड्रा करें</string>
+    <string name="opt_privacy">जारी रखने पर, आप उपयोग की शर्तें और गोपनीयता नीति को स्वीकार और मंजूर करते हैं।</string>
+    <string name="permission_required">आवश्यक अनुमतियाँ</string>
+    <string name="permission_dialog_body">यह ऐप फोन अनुमति के बिना सही तरीके से काम नहीं कर सकता है। इसे सक्षम करने के लिए निम्नलिखित निर्देशों का पालन करें:\n\n1. "अनुमतियाँ" का चयन करें\n2. अनुमतियों की सूची में "फोन" खोजें और सक्षम करने के लिए टैप करें</string>
+    <string name="go_premium">प्रीमियम जाएं <font color = "#FFE600">!</font></string>
+    <string name="unlock_everything">सब कुछ खोलें और कोई विज्ञापन नहीं</string>
+    <string name="start_three_day">3 दिन का नि: शुल्क परीक्षण शुरू करें</string>
+    <string name="pro">पेशेवर</string>
+    <string name="more_option">अधिक विकल्प</string>
+    <string name="rate_us_5">हमें 5 स्टार दें</string>
+    <string name="help_feedback">सहायता और प्रतिक्रिया</string>
+    <string name="send_message">संदेश भेजें</string>
+    <string name="CTA_Button_Text">सभी विशेषताओं को खोलने के लिए टैप <font color="#FFFBCD04">करें</font></string>
+
+
+</resources>

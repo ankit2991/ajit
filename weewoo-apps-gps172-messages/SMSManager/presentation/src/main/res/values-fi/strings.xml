@@ -1,0 +1,477 @@
+<resources xmlns:ns0="http://schemas.android.com/tools" ns0:ignore="MissingTranslation">
+
+    <string name="sugest_update_title">Päivitys saatavilla</string>
+    <string name="sugest_update_message">Uusi päivitys saatavilla Google Playssa, päivitä versiosi</string>
+    <string name="force_update_title">Päivitys saatavilla</string>
+    <string name="force_update_message">Uusi päivitys saatavilla Google Playssa, päivitä versiosi</string>
+    <string name="update_ok">Päivitä</string>
+    <string name="update_no">Ei nyt</string>
+    <string name="app_name">#Viestit</string>
+    <string name="in_app_name">Viestit</string>
+    <string name="splash_app_name">SMS-viestit</string>
+    <string name="loading_msg">Odota hetki...</string>
+    <string name="ads_loading_msg">Mainos näytetään...</string>
+    <string name="shortcut_compose_long_label">Uusi keskustelu</string>
+    <string name="shortcut_compose_short_label">Luo</string>
+    <string name="shortcut_compose_disabled_message">Pikakuvake poistettu käytöstä</string>
+    <string name="title_archived">Arkistoidut viestit</string>
+    <string name="title_settings">Asetukset</string>
+    <string name="title_notification_prefs">Ilmoitukset</string>
+    <string name="title_theme">Teema</string>
+    <string name="title_conversations">Hae numeroita, nimiä ja enemmän</string>
+    <string name="title_compose">Kirjoita nimi tai puhelinnumero</string>
+    <string name="setup_skip">Ohita</string>
+    <string name="setup_next">Jatka</string>
+    <string name="menu_add_person">Lisää henkilö</string>
+    <string name="menu_call">Soita</string>
+    <string name="menu_info">Tiedot</string>
+    <string name="menu_save">Tallenna galleriaan</string>
+    <string name="menu_share">Jaa</string>
+    <string name="main_drawer_open_cd">Avaa sivuvalikko</string>
+    <string name="main_title_selected">%d valittu</string>
+    <string name="main_menu_clear">Tyhjennä</string>
+    <string name="main_menu_archive">Arkistoi</string>
+    <string name="main_menu_unarchive">Poista arkistosta</string>
+    <string name="main_menu_delete">Poista</string>
+    <string name="main_menu_add_contact">Lisää yhteystietoihin</string>
+    <string name="main_menu_pin">Kiinnitä ylös</string>
+    <string name="main_menu_unpin">Poista ylös</string>
+    <string name="main_menu_read">Merkitse luetuksi</string>
+    <string name="main_menu_unread">Merkitse lukemattomaksi</string>
+    <string name="select_all">Valitse kaikki</string>
+    <string name="deselect_all">Poista kaikki valinnat</string>
+    <string name="main_menu_block">Estä</string>
+    <string name="main_syncing">Järjestellään viestejä...</string>
+    <string name="main_sender_you">Sinä: %s</string>
+    <string name="main_draft">Luonnos: %s</string>
+    <string name="main_message_results_title">Tulokset viesteissä</string>
+    <string name="main_message_results">%d viestiä</string>
+    <string name="inbox_empty_text">Keskustelut näkyvät täällä</string>
+    <string name="inbox_search_empty_text">Ei tuloksia</string>
+    <string name="archived_empty_text">Ei arkistoituja keskusteluja vielä..</string>
+    <string name="main_fab_cd">Aloita uusi keskustelu</string>
+    <string name="main_default_sms_title">Haluatko viestittää?</string>
+    <string name="main_default_sms_message">Tee SMS-sovelluksesta oletus-SMS-sovelluksesi</string>
+    <string name="main_default_sms_change">Vaihda</string>
+    <string name="main_permission_required">Vaadittu lupa</string>
+    <string name="main_permission_sms">SMS tarvitsee luvan lähettää ja tarkastella tekstiviestejä</string>
+    <string name="main_permission_contacts">SMS tarvitsee luvan nähdäksesi yhteystietosi</string>
+    <string name="main_permission_allow">Salli</string>
+    <string name="main_permission_allow_read">Salli lukemisen ja kirjoittamisen lupa</string>
+    <string name="drawer_inbox">Saapuneet</string>
+    <string name="drawer_archived">Arkisto</string>
+    <string name="drawer_scheduled">Ajoitettu viesti</string>
+    <string name="drawer_blocking">Estolista</string>
+    <string name="drawer_calldorado">Puhelujen asetukset</string>
+    <string name="drawer_more">Lisää</string>
+    <string name="drawer_group">Ryhmäviesti</string>
+    <string name="drawer_settings">Asetukset</string>
+    <string name="drawer_remove_ads">Poista mainokset</string>
+    <string name="drawer_help">Ohjeet ja palaute</string>
+    <string name="drawer_invite">Kutsu ystäviä</string>
+    <string name="dialog_delete_title">Poista</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Haluatko varmasti poistaa tämän keskustelun?</item>
+        <item quantity="other">Haluatko varmasti poistaa %d keskustelua?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Kopioi teksti</item>
+        <item>Lähetä eteenpäin</item>
+        <item>Poista</item>
+    </string-array>
+    <string name="compose_number_picker_title">Valitse puhelinnumero</string>
+    <string name="compose_number_picker_default">%s ∙ Oletus</string>
+    <string name="compose_number_picker_once">Vain kerran</string>
+    <string name="compose_number_picker_always">Aina</string>
+    <string name="compose_title_selected">%d valittu</string>
+    <string name="compose_subtitle_results">%1$d/%2$d tuloksesta</string>
+    <string name="contact_selected">%1$d/%2$d Valittu</string>
+    <string name="compose_messages_empty">Aloita keskustelu. Sano jotain hienoa!</string>
+    <string name="compose_vcard_label">Yhteystiedon kortti</string>
+    <string name="compose_scheduled_for">Aikataulutettu ajaksi</string>
+    <string name="compose_scheduled_future"> ajan tulee olla tulevaisuudessa!</string>
+    <string name="compose_scheduled_toast">Lisätty aikataulutettuihin viesteihin</string>
+    <string name="compose_hint">Kirjoita tähän...</string>
+    <string name="compose_menu_copy">Kopioi teksti</string>
+    <string name="compose_menu_forward">Lähetä eteenpäin</string>
+    <string name="compose_menu_delete">Poista</string>
+    <string name="compose_menu_previous">Edellinen</string>
+    <string name="compose_menu_next">Seuraava</string>
+    <string name="compose_menu_clear">Tyhjennä</string>
+    <string name="compose_details_title">Viestin tiedot</string>
+    <string name="compose_details_type">Tyyppi: %s</string>
+    <string name="compose_details_from">Lähettäjä: %s</string>
+    <string name="compose_details_to">Vastaanottaja: %s</string>
+    <string name="compose_details_subject">Aihe: %s</string>
+    <string name="compose_details_priority">Prioriteetti: %s</string>
+    <string name="compose_details_size">Koko: %s</string>
+    <string name="compose_details_sent">Lähetetty: %s</string>
+    <string name="compose_details_received">Vastaanotettu: %s</string>
+    <string name="compose_details_delivered">Toimitettu: %s</string>
+    <string name="compose_details_error_code">Virhekoodi: %d</string>
+    <string name="compose_attach_cd">Lisää liite</string>
+    <string name="compose_gallery_cd">Liitä valokuva</string>
+    <string name="compose_camera_cd">Ota valokuva</string>
+    <string name="compose_schedule_cd">Aikatauluta viesti</string>
+    <string name="compose_contact_cd">Liitä yhteystieto</string>
+    <string name="compose_contact_error">Virhe luettaessa yhteystietoja</string>
+    <string name="compose_sim_cd">Valittu %s, vaihda SIM-kortti</string>
+    <string name="compose_send_cd">Lähetä viesti</string>
+    <string name="message_status_sending">Lähetetään...</string>
+    <string name="message_status_delivered">Toimitettu %s</string>
+    <string name="message_status_failed">Lähettäminen epäonnistui</string>
+    <string name="info_title">Yhteystiedon tiedot</string>
+    <string name="info_copied_address">Osoite kopioitu</string>
+    <string name="info_name">Keskustelun otsikko</string>
+    <string name="info_notifications">Ilmoitukset</string>
+    <string name="info_theme">Teema</string>
+    <string name="info_archive">Arkistoi</string>
+    <string name="info_unarchive">Poista arkistosta</string>
+    <string name="info_block">Estä</string>
+    <string name="info_unblock">Poista esto</string>
+    <string name="info_delete">Poista keskustelu</string>
+    <string name="gallery_error">Ei voitu ladata mediaa</string>
+    <string name="gallery_toast_saved">Tallennettu galleriaan</string>
+    <string name="backup_title">Varmuuskopioi ja palauta</string>
+    <string name="backup_backing_up">Varmuuskopioidaan viestejä</string>
+    <string name="backup_restoring">Palautetaan varmuuskopiosta</string>
+    <string name="backup_last">Viimeisin varmuuskopio</string>
+    <string name="backup_loading">Ladataan...</string>
+    <string name="backup_never">Ei koskaan</string>
+    <string name="backup_restore_title">Palauta</string>
+    <string name="backup_restore_summary">Valitse varmuuskopio</string>
+    <string name="backup_restore_error_plus">Avaa SMS+ käyttääksesi varmuuskopiointia ja palautusta</string>
+    <string name="backup_restore_error_backup">Varmuuskopiointi käynnissä...</string>
+    <string name="backup_restore_error_restore">Palautus käynnissä...</string>
+    <string name="backup_restore_confirm_title">Palauta varmuuskopiosta</string>
+    <string name="backup_restore_confirm_message">Haluatko varmasti palauttaa viestisi tästä varmuuskopiosta?</string>
+    <string name="backup_restore_stop_title">Keskeytä palautus</string>
+    <string name="backup_restore_stop_message">Jo palautetut viestit säilyvät laitteellasi</string>
+    <string name="backup_restore_dialog_title">Varmuuskopiot</string>
+    <string name="backup_restore_dialog_summary">/SMS Messages/Backups</string>
+    <string name="backup_restore_dialog_empty">Ei varmuuskopioita</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">Ei viestejä</item>
+        <item quantity="one">%d viesti</item>
+        <item quantity="other">%d viestiä</item>
+    </plurals>
+    <string name="backup_disclaimer">Tähän asti olemme tukeneet vain SMS-viestien varmuuskopiointia ja palauttamista!</string>
+    <string name="backup_now">Varmuuskopioi</string>
+    <string name="backup_progress_parsing">Varmuuskopiota puretaan…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d viestiä</string>
+    <string name="backup_progress_saving">Varmuuskopiota tallennetaan…</string>
+    <string name="backup_progress_syncing">Viestejä synkronoidaan…</string>
+    <string name="backup_progress_finished">Valmis!</string>
+    <string name="backup_notification_channel_name">Varmuuskopiointi ja palautus</string>
+    <string name="Message_notification_channel_name">Viestien synkronointi</string>
+    <string name="scheduled_title">Aikataulutettu</string>
+    <string name="schedule_guide">Voit asettaa aikataulutetun viestin napsauttamalla liitteenä olevaa painiketta viestin keskustelunäytössä.</string>
+    <string name="scheduled_empty_description">Lähetä viesti automaattisesti juuri haluamaasi aikaan</string>
+    <string name="scheduled_empty_message_1">Hei! Milloin on juhlan aika?</string>
+    <string name="scheduled_empty_message_2">Se on 5. maaliskuuta</string>
+    <string name="scheduled_empty_message_3">Hei! Katso miten mahtava ystävä olen, juhlistan päivääsi</string>
+    <string name="scheduled_empty_message_3_timestamp">Lähetetään 5. maaliskuuta</string>
+    <string name="scheduled_compose_cd">Aseta aikataulutettu viesti</string>
+    <string name="scheduled_options_title">Aikataulutettu viesti</string>
+    <string-array name="scheduled_options">
+        <item>Lähetä nyt</item>
+        <item>Kopioi teksti</item>
+        <item>Poista</item>
+    </string-array>
+    <string name="settings_category_appearance">Ulkoasu</string>
+    <string name="settings_category_general">Yleiset</string>
+    <string name="settings_categoryreply">Vastaus</string>
+    <string name="settings_night_title">Yötila</string>
+    <string name="settings_text_size_title">Fontin koko</string>
+    <string name="settings_notifications_title">Ilmoitukset</string>
+    <string name="settings_notifications_o_summary">Napauta muokataksesi</string>
+    <string name="settings_notification_actions_title">Toiminnot</string>
+    <string name="settings_notification_action_1">Painike 1</string>
+    <string name="settings_notification_action_2">Painike 2</string>
+    <string name="settings_notification_action_3">Painike 3</string>
+    <string name="settings_notification_previews_title">Ilmoituksen esikatselut</string>
+    <string name="settings_notification_wake_title">Herätysnäyttö</string>
+    <string name="settings_vibration_title">Värinä</string>
+    <string name="settings_ringtone_title">Ääni</string>
+    <string name="settings_ringtone_none">Ei mitään</string>
+    <string name="settings_reply_title">Vastaus</string>
+    <string name="settings_reply_summary">Ponnahdusikkuna uusille viesteille</string>
+    <string name="settings_reply_tap_dismiss_title">Napsauta hylätäksesi</string>
+    <string name="settings_reply_tap_dismiss_summary">Napsauta ponnahdusikkunan ulkopuolella sulkeaksesi sen</string>
+    <string name="settings_swipe_actions">Pyyhkäisytoiminnot</string>
+    <string name="settings_swipe_actions_right">Oikea pyyhkäisy</string>
+    <string name="settings_swipe_actions_left">Vasen pyyhkäisy</string>
+    <string name="settings_swipe_actions_change">MUUTA</string>
+    <string name="not_now_txt">Ei nyt</string>
+    <string name="process_title">Tämä prosessi vie \njotain aikaa</string>
+    <string name="syncing_done">Viestien synkronointi valmis....</string>
+    <string name="all_set_txt">Kaikki kunnossa. Olet valmis aloittamaan</string>
+    <string name="Personal">Kaikki viestit</string>
+    <string name="Other">Tunnettu </string>
+    <string name="Spam">Roskaposti</string>
+    <string name="setting">Asetukset</string>
+    <string name="Share">Jaa</string>
+    <string name="Rate">Arvostele meidät</string>
+    <string name="edit">muokkaa</string>
+    <string name="DarkMode">Tumma tila</string>
+    <string name="BrightMode">Kirkas tila</string>
+    <string name="Camera">Kamera</string>
+    <string name="Gallery">Galleria</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">Yhteystieto</string>
+    <string name="Schedule">Aikataulu</string>
+    <string name="Location">Sijainti</string>
+    <string name="Notes">Muistiinpanot</string>
+    <string name="no_msg">Ei viestejä vielä…</string>
+    <string name="Start_Chat">Aloita keskustelu</string>
+    <string name="Language">Kieli</string>
+    <string name="rate_text">Suosittele meitä muille \narvostelemalla meidät Play-kaupassa!</string>
+    <string name="sort_by">Lajittele</string>
+    <string-array name="settings_swipe_actions">
+        <item>Ei mitään</item>
+        <item>Arkistoi</item>
+        <item>Poista</item>
+        <item>Soita</item>
+        <item>Merkkaa luetuksi</item>
+        <item>Merkkaa lukemattomaksi</item>
+    </string-array>
+    <string name="settings_mms_size_title">Automaattinen MMS-liitteiden pakkaus</string>
+    <string name="settings_sync_title">Synkronoi viestit</string>
+    <string name="settings_sync_summary">Synkronoi viestisi Androidin oletus-SMS-tietokantaan uudelleen</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Puheluiden hallinta</string>
+    <string name="blocking_manager_sia_title">Pitäisikö minun vastata?</string>
+    <string name="blocked_messages_title">Estetyt viestit</string>
+    <string name="blocked_messages_empty">Estetyt viestisi näkyvät tässä</string>
+    <string name="blocking_block_title">Estä</string>
+    <string name="blocking_unblock_title">Poista esto</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">Jatka %s:een ja estä tämä numero</item>
+        <item quantity="other">Jatka %s:een ja estä nämä numerot</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">Jatka %s:een ja salli tämä numero</item>
+        <item quantity="other">Jatka %s:een ja salli nämä numerot</item>
+    </plurals>
+    <string name="widget_loading">Ladataan…</string>
+    <string name="widget_more">Näytä lisää keskusteluja</string>
+    <string name="qkreply_menu_read">Merkitse luetuksi</string>
+    <string name="qkreply_menu_call">Soita</string>
+    <string name="qkreply_menu_delete">Poista</string>
+    <string name="qkreply_menu_expand">Näytä enemmän</string>
+    <string name="qkreply_menu_collapse">Näytä vähemmän</string>
+    <string name="qkreply_menu_view">Avaa keskustelu</string>
+    <string name="changelog_title">Uutta SMS:ssä</string>
+    <string name="changelog_version">Versio %s</string>
+    <string name="changelog_added">Lisätty</string>
+    <string name="changelog_improved">Parannettu</string>
+    <string name="changelog_fixed">Korjattu</string>
+    <string name="changelog_more">Lisää</string>
+    <string name="changelog_dismiss">Hylkää</string>
+    <string-array name="notification_actions">
+        <item>Ei mitään</item>
+        <item>Merkkaa luetuksi</item>
+        <item>Vastaa</item>
+        <item>Soita</item>
+        <item>Poista</item>
+    </string-array>
+    <string name="button_yes">Kyllä</string>
+    <string name="button_continue">Jatka</string>
+    <string name="button_cancel">Peruuta</string>
+    <string name="button_delete">Poista</string>
+    <string name="button_save">Tallenna</string>
+    <string name="button_stop">Pysäytä</string>
+    <string name="button_more">Lisää</string>
+    <string name="button_set">Aseta</string>
+    <string name="button_undo">Kumoa</string>
+    <string name="toast_copied">Kopioitu</string>
+    <string name="toast_archived">Arkistoitu keskustelu</string>
+    <string name="toast_sms_plus">Sinun täytyy avata SMS+ käyttääksesi tätä</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Uusi viesti</item>
+        <item quantity="other">%s uutta viestiä</item>
+    </plurals>
+    <string name="notification_message_failed_title">Viestiä ei lähetetty</string>
+    <string name="notification_message_failed_text">Viesti käyttäjälle %s ei lähetetty</string>
+    <string name="privacy_policy">Yksityisyydensuoja</string>
+    <string name="pocket_data_on">Taskudatan täytyy olla päällä MMS-viestien lähettämisen aikana!</string>
+    <string name="inapp_details" translatable="false">Poistaaksesi mainokset, kokeile premium-tilausta, joka tukee tummaa ja vaaleaa tilaa\nAikataulutetun viestin tuki.</string>
+    <string name="drawer_removeAds">Poista mainokset</string>
+    <string name="in_app_ads">messages_rad</string>
+    <string name="dialog_delete_message">Oletko varma, että haluat poistaa tämän viestin?</string>
+    <string name="compose_bar_not_support">Lähettäjä ei tue vastausta</string>
+    <string name="default_name">Vastaanottaaksesi tai lähettääksesi SMS-viestin sinun täytyy asettaa se oletussovellukseksi. Haluatko asettaa viestin oletussovellukseksi?</string>
+    <string name="confirm_delete">Vahvista poisto</string>
+    <string name="confirm_delete_text">Oletko varma, että haluat poistaa tämän muistiinpanon?</string>
+    <string name="title">Otsikko</string>
+    <string name="note">Muistiinpano</string>
+    <string name="search">Haku</string>
+    <string name="settings">Asetukset</string>
+    <string name="share_to">Jaa:</string>
+    <string name="sort">Järjestä</string>
+    <string name="empty_list_text">Paina oikealla alareunassa olevaa painiketta lisätäksesi uuden muistiinpanon!</string>
+    <string name="new_note">Uusi muistiinpano</string>
+    <string name="undo">Kumoa</string>
+    <string name="delete">Poista</string>
+    <string name="exception">Poikkeus:</string>
+    <string name="edit_note">Muokkaa muistiinpanoa</string>
+    <string name="drawer_feedback">Lähetä palautetta</string>
+    <string name="drawer_mode">Vaalea tila</string>
+    <string name="unlimited_access_user">Rajoittamaton pääsy \nkaikkiin ominaisuuksiin</string>
+    <string name="pro_user">Olet Premium-käyttäjä</string>
+    <string name="sub_info_text"><b>Tilaus uusiutuu automaattisesti, kunnes sen poistaa käytöstä.</b></string>
+    <string name="cancel_purchase">Voit peruuttaa automaattisen tilauksen uusimisen Tilaukset-osiossa Google Playssa</string>
+    <string name="remove_ads">Poista mainokset</string>
+    <string name="no_ads">Ei mainoksia</string>
+    <string name="free_trial">7 päivän ilmainen kokeilu, sen jälkeen uusiminen automaattisesti</string>
+    <string name="can_not_talk_right_now">Anteeksi, en voi puhua juuri nyt</string>
+    <string name="can_call_you_later">Voinko soittaa sinulle myöhemmin?</string>
+    <string name="i_am_on_my_way">Olen matkalla</string>
+    <string name="write_personal_message">Kirjoita henkilökohtainen viesti</string>
+    <string name="create_reminder">Luo uusi muistutus</string>
+    <string name="remind_me_about">Muistuta minua</string>
+    <string name="no_title">Ei otsikkoa</string>
+    <string name="edit_contact">Muokkaa yhteystietoa</string>
+    <string name="add_contact">Lisää yhteystieto</string>
+    <string name="messages">Viestit</string>
+    <string name="send_mail">Lähetä sähköposti</string>
+    <string name="calendar">Kalenteri</string>
+    <string name="web">Verkkosivu</string>
+    <string-array name="night_modes">
+        <item>Järjestelmä</item>
+        <item>Tumma tila</item>
+        <item>Vaalea tila</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>Näytä nimi ja viesti</item>
+        <item>Näytä nimi</item>
+        <item>Piilota sisältö</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>Pieni</item>
+        <item>Normaali</item>
+        <item>Suuri</item>
+        <item>Suurempi</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>Ei viivettä</item>
+        <item>Lyhyt</item>
+        <item>Keskiverto</item>
+        <item>Pitkä</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Automaattinen</item>
+        <item>100 kt</item>
+        <item>200 kt</item>
+        <item>300 kt</item>
+        <item>600 kt</item>
+        <item>1000 kt</item>
+        <item>2000 kt</item>
+        <item>Ei pakkausta</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>Okay</item>
+        <item>Odota hetki</item>
+        <item>Olen matkalla</item>
+        <item>Kiitos</item>
+        <item>Kuulostaa hyvältä</item>
+        <item>Mitä kuuluu?</item>
+        <item>Sovittu</item>
+        <item>Ei</item>
+        <item>Rakastan sinua</item>
+        <item>Pahoittelen</item>
+        <item>LOL</item>
+        <item>Ei se mitään</item>
+    </string-array>
+    <string name="default_title">Salli Sms-sovelluksen olla oletussovellus</string>
+    <string name="set_as_defaault">Aseta oletus</string>
+    <string name="love_app_title">Tee SMS-sovelluksesta oletus-SMS-sovelluksesi</string>
+    <string-array name="gif">
+        <item>Eläinnaama</item>
+        <item>Emoji</item>
+        <item>Hedelmät &amp; Vihannekset</item>
+        <item>Halloween</item>
+        <item>Rakkaus</item>
+    </string-array>
+    <string name="Sticker">Tarra</string>
+    <string name="no_connection">Ei internet-yhteyttä.</string>
+    <string-array name="sticker">
+        <item>Poika</item>
+        <item>Sarjakuva</item>
+        <item>Kasvot</item>
+        <item>Juhla</item>
+        <item>Hedelmä</item>
+        <item>Hauska</item>
+        <item>Tyttö</item>
+        <item>Rakkaustarra</item>
+        <item>Muut</item>
+        <item>Pentu</item>
+    </string-array>
+    <string name="open_link_to_browser">Avaa linkki selaimessa</string>
+    <string name="battery_dialog">Et halua missata tärkeitä SMS-viestejä? \n Poista akun optimointi käytöstä</string>
+    <string name="reason_to_change_battery_optimization_setting">Siirry Sovellustiedot &gt; Lisää &gt; Akun optimointi ja valitse ’Älä optimoi’</string>
+    <string name="feedback_txt">Kerro meille kokemuksestasi ja anna ehdotuksia viestisovelluksen parantamiseksi. </string>
+    <string name="reason_to_change_battery"> Lisää &gt; Akun optimointi &gt; ’Älä optimoi’</string>
+    <string name="drawer_transaction">Tapahtumat</string>
+    <string name="drawer_promotion">Tarjoukset</string>
+    <string name="unknown">Tuntematon </string>
+    <string name="priva"><u>Yksityisyydensuoja</u></string>
+    <string name="smsfilter">SMS-suodatin</string>
+    <string name="by_click_t_c" translatable="false"><u>Napsauttamalla hyväksyt käyttöehdot.</u></string>
+    <string name="continue_without_sub"><u>Jatka ilman tilausta</u></string>
+    <string name="text_free_trial">Nauti X päivän <b>ilmaisesta kokeilusta</b> - Sitten X € / kuukausi</string>
+    <string name="calldorado_message">Tarkista kaikki <b>viestit</b> ennen puhelun päättämistä! Uutisia on</string>
+    <string name="privacy_terms_description">Jatkamalla hyväksyt käyttöehdot ja tietosuojakäytännön.</string>
+    <string name="draw_over_description"><![CDATA[Näyttää muiden sovellusten päällä SMS-viestimme. Vastaanota kaikki mahdollisuudet SMS-sovelluksemme sovellusruutujen avulla ja paljon muuta]]></string>
+    <string name="ad_label">MAINOS</string>
+    <string name="onboarding_continue_button">Jatka</string>
+    <string name="onboarding_step_1_title">SMS- ja Messenger-hallinta</string>
+    <string name="onboarding_step_1_subtitle">Juttele kavereidesi kanssa, luo ryhmiä ja järjestä postilaatikkosi</string>
+    <string name="onboarding_step_1_hight_light">Yksilöllinen lähestymistapa sinulle</string>
+    <string name="onboarding_step_2_title">Järjestä ja säilytä viestit</string>
+    <string name="onboarding_step_2_subtitle">Varmuuskopioi ja palauta viestisi</string>
+    <string name="onboarding_step_2_hight_light">Tuhat käyttäjää pitää siitä</string>
+    <string name="onboarding_step_3_title">Nauti elämästä ja anna meidän hoitaa postilaatikkosi</string>
+    <string name="onboarding_step_3_subtitle">Hyväksy luvat, jotta voimme auttaa sinua hallinnoimaan postilaatikkoasi.</string>
+    <string name="onboarding_step_3_hight_light">Mahdollisesti myöhemmin</string>
+    <string name="onboarding_allow_access_button">Salli pääsy</string>
+    <string name="onboarding_step_4_title">Paranna akun käyttöä antamalla meidän hoitaa työ</string>
+    <string name="onboarding_step_4_subtitle">Hoidamme ärsyttävät SMS-keskeytykset puolestasi.</string>
+    <string name="onboarding_step_4_hight_light">Tuhat käyttäjää pitää siitä</string>
+    <string name="onboarding_step_5_title">Käytä jaettua näyttöä samalla kun käytät muita sovelluksia</string>
+    <string name="onboarding_step_5_subtitle">Nauti upeasta puhelinsäikeestämme, jonka avulla voit tehdä useita tehtäviä samanaikaisesti</string>
+    <string name="onboarding_step_5_hight_light">Tuhat käyttäjää pitää siitä</string>
+    <string name="payment_card_title">Keskustele nyt!</string>
+    <string name="payment_card_price"><![CDATA[3 päivää ilmaista, %s / %s]]></string>
+    <string name="payment_card_button">Kokeile nyt ilmaiseksi</string>
+    <string name="payment_card_hight_light">Suojattu Play-kaupalla</string>
+    <string name="payment_card_weekly">viikottain</string>
+    <string name="payment_card_monthly">kuukausittain</string>
+    <string name="payment_card_yearly">vuosittain</string>
+    <string name="payment_card_auto_renew">automaattisesti uusiutuva tilaus, peruuta milloin tahansa</string>
+    <string name="accessibility_service_description">Saavutettavuuspalvelun kuvaus</string>
+    <string name="permission_txt"><font color="#FF8A00">Vaadittu lupa:</font>\nLue puhelimen tila &amp; Piirrä muiden sovellusten yli</string>
+    <string name="opt_privacy">Jatkamalla hyväksyt käyttöehdot ja tietosuojakäytännön.</string>
+    <string name="permission_required">Vaaditut luvat</string>
+    <string name="permission_dialog_body">Tämä sovellus ei ehkä toimi oikein ilman puhelimen lupaa. Seuraa alla olevia ohjeita sen mahdollistamiseksi:\n\n1. Valitse "Luvat"\n2. Etsi "Puhelin" luettelon luvista ja napauta käyttöönottoa</string>
+    <string name="go_premium">Siirry <font color = "#FFE600">Premiumiin!</font></string>
+    <string name="unlock_everything">Avaa kaikki ominaisuudet ja ei mainoksia</string>
+    <string name="start_three_day">Aloita 3 päivän ilmainen kokeilu</string>
+    <string name="pro">Pro</string>
+    <string name="more_option">Lisää vaihtoehtoja</string>
+    <string name="rate_us_5">Arvostele meidät 5 tähdellä</string>
+    <string name="help_feedback">Apu ja palaute</string>
+    <string name="send_message">Lähetä viesti</string>
+    <string name="CTA_Button_Text">Napauta avataksesi kaikki <font color="#FFFBCD04">Ominaisuudet</font></string>
+
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_adverts"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/my_background"
+    android:fitsSystemWindows="true">
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/mainContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/AdContainer1">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar_layout" android:elevation="0dp" app:elevation="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            app:expanded="true">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapsing_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                app:contentScrim="@android:color/transparent"
+                app:layout_scrollFlags="scroll|enterAlways">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <include
+                        android:id="@+id/app_bar"
+                        layout="@layout/app_bar" />
+
+                </LinearLayout>
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/TAB_HEIGHT"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@color/transparent"
+                android:clipToPadding="false"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                app:tabTextAppearance="@style/MineCustomTabText"
+                app:layout_scrollFlags="scroll"
+                app:tabBackground="@color/transparent"
+                app:tabIndicator="@drawable/selector_tab_indicator"
+                app:tabIndicatorColor="?attr/my_textColor"
+                app:tabIndicatorFullWidth="true"
+                app:tabIndicatorHeight="@dimen/TAB_HEIGHT"
+                app:tabMode="scrollable"
+                app:tabSelectedTextColor="?attr/my_colorPrimary"
+
+                app:tabTextColor="?attr/my_textColor" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+    <FrameLayout
+        android:id="@+id/AdContainer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+
+
+        <fr.castorflex.android.circularprogressbar.CircularProgressBar
+            android:id="@+id/layout_loading_search"
+            style="@style/CircularThemeProgressBar_centre"
+            android:layout_centerHorizontal="true"
+            android:indeterminate="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

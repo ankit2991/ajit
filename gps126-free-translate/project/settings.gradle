@@ -1,0 +1,9 @@
+rootProject.name='Translator'
+include ':app'
+//include ':library'
+include ':AdsManager'
+include ':autoimageslider'
+include ':fcm'
+include ':adaptyUi'
+
+

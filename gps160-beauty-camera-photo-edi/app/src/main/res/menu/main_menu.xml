@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@id/rate_us"
+        android:icon="@drawable/ic_baseline_rate_review_24"
+        app:itemTextAppearance="@style/Style_TextView"
+        android:title="@string/rate_us" />
+    <item
+        android:id="@id/share_friend"
+        android:icon="@drawable/mobile_screen_share_24"
+        app:itemTextAppearance="@style/Style_TextView"
+        android:title="@string/share_friend" />
+    <item
+        android:id="@id/feedback"
+        app:itemTextAppearance="@style/Style_TextView"
+        android:icon="@drawable/feedback_icon"
+        android:title="@string/feedback" />
+    <item
+        android:id="@id/privacy_policy"
+        app:itemTextAppearance="@style/Style_TextView"
+        android:icon="@drawable/ic_baseline_policy_24"
+        android:title="@string/privacy_policy" />
+</menu>

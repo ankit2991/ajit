@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/timestamplayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.messaging.textrasms.manager.common.util.CustomFontTextView
+            android:id="@+id/timestamp"
+            style="@style/TextSecondary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Tue at 11:39pm"
+            android:textSize="@dimen/_10sdp"
+            app:customFont="@string/fontName"
+            app:layout_constraintEnd_toStartOf="@id/sim"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/sim"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginEnd="2dp"
+                android:src="@drawable/ic_sim_card_black_24dp"
+                app:layout_constraintEnd_toStartOf="@id/simIndex"
+                app:tint="?android:attr/textColorSecondary" />
+
+            <com.messaging.textrasms.manager.common.widget.QkTextView
+                android:id="@+id/simIndex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/sim"
+                android:textColor="?android:attr/textColorSecondary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/sim"
+                app:textSize="tertiary"
+
+                tools:text="1" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/attachments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:nestedScrollingEnabled="false"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/avatar"
+        app:layout_constraintTop_toBottomOf="@id/timestamplayout"
+        tools:itemCount="1"
+        tools:listitem="@layout/mms_preview_list_item" />
+
+    <ImageView
+        android:id="@+id/select"
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_gravity="top"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="6dp"
+        android:padding="@dimen/_6sdp"
+        android:src="@drawable/darkt_icon"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/bodyParent"
+        app:layout_constraintVertical_bias="0" />
+
+    <com.messaging.textrasms.manager.common.widget.AvatarView
+        android:id="@+id/avatar"
+        android:layout_width="@dimen/_28sdp"
+        android:layout_height="@dimen/_28sdp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintStart_toEndOf="@+id/select"
+        app:layout_constraintTop_toTopOf="@id/bodyParent" />
+
+
+    <LinearLayout
+        android:id="@+id/bodyParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/message_only"
+        android:gravity="center_horizontal"
+        android:maxWidth="@dimen/_150sdp"
+        android:orientation="vertical"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/avatar"
+        app:layout_constraintTop_toBottomOf="@id/attachments">
+
+        <com.messaging.textrasms.manager.common.widget.TightTextView
+            android:id="@+id/body"
+            style="@style/TextPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:autoLink="email|phone|web"
+            android:gravity="start|center_vertical"
+            android:text="Test User" />
+
+        <View
+            android:id="@+id/viewCopyCode"
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:background="#90FFFFFF"
+            android:visibility="gone" />
+
+        <com.messaging.textrasms.manager.common.widget.TightTextView
+            android:id="@+id/copyCode"
+            style="@style/TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:background="@drawable/message_only_blue"
+            android:paddingLeft="@dimen/_8sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingRight="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:text="Copy OTP"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_9sdp"
+            android:textStyle="normal"
+            android:visibility="visible"
+            app:textAllCaps="true" />
+
+        <com.messaging.textrasms.manager.common.widget.BubbleImageView
+            android:id="@+id/thumbnail1"
+            android:layout_width="@dimen/_220sdp"
+            android:layout_height="@dimen/_220sdp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            tools:src="@tools:sample/backgrounds/scenic" />
+
+    </LinearLayout>
+
+    <com.messaging.textrasms.manager.common.widget.QkTextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="?android:attr/textColorSecondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/timestampsms"
+        app:textSize="tertiary"
+        tools:text="Sending..." />
+
+    <com.messaging.textrasms.manager.common.util.CustomFontTextView
+        android:id="@+id/timestampsms"
+        style="@style/TextSecondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:gravity="end"
+        android:textSize="@dimen/_10sdp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/bodyParent"
+        app:layout_constraintTop_toBottomOf="@id/bodyParent"
+        tools:text=" 11:39pm" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:layout_gravity="center"
+    android:minHeight="30.0dip"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/linear_bottom"
+        android:orientation="vertical"
+        android:layout_above="@+id/ad_call_to_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/ad_app_icon"
+            android:layout_width="80.0dip"
+            android:layout_marginBottom="15dp"
+            android:layout_height="80.0dip"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ad_headline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10.0dip"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="Google View Title"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14.0sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ad_body"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="Hello Google Welcome To This New Plant And Enjoy To Most Wonder Thing To Find Out Your Some Ones And Finalllit Youir Gjkh Klotupl dgbfhmkdgnmbhdgkbhm dfjkgnbmk n"
+                    android:textColor="#DFDEDE"
+                    android:textSize="12.0sp"
+                    android:visibility="visible" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:orientation="vertical"
+            android:paddingTop="10.0dip"
+            android:paddingBottom="10.0dip"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/ad_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5.0dip"
+                android:paddingRight="5.0dip"
+                android:text="Google Views"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#E6E6E6"
+                android:textSize="12.0sp" />
+
+            <TextView
+                android:text="Google Views"
+                android:id="@+id/ad_store"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5.0dip"
+                android:paddingTop="5.0dip"
+                android:paddingRight="5.0dip"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#F1F1F1"
+                android:textSize="12.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_above="@+id/tab_continue"
+        android:id="@+id/ad_call_to_action"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30.0dip"
+        android:layout_marginTop="5.0dip"
+        android:layout_marginRight="30.0dip"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/ad_round_native_banner"
+        android:gravity="center"
+        android:textColor="#ffffffff"
+        android:textSize="15.0sp" />
+
+    <TextView
+        android:id="@+id/tab_continue"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="Tap to continue"
+        android:textColor="#D8D8D8"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/ad_notification_view"
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/gnt_rounded_corners_shape"
+        android:gravity="center"
+        android:text="Ad"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        android:textStyle="bold"></TextView>
+
+</RelativeLayout>

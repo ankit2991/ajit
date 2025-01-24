@@ -1,0 +1,1929 @@
+{
+  "Airtel": [
+    {
+      "code": "*123#",
+      "name": "Airtel Balance Check"
+    },
+    {
+      "code": "121",
+      "name": "Airtel Customer Care Number"
+    },
+    {
+      "code": "198",
+      "name": "Airtel Complaint Number"
+    },
+    {
+      "code": "*123*10# or *123#",
+      "name": "Check for Free 2G Data Balance"
+    },
+    {
+      "code": "*123*11#",
+      "name": "Check for 3G Data Balance"
+    },
+    {
+      "code": "*121*8#",
+      "name": "Check for Airtel 4G Balanc"
+    },
+    {
+      "code": "*123*197#",
+      "name": "Airtel Night Data Balance"
+    },
+    {
+      "code": "*123*2# or *555#",
+      "name": "Check for  Local SMS Balance"
+    },
+    {
+      "code": "*141*10# or 52141",
+      "name": "Airtel Loan Number"
+    },
+    {
+      "code": "*121#",
+      "name": "My Airtel, My Offer"
+    },
+    {
+      "code": "*121*7#",
+      "name": "To Check Last 5 Transactions and also Value Added Services."
+    },
+    {
+      "code": "*123*6#",
+      "name": "Local Airtel to Airtel Night Minutes Balance"
+    },
+    {
+      "code": "*123*1#",
+      "name": "Check for Airtel to Airtel Mins Balance"
+    },
+    {
+      "code": "*123*7#",
+      "name": "Check for Free Local, STD SMS Balance"
+    },
+    {
+      "code": "*123*8#",
+      "name": "Check for Free STD Minutes Balance"
+    },
+    {
+      "code": "*141#",
+      "name": "Airtel Talk time Gift Service [Share or Ask Talk time ]"
+    },
+    {
+      "code": "*222#",
+      "name": "Special 5 Offers"
+    },
+    {
+      "code": "*321#",
+      "name": "Airtel Live Services"
+    },
+    {
+      "code": "*325#",
+      "name": "Free Facebook Access [Rs. 1 per day ]"
+    },
+    {
+      "code": "*515#",
+      "name": "Twitter Service"
+    },
+    {
+      "code": "*566#",
+      "name": "Airtel Special Offers and Rewards"
+    },
+    {
+      "code": "*567#",
+      "name": "GPRS(Activation/Deactivation)"
+    },
+    {
+      "code": "*678#",
+      "name": "Hello Tunes Menu"
+    },
+    {
+      "code": "*888#",
+      "name": "Missed Call Alert"
+    },
+    {
+      "code": "*777#",
+      "name": "Local National SMS Packs"
+    },
+    {
+      "code": "*282#",
+      "name": "Know Your own Airtel number"
+    },
+    {
+      "code": "*141*10#",
+      "name": "Airtel loan code"
+    }
+  ],
+  "BSNL": [
+    {
+      "name": "Balance & Validity",
+      "code": "*123#"
+    },
+    {
+      "name": "Bsnl customer care number",
+      "code": "1800-180-1503"
+    },
+    {
+      "name": "Minutes Balance",
+      "code": "*123*2#"
+    },
+    {
+      "name": "SMS Balance",
+      "code": "*123*1#  or *123*5# or *125#"
+    },
+    {
+      "name": "GPRS Data Balance",
+      "code": "*123*10#"
+    },
+    {
+      "name": "Network Call",
+      "code": "*123*5#"
+    },
+    {
+      "name": "Video Call Balance",
+      "code": "*123*9#"
+    },
+    {
+      "name": "GPRS Pack Balance",
+      "code": "*123*8#"
+    },
+    {
+      "name": "SMS Balance Enquiry",
+      "code": "*125#"
+    },
+    {
+      "name": "Last Call Charges Details",
+      "code": "*102#"
+    },
+    {
+      "name": "Voice pack info",
+      "code": "*126#"
+    },
+    {
+      "name": "Data Balance Enquiry",
+      "code": "*234#"
+    },
+    {
+      "name": "Local Network Call",
+      "code": "*123*6#"
+    },
+    {
+      "name": "2G Net Balance",
+      "code": "*123*10#"
+    },
+    {
+      "name": "Bsnl balance check ussd codes",
+      "code": "*123#"
+    },
+    {
+      "name": "Bsnl Internet balance check code",
+      "code": "*124#"
+    },
+    {
+      "name": "Bsnl (know) own number check code",
+      "code": "*222#"
+    },
+    {
+      "name": "Bsnl minute balance check ussd codes",
+      "code": "*123*5#"
+    },
+    {
+      "name": "Bsnl FnF number enquiry code",
+      "code": "124*6#"
+    },
+    {
+      "name": "Bsnl 3G Internet Data Balance check ussd code",
+      "code": "*124#"
+    },
+    {
+      "name": "Bsnl call detail check code",
+      "code": "*124#"
+    },
+    {
+      "name": "BSNL USSD code for Astrology Activation: ",
+      "code": "*456*21#"
+    },
+    {
+      "name": "BSNL USSD code for Astrology Deactivation:",
+      "code": "*456*22#"
+    },
+    {
+      "name": "BSNL USSD code for auto tips Activation:",
+      "code": "*456*96#"
+    },
+    {
+      "name": "BSNL USSD code for auto tips deactivation:",
+      "code": "*456*97#"
+    },
+    {
+      "name": "BSNL USSD code for beauty tips Activation:",
+      "code": "*456*500#"
+    },
+    {
+      "name": "BSNL USSD code for beauty tips deactivation:",
+      "code": "*456*501#"
+    },
+    {
+      "name": "BSNL USSD code for Bollywood activation:",
+      "code": "*456*99#"
+    },
+    {
+      "name": "BSNL USSD code for Bollywood deactivation:",
+      "code": "*456*98#"
+    },
+    {
+      "name": "BSNL USSD code for Cricket activation:",
+      "code": "*456*55#"
+    },
+    {
+      "name": "BSNL USSD code for cricket deactivation:",
+      "code": "*456*56#"
+    },
+    {
+      "name": "BSNL USSD code for Gandhiji quotes activation:",
+      "code": "*456*08#"
+    },
+    {
+      "name": "BSNL USSD code for Gandhiji quotes deactivation:",
+      "code": "*456*09#"
+    },
+    {
+      "name": "BSNL USSD code for Geeta Activation:",
+      "code": "*456*71#"
+    },
+    {
+      "name": "BSNL USSD code for Geeta deactivation:",
+      "code": "*456*72#"
+    },
+    {
+      "name": "BSNL USSD code for General Knowledge activation:",
+      "code": "*456*508#"
+    },
+    {
+      "name": "BSNL USSD code for General Knowledge deactivation:",
+      "code": "*456*509#"
+    },
+    {
+      "name": "BSNL USSD Code for Gurbani Activation:",
+      "code": "*456*61#"
+    },
+    {
+      "name": "BSNL USSD code for gurbani deactivation:",
+      "code": "*456*62#"
+    },
+    {
+      "name": "BSNL USSD code for Health Tips activation:",
+      "code": "*456*636#"
+    },
+    {
+      "name": "BSNL USSD code for Health Tips deactivation:",
+      "code": "*456*637#"
+    },
+    {
+      "name": "BSNL USSD code for History activation:",
+      "code": "*456*77#"
+    },
+    {
+      "name": "BSNL USSD code for History Deactivation:",
+      "code": "*456*78#"
+    },
+    {
+      "name": "BSNL USSD Code for Mega Pack activation:",
+      "code": "*456*01#"
+    },
+    {
+      "name": "BSNL USSD Code for Mega Pack deactivation:",
+      "code": "*456*02#"
+    },
+    {
+      "name": "BSNL USSD Code for money matters activation:",
+      "code": "*456*43#"
+    },
+    {
+      "name": "BSNL USSD Code for Money matters deactivation:",
+      "code": "*456*44#"
+    },
+    {
+      "name": "BSNL USSD Code for Motivational Quotes Activation:",
+      "code": "*456*506#"
+    },
+    {
+      "name": "BSNL USSD Code for Motivational Quotes Activation:",
+      "code": "*456*507#"
+    },
+    {
+      "name": "BSNL USSD Code for myths Activation:",
+      "code": "*456*94#"
+    },
+    {
+      "name": "BSNL USSD code for myths deactivation:",
+      "code": "*456*95#"
+    },
+    {
+      "name": "BSNL USSD Code for News activation:",
+      "code": "*456*31#"
+    },
+    {
+      "name": "BSNL USSD code for News deactivation:",
+      "code": "*456*32#"
+    },
+    {
+      "name": "BSNL USSD Code for power of words activation:",
+      "code": "*456*88#"
+    },
+    {
+      "name": "BSNL USSD code for power of words deactivation:",
+      "code": "*456*89#"
+    },
+    {
+      "name": "BSNL USSD Code for Ramcharitmanas activation:",
+      "code": "*456*408#"
+    },
+    {
+      "name": "BSNL USSD code for ramcharitmanas deactivation:",
+      "code": "*456*409#"
+    },
+    {
+      "name": "BSNL USSD code for Sai Baba activation:",
+      "code": "*456*724#"
+    },
+    {
+      "name": "BSNL USSD code for Sai Baba deactivation:",
+      "code": "*456*725#"
+    },
+    {
+      "name": "BSNL USSD code for Stock activation:",
+      "code": "*456*41#"
+    },
+    {
+      "name": "BSNL USSD code for Stock deactivation:",
+      "code": "*456*42#"
+    },
+    {
+      "name": "BSNL USSD code for Freedom activation:",
+      "code": "*456*512#"
+    },
+    {
+      "name": "BSNL USSD code for Freedom deactivation:",
+      "code": "*456*513#"
+    },
+    {
+      "name": "BSNL USSD code for Kollywood activation:",
+      "code": "*456*522#"
+    },
+    {
+      "name": "BSNL USSD code for kollywood deactivation:",
+      "code": "*456*523#"
+    },
+    {
+      "name": "BSNL USSD code for Mollywood activation:",
+      "code": "*456*520#"
+    },
+    {
+      "name": "BSNL USSD code for mollywood deactivation:",
+      "code": "*456*521#"
+    },
+    {
+      "name": "BSNL USSD code for Navratri activation:",
+      "code": "*456*81#"
+    },
+    {
+      "name": "BSNL USSD code for Navratri deactivation:",
+      "code": "*456*82#"
+    },
+    {
+      "name": "BSNL USSD code for Shree Ganesha:",
+      "code": "*456*514#"
+    },
+    {
+      "name": "BSNL USSD code for Shree Ganesha:",
+      "code": "*456*515#"
+    },
+    {
+      "name": "BSNL USSD code for Shree Krishna activation:",
+      "code": "*456*516#"
+    },
+    {
+      "name": "BSNL USSD code for Shree Krishna activation:",
+      "code": "*456*517#"
+    },
+    {
+      "name": "BSNL USSD code for Tollywood activation:",
+      "code": "*456*518#"
+    },
+    {
+      "name": "BSNL USSD code for Tollywood activation:",
+      "code": "*456*519#"
+    },
+    {
+      "name": "BSNL USSD code for Karvachauth activation:",
+      "code": "*456*83#"
+    },
+    {
+      "name": "BSNL Ussd code for Karvachauth activation:",
+      "code": "*456*84#"
+    },
+    {
+      "name": "BSNL USSD code for Tips of Bride activation:",
+      "code": "*456*502#"
+    },
+    {
+      "name": "BSNL USSD code for tips of bride deactivation:",
+      "code": "*456*503#"
+    },
+    {
+      "name": "BSNL USSD code for Tips of Groom activation:",
+      "code": "*456*504#"
+    },
+    {
+      "name": "BSNL USSD code for tips of groom deactivation:",
+      "code": "*456*505#"
+    },
+    {
+      "name": "BSNL USSD code for Sardar Patel activation:",
+      "code": "*456*92#"
+    },
+    {
+      "name": "BSNL USSD code for Sardar patel deactivation:",
+      "code": "*456*93#"
+    },
+    {
+      "name": "BSNL USSD code for Diwali activation:",
+      "code": "*456*90#"
+    },
+    {
+      "name": "BSNL USSD code for diwali deactivation:",
+      "code": "*456*91#"
+    },
+    {
+      "name": "BSNL USSD code for Chacha Nehru activation:",
+      "code": "*456*14#"
+    },
+    {
+      "name": "BSNL USSD code for Chacha nehru deactivation:",
+      "code": "*456*15#"
+    },
+    {
+      "name": "BSNL USSD code for Indira Gandhi activation:",
+      "code": "*456*16#"
+    },
+    {
+      "name": "BSNL USSD code for Indira gandhi deactivation:",
+      "code": "*456*17#"
+    },
+    {
+      "name": "BSNL USSD code for Bakra-Eid activation:",
+      "code": "*456*786#"
+    },
+    {
+      "name": "BSNL USSD code for bakra- eid deactivation:",
+      "code": "*456*787#"
+    },
+    {
+      "name": "BSNL USSD code for Christmas activation:",
+      "code": "*456*18#"
+    },
+    {
+      "name": "BSNL USSD code for christmas deactivation:",
+      "code": "*456*19#"
+    }
+  ],
+  "Aircel": [
+    {
+      "name": "Aircel number Check Code (find Know Aircel Phone No)",
+      "code": "*133#"
+    },
+    {
+      "name": "Aircel customer care number",
+      "code": "198 OR 1288"
+    },
+    {
+      "name": "Aircel Main Account Balance Check Code (Aircel talktime Balance check code)",
+      "code": "*121#"
+    },
+    {
+      "name": "Aircel Special Offer Check Code",
+      "code": "*121*1#"
+    },
+    {
+      "name": "Aircel Full talktime Offer Check Code",
+      "code": "*121*1#"
+    },
+    {
+      "name": "Aircel Loan USSD Code (Aircel talktime Loan Number)",
+      "code": "*414# OR *125#"
+    },
+    {
+      "name": "Aircel USSD Codes balance transfer",
+      "code": "*122*666#"
+    },
+    {
+      "name": "Aircel USSD Codes  Rate cutter plans",
+      "code": "*122#"
+    },
+    {
+      "name": "Aircel USSD Codes switch off mobile phone",
+      "code": "*21*904#"
+    },
+    {
+      "name": "Aircel USSD Codes Check IMIS No",
+      "code": "*222# or *2# or *214#"
+    },
+    {
+      "name": "Aircel USSD Codes For Recharge",
+      "code": "*124*<16 Digit Number>#"
+    },
+    {
+      "name": "Aircel ussd code to check Minutes Balance",
+      "code": "*126*9#"
+    },
+    {
+      "name": "Avail Balance enquire, Mini statement, Fund transfer",
+      "code": "*99#"
+    },
+    {
+      "name": "Airtel ussd Code to Transfer Balance",
+      "code": "*121*666#"
+    },
+    {
+      "name": "Aircel STD Packs",
+      "code": "*121*1*1#"
+    },
+    {
+      "name": "Aircel STD Pack * 1 Paisa/sec for 45 days",
+      "code": "*121*1*1# and type 1"
+    },
+    {
+      "name": "Aircel STD Pack * STD 25p @ Rs.22",
+      "code": "*121*1*1# and type 2"
+    },
+    {
+      "name": "Aircel STD Pack * 40p/ min @ Rs.46",
+      "code": "*121*1*1# and type 3"
+    },
+    {
+      "name": "Aircel STD Pack * RC36 * STD Aircel to Aircel @ 20p/400 mins",
+      "code": "*121*1*1# and type 4"
+    },
+    {
+      "name": "Aircel STD Pack * 115 Local/National mins @ Rs.65",
+      "code": "*121*1*1# and type 5"
+    },
+    {
+      "name": "Aircel STD Pack * RC65 * 20p Local/STD Aircel to Aircel 50p",
+      "code": "*121*1*1# and type 6"
+    },
+    {
+      "name": "Aircel STD Pack * Local/STD 1p/sec @50p",
+      "code": "*121*1*1# and type 7"
+    },
+    {
+      "name": "Aircel STD Pack  * Cohota STD @ 40p",
+      "code": "*121*1*1# and type 8"
+    },
+    {
+      "name": "Aircel STD Pack * STD 40p for 90 days @ Rs.54",
+      "code": "*121*1*1# and type 9"
+    },
+    {
+      "name": "Aircel STD Pack * STD 25p for 200 mins @ Rs.42",
+      "code": "*121*1*1# and type 10"
+    },
+    {
+      "name": "Aircel STD Pack * RC 47 * Local/STD mobile call @ 30p/min for 10 days",
+      "code": "*121*1*1# and type 11"
+    },
+    {
+      "name": "Aircel Local Pack",
+      "code": "*121*1*2#"
+    },
+    {
+      "name": "Aircel to Aircel Local and STD Packs",
+      "code": "*121*1*4#"
+    },
+    {
+      "name": "Cohota Recharge@ Rs.3",
+      "code": "*121*1*5#"
+    },
+    {
+      "name": "15p Calling Packs",
+      "code": "*121*1*6#"
+    },
+    {
+      "name": "Roming Packs",
+      "code": "*121*1*7#"
+    },
+    {
+      "name": "For Roming Recharge Dial",
+      "code": "*121*909#"
+    },
+    {
+      "name": "National Roaming Packs",
+      "code": "*121*1*7# and type 1"
+    },
+    {
+      "name": "International Roming Packs",
+      "code": "*121*1*7# and type 2"
+    },
+    {
+      "name": "New Roaming Rates",
+      "code": "*121*1*7# and type 3"
+    },
+    {
+      "name": "Roaming Helpline",
+      "code": "*121*1*7# and type 4"
+    },
+    {
+      "name": "Roaming Hanset Settings",
+      "code": "*121*1*7# and type 5"
+    },
+    {
+      "name": "3G Roaming Circles",
+      "code": "*121*1*7# and type 6"
+    },
+    {
+      "name": "Aircel ISD Packs",
+      "code": "*121*1*8#"
+    },
+    {
+      "name": "Chota ISD Pack @ Rs.7",
+      "code": "*121*1*8#  and type 1"
+    },
+    {
+      "name": "Nepal Pack @ Rs.15",
+      "code": "*121*1*8#  and type 2"
+    },
+    {
+      "name": "ISD at Rs.18",
+      "code": "*121*1*8#  and type 3"
+    },
+    {
+      "name": "ISD pay per sec@Rs.23",
+      "code": "*121*1*8#  and type 4"
+    },
+    {
+      "name": "Aircel 2G Data Packs",
+      "code": "*121*6#"
+    },
+    {
+      "name": "PI 7 * 40MB * 1Day",
+      "code": "*121*6*1#"
+    },
+    {
+      "name": "PI 9 * 60MB * 1Day",
+      "code": "*121*6*2#"
+    },
+    {
+      "name": "PI 14 * 1GB 2G Internet till midnight",
+      "code": "*121*6*3#"
+    },
+    {
+      "name": "PI 17 * 150MB * 3Days",
+      "code": "*121*6*4#"
+    },
+    {
+      "name": "PI 24 * 100MB 2G Data 7 Days",
+      "code": "*121*6*5#"
+    },
+    {
+      "name": "PI 58 * 250MB * 25Days",
+      "code": "*121*6*6#"
+    },
+    {
+      "name": "PI 29 * 200MB 2G Data for 5 Days",
+      "code": "*121*6*7#"
+    },
+    {
+      "name": "PI 52 * 400MB * 7Days",
+      "code": "*121*6*8#"
+    },
+    {
+      "name": "PI -53 -1GB -5Days",
+      "code": "*121*6*9#"
+    },
+    {
+      "name": "PI 74 * 600MB * 15Days",
+      "code": "*121*6*10#"
+    },
+    {
+      "name": "PI 98 * 1GB 2G * 21Days",
+      "code": "*121*6*11#"
+    },
+    {
+      "name": "PI 109 * UL (1GB) 2G * 25Days",
+      "code": "*121*6*12#"
+    },
+    {
+      "name": "PI 134 * UL (1GB) 2G * 28Days",
+      "code": "*121*6*13#"
+    },
+    {
+      "name": "PI 146 * UL (1GB) 2G * 30Days",
+      "code": "*121*6*14#"
+    },
+    {
+      "name": "15p STD Aircel to Aircel, 35p  STD A20 for 28 Days",
+      "code": "*121*6*15#"
+    },
+    {
+      "name": "PI 5- 20MB * Till Midnight",
+      "code": "*121*6*16#"
+    },
+    {
+      "name": "Aircel 3G Data Packs",
+      "code": "*121*6#"
+    },
+    {
+      "name": "Aircel SMS Packs",
+      "code": "*121*7#"
+    },
+    {
+      "name": "100 Local/National SMS @Rs.3/day",
+      "code": "*121*7*1#"
+    },
+    {
+      "name": "100 Local/National SMS @Rs.9  Valadity-10 Din",
+      "code": "*121*7*2#"
+    },
+    {
+      "name": "90Days Rate Cutter",
+      "code": "*121*8#"
+    },
+    {
+      "name": "Local @30p Rs.32",
+      "code": "*121*8# and type 2"
+    },
+    {
+      "name": "Roaming @45p Rs.37",
+      "code": "*121*8# and type 3"
+    },
+    {
+      "name": "STD @40p Rs.72",
+      "code": "*121*8# and type 4"
+    },
+    {
+      "name": "Loc/STD ap/sec@50p",
+      "code": "*121*8# and type 5"
+    },
+    {
+      "name": "Special Night Combo",
+      "code": "*121*11#"
+    },
+    {
+      "name": "Loan Service",
+      "code": "*121*9# or *414#"
+    },
+    {
+      "name": "Balance Transfer Amount 5, 10, 25, 50, 75, 100",
+      "code": "*121*666#"
+    }
+  ],
+  "Idea": [
+    {
+      "name": "Idea Balance Check (Main account balance check code)",
+      "code": "*121#"
+    },
+    {
+      "code": "*121# or 12345",
+      "name": "Idea SIM Customer care number"
+    },
+    {
+      "code": "198",
+      "name": "Idea SIM complaint number"
+    },
+    {
+      "name": "Idea Number best offer check (Latest best offer)",
+      "code": "*121#"
+    },
+    {
+      "name": "Find Idea Phone number (Know mobile no)",
+      "code": "*131*1#"
+    },
+    {
+      "name": "Idea Data balance check code (Idea Data usage check)",
+      "code": "*125#"
+    },
+    {
+      "name": "Idea Last Recharge Details Check",
+      "code": "*121*4*1*5#"
+    },
+    {
+      "name": "Idea Self Care menu",
+      "code": "*121*4#"
+    },
+    {
+      "name": "Idea talktime Balance Check ussd code",
+      "code": "*131*3#"
+    },
+    {
+      "name": "check Idea phone number (Idea Find Own Mobile number check ussd code)",
+      "code": "*131*1# OR *121*4*1*4#"
+    },
+    {
+      "name": "Idea Main Menu ussd code",
+      "code": "*121*4#"
+    },
+    {
+      "name": "Idea Account Balance Check ussd Code",
+      "code": "*131*3#"
+    },
+    {
+      "name": "Idea Best Recharge Offer Check USSD Code",
+      "code": "*121#"
+    },
+    {
+      "name": "Idea Best Internet Offer Check USSD Code",
+      "code": "*122#"
+    },
+    {
+      "name": "Idea Last 5 Calls Details Check USSD Code",
+      "code": "*121*4*1*1#"
+    },
+    {
+      "name": "Idea Last 3 Recharge Check USSD Code",
+      "code": "*121*4*1*5#"
+    },
+    {
+      "name": "Idea Emergency (Talktime Loan) Check USSD Code",
+      "code": "*150*10#"
+    },
+    {
+      "name": "Idea My Own Number Check USSD Code",
+      "code": "*131*1#"
+    },
+    {
+      "name": "Idea Number check USSD Code",
+      "code": "*121*4*1*4#"
+    },
+    {
+      "name": "Idea Last 5 Call Detail Check USSD Code",
+      "code": "*121*4*1*3#"
+    },
+    {
+      "name": "Idea Last 5 SMS Detail Check USSD Code",
+      "code": "*121*4*1*3#"
+    },
+    {
+      "name": "Idea Last 5 Data Usage Info Check USSD Code",
+      "code": "*121*4*1*3#"
+    },
+    {
+      "name": "Idea Last Recharge Information Check USSD Codes",
+      "code": "*121*4*1*5#"
+    },
+    {
+      "name": "Idea Tariff Plan Detail Check USSD Codes + Mobile number check",
+      "code": "*121*4*1*6#"
+    },
+    {
+      "name": "Start Idea Data Notification",
+      "code": "*121*4*2*1#"
+    },
+    {
+      "name": "Idea Stop Data Notification",
+      "code": "*121*4*2*2#"
+    },
+    {
+      "name": "Idea 3G Internet Pack Detail USSD Codes",
+      "code": "*121*4*3*1#"
+    },
+    {
+      "name": "Idea 2G Internet Pack Detail USSD Codes",
+      "code": "*121*4*3*2#"
+    },
+    {
+      "name": "Idea Zero Rental",
+      "code": "*121*4*3*1# and proceed to 1"
+    },
+    {
+      "name": "Idea RC26 Internet Data Pack USSD Code",
+      "code": "*121*4*3*1# and proceed to 2"
+    },
+    {
+      "name": "Idea RC44 Internet Data Pack USSD Code",
+      "code": "*121*4*3*1# and proceed to 3"
+    },
+    {
+      "name": "Idea RC102 Internet Data Pack USSD Code",
+      "code": "*121*4*3*1# and proceed to 4"
+    },
+    {
+      "name": "Idea RC198 Internet Data Pack USSD Code",
+      "code": "*121*4*3*1# and proceed to 5"
+    },
+    {
+      "name": "Idea RC249 Internet Data Pack USSD Code",
+      "code": "*121*4*3*1# and proceed to 6"
+    },
+    {
+      "name": "Idea RC347 Internet Data Pack USSD Code",
+      "code": "*121*4*3*1# and proceed to 7"
+    },
+    {
+      "name": "Idea RC455 Internet Data Pack USSD Code",
+      "code": "*121*4*3*1# and proceed to 8"
+    },
+    {
+      "name": "Idea RC852 Internet Data Pack USSD Code",
+      "code": "*121*4*3*1# and proceed to 9"
+    },
+    {
+      "name": "Get Idea GPRS Setting",
+      "code": "*121*4*3*2# and proceed to 1"
+    },
+    {
+      "name": "Idea Zero Rental",
+      "code": "*121*4*3*2# and proceed to 2"
+    },
+    {
+      "name": "Idea DT Into Check USSD Codes",
+      "code": "*121*4*4*1#"
+    },
+    {
+      "name": "Idea Dialer tones USSD Check Code",
+      "code": "*121*4*4*2#"
+    },
+    {
+      "name": "Idea Dial tones USSD Check Code",
+      "code": "*121*4*4*3#"
+    },
+    {
+      "name": "Idea MCI Info Check Code",
+      "code": "*121*4*4*4#"
+    },
+    {
+      "name": "Idea VAS Servies Check Code",
+      "code": "*121*4*4*5#"
+    },
+    {
+      "name": "Idea Store Check USSD Codes",
+      "code": "*121*4*5#"
+    },
+    {
+      "name": "Idea Festive Days Check USSD Codes",
+      "code": "*121*4*6*1#"
+    },
+    {
+      "name": "Idea My mobile number Check Code",
+      "code": "*121*4*6*2#"
+    },
+    {
+      "name": "Idea Activation Date Check code Check",
+      "code": "*121*4*6*3#"
+    },
+    {
+      "name": "Idea BAR Service Check Code",
+      "code": "*121*4*6*4#"
+    },
+    {
+      "name": "Idea DND Service Check Code",
+      "code": "*121*4*6*5#"
+    },
+    {
+      "name": "Idea My Offer and Plans Check USSD Check Code",
+      "code": "*121*4*6*6#"
+    },
+    {
+      "name": "Idea Roaming Charges",
+      "code": "*121*4*7*1#"
+    },
+    {
+      "name": "RC5 Roaming Pack USSD Code",
+      "code": "*121*4*7*2#"
+    },
+    {
+      "name": "RC6 Roaming Pack USSD Code",
+      "code": "*121*4*7*3#"
+    },
+    {
+      "name": "RC62 Roaming Pack USSD Code",
+      "code": "*121*4*7*4#"
+    },
+    {
+      "name": "RC78 Roaming Pack USSD Code",
+      "code": "*121*4*7*5#"
+    },
+    {
+      "name": "Idea International Roaming Packs",
+      "code": "*121*4*7*6#"
+    },
+    {
+      "name": "Idea Full Talktime Recharge",
+      "code": "*121*4*8*1#"
+    },
+    {
+      "name": "Idea Local Recharge",
+      "code": "*121*4*8*2#"
+    },
+    {
+      "name": "Idea STD Recharge",
+      "code": "*121*4*8*3#"
+    },
+    {
+      "name": "Idea Rs.10 talktime balance Credit loan code",
+      "code": "*150*10#"
+    },
+    {
+      "name": "Idea Rs.20 talktime balance Credit loan code",
+      "code": "*150*20#"
+    },
+    {
+      "name": "Idea 2G Internet Data MB Loan Code",
+      "code": "*150*06#"
+    },
+    {
+      "name": "Idea 3G Internet Data Loan",
+      "code": "*150*333#"
+    }
+  ],
+  "Reliance": [
+    {
+      "name": "Balance Check",
+      "code": "*367# or *306# or *402# or *702# or *333*1*1*1# or *333*1*2*1#"
+    },
+    {
+      "name": "Reliance Customer Care number",
+      "code": "198 or *369 or *333"
+    },
+    {
+      "name": "2G Net Balance",
+      "code": "*333*1*3*1# or *367*3#"
+    },
+    {
+      "name": "Special packs",
+      "code": "*777#"
+    },
+    {
+      "name": "Caller Tunes",
+      "code": "*999#"
+    },
+    {
+      "name": "Free Net",
+      "code": "*123*099#"
+    },
+    {
+      "name": "Special packs",
+      "code": "*777#"
+    },
+    {
+      "name": "Packs Information",
+      "code": "*123# or *321#"
+    },
+    {
+      "name": "Activate Caller Tune",
+      "code": "*999#"
+    },
+    {
+      "name": "Deactivate Caller Tune",
+      "code": "*333*3*1*2#"
+    },
+    {
+      "name": "GPRS Data Balance",
+      "code": "*367*3#"
+    },
+    {
+      "name": "Missed Call Alert",
+      "code": "*333*3*2*1#"
+    },
+    {
+      "name": "Reliance Caller Tune Activation Ussd code",
+      "code": "*333*3*1*1#"
+    },
+    {
+      "name": "Reliance Caller Tune Deactivation Ussd code",
+      "code": "*333*3*1*2#"
+    },
+    {
+      "name": "Reliance Missed Call Activate Ussd code",
+      "code": "*333*3*2*1#"
+    },
+    {
+      "name": "Reliance Missed Call Deactivate Ussd code",
+      "code": "*333*3*2*2#"
+    },
+    {
+      "name": "Reliance Hot News Activation Ussd code",
+      "code": "*123#"
+    },
+    {
+      "name": "Reliance Best sellers Activation Ussd codes",
+      "code": "*123#"
+    },
+    {
+      "name": "Reliance Cricket Activation Ussd codes",
+      "code": "*123#"
+    },
+    {
+      "name": "Reliance News Activation Ussd codes",
+      "code": "*123#"
+    },
+    {
+      "name": "Reliance Sports Activation Ussd codes",
+      "code": "*123#"
+    },
+    {
+      "name": "Reliance Movie Masala Activation Ussd codes",
+      "code": "*123#"
+    },
+    {
+      "name": "Reliance Love Activation Ussd codes",
+      "code": "*123#"
+    },
+    {
+      "name": "Reliance Fun Activation Ussd codes",
+      "code": "*123#"
+    },
+    {
+      "name": "Reliance Astrology Activation Ussd codes",
+      "code": "*123#"
+    },
+    {
+      "name": "Reliance VAS ussd codes",
+      "code": "*333*1*4*1#"
+    },
+    {
+      "name": "Reliance Balance Check Ussd codes",
+      "code": "*367# or *306# or *402#"
+    },
+    {
+      "name": "Reliance Main Internet Data Balance Ussd Codes",
+      "code": "*111*1*3# or *333*1*3*1# or *367*3#"
+    },
+    {
+      "name": "Reliance Local Call Balance ussd codes",
+      "code": "*367*2#"
+    },
+    {
+      "name": "Reliance 3G Balance Check Ussd Codes",
+      "code": "*111*1*3#"
+    },
+    {
+      "name": "Reliance GPRS Balance Check USSD Codes",
+      "code": "*367*3#"
+    },
+    {
+      "name": "Reliance Ussd codes Main Menu (Prepaid)",
+      "code": "*111#"
+    },
+    {
+      "name": "Reliance Balance Check Ussd codes",
+      "code": "*367# or *306# or *402#"
+    },
+    {
+      "name": "Reliance Main Internet Data Balance Ussd Codes",
+      "code": "*111*1*3# or *333*1*3*1# or *367*3#"
+    },
+    {
+      "name": "Reliance Caller Tune Ussd codes",
+      "code": "*999#"
+    },
+    {
+      "name": "Reliance VAS ussd codes",
+      "code": "*333*1*4*1#"
+    },
+    {
+      "name": "Reliance Local Call Balance ussd codes",
+      "code": "*367*2#"
+    },
+    {
+      "name": "Reliance 3G Balance Check Ussd Codes",
+      "code": "*111*1*3#"
+    },
+    {
+      "name": "Reliance GPRS Balance Check USSD Codes",
+      "code": "*367*3#"
+    },
+    {
+      "name": "Reliance Customer Care number ussd codes",
+      "code": "198 or *369 or *333"
+    },
+    {
+      "name": "Reliance Know Own Number (Check Ussd codes)",
+      "code": "*1#"
+    },
+    {
+      "name": "Reliance Ussd codes Main Menu (Postpaid)",
+      "code": "*222#"
+    },
+    {
+      "name": "Reliance special deal ussd codes",
+      "code": "*789#"
+    }
+  ],
+  "Telenor": [
+    {
+      "name": "Check Balance",
+      "code": "*363*4#"
+    },
+    {
+      "name": "Self Help (Customer Care)",
+      "code": "*121#"
+    },
+    {
+      "name": "Activate Caller Tune",
+      "code": "*444#"
+    },
+    {
+      "name": "Deactivate Caller Tune",
+      "code": "*444*9#"
+    },
+    {
+      "name": "Check SMS Balance",
+      "code": "*222*2#"
+    },
+    {
+      "name": "Check My Account, Current Plan Scheme, Offers & Other Services",
+      "code": "*121#"
+    },
+    {
+      "name": "Check Main Balance & Validity",
+      "code": "*363*4#"
+    },
+    {
+      "name": "Balance Check",
+      "code": "*222*2#"
+    },
+    {
+      "name": "Check your Mobile Number & Activation Date of Sim Card",
+      "code": "*222*4#"
+    },
+    {
+      "name": "Recharge your Mobile Number",
+      "code": "*222*Pin number#"
+    },
+    {
+      "name": "Latest Offers",
+      "code": "*555#"
+    },
+    {
+      "name": "Check USSD Codes of Balance Validity Mobile Number, Recharge Code",
+      "code": "*123#"
+    },
+    {
+      "name": "Customer Care Number",
+      "code": "121"
+    },
+    {
+      "name": "Complaint Number",
+      "code": "198"
+    },
+    {
+      "name": "Latest Offers",
+      "code": "*234#"
+    },
+    {
+      "name": "Check SIM Card Number",
+      "code": "*222*4#"
+    },
+    {
+      "name": "Credit Recharge Over USSD Service in Roaming",
+      "code": "*912*Voucher No#"
+    },
+    {
+      "name": "Product offers & Activation",
+      "code": "*234#"
+    },
+    {
+      "name": "Missed Call Alerts *MCA*",
+      "code": "*505#"
+    },
+    {
+      "code": "*777#",
+      "name": "Direct Recharge"
+    },
+    {
+      "code": "*123*16 digit PIN#",
+      "name": "Vas Content (On-mobile)"
+    },
+    {
+      "code": "*321#",
+      "name": "Facebook Application"
+    },
+    {
+      "code": "*325#",
+      "name": "Service Activation & De-Activation (Voice Services)"
+    },
+    {
+      "code": "*335#",
+      "name": "MMS"
+    },
+    {
+      "code": "*355#",
+      "name": "My Offers"
+    },
+    {
+      "code": "*363#",
+      "name": "On-Deck Cricket Portal * One97"
+    },
+    {
+      "code": "*503#",
+      "name": "Friends Chat * Deactivation (Bol India Bol)"
+    },
+    {
+      "code": "*510*1#",
+      "name": "Live Astrology * Deactivation (Bol India Bol)"
+    },
+    {
+      "code": "*510*2#",
+      "name": "Job Hunt Service -Deactivation (Bol India Bol)"
+    },
+    {
+      "code": "*510*3#",
+      "name": "Devotional Service -Deactivation (Bol India Bol)"
+    },
+    {
+      "code": "*510*5#",
+      "name": "Mobile Jockey Service -Deactivation (Bol India Bol)"
+    },
+    {
+      "code": "*510*6#",
+      "name": "Friends Chat * Activation (Bol India Bol)"
+    },
+    {
+      "name": "Live Astrology * Activation (Bol India Bol)",
+      "code": "*512#"
+    },
+    {
+      "name": "Job Hunt Service * Activation (Bol India Bol)",
+      "code": "*513#"
+    },
+    {
+      "name": "Devotional Service * Activation (Bol India Bol)",
+      "code": "*515#"
+    },
+    {
+      "name": "Mobile Jockey Service * Activation(Bol India Bol)",
+      "code": "*516#"
+    },
+    {
+      "name": "Hungama (Ringtone portal)",
+      "code": "*526#"
+    },
+    {
+      "name": "Hungama (Devotional portal)",
+      "code": "*527#"
+    },
+    {
+      "name": "India Games",
+      "code": "*629#"
+    },
+    {
+      "name": "Techzone",
+      "code": "*630#"
+    },
+    {
+      "name": "Hungama",
+      "code": "*631#"
+    },
+    {
+      "name": "Onmobile Devotional",
+      "code": "*786#"
+    },
+    {
+      "name": "Hungama WAP Services",
+      "code": "*646#"
+    },
+    {
+      "name": "Activate Caller Tune",
+      "code": "*444#"
+    },
+    {
+      "name": "Deactivate Caller Tune",
+      "code": "*444*9#"
+    }
+  ],
+  "Vodafone": [
+    {
+      "name": "Vodafone Amazing Offers And Deals Check Code",
+      "code": "*111*1#"
+    },
+    {
+      "name": "Vodafone Customer care",
+      "code": "199"
+    },
+    {
+      "name": "Vodafone Complaint Number",
+      "code": "198"
+    },
+    {
+      "name": "Vodafone Best Offer Check Code",
+      "code": "*111*1*2#"
+    },
+    {
+      "name": "Vodafone My Delights Check Code",
+      "code": "*111*1*2#"
+    },
+    {
+      "name": "Vodafone My Balance (Vodafone Balance Check)",
+      "code": "*111*2#"
+    },
+    {
+      "name": "Vodafone Last 3 Activities Check Code",
+      "code": "*111*3#"
+    },
+    {
+      "name": "Vodafone Last 3 Calls And SMS Check Code",
+      "code": "*111*3*1#"
+    },
+    {
+      "name": "Vodafone Last 3 Calls Check Code",
+      "code": "*111*3*1*1#"
+    },
+    {
+      "name": "Vodafone Last 3 SMS Check Code",
+      "code": "*111*3*1*2#"
+    },
+    {
+      "name": "Vodafone Last 3 Charges Check Code",
+      "code": "*111*3*2#"
+    },
+    {
+      "name": "Vodafone Last 3 Recharges Check Code",
+      "code": "*111*3*3#"
+    },
+    {
+      "name": "Vodafone Tariff Plan Details Check Code",
+      "code": "*111*4#"
+    },
+    {
+      "name": "Vodafone My Plan rates Check Code",
+      "code": "*111*4*1#"
+    },
+    {
+      "name": "Vodafone Bonus/Promotional balances Check Code",
+      "code": "*111*4*2#"
+    },
+    {
+      "name": "Vodafone Active Plan * Validity Check Code",
+      "code": "*111*4*3#"
+    },
+    {
+      "name": "Vodafone VAS and Services Check Code",
+      "code": "*111*5#"
+    },
+    {
+      "name": "Vodafone VAS Active on this number Check Code",
+      "code": "*111*5*1#"
+    },
+    {
+      "name": "Vodafone Activate New VAS on this number Check Code",
+      "code": "*111*5*2#"
+    },
+    {
+      "name": "Vodafone Data Plan Check Code",
+      "code": "*111*6#"
+    },
+    {
+      "name": "Vodafone Active Data Plans Check Code",
+      "code": "*111*6*1#"
+    },
+    {
+      "name": "Vodafone Data Usage (Vodafone Internet MB Check)",
+      "code": "*111*6*2#"
+    },
+    {
+      "name": "Vodafone Activate New 2G Mobile Internet MB Pack Check Code",
+      "code": "*111*6*3#"
+    },
+    {
+      "name": "Vodafone Activate New 3G Mobile Internet MB Pack Check Code",
+      "code": "*111*6*4#"
+    },
+    {
+      "name": "Vodafone Download Internet Settings Check Code",
+      "code": "*111*6*5#"
+    },
+    {
+      "name": "Vodafone Bonus Card Check Code",
+      "code": "*111*7#"
+    },
+    {
+      "name": "Vodafone Best Offer Check Code",
+      "code": "*111*8#"
+    },
+    {
+      "name": "Vodafone Pay/Recharge via Payback Check Code",
+      "code": "*111*9#"
+    },
+    {
+      "name": "Vodafone Low Balance Services Check Code",
+      "code": "*111*10#"
+    },
+    {
+      "name": "Vodafone Account Update Check Code",
+      "code": "*111*11#"
+    },
+    {
+      "name": "Vodafone Alternate Number Details Check Code",
+      "code": "*111*11*1#"
+    },
+    {
+      "name": "Vodafone Other Info Check Code",
+      "code": "*111*12#"
+    },
+    {
+      "name": "Vodafone Main Balance Check Code (Vodafone Balance Check)",
+      "code": "*111*2# or *141#"
+    },
+    {
+      "name": "Vodafone Main account Validity Check code (Balance Check)",
+      "code": "*146#"
+    },
+    {
+      "name": "Vodafone GPRS (net) Balance Check (Vodafone Internet MB Balance)",
+      "code": "*111*6*2# or *111*6#"
+    },
+    {
+      "name": "Vodafone Free Night Minutes Balance",
+      "code": "*111*4*2#"
+    },
+    {
+      "name": "Vodafone Free SMS Balance Check code",
+      "code": "*111*4*2#"
+    },
+    {
+      "name": "Vodafone Local and STD call rate check code",
+      "code": "*111*4*2#"
+    },
+    {
+      "name": "Vodafone Free SMS Balance Check code",
+      "code": "*111*4*2#"
+    },
+    {
+      "name": "Vodafone USSD code to check Internet Data Usage:",
+      "code": "*111*6*2#"
+    },
+    {
+      "name": "Vodafone Call Balance Check code (Vodafone Balance check)",
+      "code": "*141#"
+    }
+  ],
+  "Tata Docomo": [
+    {
+      "name": "Check Balance",
+      "code": "*111#"
+    },
+    {
+      "name": "Customer Care No. for Complain",
+      "code": "198"
+    },
+    {
+      "name": "Check 2G Internet Balance",
+      "code": "*111*1#"
+    },
+    {
+      "name": "Activate new services or Internet Packs",
+      "code": "*141#"
+    },
+    {
+      "name": "Last 3 recharges",
+      "code": "*191#"
+    },
+    {
+      "name": "Balance Enquiry",
+      "code": "*191*2#"
+    },
+    {
+      "name": "Validity Check",
+      "code": "*191*3#"
+    },
+    {
+      "name": "Service",
+      "code": "*191*4#"
+    },
+    {
+      "name": "Last 3 recharges",
+      "code": "*191*5#"
+    },
+    {
+      "name": "Start/Stop Sevices",
+      "code": "*191*7#"
+    },
+    {
+      "name": "Service Request",
+      "code": "*191*8#"
+    },
+    {
+      "name": "Daily SMS Count",
+      "code": "*191*9*3#"
+    },
+    {
+      "name": "Daily Data Check",
+      "code": "*191*9*4#"
+    },
+    {
+      "name": "Daily Call Check",
+      "code": "*191*9*5#"
+    },
+    {
+      "name": "Prepaid Bill Request",
+      "code": "*191*9*6#"
+    },
+    {
+      "name": "Special Offers",
+      "code": "*191*9*8#"
+    },
+    {
+      "name": "3G Internet Packs",
+      "code": "*141*1#"
+    },
+    {
+      "name": "GPRS Net Packs",
+      "code": "*141*4#"
+    },
+    {
+      "name": "Discount Zone",
+      "code": "*141*8#"
+    },
+    {
+      "name": "Unlimited Music",
+      "code": "*141*6#"
+    }
+  ],
+  "Ninemobile" : [
+    {
+      "name": "Check your data balance",
+      "code":"*228#"
+    },
+
+    {  "name": "Credit Balance Check",
+      "code":"*232#"
+    },
+
+    {  "name": "40MB for ₦100",
+      "code":"*229*3*1#"
+    },
+
+    { "name": "150MB for ₦200",
+      "code":"*229*2*10#"
+    },
+
+    {
+      "name": "1GB for ₦500",
+      "code":"*5995*2#"
+    },
+    {
+      "name": "500MB for ₦500",
+      "code":"*229*2*12#"
+    },
+    {
+      "name": "1GB for ₦1,000",
+      "code":"*229*2*7#"
+    },
+    {
+      "name": "1.5GB for ₦1,200",
+      "code":"*229*2*25#"
+    },
+    {
+      "name": "2.5GB for ₦2,000",
+      "code":"*229*2*8#"
+    },
+    {
+      "name": "3.5GB for ₦2,500",
+      "code":"*229*2*26#"
+    },
+    {
+      "name": "5GB for ₦3,500",
+      "code":"*229*2*9#"
+    },
+    {
+      "name": "11.5GB for ₦8,000",
+      "code":"*229*2*5#"
+    },
+    { "name": "15GB for ₦10,000" ,
+      "code":"*229*4*1#"
+    },
+    { "name": "27.5GB for ₦18,000",
+      "code":"*229*4*3#"
+    },
+
+    { "name": "1GB night only",
+      "code":"*229*3*11#"
+    },
+    {
+      "name": "2GB evening & weekend plan",
+      "code":"*229*3*12#"
+    },
+    {
+      "name": "5GB evening & weekend plan",
+      "code":"*229*3*13#"
+    },
+    {
+      "name": "Daily 10MB",
+      "code":"*229*3*8#"
+    },
+    {
+      "name": "Quarterly plan (30GB)",
+      "code":"*229*5*1#"
+    },
+    { "name": "Bi-annual plan (60GB)",
+      "code":"*229*5*2#"
+    },
+    { "name": "100GB Plan",
+      "code":"*229*4*5#"
+    },
+    { "name": "Annual Plan (120GB)",
+      "code":"*229*5*3#"
+    },
+    { "name": "Chat Pak ₦50",
+      "code":"*343*5*5#"
+    },
+
+    {"name": "Chat Pak ₦150",
+      "code":"*343*5*6#"
+    },
+    {
+      "name": "Chat Pak ₦400",
+      "code":"*343*5*7#"
+    },
+
+    {
+      "name": "Social Me Pak ₦100"  ,
+      "code":"*343*6*7#"
+    },
+    { "name": "Social Me Pak ₦300",
+      "code":"*343*6*8#"
+    },
+    {
+      "name": "Social Me Pak ₦700",
+      "code":"*343*6*9#"
+    },
+
+    {
+      "name": "Video Pak ₦400",
+      "code":"*229*3*5#"
+    },
+    { "name": "Special Smart Pak ₦400",
+      "code":"*343*5*10#"
+    },
+    { "name": "Special Smart Pak ₦700",
+      "code":"*343*6*12#"
+    }
+  ]
+,
+  "MTN" : [
+
+    {
+
+      "name": "Data Balance Check",
+      "code":"*559#"
+
+    },
+    {
+      "name": "Credit Balance Check",
+      "code":"*556#"
+    },
+    {
+      "name": "50MB",
+      "code":"*104#"
+    },
+
+    {
+      "name": "150MB",
+      "code":"*113#"
+    },
+
+    {
+      "name": "150MB",
+      "code":"*102#"
+
+    },
+    {
+      "name": "750MB",
+      "code": "*103#"
+    },
+
+    { "name": "1.5GB",
+      "code":"*106#"
+    },
+
+    {
+      "name": "3.5GB",
+      "code":"*110#"
+    },
+    {
+      "name": "5GB",
+      "code":"*107#"
+    },
+    {
+      "name": "10GB",
+      "code":"*116#"
+    },
+    {
+      "name": "22GB",
+      "code":"*117#"
+    },
+    {
+      "name": "50GB",
+      "code":"*118#"
+    },
+    {
+      "name": "85GB" ,
+      "code":"*133#"
+    },
+
+    {
+      "name": "4.5GB Night Plan",
+      "code":"*102#"
+    },
+    {
+      "name": "4.5GB Day/Night Plan",
+      "code":"*120#"
+    },
+    {
+      "name": "Data Balance Check",
+      "code":"*127*0#"
+    },
+    {
+      "name": "Credit Balance Check",
+      "code":"*124*1#"
+    },
+    {
+      "name": "₦25 Data Plan",
+      "code":"*127*32#"
+    },
+    {
+      "name": "₦50 Data Plan",
+      "code":"*127*14#"
+    }
+
+  ]
+
+
+
+,
+  "GLO" :
+  [
+    {
+      "name": "₦100 Data Plan",
+      "code": "*127*51#"
+    },
+    {
+      "name": "₦200 Data Plan",
+      "code":"*127*56#"
+    },
+    {
+      "name": "₦500 Data Plan",
+      "code":"*127*57#"
+    },
+    {
+      "name": "₦1000 Data Plan",
+      "code":"*127*53#"
+    },
+    {
+      "name": "₦2000 Data Plan",
+      "code":"*127*55#"
+    },
+    {
+      "name": "₦2500 Data Plan",
+      "code":"*127*58#"
+    },
+    {
+      "name": "₦3000 Data Plan",
+      "code":"*127*54#"
+    },
+    {
+      "name": "₦4000 Data Plan",
+      "code": "*127*59#"
+    },
+    {
+      "name": "₦5000 Data Plan",
+      "code":"*127*2#"
+    },
+    {
+      "name": "₦8000 Data Plan",
+      "code":"*127*1#"
+    },
+    {
+      "name": "₦10,000 Data Plan",
+      "code":"*127*11#"
+
+    },
+    {
+      "name": "₦15,000 Data Plan",
+      "code":"*127*12#"
+    },
+    {
+      "name": "₦18,000 Data Plan",
+      "code":"*127*13#"
+    },
+    {
+      "name": "₦20,000 Data Plan",
+      "code":"*127*33#"
+    },
+
+    {
+      "name": "Flexi G 100",
+      "code":"*127*5#"
+    },
+    {
+      "name": "Flexi G 300",
+      "code":"*127*4#"
+    },
+    {
+      "name": "G-Leisure",
+      "code":"*127*7#"
+    },
+    {
+      "name": "G-Work",
+      "code":"*127*6#"
+    }
+  ]
+}
+
+

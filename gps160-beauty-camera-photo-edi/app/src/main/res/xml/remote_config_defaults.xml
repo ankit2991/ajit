@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+    <entry>
+        <key>all_ads_enabled</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>GPS160_price_plan</key>
+        <value>subs_yearly</value>
+    </entry>
+    <entry>
+        <key>GPS160_onboarding_flag</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>GPS160_paymentcard_flag</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>GPS160_interstitial_taps</key>
+        <value>5</value>
+    </entry>
+
+    <entry>
+        <key>GPS160_init_interstitial</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>GPS160_exit_interstitial</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>GPS160_saving_interstitial</key>
+        <value>true</value>
+    </entry>
+</defaultsMap>
+    <!-- END xml_defaults -->

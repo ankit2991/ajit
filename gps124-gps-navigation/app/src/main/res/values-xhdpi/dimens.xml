@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="subs_features_text_size">15sp</dimen>
+    <dimen name="subs_title_text_size">30sp</dimen>
+    <dimen name="subs_button_text">16sp</dimen>
+    <dimen name="feature_list_margin">20dp</dimen>
+    <dimen name="feature_list_top_margin">18dp</dimen>
+    <dimen name="feature_list_bottom_margin">28dp</dimen>
+    <dimen name="button_height">52dp</dimen>
+    <dimen name="cancel_text_top">19dp</dimen>
+</resources>

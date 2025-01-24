@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sugest_update_title">Actualización dispoñible</string>
+    <string name="sugest_update_message">Nova actualización dispoñible en Google Play, actualiza a túa versión</string>
+    <string name="force_update_title">Actualización dispoñible</string>
+    <string name="force_update_message">Nova actualización dispoñible en Google Play, actualiza a túa versión</string>
+    <string name="update_ok">Actualizar</string>
+    <string name="update_no">Agora non</string>
+    <string name="app_name">#Mensaxes</string>
+    <string name="in_app_name">Mensaxes</string>
+    <string name="splash_app_name">Mensaxes SMS</string>
+    <string name="loading_msg">Por favor, agarda...</string>
+    <string name="ads_loading_msg">Amosando publicidade...</string>
+    <string name="shortcut_compose_long_label">Nova conversa</string>
+    <string name="shortcut_compose_short_label">Redactar</string>
+    <string name="shortcut_compose_disabled_message">Acceso directo desactivado</string>
+    <string name="title_archived">Mensaxes Arquivados</string>
+    <string name="title_settings">Axustes</string>
+    <string name="title_notification_prefs">Notificacións</string>
+    <string name="title_theme">Tema</string>
+    <string name="title_conversations">Buscar números, nomes e máis</string>
+    <string name="title_compose">Escribe un nome ou número de teléfono</string>
+    <string name="setup_skip">Saltar</string>
+    <string name="setup_next">Continuar</string>
+    <string name="menu_add_person">Engadir persoa</string>
+    <string name="menu_call">Chamar</string>
+    <string name="menu_info">Detalles</string>
+    <string name="menu_save">Gardar na galería</string>
+    <string name="menu_share">Compartir</string>
+    <string name="main_drawer_open_cd">Abrir o panel de navegación</string>
+    <string name="main_title_selected">%d seleccionados</string>
+    <string name="main_menu_clear">Limpar</string>
+    <string name="main_menu_archive">Arquivar</string>
+    <string name="main_menu_unarchive">Desarquivar</string>
+    <string name="main_menu_delete">Eliminar</string>
+    <string name="main_menu_add_contact">Engadir a contactos</string>
+    <string name="main_menu_pin">Fixar ao inicio</string>
+    <string name="main_menu_unpin">Desfixar</string>
+    <string name="main_menu_read">Marcar como lido</string>
+    <string name="main_menu_unread">Marcar como non lido</string>
+    <string name="select_all">Seleccionar todo</string>
+    <string name="deselect_all">Desmarcar todo</string>
+    <string name="main_menu_block">Bloquear</string>
+    <string name="main_syncing">Organizando mensaxes...</string>
+    <string name="main_sender_you">Ti: %s</string>
+    <string name="main_draft">Borrador: %s</string>
+    <string name="main_message_results_title">Resultados en mensaxes</string>
+    <string name="main_message_results">%d mensaxes</string>
+    <string name="inbox_empty_text">As túas conversas aparecerán aquí</string>
+    <string name="inbox_search_empty_text">Sen resultados</string>
+    <string name="archived_empty_text">Aínda non hai conversas arquivadas...</string>
+    <string name="main_fab_cd">Iniciar nova conversa</string>
+    <string name="main_default_sms_title">¿Queres usar Mensaxes?</string>
+    <string name="main_default_sms_message">Fai da aplicación Mensaxes a túa aplicación de mensaxes predeterminada</string>
+    <string name="main_default_sms_change">Cambiar</string>
+    <string name="main_permission_required">Permiso necesario</string>
+    <string name="main_permission_sms">Mensaxes necesita permiso para enviar e ver mensaxes SMS</string>
+    <string name="main_permission_contacts">Mensaxes necesita permiso para ver os teus contactos</string>
+    <string name="main_permission_allow">Permitir</string>
+    <string name="main_permission_allow_read">Permitir lectura e escritura</string>
+    <string name="drawer_inbox">Bandexa de entrada</string>
+    <string name="drawer_archived">Arquivado</string>
+    <string name="drawer_scheduled">Mensaxe programada</string>
+    <string name="drawer_blocking">Lista de bloqueo</string>
+    <string name="drawer_calldorado">Axustes do chamador</string>
+    <string name="drawer_more">Máis</string>
+    <string name="drawer_group">Mensaxe de grupo</string>
+    <string name="drawer_settings">Axustes</string>
+    <string name="drawer_remove_ads">Eliminar publicidade</string>
+    <string name="drawer_help">Axuda e comentarios</string>
+    <string name="drawer_invite">Invitar amigos</string>
+    <string name="dialog_delete_title">Eliminar</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Estás seguro de que desexas eliminar esta conversa?</item>
+        <item quantity="other">Estás seguro de que desexas eliminar %d conversas?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Copiar texto</item>
+        <item>Reenviar</item>
+        <item>Eliminar</item>
+    </string-array>
+    <string name="compose_number_picker_title">Escolle un número de teléfono</string>
+    <string name="compose_number_picker_default">%s ∙ Predefinido</string>
+    <string name="compose_number_picker_once">Só unha vez</string>
+    <string name="compose_number_picker_always">Sempre</string>
+    <string name="compose_title_selected">%d seleccionados</string>
+    <string name="compose_subtitle_results">%1$d de %2$d resultados</string>
+    <string name="contact_selected">%1$d de %2$d Seleccionados</string>
+    <string name="compose_send_group_title">Enviar como mensaxe de grupo</string>
+    <string name="compose_send_group_summary">Os destinatarios e as respostas serán visibles para todos</string>
+    <string name="compose_messages_empty">Comezo da túa conversa. Di algo estupendo!</string>
+    <string name="compose_vcard_label">Tarxeta de contacto</string>
+    <string name="compose_scheduled_for">Programado para</string>
+    <string name="compose_scheduled_future"> o tempo debe ser no futuro!</string>
+    <string name="compose_scheduled_toast">Engadido ás mensaxes programadas</string>
+    <string name="compose_hint">Escribe aquí…</string>
+    <string name="compose_menu_copy">Copiar texto</string>
+    <string name="compose_menu_forward">Reenviar</string>
+    <string name="compose_menu_delete">Eliminar</string>
+    <string name="compose_menu_previous">Anterior</string>
+    <string name="compose_menu_next">Seguinte</string>
+    <string name="compose_menu_clear">Limpar</string>
+    <string name="compose_details_title">Detalles da mensaxe</string>
+    <string name="compose_details_type">Tipo: %s</string>
+    <string name="compose_details_from">De: %s</string>
+    <string name="compose_details_to">Para: %s</string>
+    <string name="compose_details_subject">Asunto: %s</string>
+    <string name="compose_details_priority">Prioridade: %s</string>
+    <string name="compose_details_size">Tamaño: %s</string>
+    <string name="compose_details_sent">Enviado: %s</string>
+    <string name="compose_details_received">Recibido: %s</string>
+    <string name="compose_details_delivered">Entregado: %s</string>
+    <string name="compose_details_error_code">Código de erro: %d</string>
+    <string name="compose_attach_cd">Engadir un anexo</string>
+    <string name="compose_gallery_cd">Anexar unha foto</string>
+    <string name="compose_camera_cd">Facer unha foto</string>
+    <string name="compose_schedule_cd">Programar mensaxe</string>
+    <string name="compose_contact_cd">Anexar un contacto</string>
+    <string name="compose_contact_error">Erro ao ler o contacto</string>
+    <string name="compose_sim_cd">%s seleccionado, cambiar tarxeta SIM</string>
+    <string name="compose_send_cd">Enviar mensaxe</string>
+    <string name="message_status_sending">Enviando…</string>
+    <string name="message_status_delivered">Entregado %s</string>
+    <string name="message_status_failed">Non se puido enviar</string>
+    <string name="info_title">Detalles do contacto</string>
+    <string name="info_copied_address">Enderezo copiado</string>
+    <string name="info_name">Título da conversa</string>
+    <string name="info_notifications">Notificacións</string>
+    <string name="info_theme">Tema</string>
+    <string name="info_archive">Arquivo</string>
+    <string name="info_unarchive">Desarquivar</string>
+    <string name="info_block">Bloquear</string>
+    <string name="info_unblock">Desbloquear</string>
+    <string name="info_delete">Eliminar conversa</string>
+    <string name="gallery_error">Non se puido cargar o medio</string>
+    <string name="gallery_toast_saved">Gardado na galería</string>
+    <string name="backup_title">Copia de seguridade e restauración</string>
+    <string name="backup_backing_up">Realizando copia de seguridade das mensaxes</string>
+    <string name="backup_restoring">Restaurando desde a copia de seguridade</string>
+    <string name="backup_last">Última copia de seguridade</string>
+    <string name="backup_loading">Cargando…</string>
+    <string name="backup_never">Nunca</string>
+    <string name="backup_restore_title">Restaurar</string>
+    <string name="backup_restore_summary">Selecciona unha copia de seguridade</string>
+    <string name="backup_restore_error_plus">Por favor, desbloquea SMS+ para usar a copia de seguridade e restauración</string>
+    <string name="backup_restore_error_backup">Copia de seguridade en progreso…</string>
+    <string name="backup_restore_error_restore">Restauración en progreso…</string>
+    <string name="backup_restore_confirm_title">Restaurar desde a copia de seguridade</string>
+    <string name="backup_restore_confirm_message">Estás seguro de que desexas restaurar as túas mensaxes desta copia de seguridade?</string>
+    <string name="backup_restore_stop_title">Parar restauración</string>
+    <string name="backup_restore_stop_message">As mensaxes que xa foron restauradas permanecerán no teu dispositivo</string>
+    <string name="backup_restore_dialog_title">Copias de seguridade</string>
+    <string name="backup_restore_dialog_summary">/Mensaxes SMS/Copias de seguridade</string>
+    <string name="backup_restore_dialog_empty">Non se atoparon copias de seguridade</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">Sen mensaxes</item>
+        <item quantity="one">%d mensaxe</item>
+        <item quantity="other">%d mensaxes</item>
+    </plurals>
+    <string name="backup_disclaimer">Ata agora, só admitimos copia de seguridade e restauración de SMS!</string>
+    <string name="backup_now">Copia de seguridade</string>
+    <string name="backup_progress_parsing">Analizando a copia de seguridade…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d mensaxes</string>
+    <string name="backup_progress_saving">Gardando a copia de seguridade…</string>
+    <string name="backup_progress_syncing">Sincronizando mensaxes…</string>
+    <string name="backup_progress_finished">Rematado!</string>
+    <string name="backup_notification_channel_name">Copia de seguridade e restauración</string>
+    <string name="Message_notification_channel_name">Sincronización de mensaxes</string>
+    <string name="scheduled_title">Programadas</string>
+    <string name="schedule_guide">Podes programar mensaxes facendo clic no botón de engadir que aparece na pantalla de conversa de mensaxes.</string>
+    <string name="scheduled_empty_description">Envía automaticamente unha mensaxe, no momento exacto que desexes</string>
+    <string name="scheduled_empty_message_1">Ola! Cando é o momento de celebrar?</string>
+    <string name="scheduled_empty_message_2">É o 5 de marzo </string>
+    <string name="scheduled_empty_message_3">Olaaa! Mira que gran amigo/a son, a celebrar o teu día</string>
+    <string name="scheduled_empty_message_3_timestamp">Enviando o 5 de marzo</string>
+    <string name="scheduled_compose_cd">Programar unha mensaxe</string>
+    <string name="scheduled_options_title">Mensaxe programada</string>
+    <string-array name="scheduled_options">
+        <item>Enviar agora</item>
+        <item>Copiar texto</item>
+        <item>Eliminar</item>
+    </string-array>
+    <string name="settings_category_appearance">Aparencia</string>
+    <string name="settings_category_general">Xeral</string>
+    <string name="settings_categoryreply">Responder</string>
+    <string name="settings_night_title">Modo noite</string>
+    <string name="settings_text_size_title">Tamaño da fonte</string>
+    <string name="settings_notifications_title">Notificacións</string>
+    <string name="settings_notifications_o_summary">Toque para personalizar</string>
+    <string name="settings_notification_actions_title">Accións</string>
+    <string name="settings_notification_action_1">Botón 1</string>
+    <string name="settings_notification_action_2">Botón 2</string>
+    <string name="settings_notification_action_3">Botón 3</string>
+    <string name="settings_notification_previews_title">Previsualizacións das notificacións</string>
+    <string name="settings_notification_wake_title">Despertar pantalla</string>
+    <string name="settings_vibration_title">Vibración</string>
+    <string name="settings_ringtone_title">Son</string>
+    <string name="settings_ringtone_none">Ningún</string>
+    <string name="settings_reply_title">Responder</string>
+    <string name="settings_reply_summary">Ventá para novas mensaxes</string>
+    <string name="settings_reply_tap_dismiss_title">Toque para pechar</string>
+    <string name="settings_reply_tap_dismiss_summary">Toque fóra da ventá para pechala</string>
+    <string name="settings_swipe_actions">Accións de desprazamento</string>
+    <string name="settings_swipe_actions_right">Desprazamento á dereita</string>
+    <string name="settings_swipe_actions_left">Desprazamento á esquerda</string>
+    <string name="settings_swipe_actions_change">CAMBIO</string>
+    <string name="not_now_txt">Agora non</string>
+    <string name="process_title">Este proceso vai \ndemorar algún tempo</string>
+    <string name="syncing_done">Sincronización de mensaxes rematada…</string>
+    <string name="all_set_txt">Todo listo. Estás listo para continuar</string>
+    <string name="Personal">Todas as mensaxes</string>
+    <string name="Other">Coñecidas</string>
+    <string name="Spam">Lixo</string>
+    <string name="setting">Axustes</string>
+    <string name="Share">Compartir</string>
+    <string name="Rate">Valóranos</string>
+    <string name="edit">editar</string>
+    <string name="DarkMode">Modo escuro</string>
+    <string name="BrightMode">Modo brillante</string>
+    <string name="Camera">Cámara</string>
+    <string name="Gallery">Galería</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">Contacto</string>
+    <string name="Schedule">Programar</string>
+    <string name="Location">Localización</string>
+    <string name="Notes">Notas</string>
+    <string name="no_msg">Aínda non hai mensaxes…</string>
+    <string name="Start_Chat">Iniciar conversa</string>
+    <string name="Language">Idioma</string>
+    <string name="rate_text">Recoméndanos a outros valorándonos na Play Store!</string>
+    <string name="sort_by">Ordenar por</string>
+    <string-array name="settings_swipe_actions">
+        <item>Ningún</item>
+        <item>Arquivar</item>
+        <item>Eliminar</item>
+        <item>Chamar</item>
+        <item>Marcar como lido</item>
+        <item>Marcar como non lido</item>
+    </string-array>
+    <string name="settings_mms_size_title">Auto-comprimir os anexos de MMS</string>
+    <string name="settings_sync_title">Sincronizar mensaxes</string>
+    <string name="settings_sync_summary">Volve a sincronizar as túas mensaxes coa base de datos de SMS nativa de Android</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Control de chamadas</string>
+    <string name="blocking_manager_sia_title">Debo responder?</string>
+    <string name="blocked_messages_title">Mensaxes bloqueadas</string>
+    <string name="blocked_messages_empty">As túas mensaxes bloqueadas aparecerán aquí</string>
+    <string name="blocking_block_title">Bloquear</string>
+    <string name="blocking_unblock_title">Desbloquear</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">Continuar en %s e bloquear este número</item>
+        <item quantity="other">Continuar en %s e bloquear estes números</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">Continuar en %s e permitir este número</item>
+        <item quantity="other">Continuar en %s e permitir estes números</item>
+    </plurals>
+    <string name="widget_loading">Cargando…</string>
+    <string name="widget_more">Ver máis conversas</string>
+    <string name="qkreply_menu_read">Marcar como lido</string>
+    <string name="qkreply_menu_call">Chamar</string>
+    <string name="qkreply_menu_delete">Eliminar</string>
+    <string name="qkreply_menu_expand">Mostrar máis</string>
+    <string name="qkreply_menu_collapse">Mostrar menos</string>
+    <string name="qkreply_menu_view">Abrir conversa</string>
+    <string name="changelog_title">Novo en SMS</string>
+    <string name="changelog_version">Versión %s</string>
+    <string name="changelog_added">Engadido</string>
+    <string name="changelog_improved">Mellorado</string>
+    <string name="changelog_fixed">Corrixido</string>
+    <string name="changelog_more">Máis</string>
+    <string name="changelog_dismiss">Descartar</string>
+    <string-array name="notification_actions">
+        <item>Ningún</item>
+        <item>Marcar como lido</item>
+        <item>Responder</item>
+        <item>Chamar</item>
+        <item>Eliminar</item>
+    </string-array>
+    <string name="button_yes">Sí</string>
+    <string name="button_continue">Continuar</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_delete">Eliminar</string>
+    <string name="button_save">Gardar</string>
+    <string name="button_stop">Parar</string>
+    <string name="button_more">Máis</string>
+    <string name="button_set">Establecer</string>
+    <string name="button_undo">Desfacer</string>
+    <string name="toast_copied">Copiado</string>
+    <string name="toast_archived">Conversa arquivada</string>
+    <string name="toast_sms_plus">Tes que desbloquear SMS+ para usar isto</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Nova mensaxe</item>
+        <item quantity="other">%s mensaxes novas</item>
+    </plurals>
+    <string name="notification_message_failed_title">Mensaxe non enviada</string>
+    <string name="notification_message_failed_text">A mensaxe para %s non puido ser enviada</string>
+    <string name="privacy_policy">Política de privacidade</string>
+    <string name="pocket_data_on">Os datos de bolsillo deben estar activados ao enviar MMS !</string>
+    <string name="inapp_details" translatable="false">Para eliminar anuncios, proba a subscrición premium con soporte para modo escuro-claro\nSoporte para SMS programados.</string>
+    <string name="drawer_removeAds">Eliminar anuncios</string>
+    <string name="in_app_ads">mensaxes_rad</string>
+    <string name="dialog_delete_message">Estás seguro de que queres eliminar esta mensaxe?</string>
+    <string name="compose_bar_not_support">O remitente non admite respostas</string>
+    <string name="default_name">Para enviar ou recibir un SMS, debes configuralo como a aplicación predeterminada. Queres que a mensaxe se converta na túa aplicación predeterminada?</string>
+    <string name="confirm_delete">Confirmar Eliminación</string>
+    <string name="confirm_delete_text">Estás seguro de que queres eliminar esta nota?</string>
+    <string name="title">Título</string>
+    <string name="note">Nota</string>
+    <string name="search">Buscar</string>
+    <string name="settings">Axustes</string>
+    <string name="share_to">Compartir en:</string>
+    <string name="sort">Ordenar</string>
+    <string name="empty_list_text">Preme o botón na parte inferior dereita para engadir unha nova nota!</string>
+    <string name="new_note">Nova nota</string>
+    <string name="undo">Desfacer</string>
+    <string name="delete">Eliminar</string>
+    <string name="exception">Excepción:</string>
+    <string name="edit_note">Editar nota</string>
+    <string name="drawer_feedback">Enviar comentarios</string>
+    <string name="drawer_mode">Modo claro</string>
+    <string name="unlimited_access_user">Aceso ilimitado a Todas as Funcionalidades</string>
+    <string name="pro_user">És usuario Premium</string>
+    <string name="sub_info_text"><b>A subscrición renova automaticamente ata que a desactives.</b></string>
+    <string name="cancel_purchase">Podes cancelar a renovación automática da subscrición en Subscricións en Google Play</string>
+    <string name="remove_ads">Eliminar anuncios</string>
+    <string name="no_ads">Sen anuncios</string>
+    <string name="free_trial">Proba gratuíta de 7 días, despois renova automáticamente</string>
+    <string name="can_not_talk_right_now">Desculpa, non podo falar agora</string>
+    <string name="can_call_you_later">Podo chamarche máis tarde?</string>
+    <string name="i_am_on_my_way">Estou a camiño</string>
+    <string name="write_personal_message">Escribir mensaxe persoal</string>
+    <string name="create_reminder">Crear recordatorio novo</string>
+    <string name="remind_me_about">Recordar sobre</string>
+    <string name="no_title">Sen título</string>
+    <string name="edit_contact">Editar contacto</string>
+    <string name="add_contact">Engadir contacto</string>
+    <string name="messages">Mensaxes</string>
+    <string name="send_mail">Enviar correo</string>
+    <string name="calendar">Calendario</string>
+    <string name="web">Web</string>
+    <string-array name="night_modes">
+        <item>Sistema</item>
+        <item>Modo claro</item>
+        <item>Modo escuro</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>Mostrar nome e mensaxe</item>
+        <item>Mostrar nome</item>
+        <item>Ocultar contidos</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>Pequeno</item>
+        <item>Normal</item>
+        <item>Grande</item>
+        <item>Maior</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>Sin demora</item>
+        <item>Corta</item>
+        <item>Mediana</item>
+        <item>Larga</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Automático</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>Sin compresión</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>Vale</item>
+        <item>Dame un momento</item>
+        <item>Estou a camiño</item>
+        <item>Grazas</item>
+        <item>Parece ben</item>
+        <item>Que pasa?</item>
+        <item>De acordo</item>
+        <item>Non</item>
+        <item>Amocheite</item>
+        <item>Desculpa</item>
+        <item>LOL</item>
+        <item>Está ben</item>
+    </string-array>
+    <string name="default_title">Permitir que a aplicación de SMS sexa a aplicación predeterminada</string>
+    <string name="set_as_defaault">Establecer como predeterminada</string>
+    <string name="love_app_title">Fai da aplicación SMS a túa aplicación de SMS predeterminada</string>
+    <string-array name="gif">
+        <item>Cara de animal</item>
+        <item>Emoji</item>
+        <item>Frutas e verduras</item>
+        <item>Halloween</item>
+        <item>Amor</item>
+    </string-array>
+    <string name="Sticker">Pegatina</string>
+    <string name="no_connection">Sen conexión a Internet.</string>
+    <string-array name="sticker">
+        <item>Rapaz</item>
+        <item>Caricatura</item>
+        <item>Cara</item>
+        <item>Festival</item>
+        <item>Fruta</item>
+        <item>Diversión</item>
+        <item>Rapaza</item>
+        <item>Pegatina de amor</item>
+        <item>Outros</item>
+        <item>Cachorro</item>
+    </string-array>
+    <string name="open_link_to_browser">Abrir enlace no navegador</string>
+    <string name="battery_dialog">Non queres perder mensaxes importantes? \n
+Desactiva a optimización da batería</string>
+    <string name="reason_to_change_battery_optimization_setting">Navega a Información da aplicación &gt; Avanzado &gt; Optimización da batería \ne selecciona ‘Non optimizar’</string>
+    <string name="feedback_txt">Contanos a túa experiencia e dádenos suxestións para mellorar a aplicación de Mensaxes.</string>
+    <string name="reason_to_change_battery">Avanzado &gt; Optimización da batería &gt; ‘Non optimizar’</string>
+    <string name="drawer_transaction">Transaccións</string>
+    <string name="drawer_promotion">Promocións</string>
+    <string name="unknown">Descoñecido</string>
+    <string name="priva"><u>Política de privacidade</u></string>
+    <string name="smsfilter">Filtro de SMS</string>
+    <string name="by_click_t_c" translatable="false"><u>Ao clicar aceptas os nosos Termos e Condições.</u></string>
+    <string name="continue_without_sub"><u>Continuar sen subscrición</u></string>
+    <string name="text_free_trial">Disfruta do <b>Ensaio gratuíto</b> de X días - Despois X € / mes</string>
+    <string name="calldorado_message">Comproba todos os teus <b>mensaxes</b> antes de finalizar a chamada! Hai novidades</string>
+    <string name="privacy_terms_description">Ao continuar, aceptas e aprobas os termos de uso e a política de privacidade.</string>
+    <string name="draw_over_description"><![CDATA[Para mostrarse por enriba doutras aplicacións as nosas mensaxes de SMS. Recibe todo o potencial dos nosos widgets de chamada e máis]]></string>
+    <string name="ad_label">PUBLICIDADE</string>
+    <string name="onboarding_continue_button">Continuar</string>
+    <string name="onboarding_step_1_title">Xestor de SMS e Messenger</string>
+    <string name="onboarding_step_1_subtitle">Conversa con amigos, crea grupos e organiza a túa bandeixa de entrada</string>
+    <string name="onboarding_step_1_hight_light">Enfoque único para ti</string>
+    <string name="onboarding_step_2_title">Organiza e almacena mensaxes</string>
+    <string name="onboarding_step_2_subtitle">Fai copias de seguridade e restaura as túas mensaxes</string>
+    <string name="onboarding_step_2_hight_light">Miles de usuarios como ti</string>
+    <string name="onboarding_step_3_title">Goza da vida e deixa que nós coidemos da túa bandeixa de entrada</string>
+    <string name="onboarding_step_3_subtitle">Acepta os permisos para que poidamos axudarche a xestionar a túa bandeixa de entrada.</string>
+    <string name="onboarding_step_3_hight_light">Quizais máis tarde</string>
+    <string name="onboarding_allow_access_button">Permitir acceso</string>
+    <string name="onboarding_step_4_title">Mellora a túa batería deixándonos facer o traballo</string>
+    <string name="onboarding_step_4_subtitle">Coidaremos das interrupcións molestas dos SMS por ti.</string>
+    <string name="onboarding_step_4_hight_light">Miles de usuarios como ti</string>
+    <string name="onboarding_step_5_title">Traballa en pantalla dividida noutras aplicacións mentres chateas</string>
+    <string name="onboarding_step_5_subtitle">Goza do noso widget de chamada increíble que che permite facer multitarefa</string>
+    <string name="onboarding_step_5_hight_light">Miles de usuarios como ti</string>
+    <string name="payment_card_title">Chatea xa!</string>
+    <string name="payment_card_price"><![CDATA[3 días gratuítos, %s / %s]]></string>
+    <string name="payment_card_button">Probe agora de balde</string>
+    <string name="payment_card_hight_light">Segurado con Play Store</string>
+    <string name="payment_card_weekly">semanal</string>
+    <string name="payment_card_monthly">mensual</string>
+    <string name="payment_card_yearly">anual</string>
+    <string name="payment_card_auto_renew">subscrición auto renovable, cancela cando queiras</string>
+    <string name="accessibility_service_description">A súa descrición do servizo de accesibilidade</string>
+    <string name="permission_txt"><font color="#FF8A00">Permiso necesario:</font>\nLer o estado do teléfono e  Superpóñer sobre outras aplicacións</string>
+    <string name="opt_privacy">Ao continuar, aceptas e aprobas os termos de uso e a política de privacidade.</string>
+    <string name="permission_required">Permisos necesarios</string>
+    <string name="permission_dialog_body">Esta aplicación pode non funcionar correctamente sen o permiso do teléfono. Segue as instrucións a continuación para habilitalo:\n\n1. Seleccione "Permisos"\n2. Atopa "Teléfono" na lista de permisos e toque para habilitar</string>
+    <string name="go_premium">Conviértete en <font color = "#FFE600">Premium!</font></string>
+    <string name="unlock_everything">Desbloquear todo e sen publicidade</string>
+    <string name="start_three_day">Comeza a prueba gratuíta de 3 días</string>
+    <string name="pro">Pro</string>
+    <string name="more_option">Máis opcións</string>
+    <string name="rate_us_5">Púñanos 5 estrelas</string>
+    <string name="help_feedback">Axuda e comentarios</string>
+    <string name="send_message">Enviar mensaxe</string>
+    <string name="CTA_Button_Text">Toca para desbloquear todas as <font color="#FFFBCD04">funcionalidades</font></string>
+
+</resources>

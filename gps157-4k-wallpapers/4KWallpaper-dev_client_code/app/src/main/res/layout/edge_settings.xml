@@ -1,0 +1,360 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/my_background">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_bar"
+        android:layout_above="@+id/AdContainer1"
+        android:orientation="vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="8dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txt_review"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:background="@drawable/bgcolorred"
+                        android:gravity="center"
+                        android:fontFamily="@font/baloobhai"
+                        android:paddingLeft="12dp"
+                        android:paddingRight="12dp"
+                        android:text="@string/deactivate_border"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/ll_border"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:background="@drawable/settings_border"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/_10sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/_7sdp"
+                            android:src="@mipmap/cycle_speed"
+                            app:tint="?attr/my_textColor" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:text="@string/cycle_speed"
+                                android:fontFamily="@font/baloobhai"
+                                android:textColor="?attr/my_textColor"
+                                android:textSize="16sp" />
+
+                            <SeekBar
+                                android:id="@+id/seekBarSpeed"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:max="20"
+                                android:progress="10"
+                                android:progressBackgroundTint="?attr/my_textColor"
+                                android:progressTint="?attr/my_textColor"
+                                android:thumbTint="?attr/my_textColor" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/_7sdp"
+                            android:src="@mipmap/border_size"
+                            app:tint="?attr/my_textColor" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:text="@string/border_size"
+                                android:fontFamily="@font/baloobhai"
+                                android:textColor="?attr/my_textColor"
+                                android:textSize="16sp" />
+
+                            <SeekBar
+                                android:id="@+id/seekBarBorderSize"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:max="60"
+                                android:progressBackgroundTint="?attr/my_textColor"
+                                android:progressTint="?attr/my_textColor"
+                                android:thumbTint="?attr/my_textColor" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/_7sdp"
+                            android:src="@mipmap/bottom"
+                            app:tint="?attr/my_textColor" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:fontFamily="@font/baloobhai"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:text="@string/border_b_radius"
+                                android:textColor="?attr/my_textColor"
+                                android:textSize="16sp" />
+
+                            <SeekBar
+                                android:id="@+id/seekBarRadiusBottom"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:max="180"
+                                android:progressBackgroundTint="?attr/my_textColor"
+                                android:progressTint="?attr/my_textColor"
+                                android:thumbTint="?attr/my_textColor" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/_7sdp"
+                            android:src="@mipmap/top"
+                            app:tint="?attr/my_textColor" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:fontFamily="@font/baloobhai"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:text="@string/border_top_radius"
+                                android:textColor="?attr/my_textColor"
+                                android:textSize="16sp" />
+
+                            <SeekBar
+                                android:id="@+id/seekBarRadiusTop"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:max="180"
+                                android:progressBackgroundTint="?attr/my_textColor"
+                                android:progressTint="?attr/my_textColor"
+                                android:thumbTint="?attr/my_textColor" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginLeft="@dimen/_7sdp"
+                            android:src="@mipmap/ic_border"
+                            app:tint="?attr/my_textColor" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:text="@string/select_border"
+                                android:fontFamily="@font/baloobhai"
+                                android:textColor="?attr/my_textColor"
+                                android:textSize="16sp" />
+
+                            <RadioGroup
+                                android:id="@+id/radioBorder"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/radioline"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:fontFamily="@font/baloobhai"
+                                    android:text="@string/simple_line"
+                                    android:textColor="?attr/my_textColor" />
+
+                                <RadioButton
+                                    android:fontFamily="@font/baloobhai"
+                                    android:id="@+id/radioDash"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/dash_line"
+                                    android:textColor="?attr/my_textColor" />
+                            </RadioGroup>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/switchNotch"
+                        android:fontFamily="@font/baloobhai"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:buttonTint="?attr/my_textColor"
+                        android:text="@string/notch"
+                        android:textColor="?attr/my_textColor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/showNotchSettings"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/settings_border1"
+                        android:gravity="center"
+                        android:text="@string/show_notch_Setting"
+                        android:textColor="?attr/my_textColor"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/baloobhai"
+                        android:visibility="visible" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/switchImage"
+                        android:fontFamily="@font/baloobhai"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:buttonTint="?attr/my_textColor"
+                        android:text="@string/backimg"
+                        android:textColor="?attr/my_textColor"
+                        android:textSize="18sp"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/showImageSettings"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:fontFamily="@font/baloobhai"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/settings_border1"
+                        android:gravity="center"
+                        android:text="@string/back_img_setting"
+                        android:textColor="?attr/my_textColor"
+                        android:textSize="16sp"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/AdContainer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+    </FrameLayout>
+
+</RelativeLayout>

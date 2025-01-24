@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_paywall_premium">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_close"
+        android:layout_width="19dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:background="@drawable/button_close"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.28" />
+
+
+    <TextView
+        android:id="@+id/tv_onboarding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:fontFamily="@font/arial_bold"
+        android:text="FULL ACCESS"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="@dimen/subs_title_text_size"
+        app:layout_constraintBottom_toTopOf="@id/tv_free_try"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!--android:text="Enjoy a 3 Day Free Trial - Then [price] / [period]"-->
+
+    <TextView
+        android:id="@+id/tv_free_try"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="36dp"
+        android:fontFamily="@font/arial_bold"
+        android:scrollbars="vertical"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@id/tv_features1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_features1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/arial_bold"
+        android:text="• Unlimited routes &amp; location"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="@dimen/subs_features_text_size"
+        app:layout_constraintBottom_toTopOf="@+id/tv_features2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_features3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/arial_bold"
+        android:text="• Get rid of ads"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="@dimen/subs_features_text_size"
+        app:layout_constraintBottom_toTopOf="@+id/tv_features4"
+        app:layout_constraintStart_toStartOf="@+id/tv_features1" />
+
+    <TextView
+        android:id="@+id/tv_features4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginBottom="36dp"
+        android:fontFamily="@font/arial_bold"
+        android:text="• Add multiple steps in your route"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="@dimen/subs_features_text_size"
+        app:layout_constraintBottom_toTopOf="@+id/tv_continue_ad"
+        app:layout_constraintStart_toStartOf="@+id/tv_features1" />
+
+
+    <TextView
+        android:id="@+id/tv_features2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/arial_bold"
+        android:text="• Daily routes and optimization"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="@dimen/subs_features_text_size"
+        app:layout_constraintBottom_toTopOf="@+id/tv_features3"
+        app:layout_constraintStart_toStartOf="@+id/tv_features1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tv_continue_ad"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginHorizontal="45dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bg_onboarding_button"
+        android:elevation="@dimen/_10sdp"
+        android:fontFamily="@font/arial_bold"
+        android:text="Continue To Trial"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="@dimen/subs_button_text"
+        app:layout_constraintBottom_toTopOf="@+id/btn_subscribe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_subscribe"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/bg_subscribe_button"
+        android:elevation="@dimen/_10sdp"
+        android:fontFamily="@font/arial_bold"
+        android:paddingHorizontal="@dimen/_7sdp"
+        android:text="Subscribe monthly"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/subs_button_text"
+        app:layout_constraintBottom_toTopOf="@+id/tv_cancel_time"
+        app:layout_constraintEnd_toEndOf="@+id/tv_continue_ad"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_continue_ad" />
+
+    <TextView
+        android:id="@+id/tv_cancel_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/arial_normal"
+        android:text="Cancel anytime at least 24 hours before renewal."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_privacy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/tv_privacy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/arial_bold"
+        android:foreground="?attr/selectableItemBackground"
+        android:maxLines="2"
+        android:text="Privacy Policies"
+        android:textColor="#CED3F2"
+        android:textSize="12sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_vertical"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_terms"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/arial_bold"
+        android:foreground="?attr/selectableItemBackground"
+        android:paddingRight="@dimen/_5sdp"
+        android:text="Terms &amp; Conditions"
+        android:textAlignment="textEnd"
+        android:textColor="#CED3F2"
+        android:textSize="12sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/guideline_vertical" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

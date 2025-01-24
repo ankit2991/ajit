@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AdsManager</string>
+    <string name="ad_attribution">Advertisement</string>
+    <string name="ad_sponsored">Sponsored</string>
+    <string name="ad_sponsored_list">AD</string>
+    <string name="test">Speak and Translate in real time with exact translation and </string>
+    <string name="test_sub">Speak and Translate </string>
+
+    <string name="facebook_app_id">263837012245991</string>
+    <string name="fb_login_protocol_scheme">fb263837012245991</string>
+</resources>

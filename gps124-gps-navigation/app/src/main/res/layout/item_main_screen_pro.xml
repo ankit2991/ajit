@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="@dimen/_2sdp"
+    app:cardElevation="@dimen/_2sdp"
+    app:cardMaxElevation="@dimen/_2sdp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/ivAdIcon"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginStart="@dimen/_13sdp"
+            android:layout_marginTop="@dimen/_13sdp"
+            android:src="@drawable/ic_main_screen_pro"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/tvAdTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:fontFamily="sans-serif"
+            android:gravity="start"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingEnd="@dimen/_15sdp"
+            android:singleLine="true"
+            android:text="@string/block_ads"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ivAdIcon"
+            app:layout_constraintTop_toTopOf="@+id/ivAdIcon"
+            app:layout_goneMarginTop="@dimen/_27sdp" />
+
+        <TextView
+            android:id="@+id/tvAdBody"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:fontFamily="sans-serif"
+            android:gravity="start"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingEnd="@dimen/_15sdp"
+            android:text="@string/gps_navigation_is_supported_by_ads"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tvAdTitle"
+            app:layout_constraintTop_toBottomOf="@+id/tvAdTitle" />
+
+
+        <Button
+            android:id="@+id/btnAdCallToAction"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_38sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_13sdp"
+            android:background="@drawable/bg_rounded_green_5sdp"
+            android:gravity="center"
+            android:text="@string/get_pro_now"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvAdBody"
+            app:layout_constraintWidth_percent="0.9" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

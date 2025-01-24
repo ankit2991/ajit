@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+        <ImageView
+            android:id="@+id/fragment_fab"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="bottom|end"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginRight="@dimen/_18sdp"
+            android:src="@drawable/ic_add_black_24dp"
+            android:visibility="visible"
+
+            app:tint="@color/tools_theme" />
+
+        <com.messaging.textrasms.manager.common.util.CustomFontTextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cancel"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:padding="@dimen/_5sdp"
+            android:text="SMS Filters"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="@dimen/_22sdp"
+            app:customFont="@string/roboto_bold" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/title"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:background="#A19E9E" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="fill"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:elevation="0dp"
+            app:tabIndicatorHeight="0dp"
+            app:tabTextColor="#373535" />
+
+        <!--        </com.google.android.material.appbar.AppBarLayout>-->
+
+        <include
+            android:id="@+id/contentView"
+            layout="@layout/content_main" />
+    </LinearLayout>
+    <!--    </androidx.coordinatorlayout.widget.CoordinatorLayout>-->
+</layout>

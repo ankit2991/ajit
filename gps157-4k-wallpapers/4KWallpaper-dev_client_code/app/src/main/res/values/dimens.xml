@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+     Copyright (c) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <dimen name="value_1">1dp</dimen>
+    <dimen name="value_5">5dp</dimen>
+    <dimen name="value_8">8dp</dimen>
+    <dimen name="value_10">10dp</dimen>
+    <dimen name="value_12">12dp</dimen>
+    <dimen name="font_16">16dp</dimen>
+    <dimen name="setting_img_margin">12dp</dimen>
+    <dimen name="_15sdp">15.00dp</dimen>
+    <dimen name="small_text_size">11sp</dimen>
+    <dimen name="_20sdp">20.00dp</dimen>
+    <dimen name="large_text_size">18sp</dimen>
+    <dimen name="small_text_size66">6sp</dimen>
+    <dimen name="medium_text_size">16sp</dimen>
+    <dimen name="category_title_text_size">13sp</dimen>
+    <dimen name="dialog_padding">12dp</dimen>
+    <dimen name="dialog_margin_top">20dp</dimen>
+    <dimen name="dialog_title_size">20sp</dimen>
+    <dimen name="dialog_subtitle_size">16sp</dimen>
+    <dimen name="dialog_padding_left_right">20dp</dimen>
+    <dimen name="dialog_padding_top_bottom">6.67dp</dimen>
+    <dimen name="dialog_button_size">14sp</dimen>
+    <dimen name="hungama_progress_bar_bottom_new">33dp</dimen>
+    <dimen name="hungama_progress_bar_bottom_centre">40dp</dimen>
+    <dimen name="setting_height">65dp</dimen>
+    <dimen name="setting_img_height">24dp</dimen>
+    <dimen name="setting_img_w">24dp</dimen>
+    <dimen name="setting_row_w_height">16dp</dimen>
+    <dimen name="setting_text_size">16sp</dimen>
+    <dimen name="content_padding">10dp</dimen>
+    <dimen name="content_padding_recycle">2dp</dimen>
+    <dimen name="auto_padding_recycle">6dp</dimen>
+    <dimen name="category_padding_recycle">8dp</dimen>
+    <dimen name="card_radius">8dp</dimen>
+    <dimen name="tile_size" tools:override="true">220dp</dimen>
+    <dimen name="detail_icon_height_new">48dp</dimen>
+    <dimen name="animation_hight">390dp</dimen>
+    <dimen name="detail_icon_height_double">32dp</dimen>
+    <dimen name="detail_icon_height_double_intro">30dp</dimen>
+    <dimen name="carousal_height">200dp</dimen>
+    <dimen name="_10sdp">10.00dp</dimen>
+    <dimen name="_40sdp">40.00dp</dimen>
+    <dimen name="_7sdp">7.00dp</dimen>
+    <dimen name="_5sdp">5.00dp</dimen>
+    <dimen name="_16sdp">16.00dp</dimen>
+    <dimen name="double_wall_hight">400dp</dimen>
+    <dimen name="double_wall_width">200dp</dimen>
+    <dimen name="double_content_padding">12dp</dimen>
+    <dimen name="double_content_padding_intro">11dp</dimen>
+    <dimen name="detail_tile_witdh">270dp</dimen>
+    <dimen name="detail_tile_hieght">540dp</dimen>
+    <dimen name="intro_witdh">200dp</dimen>
+    <dimen name="intro_hieght">350dp</dimen>
+    <dimen name="category_item_width">130dp</dimen>
+    <dimen name="auto_Wall_height">160dp</dimen>
+    <dimen name="stock_widht_height">120dp</dimen>
+    <dimen name="TAB_HEIGHT">30dp</dimen>
+    <dimen name="TAB_TEXT_SIZE">16sp</dimen>
+    <dimen name="ADVERT_HEIGHT">150dp</dimen>
+    <dimen name="CATEGORY_TEXT_SIZE">24sp</dimen>
+    <dimen name="STOCK_CATEGORY_TEXT_SIZE">14sp</dimen>
+    <dimen name="ADVERT_TEXT_SIZE">24sp</dimen>
+    <dimen name="AUTO_CATEGORY_TEXT_SIZE">18sp</dimen>
+    <dimen name="exclusieve_width">230dp</dimen>
+    <dimen name="exclusieve_hight">408dp</dimen>
+    <dimen name="banner_hight_temp">50dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">0dp</dimen>
+
+</resources>

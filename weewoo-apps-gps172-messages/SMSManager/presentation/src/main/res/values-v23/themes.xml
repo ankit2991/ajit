@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:divider">@color/separatorLight</item>
+        <item name="android:queryBackground">@color/bubbleLight</item>
+        <item name="android:statusBarColor">#F2F2F2</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorTertiary">@color/text_tertiary</item>
+        <item name="android:windowBackground">@color/backgroundLight</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="actionBarPopupTheme">@style/PopupTheme</item>
+        <item name="bubbleColor">@color/bubbleLight</item>
+        <item name="messageBackground">@color/messageBackgroundLight</item>
+        <item name="colorPrimary">@color/backgroundLight</item>
+        <item name="colorPrimaryDark">@color/toolbarDark</item>
+        <item name="colorAccent">@color/tools_theme</item>
+        <item name="selectableItemBackground">@drawable/ripple</item>
+        <item name="switchThumbEnabled">@color/switchThumbEnabledLight</item>
+        <item name="switchThumbDisabled">@color/switchThumbDisabledLight</item>
+        <item name="switchTrackEnabled">@color/switchTrackEnabledLight</item>
+        <item name="switchTrackDisabled">@color/switchTrackDisabledLight</item>
+        <item name="windowActionBar">false</item>
+        <item name="list_background">@drawable/list_background</item>
+        <item name="drawer_background">@color/white</item>
+        <item name="note_edit_text">@drawable/edit_text_note</item>
+        <item name="android:itemBackground">@color/tools_themetoolbar</item>
+        <item name="defaultbg">@drawable/default_bg</item>
+        <item name="default_grey">@drawable/grey_bg_light</item>
+        <item name="textcolor">@color/black</item>
+        <item name="purchase_bg">@color/white</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="dialog_bg_bottom">@drawable/gnt_rounded_corners_shape</item>
+        <item name="dialog_bg_purchase">@drawable/bg_button</item>
+        <item name="viewcolor">@color/viewcolor</item>
+        <item name="tabcolor">@color/tabcolor</item>
+        <item name="tabselectioncolor">@color/tools_theme</item>
+        <item name="inbox_icon">@drawable/inbox_icon</item>
+        <item name="archive_icon">@drawable/archive_icon</item>
+        <item name="ic_transactions">@drawable/ic_transactions</item>
+        <item name="ic_promotions">@drawable/ic_promotions</item>
+        <item name="ic_junk">@drawable/ic_junk</item>
+        <item name="blocklist_icon">@drawable/blocklist_icon</item>
+        <item name="schedual_icon">@drawable/schedual_icon</item>
+        <item name="setting_icon">@drawable/setting_light</item>
+        <item name="feedback_icon">@drawable/ic_rate_review</item>
+        <item name="settings_icon">@drawable/settings_icon</item>
+        <item name="drawercolor">#383737</item>
+
+        <item name="font_size">@drawable/ic_format_size_black_24dp_black</item>
+        <item name="compress">@drawable/ic_photo_size_select_actual_black_24dp_black</item>
+        <item name="backup">@drawable/backup_icon_black</item>
+        <item name="languge">@drawable/ic_translate_black</item>
+        <item name="feedback">@drawable/feedback_icon_black</item>
+        <item name="sync">@drawable/ic_sync_black_24dp_black</item>
+        <item name="privacy">@drawable/privacy_policy_black</item>
+        <item name="call_settings">@drawable/call_settings_black</item>
+        <item name="rate">@drawable/ic_favorite_black</item>
+        <item name="share">@drawable/share_black</item>
+        <item name="ic_filter">@drawable/ic_filter</item>
+    </style>
+
+    <style name="inapptheme" parent="AppBaseTheme">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+    </style>
+</resources>

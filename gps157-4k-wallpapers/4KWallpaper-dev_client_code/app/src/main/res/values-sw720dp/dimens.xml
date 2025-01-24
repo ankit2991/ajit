@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="intro_witdh">400dp</dimen>
+    <dimen name="intro_hieght">710dp</dimen>
+    <dimen name="tile_size" tools:override="true">400dp</dimen>
+
+    <dimen name="double_wall_hight">800dp</dimen>
+    <dimen name="double_wall_width">400dp</dimen>
+    <dimen name="double_content_padding">20dp</dimen>
+    <dimen name="double_content_padding_intro">20dp</dimen>
+
+    <dimen name="auto_Wall_height">260dp</dimen>
+
+    <dimen name="detail_tile_witdh">500dp</dimen>
+    <dimen name="detail_tile_hieght">1000dp</dimen>
+
+    <dimen name="category_item_width">280dp</dimen>
+
+    <dimen name="stock_widht_height">200dp</dimen>
+
+    <dimen name="TAB_HEIGHT">60dp</dimen>
+    <dimen name="TAB_TEXT_SIZE">20sp</dimen>
+
+    <dimen name="ADVERT_HEIGHT">220dp</dimen>
+    <dimen name="content_padding">20dp</dimen>
+    <dimen name="content_padding_recycle">6dp</dimen>
+    <dimen name="CATEGORY_TEXT_SIZE">34sp</dimen>
+    <dimen name="STOCK_CATEGORY_TEXT_SIZE">18sp</dimen>
+    <dimen name="ADVERT_TEXT_SIZE">30sp</dimen>
+    <dimen name="medium_text_size">22sp</dimen> <!-- category titel-->
+    <dimen name="AUTO_CATEGORY_TEXT_SIZE">26sp</dimen>
+
+    <dimen name="exclusieve_width">400dp</dimen>
+    <dimen name="exclusieve_hight">711dp</dimen>
+
+</resources>

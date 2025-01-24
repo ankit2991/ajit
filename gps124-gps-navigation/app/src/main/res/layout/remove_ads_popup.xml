@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:background="@drawable/btn_rounded_white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:src="@drawable/ic_ad_block" />
+
+        <TextView
+            style="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:gravity="center"
+            android:text="@string/remove_ads" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:gravity="center"
+            android:text="@string/remove_annoying_ads_forever"
+            android:textSize="@dimen/_14ssp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_14sdp"
+            android:layout_marginBottom="@dimen/_16sdp">
+
+            <TextView
+                android:id="@+id/continueBtn"
+                style="@style/TextAppearance.AppCompat.Small"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_continue_btn"
+                android:gravity="center"
+                android:padding="@dimen/_7sdp"
+                android:text="@string/btn_continue"
+                android:textColor="@android:color/white" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

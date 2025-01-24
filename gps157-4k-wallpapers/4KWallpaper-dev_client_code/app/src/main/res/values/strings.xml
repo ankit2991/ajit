@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">4K Wallpaper</string>
+
+    <string name="error_title">Info</string>
+    <string name="error_msg_server_error">Sorry, we\'re unable to get data right now. Please try again after some time.</string>
+    <string name="error_msg_socket_timeout">Socket Timeout. Please try again later</string>
+    <string name="error_msg_invalid_url">Invalid URL. Please try again later</string>
+    <string name="error_msg_no_network">No network connection detected. Please ensure you are connected to a network source and try again.</string>
+    <string name="txtcontact">About Us</string>
+    <string name="txtedgesetting">Edge Wallpaper Setting</string>
+    <string name="txtdouble">Double Wallpapers</string>
+    <string name="txtmydownload">My Downloads</string>
+
+    <string name="app_id">ca-app-pub-4975991316875268~4613559129</string>
+
+    <string name="icon_desc">Ad icon</string>
+    <string name="image_desc">Ad image</string>
+
+
+    <string name="ad_attribution">Ad</string>
+
+    <string name="about_disclaimer">All the wallpapers in this app are under common creative license and the credit goes to their respective owners. These images are not endorsed by any of the prospective owners , and the images are used simply for aesthetic purposes. No copyright infringement is intended, and any request to remove one of the images / logos / names will be honored . All the Images are obtained from pexels.com, pixabay.com as well as unsplash.com which are covered by the Creative Commons Zero license. That means all images are free for distribution and free for commercial use which also does not need any kind of attribution or credit.</string>
+
+    <string name="title_material_metaphor">4K Wallpapers</string>
+    <string name="title_material_bold">Live Wallpapers</string>
+    <string name="title_material_motion">Double Wallpapers</string>
+    <string name="title_material_shadow">4K Exclusive</string>
+    <string name="title_material_auto">Auto Wallpaper Changer</string>
+    <string name="title_material_edge">Edge Lighting Wallpaper</string>
+
+    <string name="description_material_metaphor">Cool wallpapers are designed to fit your Android mobile devices.</string>
+    <string name="description_material_bold">Imagine having cool video effects as background on your home screen.</string>
+    <string name="description_material_motion">Decorate your home &amp; lock screen with a different Wallpaper at the same time!</string>
+    <string name="description_material_shadow">The coolest 3D personalise moving Panorama wallpapers!</string>
+    <string name="description_material_auto">Changes Mobile Screen Background Automatically.</string>
+    <string name="description_material_edge">Make your phone screen look amazing with edge shining in multiple colors with slowly moving effects.</string>
+
+    <string name="toast_sensor_error">Sensor not available</string>
+    <string name="toast_failed_launch_wallpaper_chooser">Cannot open wallpaper selection interface. Please manually set 4EverPics as your wallpaper on the home screen</string>
+
+    <string name="toast_unexpected_error">Unexpected error</string>
+
+    <string name="permission_title_rationale">Permission needed</string>
+    <string name="permission_read_storage_rationale">Storage read permission is needed to pick files.</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_ok">OK</string>
+    <string name="label_select_picture">Select Picture</string>
+    <string name="toast_cannot_retrieve_cropped_image">Cannot retrieve cropped image</string>
+    <string name="toast_cannot_retrieve_selected_image">Cannot retrieve selected image</string>
+    <string name="toast_set_image">Save Image Successfully</string>
+
+    <string name="file_provider_authorities">macro.hd.wallpapers.provider</string>
+
+    <string name="reward_text">Remove Ads By Watching Video Ads.you\'ll Get 20 Mins
+Of Additional Ad Free Version Of App For Every Video You Watch!\n\nSupport Devloper By Buying The Pro Version If Possible (To Buy Pro Version Click \'REMOVE ADS\' Button Below)
+.To Know More About Features That Pro Version Unlocks, Go To About Section Of The App.\n\nThank You!</string>
+
+    <string name="not_working">If you are having problems like wallpaper not Moving or removing itself, then follow below steps. \n-> Go to Recent Menu by clicking Menu Button from Phone\'s Navigation Buttons\n-> Tap and Hold on App\n-> click on Lock Button as shown below. \nNote: If this setting not available in your phone, then click for more detail and follow step 2 and step 3</string>
+    <string name="pref_key_transition_time" translatable="false">pref_key_transition_time</string>
+
+
+    <string name="status1_title">WhatsApp Status</string>
+    <string name="status1_msg">View Status that you would like to save on mobile</string>
+
+    <string name="status2_title">Status Downloader</string>
+    <string name="status2_msg">This shows all your viewed status</string>
+
+    <string name="status3_title">Status Preview</string>
+    <string name="status3_msg">You can Share, Repost, Download and set as wallpaper</string>
+
+    <string name="preview_loading">Loading Preview...</string>
+
+    <string name="menu_home">Home</string>
+    <string name="setas">Set as:</string>
+    <string name="set_as_home">Set as Home</string>
+    <string name="set_as_lock">Set as Lock</string>
+    <string name="set_as_home_lock"><![CDATA[set as home & lock]]></string>
+    <string name="system_default">System Default</string>
+    <string name="menu_edge_lighting">Edge Lighting Wallpaper</string>
+
+    <string name="menu_favourite">My Favourites</string>
+    <string name="menu_downloads">My Downloads</string>
+    <string name="menu_gradient">Gradient Wallpaper</string>
+    <string name="menu_exclusive">Exclusive Wallpaper</string>
+
+    <string name="menu_auto_wallpaper">Auto Wallpaper Changer</string>
+    <string name="menu_more_option">More Option</string>
+
+    <string name="menu_wallpaper_not_working">Live Wallpaper Not Working?</string>
+    <string name="menu_theme_text">Theme</string>
+    <string name="menu_remove_ads">Remove Ads</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_rate_us">Rate us</string>
+
+    <string name="menu_double_wallpaper">Double Wallpaper</string>
+
+    <string name="menu_feedback">Support</string>
+    <string name="menu_policy">Privacy Policy</string>
+    <string name="menu_app_tour">App Tour</string>
+    <string name="menu_about_us">About us</string>
+
+    <string name="menu_wallpaper_not_working_sub">If Live/Auto/Exclusive wallpaper removed automatically after sometime than follow these steps.</string>
+    <string name="uninstall_title">Uninstall Old Application</string>
+    <string name="uninstall_msg">Please UnInstall old 4K Wallpaper to continue with New App. We have migrate old data to this application.</string>
+    <string name="uninstall_btn">UnInstall</string>
+
+    <string name="purchase_title">Purchase Successfully</string>
+    <string name="purchase_msg">Congratulation, You got unlimited access to all wallpapers and disable all ads lifetimes.</string>
+    <string name="purchase_fail_title">Purchase Failed</string>
+    <string name="purchase_fail_msg">Try again later for restore purchase.</string>
+
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system_default">System default</string>
+
+    <string name="label_apply">Apply</string>
+    <string name="download_text">Downloading...</string>
+    <string name="download_unable">Unable to download</string>
+    <string name="dialog_Settind_double_Wallpaper">Setting Double Wallpaper...</string>
+    <string name="dialog_loading_double_Wallpaper">Loading More Data...</string>
+    <string name="wallpaper_updated">Wallpaper Updated!</string>
+    <string name="no_internet_connected">No internet connected.</string>
+    <string name="no_data_available">No data available. Pls try later.</string>
+    <string name="stock_category">Stock Categories</string>
+    <string name="stock_color">Colors</string>
+    <string name="other_category">Other Categories</string>
+    <string name="time_interval">Time Interval : </string>
+    <string name="select_categories">Select Categories</string>
+    <string name="download_2_wallpaper">Download atleast 2 or more Wallpapers to set auto wallpaper changer.</string>
+
+    <string name="set_auto_Wallpaper">Set Auto Wallpaper Changer</string>
+    <string name="version_contact">Version XX.XX</string>
+    <string name="disclaimer_txt">Disclaimer</string>
+    <string name="termofuse">Terms of use</string>
+    <string name="preview_and_set">Preview and Set Wallpaper</string>
+    <string name="applying_theme">Applying Theme</string>
+
+    <string name="install_app">Install App</string>
+
+    <string name="move_phone">Move Phone for Panorama effect</string>
+    <string name="reward_video_ad">Rewarded Video Ad</string>
+    <string name="i_like_ads">I LIKE ADS</string>
+    <string name="remove_ads">REMOVE ADS</string>
+    <string name="image_visibility_text">Image visibility on home screen</string>
+    <string name="desaturation_home_text">Desaturation on home screen</string>
+    <string name="select_background">Select Background Image</string>
+
+    <string name="notch_width">Notch width</string>
+    <string name="notch_height">Notch height</string>
+    <string name="notch_radius">Notch radius top</string>
+    <string name="notch_b_radius">Notch radius bottom</string>
+    <string name="bottom_fullness">Notch bottom fullness</string>
+    <string name="deactivate_border">Deactive Border</string>
+    <string name="cycle_speed">Cycle Speed</string>
+    <string name="border_size">Border Size</string>
+    <string name="border_b_radius">Border radius bottom</string>
+    <string name="border_top_radius">Border radius top</string>
+    <string name="select_border">Select Border</string>
+    <string name="simple_line">Simple Line</string>
+    <string name="dash_line">Dash Line</string>
+
+    <string name="show_notch_Setting">Show notch setting</string>
+    <string name="backimg">Background Image</string>
+    <string name="notch">Notch</string>
+    <string name="delete_note">Note: To Delete photo long click on photo</string>
+    <string name="noCompData">No Campaign data available. pls try later.</string>
+    <string name="noDataAvail">No data available. pls select other category.</string>
+    <string name="free_hd_wallpaper">Free HD Wallpapers</string>
+    <string name="set_double">Set Double Wallpaper</string>
+
+    <string name="set_text">Set</string>
+    <string name="search_text">Search</string>
+    <string name="filter_text">Filter</string>
+    <string name="delete_wallpaper_title">Delete Wallpaper</string>
+
+    <string name="delete_msg">Are you sure want to delete?</string>
+    <string name="label_yes">Yes</string>
+    <string name="label_no">No</string>
+
+    <string name="label_view">View</string>
+    <string name="label_set_as">Set As Wallpaper</string>
+    <string name="label_delete">Delete</string>
+
+    <string name="label_share">Share</string>
+    <string name="label_set_dialog">Set as:</string>
+
+    <string name="back_img_setting">Background Image Setting</string>
+
+    <string name="label_original">ORIGINAL</string>
+    <string name="notch_setting">Notch Setting</string>
+    <string name="rem_wallpaper">Remove Wallpaper</string>
+    <string name="pre_set">Preview and Set</string>
+
+    <string name="check_out">Let\'s Check Out New Wallpapers ❤</string>
+    <string name="awe_wallpaper">Check Out Awesome Wallpapers</string>
+    <string name="awe_Added">Awesome Wallpapers Added</string>
+    <string name="add_Wall">Wallpapers Added. Let\'s Check Them Out ❤</string>
+    <string name="no_net">Network not available</string>
+    <string name="unable_download">Unable to download. try again</string>
+    <string name="allow_per">Please Allow permission in order to download wallpaper to phone storage</string>
+    <string name="dialog_title_info">Info</string>
+    <string name="dialog_msg">Do you really want to update Exclusive Wallpaper?</string>
+
+
+    <string name="dwn_at">Downloaded at -</string>
+    <string name="load_more">Loading more data...</string>
+    <string name="no_found">"No downloaded wallpaper found.\nDownloaded Wallpaper store at \</string>
+    <string name="nodataforfav">No data available for Favorite.</string>
+    <string name="edgetxt">EDGE WALLPAPERS</string>
+    <string name="statustxt">Status Saver</string>
+    <string name="update_live_wall">Do you really want to update Live Wallpaper?</string>
+    <string name="min_30">30 Minutes</string>
+    <string name="hr_1">1 Hours</string>
+    <string name="hr_2">2 Hours</string>
+    <string name="hr_6">6 Hours</string>
+    <string name="hr_12">12 Hours</string>
+    <string name="dy_1">1 Day</string>
+    <string name="dy_3">3 Day</string>
+
+    <string name="sav_apply">Save &amp; Apply</string>
+    <string name="select_atleast_one">Please select least one category.</string>
+    <string name="error_download_wallpaper">Error in downloading wallpapers. Please try again.</string>
+    <string name="get_wall">Getting Wallpaper...</string>
+    <string name="save_img_success">Save Image successfully</string>
+    <string name="per_set_Auto">Please Allow permission in order to set auto wallpaper changer</string>
+
+    <string name="label_version">Version </string>
+    <string name="label_my_fav">My Favorite</string>
+    <string name="label_wal">Wallpaper</string>
+    <string name="label_not_work_title">Not Working?</string>
+    <string name="label_more_detail">More Details</string>
+    <string name="label_2_more">Download at least 2 or more Wallpapers before using Auto Wallpaper change.</string>
+
+    <string name="label_popular">Popular</string>
+    <string name="label_new_Added">New Added</string>
+    <string name="label_random">Random</string>
+
+    <string name="label_down_text">Get Most Beautiful and Unique collection of 4K Wallpapers. This App has Live Wallpaper, Double Wallpaper, Edge Lighting Wallpaper, Exclusive Moving Wallpaper and Auto Wallpaper Changer which can change background Image Automatically after specified time interval. Available on Play Store, Download Now - </string>
+    <string name="label_invite_frnd">Invite your friends to</string>
+    <string name="label_update_avail">There is a new Update available on the Store.</string>
+    <string name="label_changelog">Changelog: </string>
+    <string name="label_update_use_it">Please update this app to make the best use of it!</string>
+    <string name="label_new_update_continue">Please update to continue using the application!</string>
+    <string name="label_new_up"> Update Available </string>
+    <string name="label_update">Update</string>
+    <string name="label_later">Later</string>
+    <string name="label_live">Live Wallpaper</string>
+    <string name="label_trending">Trending</string>
+    <string name="label_category">Category</string>
+    <string name="label_try_something_else">No data available for this keyword. try something else.</string>
+    <string name="label_update_ask">Do you really want to update Auto Wallpaper Changer?</string>
+
+    <string name="label_create_exclusive"> Create Exclusive Wallpaper</string>
+    <string name="label_select_img">Please select image to set</string>
+    <string name="label_ask_exclusive">Do you really want to update Exclusive Wallpaper?</string>
+    <string name="no_gallery">Your device doesn\'t have gallery</string>
+    <string name="disablevpn">Please disable VPN to use application.</string>
+
+
+    <string name="label_pre">Preview</string>
+    <string name="label_report_new">Report</string>
+    <string name="label_info_new">Info</string>
+    <string name="label_similar">Similar</string>
+    <string name="label_new_Dwn">Download</string>
+
+
+    <string name="label_apply_dark">Applying Dark Theme</string>
+    <string name="label_apply_light">Applying Light Theme</string>
+    <string name="label_nolongeravail">This application is no longer supported. </string>
+    <string name="label_installnew">Please install new application for new feature and wallpapers</string>
+    <string name="label_already_dwn">Already Downloaded at </string>
+    <string name="label_utility_net">Please turn on internet connection to continue.</string>
+    <string name="label_wa_not_install">Whatsapp have not been installed.</string>
+    <string name="label_appnotinstall">Application has not installed.</string>
+
+    <string name="label_beautiful_uniq_wall">Most Beautiful and Unique collection of 4K and Live Wallpapers. Available on Play Store, Download Now - </string>
+    <string name="label_1">Sexually Explicit</string>
+    <string name="label_2">Offensive</string>
+    <string name="label_3">Bad Quality</string>
+    <string name="label_4">Copyrighted</string>
+    <string name="label_why">Please briefly explain why you found it </string>
+    <string name="label_sensornotsupport">Your device is not supported Gyroscope sensor so you can not use Exclusive wallpapers.</string>
+
+    <string name="label_dwn_s">Download Successfully</string>
+    <string name="label_per_denied">Permission denied</string>
+    <string name="label_needper_acc">For adding images , You need to provide permission to access your files</string>
+    <string name="label_g">Gallery</string>
+    <string name="label_camera">Camera</string>
+    <string name="add_img_label">Add Image</string>
+    <string name="label_cannot_show">Can\'t show</string>
+
+    <string name="label_simple_notification">I\'m a simple notification</string>
+    <string name="label_simple_notification_text">I\'m the text of the simple notification</string>
+
+    <string name="label_searchbytext"> Search by text</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <!--    18-3-21-->
+    <string name="settings_label">Settings</string>
+    <string name="label_push_nitification">Push Notification</string>
+    <string name="label_cc">Clear Cache</string>
+    <string name="msg_cc">Are you sure, you want to clear cache?</string>
+    <string name="label_language">Language</string>
+
+    <string name="sele_lan">Select Language</string>
+
+    <string name="lang_en">English</string>
+    <string name="lang_hi">Hindi</string>
+    <string name="label_theme_Select">Select Theme</string>
+    \\\
+
+    <string name="reportItem">Report Item ID:</string>
+    <!--    <string name="txtdownload">Download</string>-->
+    <!--    <string name="txtdownload">Download</string>-->
+    <!--    <string name="txtdownload">Download</string>    -->
+
+    <string name="apply_lang_text">Applying changed Language</string>
+    <string name="label_already_change">Already Applied</string>
+
+    <string name="ad_unit_banner_id_test">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ad_unit_id_test">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="ad_unit_id_native_test">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="ad_unit_id_open_ad_test">ca-app-pub-3940256099942544/3419835294</string>
+    <string name="appwidget_text">Click me!</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="change">change</string>
+
+    <string name="poor">POOR</string>
+    <string name="good">GOOD</string>
+    <string name="great">GREAT</string>
+    <string name="okay">OKAY</string>
+    <string name="bad">BAD</string>
+    <string name="awful">AWFUL</string>
+    <string name="feedback">Feedback</string>
+    <string name="feedtxt">Suggest us what went wrong and we\'ll work on it!!</string>
+
+
+    <string name="gradienttxt">Gradient WALLPAPERS</string>
+    <string name="payment_card_terms" translatable="false">Terms &amp; Conditions</string>
+    <string name="payment_card_policies" translatable="false">Privacy Policies</string>
+    <string name="payment_card_price" translatable="false">Enjoy a 3 Day Free Trial - Then [price] / [period]</string>
+    <string name="payment_card_purchase" translatable="false">Continue without ads</string>
+    <string name="payment_card_continue" translatable="false"><u>Continue with ads</u></string>
+    <string name="payment_card_advantages" translatable="false">· Unlock all wallpapers\n· Get rid of ads\n· Get fresh new content every month</string>
+    <string name="payment_card_title" translatable="false">Enjoy the full experience</string>
+    <!--<string name="ad_unit_banner_id_test"></string>
+    <string name="ad_unit_id_test"></string>
+    <string name="ad_unit_id_native_test"></string>
+    <string name="ad_unit_id_rewards_ad_test"></string>
+    <string name="ad_unit_id_open_ad_test"></string>-->
+</resources>

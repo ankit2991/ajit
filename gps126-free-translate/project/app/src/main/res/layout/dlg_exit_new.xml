@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/bg_exit_dlg">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guide_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_container_exit_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/rating_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+                <TextView
+                    android:id="@+id/tv_label_rating_feedback"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="15dp"
+                    android:gravity="center"
+                    android:text="We are working hard for better user experience.\nHow would you rate our app experience?"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+
+
+                <com.translate.languagetranslator.freetranslation.views.SimpleRatingBar
+                    android:id="@+id/rating_exit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    app:srb_starSize="@dimen/_25sdp"
+                    app:srb_numberOfStars="5"
+                    app:srb_starsSeparation="@dimen/_35sdp"
+                    app:srb_rating="0"
+                    app:srb_stepSize="1"
+                    app:srb_borderColor="@color/colorPrimary"
+
+                    app:srb_starBorderWidth="3"
+                    app:srb_fillColor="@color/colorPrimary"
+                    app:srb_starCornerRadius="0.0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_label_rating_feedback"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_label_rating_best"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:padding="12dp"
+                    android:text="The best we can get"
+                    android:textColor="@color/black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/ivArrow"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    app:layout_constraintHorizontal_bias="0.35"
+                    app:layout_constraintTop_toBottomOf="@+id/rating_exit"
+                    app:layout_constraintVertical_bias="0.0" />
+
+
+                <ImageView
+                    android:id="@+id/ivArrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_arrow_rate_us"
+                    app:layout_constraintEnd_toEndOf="@+id/rating_exit"
+                    app:layout_constraintHorizontal_bias="0.9"
+                    app:layout_constraintStart_toStartOf="@+id/tv_label_rating_best"
+                    app:layout_constraintTop_toBottomOf="@id/rating_exit" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/tv_label_exit_now"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="start"
+                android:text="Do you want to exit?"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rating_layout"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/btn_exit"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="12dp"
+            android:background="@android:color/transparent"
+            android:text="Exit"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/guide_exit"
+            app:layout_constraintTop_toBottomOf="@+id/layout_container_exit_content"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/btn_exit_cancel"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="12dp"
+            android:background="@android:color/transparent"
+            android:text="Cancel"
+            android:textColor="@color/dark_grey"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toStartOf="@+id/guide_exit"
+            app:layout_constraintTop_toTopOf="@+id/btn_exit" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>

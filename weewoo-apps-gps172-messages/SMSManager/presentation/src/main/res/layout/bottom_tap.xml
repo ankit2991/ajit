@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:id="@+id/open_external"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="?selectableItemBackground"
+        android:gravity="center|center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_browser"
+            app:tint="?android:attr/textColorPrimary" />
+
+        <com.messaging.textrasms.manager.common.widget.QkTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/open_link_to_browser"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/copy"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="?selectableItemBackground"
+        android:gravity="center|center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_content_copy_black_24dp"
+            app:tint="?android:attr/textColorPrimary" />
+
+        <com.messaging.textrasms.manager.common.widget.QkTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/compose_menu_copy"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="?selectableItemBackground"
+        android:gravity="center|center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:padding="2dp"
+            android:src="@drawable/ic_cancel_black_24dp"
+            app:tint="?android:attr/textColorPrimary" />
+
+        <com.messaging.textrasms.manager.common.widget.QkTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_cancel"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

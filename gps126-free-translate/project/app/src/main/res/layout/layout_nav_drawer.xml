@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/nav_header" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/nav_remove_ads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:paddingStart="@dimen/_30sdp"
+            android:foreground="?selectableItemBackground"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_8sdp">
+
+            <ImageView
+                android:id="@+id/iv_nav_one"
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                app:srcCompat="@drawable/ic_nav_remove_ads" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_toEndOf="@+id/iv_nav_one"
+                android:gravity="center_vertical"
+                android:text="@string/remove_ads"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nav_saved_chat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foreground="?selectableItemBackground"
+            android:paddingStart="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_8sdp">
+
+            <ImageView
+                android:id="@+id/iv_nav_three"
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                app:srcCompat="@drawable/ic_nav_saved_chat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_toEndOf="@+id/iv_nav_three"
+                android:gravity="center_vertical"
+                android:text="@string/drawer_nav_saved_chat"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nav_bookmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foreground="?selectableItemBackground"
+            android:paddingStart="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_8sdp">
+
+            <ImageView
+                android:id="@+id/iv_nav_four"
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                app:srcCompat="@drawable/ic_nav_bookmark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_toEndOf="@+id/iv_nav_four"
+                android:gravity="center_vertical"
+                android:text="@string/drawer_nav_bookmark"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nav_translation_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foreground="?selectableItemBackground"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:paddingStart="@dimen/_30sdp"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_8sdp">
+
+            <ImageView
+                android:id="@+id/iv_nav_five"
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                app:srcCompat="@drawable/ic_nav_history" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_toEndOf="@+id/iv_nav_five"
+                android:gravity="center_vertical"
+                android:text="@string/drawer_nav_translation"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nav_language_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foreground="?selectableItemBackground"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:visibility="gone"
+            android:paddingStart="@dimen/_30sdp"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_8sdp">
+
+            <ImageView
+                android:id="@+id/iv_nav_seven"
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                app:srcCompat="@drawable/ic_nav_langs" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_toEndOf="@+id/iv_nav_seven"
+                android:gravity="center_vertical"
+                android:text="@string/drawer_nav_language"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nav_translation_share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:foreground="?selectableItemBackground"
+            android:paddingStart="@dimen/_30sdp"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_8sdp">
+
+            <ImageView
+                android:id="@+id/iv_nav_six"
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                app:srcCompat="@drawable/ic_nav_share" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_toEndOf="@+id/iv_nav_six"
+                android:gravity="center_vertical"
+                android:text="@string/drawer_nav_share"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nav_caller_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:foreground="?selectableItemBackground"
+            android:paddingStart="@dimen/_30sdp"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_8sdp">
+
+            <ImageView
+                android:id="@+id/iv_nav_phone"
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                app:srcCompat="@drawable/ic_call" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_toEndOf="@+id/iv_nav_phone"
+                android:gravity="center_vertical"
+                android:text="@string/caller_setting"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nav_clip_board"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foreground="?selectableItemBackground"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:visibility="gone"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_8sdp">
+
+            <ImageView
+                android:id="@+id/iv_nav_clip"
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                app:srcCompat="@drawable/ic_nav_clip" />
+
+            <TextView
+                android:id="@+id/tv_nav_clip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_toEndOf="@+id/iv_nav_clip"
+                android:gravity="center_vertical"
+                android:text="@string/drawer_nav_clip"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_clip_board"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:clickable="false" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/nav_clip_auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_25sdp"
+            android:foreground="?selectableItemBackground"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:visibility="visible"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_8sdp">
+
+            <ImageView
+                android:id="@+id/iv_nav_clip_auto"
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:visibility="gone"
+                android:layout_centerVertical="true"
+                app:srcCompat="@drawable/ic_nav_clip" />
+
+            <TextView
+                android:id="@+id/tv_nav_clip_auto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/iv_nav_clip_auto"
+                android:gravity="center_vertical"
+                android:text="@string/drawer_nav_clip_auto"
+                android:textStyle="bold"
+                android:textColor="#14A179"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="@dimen/_12sdp" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_clip_board_auto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_10sdp"
+                app:theme="@style/MySwitch"
+                android:checked="true"
+                android:clickable="false" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="?android:attr/itemBackground"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/person_img"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:padding="@dimen/_3sdp"
+            android:src="@drawable/allmessage_sel" />
+
+        <TextView
+            android:id="@+id/tvtab1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:singleLine="true"
+            android:text="@string/Personal"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_weight="1"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+
+            android:id="@+id/other_img"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:padding="@dimen/_3sdp"
+            android:src="@drawable/known_unsel" />
+
+        <TextView
+            android:id="@+id/tvtab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:singleLine="true"
+            android:text="@string/Other"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/spam_img"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:padding="@dimen/_3sdp"
+            android:src="@drawable/unknwon_unsel" />
+
+        <TextView
+            android:id="@+id/tvtab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:singleLine="true"
+            android:text="@string/unknown"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

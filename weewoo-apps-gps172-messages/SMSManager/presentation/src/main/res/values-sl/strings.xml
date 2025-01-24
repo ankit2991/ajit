@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sugest_update_title">Na voljo je posodobitev</string>
+    <string name="sugest_update_message">Nova posodobitev je na voljo v trgovini Google Play, prosimo, posodobite svojo različico</string>
+    <string name="force_update_title">Na voljo je posodobitev</string>
+    <string name="force_update_message">Nova posodobitev je na voljo v trgovini Google Play, prosimo, posodobite svojo različico</string>
+    <string name="update_ok">Posodobi</string>
+    <string name="update_no">Trenutno ne</string>
+    <string name="app_name">#Sporočila</string>
+    <string name="in_app_name">Sporočila</string>
+    <string name="splash_app_name">SMS Sporočila</string>
+    <string name="loading_msg">Prosim, počakajte...</string>
+    <string name="ads_loading_msg">Prikazujem oglas...</string>
+    <string name="shortcut_compose_long_label">Nov pogovor</string>
+    <string name="shortcut_compose_short_label">Sestavi</string>
+    <string name="shortcut_compose_disabled_message">Povezava onemogočena</string>
+    <string name="title_archived">Arhivirana sporočila</string>
+    <string name="title_settings">Nastavitve</string>
+    <string name="title_notification_prefs">Obvestila</string>
+    <string name="title_theme">Tema</string>
+    <string name="title_conversations">Iskanje številk, imen in več</string>
+    <string name="title_compose">Vnesite ime ali telefonsko številko</string>
+    <string name="setup_skip">Preskoči</string>
+    <string name="setup_next">Naprej</string>
+    <string name="menu_add_person">Dodaj osebo</string>
+    <string name="menu_call">Pokliči</string>
+    <string name="menu_info">Podrobnosti</string>
+    <string name="menu_save">Shrani v galerijo</string>
+    <string name="menu_share">Deli</string>
+    <string name="main_drawer_open_cd">Odpri navigacijsko vrstico</string>
+    <string name="main_title_selected">%d izbranih</string>
+    <string name="main_menu_clear">Počisti</string>
+    <string name="main_menu_archive">Arhiviraj</string>
+    <string name="main_menu_unarchive">Dekarhiviraj</string>
+    <string name="main_menu_delete">Izbriši</string>
+    <string name="main_menu_add_contact">Dodaj v stike</string>
+    <string name="main_menu_pin">Pripni na vrh</string>
+    <string name="main_menu_unpin">Odpenji</string>
+    <string name="main_menu_read">Označi kot prebrano</string>
+    <string name="main_menu_unread">Označi kot neprebrano</string>
+    <string name="select_all">Izberi vse</string>
+    <string name="deselect_all">Odznači vse</string>
+    <string name="main_menu_block">Blokiraj</string>
+    <string name="main_syncing">Organiziram sporočila...</string>
+    <string name="main_sender_you">Vi: %s</string>
+    <string name="main_draft">Osnutek: %s</string>
+    <string name="main_message_results_title">Rezultati v sporočilih</string>
+    <string name="main_message_results">%d sporočil</string>
+    <string name="inbox_empty_text">Vaši pogovori bodo prikazani tukaj</string>
+    <string name="inbox_search_empty_text">Ni rezultatov</string>
+    <string name="archived_empty_text">Ni še arhiviranih pogovorov..</string>
+    <string name="main_fab_cd">Začni nov pogovor</string>
+    <string name="main_default_sms_title">Rad/a pošiljaš sporočila?</string>
+    <string name="main_default_sms_message">Nastavi aplikacijo SMS kot privzeto SMS aplikacijo</string>
+    <string name="main_default_sms_change">Spremeni</string>
+    <string name="main_permission_required">Zahtevano dovoljenje</string>
+    <string name="main_permission_sms">Sporočila potrebujejo dovoljenje za pošiljanje in ogled SMS sporočil</string>
+    <string name="main_permission_contacts">Sporočila potrebujejo dovoljenje za ogled vaših stikov</string>
+    <string name="main_permission_allow">Dovoli</string>
+    <string name="main_permission_allow_read">Dovoli branje in pisanje dovoljenj</string>
+    <string name="drawer_inbox">Prejeto</string>
+    <string name="drawer_archived">Arhivirano</string>
+    <string name="drawer_scheduled">Načrtovana sporočila</string>
+    <string name="drawer_blocking">Blokirani seznam</string>
+    <string name="drawer_calldorado">Nastavitve klicateljev</string>
+    <string name="drawer_more">Več</string>
+    <string name="drawer_group">Skupinsko sporočilo</string>
+    <string name="drawer_settings">Nastavitve</string>
+    <string name="drawer_remove_ads">Odstrani oglase</string>
+    <string name="drawer_help">Pomoč in povratne informacije</string>
+    <string name="drawer_invite">Povabi prijatelje</string>
+    <string name="dialog_delete_title">Izbriši</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Ste prepričani, da želite izbrisati to pogovor?</item>
+        <item quantity="other">Ste prepričani, da želite izbrisati %d pogovorov?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Kopiraj besedilo</item>
+        <item>Posreduj</item>
+        <item>Izbriši</item>
+    </string-array>
+    <string name="compose_number_picker_title">Izberite telefonsko številko</string>
+    <string name="compose_number_picker_default">%s ∙ Privzeto</string>
+    <string name="compose_number_picker_once">Samo enkrat</string>
+    <string name="compose_number_picker_always">Vedno</string>
+    <string name="compose_title_selected">%d izbranih</string>
+    <string name="compose_subtitle_results">%1$d od %2$d rezultatov</string>
+    <string name="contact_selected">%1$d od %2$d Izbrano</string>
+    <string name="compose_send_group_title">Pošlji kot skupinsko sporočilo</string>
+    <string name="compose_send_group_summary">Prejemniki in odgovori bodo vidni vsem</string>
+    <string name="compose_messages_empty"> Začetek vašega pogovora. Recite nekaj odličnega!</string>
+    <string name="compose_vcard_label">Kontaktna kartica</string>
+    <string name="compose_scheduled_for">Načrtovano za</string>
+    <string name="compose_scheduled_future"> čas mora biti v prihodnosti!</string>
+    <string name="compose_scheduled_toast">Dodano med načrtovana sporočila</string>
+    <string name="compose_hint">Pišite tukaj…</string>
+    <string name="compose_menu_copy">Kopiraj besedilo</string>
+    <string name="compose_menu_forward">Posreduj</string>
+    <string name="compose_menu_delete">Izbriši</string>
+    <string name="compose_menu_previous">Prejšnji</string>
+    <string name="compose_menu_next">Naslednji</string>
+    <string name="compose_menu_clear">Počisti</string>
+    <string name="compose_details_title">Podrobnosti sporočila</string>
+    <string name="compose_details_type">Vrsta: %s</string>
+    <string name="compose_details_from">Od: %s</string>
+    <string name="compose_details_to">Za: %s</string>
+    <string name="compose_details_subject">Zadeva: %s</string>
+    <string name="compose_details_priority">Prioriteta: %s</string>
+    <string name="compose_details_size">Velikost: %s</string>
+    <string name="compose_details_sent">Poslano: %s</string>
+    <string name="compose_details_received">Prejeto: %s</string>
+    <string name="compose_details_delivered">Dostavljeno: %s</string>
+    <string name="compose_details_error_code">Koda napake: %d</string>
+    <string name="compose_attach_cd">Dodaj prilogo</string>
+    <string name="compose_gallery_cd">Priloži fotografijo</string>
+    <string name="compose_camera_cd">Posnemi fotografijo</string>
+    <string name="compose_schedule_cd">Načrtuj sporočilo</string>
+    <string name="compose_contact_cd">Priloži stik</string>
+    <string name="compose_contact_error">Napaka pri branju stika</string>
+    <string name="compose_sim_cd">%s izbrano, spremenite SIM kartico</string>
+    <string name="compose_send_cd">Pošlji sporočilo</string>
+    <string name="message_status_sending">Pošiljanje…</string>
+    <string name="message_status_delivered">Dostavljeno %s</string>
+    <string name="message_status_failed">Ni uspelo poslati</string>
+    <string name="info_title">Podrobnosti stika</string>
+    <string name="info_copied_address">Naslov kopiran</string>
+    <string name="info_name">Naslov pogovora</string>
+    <string name="info_notifications">Obvestila</string>
+    <string name="info_theme">Tema</string>
+    <string name="info_archive">Arhiv</string>
+    <string name="info_unarchive">Razarhiviraj</string>
+    <string name="info_block">Blokiraj</string>
+    <string name="info_unblock">Odblokiraj</string>
+    <string name="info_delete">Izbriši pogovor</string>
+    <string name="gallery_error">Ni mogoče naložiti medijskih datotek</string>
+    <string name="gallery_toast_saved">Shranjeno v galerijo</string>
+    <string name="backup_title">Varnostno kopiranje in obnovitev</string>
+    <string name="backup_backing_up">Varnostno kopiranje sporočil</string>
+    <string name="backup_restoring">Obnovitev iz varnostne kopije</string>
+    <string name="backup_last">Zadnje varnostno kopiranje</string>
+    <string name="backup_loading">Nalaganje…</string>
+    <string name="backup_never">Nikoli</string>
+    <string name="backup_restore_title">Obnovi</string>
+    <string name="backup_restore_summary">Izberite varnostno kopijo</string>
+    <string name="backup_restore_error_plus">Odklenite SMS+, da lahko uporabljate varnostno kopiranje in obnovitev</string>
+    <string name="backup_restore_error_backup">Varnostno kopiranje v teku…</string>
+    <string name="backup_restore_error_restore">Obnovitev v teku…</string>
+    <string name="backup_restore_confirm_title">Obnovi iz varnostne kopije</string>
+    <string name="backup_restore_confirm_message">Ste prepričani, da želite obnoviti sporočila iz te varnostne kopije?</string>
+    <string name="backup_restore_stop_title">Prenehaj z obnovitvijo</string>
+    <string name="backup_restore_stop_message">Sporočila, ki so že bila obnovljena, bodo ostala na vaši napravi</string>
+    <string name="backup_restore_dialog_title">Varnostne kopije</string>
+    <string name="backup_restore_dialog_summary">/SMS Sporočila/Varnostne kopije</string>
+    <string name="backup_restore_dialog_empty">Ni najdenih varnostnih kopij</string>
+
+    <plurals name="backup_message_count">
+        <item quantity="zero">Ni sporočil</item>
+        <item quantity="one">%d sporočilo</item>
+        <item quantity="other">%d sporočil</item>
+    </plurals>
+    <string name="backup_disclaimer">Do sedaj smo podpirali le varnostno kopiranje in obnovitev SMS sporočil!</string>
+    <string name="backup_now">Varnostno kopiraj</string>
+    <string name="backup_progress_parsing">Razčlenjevanje varnostne kopije…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d sporočil</string>
+    <string name="backup_progress_saving">Shranjevanje varnostne kopije…</string>
+    <string name="backup_progress_syncing">Sinhronizacija sporočil…</string>
+    <string name="backup_progress_finished">Končano!</string>
+    <string name="backup_notification_channel_name">Varnostno kopiranje in obnovitev</string>
+    <string name="Message_notification_channel_name">Sinhronizacija sporočil</string>
+    <string name="scheduled_title">Načrtovano</string>
+    <string name="schedule_guide">Načrtujte lahko sporočila s klikom na gumb za priponko na zaslonu pogovora o sporočilih.</string>
+    <string name="scheduled_empty_description">Samodejno pošljite sporočilo ob točno določenem času</string>
+    <string name="scheduled_empty_message_1">Hej! Kdaj je čas za praznovanje?</string>
+    <string name="scheduled_empty_message_2">Na 5. marec</string>
+    <string name="scheduled_empty_message_3">Hejaa! Poglej, kaj sem čudovit/a prijatelj/ica, da praznujem tvoj dan</string>
+    <string name="scheduled_empty_message_3_timestamp">Pošiljanje 5. marca&#x200A;</string>
+    <string name="scheduled_compose_cd">Načrtuj sporočilo</string>
+    <string name="scheduled_options_title">Načrtovano sporočilo</string>
+    <string-array name="scheduled_options">
+        <item>Pošlji zdaj</item>
+        <item>Kopiraj besedilo</item>
+        <item>Izbriši</item>
+    </string-array>
+    <string name="settings_category_appearance">Videz</string>
+    <string name="settings_category_general">Splošno</string>
+    <string name="settings_categoryreply">Odgovor</string>
+    <string name="settings_night_title">Nočni način</string>
+    <string name="settings_text_size_title">Velikost pisave</string>
+    <string name="settings_notifications_title">Obvestila</string>
+    <string name="settings_notifications_o_summary">Dotaknite se za prilagoditev</string>
+    <string name="settings_notification_actions_title">Dejanja</string>
+    <string name="settings_notification_action_1">Gumb 1</string>
+    <string name="settings_notification_action_2">Gumb 2</string>
+    <string name="settings_notification_action_3">Gumb 3</string>
+    <string name="settings_notification_previews_title">Predogledi obvestil</string>
+    <string name="settings_notification_wake_title">Vklopi zaslon</string>
+    <string name="settings_vibration_title">Vibracija</string>
+    <string name="settings_ringtone_title">Zvok</string>
+    <string name="settings_ringtone_none">Brez</string>
+    <string name="settings_reply_title">Odgovor</string>
+    <string name="settings_reply_summary">Pojavno okno za nova sporočila</string>
+    <string name="settings_reply_tap_dismiss_title">Dotakni se za zaprtje</string>
+    <string name="settings_reply_tap_dismiss_summary">Dotaknite se zunaj pojavnega okna, da ga zaprete</string>
+    <string name="settings_swipe_actions">Drseča dejanja</string>
+    <string name="settings_swipe_actions_right">Desno drsanje</string>
+    <string name="settings_swipe_actions_left">Levo drsanje</string>
+    <string name="settings_swipe_actions_change">SPREMEMBA</string>
+    <string name="not_now_txt">Trenutno ne</string>
+    <string name="process_title">Ta postopek bo trajal nekaj časa</string>
+    <string name="syncing_done">Sinhronizacija sporočil je zaključena....</string>
+    <string name="all_set_txt">Vse je pripravljeno. Pripravljeni ste</string>
+    <string name="Personal">Vsa sporočila</string>
+    <string name="Other">Poznano</string>
+    <string name="Spam">Neželena pošta</string>
+    <string name="setting">Nastavitve</string>
+    <string name="Share">Deljenje</string>
+    <string name="Rate">Oceni nas</string>
+    <string name="edit">uredi</string>
+    <string name="DarkMode">Nočni način</string>
+    <string name="BrightMode">Svetli način</string>
+    <string name="Camera">Kamera</string>
+    <string name="Gallery">Galerija</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">Stik</string>
+    <string name="Schedule">Načrtovanje</string>
+    <string name="Location">Lokacija</string>
+    <string name="Notes">Opombe</string>
+    <string name="no_msg">Še ni sporočil…</string>
+    <string name="Start_Chat">Začni klepet</string>
+    <string name="Language">Jezik</string>
+    <string name="rate_text">Priporočite nas drugim z oceno na Trgovini Play!</string>
+    <string name="sort_by">Razvrsti po</string>
+    <string-array name="settings_swipe_actions">
+        <item>Brez</item>
+        <item>Arhiviraj</item>
+        <item>Izbriši</item>
+        <item>Pokliči</item>
+        <item>Označi kot prebrano</item>
+        <item>Označi kot neprebrano</item>
+    </string-array>
+    <string name="settings_mms_size_title">Samodejno stisni priloge MMS</string>
+    <string name="settings_sync_title">Sinhroniziraj sporočila</string>
+    <string name="settings_sync_summary">Ponovno sinhronizirajte svoja sporočila z domačo Android bazo podatkov SMS</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Kontrola klicev</string>
+    <string name="blocking_manager_sia_title">Bi moral odgovoriti?</string>
+    <string name="blocked_messages_title">Blokirana sporočila</string>
+    <string name="blocked_messages_empty">Vaša blokirana sporočila bodo prikazana tukaj</string>
+    <string name="blocking_block_title">Blokiraj</string>
+    <string name="blocking_unblock_title">Odblokiraj</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">Nadaljujte na %s in blokirajte ta številko</item>
+        <item quantity="other">Nadaljujte na %s in blokirajte te številke</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">Nadaljujte na %s in dovolite to številko</item>
+        <item quantity="other">Nadaljujte na %s in dovolite te številke</item>
+    </plurals>
+    <string name="widget_loading">Nalaganje…</string>
+    <string name="widget_more">Prikaži več pogovorov</string>
+    <string name="qkreply_menu_read">Označi kot prebrano</string>
+    <string name="qkreply_menu_call">Pokliči</string>
+    <string name="qkreply_menu_delete">Izbriši</string>
+    <string name="qkreply_menu_expand">Prikaži več</string>
+    <string name="qkreply_menu_collapse">Prikaži manj</string>
+    <string name="qkreply_menu_view">Odpri pogovor</string>
+    <string name="changelog_title">Nove funkcije v SMS</string>
+    <string name="changelog_version">Različica %s</string>
+    <string name="changelog_added">Dodano</string>
+    <string name="changelog_improved">Izboljšano</string>
+    <string name="changelog_fixed">Popravljeno</string>
+    <string name="changelog_more">Več</string>
+    <string name="changelog_dismiss">Opusti</string>
+    <string-array name="notification_actions">
+        <item>Brez</item>
+        <item>Označi kot prebrano</item>
+        <item>Odgovori</item>
+        <item>Pokliči</item>
+        <item>Izbriši</item>
+    </string-array>
+    <string name="button_yes">Da</string>
+    <string name="button_continue">Nadaljuj</string>
+    <string name="button_cancel">Prekliči</string>
+    <string name="button_delete">Izbriši</string>
+    <string name="button_save">Shrani</string>
+    <string name="button_stop">Ustavi</string>
+    <string name="button_more">Več</string>
+    <string name="button_set">Nastavi</string>
+    <string name="button_undo">Razveljavi</string>
+    <string name="toast_copied">Kopirano</string>
+    <string name="toast_archived">Pogovor arhiviran</string>
+    <string name="toast_sms_plus">Za uporabo tega morate odkleniti SMS+</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Novo sporočilo</item>
+        <item quantity="other">%s nova sporočila</item>
+    </plurals>
+    <string name="notification_message_failed_title">Sporočilo ni poslano</string>
+    <string name="notification_message_failed_text">Sporočilo %s ni bilo poslano</string>
+    <string name="privacy_policy">Pravilnik o zasebnosti</string>
+    <string name="pocket_data_on">Džepni podatki morajo biti vklopljeni med pošiljanjem MMS!</string>
+    <string name="inapp_details" translatable="false">Da odstranite oglase, poskusite premium naročnino z podporo za temni-svetli način in podporo za načrtovana sporočila.</string>
+    <string name="drawer_removeAds">Odstrani oglase</string>
+    <string name="in_app_ads">sporočila_rad</string>
+    <string name="dialog_delete_message">Ste prepričani, da želite izbrisati to sporočilo?</string>
+    <string name="compose_bar_not_support">Pošiljatelj ne podpira odgovorov</string>
+    <string name="default_name">Za pošiljanje ali prejemanje SMS-ov ga morate nastaviti kot privzeto aplikacijo. Želite, da sporočilo postane vaša privzeta aplikacija?</string>
+    <string name="confirm_delete">Potrdi brisanje</string>
+    <string name="confirm_delete_text">Ste prepričani, da želite izbrisati to beležko?</string>
+    <string name="title">Naslov</string>
+    <string name="note">Beležka</string>
+    <string name="search">Iskanje</string>
+    <string name="settings">Nastavitve</string>
+    <string name="share_to">Delite z:</string>
+    <string name="sort">Razvrsti</string>
+    <string name="empty_list_text">Pritisnite gumb spodaj desno, da dodate novo beležko!</string>
+    <string name="new_note">Nova beležka</string>
+    <string name="undo">Razveljavi</string>
+    <string name="delete">Izbriši</string>
+    <string name="exception">Izjema:</string>
+    <string name="edit_note">Uredi beležko</string>
+    <string name="drawer_feedback">Pošlji povratne informacije</string>
+    <string name="drawer_mode">Svetel način</string>
+    <string name="unlimited_access_user">Neomejen dostop \ndo vseh funkcij</string>
+    <string name="pro_user">Ste premium uporabnik</string>
+    <string name="sub_info_text"><b>Naročnina se samodejno obnavlja, dokler je ne izključite.</b></string>
+    <string name="cancel_purchase">Samodejne obnove naročnine lahko prekličete v naročnini v Trgovini Google Play</string>
+    <string name="remove_ads">Odstrani oglase</string>
+    <string name="no_ads">Brez oglasov</string>
+    <string name="free_trial">7-dnevni brezplačni preizkus, nato samodejno obnavlja</string>
+    <string name="can_not_talk_right_now">Oprostite, zdaj ne morem govoriti</string>
+    <string name="can_call_you_later">Ali vas lahko pokličem kasneje?</string>
+    <string name="i_am_on_my_way">Na poti sem</string>
+    <string name="write_personal_message">Napišite osebno sporočilo</string>
+    <string name="create_reminder">Ustvari nov opomnik</string>
+    <string name="remind_me_about">Opomni me na</string>
+    <string name="no_title">Brez naslova</string>
+    <string name="edit_contact">Uredi stik</string>
+    <string name="add_contact">Dodaj stik</string>
+    <string name="messages">Sporočila</string>
+    <string name="send_mail">Pošlji e-pošto</string>
+    <string name="calendar">Koledar</string>
+    <string name="web">Spletno</string>
+    <string-array name="night_modes">
+        <item>Sistem</item>
+        <item>Svetel način</item>
+        <item>Temni način</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>Prikaži ime in sporočilo</item>
+        <item>Prikaži ime</item>
+        <item>Skrij vsebino</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>Majhno</item>
+        <item>Normalno</item>
+        <item>Veliko</item>
+        <item>Večje</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>Brez odloga</item>
+        <item>Kratek</item>
+        <item>Srednji</item>
+        <item>Dolg</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Samodejno</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>Brez stiskanja</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>V redu</item>
+        <item>Počakaj trenutek</item>
+        <item>Na poti sem</item>
+        <item>Hvala</item>
+        <item>Zveni dobro</item>
+        <item>Kaj se dogaja?</item>
+        <item>Strinjam se</item>
+        <item>Ne</item>
+        <item>Rad/a te imam</item>
+        <item>Oprostite</item>
+        <item>Hehe</item>
+        <item>V redu je</item>
+    </string-array>
+    <string name="default_title">Dovoli aplikaciji Sms, da je privzeta aplikacija</string>
+    <string name="set_as_defaault">Nastavi kot privzeto</string>
+    <string name="love_app_title">Naredi aplikacijo SMS za tvojo privzeto aplikacijo za SMS</string>
+    <string-array name="gif">
+        <item>Živalski obrazi</item>
+        <item>Emoji</item>
+        <item>Sadje in zelenjava</item>
+        <item>Halloween</item>
+        <item>Ljubezen</item>
+    </string-array>
+    <string name="Sticker">Nalepka</string>
+    <string name="no_connection">Ni internetne povezave.</string>
+    <string-array name="sticker">
+        <item>Fant</item>
+        <item>Risanka</item>
+        <item>Obraz</item>
+        <item>Festival</item>
+        <item>Sadje</item>
+        <item>Zabava</item>
+        <item>Dekle</item>
+        <item>Ljubezenska nalepka</item>
+        <item>Ostalo</item>
+        <item>Kuža</item>
+    </string-array>
+    <string name="open_link_to_browser">Odpri povezavo v brskalniku</string>
+    <string name="battery_dialog">Ne želite zamuditi pomembnih sporočil? \n
+    Izklopite optimizacijo baterije</string>
+    <string name="reason_to_change_battery_optimization_setting">Pojdite na informacije o aplikaciji &gt; Napredno &gt; Optimizacija baterije \nin izberite ‘Ne optimiziraj’</string>
+    <string name="feedback_txt">Povejte nam o svoji izkušnji in podajte predloge za izboljšanje aplikacije za sporočila. </string>
+    <string name="reason_to_change_battery"> Napredno &gt; Optimizacija baterije &gt; ‘Ne optimiziraj’</string>
+    <string name="drawer_transaction">Transakcije</string>
+    <string name="drawer_promotion">Promocije</string>
+    <string name="unknown">Neznano </string>
+    <string name="priva"><u>Pravilnik o zasebnosti</u></string>
+    <string name="smsfilter">Filter SMS</string>
+    <string name="by_click_t_c" translatable="false"><u>Z klikom sprejemate naše Pogoje uporabe.</u></string>
+    <string name="continue_without_sub"><u>Nadaljuj brez naročnine</u></string>
+    <string name="text_free_trial">Uživajte v X dnevnem <b>Brezzplačnem preizkusu</b> - Nato X € / mesec</string>
+    <string name="calldorado_message">Preveri vsa svoja <b>sporočila</b> pred koncem klica! Novice so tu</string>
+    <string name="privacy_terms_description">S klikom na Nadaljuj sprejemate in potrjujete pogoje uporabe in pravilnik o zasebnosti.</string>
+    <string name="draw_over_description"><![CDATA[Da se prikaže nad drugimi aplikacijami naše SMS sporočila. Prejmite vse potencialne naše widgete za klicanje SMS-jev in še več]]></string>
+    <string name="ad_label">OG</string>
+    <string name="onboarding_continue_button">Nadaljuj</string>
+    <string name="onboarding_step_1_title">Upravitelj SMS-ov in Messenger</string>
+    <string name="onboarding_step_1_subtitle">Klepetajte s prijatelji, ustvarite skupine in organizirajte svoj nabiralnik</string>
+    <string name="onboarding_step_1_hight_light">Edinstven pristop do vas</string>
+    <string name="onboarding_step_2_title">Organizirajte in shranite sporočila</string>
+    <string name="onboarding_step_2_subtitle">Varnostno kopirajte in obnovite svoja sporočila</string>
+    <string name="onboarding_step_2_hight_light">Tisoči uporabnikov so všeč</string>
+    <string name="onboarding_step_3_title">Uživajte v življenju in nam prepustite skrb za nabiralnik</string>
+    <string name="onboarding_step_3_subtitle">Sprejmite dovoljenja, da vam pomagamo upravljati vaš nabiralnik.</string>
+    <string name="onboarding_step_3_hight_light">Morda kasneje</string>
+    <string name="onboarding_allow_access_button">Dovoli dostop</string>
+    <string name="onboarding_step_4_title">Izboljšajte svojo baterijo tako, da nam dovolite, da opravimo delo</string>
+    <string name="onboarding_step_4_subtitle">Poskrbeli bomo za nadležne prekinitve SMS-ov.</string>
+    <string name="onboarding_step_4_hight_light">Tisoči uporabnikov so všeč</string>
+    <string name="onboarding_step_5_title">Delo deli na drugih aplikacijah med klepetanjem</string>
+    <string name="onboarding_step_5_subtitle">Uživajte v našem neverjetnem pripomočku za klice, ki vam omogoča večopravilnost</string>
+    <string name="onboarding_step_5_hight_light">Tisoči uporabnikov so všeč</string>
+    <string name="payment_card_title">Klepetaj zdaj!</string>
+    <string name="payment_card_price"><![CDATA[3-dnevno brezplačno, %s / %s]]></string>
+    <string name="payment_card_button">Preizkusite zdaj brezplačno</string>
+    <string name="payment_card_hight_light">Zavarovano s trgovino Play Store</string>
+    <string name="payment_card_weekly">tedensko</string>
+    <string name="payment_card_monthly">mesečno</string>
+    <string name="payment_card_yearly">letno</string>
+    <string name="payment_card_auto_renew">samodejno obnovljiva naročnina, kadar koli jo lahko prekličete</string>
+    <string name="accessibility_service_description">Opis vaše storitve dostopnosti</string>
+    <string name="permission_txt"><font color="#FF8A00">Zahteva dovoljenje:</font>\nPreberite stanje telefona in \nPrikaži prek drugih aplikacij</string>
+    <string name="opt_privacy">S klikom na Naprej sprejemate in potrjujete pogoje uporabe in pravilnik o zasebnosti.</string>
+    <string name="permission_required">Zahtevana dovoljenja</string>
+    <string name="permission_dialog_body">Ta aplikacija morda ne bo pravilno delovala brez dovoljenja za telefon. Sledite spodnjim navodilom, da ga omogočite:\n\n1. Izberite »Dovoljenja«\n2. Najdite »Telefon« na seznamu dovoljenj in ga tapnite, da ga omogočite</string>
+    <string name="go_premium">Postani <font color = "#FFE600">Premium!</font></string>
+    <string name="unlock_everything">Odklenite vse in brez oglasov</string>
+    <string name="start_three_day">Začnite 3-dnevni brezplačni preizkus</string>
+    <string name="pro">Profesionalno</string>
+    <string name="more_option">Več možnosti</string>
+    <string name="rate_us_5">Oceni nas z 5 zvezdicami</string>
+    <string name="help_feedback">Pomoč in povratne informacije</string>
+    <string name="send_message">Pošlji sporočilo</string>
+    <string name="CTA_Button_Text">Tapnite za odklepanje vseh <font color="#FFFBCD04">funkcij</font></string>
+</resources>

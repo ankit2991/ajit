@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:orderInCategory="100">
+        <item
+            android:id="@+id/nav_item_home"
+            android:checkable="false"  android:visible="false"
+            android:checked="false"
+            android:icon="@mipmap/ic_home"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_item_double_wall"
+            android:checked="false"
+            android:icon="@mipmap/ic_menu_double"
+            android:title="@string/menu_double_wallpaper" />
+        <item
+            android:id="@+id/nav_item_edge_light"
+            android:checked="false"
+            android:icon="@mipmap/ic_left_edge"
+            android:title="@string/menu_edge_lighting" />
+
+        <item
+            android:id="@+id/gradien"
+            android:checked="false"
+            android:icon="@mipmap/ic_gr"
+            android:title="@string/menu_gradient" />
+
+        <item
+            android:id="@+id/nav_item_my_fav"
+            android:checked="false"
+            android:icon="@mipmap/ic_fav"
+            android:title="@string/menu_favourite" />
+
+        <item
+            android:id="@+id/nav_item_my_download"
+            android:checked="false"
+            android:icon="@mipmap/ic_download"
+            android:title="@string/menu_downloads" />
+
+
+
+        <item
+            android:id="@+id/nav_item_exclusive_wall"
+            android:checked="false" android:visible="false"
+            android:icon="@mipmap/ic_exclusive"
+            android:title="@string/menu_exclusive" />
+
+        <item
+            android:id="@+id/nav_item_wallpaper"
+            android:icon="@mipmap/ic_autowallpaper" android:visible="false"
+            android:title="@string/menu_exclusive" />
+
+        <item
+            android:id="@+id/nav_item_wallpaper_setting"
+            android:icon="@mipmap/ic_autowallpaper"
+            android:title="@string/menu_auto_wallpaper" />
+
+        <item
+            android:id="@+id/nav_item_wallpaper_not"
+            android:icon="@mipmap/ic_help"
+            android:visible="false"
+            android:title="@string/menu_wallpaper_not_working" />
+
+        <item
+            android:id="@+id/nav_item_theme"
+            android:icon="@mipmap/ic_theme"
+            android:title="@string/menu_theme_text"
+             />
+        <item android:visible="false"
+            android:id="@+id/nav_item_language"
+            android:icon="@mipmap/ic_language"
+            android:title="@string/label_language"
+            />
+
+        <item android:visible="true"
+            android:id="@+id/nav_item_pro"
+            android:icon="@mipmap/ic_pro"
+            android:title="@string/menu_remove_ads"
+             />
+    </group>
+
+    <item
+        android:orderInCategory="102"
+        android:title="@string/menu_more_option">
+        <menu>
+            <item
+                android:id="@+id/nav_item_settings"
+                android:icon="@mipmap/ic_setting"
+                android:title="@string/settings_label" />
+            <item
+                android:id="@+id/nav_item_rate"
+                android:icon="@mipmap/ic_rate"
+                android:title="@string/menu_rate_us"/>
+            <item
+                android:id="@+id/nav_item_share"
+                android:icon="@mipmap/ic_share"
+                android:title="@string/menu_share" />
+
+            <!-- <item
+                 android:id="@+id/nav_item_settings"
+                 android:icon="@mipmap/ic_setting"
+                 android:title="Settings" />-->
+            <item
+                android:id="@+id/nav_item_feedback"
+                android:icon="@mipmap/ic_feedback"
+                android:title="@string/menu_feedback"
+                android:visible="false"/>
+            <item
+                android:id="@+id/nav_privacy"
+                android:icon="@mipmap/ic_privacy"
+                android:title="@string/menu_policy"
+                android:visible="false"/>
+            <item
+                android:id="@+id/nav_item_tour"
+                android:icon="@mipmap/ic_app_tour"
+                android:title="@string/menu_app_tour"
+                android:visible="false"/>
+            <item
+                android:id="@+id/nav_item_about"
+                android:icon="@mipmap/ic_about"
+                android:visible="false"
+                android:title="@string/menu_about_us" />
+        </menu>
+    </item>
+</menu>

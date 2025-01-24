@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ucrop_label_edit_photo">फ़ोटो संपादित करें</string>
+    <string name="ucrop_rotate">घुमाएँ</string>
+    <string name="ucrop_scale">स्केल</string>
+    <string name="ucrop_crop">काटना</string>
+    <string name="ucrop_brightness">चमक</string>
+    <string name="ucrop_contrast">अंतर</string>
+    <string name="ucrop_saturation">परिपूर्णता</string>
+    <string name="ucrop_sharpness">तीखेपन</string>
+</resources>

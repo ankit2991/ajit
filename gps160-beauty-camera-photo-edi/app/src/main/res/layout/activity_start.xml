@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".activities.StartActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        >
+
+        <include
+            android:id="@id/admob_native_container"
+            layout="@layout/max_native_ad" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/abc"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:layout_height="200dp">
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@id/lottie"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/start" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

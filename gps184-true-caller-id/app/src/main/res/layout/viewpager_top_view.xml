@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <LinearLayout
+            android:id="@+id/relative_views"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="6dp">
+
+            <ImageView
+                android:id="@+id/img_logo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo_128">
+
+            </ImageView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/txt_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_toRightOf="@+id/img_logo"
+                    android:gravity="center|left"
+                    android:text="Hello Google"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+
+                <LinearLayout
+                    android:id="@+id/linear_views"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/txt_title"
+                    android:layout_gravity="center|left"
+                    android:layout_toRightOf="@+id/img_logo"
+                    android:gravity="center|left">
+
+                    <TextView
+                        android:id="@+id/txt_star"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="4.7"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/img_star"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/start_one" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center"
+                        android:text="|"
+                        android:textColor="@color/black"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/txt_Free"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:text="FREE "
+                        android:textColor="@color/black"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/txt_Ad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:text="Ad "
+                        android:textColor="@color/black"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/txt_install"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/linear_views"
+                    android:layout_gravity="center|left"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/img_logo"
+                    android:background="@drawable/blue_track"
+                    android:gravity="center"
+                    android:text="INSTALL "
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_freeaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relative_views"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:text="Free download Editor's Top Choice:"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txt_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_freeaa"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:maxLines="2"
+            android:text="Free download Editor's Top Choice: Free download Editor's Top Choice: Free download Editor's Top Choice: Free download Editor's Top Choice:"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

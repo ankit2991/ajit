@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sugest_update_title">Kemas kini tersedia</string>
+    <string name="sugest_update_message">Kemas kini baru tersedia di Google Play, sila kemas kini versi anda</string>
+    <string name="force_update_title">Kemas kini tersedia</string>
+    <string name="force_update_message">Kemas kini baru tersedia di Google Play, sila kemas kini versi anda</string>
+    <string name="update_ok">Kemas kini</string>
+    <string name="update_no">Tidak sekarang</string>
+    <string name="app_name">#Mesej</string>
+    <string name="in_app_name">Mesej</string>
+    <string name="splash_app_name">Mesej SMS</string>
+    <string name="loading_msg">Sila tunggu...</string>
+    <string name="ads_loading_msg">Iklan dipaparkan...</string>
+    <string name="shortcut_compose_long_label">Perbualan baru</string>
+    <string name="shortcut_compose_short_label">Tulis</string>
+    <string name="shortcut_compose_disabled_message">Pintasan dilumpuhkan</string>
+    <string name="title_archived">Mesej Diarkibkan</string>
+    <string name="title_settings">Tetapan</string>
+    <string name="title_notification_prefs">Pemberitahuan</string>
+    <string name="title_theme">Tema</string>
+    <string name="title_conversations">Cari nombor, nama &amp; lagi</string>
+    <string name="title_compose">Taip nama atau nombor telefon</string>
+    <string name="setup_skip">Langkau</string>
+    <string name="setup_next">Teruskan</string>
+    <string name="menu_add_person">Tambah orang</string>
+    <string name="menu_call">Panggil</string>
+    <string name="menu_info">Perincian</string>
+    <string name="menu_save">Simpan ke galeri</string>
+    <string name="menu_share">Kongsi</string>
+    <string name="main_drawer_open_cd">Buka laci navigasi</string>
+    <string name="main_title_selected">%d dipilih</string>
+    <string name="main_menu_clear">Kosongkan</string>
+    <string name="main_menu_archive">Arkib</string>
+    <string name="main_menu_unarchive">Keluar dari arkib</string>
+    <string name="main_menu_delete">Padam</string>
+    <string name="main_menu_add_contact">Tambah ke kenalan</string>
+    <string name="main_menu_pin">Pin ke atas</string>
+    <string name="main_menu_unpin">Buka pin</string>
+    <string name="main_menu_read">Tanda sebagai telah dibaca</string>
+    <string name="main_menu_unread">Tanda sebagai belum dibaca</string>
+    <string name="select_all">Pilih Semua</string>
+    <string name="deselect_all">Batal pilih Semua</string>
+    <string name="main_menu_block">Blok</string>
+    <string name="main_syncing">Mengatur mesej...</string>
+    <string name="main_sender_you">Anda: %s</string>
+    <string name="main_draft">Draf: %s</string>
+    <string name="main_message_results_title">Hasil dalam mesej</string>
+    <string name="main_message_results">%d mesej</string>
+    <string name="inbox_empty_text">Perbualan anda akan muncul di sini</string>
+    <string name="inbox_search_empty_text">Tiada hasil</string>
+    <string name="archived_empty_text">Tiada perbualan diarkibkan lagi..</string>
+    <string name="main_fab_cd">Mulakan perbualan baru</string>
+    <string name="main_default_sms_title">Suka berMesej?</string>
+    <string name="main_default_sms_message">Jadikan aplikasi SMS anda sebagai aplikasi SMS default</string>
+    <string name="main_default_sms_change">Tukar</string>
+    <string name="main_permission_required">Dibenarkan diperlukan</string>
+    <string name="main_permission_sms">SMS memerlukan kebenaran untuk menghantar dan melihat mesej SMS</string>
+    <string name="main_permission_contacts">SMS memerlukan kebenaran untuk melihat kenalan anda</string>
+    <string name="main_permission_allow">Benarkan</string>
+    <string name="main_permission_allow_read">Benarkan Baca dan Tulis Kebenaran</string>
+    <string name="drawer_inbox">Peti masuk</string>
+    <string name="drawer_archived">Diarkibkan</string>
+    <string name="drawer_scheduled">Mesej Terjadual</string>
+    <string name="drawer_blocking">Senarai Diblok</string>
+    <string name="drawer_calldorado">Tetapan Pemanggil</string>
+    <string name="drawer_more">Lebih banyak</string>
+    <string name="drawer_group">Perbualan kumpulan</string>
+    <string name="drawer_settings">Tetapan</string>
+    <string name="drawer_remove_ads">Alih Iklan</string>
+    <string name="drawer_help">Bantuan &amp; maklum balas</string>
+    <string name="drawer_invite">Jemput rakan</string>
+    <string name="dialog_delete_title">Padam</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Adakah anda pasti ingin memadam perbualan ini?</item>
+        <item quantity="other">Adakah anda pasti ingin memadam %d perbualan?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Salin teks</item>
+        <item>Meneruskan</item>
+        <item>Padam</item>
+    </string-array>
+    <string name="compose_number_picker_title">Pilih nombor telefon</string>
+    <string name="compose_number_picker_default">%s ∙ Lalai</string>
+    <string name="compose_number_picker_once">Sekali sahaja</string>
+    <string name="compose_number_picker_always">Sentiasa</string>
+    <string name="compose_title_selected">%d dipilih</string>
+    <string name="compose_subtitle_results">%1$d daripada %2$d hasil</string>
+    <string name="contact_selected">%1$d daripada %2$d Dipilih</string>
+    <string name="compose_send_group_title">Hantar sebagai perbualan kumpulan</string>
+    <string name="compose_send_group_summary">Penerima dan balasan akan dilihat oleh semua orang</string>
+    <string name="compose_messages_empty">Permulaan perbualan anda. Katakan sesuatu yang hebat!</string>
+    <string name="compose_vcard_label">Kad Kenalan</string>
+    <string name="compose_scheduled_for">Dijadualkan untuk</string>
+    <string name="compose_scheduled_future">masa patut berada pada masa akan datang!</string>
+    <string name="compose_scheduled_toast">Ditambahkan kepada mesej yang dijadualkan</string>
+    <string name="compose_hint">Tulis Di Sini…</string>
+    <string name="compose_menu_copy">Salin teks</string>
+    <string name="compose_menu_forward">Meneruskan</string>
+    <string name="compose_menu_delete">Padam</string>
+    <string name="compose_menu_previous">Sebelumnya</string>
+    <string name="compose_menu_next">Seterusnya</string>
+    <string name="compose_menu_clear">Kosongkan</string>
+    <string name="compose_details_title">Butiran mesej</string>
+    <string name="compose_details_type">Jenis: %s</string>
+    <string name="compose_details_from">Dari: %s</string>
+    <string name="compose_details_to">Kepada: %s</string>
+    <string name="compose_details_subject">Subjek: %s</string>
+    <string name="compose_details_priority">Keutamaan: %s</string>
+    <string name="compose_details_size">Saiz: %s</string>
+    <string name="compose_details_sent">Dihantar: %s</string>
+    <string name="compose_details_received">Diterima: %s</string>
+    <string name="compose_details_delivered">Disampaikan: %s</string>
+    <string name="compose_details_error_code">Kod ralat: %d</string>
+    <string name="compose_attach_cd">Tambah lampiran</string>
+    <string name="compose_gallery_cd">Lampirkan gambar</string>
+    <string name="compose_camera_cd">Ambil gambar</string>
+    <string name="compose_schedule_cd">Mesej berjadual</string>
+    <string name="compose_contact_cd">Lampirkan kenalan</string>
+    <string name="compose_contact_error">Ralat membaca kenalan</string>
+    <string name="compose_sim_cd">%s dipilih, tukar kad SIM</string>
+    <string name="compose_send_cd">Hantar mesej</string>
+    <string name="message_status_sending">Menghantar…</string>
+    <string name="message_status_delivered">Dihantar %s</string>
+    <string name="message_status_failed">Gagal menghantar</string>
+    <string name="info_title">Butiran Kenalan</string>
+    <string name="info_copied_address">Alamat disalin</string>
+    <string name="info_name">Tajuk perbualan</string>
+    <string name="info_notifications">Pemberitahuan</string>
+    <string name="info_theme">Tema</string>
+    <string name="info_archive">Arkib</string>
+    <string name="info_unarchive">Buka dari arkib</string>
+    <string name="info_block">Blok</string>
+    <string name="info_unblock">Buka blok</string>
+    <string name="info_delete">Padam perbualan</string>
+    <string name="gallery_error">Tidak dapat memuatkan media</string>
+    <string name="gallery_toast_saved">Disimpan ke galeri</string>
+    <string name="backup_title">Sandarkan dan pulihkan</string>
+    <string name="backup_backing_up">Membuat sandaran mesej</string>
+    <string name="backup_restoring">Memulihkan daripada sandaran</string>
+    <string name="backup_last">Sandaran terakhir</string>
+    <string name="backup_loading">Memuatkan…</string>
+    <string name="backup_never">Tidak pernah</string>
+    <string name="backup_restore_title">Pulihkan</string>
+    <string name="backup_restore_summary">Pilih satu sandaran</string>
+    <string name="backup_restore_error_plus">Sila buka kunci SMS+ untuk menggunakan sandaran dan pulihkan</string>
+    <string name="backup_restore_error_backup">Sandaran sedang berlangsung…</string>
+    <string name="backup_restore_error_restore">Pemulihan sedang berlangsung…</string>
+    <string name="backup_restore_confirm_title">Pulihkan daripada sandaran</string>
+    <string name="backup_restore_confirm_message">Adakah anda pasti ingin memulihkan mesej anda dari sandaran ini?</string>
+    <string name="backup_restore_stop_title">Hentikan pemulihan</string>
+    <string name="backup_restore_stop_message">Mesej yang telah dipulihkan akan kekal pada peranti anda</string>
+    <string name="backup_restore_dialog_title">Sandaran</string>
+    <string name="backup_restore_dialog_summary">/Mesej SMS/Sandaran</string>
+    <string name="backup_restore_dialog_empty">Tiada sandaran dijumpai</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">Tiada mesej</item>
+        <item quantity="one">%d mesej</item>
+        <item quantity="other">%d mesej</item>
+    </plurals>
+    <string name="backup_disclaimer">Sehingga kini, kami hanya menyokong SMS melalui Sandaran dan Pulih!</string>
+    <string name="backup_now">Sandarkan</string>
+    <string name="backup_progress_parsing">Menganalisis sandaran…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d mesej</string>
+    <string name="backup_progress_saving">Menyimpan sandaran…</string>
+    <string name="backup_progress_syncing">Menyelaraskan mesej…</string>
+    <string name="backup_progress_finished">Selesai!</string>
+    <string name="backup_notification_channel_name">Sandaran dan pulih</string>
+    <string name="Message_notification_channel_name">Segerak Mesej</string>
+    <string name="scheduled_title">Dijadualkan</string>
+    <string name="schedule_guide">Anda boleh menetapkan mesej dijadualkan dengan mengklik butang lampiran yang diberikan pada skrin perbualan mesej.</string>
+    <string name="scheduled_empty_description">Menghantar mesej secara automatik, pada masa yang tepat yang anda inginkan</string>
+    <string name="scheduled_empty_message_1">Hey! Bila masa untuk sambutan?</string>
+    <string name="scheduled_empty_message_2">Ia adalah pada 5 Mac </string>
+    <string name="scheduled_empty_message_3">Heyaa! Lihatlah saya, kawan yang hebat, meraikan hari anda</string>
+    <string name="scheduled_empty_message_3_timestamp">Menghantar pada 5 Mac&#x200A;</string>
+    <string name="scheduled_compose_cd">Jadualkan mesej</string>
+    <string name="scheduled_options_title">Mesej yang dijadualkan</string>
+    <string-array name="scheduled_options">
+        <item>Hantar sekarang</item>
+        <item>Salin teks</item>
+        <item>Padam</item>
+    </string-array>
+    <string name="settings_category_appearance">Penampilan</string>
+    <string name="settings_category_general">Am</string>
+    <string name="settings_categoryreply">Balasan</string>
+    <string name="settings_night_title">Mod malam</string>
+    <string name="settings_text_size_title">Saiz fon</string>
+    <string name="settings_notifications_title">Pemberitahuan</string>
+    <string name="settings_notifications_o_summary">Ketik untuk menyesuaikan</string>
+    <string name="settings_notification_actions_title">Tindakan</string>
+    <string name="settings_notification_action_1">Butang 1</string>
+    <string name="settings_notification_action_2">Butang 2</string>
+    <string name="settings_notification_action_3">Butang 3</string>
+    <string name="settings_notification_previews_title">Pratonton pemberitahuan</string>
+    <string name="settings_notification_wake_title">Bangun skrin</string>
+    <string name="settings_vibration_title">Getaran</string>
+    <string name="settings_ringtone_title">Bunyi</string>
+    <string name="settings_ringtone_none">Tiada</string>
+    <string name="settings_reply_title">Balasan</string>
+    <string name="settings_reply_summary">Popup untuk mesej baru</string>
+    <string name="settings_reply_tap_dismiss_title">Ketik untuk menolak</string>
+    <string name="settings_reply_tap_dismiss_summary">Ketik di luar popup untuk menutupnya</string>
+    <string name="settings_swipe_actions">Tindakan sapuan</string>
+    <string name="settings_swipe_actions_right">Sapu ke kanan</string>
+    <string name="settings_swipe_actions_left">Sapu ke kiri</string>
+    <string name="settings_swipe_actions_change">TUKAR</string>
+    <string name="not_now_txt">Bukan sekarang</string>
+    <string name="process_title">Proses ini akan \nmemakan sedikit masa</string>
+    <string name="syncing_done">Penyegerakan mesej selesai....</string>
+    <string name="all_set_txt">Semuanya diatur. Anda sedia untuk pergi</string>
+    <string name="Personal">Semua Mesej</string>
+    <string name="Other">Diketahui </string>
+    <string name="Spam">Spam</string>
+    <string name="setting">Tetapan</string>
+    <string name="Share">Kongsi</string>
+    <string name="Rate">Beri kita penarafan</string>
+    <string name="edit">sunting</string>
+    <string name="DarkMode">Mod Gelap</string>
+    <string name="BrightMode">Mod Terang</string>
+    <string name="Camera">Kamera</string>
+    <string name="Gallery">Galeri</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">Kenalan</string>
+    <string name="Schedule">Jadual</string>
+    <string name="Location">Lokasi</string>
+    <string name="Notes">Catatan</string>
+    <string name="no_msg">Belum ada mesej…</string>
+    <string name="Start_Chat">Mula Berbual</string>
+    <string name="Language">Bahasa</string>
+    <string name="rate_text">Rekomendasikan kami kepada orang lain dengan memberi penarafan pada kami di Play Store!</string>
+    <string name="sort_by">Isih mengikut</string>
+    <string-array name="settings_swipe_actions">
+        <item>Tiada</item>
+        <item>Arkib</item>
+        <item>Padam</item>
+        <item>Panggilan</item>
+        <item>Tandakan sebagai telah dibaca</item>
+        <item>Tandakan sebagai belum dibaca</item>
+    </string-array>
+    <string name="settings_mms_size_title">Lampiran MMS Automatik-kompres</string>
+    <string name="settings_sync_title">Segerakan mesej</string>
+    <string name="settings_sync_summary">Segerakan semula mesej anda dengan pangkalan data SMS asli Android</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Kawalan Panggilan</string>
+    <string name="blocking_manager_sia_title">Patutkah Saya Menjawab?</string>
+    <string name="blocked_messages_title">Mesej-mesej Diblok</string>
+    <string name="blocked_messages_empty">Mesej-mesej yang diblok akan dipaparkan di sini</string>
+    <string name="blocking_block_title">Blok</string>
+    <string name="blocking_unblock_title">Buka blok</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">Teruskan ke %s dan blok nombor ini</item>
+        <item quantity="other">Teruskan ke %s dan blok nombor-nombor ini</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">Teruskan ke %s dan benarkan nombor ini</item>
+        <item quantity="other">Teruskan ke %s dan benarkan nombor-nombor ini</item>
+    </plurals>
+    <string name="widget_loading">Memuatkan…</string>
+    <string name="widget_more">Lihat lebih banyak perbualan</string>
+    <string name="qkreply_menu_read">Tandakan sebagai telah dibaca</string>
+    <string name="qkreply_menu_call">Panggil</string>
+    <string name="qkreply_menu_delete">Padam</string>
+    <string name="qkreply_menu_expand">Tunjukkan lebih banyak</string>
+    <string name="qkreply_menu_collapse">Tunjukkan kurang</string>
+    <string name="qkreply_menu_view">Buka perbualan</string>
+    <string name="changelog_title">Baru dalam SMS</string>
+    <string name="changelog_version">Versi %s</string>
+    <string name="changelog_added">Ditambah</string>
+    <string name="changelog_improved">Diperbaiki</string>
+    <string name="changelog_fixed">Diperbetulkan</string>
+    <string name="changelog_more">Lebih banyak</string>
+    <string name="changelog_dismiss">Tolak</string>
+    <string-array name="notification_actions">
+        <item>Tiada</item>
+        <item>Tandakan sebagai telah dibaca</item>
+        <item>Balas</item>
+        <item>Panggil</item>
+        <item>Padam</item>
+    </string-array>
+    <string name="button_yes">Ya</string>
+    <string name="button_continue">Teruskan</string>
+    <string name="button_cancel">Batal</string>
+    <string name="button_delete">Padam</string>
+    <string name="button_save">Simpan</string>
+    <string name="button_stop">Berhenti</string>
+    <string name="button_more">Lebih</string>
+    <string name="button_set">Tetapkan</string>
+    <string name="button_undo">Batal</string>
+    <string name="toast_copied">Disalin</string>
+    <string name="toast_archived">Perbualan diarkibkan</string>
+    <string name="toast_sms_plus">Anda mesti membuka kunci SMS+ untuk menggunakan ini</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Mesej baru</item>
+        <item quantity="other">%s mesej baru</item>
+    </plurals>
+    <string name="notification_message_failed_title">Mesej tidak dihantar</string>
+    <string name="notification_message_failed_text">Mesej kepada %s gagal dihantar</string>
+    <string name="privacy_policy">Dasar Privasi</string>
+    <string name="pocket_data_on">Data poket mesti dihidupkan semasa menghantar MMS!</string>
+    <string name="inapp_details" translatable="false">Untuk menyingkirkan iklan, cuba langganan premium dengan sokongan mod Gelap-Terang\nSokongan mesej terjadual.</string>
+    <string name="drawer_removeAds">Alihkan Iklan</string>
+    <string name="in_app_ads">mesej_rad</string>
+    <string name="dialog_delete_message">Adakah anda pasti ingin memadam mesej ini?</string>
+    <string name="compose_bar_not_support">Pengirim tidak menyokong balasan</string>
+    <string name="default_name">Untuk menghantar atau menerima SMS, anda perlu menetapkannya sebagai aplikasi lalai. Adakah anda mahu mesej ini menjadi aplikasi lalai anda?</string>
+    <string name="confirm_delete">Sahkan Pembatalan</string>
+    <string name="confirm_delete_text">Adakah anda pasti mahu memadam nota ini?</string>
+    <string name="title">Tajuk</string>
+    <string name="note">Nota</string>
+    <string name="search">Carian</string>
+    <string name="settings">Tetapan</string>
+    <string name="share_to">Kongsi ke:</string>
+    <string name="sort">Isih</string>
+    <string name="empty_list_text">Tekan butang di bahagian bawah kanan untuk menambah nota baru!</string>
+    <string name="new_note">Nota Baru</string>
+    <string name="undo">Batal</string>
+    <string name="delete">Padam</string>
+    <string name="exception">Pengecualian:</string>
+    <string name="edit_note">Edit Nota</string>
+    <string name="drawer_feedback">Hantar maklum balas</string>
+    <string name="drawer_mode">Mod cahaya</string>
+    <string name="unlimited_access_user">Akses Tanpa Had \nke Semua Ciri-ciri</string>
+    <string name="pro_user">Anda adalah \nPengguna Premium</string>
+    <string name="sub_info_text"><b>Langganan diperbaharui secara automatik sehingga anda mematikannya.</b></string>
+    <string name="cancel_purchase">Anda boleh membatalkan pembaharuan langganan automatik dalam Langganan di Google Play</string>
+    <string name="remove_ads">Alihkan Iklan</string>
+    <string name="no_ads">Tiada Iklan</string>
+    <string name="free_trial">Percubaan percuma 7 hari, kemudian diperbaharui secara automatik</string>
+    <string name="can_not_talk_right_now">Maaf, saya tidak dapat bercakap sekarang</string>
+    <string name="can_call_you_later">Bolehkah saya panggil anda kemudian?</string>
+    <string name="i_am_on_my_way">Saya dalam perjalanan</string>
+    <string name="write_personal_message">Tulis mesej peribadi</string>
+    <string name="create_reminder">Cipta peringatan baru</string>
+    <string name="remind_me_about">Ingatkan saya tentang</string>
+    <string name="no_title">Tiada Tajuk</string>
+    <string name="edit_contact">Edit Kenalan</string>
+    <string name="add_contact">Tambah Kenalan</string>
+    <string name="messages">Mesej</string>
+    <string name="send_mail">Hantar E-mel</string>
+    <string name="calendar">Kalendar</string>
+    <string name="web">Laman Web</string>
+    <string-array name="night_modes">
+        <item>Sistem</item>
+        <item>Mod Terang</item>
+        <item>Mod Gelap</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>Papar nama dan mesej</item>
+        <item>Papar nama</item>
+        <item>Sembunyikan kandungan</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>Kecil</item>
+        <item>Normal</item>
+        <item>Besar</item>
+        <item>Lebih besar</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>Tiada kelewatan</item>
+        <item>Pendek</item>
+        <item>Sederhana</item>
+        <item>Panjang</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Automatik</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>Tiada pemampatan</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>Okay</item>
+        <item>Beri saya sebentar</item>
+        <item>Dalam perjalanan</item>
+        <item>Terima kasih</item>
+        <item>Baiklah</item>
+        <item>Apa khabar?</item>
+        <item>Bersetuju</item>
+        <item>Tidak</item>
+        <item>Saya sayang awak</item>
+        <item>Maaf</item>
+        <item>LOL</item>
+        <item>Itu okay</item>
+    </string-array>
+    <string name="default_title">Benarkan Aplikasi SMS sebagai aplikasi lalai</string>
+    <string name="set_as_defaault">Tetapkan sebagai Lalai</string>
+    <string name="love_app_title">Jadikan aplikasi SMS sebagai aplikasi SMS lalai anda</string>
+    <string-array name="gif">
+        <item>Muka Haiwan</item>
+        <item>Emoji</item>
+        <item>Buah-buahan &amp; Sayur-sayuran</item>
+        <item>Halloween</item>
+        <item>Kasih sayang</item>
+    </string-array>
+    <string name="Sticker">Stiker</string>
+    <string name="no_connection">Tiada sambungan Internet.</string>
+    <string-array name="sticker">
+        <item>Lelaki</item>
+        <item>Kartun</item>
+        <item>Muka</item>
+        <item>Festival</item>
+        <item>Buah-buahan</item>
+        <item>Hiburan</item>
+        <item>Gadis</item>
+        <item>Stiker Cinta</item>
+        <item>Lain-lain</item>
+        <item>Anjing Kecil</item>
+    </string-array>
+    <string name="open_link_to_browser">Buka Pautan ke Pelayar</string>
+    <string name="battery_dialog">Jangan mahu terlepas SMS Penting?\nMatikan pengoptimuman bateri</string>
+    <string name="reason_to_change_battery_optimization_setting">Pergi ke Info Aplikasi &gt; Lanjutan &gt; Pengoptimuman Bateri\ndan pilih ‘Jangan optimum’</string>
+    <string name="feedback_txt">Beritahu kami tentang pengalaman anda dan berikan cadangan untuk meningkatkan aplikasi Mesej. </string>
+    <string name="reason_to_change_battery">Lanjutan &gt; Pengoptimuman Bateri &gt; ‘Jangan optimum’</string>
+    <string name="drawer_transaction">Transaksi</string>
+    <string name="drawer_promotion">Promosi</string>
+    <string name="unknown">Tidak diketahui </string>
+    <string name="priva"><u>Dasar Privasi</u></string>
+    <string name="smsfilter">Penapis SMS</string>
+    <string name="by_click_t_c" translatable="false"><u>Dengan mengklik, anda menerima Terma dan Syarat kami.</u></string>
+    <string name="continue_without_sub"><u>Teruskan tanpa langganan</u></string>
+    <string name="text_free_trial">Nikmati percubaan percuma %s hari <b>Tanpa Bayaran</b> - Kemudian %s € / bulan</string>
+    <string name="calldorado_message">Periksa semua <b>mesej</b> anda sebelum mengakhiri panggilan! Ada berita</string>
+    <string name="privacy_terms_description">Dengan meneruskan, anda menerima dan menyetujui terma penggunaan dan dasar privasi.</string>
+    <string name="draw_over_description"><![CDATA[Untuk dipaparkan di atas aplikasi lain mesej kami. Terima semua potensi widget panggilan SMS kami & lebih]]></string>
+    <string name="ad_label">IKLAN</string>
+    <string name="onboarding_continue_button">Teruskan</string>
+    <string name="onboarding_step_1_title">Pengurus SMS &amp; Perpesanan</string>
+    <string name="onboarding_step_1_subtitle">Berbual dengan rakan, membuat kumpulan, dan mengatur peti masuk anda</string>
+    <string name="onboarding_step_1_hight_light">Pendekatan Unik Untuk Anda</string>
+    <string name="onboarding_step_2_title">Mengatur &amp; menyimpan mesej</string>
+    <string name="onboarding_step_2_subtitle">Sandarkan &amp; pulihkan mesej anda</string>
+    <string name="onboarding_step_2_hight_light">Ribuan pengguna Sukai</string>
+    <string name="onboarding_step_3_title">Nikmati kehidupan &amp; biarkan kami mengurus peti masuk anda</string>
+    <string name="onboarding_step_3_subtitle">Terima kebenaran agar kami dapat membantu anda mengurus peti masuk anda.</string>
+    <string name="onboarding_step_3_hight_light">Mungkin kemudian</string>
+    <string name="onboarding_allow_access_button">Benarkan akses</string>
+    <string name="onboarding_step_4_title">Tingkatkan bateri anda dengan membiarkan kami bekerja</string>
+    <string name="onboarding_step_4_subtitle">Kami akan mengurus gangguan SMS yang menjengkelkan.</string>
+    <string name="onboarding_step_4_hight_light">Ribuan pengguna Sukai</string>
+    <string name="onboarding_step_5_title">Skrin berkongsi kerja pada aplikasi lain semasa bersembang</string>
+    <string name="onboarding_step_5_subtitle">Nikmati widget panggilan kami yang menakjubkan yang membolehkan anda menjalankan beberapa tugas sekaligus</string>
+    <string name="onboarding_step_5_hight_light">Ribuan pengguna Sukai</string>
+    <string name="payment_card_title">Berbual sekarang!</string>
+    <string name="payment_card_price"><![CDATA[Percubaan percuma 3 hari, %s / %s]]></string>
+    <string name="payment_card_button">Cuba sekarang secara percuma</string>
+    <string name="payment_card_hight_light">Dijamin dengan Google Play</string>
+    <string name="payment_card_weekly">mingguan</string>
+    <string name="payment_card_monthly">bulanan</string>
+    <string name="payment_card_yearly">tahunan</string>
+    <string name="payment_card_auto_renew">langganan automatik, batalkan bila-bila masa</string>
+    <string name="accessibility_service_description">Perkhidmatan aksesibiliti anda</string>
+    <string name="permission_txt"><font color="#FF8A00">Keizinan Diperlukan:</font>\nBaca status telefon &amp; Melukis atas aplikasi lain</string>
+    <string name="opt_privacy">Dengan meneruskan, anda menerima dan menyetujui terma penggunaan dan dasar privasi.</string>
+    <string name="permission_required">Keizinan Diperlukan</string>
+    <string name="permission_dialog_body">Aplikasi ini mungkin tidak berfungsi dengan betul tanpa kebenaran telefon. Ikuti arahan di bawah untuk mengaktifkannya:\n\n1. Pilih "Keizinan"\n2. Cari "Telefon" dalam senarai keizinan dan ketik untuk mengaktifkan</string>
+    <string name="go_premium">Pergi <font color = "#FFE600">Premium!</font></string>
+    <string name="unlock_everything">Buka Semua &amp; Tanpa Iklan</string>
+    <string name="start_three_day">Mulakan Percubaan 3 Hari</string>
+    <string name="pro">Pro</string>
+    <string name="more_option">Lebih Banyak Pilihan</string>
+    <string name="rate_us_5">Beri Kami Penilaian 5 Bintang</string>
+    <string name="help_feedback">Bantuan &amp; Maklum Balas</string>
+    <string name="send_message">Hantar Mesej</string>
+    <string name="CTA_Button_Text">Ketik untuk membuka semua <font color="#FFFBCD04">Ciri</font></string>
+
+</resources>

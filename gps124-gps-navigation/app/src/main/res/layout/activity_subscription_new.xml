@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/popupholder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:id="@+id/ivHeader"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_190sdp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_subscription_header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/closeImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_31sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/closed" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_27sdp"
+        android:gravity="center"
+        android:text="@string/subscription_heading"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_17ssp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ivHeader"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLabelPremium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@drawable/btn_rounded_red_5dp"
+        android:gravity="start"
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingTop="@dimen/_2sdp"
+        android:paddingEnd="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_2sdp"
+        android:text="@string/premium"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12ssp"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="@+id/textView5" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        android:background="@drawable/bg_white_top_rounded_20sdp"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent">
+
+
+            <TextView
+                android:id="@+id/tvHeading1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:lineSpacingExtra="@dimen/_3sdp"
+                android:text="@string/subscription_includes"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.8" />
+
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="sans-serif"
+                android:gravity="start"
+                android:lineSpacingExtra="@dimen/_3sdp"
+                android:text="@string/free_trial_new_description"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvHeading1"
+                app:layout_constraintWidth_percent="0.8" />
+
+
+            <TextView
+                android:id="@+id/tvHeading2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:gravity="center"
+                android:lineSpacingExtra="@dimen/_3sdp"
+                android:text="@string/choose_your_plann"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sdp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvDescription"
+                app:layout_constraintWidth_percent="0.8" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/clMY"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvHeading2"
+                app:layout_constraintWidth_percent="0.85"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/rlMonthy"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintHeight_min="@dimen/_120sdp"
+                    android:background="@drawable/bg_monthly_free_trial"
+                    app:layout_constraintEnd_toStartOf="@+id/rlYearly"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    >
+
+
+                    <TextView
+                        android:id="@+id/tvMonthlyHeader"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:text="@string/_3_days_free"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/tvMonthlyHeader"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:minHeight="@dimen/_100sdp"
+                        android:background="@drawable/btn_rounded_white_5dp">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true">
+
+                            <TextView
+                                android:id="@+id/tvInnerMonthlyHeader"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/monthly"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_14ssp"
+                                android:textStyle="bold"
+                                android:visibility="visible"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/tvMonthlyPrice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:text="$12.99"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_9ssp"
+                                android:paddingStart="@dimen/_4sdp"
+                                android:paddingEnd="@dimen/_4sdp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/tvInnerMonthlyHeader" />
+
+                            <TextView
+                                android:id="@+id/labelMonthlyPrice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:text="Remove ads only"
+                                android:visibility="gone"
+                                android:textSize="@dimen/_10ssp"
+                                android:paddingStart="@dimen/_4sdp"
+                                android:paddingEnd="@dimen/_4sdp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/tvMonthlyPrice" />
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlYearly"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_monthly_free_trial"
+                    app:layout_constraintEnd_toStartOf="@+id/rlSixMonths"
+                    app:layout_constraintStart_toEndOf="@+id/rlMonthy"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    >
+
+                    <TextView
+                        android:id="@+id/tvYearlyHeader"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:textStyle="bold"
+                        android:text="@string/_3_days_free"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/tvYearlyHeader"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:minHeight="@dimen/_100sdp"
+                        android:background="@drawable/btn_rounded_white_5dp">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            >
+
+
+                            <TextView
+                                android:id="@+id/tvYearlyInnerHeader"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/yearly"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_14ssp"
+                                android:textStyle="bold"
+                                android:visibility="visible"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/tvYearlyPrice"
+                                android:layout_width="0dp"
+                                android:layout_height="24dp"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:paddingStart="@dimen/_4sdp"
+                                android:paddingEnd="@dimen/_4sdp"
+                                android:text="$59.90331"
+                                android:gravity="center_horizontal"
+                                android:textColor="@color/quantum_grey700"
+                                android:textSize="@dimen/_9ssp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/tvYearlyInnerHeader" />
+
+                            <TextView
+                                android:id="@+id/tvYearlyDiscount"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="@dimen/_2sdp"
+                                android:text="$4.99/month"
+                                android:textColor="@color/quantum_grey700"
+                                android:textSize="@dimen/_12ssp"
+                                android:paddingStart="@dimen/_4sdp"
+                                android:paddingEnd="@dimen/_4sdp"
+                                android:visibility="gone"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/tvYearlyPrice" />
+
+
+
+                            <TextView
+                                android:id="@+id/labelYearlyDiscount"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="@dimen/_2sdp"
+                                android:text="PKR354.17/Month"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_8ssp"
+                                android:paddingStart="@dimen/_4sdp"
+                                android:paddingEnd="@dimen/_4sdp"
+                                android:gravity="center_horizontal"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/tvYearlyPrice" />
+
+                            <TextView
+                                android:id="@+id/tvYearlyDiscountLabel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:paddingStart="@dimen/_5sdp"
+                                android:paddingEnd="@dimen/_5sdp"
+                                android:paddingTop="@dimen/_2sdp"
+                                android:paddingBottom="@dimen/_2sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:text="Save upto 60%"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_10ssp"
+                                android:background="@drawable/btn_rounded_red_5dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/labelYearlyDiscount"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlSixMonths"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_monthly_free_trial"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/rlYearly"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:visibility="gone"
+                    >
+
+                    <TextView
+                        android:id="@+id/tvSixMonthsHeader"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:textStyle="bold"
+                        android:text="@string/_3_days_free"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/tvSixMonthsHeader"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:minHeight="@dimen/_90sdp"
+                        android:background="@drawable/btn_rounded_white_5dp">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true">
+
+
+                            <TextView
+                                android:id="@+id/tvSMInnerHeader"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/six_month"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_14ssp"
+                                android:textStyle="bold"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/tvSMPrice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:text="$47.99"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_12ssp"
+                                android:paddingStart="@dimen/_4sdp"
+                                android:paddingEnd="@dimen/_4sdp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/tvSMInnerHeader" />
+
+                            <TextView
+                                android:id="@+id/tvSMDiscount"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="@dimen/_2sdp"
+                                android:text="$7.99/month"
+                                android:textColor="@color/quantum_grey400"
+                                android:textSize="@dimen/_10ssp"
+                                android:paddingStart="@dimen/_4sdp"
+                                android:paddingEnd="@dimen/_4sdp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/tvSMPrice" />
+
+                            <TextView
+                                android:id="@+id/tvSMDiscountLabel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:paddingStart="@dimen/_5sdp"
+                                android:paddingEnd="@dimen/_5sdp"
+                                android:paddingTop="@dimen/_2sdp"
+                                android:paddingBottom="@dimen/_2sdp"
+                                android:text="Save upto 35%"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_10ssp"
+                                android:background="@drawable/btn_rounded_red_5dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/tvSMDiscount" />
+
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <Button
+                android:id="@+id/btnUpgradeNow"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/bg_green_gradient_7sdp"
+                android:text="@string/start_free_trail"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14ssp"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/clMY"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_30sdp"
+                 />
+
+            <TextView
+                android:id="@+id/tvBottomDescription"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center_horizontal"
+                android:text="@string/an_auto_renewable_subscription_will_be_activated_at_the_end_of_the_selected_period"
+                android:textColor="#66000000"
+                android:textSize="@dimen/_10ssp"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnUpgradeNow"
+                app:layout_constraintWidth_percent="0.8" />
+
+            <TextView
+                android:id="@+id/tvBottomTermsOfServices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:gravity="center_horizontal"
+                android:text="@string/our_term_of_services_applies_to_all_purchases"
+                android:textColor="@color/black"
+                android:textColorLink="@color/blue_A700"
+                android:textSize="@dimen/_10ssp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvBottomDescription"
+                app:layout_constraintVertical_bias="1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

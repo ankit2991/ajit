@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Photo Editor</string>
+
+    <string name="feedback">प्रतिपुष्टि</string>
+
+    <string name="tap_to_select">चुनने के लिए टैप करें</string>
+    <string name="sharpen">पैना</string>
+
+    <string name="brightness">चमक</string>
+    <string name="camera">कैमरा</string>
+    <string name="dialog_discard_title">परिवर्तन सहेजे नहीं जाएंगे। क्या आप आगे बढ़ना चाहते हैं?</string>
+    <string name="discard">रद्द करें</string>
+    <string name="edit">संपादित करें</string>
+    <string name="collage">महाविद्यालय</string>
+    <string name="contrast">अंतर</string>
+
+
+    <string name="rate_us">हमें रेटिंग दें </string>
+    <string name="rating_dialog_feedback_title">प्रतिपुष्टि</string>
+    <string name="rating_dialog_maybe_later">शायद बाद में</string>
+    <string name="rating_dialog_submit">प्रस्तुत करना</string>
+    <string name="rating_promote">अगर कैमरा फोटो एडिटर प्रो आपको खुश और संतुष्ट करता है। कृपया हमें 5 स्टार दें</string>
+
+    <string name="saturation">परिपूर्णता</string>
+    <string name="save">बचा ले</string>
+    <string name="save_and_share">सहेजें और साझा करें</string>
+
+
+    <string name="settings">अधिक</string>
+    <string name="share_friend">ऐप शेयर करें</string>
+    <string name="share_photo">फोटो साझा करें</string>
+
+    <string name="thank_you_2">आपका दिन शुभ हो</string>
+    <string name="thank_you">संपर्क में रहना</string>
+    <string name="press_back">कृपया बाहर निकलने के लिए फिर से दबाएं</string>
+    <string name="agree_to_continue">जारी रखने के लिए सहमत</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="gallery">गेलरी</string>
+    <string name="crop">काटना</string>
+    <string name="adjust">समायोजित करना</string>
+    <string name="filters">उपरिशायी</string>
+    <string name="overlay">Overlay</string>
+    <string name="sticker">कँटिया</string>
+    <string name="brush">ब्रश</string>
+    <string name="fit">फ़िट</string>
+    <string name="blur">कलंक</string>
+    <string name="splas">छप छप</string>
+    <string name="beauty_tool">सुंदरता</string>
+    <string name="layout">ख़ाका</string>
+    <string name="border">बॉर्डर</string>
+    <string name="ratio">अनुपात</string>
+    <string name="bg">पृष्ठभूमि</string>
+</resources>

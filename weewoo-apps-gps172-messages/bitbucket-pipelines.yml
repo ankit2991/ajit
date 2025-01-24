@@ -1,0 +1,23 @@
+image: ubuntu:22.04
+
+pipelines:
+  branches:
+    develop:
+      - step:
+          name: Sending google checks for develop branch
+          script:
+            - echo "Updating system and installing curl..."
+            - apt update && apt install -y curl
+            - echo "Installing CHECKS CLI..."
+            - curl --compressed https://dl.google.com/checks/cli/latest/checks-linux -o checks
+            - chmod +x checks
+            - mv ./checks /usr/local/bin/
+            - echo "Configuring service account..."
+            - echo "$SERVICE_ACCOUNT_JSON" | base64 -d > service-account.json
+            - chmod 600 service-account.json
+            - cat service-account.json
+            - export CHECKS_CREDENTIALS=$(pwd)/service-account.json
+            - echo "Running checks..."
+            - checks code scan . --account-id=$ACCOUNT_ID --repo-id=$REPO_ID --branch-name develop --disable-analytics --disable-version-check --no-input
+            - rm service-account.json 
+            - echo "Checks completed successfully"

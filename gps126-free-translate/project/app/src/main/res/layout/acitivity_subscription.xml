@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.96"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_privacy_policy_prefix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Terms of use"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_bottom" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_monthly_selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:background="@drawable/bg_sub_unselected"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/tv_title_monthly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:fontFamily="@font/segoeuib"
+            android:text="@string/subscribe_monthly"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_11sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_continue_trial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:background="@drawable/bg_subscription_selected_orange"
+        app:layout_constraintBottom_toTopOf="@+id/layout_monthly_selection"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97">
+
+        <TextView
+            android:id="@+id/tv_title_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:fontFamily="@font/segoeuib"
+            android:text="@string/full_access"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_full_access"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:srcCompat="@drawable/ic_arrow_life_purchase"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/tv_title_continue"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_off"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_16sdp"
+        app:layout_constraintBottom_toTopOf="@+id/layout_monthly_selection"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="50% OFF"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_9sdp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_three_days_free"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        android:text="Only PKR 255"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/layout_off"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/layout_off" />
+
+
+    <TextView
+        android:id="@+id/tv_title_subs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_12sdp"
+        android:gravity="center"
+        android:text="Camera &amp; Photo translation, Voice conversation, Dictionary, Ads Free &amp; More "
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tv_three_days_free"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/layout_off" />
+
+    <LinearLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_12sdp"
+        android:background="@drawable/bg_container_sub_icons"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:weightSum="5"
+        app:layout_constraintBottom_toTopOf="@+id/tv_title_subs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/layout_off"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_top"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/iv_cam_sub"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_sub_camera" />
+
+        <ImageView
+            android:id="@+id/iv_conversation_sub"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_sub_conversation" />
+
+        <ImageView
+            android:id="@+id/iv_voice_sub"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_sub_voice" />
+
+        <ImageView
+            android:id="@+id/iv_instant_sub"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_sub_instant" />
+
+        <ImageView
+            android:id="@+id/iv_remove_sub"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_sub_remove_ad"
+
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_title_sub_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/in_app_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18sdp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_top" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        app:srcCompat="@drawable/ic_sub_pro"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_title_sub_header"
+        app:layout_constraintStart_toEndOf="@+id/tv_title_sub_header"
+        app:layout_constraintTop_toTopOf="@+id/tv_title_sub_header"
+        app:layout_constraintVertical_bias="0.61" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <ImageView
+        android:id="@+id/iv_cross_subscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:padding="12dp"
+        app:srcCompat="@drawable/ic_cross_white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

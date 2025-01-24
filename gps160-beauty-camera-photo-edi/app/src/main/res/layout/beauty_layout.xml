@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/tools_background_color"
+        app:layout_constraintBottom_toTopOf="@+id/adsContainer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:background="@color/tools_background_color"
+
+            app:layout_constraintBottom_toTopOf="@id/function"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.lockerroom.face.photoeditor.PhotoEditorView
+                android:id="@id/photoEditorView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                app:showBorder="false"
+                app:showIcons="true" />
+
+            <RelativeLayout
+                android:id="@id/loadingView"
+                android:layout_width="80.0dip"
+                android:layout_height="80.0dip"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent">
+
+                <com.agrawalsuneet.dotsloader.loaders.AllianceLoader
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    app:alliance_animDuration="500"
+                    app:alliance_distanceMultiplier="3"
+                    app:alliance_dotsRadius="10.0dip"
+                    app:alliance_drawOnlyStroke="false"
+                    app:alliance_firstDotsColor="@color/ball1"
+                    app:alliance_secondDotsColor="@color/ball2"
+                    app:alliance_thirdDotsColor="@color/ball3" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@id/compare"
+            android:layout_width="35.0dip"
+            android:layout_height="35.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginBottom="15.0dip"
+            android:background="@drawable/circle_2"
+            android:clickable="true"
+            android:foreground="@drawable/ripple"
+            android:padding="8.0dip"
+            android:src="@drawable/compare"
+            app:layout_constraintBottom_toTopOf="@id/function"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <LinearLayout
+            android:id="@id/function"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white_blur"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="20.0dip"
+            app:layout_constraintBottom_toTopOf="@id/confirmToolbar">
+
+            <com.lockerroom.face.filters.DegreeSeekBar
+                android:id="@id/intensityTwoDirection"
+                android:layout_width="fill_parent"
+                android:layout_height="36.0dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:layout_marginBottom="5.0dip"
+                android:backgroundTint="@color/black" />
+
+            <RelativeLayout
+                android:id="@id/resetWaist"
+                android:layout_width="wrap_content"
+                android:layout_height="32.0dip"
+                android:background="@drawable/rounded_border_color_accent"
+                android:paddingLeft="12.0dip"
+                android:paddingRight="12.0dip">
+
+                <ImageView
+                    android:id="@id/reset"
+                    android:layout_width="14.0dip"
+                    android:layout_height="14.0dip"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/rotate_white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="6.0dip"
+                    android:layout_toRightOf="@id/reset"
+                    android:fontFamily="@font/encode_sans_medium"
+                    android:text="Reset"
+                    android:textColor="@color/black" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@id/magicLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="15.0dip"
+                android:layout_marginBottom="5.0dip"
+                android:orientation="horizontal"
+                android:weightSum="2.0">
+
+                <SeekBar
+                    android:id="@id/intensitySmooth"
+                    style="@style/SeekBaStyle"
+                    android:max="1000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@id/lstFunction"
+                android:layout_width="fill_parent"
+                android:layout_height="70.0dip"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginRight="5.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="3.0"
+                app:layout_constraintBottom_toTopOf="@id/confirmToolbar">
+
+                <RelativeLayout
+                    android:id="@id/wrapBoobs"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0">
+
+                    <ImageView
+                        android:id="@id/boobs"
+                        android:layout_width="30.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/boobs" />
+
+                    <TextView
+                        android:id="@id/tvBoobs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/boobs"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5.0dip"
+                        android:fontFamily="@font/encode_sans_medium"
+                        android:text="Boobs"
+                        android:textColor="@color/black"
+                        android:textSize="12.0sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@id/wrapWaist"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@id/waist"
+                        android:layout_width="30.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/waist" />
+
+                    <TextView
+                        android:id="@id/tvWaist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/waist"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5.0dip"
+                        android:text="Waist"
+                        android:textColor="@color/white"
+                        android:textSize="12.0sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@id/wrapHip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0">
+
+                    <ImageView
+                        android:id="@id/seat"
+                        android:layout_width="30.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/seat" />
+
+                    <TextView
+                        android:id="@id/tvSeat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/seat"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5.0dip"
+                        android:fontFamily="@font/encode_sans_medium"
+                        android:text="Hips"
+                        android:textColor="@color/black"
+                        android:textSize="12.0sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@id/wrapFace"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0">
+
+                    <ImageView
+                        android:id="@id/face"
+                        android:layout_width="30.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/beauty_face" />
+
+                    <TextView
+                        android:id="@id/tvFace"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/face"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5.0dip"
+                        android:fontFamily="@font/encode_sans_medium"
+                        android:text="Face"
+                        android:textColor="@color/black"
+                        android:textSize="12.0sp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@id/confirmToolbar"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <ImageView
+                android:id="@id/imgClose"
+                android:layout_width="45.0dip"
+                android:layout_height="fill_parent"
+                android:clickable="true"
+                android:foreground="@drawable/ripple"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip"
+                android:src="@drawable/ic_close"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@id/shape"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:fontFamily="@font/encode_sans_medium"
+                android:gravity="center"
+                android:paddingLeft="8.0dip"
+                android:paddingRight="8.0dip"
+                android:text="Beauty"
+                android:textColor="@color/black"
+                android:textSize="16.0sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@id/imgSave"
+                android:layout_width="45.0dip"
+                android:layout_height="fill_parent"
+                android:clickable="true"
+                android:foreground="@drawable/ripple"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip"
+                android:src="@drawable/ic_done_24dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/black" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:id="@id/adsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <FrameLayout
+            android:id="@+id/bannerContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/bannerTvLoading"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/banner_height"
+            android:gravity="center"
+            android:background="@color/white"
+            android:text="Loading Ad"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

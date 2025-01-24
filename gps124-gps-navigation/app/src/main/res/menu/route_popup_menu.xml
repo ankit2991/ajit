@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/action_duplicate_route"
+            android:title="@string/duplicate_route"
+    />
+
+    <item
+            android:id="@+id/action_rename_route"
+            android:title="@string/rename_route"/>
+
+    <item
+            android:id="@+id/action_delete_route"
+            android:title="@string/delete_route"/>
+
+    <item
+            android:id="@+id/action_share_route"
+            android:visible="false"
+            android:title="@string/share"/>
+
+</menu>

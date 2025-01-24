@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sugest_update_title">Prieinama nauja versija</string>
+    <string name="sugest_update_message">Prieinama nauja versija „Google Play“, prašome atnaujinti savo versiją</string>
+    <string name="force_update_title">Prieinama nauja versija</string>
+    <string name="force_update_message">Prieinama nauja versija „Google Play“, prašome atnaujinti savo versiją</string>
+    <string name="update_ok">Atnaujinti</string>
+    <string name="update_no">Ne šiuo metu</string>
+    <string name="app_name">#Pranešimai</string>
+    <string name="in_app_name">Pranešimai</string>
+    <string name="splash_app_name">SMS pranešimai</string>
+    <string name="loading_msg">Prašome palaukti...</string>
+    <string name="ads_loading_msg">Reklama rodoma...</string>
+    <string name="shortcut_compose_long_label">Naujas pokalbis</string>
+    <string name="shortcut_compose_short_label">Sukurti</string>
+    <string name="shortcut_compose_disabled_message">Sankirta išjungta</string>
+    <string name="title_archived">Archyvuoti pranešimai</string>
+    <string name="title_settings">Nustatymai</string>
+    <string name="title_notification_prefs">Pranešimai</string>
+    <string name="title_theme">Tema</string>
+    <string name="title_conversations">Ieškoti numerių, vardų ir daugiau</string>
+    <string name="title_compose">Įveskite vardą arba telefono numerį</string>
+    <string name="setup_skip">Praleisti</string>
+    <string name="setup_next">Tęsti</string>
+    <string name="menu_add_person">Pridėti asmenį</string>
+    <string name="menu_call">Skambinti</string>
+    <string name="menu_info">Išsami informacija</string>
+    <string name="menu_save">Įrašyti į galeriją</string>
+    <string name="menu_share">Dalintis</string>
+    <string name="main_drawer_open_cd">Atidaryti navigacijos skydelį</string>
+    <string name="main_title_selected">%d pažymėta(-os)</string>
+    <string name="main_menu_clear">Valyti</string>
+    <string name="main_menu_archive">Archyvuoti</string>
+    <string name="main_menu_unarchive">Išarchyvuoti</string>
+    <string name="main_menu_delete">Ištrinti</string>
+    <string name="main_menu_add_contact">Pridėti į kontaktus</string>
+    <string name="main_menu_pin">Užtvirtinti viršuje</string>
+    <string name="main_menu_unpin">Atšaukti užtvirtinimą viršuje</string>
+    <string name="main_menu_read">Pažymėti kaip perskaitytą</string>
+    <string name="main_menu_unread">Pažymėti kaip neperskaitytą</string>
+    <string name="select_all">Pažymėti visus</string>
+    <string name="deselect_all">Atšaukti visus</string>
+    <string name="main_menu_block">Blokuoti</string>
+    <string name="main_syncing">Rūšiuojami pranešimai...</string>
+    <string name="main_sender_you">Jūs: %s</string>
+    <string name="main_draft">Juodraštis: %s</string>
+    <string name="main_message_results_title">Rezultatai pranešimuose</string>
+    <string name="main_message_results">%d pranešimai(-ų)</string>
+    <string name="inbox_empty_text">Jūsų pokalbiai atsiras čia</string>
+    <string name="inbox_search_empty_text">Nėra rezultatų</string>
+    <string name="archived_empty_text">Kol kas nėra archyvuotų pokalbių..</string>
+    <string name="main_fab_cd">Pradėti naują pokalbį</string>
+    <string name="main_default_sms_title">Mėgstate siųsti pranešimus?</string>
+    <string name="main_default_sms_message">Padarykite SMS programą savo numatyta SMS programa</string>
+    <string name="main_default_sms_change">Keisti</string>
+    <string name="main_permission_required">Reikalinga leidimas</string>
+    <string name="main_permission_sms">SMS reikia leidimo siųsti ir peržiūrėti SMS pranešimus</string>
+    <string name="main_permission_contacts">SMS reikia leidimo peržiūrėti jūsų kontaktus</string>
+    <string name="main_permission_allow">Leisti</string>
+    <string name="main_permission_allow_read">Leisti skaityti ir rašyti leidimą</string>
+    <string name="drawer_inbox">Gauti pranešimai</string>
+    <string name="drawer_archived">Archyvuoti</string>
+    <string name="drawer_scheduled">Suplanuoti pranešimai</string>
+    <string name="drawer_blocking">Blokuotas sąrašas</string>
+    <string name="drawer_calldorado">Skambučių nustatymai</string>
+    <string name="drawer_more">Daugiau</string>
+    <string name="drawer_group">Grupės pranešimas</string>
+    <string name="drawer_settings">Nustatymai</string>
+    <string name="drawer_remove_ads">Pašalinti reklamas</string>
+    <string name="drawer_help">Pagalba ir atsiliepimai</string>
+    <string name="drawer_invite">Pakviesti draugus</string>
+    <string name="dialog_delete_title">Ištrinti</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Ar tikrai norite ištrinti šį pokalbį?</item>
+        <item quantity="other">Ar tikrai norite ištrinti %d pokalbių?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Kopijuoti tekstą</item>
+        <item>Persiųsti</item>
+        <item>Ištrinti</item>
+    </string-array>
+    <string name="compose_number_picker_title">Pasirinkite telefono numerį</string>
+    <string name="compose_number_picker_default">%s ∙ Numatytasis</string>
+    <string name="compose_number_picker_once">Tik kartą</string>
+    <string name="compose_number_picker_always">Visada</string>
+    <string name="compose_title_selected">%d pažymėta</string>
+    <string name="compose_subtitle_results">%1$d iš %2$d rezultatų</string>
+    <string name="contact_selected">%1$d iš %2$d pažymėta</string>
+    <string name="compose_send_group_title">Siųsti kaip grupės pranešimą</string>
+    <string name="compose_send_group_summary">Gavėjai ir atsakymai bus matomi visiems</string>
+    <string name="compose_messages_empty">Pradžia jūsų pokalbiui. Parašykite kažką nuostabaus!</string>
+    <string name="compose_vcard_label">Kontakto kortelė</string>
+    <string name="compose_scheduled_for">Suplanuota</string>
+    <string name="compose_scheduled_future"> laikas turėtų būti ateityje!</string>
+    <string name="compose_scheduled_toast">Pridėta prie suplanuotų pranešimų</string>
+    <string name="compose_hint">Rašykite čia…</string>
+    <string name="compose_menu_copy">Kopijuoti tekstą</string>
+    <string name="compose_menu_forward">Persiųsti</string>
+    <string name="compose_menu_delete">Ištrinti</string>
+    <string name="compose_menu_previous">Ankstesnis</string>
+    <string name="compose_menu_next">Kitas</string>
+    <string name="compose_menu_clear">Išvalyti</string>
+    <string name="compose_details_title">Pranešimo informacija</string>
+    <string name="compose_details_type">Tipas: %s</string>
+    <string name="compose_details_from">Nuo: %s</string>
+    <string name="compose_details_to">Kam: %s</string>
+    <string name="compose_details_subject">Tema: %s</string>
+    <string name="compose_details_priority">Prioritetas: %s</string>
+    <string name="compose_details_size">Dydis: %s</string>
+    <string name="compose_details_sent">Išsiųsta: %s</string>
+    <string name="compose_details_received">Gauta: %s</string>
+    <string name="compose_details_delivered">Pristatyta: %s</string>
+    <string name="compose_details_error_code">Klaidos kodas: %d</string>
+    <string name="compose_attach_cd">Pridėti priedą</string>
+    <string name="compose_gallery_cd">Pridėti nuotrauką</string>
+    <string name="compose_camera_cd">Padaryti nuotrauką</string>
+    <string name="compose_schedule_cd">Suplanuoti pranešimą</string>
+    <string name="compose_contact_cd">Pridėti kontaktą</string>
+    <string name="compose_contact_error">Klaida skaitant kontaktą</string>
+    <string name="compose_sim_cd">%s pažymėtas, pakeiskite SIM kortelę</string>
+    <string name="compose_send_cd">Siųsti pranešimą</string>
+    <string name="message_status_sending">Siunčiama…</string>
+    <string name="message_status_delivered">Pristatyta %s</string>
+    <string name="message_status_failed">Nepavyko išsiųsti</string>
+    <string name="info_title">Kontakto informacija</string>
+    <string name="info_copied_address">Adresas nukopijuotas</string>
+    <string name="info_name">Pokalbio pavadinimas</string>
+    <string name="info_notifications">Pranešimai</string>
+    <string name="info_theme">Tema</string>
+    <string name="info_archive">Archyvuoti</string>
+    <string name="info_unarchive">Išarchyvuoti</string>
+    <string name="info_block">Blokuoti</string>
+    <string name="info_unblock">Atblokuoti</string>
+    <string name="info_delete">Ištrinti pokalbį</string>
+    <string name="gallery_error">Nepavyko įkelti medijos</string>
+    <string name="gallery_toast_saved">Įrašyta į galeriją</string>
+    <string name="backup_title">Atsarginė kopija ir atkūrimas</string>
+    <string name="backup_backing_up">Atsarginės kopijos kūrimas</string>
+    <string name="backup_restoring">Atkūrimas iš atsarginės kopijos</string>
+    <string name="backup_last">Paskutinė atsarginė kopija</string>
+    <string name="backup_loading">Įkeliama…</string>
+    <string name="backup_never">Niekada</string>
+    <string name="backup_restore_title">Atkūrimas</string>
+    <string name="backup_restore_summary">Pasirinkite atsarginę kopiją</string>
+    <string name="backup_restore_error_plus">Prašome atrakinti SMS+, kad galėtumėte naudoti atsarginę kopiją ir atkūrimą</string>
+    <string name="backup_restore_error_backup">Atsarginė kopija vykdoma…</string>
+    <string name="backup_restore_error_restore">Atkūrimas vykdomas…</string>
+    <string name="backup_restore_confirm_title">Atkurti iš atsarginės kopijos</string>
+    <string name="backup_restore_confirm_message">Ar tikrai norite atkurti savo pranešimus iš šios atsarginės kopijos?</string>
+    <string name="backup_restore_stop_title">Stabdyti atkūrimą</string>
+    <string name="backup_restore_stop_message">Pranešimai, kurie jau buvo atkurti, liks jūsų įrenginyje</string>
+    <string name="backup_restore_dialog_title">Atsarginės kopijos</string>
+    <string name="backup_restore_dialog_summary">/SMS Pranešimai/Atsarginės kopijos</string>
+    <string name="backup_restore_dialog_empty">Atsarginės kopijos nerastos</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">Nėra pranešimų</item>
+        <item quantity="one">%d pranešimas</item>
+        <item quantity="other">%d pranešimai</item>
+    </plurals>
+    <string name="backup_disclaimer">Iki šiol palaikėme tik SMS atsargines kopijas ir atkūrimus!</string>
+    <string name="backup_now">Atsarginė kopija</string>
+    <string name="backup_progress_parsing">Analizuojama atsarginė kopija…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d pranešimų</string>
+    <string name="backup_progress_saving">Išsaugoma atsarginė kopija…</string>
+    <string name="backup_progress_syncing">Sinchronizuojami pranešimai…</string>
+    <string name="backup_progress_finished">Baigta!</string>
+    <string name="backup_notification_channel_name">Atsarginė kopija ir atkūrimas</string>
+    <string name="Message_notification_channel_name">Pranešimų sinchronizavimas</string>
+    <string name="scheduled_title">Suplanuota</string>
+    <string name="schedule_guide">Jūs galite nustatyti suplanuotą pranešimą paspaudę prisegimo mygtuką, kuris yra pranešimo pokalbio ekrane.</string>
+    <string name="scheduled_empty_description">Automatiškai siųskite pranešimą, tiksliai tuo momentu, kuri norite</string>
+    <string name="scheduled_empty_message_1">Hei! Kada laikas švęsti momentą?</string>
+    <string name="scheduled_empty_message_2">Tai yra kovo 5 diena</string>
+    <string name="scheduled_empty_message_3">Hei! Pažiūrėkite, koks aš gerų draugų šventimas, švenčiant jūsų dieną</string>
+    <string name="scheduled_empty_message_3_timestamp">Siunčiama kovo 5 dieną</string>
+    <string name="scheduled_compose_cd">Suplanuoti pranešimą</string>
+    <string name="scheduled_options_title">Suplanuotas pranešimas</string>
+    <string-array name="scheduled_options">
+        <item>Siųsti dabar</item>
+        <item>Kopijuoti tekstą</item>
+        <item>Ištrinti</item>
+    </string-array>
+    <string name="settings_category_appearance">Išvaizda</string>
+    <string name="settings_category_general">Bendras</string>
+    <string name="settings_categoryreply">Atsakyti</string>
+    <string name="settings_night_title">Naktinis režimas</string>
+    <string name="settings_text_size_title">Šrifto dydis</string>
+    <string name="settings_notifications_title">Pranešimai</string>
+    <string name="settings_notifications_o_summary">Palieskite, kad priderintumėte</string>
+    <string name="settings_notification_actions_title">Veiksmai</string>
+    <string name="settings_notification_action_1">Mygtukas 1</string>
+    <string name="settings_notification_action_2">Mygtukas 2</string>
+    <string name="settings_notification_action_3">Mygtukas 3</string>
+    <string name="settings_notification_previews_title">Pranešimų peržiūros</string>
+    <string name="settings_notification_wake_title">Pabudinimas</string>
+    <string name="settings_vibration_title">Vibracija</string>
+    <string name="settings_ringtone_title">Garsas</string>
+    <string name="settings_ringtone_none">Joks</string>
+    <string name="settings_reply_title">Atsakyti</string>
+    <string name="settings_reply_summary">Iskakanti naujus pranešimus</string>
+    <string name="settings_reply_tap_dismiss_title">Palieskite, kad atšauktumėte</string>
+    <string name="settings_reply_tap_dismiss_summary">Palieskite už iškakto, kad jį uždarytumėte</string>
+    <string name="settings_swipe_actions">Vilkite veiksmai</string>
+    <string name="settings_swipe_actions_right">Dešinė vilkite</string>
+    <string name="settings_swipe_actions_left">Kairė vilkite</string>
+    <string name="settings_swipe_actions_change">PAKEISTI</string>
+    <string name="not_now_txt">Dabar ne</string>
+    <string name="process_title">Šis procesas užtruks \nkiek laiko</string>
+    <string name="syncing_done">Pranešimų sinchronizavimas baigtas...</string>
+    <string name="all_set_txt">Viskas tvarkinga. Esate pasiruošęs</string>
+    <string name="Personal">Visi pranešimai</string>
+    <string name="Other">Žinomi</string>
+    <string name="Spam">Šlamštas</string>
+    <string name="setting">Nustatymai</string>
+    <string name="Share">Dalintis</string>
+    <string name="Rate">Įvertinkite mus</string>
+    <string name="edit">redaguoti</string>
+    <string name="DarkMode">Tamsus režimas</string>
+    <string name="BrightMode">Ryškus režimas</string>
+    <string name="Camera">Kamera</string>
+    <string name="Gallery">Galerija</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">Kontaktas</string>
+    <string name="Schedule">Suplanuoti</string>
+    <string name="Location">Vieta</string>
+    <string name="Notes">Pastabos</string>
+    <string name="no_msg">Dar nėra pranešimų…</string>
+    <string name="Start_Chat">Pradėti pokalbį</string>
+    <string name="Language">Kalba</string>
+    <string name="rate_text">Rekomenduokite mus kitiems \nįvertindami mus Google Play parduotuvėje!</string>
+    <string name="sort_by">Rūšiuoti pagal</string>
+    <string-array name="settings_swipe_actions">
+        <item>Joks</item>
+        <item>Archyvuoti</item>
+        <item>Ištrinti</item>
+        <item>Skambinti</item>
+        <item>Pažymėti kaip perskaitytą</item>
+        <item>Pažymėti kaip neperskaitytą</item>
+    </string-array>
+    <string name="settings_mms_size_title">Automatiškai suspausti MMS priedus</string>
+    <string name="settings_sync_title">Sinchronizuoti pranešimus</string>
+    <string name="settings_sync_summary">Vėl sinchronizuoti savo pranešimus su natūralia Android SMS duomenų baze</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Skambinimo kontrolė</string>
+    <string name="blocking_manager_sia_title">Ar turėčiau atsakyti?</string>
+    <string name="blocked_messages_title">Blokuoti pranešimai</string>
+    <string name="blocked_messages_empty">Jūsų blokuoti pranešimai atsiras čia</string>
+    <string name="blocking_block_title">Blokuoti</string>
+    <string name="blocking_unblock_title">Atblokuoti</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">Tęsti %s ir blokuoti šį numerį</item>
+        <item quantity="other">Tęsti %s ir blokuoti šiuos numerius</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">Tęsti %s ir leisti šį numerį</item>
+        <item quantity="other">Tęsti %s ir leisti šiuos numerius</item>
+    </plurals>
+    <string name="widget_loading">Kraunama…</string>
+    <string name="widget_more">Peržiūrėti daugiau pokalbių</string>
+    <string name="qkreply_menu_read">Pažymėti kaip perskaitytą</string>
+    <string name="qkreply_menu_call">Skambinti</string>
+    <string name="qkreply_menu_delete">Ištrinti</string>
+    <string name="qkreply_menu_expand">Rodyti daugiau</string>
+    <string name="qkreply_menu_collapse">Rodyti mažiau</string>
+    <string name="qkreply_menu_view">Atidaryti pokalbį</string>
+    <string name="changelog_title">Naujovės SMS</string>
+    <string name="changelog_version">Versija %s</string>
+    <string name="changelog_added">Pridėta</string>
+    <string name="changelog_improved">Pagerinta</string>
+    <string name="changelog_fixed">Pataisyta</string>
+    <string name="changelog_more">Daugiau</string>
+    <string name="changelog_dismiss">Atšaukti</string>
+    <string-array name="notification_actions">
+        <item>Joks</item>
+        <item>Pažymėti kaip perskaitytą</item>
+        <item>Atsakyti</item>
+        <item>Skambinti</item>
+        <item>Ištrinti</item>
+    </string-array>
+    <string name="button_yes">Taip</string>
+    <string name="button_continue">Tęsti</string>
+    <string name="button_cancel">Atšaukti</string>
+    <string name="button_delete">Ištrinti</string>
+    <string name="button_save">Išsaugoti</string>
+    <string name="button_stop">Stabdyti</string>
+    <string name="button_more">Daugiau</string>
+    <string name="button_set">Nustatyti</string>
+    <string name="button_undo">Atšaukti</string>
+    <string name="toast_copied">Nukopijuota</string>
+    <string name="toast_archived">Archyvuotas pokalbis</string>
+    <string name="toast_sms_plus">Norėdami naudoti tai, turite atrakinti SMS+</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Naujas pranešimas</item>
+        <item quantity="other">%s nauji pranešimai</item>
+    </plurals>
+    <string name="notification_message_failed_title">Pranešimas neišsiųstas</string>
+    <string name="notification_message_failed_text">Pranešimas %s neišsiųstas</string>
+    <string name="privacy_policy">Privatumo politika</string>
+    <string name="pocket_data_on">Kai siunčiate MMS, privalote įjungti kišeninį duomenų ryšį!</string>
+    <string name="inapp_details" translatable="false">Norėdami pašalinti reklamas, pabandykite premium prenumeratą su tamsiu-šviesiu režimo palaikymu\nPlanuoti Sms palaikymas.</string>
+    <string name="drawer_removeAds">Pašalinti reklamas</string>
+    <string name="in_app_ads">pranešimai_rad</string>
+    <string name="dialog_delete_message">Ar tikrai norite ištrinti šį pranešimą?</string>
+    <string name="compose_bar_not_support">Siuntėjas nepalaiko atsakymų</string>
+    <string name="default_name">Norėdami siųsti ar gauti SMS, turite jį nustatyti kaip numatytąją programą. Ar norite, kad pranešimas taptų jūsų numatyta programa?</string>
+    <string name="confirm_delete">Patvirtinti ištrinimą</string>
+    <string name="confirm_delete_text">Ar tikrai norite ištrinti šią pastabą?</string>
+    <string name="title">Pavadinimas</string>
+    <string name="note">Pastaba</string>
+    <string name="search">Paieška</string>
+    <string name="settings">Nustatymai</string>
+    <string name="share_to">Dalintis su:</string>
+    <string name="sort">Rūšiuoti</string>
+    <string name="empty_list_text">Spustelėkite apačioje dešinėje esantį mygtuką, kad pridėtumėte naują pastabą!</string>
+    <string name="new_note">Nauja pastaba</string>
+    <string name="undo">Atšaukti</string>
+    <string name="delete">Ištrinti</string>
+    <string name="exception">Išimtis:</string>
+    <string name="edit_note">Redaguoti pastabą</string>
+    <string name="drawer_feedback">Siųsti atsiliepimą</string>
+    <string name="drawer_mode">Šviesus režimas</string>
+    <string name="unlimited_access_user">Neribotas prieiga\nprie visų funkcijų</string>
+    <string name="pro_user">Jūs esate\npremium naudotojas</string>
+    <string name="sub_info_text"><b>Prenumerata atnaujinama automatiškai, kol ją išjungsite.</b></string>
+    <string name="cancel_purchase">Automatinės prenumeratos atnaujinimą galite atšaukti Google Play prenumeratose</string>
+    <string name="remove_ads">Pašalinti reklamas</string>
+    <string name="no_ads">Reklamų nėra</string>
+    <string name="free_trial">7 dienų nemokama prenumerata, tada automatiškai atnaujinama</string>
+    <string name="can_not_talk_right_now">Atsiprašau, dabar negaliu kalbėti</string>
+    <string name="can_call_you_later">Ar galiu paskambinti vėliau?</string>
+    <string name="i_am_on_my_way">Esu kelyje</string>
+    <string name="write_personal_message">Rašyti asmeninį pranešimą</string>
+    <string name="create_reminder">Sukurti naują priminimą</string>
+    <string name="remind_me_about">Priminti man apie</string>
+    <string name="no_title">Be pavadinimo</string>
+    <string name="edit_contact">Redaguoti kontaktą</string>
+    <string name="add_contact">Pridėti kontaktą</string>
+    <string name="messages">Pranešimai</string>
+    <string name="send_mail">Siųsti paštą</string>
+    <string name="calendar">Kalendorius</string>
+    <string name="web">Tinklalapis</string>
+    <string-array name="night_modes">
+        <item>Sistema</item>
+        <item>Ryškus režimas</item>
+        <item>Tamsus režimas</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>Rodyti vardą ir pranešimą</item>
+        <item>Rodyti vardą</item>
+        <item>Slėpti turinį</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>Mažas</item>
+        <item>Normalus</item>
+        <item>Didelis</item>
+        <item>Didesnis</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>Jokio delsimo</item>
+        <item>Trumpas</item>
+        <item>Vidutinis</item>
+        <item>Ilgas</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Automatinis</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>Nespausti</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>Gerai</item>
+        <item>Palaukite akimirksnį</item>
+        <item>Keliauju</item>
+        <item>Ačiū</item>
+        <item>Geras garsas</item>
+        <item>Kas naujo?</item>
+        <item>Sutikta</item>
+        <item>Ne</item>
+        <item>Tave myliu</item>
+        <item>Atleisk</item>
+        <item>Juk</item>
+        <item>Tai gerai</item>
+    </string-array>
+    <string name="default_title">Leisti Sms programai būti numatyta programa</string>
+    <string name="set_as_defaault">Nustatyti kaip numatytąją</string>
+    <string name="love_app_title">Padaryti SMS programą savo numatytąją SMS programą</string>
+    <string-array name="gif">
+        <item>Gyvūnų veidai</item>
+        <item>Emoji</item>
+        <item>Vaisiai ir daržovės</item>
+        <item>Halloween</item>
+        <item>Meilė</item>
+    </string-array>
+    <string name="Sticker">Lipdukas</string>
+    <string name="no_connection">Nėra interneto ryšio.</string>
+    <string-array name="sticker">
+        <item>Berniukas</item>
+        <item>Karikatūra</item>
+        <item>Veidas</item>
+        <item>Šventė</item>
+        <item>Vaisius</item>
+        <item>Linksmas</item>
+        <item>Mergaitė</item>
+        <item>Meilės lipdukai</item>
+        <item>Kita</item>
+        <item>Šuniukas</item>
+    </string-array>
+    <string name="open_link_to_browser">Atidaryti nuorodą naršyklėje</string>
+    <string name="battery_dialog">Nenori praleisti svarbaus SMS? \nIšjunkite baterijos optimizavimą</string>
+    <string name="reason_to_change_battery_optimization_setting">Eikite į Programos informacija &gt; Papildoma &gt; Baterijos optimizavimas \nir pasirinkite „Ne optimizuoti“</string>
+    <string name="feedback_txt">Pasakykite mums apie savo patirtį ir duokite patarimų, kaip pagerinti pranešimų programą.</string>
+    <string name="reason_to_change_battery">Papildoma &gt; Baterijos optimizavimas &gt; „Ne optimizuoti“</string>
+    <string name="drawer_transaction">Sandoriai</string>
+    <string name="drawer_promotion">Reklamos</string>
+    <string name="unknown">Nežinomas</string>
+    <string name="priva"><u>Privatumo politika</u></string>
+    <string name="smsfilter">SMS Filtras</string>
+    <string name="by_click_t_c" translatable="false"><u>Spausdami sutinkate su mūsų naudojimo sąlygomis.</u></string>
+    <string name="continue_without_sub"><u>Tęsti be prenumeratos</u></string>
+    <string name="text_free_trial">Mėgaukitės X dienų <b>nemokamai - Tada X € / mėn.</b></string>
+    <string name="calldorado_message">Patikrinkite visus savo <b>pranešimus</b> prieš baigdami skambutį! Yra naujienų</string>
+    <string name="privacy_terms_description">Tęsdami, sutinkate ir patvirtinate naudojimo sąlygas ir privatumo politiką.</string>
+    <string name="draw_over_description"><![CDATA[Norint rodyti virš kitų programų, mūsų SMS pranešimai. Gaukite visas galimybes naudodami mūsų SMS skambučių valdiklius ir daugiau]]></string>
+    <string name="ad_label">REKLAMA</string>
+    <string name="onboarding_continue_button">Tęsti</string>
+    <string name="onboarding_step_1_title">SMS ir Messengerio valdymas</string>
+    <string name="onboarding_step_1_subtitle">Kalbėkitės su draugais, sudarykite grupes ir tvarkykite savo dėžutę</string>
+    <string name="onboarding_step_1_hight_light">Unikalus požiūris į tave</string>
+    <string name="onboarding_step_2_title">Organizuoti ir saugoti pranešimus</string>
+    <string name="onboarding_step_2_subtitle">Atsarginė kopija ir atkūrimas jūsų pranešimams</string>
+    <string name="onboarding_step_2_hight_light">Tūkstančiai naudotojų tai mėgsta</string>
+    <string name="onboarding_step_3_title">Mėgaukitės gyvenimu ir leiskite mums pasirūpinti dėže</string>
+    <string name="onboarding_step_3_subtitle">Priimkite leidimus, kad galėtume jums padėti tvarkyti savo dėžutę.</string>
+    <string name="onboarding_step_3_hight_light">Galbūt vėliau</string>
+    <string name="onboarding_allow_access_button">Leisti prieigą</string>
+    <string name="onboarding_step_4_title">Gerinkite bateriją, leisdami mums dirbti</string>
+    <string name="onboarding_step_4_subtitle">Mes pasirūpinsime varginančiais SMS pertraukimais.</string>
+    <string name="onboarding_step_4_hight_light">Tūkstančiai naudotojų tai mėgsta</string>
+    <string name="onboarding_step_5_title">Dviejų ekranų darbas kitose programose, tuo pat metu kalbant</string>
+    <string name="onboarding_step_5_subtitle">Mėgaukitės mūsų nuostabiu skambučių valdikliu, leidžiančiu jums daugiau nei vienu būdu</string>
+    <string name="onboarding_step_5_hight_light">Tūkstančiai naudotojų tai mėgsta</string>
+    <string name="payment_card_title">Šneka dabar!</string>
+    <string name="payment_card_price"><![CDATA[3 dienų nemokamai, %s / %s]]></string>
+    <string name="payment_card_button">Išbandykite dabar nemokamai</string>
+    <string name="payment_card_hight_light">Apsaugotas su „Play“ parduotuve</string>
+    <string name="payment_card_weekly">savaitei</string>
+    <string name="payment_card_monthly">mėnesiui</string>
+    <string name="payment_card_yearly">metams</string>
+    <string name="payment_card_auto_renew">automatiškai atnaujinama prenumerata, bet kada galite ją atšaukti</string>
+    <string name="accessibility_service_description">Jūsų pasiekiamumo paslaugų aprašymas</string>
+    <string name="permission_txt"><font color="#FF8A00">Reikalinga leidimas:</font>\nNuskaityti telefono būseną ir piešti virš kitų programų</string>
+    <string name="opt_privacy">Tęsdami, sutinkate ir patvirtinate naudojimo sąlygas ir privatumo politiką.</string>
+    <string name="permission_required">Reikalingi leidimai</string>
+    <string name="permission_dialog_body">Ši programa gali neveikti tinkamai be telefono leidimo. Norėdami jį įjungti, vadovaukitės žemiau pateiktais nurodymais:\n\n1. Pasirinkite „Leidimai“\n2. Paieškokite „Telefonas“ leidimų sąraše ir bakštelti, kad įjungtumėte</string>
+    <string name="go_premium">Tapti <font color = "#FFE600">premium!</font></string>
+    <string name="unlock_everything">Atrakinti viską ir nereklamuoti</string>
+    <string name="start_three_day">Pradėti 3 dienų nemokamą bandomąją versiją</string>
+    <string name="pro">Profesionalus</string>
+    <string name="more_option">Daugiau pasirinkimų</string>
+    <string name="rate_us_5">Įvertinkite mus 5 žvaigždutėmis</string>
+    <string name="help_feedback">Pagalba ir atsiliepimai</string>
+    <string name="send_message">Siųsti pranešimą</string>
+    <string name="CTA_Button_Text">Paspauskite, norėdami atrakinti visas <font color="#FFFBCD04">funkcijas</font></string>
+
+</resources>

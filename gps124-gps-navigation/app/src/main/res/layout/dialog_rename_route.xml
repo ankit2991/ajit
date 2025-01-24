@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:background="@drawable/btn_rounded_white">
+
+
+        <TextView
+            android:id="@+id/labelHeaderRename"
+            fontPath="LemonMilk.otf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="@string/rename_route"
+            android:textAlignment="center"
+            android:textColor="@color/black_colour"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingPrefix" />
+
+        <View
+            android:id="@+id/viewSeperator"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_margin="@dimen/_15sdp"
+            android:background="@color/quantum_grey400"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/labelHeaderRename" />
+
+        <EditText
+            android:id="@+id/etRenameRoute"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:hint="@string/rename_route"
+            android:maxLength="60"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/black_colour"
+            android:textSize="@dimen/_13ssp"
+            app:layout_constraintEnd_toEndOf="@+id/viewSeperator"
+            app:layout_constraintStart_toStartOf="@+id/viewSeperator"
+            app:layout_constraintTop_toBottomOf="@+id/viewSeperator" />
+
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:background="@android:color/transparent"
+            android:text="@string/cancel_underline"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/_11ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/btnSave"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@id/btnSave"
+            app:layout_constraintTop_toBottomOf="@+id/btnSave" />
+
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_70sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_70sdp"
+            android:background="@drawable/bg_blue_solid_rounded_25sdp"
+            android:text="@string/save"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_11ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etRenameRoute" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

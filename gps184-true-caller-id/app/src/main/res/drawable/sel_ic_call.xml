@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <inset android:drawable="@drawable/ic_call" android:inset="5dp" />
+    </item>
+    <item android:drawable="@drawable/ic_call" />
+</selector>

@@ -1,0 +1,4 @@
+*.aab
+*.apk
+project/app/release/output-metadata.json
+project/.idea/

@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".phrasebook.phrasebookTranslation.PhrasebookDetailFragmet">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_scrollFlags="scroll|snap">
+
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_dictionary_back" />
+
+        <TextView
+            android:id="@+id/tv_title_toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/segoeui"
+            android:text="@string/phrasebook"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/back_btn"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/iv_crown_pro2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="premium.json"
+            app:lottie_loop="true"
+            app:lottie_speed="1" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/iv_crown_pro_banner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_20sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/display_img"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/circle_bg_item"
+                android:padding="4dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/chat"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+            <!--ImageView
+            android:id="@+id/tv_pro_home"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:foreground="?selectableItemBackground"
+            android:scaleType="centerInside"
+            android:layout_marginEnd="16dp"
+            app:srcCompat="@drawable/ic_crown" /-->
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/ads_banner_parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_main">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:backgroundTint="#3375FD"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="6dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <androidx.appcompat.widget.SearchView
+                    android:id="@+id/searchView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/search_bg"
+                    app:defaultQueryHint="Search"
+                    app:iconifiedByDefault="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:searchIcon="@null"></androidx.appcompat.widget.SearchView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/language_holder"
+                    android:layout_width="match_parent"
+                    android:layout_height="?actionBarSize"
+                    android:layout_marginBottom="1dp"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:visibility="visible"
+                    app:cardElevation="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/searchView">
+
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="?actionBarSize"
+                        android:background="@color/colorPrimary"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp">
+
+                        <ImageView
+                            android:id="@+id/iv_switch_lang_input"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:paddingStart="@dimen/_10sdp"
+                            android:paddingEnd="@dimen/_10sdp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/ic_baseline_swap_horiz_24" />
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/input_layout_lang_from"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_marginStart="12dp"
+                            android:background="@drawable/search_bg"
+                            android:gravity="center"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/iv_switch_lang_input"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <ImageView
+                                android:id="@+id/iv_arrow_from"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginStart="8dp"
+                                android:layout_toEndOf="@+id/tv_langs_from_input"
+                                android:background="@drawable/dop_down1"
+                                android:backgroundTint="@color/black"
+                                app:layout_constraintBottom_toBottomOf="@+id/tv_langs_from_input"
+                                app:layout_constraintStart_toEndOf="@+id/tv_langs_from_input"
+                                app:layout_constraintTop_toTopOf="@+id/tv_langs_from_input" />
+
+                            <TextView
+                                android:id="@+id/tv_langs_from_input"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:ellipsize="end"
+                                android:gravity="center"
+                                android:maxLength="10"
+                                android:singleLine="true"
+                                android:text="English"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/flag_from"
+                                android:layout_width="27dp"
+                                android:layout_height="27dp"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentBottom="true"
+                                android:src="@drawable/english"
+                                app:civ_border_color="#3f51b5"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/tv_langs_from_input"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <!--                            <ImageView-->
+                            <!--                                android:id="@+id/flag_from"-->
+                            <!--                                android:layout_width="25dp"-->
+                            <!--                                android:layout_height="25dp"-->
+                            <!--                                android:layout_alignParentStart="true"-->
+                            <!--                                android:layout_alignParentTop="true"-->
+                            <!--                                android:layout_alignParentBottom="true"-->
+                            <!--                                android:src="@drawable/english"-->
+                            <!--                                app:layout_constraintBottom_toBottomOf="parent"-->
+                            <!--                                app:layout_constraintEnd_toStartOf="@+id/tv_langs_from_input"-->
+                            <!--                                app:layout_constraintStart_toStartOf="parent"-->
+                            <!--                                app:layout_constraintTop_toTopOf="parent"/>-->
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/input_layout_langs_to"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="12dp"
+                            android:background="@drawable/search_bg"
+                            android:gravity="center"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/iv_switch_lang_input"
+                            app:layout_constraintTop_toTopOf="parent">
+
+
+                            <ImageView
+                                android:id="@+id/iv_arrow_to"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginStart="8dp"
+                                android:layout_toEndOf="@+id/tv_langs_to_input"
+                                android:background="@drawable/dop_down1"
+                                android:backgroundTint="@color/black"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toEndOf="@+id/tv_langs_to_input"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/tv_langs_to_input"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:ellipsize="end"
+                                android:gravity="center"
+                                android:maxLength="10"
+                                android:singleLine="true"
+                                android:text="French"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/flag_to"
+                                android:layout_width="27dp"
+                                android:layout_height="27dp"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentBottom="true"
+                                android:src="@drawable/french"
+                                app:civ_border_color="#3f51b5"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/tv_langs_to_input"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <!--                            <ImageView-->
+                            <!--                                android:id="@+id/flag_to"-->
+                            <!--                                android:layout_width="25dp"-->
+                            <!--                                android:layout_height="25dp"-->
+                            <!--                                android:layout_alignParentStart="true"-->
+                            <!--                                android:layout_alignParentTop="true"-->
+                            <!--                                android:layout_alignParentBottom="true"-->
+                            <!--                                android:src="@drawable/french"-->
+                            <!--                                app:layout_constraintBottom_toBottomOf="parent"-->
+                            <!--                                app:layout_constraintEnd_toStartOf="@+id/tv_langs_to_input"-->
+                            <!--                                app:layout_constraintStart_toStartOf="parent"-->
+                            <!--                                app:layout_constraintTop_toTopOf="parent"/>-->
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_main"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ads_banner_parent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_single_color"
+        android:padding="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <FrameLayout
+            android:id="@+id/native_banner_container_home_screen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:orientation="vertical" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

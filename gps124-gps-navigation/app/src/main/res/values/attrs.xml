@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SettingsItemLayout">
+        <attr name="android:text" />
+        <attr name="android:icon" />
+        <attr name="iconTint" format="color" />
+        <attr name="android:textColor" />
+        <attr name="textPaddingBottom" format="dimension" />
+    </declare-styleable>
+</resources>

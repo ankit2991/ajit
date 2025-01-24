@@ -1,0 +1,79 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+//    id 'kotlin-android-extensions'
+}
+
+android {
+    compileSdkVersion 34
+
+    namespace = "com.android.gpslocation"
+    defaultConfig {
+        minSdkVersion 24
+        targetSdkVersion 33
+    }
+    buildTypes {
+
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+            resValue("string", "inAppSubscriptionKey", '"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoqsdBZwM3bgKpXi8TMQbvNVvFtVt+3sUHhzVaGD16AvXIdLH+Bbg2J66/iiio4mtg5vroLcO6kMyuFce2xJEUSPI1Sd6Fe/LyzekpRey/5M/iSOBUUZKt/OXM/xeGzuo2IvkogBvwgcWMrNFvD08oNJFr3RGGzqtuurewFOiW9ugSL3vxBE8P9U+4ybDwe662hilN7+omVGmr/iuIG6Qzx+j/ql61+nHnikoLOm6tOY/HdqBBxl+HcXURuJs61rN67CNbmp64gAp8+/zDQbCBcRYbvFezQqbYFPLp8SxnjAiKvT7Y0J6EyAFCL7d9R4+NXQQVVviu8D6bgAzYnPryQIDAQAB"')
+
+
+        }
+        debug {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+            resValue("string", "inAppSubscriptionKey", '"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoqsdBZwM3bgKpXi8TMQbvNVvFtVt+3sUHhzVaGD16AvXIdLH+Bbg2J66/iiio4mtg5vroLcO6kMyuFce2xJEUSPI1Sd6Fe/LyzekpRey/5M/iSOBUUZKt/OXM/xeGzuo2IvkogBvwgcWMrNFvD08oNJFr3RGGzqtuurewFOiW9ugSL3vxBE8P9U+4ybDwe662hilN7+omVGmr/iuIG6Qzx+j/ql61+nHnikoLOm6tOY/HdqBBxl+HcXURuJs61rN67CNbmp64gAp8+/zDQbCBcRYbvFezQqbYFPLp8SxnjAiKvT7Y0J6EyAFCL7d9R4+NXQQVVviu8D6bgAzYnPryQIDAQAB"')
+
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    lintOptions {
+        abortOnError false
+    }
+
+    buildFeatures{
+        viewBinding = true
+    }
+    
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api 'com.google.android.material:material:1.12.0'
+    api 'androidx.appcompat:appcompat:1.7.0'
+    api 'androidx.constraintlayout:constraintlayout:2.1.4'
+    api 'com.google.android.gms:play-services-location:21.3.0'
+    api 'com.google.android.gms:play-services-maps:19.0.0'
+    api 'com.google.android.libraries.places:places:3.5.0'
+    api 'androidx.cardview:cardview:1.0.0'
+    api 'org.jetbrains.anko:anko-common:0.10.8'
+
+    api 'ru.superjob:kotlin-permissions:1.0.3'
+    api 'com.jakewharton.timber:timber:5.0.1'
+    //Third party libraries
+    //For scalable dimensions
+    api 'com.intuit.sdp:sdp-android:1.1.1'
+    api 'com.intuit.ssp:ssp-android:1.1.1'
+    //coroutines kotlin
+    api 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1'
+    api 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1'
+    // Koin AndroidX Scope feature
+    api "org.koin:koin-android:2.1.5"
+    api "org.koin:koin-androidx-scope:2.1.5"
+    // Koin AndroidX ViewModel feature
+    api "org.koin:koin-androidx-viewmodel:2.1.5"
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation "androidx.test.ext:junit:1.2.1"
+}

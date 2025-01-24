@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constarin_layout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:scrollbars="vertical"
+        android:visibility="visible"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/conversation_list_item" />
+
+    <com.messaging.textrasms.manager.common.widget.QkTextView
+        android:id="@+id/empty1"
+        style="@style/TextSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Your conversations will appear here"
+        tools:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/no_search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/recent"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:src="@drawable/ic_message" />
+
+        <com.messaging.textrasms.manager.common.widget.QkTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/no_msg"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="@dimen/_12sdp" />
+    </LinearLayout>
+</RelativeLayout>

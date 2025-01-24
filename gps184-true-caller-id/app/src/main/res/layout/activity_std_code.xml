@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_container_app"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_size"
+        android:background="@drawable/bg_action_bar">
+
+        <ImageView
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_back"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/poppins_bold"
+            android:src="@drawable/header"
+            android:text="STD CODES"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_14sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittextbg">
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:gravity="right"
+                app:defaultQueryHint="Enter mobile number"
+                app:queryHint="Search city here" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:id="@+id/btn_city"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_tab_std_active"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CITY"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="15dp"
+            android:layout_height="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+
+            <LinearLayout
+                android:id="@+id/btn_state"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_tab_std_inactive"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="STATE"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:textColor="#00B4D8"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/adlayout"
+            android:layout_weight="1.0">
+
+            <LinearLayout
+                android:id="@+id/ll_city"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:id="@+id/ll_state"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:orientation="vertical"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/adlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <include layout="@layout/max_ad_native_layout" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

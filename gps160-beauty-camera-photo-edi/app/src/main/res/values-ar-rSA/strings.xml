@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Photo Editor</string>
+
+
+    <string name="tap_to_select">انقر للتحديد</string>
+    <string name="sharpen">شحذ</string>
+
+    <string name="brightness">سطوع</string>
+    <string name="camera">الة تصوير</string>
+    <string name="dialog_discard_title">لن يتم حفظ التغييرات. هل تريد المتابعة؟</string>
+    <string name="discard">تجاهل</string>
+    <string name="edit">يحرر</string>
+    <string name="collage">كلية</string>
+    <string name="contrast">التباين</string>
+    <string name="feedback" translatable="false">استجابة</string>
+
+
+    <string name="rate_us">قيمنا</string>
+    <string name="rating_dialog_feedback_title">استجابة</string>
+    <string name="rating_dialog_maybe_later">ربما في وقت لاحق</string>
+    <string name="rating_dialog_submit">يقدم</string>
+    <string name="rating_promote">إذا كان Photo Editor Pro-Beauty Camera يجعلك سعيدًا وترضي. يرجى إعطائنا 5 نجوم</string>
+
+    <string name="saturation">التشبع</string>
+    <string name="save">حفظ</string>
+    <string name="save_and_share">احفظ وشارك</string>
+
+
+    <string name="settings">أكثر</string>
+    <string name="share_friend">شارك التطبيق</string>
+    <string name="share_photo">شارك الصور</string>
+
+    <string name="thank_you_2">طاب يومك</string>
+    <string name="thank_you">أبق على اتصال</string>
+    <string name="press_back">الرجاء الضغط مرة أخرى للخروج</string>
+    <string name="agree_to_continue">توافق على الاستمرار</string>
+    <string name="privacy_policy">سياسة خاصة</string>
+    <string name="gallery">صالة عرض</string>
+    <string name="crop"> قتصاص</string>
+    <string name="adjust">يعدل</string>
+    <string name="filters">منقي</string>
+    <string name="overlay">تراكب</string>
+    <string name="sticker">ملصق</string>
+    <string name="brush">فرشاة</string>
+    <string name="fit">لائق بدنيا</string>
+    <string name="blur">طمس</string>
+    <string name="splas">دفقة</string>
+    <string name="beauty_tool">جمال</string>
+    <string name="layout">تخطيط</string>
+    <string name="border">الحدود</string>
+    <string name="ratio">نسبة</string>
+    <string name="bg">خلفية</string>
+</resources>

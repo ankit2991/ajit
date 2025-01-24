@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_blocked"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/splash_top_to_bottom_bg_gradiant"></View>
+
+    <macro.hd.wallpapers.MyCustomView.StatusBarView
+        android:id="@+id/statusBarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent" />
+
+
+    <LinearLayout android:id="@+id/ll_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <macro.hd.wallpapers.MyCustomView.TextViewBold
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_below="@+id/ll_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView android:id="@+id/img_logo"
+            android:layout_width="24dp"
+            android:layout_height="24dp"></ImageView>
+
+        <macro.hd.wallpapers.MyCustomView.TextViewLight
+            android:layout_marginLeft="5dp"
+            android:id="@+id/txt_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="@string/label_live"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/splash_bottom_to_top_bg_gradiant"></View>
+
+    <fr.castorflex.android.circularprogressbar.CircularProgressBar
+        android:id="@+id/layout_loading_search" android:layout_above="@+id/rlBottomView"
+        style="@style/CircularThemeProgressBar_centre" android:layout_width="24dp" android:layout_height="24dp"
+        android:layout_centerHorizontal="true"
+        android:indeterminate="true" />
+
+    <macro.hd.wallpapers.MyCustomView.TextViewLight
+        android:id="@+id/txt_v"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layout_loading_search"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="v1.0.0"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_16" />
+
+    <TextView android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:visibility="gone"
+        android:layout_marginTop="36dp" android:id="@+id/btn_skip"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/skip_bg" android:textSize="13sp"
+        android:text="Skip" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingTop="2dp" android:paddingBottom="2dp"
+        android:textColor="#fff" />
+
+
+    <RelativeLayout
+        android:id="@+id/rlBottomView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <!--<View
+            android:id="@+id/viewBottomDivider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/divider_color"
+            android:visibility="gone"></View> -->
+
+        <ImageView
+            android:id="@+id/ivBottomView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ImageView>
+    </RelativeLayout>
+</RelativeLayout>

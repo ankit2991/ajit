@@ -1,0 +1,35 @@
+<resources>
+
+    <string-array name="appLanguages">
+        <item>English</item>
+        <item>Chinese (普通话)</item>
+        <item>French (Français)</item>
+        <item>Japanese (日本語)</item>
+        <item>Russian (Русский)</item>
+        <item>Spanish (Español)</item>
+        <item>Thai (ไทย)</item>
+        <item>Latin</item>
+    </string-array>
+
+    <string-array name="appLangCode">
+        <item>en</item>
+        <item>zh</item>
+        <item>fr</item>
+        <item>ja</item>
+        <item>ru</item>
+        <item>es</item>
+        <item>th</item>
+        <item>la</item>
+    </string-array>
+
+    <string name="adjust_app_id" translatable="false">wbkcl4xu8f0g</string>
+
+    <string name="facebook_app_id" translatable="false">279331687342551</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb279331687342551</string>
+    <string name="facebook_client_token" translatable="false">7de7b844aa453f0732e898e9f87bb39f</string>
+
+    <string name="adapty_sdk_key" translatable="false">public_live_N1qGsTRP.1JY2AzDcpxJIgtWVXNNH</string>
+    <string name="app_id_applovin" translatable="false">59v9HZhBTwxUt2m2NJ9Ngx121LBrBuwNqtRCC-DtSgFreoPmuTSiCkJX-zkEVfuBVQkKdm7iDCilBJLrwoARk7</string>
+
+
+</resources>

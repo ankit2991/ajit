@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|snap">
+
+        <ImageView
+            android:id="@+id/iv_menu_drawer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_dictionary_back" />
+
+        <TextView
+            android:id="@+id/tv_title_toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/segoeui"
+            android:text="@string/fictional_lang"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_menu_drawer"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/iv_crown_pro2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="premium.json"
+            app:lottie_loop="true"
+            app:lottie_speed="1" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/iv_crown_pro_banner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_20sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_26sdp"
+                android:scaleType="fitXY"
+                android:src="@drawable/unlock_feature_banner"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/iv_crown_pro"
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="0dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:adjustViewBounds="true"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView2"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="premium.json"
+                app:lottie_loop="true"
+                app:lottie_speed="1" />
+
+            <!--ImageView
+            android:id="@+id/tv_pro_home"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:foreground="?selectableItemBackground"
+            android:scaleType="centerInside"
+            android:layout_marginEnd="16dp"
+            app:srcCompat="@drawable/ic_crown" /-->
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <FrameLayout
+        android:id="@+id/native_banner_container_fictional"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_single_color2"
+        android:orientation="vertical" />
+
+
+    <ScrollView
+        android:id="@+id/svMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_above="@+id/native_banner_container_fictional"
+        android:layout_below="@+id/toolbar_main"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginBottom="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                android:id="@+id/rlTop"
+                android:layout_width="match_parent"
+                android:layout_height="236dp"
+                android:padding="6dp"
+                android:background="@drawable/bg_single_color2"
+                android:layout_alignParentTop="true">
+
+                <FrameLayout
+                    android:id="@+id/native_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:layout_alignParentTop="true"
+                    />
+                <ImageView
+                    android:id="@+id/iv_no_ad_fictional"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/home_no_ad"
+                    android:visibility="visible" />
+<!--                <com.google.android.gms.ads.nativead.NativeAdView-->
+<!--                    android:id="@+id/topAdMobNative"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:padding="@dimen/_2sdp"-->
+<!--                    android:visibility="visible">-->
+
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:orientation="vertical">-->
+
+
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:background="#F2F2F2"-->
+<!--                            android:minHeight="@dimen/_55sdp"-->
+<!--                            android:visibility="visible">-->
+
+
+<!--                            <Button-->
+<!--                                android:id="@+id/btnAdCallToAction_IT"-->
+<!--                                android:layout_width="@dimen/_70sdp"-->
+<!--                                android:layout_height="0dp"-->
+<!--                                android:layout_marginTop="@dimen/_10sdp"-->
+<!--                                android:layout_marginEnd="@dimen/_10sdp"-->
+<!--                                android:layout_marginBottom="@dimen/_10sdp"-->
+<!--                                android:background="#d33333"-->
+<!--                                android:gravity="center"-->
+<!--                                android:paddingStart="@dimen/_8sdp"-->
+<!--                                android:paddingEnd="@dimen/_8sdp"-->
+<!--                                android:text="Install Now "-->
+<!--                                android:textAllCaps="false"-->
+<!--                                android:textColor="@color/white"-->
+<!--                                android:textSize="@dimen/_10sdp"-->
+<!--                                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--                            <ImageView-->
+<!--                                android:id="@+id/ivAdIcon_IT"-->
+<!--                                android:layout_width="@dimen/_55sdp"-->
+<!--                                android:layout_height="0dp"-->
+<!--                                android:adjustViewBounds="true"-->
+<!--                                android:visibility="visible"-->
+<!--                                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toTopOf="parent" />-->
+
+
+<!--                            <LinearLayout-->
+<!--                                android:id="@+id/llTitle"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:orientation="horizontal"-->
+<!--                                android:weightSum="1"-->
+<!--                                app:layout_constrainedWidth="true"-->
+<!--                                app:layout_constraintEnd_toStartOf="@+id/btnAdCallToAction_IT"-->
+<!--                                app:layout_constraintHorizontal_bias="0"-->
+<!--                                app:layout_constraintStart_toEndOf="@+id/ivAdIcon_IT"-->
+<!--                                app:layout_constraintTop_toTopOf="parent">-->
+
+<!--                                <TextView-->
+<!--                                    android:id="@+id/tvAdTitle_IT"-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_marginBottom="@dimen/_1sdp"-->
+<!--                                    android:layout_weight="1"-->
+<!--                                    android:fontFamily="sans-serif"-->
+<!--                                    android:gravity="start"-->
+<!--                                    android:paddingStart="@dimen/_7sdp"-->
+<!--                                    android:paddingEnd="@dimen/_4sdp"-->
+<!--                                    android:text="Uber taxi app"-->
+<!--                                    android:textAllCaps="false"-->
+<!--                                    android:textColor="@color/text_color"-->
+<!--                                    android:textSize="@dimen/_13sdp"-->
+<!--                                    android:textStyle="bold" />-->
+
+
+<!--                            </LinearLayout>-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/tvAdBody_IT"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:fontFamily="sans-serif"-->
+<!--                                android:gravity="start"-->
+<!--                                android:maxLines="1"-->
+<!--                                android:paddingStart="@dimen/_7sdp"-->
+<!--                                android:paddingEnd="@dimen/_7sdp"-->
+<!--                                android:text="Feel free to explain the world thcdscsdcsfsdfsdfsdfsdfssdfsdfsdfsdfssdfsdfsrough with us."-->
+<!--                                android:textAllCaps="false"-->
+<!--                                android:textColor="@color/text_color"-->
+<!--                                android:textSize="@dimen/_8sdp"-->
+<!--                                android:visibility="gone"-->
+<!--                                app:layout_constraintLeft_toRightOf="@+id/ivAdIcon_IT"-->
+<!--                                app:layout_constraintRight_toLeftOf="@+id/btnAdCallToAction_IT"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/llTitle"-->
+<!--                                app:layout_goneMarginBottom="20dp" />-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/tvFbAdLabel"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="@dimen/_5sdp"-->
+<!--                                android:layout_marginEnd="@dimen/_5sdp"-->
+<!--                                android:background="#B3F5F5F5"-->
+<!--                                android:elevation="@dimen/_1sdp"-->
+<!--                                android:paddingStart="@dimen/_2sdp"-->
+<!--                                android:paddingEnd="@dimen/_2sdp"-->
+<!--                                android:text="AD"-->
+<!--                                android:textColor="#C5B5B5"-->
+<!--                                android:textSize="@dimen/_8sdp"-->
+<!--                                android:textStyle="bold"-->
+<!--                                app:layout_constraintLeft_toRightOf="@+id/ivAdIcon_IT"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/llTitle" />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--                    </RelativeLayout>-->
+
+<!--                </com.google.android.gms.ads.nativead.NativeAdView>-->
+
+
+            </RelativeLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/included_input_area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rlTop"
+                android:layout_marginTop="@dimen/_3sdp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layout_input_translation"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/bg_input_view"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/language_holder"
+                        android:layout_width="match_parent"
+                        android:layout_height="?actionBarSize"
+                        android:layout_marginBottom="1dp"
+                        android:paddingLeft="3dp"
+                        android:paddingRight="3dp"
+                        android:visibility="visible"
+                        app:cardElevation="0dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="?actionBarSize"
+                            android:background="@color/colorPrimary"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp">
+
+                            <ImageView
+                                android:id="@+id/iv_switch_lang_input"
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:paddingStart="@dimen/_10sdp"
+                                android:paddingEnd="@dimen/_10sdp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/right_arrow_icon"
+                                android:tint="@color/white"/>
+
+                            <RelativeLayout
+                                android:id="@+id/input_layout_lang_from"
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:gravity="center"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/iv_switch_lang_input"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <ImageView
+                                    android:visibility="gone"
+                                    android:id="@+id/iv_arrow_from"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginEnd="10dp"
+                                    android:layout_toEndOf="@+id/tv_lang_from_input"
+                                    app:srcCompat="@drawable/dop_down1" />
+
+                                <TextView
+                                    android:id="@+id/tv_lang_from_input"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginEnd="10dp"
+                                    android:ellipsize="end"
+                                    android:gravity="center"
+                                    android:maxLength="10"
+                                    android:singleLine="true"
+                                    android:text="English"
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp" />
+
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/input_layout_lang_to"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toEndOf="@+id/iv_switch_lang_input"
+                                app:layout_constraintTop_toTopOf="parent">
+
+
+                                <ImageView
+                                    android:id="@+id/iv_arrow_to"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginEnd="10dp"
+                                    android:layout_toEndOf="@+id/tv_lang_to_input"
+                                    app:srcCompat="@drawable/dop_down1" />
+
+                                <TextView
+                                    android:id="@+id/tv_lang_to_input"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginEnd="10dp"
+                                    android:ellipsize="end"
+                                    android:gravity="center"
+                                    android:maxLength="10"
+                                    android:singleLine="true"
+                                    android:text="French"
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp" />
+
+
+                            </RelativeLayout>
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/layout_input"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_bottom_left_right_rounded_5dp"
+                        android:gravity="top"
+                        android:minHeight="160dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/language_holder">
+
+                        <EditText
+                            android:id="@+id/et_input_word"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/white"
+                            android:cursorVisible="true"
+                            android:focusable="true"
+                            android:gravity="top|start"
+                            android:hint="@string/enter_text_to_translate"
+                            android:layoutDirection="locale"
+                            android:maxLength="1999"
+                            android:nestedScrollingEnabled="false"
+                            android:paddingStart="25dp"
+                            android:paddingTop="15dp"
+                            android:paddingBottom="15dp"
+                            android:scrollbars="none"
+                            android:textAlignment="gravity"
+                            android:textColor="#000"
+                            android:textColorHint="@android:color/darker_gray"
+                            android:textCursorDrawable="@drawable/cursor"
+                            android:textDirection="inherit"
+                            android:textSize="16sp"
+                            app:layout_constraintBottom_toTopOf="@+id/container_input_action"
+                            app:layout_constraintEnd_toStartOf="@+id/iv_clear_input"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0" />
+
+                        <ImageView
+                            android:id="@+id/iv_clear_input"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="15dp"
+                            android:paddingTop="15dp"
+                            android:paddingEnd="15dp"
+                            android:paddingBottom="15dp"
+                            android:visibility="gone"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/ic_close_black_24dp" />
+
+                        <RelativeLayout
+                            android:id="@+id/container_input_action"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginBottom="6dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent">
+
+                            <ImageView
+                                android:id="@+id/iv_ocr"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:visibility="invisible"
+                                app:srcCompat="@drawable/ic_ocr" />
+
+                            <RelativeLayout
+                                android:id="@+id/layout_input_search_action"
+                                android:layout_width="36dp"
+                                android:layout_height="36dp"
+                                android:background="@drawable/translate_btn_bg"
+                                android:visibility="gone">
+
+                                <ImageView
+                                    android:id="@+id/iv_mic_arrow"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:gravity="center"
+                                    android:textAllCaps="false"
+                                    android:textColor="#fff"
+                                    app:srcCompat="@drawable/ic_arrow_forward_black_24dp" />
+
+                                <ProgressBar
+                                    android:id="@+id/progress_search_main"
+                                    android:layout_width="45dp"
+                                    android:layout_height="45dp"
+                                    android:visibility="gone" />
+
+
+                            </RelativeLayout>
+
+                        </RelativeLayout>
+
+
+                        <ImageView
+                            android:id="@+id/iv_mic_input_main"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:visibility="visible"
+                            app:layout_constraintBottom_toBottomOf="@+id/container_input_action"
+                            app:layout_constraintEnd_toEndOf="@+id/container_input_action"
+                            app:layout_constraintTop_toTopOf="@+id/container_input_action"
+                            app:srcCompat="@drawable/ic_vttext" />
+
+                        <ImageView
+                            android:id="@+id/iv_speak_word_input"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="12dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="@+id/container_input_action"
+                            app:layout_constraintEnd_toStartOf="@+id/container_input_action"
+                            app:layout_constraintTop_toTopOf="@+id/container_input_action"
+                            app:srcCompat="@drawable/ic_speak_word" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <ProgressBar
+                    android:id="@+id/progress_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/layout_input_translation" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layout_output_translate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="8dp"
+                    android:visibility="gone"
+                    android:background="@drawable/translation_result_bg"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/layout_input_translation">
+
+                    <TextView
+                        android:id="@+id/tv_lang_translated_word"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="25dp"
+                        android:text="English"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tv_translated_word"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginEnd="25dp"
+                        android:fontFamily="@font/roboto_light"
+                        android:minHeight="80dp"
+                        android:text="Translation results"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:textSize="16sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_lang_translated_word" />
+
+                    <ImageView
+                        android:id="@+id/iv_more_options"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:visibility="gone"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="6dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_translated_word"
+                        app:srcCompat="@drawable/ic_options_more"
+
+                        />
+
+                    <ImageView
+                        android:id="@+id/iv_speak_translated"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+
+                        android:visibility="gone"
+                        app:layout_constraintBottom_toBottomOf="@+id/iv_more_options"
+                        app:layout_constraintEnd_toStartOf="@+id/iv_more_options"
+                        app:layout_constraintTop_toTopOf="@+id/iv_more_options"
+                        app:srcCompat="@drawable/ic_speak_word"
+
+                        />
+
+                    <ImageView
+                        android:id="@+id/iv_toggle_favorite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:visibility="gone"
+                        app:layout_constraintBottom_toBottomOf="@+id/iv_speak_translated"
+                        app:layout_constraintEnd_toStartOf="@+id/iv_speak_translated"
+                        app:layout_constraintTop_toTopOf="@+id/iv_speak_translated"
+                        app:srcCompat="@drawable/ic_un_favorite" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/history_container_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/included_input_area"
+                android:layout_marginTop="10dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_label_history"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/segoeuib"
+                    android:text="History"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/iv_history_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:visibility="gone"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_label_history" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_history_main"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/bg_history_recycler"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/tv_label_history"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_label_history"
+                    tools:itemCount="2"
+                    tools:listitem="@layout/li_history_new" />
+
+                <ImageView
+                    android:id="@+id/btn_show_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/btn_show_more"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/rv_history_main" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/layout_bottom_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_bottom_nav">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <LinearLayout
+                android:id="@+id/btn_camera_main"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    app:srcCompat="@drawable/ic_bottom_nav_tran" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:text="Translator"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_conversation"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    app:srcCompat="@drawable/ic_bottom_nav_con" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:text="Conversation"
+                    android:textColor="#5f6267"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_cam_bottom_nav"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    app:srcCompat="@drawable/ic_bottom_cam" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:text="Camera"
+                    android:textColor="#5f6267"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_dictionary_main"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    app:srcCompat="@drawable/ic_bottom_nav_dic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:text="Dictionary"
+                    android:textColor="#5f6267"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_home_main"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    app:srcCompat="@drawable/ic_bottom_nav_his" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:text="History"
+                    android:textColor="#5f6267"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

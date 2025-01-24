@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/list_background"
+    android:focusableInTouchMode="true">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/Toolbar"
+        android:background="?android:attr/itemBackground"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:theme="@style/ThemeToolbar">
+
+        <com.messaging.textrasms.manager.common.widget.QkTextView
+            android:id="@+id/toolbarTitle"
+            style="@style/ToolbarText"
+            android:text="@string/edit_note"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_6sdp">
+
+            <com.messaging.textrasms.manager.common.widget.QkEditText
+                android:id="@+id/titleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/note_edit_text"
+                android:hint="@string/title"
+                android:imeOptions="actionNext"
+                android:maxLines="1"
+                android:padding="@dimen/_6sdp"
+                android:singleLine="true"
+                android:textColorHint="?android:attr/textColorTertiary"
+                android:textSize="@dimen/_16sdp"
+                android:textStyle="bold" />
+
+            <com.messaging.textrasms.manager.common.widget.QkEditText
+                android:id="@+id/noteText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_weight="1"
+                android:autoLink="web|email|phone"
+                android:background="?attr/note_edit_text"
+                android:ems="10"
+                android:gravity="top"
+                android:hint="@string/note"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="textCapSentences|textMultiLine"
+                android:linksClickable="true"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textColorHint="?android:attr/textColorTertiary" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+

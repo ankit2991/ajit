@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_rounded_5dp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        >
+
+        <ImageView
+            android:id="@+id/ivCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="12dp"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_dictionary_back_black" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:text="Subscription Detail:"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivCancel" />
+
+        <TextView
+            android:id="@+id/tvDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_12sdp"
+            android:textAlignment="textStart"
+            android:lineSpacingExtra="@dimen/_5sdp"
+            android:textColor="@color/dark_grey"
+            android:text="-With Translate Language VIP subscription, all ads
+will be removed.\n
+
+- Once the purchase is confirmed, the
+subscription will be charged through the
+Google Play Store.\n
+
+- After Cancellation, the subscription will
+continue until the end of month/year billing
+period.\n
+
+- Subscriptions will automatically renew
+unless auto-renew is turned off at least 24
+hours before the end of the current period.\n
+
+- You can manage your subscription or
+disable automatic renewal in the Google Play
+Store account settings.\n
+
+- The subscription canceled during the trial
+period will not be charged."
+            android:textSize="@dimen/_12sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

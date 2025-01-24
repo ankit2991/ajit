@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_suggestion"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/bg_synonyms">
+
+    <TextView
+        android:id="@+id/tv_synonyms_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="@string/stt_error_device"
+        android:textColor="#757575"
+        android:textSize="13sp" />
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_splash"
+        android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/app_img"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_above="@+id/app_txt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:src="@drawable/ic_launcher" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/app_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnGrantPermission"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp" />
+
+
+    <Button
+            android:id="@+id/btnGrantPermission"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_above="@+id/tvPrivacyPolicy"
+            android:layout_marginStart="@dimen/_80sdp"
+            android:layout_marginEnd="@dimen/_80sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/bg_green_gradient"
+            android:text="Start"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14ssp" />
+
+    <TextView
+        android:id="@+id/tvPrivacyPolicy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:lineSpacingExtra="@dimen/_6sdp"
+        android:text="@string/privacy_text"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorLink="#004D40"
+        android:textSize="@dimen/_12ssp" />
+
+</RelativeLayout>

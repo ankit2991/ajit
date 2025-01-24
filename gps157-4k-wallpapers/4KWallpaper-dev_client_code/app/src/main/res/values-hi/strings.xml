@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">4K वॉलपेपर</string>
+    <!-- Error Messages-->
+    <string name="error_title">जानकारी</string>
+    <string name="error_msg_server_error">क्षमा करें, हम अभी डेटा प्राप्त करने में असमर्थ हैं। कृपया कुछ समय बाद पुनः प्रयास करें।</string>
+    <string name="error_msg_socket_timeout">सॉकेट टाइमआउट। बाद में पुन: प्रयास करें</string>
+    <string name="error_msg_invalid_url">अवैध यूआरएल। बाद में पुन: प्रयास करें</string>
+    <string name="error_msg_no_network">कोई नेटवर्क कनेक्शन नहीं मिला। कृपया सुनिश्चित करें कि आप नेटवर्क स्रोत से जुड़े हैं और पुनः प्रयास करें।</string>
+    <string name="txtcontact">हमारे बारे में</string>
+    <string name="txtedgesetting">एज वॉलपेपर सेटिंग</string>
+    <string name="txtdouble">डबल वॉलपेपर</string>
+    <string name="txtmydownload">मेरे डाउनलोड</string>
+<!--    <string name="app_id">ca-app-pub-1398961721366968~9402283139</string>-->
+
+    <string name="icon_desc">विज्ञापन आइकन</string>
+    <string name="image_desc">विज्ञापन छवि</string>
+
+    <string name="ad_attribution">विज्ञापन</string>
+    <string name="about_disclaimer">इस ऐप के सभी वॉलपेपर सामान्य रचनात्मक लाइसेंस के अंतर्गत हैं और इसका श्रेय उनके संबंधित स्वामियों को जाता है। इन छवियों को किसी भी संभावित मालिकों द्वारा समर्थन नहीं किया जाता है, और छवियों का उपयोग केवल सौंदर्य प्रयोजनों के लिए किया जाता है। कोई कॉपीराइट उल्लंघन का इरादा नहीं है, और छवियों / लोगो / नामों में से एक को हटाने के लिए किसी भी अनुरोध को सम्मानित किया जाएगा। सभी चित्र pexels.com, pixabay.com के साथ-साथ unsplash.com से प्राप्त किए गए हैं जो क्रिएटिव कॉमन्स जीरो लाइसेंस द्वारा कवर किए गए हैं। इसका मतलब है कि सभी छवियां वितरण के लिए स्वतंत्र हैं और व्यावसायिक उपयोग के लिए स्वतंत्र हैं, जिन्हें किसी भी प्रकार की विशेषता या क्रेडिट की आवश्यकता नहीं है।</string>
+
+    <string name="title_material_metaphor">4K वॉलपेपर</string>
+    <string name="title_material_bold">लाइव वॉलपेपर</string>
+    <string name="title_material_motion">डबल वॉलपेपर</string>
+    <string name="title_material_shadow">4K विशेष</string>
+    <string name="title_material_auto">ऑटो वॉलपेपर परिवर्तक</string>
+    <string name="title_material_edge">एज लाइटिंग वॉलपेपर</string>
+
+    <string name="description_material_metaphor">कूल वॉलपेपर आपके एंड्रॉइड मोबाइल उपकरणों को फिट करने के लिए डिज़ाइन किए गए हैं।</string>
+    <string name="description_material_bold">अपने होम स्क्रीन पर पृष्ठभूमि के रूप में शांत वीडियो प्रभाव होने की कल्पना करें।</string>
+    <string name="description_material_motion">अपने घर को सजाने तथा एक ही समय में एक अलग वॉलपेपर के साथ लॉक स्क्रीन!</string>
+    <string name="description_material_shadow">सबसे अच्छे 3D पैनोरमा वॉलपेपर को हिलाना निजीकृत!</string>
+    <string name="description_material_auto">मोबाइल स्क्रीन पृष्ठभूमि स्वचालित रूप से बदलता है।</string>
+    <string name="description_material_edge">अपने फोन की स्क्रीन को धीरे-धीरे चलने वाले प्रभावों के साथ कई रंगों में किनारे से चमकते हुए देखें।</string>
+
+    <string name="toast_sensor_error">सेंसर उपलब्ध नहीं है</string>
+    <string name="toast_failed_launch_wallpaper_chooser">वॉलपेपर चयन इंटरफ़ेस नहीं खोल सकता। कृपया होम स्क्रीन पर अपने वॉलपेपर के रूप में 4EverPics मैन्युअल रूप से सेट करें</string>
+
+    <string name="toast_unexpected_error">अप्रत्याशित त्रुटि</string>
+
+    <string name="permission_title_rationale">अनुमति चाहिए</string>
+    <string name="permission_read_storage_rationale">फ़ाइलों को लेने के लिए संग्रहण रीड अनुमति की आवश्यकता होती है।</string>
+
+    <string name="label_cancel">रद्द करना</string>
+    <string name="label_ok">ठीक है</string>
+    <string name="label_select_picture"> चित्र का चयन करें</string>
+    <string name="toast_cannot_retrieve_cropped_image">फसली छवि को पुनः प्राप्त नहीं कर सकता</string>
+    <string name="toast_cannot_retrieve_selected_image">चयनित छवि पुनः प्राप्त नहीं कर सकता</string>
+    <string name="toast_set_image">छवि को सफलतापूर्वक सहेजें</string>
+
+<!--    <string name="file_provider_authorities">com.app.jesuslivewallpaper.provider</string>-->
+
+    <string name="reward_text">वीडियो विज्ञापन देखकर विज्ञापन निकालें। आप 20 मिनट प्राप्त करेंगे
+आपके द्वारा देखे जाने वाले प्रत्येक वीडियो के लिए ऐप के अतिरिक्त विज्ञापन नि: शुल्क संस्करण!सहायता प्रो संस्करण खरीदकर संभव हो तो (प्रो संस्करण खरीदने के लिए क्लिक करें नीचे दिए गए बटन पर क्लिक करें)
+प्रो संस्करण अनलॉक करता है कि सुविधाओं के बारे में अधिक जानकारी के लिए, अनुप्रयोग के अनुभाग के बारे में जाने। आप का धन्यवाद!</string>
+
+    <string name="not_working">अगर आपको वॉलपेपर हिलने या हटाने की समस्या नहीं है, तो नीचे दिए गए चरणों का पालन करें। \n->फ़ोन के नेविगेशन बटन से मेनू बटन पर क्लिक करके हाल के मेनू पर जाएं।
+        \n->टैप करें और दबाए रखें। \n->नीचे दिखाए गए अनुसार लॉक बटन पर क्लिक करें। \nनोट: यदि यह सेटिंग आपके फ़ोन में उपलब्ध नहीं है, तो अधिक विवरण के लिए क्लिक करें और चरण 2 और चरण 3 का अनुसरण करें</string>
+
+<!--    <string name="pref_key_transition_time" translatable="false">pref_key_transition_time</string>-->
+
+
+    <string name="status1_title">व्हाट्स एप स्थिति</string>
+    <string name="status1_msg">ऐसी स्थिति देखें जिसे आप मोबाइल पर सहेजना चाहते हैं</string>
+
+    <string name="status2_title">स्थिति डाउनलोडर</string>
+    <string name="status2_msg">यह आपकी सभी देखी गई स्थिति दिखाता है</string>
+
+    <string name="status3_title">स्थिति पूर्वावलोकन</string>
+    <string name="status3_msg">आप वॉलपेपर के रूप में साझा, प्रतिनिधि, डाउनलोड और सेट कर सकते हैं</string>
+
+    <string name="preview_loading">पूर्वावलोकन लोड हो रहा है ...</string>
+    <string name="menu_home">घर</string>
+    <string name="menu_edge_lighting">एज लाइटिंग वॉलपेपर</string>
+    <string name="menu_favourite">मेरा पसंदीदा</string>
+    <string name="menu_downloads">मेरे डाउनलोड</string>
+    <string name="menu_exclusive">विशेष वॉलपेपर</string>
+
+    <string name="menu_auto_wallpaper">ऑटो वॉलपेपर परिवर्तक</string>
+    <string name="menu_more_option">अधिक विकल्प</string>
+
+    <string name="menu_wallpaper_not_working">लाइव वॉलपेपर काम नहीं कर रहा है?</string>
+    <string name="menu_theme_text">थीम</string>
+    <string name="menu_remove_ads">विज्ञापन हटाएँ</string>
+    <string name="menu_share">शेयर</string>
+    <string name="menu_rate_us">हमें रेटिंग दें</string>
+    <string name="menu_double_wallpaper">डबल वॉलपेपर</string>
+
+    <string name="menu_feedback">हमें फीडबैक भेजें</string>
+    <string name="menu_policy">गोपनीयता नीति!</string>
+    <string name="menu_app_tour">ऐप टूर</string>
+    <string name="menu_about_us">हमारे बारे में</string>
+
+    <string name="menu_wallpaper_not_working_sub">यदि लाइव / ऑटो / विशेष वॉलपेपर इन चरणों का पालन करने की तुलना में कुछ समय बाद स्वचालित रूप से हटा दिया जाता है।</string>
+    <string name="uninstall_title">पुराना एप्लिकेशन अनइंस्टॉल करें</string>
+    <string name="uninstall_msg">नए ऐप के साथ जारी रखने के लिए कृपया पुराने 4K वॉलपेपर को खोल दें।
+हमारे पास इस एप्लिकेशन के लिए पुराना डेटा माइग्रेट है।</string>
+    <string name="uninstall_btn">अनइंस्टॉल</string>
+
+    <string name="purchase_title">सफलतापूर्वक खरीद</string>
+    <string name="purchase_msg">बधाई हो, आपको सभी वॉलपेपर तक असीमित पहुंच मिली और सभी विज्ञापनों को जीवनकाल में अक्षम कर दिया।</string>
+    <string name="purchase_fail_title">खरीद विफल रही</string>
+    <string name="purchase_fail_msg">बाद में पुन: खरीद के लिए प्रयास करें।</string>
+
+    <string name="theme_light">रोशनी</string>
+    <string name="theme_dark">अंधेरा</string>
+    <string name="theme_system_default">सिस्टम डिफ़ॉल्ट</string>
+
+    <string name="label_apply">लागू</string>
+    <string name="download_text">डाउनलोड हो रहा है…</string>
+    <string name="download_unable">डाउनलोड करने में असमर्थ</string>
+    <string name="dialog_Settind_double_Wallpaper">डबल वॉलपेपर सेट हो रहा है…</string>
+    <string name="dialog_loading_double_Wallpaper">अधिक डेटा लोड हो रहा है…</string>
+    <string name="wallpaper_updated">वॉलपेपर अद्यतन!</string>
+    <string name="no_internet_connected">कोई इंटरनेट नहीं जुड़ा।</string>
+    <string name="no_data_available">कोई डेटा उपलब्ध नहीं है। बाद में कोशिश करें।</string>
+    <string name="stock_category">स्टॉक श्रेणियाँ</string>
+    <string name="other_category">अन्य श्रेणियाँ</string>
+    <string name="time_interval">समय अंतराल : </string>
+    <string name="select_categories">श्रेणियाँ चुनें</string>
+    <string name="download_2_wallpaper">ऑटो वॉलपेपर परिवर्तक सेट करने के लिए कम से कम 2 वॉलपेपर डाउनलोड करें।</string>
+
+    <string name="set_auto_Wallpaper">ऑटो वॉलपेपर परिवर्तक सेट करें</string>
+    <string name="version_contact">संस्करण XX.XX</string>
+    <string name="disclaimer_txt">अस्वीकरण</string>
+    <string name="termofuse">उपयोग की शर्तें</string>
+    <string name="preview_and_set">पूर्वावलोकन और सेट वॉलपेपर</string>
+    <string name="applying_theme">थीम लागू करना</string>
+    <string name="install_app">एप्लिकेशन इंस्टॉल करो</string>
+
+    <string name="move_phone">पैनोरमा प्रभाव के लिए फोन ले जाएँ</string>
+    <string name="reward_video_ad">पुरस्कृत वीडियो विज्ञापन</string>
+    <string name="i_like_ads">मुझे ADS पसंद है</string>
+    <string name="remove_ads">विज्ञापन हटाएँ</string>
+    <string name="image_visibility_text">होम स्क्रीन पर छवि दृश्यता</string>
+    <string name="desaturation_home_text">होम स्क्रीन पर उतार-चढ़ाव</string>
+    <string name="select_background">पृष्ठभूमि छवि का चयन करें</string>
+
+    <string name="notch_width">नॉच चौड़ाई</string>
+    <string name="notch_height">पायदान ऊंचाई</string>
+    <string name="notch_radius">पायदान त्रिज्या शीर्ष</string>
+    <string name="notch_b_radius">पायदान त्रिज्या नीचे</string>
+    <string name="bottom_fullness">पायदान नीचे पूर्णता</string>
+    <string name="deactivate_border">सीमा को निष्क्रिय करना</string>
+    <string name="cycle_speed">साइकिल की गति</string>
+    <string name="border_size">सीमा का आकार</string>
+    <string name="border_b_radius">सीमा त्रिज्या नीचे</string>
+    <string name="border_top_radius">सीमा त्रिज्या शीर्ष</string>
+    <string name="select_border">सीमा का चयन करें</string>
+    <string name="simple_line">सरल रेखा</string>
+    <string name="dash_line">डैश रेखा</string>
+
+    <string name="show_notch_Setting">नॉट सेटिंग दिखाओ</string>
+    <string name="backimg">पृष्ठभूमि छवि</string>
+    <string name="notch">निशान</string>
+    <string name="delete_note">नोट: फोटो को हटाने के लिए फोटो पर क्लिक करें</string>
+    <string name="noCompData">कोई अभियान डेटा उपलब्ध नहीं है। pls बाद में प्रयास करें।</string>
+    <string name="noDataAvail">कोई डेटा उपलब्ध नहीं है। कृपया अन्य श्रेणी का चयन करें।</string>
+    <string name="free_hd_wallpaper">मुफ्त HD वॉलपेपर</string>
+    <string name="set_double">डबल वॉलपेपर सेट करें</string>
+    <string name="set_text">सेट</string>
+    <string name="search_text">खोज</string>
+    <string name="filter_text">फ़िल्टर</string>
+    <string name="delete_wallpaper_title">वॉलपेपर हटाएँ</string>
+
+    <string name="delete_msg">क्या आप वाकई हटाना चाहते हैं?</string>
+    <string name="label_yes">हाँ</string>
+    <string name="label_no">नहीं</string>
+
+    <string name="label_view">देख</string>
+    <string name="label_set_as">वॉलपेपर के रूप में सेट करें</string>
+    <string name="label_delete">हटाएं</string>
+
+    <string name="label_share">शेयर</string>
+    <string name="label_set_dialog">रूप में सेट करें:</string>
+
+    <string name="back_img_setting">बैकग्राउंड इमेज सेटिंग</string>
+    <string name="label_original">मूल</string>
+    <string name="notch_setting">नॉच सेटिंग</string>
+    <string name="rem_wallpaper">वॉलपेपर निकालें</string>
+    <string name="pre_set">पूर्वावलोकन और सेट करें</string>
+
+    <string name="check_out">आइए देखें नए वॉलपेपर ❤</string>
+    <string name="awe_wallpaper">बहुत बढ़िया वॉलपेपर देखें</string>
+    <string name="awe_Added">शानदार वॉलपेपर जोड़ा गया</string>
+    <string name="add_Wall">वॉलपेपर जोड़ा गया। चलो उन्हें जाँच करें❤</string>
+    <string name="no_net">नेटवर्क उपलब्ध नहीं</string>
+    <string name="unable_download">डाउनलोड करने में असमर्थ। पुनः प्रयास करें</string>
+    <string name="allow_per">कृपया फोन स्टोरेज में वॉलपेपर डाउनलोड करने के लिए अनुमति दें</string>
+    <string name="dialog_title_info">जानकारी</string>
+    <string name="dialog_msg">क्या आप वास्तव में विशेष वॉलपेपर अपडेट करना चाहते हैं?</string>
+
+    <string name="dwn_at">डाउनलोड किया गया -</string>
+    <string name="load_more">अधिक डेटा लोड हो रहा है ...</string>
+    <string name="no_found">कोई डाउनलोड वॉलपेपर नहीं मिला। डाउनलोड किया गया वॉलपेपर स्टोर</string>
+    <string name="nodataforfav">पसंदीदा के लिए कोई डेटा उपलब्ध नहीं है।</string>
+    <string name="edgetxt">प्रकाश वॉलपेपर</string>
+    <string name="statustxt">स्थिति सेवर</string>
+    <string name="update_live_wall">क्या आप वास्तव में लाइव वॉलपेपर अपडेट करना चाहते हैं?</string>
+    <string name="min_30">30 मिनट</string>
+    <string name="hr_1">1 घंटा</string>
+    <string name="hr_2">2 घंटा</string>
+    <string name="hr_6">6 घंटा</string>
+    <string name="hr_12">12 घंटा</string>
+    <string name="dy_1">1 दिन</string>
+    <string name="dy_3">3 दिन</string>
+
+    <string name="sav_apply">सहेजें और लागू करें</string>
+    <string name="select_atleast_one">कृपया कम से कम एक श्रेणी चुनें।</string>
+    <string name="error_download_wallpaper">वॉलपेपर डाउनलोड करने में त्रुटि। कृपया पुन: प्रयास करें।</string>
+    <string name="get_wall">वॉलपेपर हो रहा है ...</string>
+    <string name="save_img_success">छवि को सफलतापूर्वक सहेजें</string>
+    <string name="per_set_Auto">कृपया ऑटो वॉलपेपर चेंजर सेट करने के लिए अनुमति दें</string>
+    <string name="label_version">संस्करण</string>
+    <string name="label_my_fav">मेरा मनपसंद</string>
+    <string name="label_wal">वॉलपेपर</string>
+    <string name="label_not_work_title">काम नहीं कर</string>
+    <string name="label_more_detail">अधिक जानकारी</string>
+    <string name="label_2_more">ऑटो वॉलपेपर परिवर्तन का उपयोग करने से पहले कम से कम 2 वॉलपेपर डाउनलोड करें।</string>
+
+    <string name="label_popular">लोकप्रिय</string>
+    <string name="label_new_Added">नया जोड़ा गया</string>
+    <string name="label_random">रेंडम</string>
+    <string name="label_down_text">4K वॉलपेपर के सबसे सुंदर और अद्वितीय संग्रह प्राप्त करें। इस ऐप में लाइव वॉलपेपर, डबल वॉलपेपर, एज लाइटिंग वॉलपेपर, एक्सक्लूसिव मूविंग वॉलपेपर और ऑटो वॉलपेपर चेंजर है, जो निर्दिष्ट समय अंतराल के बाद स्वचालित रूप से बैकग्राउंड इमेज बदल सकते हैं। प्ले स्टोर पर उपलब्ध है, अभी डाउनलोड करें -</string>
+    <string name="label_invite_frnd">अपने दोस्तों को आमंत्रित करें</string>
+    <string name="label_update_avail">स्टोर पर एक नया अपडेट उपलब्ध है।</string>
+    <string name="label_changelog">परिवर्तन</string>
+    <string name="label_update_use_it">इसका सबसे अच्छा उपयोग करने के लिए कृपया इस ऐप को अपडेट करें!</string>
+    <string name="label_new_update_continue">कृपया एप्लिकेशन का उपयोग जारी रखने के लिए अपडेट करें!</string>
+    <string name="label_new_up"> उपलब्ध अद्यतन</string>
+    <string name="label_update">अपडेट करें</string>
+    <string name="label_later">बाद में</string>
+    <string name="label_live">लाइव वॉलपेपर</string>
+    <string name="label_trending">ट्रेंडिंग</string>
+    <string name="label_category">वर्ग</string>
+    <string name="label_try_something_else">इस कार्य के लिए कोई डेटा उपलब्ध नहीं है। कुछ और कोशिश करो।</string>
+    <string name="label_update_ask">क्या आप वाकई ऑटो वॉलपेपर चेंजर को अपडेट करना चाहते हैं?</string>
+
+    <string name="label_create_exclusive">विशेष वॉलपेपर बनाएँ</string>
+    <string name="label_select_img">कृपया सेट करने के लिए छवि का चयन करें</string>
+    <string name="label_ask_exclusive">क्या आप वास्तव में विशेष वॉलपेपर अपडेट करना चाहते हैं?</string>
+    <string name="no_gallery">आपके डिवाइस में गैलरी नहीं है</string>
+    <string name="disablevpn">आवेदन का उपयोग करने के लिए कृपया वीपीएन को अक्षम करें।</string>
+    <string name="label_pre">पूर्वावलोकन</string>
+    <string name="label_new_Dwn">डाउनलोड</string>
+
+    <string name="label_apply_dark">डार्क थीम लागू करना</string>
+    <string name="label_apply_light">लाइट थीम लागू करना</string>
+    <string name="label_nolongeravail">यह एप्लिकेशन अब समर्थित नहीं है। </string>
+    <string name="label_installnew">कृपया नई सुविधा और वॉलपेपर के लिए नया एप्लिकेशन इंस्टॉल करें</string>
+    <string name="label_already_dwn">पहले से डाउनलोड किया गया </string>
+    <string name="label_utility_net">जारी रखने के लिए कृपया इंटरनेट कनेक्शन चालू करें।</string>
+    <string name="label_wa_not_install">व्हाट्सएप इंस्टॉल नहीं किया गया है।</string>
+    <string name="label_appnotinstall">एप्लिकेशन इंस्टॉल नहीं हुआ है।</string>
+
+    <string name="label_beautiful_uniq_wall">4K और लाइव वॉलपेपर का सबसे सुंदर और अनोखा संग्रह। प्ले स्टोर पर उपलब्ध है, अभी डाउनलोड करें -</string>
+    <string name="label_why">कृपया संक्षेप में बताएं कि आपने इसे क्यों पाया</string>
+    <string name="label_sensornotsupport">आपका उपकरण जाइरोस्कोप सेंसर समर्थित नहीं है, इसलिए आप विशेष वॉलपेपर का उपयोग नहीं कर सकते हैं।</string>
+
+    <string name="label_dwn_s">सफलतापूर्वक डाउनलोड करें</string>
+    <string name="label_per_denied">अनुमति नहीं मिली</string>
+    <string name="label_needper_acc">चित्र जोड़ने के लिए, आपको अपनी फ़ाइलों तक पहुँचने की अनुमति प्रदान करनी होगी</string>
+    <string name="label_g">गेलरी</string>
+    <string name="label_camera">कैमरा</string>
+    <string name="add_img_label">छवि जोड़ें</string>
+    <string name="label_cannot_show">नहीं दिखा सकते</string>
+
+    <string name="label_simple_notification">मैं एक साधारण सूचना हूँ</string>
+    <string name="label_simple_notification_text">मैं साधारण अधिसूचना का पाठ हूं</string>
+
+    <string name="label_searchbytext">शब्द से खोजें</string>
+    <string name="label_report_new">रिपोर्ट</string>
+    <string name="label_similar">समान</string>
+
+    <string name="settings_label">सेटिंग्सएक्</string>
+    <string name="label_push_nitification">सर्वर पुश नोटीफिकेशन</string>
+    <string name="label_cc">कैश को साफ़ करें</string>
+    <string name="label_language">भाषा</string>
+    <string name="sele_lan">भाषा चुने</string>
+
+    <string name="lang_hi">हिन्दी</string>
+    <string name="label_theme_Select">चुनिंदा थीम</string>
+
+    <string name="apply_lang_text">परिवर्तित भाषा को लागू करना</string>
+    <string name="label_already_change">पहले से ही लागू</string>
+    <string name="reportItem">रिपोर्ट आइटम आईडी:</string>
+    <string name="label_1">यौन स्पष्ट</string>
+    <string name="label_2">अप्रिय</string>
+    <string name="label_3">बुरा गुण</string>
+    <string name="label_4">कॉपीराइट</string>
+</resources>

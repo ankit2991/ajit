@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.messaging.textrasms.manager",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 960080200,
+      "versionName": "96.8.2",
+      "outputFile": "GPS172-01_960080200-debug.apk"
+    }
+  ],
+  "elementType": "File"
+}

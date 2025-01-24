@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_ll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="0dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardElevation="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/dialog_bg_purchase">
+
+
+            <ImageView
+                android:id="@+id/close"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/_5sdp"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/close"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:id="@+id/errorLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/toolbar"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_12sdp"
+                    android:layout_marginRight="@dimen/_12sdp"
+                    android:text="No internet connection"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layoutMain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <ImageView
+
+                    android:id="@+id/imageview"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="@dimen/_150sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_25sdp"
+                    android:layout_marginTop="@dimen/_40sdp"
+                    android:layout_marginRight="@dimen/_25sdp"
+                    android:layout_marginBottom="@dimen/_15sdp"
+                    android:padding="@dimen/_10sdp"
+                    android:src="@drawable/removeads" />
+
+                <com.messaging.textrasms.manager.common.widget.QkTextView
+                    android:id="@+id/remove_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/contains"
+                    android:layout_centerInParent="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/_15sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Remove Ads"
+                    android:textColor="?android:attr/textColorSecondary"
+                    android:textSize="@dimen/_22sdp"
+                    android:textStyle="bold" />
+
+                <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                    android:id="@+id/contains"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:lineSpacingExtra="@dimen/_3sdp"
+                    android:text="@string/inapp_details"
+                    android:textColor="?android:attr/textColorTertiary"
+                    android:textSize="@dimen/_15sdp"
+                    app:customFont="@string/fontName" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ad_remove_rl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/ad_remove_rl_cancel"
+                        android:layout_marginLeft="@dimen/_25sdp"
+                        android:layout_marginRight="@dimen/_25sdp"
+                        android:background="@drawable/ad_remove"
+                        android:backgroundTint="@color/tools_theme"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/_2sdp"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:paddingRight="@dimen/_2sdp"
+                        android:paddingBottom="@dimen/_10sdp">
+
+                        <TextView
+                            android:id="@+id/ad_remove_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:contentDescription="Ads remove 2.99$ lifetime"
+                            android:gravity="center"
+                            android:text="Ads remove 2.99$ lifetime"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_16sdp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ad_remove_rl_cancel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="@dimen/_25sdp"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:layout_marginRight="@dimen/_25sdp"
+                        android:layout_marginBottom="@dimen/_20sdp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/ad_remove_tv_cancel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:contentDescription="Ads remove 2.99$ lifetime"
+                            android:text="Maybe Later"
+                            android:textColor="#BA70808D"
+                            android:textSize="@dimen/_15sdp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

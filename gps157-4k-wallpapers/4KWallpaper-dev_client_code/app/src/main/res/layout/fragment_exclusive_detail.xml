@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_friend_request"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:clickable="true"
+    android:gravity="center">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_photos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_banner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:scaleType="centerCrop" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/img_blurre"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparentBlackDetail" />
+
+        <RelativeLayout android:id="@+id/rl_inner_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/pBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/animation_view"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:indeterminate="false"
+                android:max="100"
+                android:minWidth="200dp"
+                android:minHeight="30dp"
+                android:progress="0"
+                android:progressTint="@color/white" />
+
+            <TextView
+                android:id="@+id/tView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/preview_loading"
+                android:textColor="@color/white"
+                android:fontFamily="@font/baloobhai"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pBar"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_curr_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:fontFamily="@font/baloobhai"
+                    android:shadowRadius="2"
+                    android:text="0 KB / "
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/txt_total_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:fontFamily="@font/baloobhai"
+                    android:shadowRadius="2"
+                    android:text="0 KB"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animation_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <LinearLayout android:id="@+id/ll_option"
+        android:layout_width="wrap_content" android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlBottomView"
+        android:layout_marginBottom="8dp" android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal">
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_like"
+            style="@style/MenuButtonsStyle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_detail_like"
+            android:visibility="gone" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_set_wallpaper"
+            style="@style/MenuButtonsStyle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:src="@mipmap/ic_set_wall"
+            android:visibility="gone" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_download"
+            style="@style/MenuButtonsStyle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_detail_download"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rlBottomView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:id="@+id/viewBottomDivider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/divider_color"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/ivBottomView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/viewBottomDivider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_showcase"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AA000000"
+
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/img_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/ic_close" />
+
+        <TextView
+            android:id="@+id/txt_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/move_phone"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:visibility="visible" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view_sample"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_msg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+
+            />
+    </RelativeLayout>
+</RelativeLayout>

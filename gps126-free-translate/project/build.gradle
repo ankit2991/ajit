@@ -1,0 +1,113 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext {
+        agp_version = '8.1.0'
+    }
+    ext.kotlin_version = '1.4.30'
+    ext.koin_version = '2.2.2'
+    ext.anko_version='0.10.8'
+    repositories {
+        gradlePluginPortal()
+        google()
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        mavenCentral()
+        maven { url "https://repo.grails.org/grails/core/" }
+        maven {
+            url 'https://android-sdk.is.com/'
+        }
+        maven { url 'https://jitpack.io' }
+        maven {
+            url 'https://csspeechstorage.blob.core.windows.net/maven/'
+        }
+        maven {
+            url 'https://dl.google.com/dl/android/maven2'
+        }
+        mavenCentral()
+        maven { url "https://cboost.jfrog.io/artifactory/chartboost-ads/" }
+        maven { url "https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea" }
+        maven { url "https://artifact.bytedance.com/repository/pangle" }
+
+
+        maven {
+            url 'http://maven.calldorado.com/nexus/content/repositories/thirdparty/'
+            allowInsecureProtocol = true
+        }
+
+        maven {
+            url 'http://maven.calldorado.com/nexus/content/repositories/releases'
+            allowInsecureProtocol = true
+        }
+
+        maven {
+            credentials {
+                username = 'socem'
+                password = 'QEvAWtv9J08L5H2h'
+            }
+            url 'https://maven.appvestor.com/nexus/content/repositories/socem/'
+        }
+
+    }
+
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:$agp_version"
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.0'
+        classpath 'com.google.gms:google-services:4.4.1'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.9.9'
+
+
+
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        gradlePluginPortal()
+        google()
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        mavenCentral()
+        maven { url "https://repo.grails.org/grails/core/" }
+        maven {
+            url 'https://android-sdk.is.com/'
+        }
+        maven {
+            url 'https://dl.google.com/dl/android/maven2'
+        }
+        maven { url 'https://jitpack.io' }
+        maven {
+            url 'https://csspeechstorage.blob.core.windows.net/maven/'
+        }
+        maven { url "https://cboost.jfrog.io/artifactory/chartboost-ads/" }
+        maven { url "https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea" }
+        maven { url "https://artifact.bytedance.com/repository/pangle" }
+
+
+        maven {
+            url 'http://maven.calldorado.com/nexus/content/repositories/thirdparty/'
+            allowInsecureProtocol = true
+        }
+
+        maven {
+            url 'http://maven.calldorado.com/nexus/content/repositories/releases'
+            allowInsecureProtocol = true
+        }
+        maven {
+            credentials {
+                username = 'socem'
+                password = 'QEvAWtv9J08L5H2h'
+            }
+            url 'https://maven.appvestor.com/nexus/content/repositories/socem/'
+        }
+
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

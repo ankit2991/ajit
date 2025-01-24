@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_history_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_history_bookmark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_flag_from"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/afrikaans"
+        app:civ_border_color="#FFAEAEAE"
+        app:civ_border_width="1dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_history_logo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_flag_to"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/afrikaans"
+        app:civ_border_color="#FFAEAEAE"
+        app:civ_border_width="1dp"
+        app:layout_constraintStart_toStartOf="@+id/iv_flag_from"
+        app:layout_constraintTop_toBottomOf="@+id/iv_flag_from" />
+
+    <RelativeLayout
+        android:id="@+id/container_end_bookmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_delete_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:padding="8dp"
+            app:srcCompat="@drawable/ic_delete_history" />
+
+        <ImageView
+            android:id="@+id/iv_bookmark_selected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:padding="8dp"
+            app:srcCompat="@drawable/ic_selected_item"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_history_input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="@string/drawer_title"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/container_end_bookmark"
+        app:layout_constraintStart_toEndOf="@+id/iv_flag_from"
+        app:layout_constraintTop_toTopOf="@+id/iv_flag_from" />
+
+    <TextView
+        android:id="@+id/tv_history_output"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="@string/drawer_nav_share"
+        android:textColor="#707070"
+        app:layout_constraintEnd_toEndOf="@+id/tv_history_input"
+        app:layout_constraintStart_toStartOf="@+id/tv_history_input"
+        app:layout_constraintTop_toTopOf="@+id/iv_flag_to" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0.8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:background="#707070"
+        app:layout_constraintEnd_toEndOf="@+id/container_end_bookmark"
+        app:layout_constraintStart_toEndOf="@+id/iv_history_logo"
+        app:layout_constraintTop_toBottomOf="@+id/tv_history_output" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

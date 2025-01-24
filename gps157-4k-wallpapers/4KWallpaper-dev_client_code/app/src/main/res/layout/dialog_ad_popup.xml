@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000">
+
+    <macro.hd.wallpapers.MyCustomView.StatusBarView
+        android:id="@+id/statusBarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent" />
+
+    <ImageView
+        android:id="@+id/img_blurr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rlBottomView"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+
+        <ImageView
+            android:id="@+id/img_ad"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="50dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher_about" />
+
+        <TextView
+            android:id="@+id/txt_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_rate_reviews"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/submit_selector_double"
+            android:drawableRight="@mipmap/ic_playstore"
+            android:padding="5dp"
+            android:text="@string/install_app"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlBottomView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <!--<View
+            android:id="@+id/viewBottomDivider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/divider_color"
+            android:visibility="gone"></View> -->
+
+        <ImageView
+            android:id="@+id/ivBottomView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ImageView>
+    </RelativeLayout>
+</RelativeLayout>

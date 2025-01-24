@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp"
+    android:orientation="vertical" android:paddingTop="@dimen/value_10" android:paddingBottom="@dimen/value_10"
+    android:paddingLeft="@dimen/value_5" android:paddingRight="@dimen/value_5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/info_bg"
+        android:orientation="vertical">
+
+        <ImageView
+            android:background="@mipmap/ic_dlg_info"
+            android:layout_marginTop="2dp"
+            android:layout_width="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="50dp" />
+
+        <LinearLayout android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView android:id="@+id/title_author"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:text="Author: "
+                android:fontFamily="@font/baloobhai"
+                android:textColor="@color/main_text_color"
+                android:textSize="@dimen/_16sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_author"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.72"
+                android:fontFamily="@font/baloobhai"
+                android:text="male"
+                android:textColor="@color/main_text_color"
+                android:textSize="@dimen/_16sdp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView  android:id="@+id/title_source"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:text="Source: "
+                android:fontFamily="@font/baloobhai"
+                android:textColor="@color/main_text_color"
+                android:textSize="@dimen/_16sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_source_link"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.72"
+                android:fontFamily="@font/baloobhai"
+                android:text="Female"
+                android:textColor="@color/main_text_color"
+                android:textSize="@dimen/_16sdp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView android:id="@+id/title_licence"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:fontFamily="@font/baloobhai"
+                android:text="Licence: "
+                android:textColor="@color/main_text_color"
+                android:textSize="@dimen/_16sdp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txt_licence"
+                android:layout_width="0dp"
+                android:fontFamily="@font/baloobhai"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.72"
+                android:text="Female"
+                android:textColor="@color/main_text_color"
+                android:textSize="@dimen/_16sdp" />
+        </LinearLayout>
+
+        <LinearLayout android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView android:id="@+id/title_download"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:fontFamily="@font/baloobhai"
+                android:text="Download: "
+                android:textColor="@color/main_text_color"
+                android:textSize="@dimen/_16sdp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txt_download"
+                android:layout_width="0dp"
+                android:fontFamily="@font/baloobhai"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.72"
+                android:text="100"
+                android:textColor="@color/main_text_color"
+                android:textSize="@dimen/_16sdp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sugest_update_title">განახლება ხელმისაწვდომია</string>
+    <string name="sugest_update_message">ახალი განახლება ხელმისაწვდომია Google Play-ზე, გთხოვთ, განაახლოთ თქვენი ვერსია</string>
+    <string name="force_update_title">განახლება ხელმისაწვდომია</string>
+    <string name="force_update_message">ახალი განახლება ხელმისაწვდომია Google Play-ზე, გთხოვთ, განაახლოთ თქვენი ვერსია</string>
+    <string name="update_ok">განახლება</string>
+    <string name="update_no">ახლა არა</string>
+    <string name="app_name">#შეტყობინებები</string>
+    <string name="in_app_name">შეტყობინებები</string>
+    <string name="splash_app_name">SMS შეტყობინებები</string>
+    <string name="loading_msg">გთხოვთ დაიცადოთ...</string>
+    <string name="ads_loading_msg">რეკლამის ჩატვირთვა...</string>
+    <string name="shortcut_compose_long_label">ახალი კონვერსაცია</string>
+    <string name="shortcut_compose_short_label">დაწერე</string>
+    <string name="shortcut_compose_disabled_message">შექმენით დაჭრილება</string>
+    <string name="title_archived">დაარქივებული შეტყობინებები</string>
+    <string name="title_settings">პარამეტრები</string>
+    <string name="title_notification_prefs">შეტყობინებები</string>
+    <string name="title_theme">თემა</string>
+    <string name="title_conversations">ძიება ნომრები, სახელები და სხვა</string>
+    <string name="title_compose">შეიყვანეთ სახელი ან ტელეფონის ნომერი</string>
+    <string name="setup_skip">გამოტოვება</string>
+    <string name="setup_next">გაგრძელება</string>
+    <string name="menu_add_person">პიროვნების დამატება</string>
+    <string name="menu_call">ზარი</string>
+    <string name="menu_info">დეტალები</string>
+    <string name="menu_save">შენახვა გალერეაში</string>
+    <string name="menu_share">გაზიარება</string>
+    <string name="main_drawer_open_cd">ნავიგაციის სარტყელის გახსნა</string>
+    <string name="main_title_selected">%d შერჩეულია</string>
+    <string name="main_menu_clear">გასუფთავება</string>
+    <string name="main_menu_archive">არქივირება</string>
+    <string name="main_menu_unarchive">გაარქივება</string>
+    <string name="main_menu_delete">წაშლა</string>
+    <string name="main_menu_add_contact">კონტაქტის დამატება</string>
+    <string name="main_menu_pin">ზემოთ მიმართვა</string>
+    <string name="main_menu_unpin">მიმართვიდან მოხსნა</string>
+    <string name="main_menu_read">წაიკითხე</string>
+    <string name="main_menu_unread">წაუკითხე</string>
+    <string name="select_all">ყველას შერჩევა</string>
+    <string name="deselect_all">ყველას გარკვევა</string>
+    <string name="main_menu_block">ბლოკირება</string>
+    <string name="main_syncing">შეტყობინებების ორგანიზება...</string>
+    <string name="main_sender_you">შენ: %s</string>
+    <string name="main_draft">შავს: %s</string>
+    <string name="main_message_results_title">შედეგები შეტყობინებებში</string>
+    <string name="main_message_results">%d შედეგი</string>
+    <string name="inbox_empty_text">თქვენს განახლებებს აქ გამოჩნდება</string>
+    <string name="inbox_search_empty_text">შედეგები არ არის</string>
+    <string name="archived_empty_text">ჯერ არცერთი არქივირებული გასაღები არ არის..</string>
+    <string name="main_fab_cd">ახალი კონვერსაციის დაწყება</string>
+    <string name="main_default_sms_title">მოიყვანეთ SMS-ი?</string>
+    <string name="main_default_sms_message">განისაზღვრეთ SMS-ი თქვენი სასურველი SMS-ის აპლიკაცია</string>
+    <string name="main_default_sms_change">შეცვლა</string>
+    <string name="main_permission_required">საჭიროა ნებართვა</string>
+    <string name="main_permission_sms">SMS საჭიროა ნებართვა SMS შეტყობინებების გაგზავნადა ნახვად</string>
+    <string name="main_permission_contacts">SMS საჭიროა ნებართვა კონტაქტების ნახვად</string>
+    <string name="main_permission_allow">ნებართვა დართეთ</string>
+    <string name="main_permission_allow_read">ნებართვა კითხვისა და წერაში</string>
+    <string name="drawer_inbox">შეტყობინებები</string>
+    <string name="drawer_archived">არქივირებული</string>
+    <string name="drawer_scheduled">განრიგის შეტყობინებები</string>
+    <string name="drawer_blocking">დაბლოკილი სია</string>
+    <string name="drawer_calldorado">ზარების პარამეტრები</string>
+    <string name="drawer_more">სხვადასხვა</string>
+    <string name="drawer_group">ჯგუფის შეტყობინება</string>
+    <string name="drawer_settings">პარამეტრები</string>
+    <string name="drawer_remove_ads">რეკლამის წაშლა</string>
+    <string name="drawer_help">დახმარება და უკუკავშირი</string>
+    <string name="drawer_invite">მეგობრების მოწვევა</string>
+    <string name="dialog_delete_title">წაშლა</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">ნამდვილად გსურთ ამ კონვერსაციის წაშლა?</item>
+        <item quantity="other">ნამდვილად გსურთ %d კონვერსაციის წაშლა?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>ტექსტის კოპირება</item>
+        <item>გადაგზავნა</item>
+        <item>წაშლა</item>
+    </string-array>
+    <string name="compose_number_picker_title">აირჩიეთ ტელეფონის ნომერი</string>
+    <string name="compose_number_picker_default">%s ∙ საწყისი</string>
+    <string name="compose_number_picker_once">მხოლოდ ერთხელ</string>
+    <string name="compose_number_picker_always">ყოველთვის</string>
+    <string name="compose_title_selected">%d შერჩეული</string>
+    <string name="compose_subtitle_results">%1$d სანახავი შედეგები %2$d-დან</string>
+    <string name="contact_selected">%1$d სანახავი %2$d-დან შერჩეული</string>
+    <string name="compose_messages_empty"> დაიწყეთ თქვენი კონვერსაცია. უთანასწორეთ რამე დიდი!</string>
+    <string name="compose_vcard_label">კონტაქტის ბარათი</string>
+    <string name="compose_scheduled_for">გეგმიურია</string>
+    <string name="compose_scheduled_future"> დრო უნდა იყოს მომავალში!</string>
+    <string name="compose_scheduled_toast">გეგმიური შეტყობინებების დამატება</string>
+    <string name="compose_hint">აქ დაწერეთ…</string>
+    <string name="compose_menu_copy">ტექსტის კოპირება</string>
+    <string name="compose_menu_forward">გადაგზავნა</string>
+    <string name="compose_menu_delete">წაშლა</string>
+    <string name="compose_menu_previous">წინა</string>
+    <string name="compose_menu_next">შემდეგი</string>
+    <string name="compose_menu_clear">გასუფთავება</string>
+    <string name="compose_details_title">შეტყობინების დეტალები</string>
+    <string name="compose_details_type">ტიპი: %s</string>
+    <string name="compose_details_from">მიმდინარე: %s</string>
+    <string name="compose_details_to">მიმართულება: %s</string>
+    <string name="compose_details_subject">სათაური: %s</string>
+    <string name="compose_details_priority">პრიორიტეტი: %s</string>
+    <string name="compose_details_size">ზომა: %s</string>
+    <string name="compose_details_sent">გაგზავნილი: %s</string>
+    <string name="compose_details_received">მიღებული: %s</string>
+    <string name="compose_details_delivered">მიტანილი: %s</string>
+    <string name="compose_details_error_code">შეცდომის კოდი: %d</string>
+    <string name="compose_attach_cd">დანართის დამატება</string>
+    <string name="compose_gallery_cd">სურათისდამატება</string>
+    <string name="compose_camera_cd">სურათის ამოღება</string>
+    <string name="compose_schedule_cd">შეკეთებული შეტყობინება</string>
+    <string name="compose_contact_cd">კონტაქტის დამატება</string>
+    <string name="compose_contact_error">შეცდომა კონტაქტის წაკითხვისას</string>
+    <string name="compose_sim_cd">%s შერჩეულია, შეცვალეთ SIM ბარათი</string>
+    <string name="compose_send_cd">შეტყობინების გაგზავნა</string>
+    <string name="message_status_sending">გაგზავნა…</string>
+    <string name="message_status_delivered">მიტანილი %s</string>
+    <string name="message_status_failed">შეცდომა გაგზავნისას</string>
+    <string name="info_title">კონტაქტის დეტალები</string>
+    <string name="info_copied_address">მისამართი დაკოპირებულია</string>
+    <string name="info_name">კონვერსაციის სათაური</string>
+    <string name="info_notifications">შეტყობინებები</string>
+    <string name="info_theme">თემა</string>
+    <string name="info_archive">არქივი</string>
+    <string name="info_unarchive">არქივიდან გამოტოვება</string>
+    <string name="info_block">დაბლოკვა</string>
+    <string name="info_unblock">ბლოკიდან ამოღება</string>
+    <string name="info_delete">კონვერსაციის წაშლა</string>
+    <string name="gallery_error">მედიას ჩატვირთვა შეუძლებელია</string>
+    <string name="gallery_toast_saved">გადაინტერესებულია გალერეაში</string>
+    <string name="backup_title">სარეზერვო და აღდგენა</string>
+    <string name="backup_backing_up">შეტყობინებების არქივში არქივირება</string>
+    <string name="backup_restoring">აღდგენა სარეზერვოდან</string>
+    <string name="backup_last">ბოლო არქივი</string>
+    <string name="backup_loading">ჩატვირთვა…</string>
+    <string name="backup_never">არასდროს</string>
+    <string name="backup_restore_title">აღდგენა</string>
+    <string name="backup_restore_summary">არქივის შერჩევა</string>
+    <string name="backup_restore_error_plus">გთხოვთ, გახსენით SMS+, რათა გამოიყენოთ სარეზერვო და აღდგენა</string>
+    <string name="backup_restore_error_backup">არქივირება მიმდინარეობს…</string>
+    <string name="backup_restore_error_restore">აღდგენა მიმდინარეობს…</string>
+    <string name="backup_restore_confirm_title">აღდგენა სარეზერვოდან</string>
+    <string name="backup_restore_confirm_message">ნამდვილად გსურთ თქვენს შეტყობინებების აღდგენა ამ არქივიდან?</string>
+    <string name="backup_restore_stop_title">აღდგენის შეჩერება</string>
+    <string name="backup_restore_stop_message">უკვე აღდგენილი შეტყობინებები დარჩება თქვენს მოწყობილობაზე</string>
+    <string name="backup_restore_dialog_title">არქივები</string>
+    <string name="backup_restore_dialog_summary">/SMS შეტყობინებები/არქივები</string>
+    <string name="backup_restore_dialog_empty">არქივები არ მოიძებნა</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">შეტყობინებები არ არის</item>
+        <item quantity="one">%d შეტყობინება</item>
+        <item quantity="other">%d შეტყობინებები</item>
+    </plurals>
+    <string name="backup_disclaimer">სანამ, ჩვენ მხოლოდ SMS-ს მხარდაჭერას გვაქვს დაბრუნებაში და აღდგენაში!</string>
+    <string name="backup_now">არქივირება</string>
+    <string name="backup_progress_parsing">არქივის განაყოფის…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d შეტყობინება</string>
+    <string name="backup_progress_saving">არქივის შენახვა…</string>
+    <string name="backup_progress_syncing">შეტყობინებების სინქრონიზაცია…</string>
+    <string name="backup_progress_finished">დასრულდა!</string>
+    <string name="backup_notification_channel_name">არქივირება და აღდგენა</string>
+    <string name="Message_notification_channel_name">შეტყობინება სინქრონიზაცია</string>
+    <string name="scheduled_title">განრიგის</string>
+    <string name="schedule_guide">შეგიძლიათ განარიგის შეტყობინებების შექმნა დააჭიროთ შეტყობინებების გამოცემის ღილაკს შეტყობინება ჩათვლით.</string>
+    <string name="scheduled_empty_description">ავტომატურად გააგზავნეთ შეტყობინება დასასრული დროს</string>
+    <string name="scheduled_empty_message_1">ჰეი! როდის არის დრო დავალებას დავაკვირდეთ?</string>
+    <string name="scheduled_empty_message_2">ეს მარტივი საქმეა 5 მარტი</string>
+    <string name="scheduled_empty_message_3">ჰეია! დაინახე, რა მეგობარი ვარ, შენს დღესას ადვილად დავასამართე</string>
+    <string name="scheduled_empty_message_3_timestamp">გაგზავნა 5 მარტს&#x200A;</string>
+    <string name="scheduled_compose_cd">განრიგის შეტყობინება</string>
+    <string name="scheduled_options_title">განრიგის შეტყობინება</string>
+    <string-array name="scheduled_options">
+        <item>ახლა გაგზავნა</item>
+        <item>ტექსტის კოპირება</item>
+        <item>წაშლა</item>
+    </string-array>
+    <string name="settings_category_appearance">გამოსახულება</string>
+    <string name="settings_category_general">ზოგადი</string>
+    <string name="settings_categoryreply">პასუხი</string>
+    <string name="settings_night_title">ღამის რეჟიმი</string>
+    <string name="settings_text_size_title">შრიფტის ზომა</string>
+    <string name="settings_notifications_title">შეტყობინებები</string>
+    <string name="settings_notifications_o_summary">შექმენით თქვენი ასლები</string>
+    <string name="settings_notification_actions_title">ქმედებები</string>
+    <string name="settings_notification_action_1">ღილაკი 1</string>
+    <string name="settings_notification_action_2">ღილაკი 2</string>
+    <string name="settings_notification_action_3">ღილაკი 3</string>
+    <string name="settings_notification_previews_title">შეტყობინებების დათვალიერება</string>
+    <string name="settings_notification_wake_title">ეკრანის გახსნა</string>
+    <string name="settings_vibration_title">დინამიკა</string>
+    <string name="settings_ringtone_title">ხმა</string>
+    <string name="settings_ringtone_none">არაფერი</string>
+    <string name="settings_reply_title">პასუხი</string>
+    <string name="settings_reply_summary">ახალი შეტყობინებებისთვის პოპაპი</string>
+    <string name="settings_reply_tap_dismiss_title">თაქვი გადატვირთვა</string>
+    <string name="settings_reply_tap_dismiss_summary">დააჭირეთ პოპაპის გარეშე გასაიხსნებლად</string>
+    <string name="settings_swipe_actions">ჩადგმები დარჩეს</string>
+    <string name="settings_swipe_actions_right">მარჯვნივ ჩადგმები</string>
+    <string name="settings_swipe_actions_left">მარცხნივ ჩადგმები</string>
+    <string name="settings_swipe_actions_change">შეცვალეთ</string>
+    <string name="not_now_txt">არ აქვს</string>
+    <string name="process_title">ეს პროცესი წამოიღებს რამდენიმე დროს</string>
+    <string name="syncing_done">შეტყობინებების სინქრონიზაცია დასრულდა....</string>
+    <string name="all_set_txt">ყველაფრის გაკეთებულია. თქვენ მზად ხართ</string>
+    <string name="Personal">ყველა შეტყობინება</string>
+    <string name="Other">ცოტახეში</string>
+    <string name="Spam">ბავშვი</string>
+    <string name="setting">პარამეტრები</string>
+    <string name="Share">გაზიარება</string>
+    <string name="Rate">შეფასება</string>
+    <string name="edit">რედაქტირება</string>
+    <string name="DarkMode">ბნელი რეჟიმი</string>
+    <string name="BrightMode">მწვანე რეჟიმი</string>
+    <string name="Camera">კამერა</string>
+    <string name="Gallery">გალერეა</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">კონტაქტი</string>
+    <string name="Schedule">განრიგი</string>
+    <string name="Location">მდებარეობა</string>
+    <string name="Notes">შენიშვნები</string>
+    <string name="no_msg">ჯერ არაფერი არის…</string>
+    <string name="Start_Chat">ჩართვა</string>
+    <string name="Language">ენა</string>
+    <string name="rate_text">შემიერთდით სხვებს, შემეფასეთ ჩვენ Play Store-ზე!</string>
+    <string name="sort_by">დალაგება</string>
+    <string-array name="settings_swipe_actions">
+        <item>არაფერი</item>
+        <item>არქივი</item>
+        <item>წაშლა</item>
+        <item>დასრულება</item>
+        <item>წაკითხვადია</item>
+        <item>წაუკითხავია</item>
+    </string-array>
+    <string name="settings_mms_size_title">MMS ფაილების ავტო-კომპრესირება</string>
+    <string name="settings_sync_title">შეტყობინებების სინქრონიზაცია</string>
+    <string name="settings_sync_summary">თქვენი შეტყობინებების რე-სინქრონიზება Android-ის საერთო SMS ბაზასთან</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">ზარების მართვა</string>
+    <string name="blocking_manager_sia_title">როგორც მინდა პასუხი?</string>
+    <string name="blocked_messages_title">დაბლოკილი შეტყობინებები</string>
+    <string name="blocked_messages_empty">თქვენი დაბლოკილი შეტყობინებები აქვს</string>
+    <string name="blocking_block_title">დაბლოკვა</string>
+    <string name="blocking_unblock_title">გაბლოკვა</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">%s-ზე გადასართავიდან დააბლოკეთ ეს ნომერი</item>
+        <item quantity="other">%s-ზე გადასართავიდან დააბლოკეთ ესე ნომერები</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">%s-ზე გადასართავიდან დააბლოკეთ ეს ნომერი</item>
+        <item quantity="other">%s-ზე გადასართავიდან დააბლოკეთ ესე ნომერები</item>
+    </plurals>
+    <string name="widget_loading">იტვირთება…</string>
+    <string name="widget_more">ნახე კავშირები მეტი</string>
+    <string name="qkreply_menu_read">მონიშვნა რადგანაც წაკითხულია</string>
+    <string name="qkreply_menu_call">ზარი</string>
+    <string name="qkreply_menu_delete">წაშლა</string>
+    <string name="qkreply_menu_expand">მეტი ჩვენის ჩვენი</string>
+    <string name="qkreply_menu_collapse">მეტი ჩვენი</string>
+    <string name="qkreply_menu_view">ჩვენი კონვერსაცია</string>
+    <string name="changelog_title">ახალი სიახლეები SMS-ში</string>
+    <string name="changelog_version">ვერსია %s</string>
+    <string name="changelog_added">დამატებული</string>
+    <string name="changelog_improved">გაუმჯობესებული</string>
+    <string name="changelog_fixed">გასაშვები</string>
+    <string name="changelog_more">მეტი</string>
+    <string name="changelog_dismiss">გაუქმება</string>
+    <string-array name="notification_actions">
+        <item>არაფერი</item>
+        <item>წაკითხვადია</item>
+        <item>პასუხი</item>
+        <item>ზარი</item>
+        <item>წაშლა</item>
+    </string-array>
+    <string name="button_yes">კი</string>
+    <string name="button_continue">გაგრძელება</string>
+    <string name="button_cancel">გაუქმება</string>
+    <string name="button_delete">წაშლა</string>
+    <string name="button_save">შენახვა</string>
+    <string name="button_stop">შეჩერება</string>
+    <string name="button_more">მეტი</string>
+    <string name="button_set">დაყენება</string>
+    <string name="button_undo">გაუქმება</string>
+    <string name="toast_copied">დაკოპირებულია</string>
+    <string name="toast_archived">დაარქივეთ კონვერსაცია</string>
+    <string name="toast_sms_plus">უნდა გახსნათ SMS+-ი, რომ გამოიყენოთ ეს</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">ახალი შეტყობინება</item>
+        <item quantity="other">%s ახალი შეტყობინება</item>
+    </plurals>
+    <string name="notification_message_failed_title">შეტყობინება არ გაიგება</string>
+    <string name="notification_message_failed_text">შეტყობინება %s-სთვის ვერ გაიგება</string>
+    <string name="privacy_policy">პირადი პოლიტიკა</string>
+    <string name="pocket_data_on">პოკეტის მონაცემები უნდა იყოს ჩართული MMS-ის გაგზავნის დროს!</string>
+    <string name="inapp_details" translatable="false">რეკლამის მოხსნას, სცადე პრემიუმის გარეშე \nმხარდაჭერა, რომელიც მხიარულების დღეებს შეუძლიათ\nდაგვეხმაროთ.</string>
+    <string name="drawer_removeAds">რეკლამების წაშლა</string>
+    <string name="in_app_ads">მესიჯები_რეკლამა</string>
+    <string name="dialog_delete_message">ნამდვილად გსურთ ამ შეტყობინების წაშლა?</string>
+    <string name="compose_bar_not_support">აბსტრაქცია არ მხარდაჭერს პასუხს</string>
+    <string name="default_name">რათა SMS-ი გაგზავნიდეს ან მიიღოს, თქვენ უნდა დააყენოთ ეს მარშრუტი სტანდარტული აპლიკაცია. გსურთ შეტყობინების სტანდარტული აპლიკაციის გახსნა?</string>
+    <string name="confirm_delete">დადასტურება</string>
+    <string name="confirm_delete_text">ნამდვილად გსურთ ეს შიგთავსის წაშლა?</string>
+    <string name="title">სათაური</string>
+    <string name="note">შენიშვნა</string>
+    <string name="search">ძებნა</string>
+    <string name="settings">პარამეტრები</string>
+    <string name="share_to">გაზიარება შემთხვევაში:</string>
+    <string name="sort">დალაგება</string>
+    <string name="empty_list_text">დააჭირეთ ქვემოთ მარჯვნივ, რომ დაამატოთ ახალი შენიშვნა!</string>
+    <string name="new_note">ახალი შენიშვნა</string>
+    <string name="undo">გაუქმება</string>
+    <string name="delete">წაშლა</string>
+    <string name="exception">გამარჯობა:</string>
+    <string name="edit_note">შენიშვნის რედაქტირება</string>
+    <string name="drawer_feedback">გამოგვეგზავნეთ კეთილი კმენტარი</string>
+    <string name="drawer_mode">ნათავსის რეჟიმი</string>
+    <string name="unlimited_access_user">უსაფრთხო დაშვება \nყველა ფუნქციაზე</string>
+    <string name="pro_user">თქვენ ხარ\nპროფესიონალი</string>
+    <string name="sub_info_text"><b>გამოწერა ავტომატურად განახლდება, სანამ თქვენ მის გამორთვამდე.</b></string>
+    <string name="cancel_purchase">შეგიძლიათ გაუაქტიუროთ ავტომატური განახლებები Subscription on Google play გამოყენებით</string>
+    <string name="remove_ads">რეკლამების წაშლა</string>
+    <string name="no_ads">რეკლამები არ არის</string>
+    <string name="free_trial">7 დღიანი უფასო სცადე, შემდეგ თავიდან გაიარებს თავისუფლება</string>
+    <string name="can_not_talk_right_now">სამშაბათში, მე ახლა ვერ ვისწავლი</string>
+    <string name="can_call_you_later">შემიძლია შეგავსო შემდეგ უბრალოდ?</string>
+    <string name="i_am_on_my_way">მე მიდის</string>
+    <string name="write_personal_message">დაწერეთ პირადი შეტყობინება</string>
+    <string name="create_reminder">შექმენით ახალი გაზიარება</string>
+    <string name="remind_me_about">მიხვდეთ ჩვენს შესახებ</string>
+    <string name="no_title">სათაური არ არის</string>
+    <string name="edit_contact">რედაქტირება კონტაქტი</string>
+    <string name="add_contact">კონტაქტის დამატება</string>
+    <string name="messages">შეტყობინებები</string>
+    <string name="send_mail">ფოსტაზე გაგზავნა</string>
+    <string name="calendar">კალენდარი</string>
+    <string name="web">ვები</string>
+    <string-array name="night_modes">
+        <item>სისტემური</item>
+        <item>მოწყვეტი რეჟიმი</item>
+        <item>მუქი რეჟიმი</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>სახელი და შეტყობინება ჩვენება</item>
+        <item>სახელის ჩვენება</item>
+        <item>შინაარსის დამალვა</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>პატარა</item>
+        <item>ჩვეულებრივი</item>
+        <item>დიდი</item>
+        <item>უფრო დიდი</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>შეუზღუდეს</item>
+        <item>მოკლე</item>
+        <item>საშინაო</item>
+        <item>გრძელი</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>ავტომატური</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>არადამკვეთი</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>კარგი</item>
+        <item>მოგეწონათ</item>
+        <item>მოვსწორებ</item>
+        <item>მადლობა</item>
+        <item>კარგი ხარ</item>
+        <item>რა მინდა?</item>
+        <item>ვალია</item>
+        <item>არა</item>
+        <item>შენივე მიყვარს</item>
+        <item>საწყისი</item>
+        <item>LOL</item>
+        <item>არაფერი</item>
+    </string-array>
+    <string name="default_title">ნდებით სმსის აპლიკაცია აპლიკაცია ნდებით ნდებით</string>
+    <string name="set_as_defaault">შეარჩიეთ აპლიკაციადაასევე</string>
+    <string name="love_app_title">ჩემი SMS აპლიკაცია ნდებით ნდებით SMS აპლიკაცია</string>
+    <string-array name="gif">
+        <item>ცხოვრებაში</item>
+        <item>Emoji</item>
+        <item>ხანგრძლივი მშენებლობა</item>
+        <item>ჰელოუინი</item>
+        <item>სიყვარული</item>
+    </string-array>
+    <string name="Sticker">სტიკერი</string>
+    <string name="no_connection">ინტერნეტ კავშირი არ არის.</string>
+    <string-array name="sticker">
+        <item>ბიჭი</item>
+        <item>კარტონი</item>
+        <item>სახლი</item>
+        <item>საიდანაც</item>
+        <item>ხილი</item>
+        <item>სასამართლო</item>
+        <item>გოგო</item>
+        <item>სიყვარულის სტიკერი</item>
+        <item>სხვა</item>
+        <item>ძაღლი</item>
+    </string-array>
+    <string name="open_link_to_browser">ბრაუზერში ბმულის გახსნა</string>
+    <string name="battery_dialog">არ გინდათ არაარქმევდეს მნიშვნელოვანი SMS? ჩართეთ ბატარების გაუქმება</string>
+    <string name="reason_to_change_battery_optimization_setting">გადადით აპლიკაციის ინფო &gt; გაფართოებულება &gt; ბატარების ოპტიმიზაცია და აირჩიეთ ‘არ შეაზღუდოს’</string>
+    <string name="feedback_txt">გვაუმატეთ თქვენი გამოცდილება და მიერთეთ წესები, რათა განვასხოთ შეკითხვასებს შემაჯამებლად SMS აპლიკაცია.</string>
+    <string name="reason_to_change_battery">გაფართოებულება &gt; ბატარების ოპტიმიზაცია &gt; ‘არ შეაზღუდოს’</string>
+    <string name="drawer_transaction">ტრანზაქციები</string>
+    <string name="drawer_promotion">რეკლამები</string>
+    <string name="unknown">უცნობი</string>
+    <string name="priva"><u>კონფიდენციალურობის პოლიტიკა</u></string>
+    <string name="smsfilter">SMS ფილტრი</string>
+    <string name="by_click_t_c"><u>დააკლიკეთ, რათა დაამტკიცოთ ჩვენი პირობები და წესები.</u></string>
+    <string name="continue_without_sub"><u>გაგრძელება გარეკანციას გარეკანცია გარეკანციას</u></string>
+    <string name="text_free_trial">X დღე უფასო გამომიყენეთ დასახელება <b>პრემიუმი</b> - შემდეგ X € / თვე</string>
+    <string name="calldorado_message">გადაამოწმეთ ყველა შეტყობინება, სანამ დახურდება ზარი! აქვს სიახლეები</string>
+    <string name="privacy_terms_description">გაგრძელება შენ დანიშნულია და დაამტკიცე წინადადებებისა და კონფიდენციალურობის პოლიტიკა.</string>
+    <string name="draw_over_description"><![CDATA[სხვა აპლიკაციებზე ჩვენი SMS შეტყობინებების ჩვენებისთვის. მიიღეთ ჩვენი SMS და ზარების ყველა პოტენციალი და მეტი]]></string>
+    <string name="ad_label">რეკლამა</string>
+    <string name="onboarding_continue_button">გაგრძელება</string>
+    <string name="onboarding_step_1_title">SMS და Messenger მენეჯერი</string>
+    <string name="onboarding_step_1_subtitle">ჩეთი მეგობრებთან, შექმენით ჯგუფები და ორგანიზებეთ თქვენი საღნივები</string>
+    <string name="onboarding_step_1_hight_light">უნიკალური გამოცდილება შენა</string>
+    <string name="onboarding_step_2_title">ორგანიზება &amp; შენახვა</string>
+    <string name="onboarding_step_2_subtitle">შეინახეთ და აღდგეთ თქვენი საღნივები</string>
+    <string name="onboarding_step_2_hight_light">ათიანი მომხმარებელი განათავსება</string>
+    <string name="onboarding_step_3_title">გააიგეთ სიცოცხლე და დაახლოებეთ ჩვენ მოგვიანებაში</string>
+    <string name="onboarding_step_3_subtitle">დაადარეთ ნებისმიერი ნებართვები, რათა დაგვეხმაროთ თქვენს საღნივების მართვაში.</string>
+    <string name="onboarding_step_3_hight_light">შემდეგ დროზე</string>
+    <string name="onboarding_allow_access_button">ნება მიახედეთ</string>
+    <string name="onboarding_step_4_title">გაამრგვალეთ თქვენი ბატარები, გადაამტკიცეთ ჩვენი მომენტები</string>
+    <string name="onboarding_step_4_subtitle">ჩვენ გავიარებთ თქვენს საუბრობებს SMS შეტყობინებებში.</string>
+    <string name="onboarding_step_4_hight_light">ათიანი მომხმარებელი განათავსება</string>
+    <string name="onboarding_step_5_title">გაყოლებით სამუშაო სხვა აპლიკაციებში, საუბრობენ მიალიცებელს</string>
+    <string name="onboarding_step_5_subtitle">იყიდეთ ჩვენი სასამართლო გამართულება, რომელიც თქვენ შეაძლებენ სხვა საუბრობას</string>
+    <string name="onboarding_step_5_hight_light">ათიანი მომხმარებელი განათავსება</string>
+    <string name="payment_card_title">ჩეთი ახლა!</string>
+    <string name="payment_card_price"><![CDATA[3-დღიანი უფასო, %s / %s]]></string>
+    <string name="payment_card_button">სცადეთ უფასოდ ახლა</string>
+    <string name="payment_card_hight_light">დაცულია Play Store-ით</string>
+    <string name="payment_card_weekly">კვირაში</string>
+    <string name="payment_card_monthly">ყოველთვიურად</string>
+    <string name="payment_card_yearly">წლიურად</string>
+    <string name="payment_card_auto_renew">ავტომატური გადახდების ახლაგანსაურად, გაუქმება ნებისმიერ დროს</string>
+    <string name="accessibility_service_description">შენი გამანახლების სერვისის აღწერა</string>
+    <string name="permission_txt"><font color="#FF8A00">დაშვების საჭიროება:</font>\nტელეფონის სტატუსის წაკითხვა &amp; ზედა აპლიკაციებზე ჩვენება</string>
+    <string name="opt_privacy">გაგრძელება, თქვენ დაამტკიცეთ და დაეთანხმეთ გამოყენების პირობები და კონფიდენციალურობის პოლიტიკა.</string>
+    <string name="permission_required">საჭიროებია ნებართვა</string>
+    <string name="permission_dialog_body">ამ აპლიკაციის მუშაობა შეიძლება არ იყოს სწრაფი, უფრო სწრაფი სათაურების გახსნასას. გამოიყენეთ ინსტრუქციები ქვემოთ, რომ შესაძლოა ესააფექტებიან:\n\n1. აირჩიეთ "ნებართვანი"\n2. პოვნეთ "ტელეფონი" ნებართვების სიაში და გადაარჩიეთ ჩართვა</string>
+    <string name="go_premium">გაახარე პრემიუმი!</string>
+    <string name="unlock_everything">აღმოაჩინეთ ყველაფრის გახსნა და არარეკლამული</string>
+    <string name="start_three_day">დაიწყეთ 3 დღიანი უფასო ცდა</string>
+    <string name="pro">პრო</string>
+    <string name="more_option">მეტი ვარიანტი</string>
+    <string name="rate_us_5">შეაფასეთ 5 ვარს</string>
+    <string name="help_feedback">დახმარება &amp; უკუკავშირი</string>
+    <string name="send_message">გაგზავნა</string>
+    <string name="CTA_Button_Text">დაჭერეთ გახსნას ყველა <font color="#FFFBCD04">ფუნქცია</font></string>
+
+</resources>

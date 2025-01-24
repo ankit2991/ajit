@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.lockerroom.face.changer.mustache.beard.handsome.free",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 20000300,
+      "versionName": "2.0.3",
+      "outputFile": "PhotoEditor20000300_vn_2.0.3-debug.apk"
+    }
+  ],
+  "elementType": "File"
+}

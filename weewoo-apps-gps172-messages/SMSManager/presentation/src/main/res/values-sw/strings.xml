@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sugest_update_title">Sasisha Inapatikana</string>
+    <string name="sugest_update_message">Sasisho jipya linapatikana kwenye Google Play, tafadhali sasisha toleo lako</string>
+    <string name="force_update_title">Sasisha Inapatikana</string>
+    <string name="force_update_message">Sasisho jipya linapatikana kwenye Google Play, tafadhali sasisha toleo lako</string>
+    <string name="update_ok">Sasisha</string>
+    <string name="update_no">Sasa siyo</string>
+    <string name="app_name">#Ujumbe</string>
+    <string name="in_app_name">Ujumbe</string>
+    <string name="splash_app_name">Ujumbe wa SMS</string>
+    <string name="loading_msg">Tafadhali subiri...</string>
+    <string name="ads_loading_msg">Matangazo Yanayoonyesha...</string>
+    <string name="shortcut_compose_long_label">Mazungumzo mapya</string>
+    <string name="shortcut_compose_short_label">Andika</string>
+    <string name="shortcut_compose_disabled_message">Njia ya mkato imelemazwa</string>
+    <string name="title_archived">Ujumbe Uliondeshwa</string>
+    <string name="title_settings">Mipangilio</string>
+    <string name="title_notification_prefs">Arifa</string>
+    <string name="title_theme">Mandhari</string>
+    <string name="title_conversations">Tafuta nambari, majina &amp; zaidi</string>
+    <string name="title_compose">Andika jina au namba ya simu</string>
+    <string name="setup_skip">Ruka</string>
+    <string name="setup_next">Endelea</string>
+    <string name="menu_add_person">Ongeza mtu</string>
+    <string name="menu_call">Piga simu</string>
+    <string name="menu_info">Maelezo</string>
+    <string name="menu_save">Hifadhi kwenye galeria</string>
+    <string name="menu_share">Shiriki</string>
+    <string name="main_drawer_open_cd">Fungua droo ya urambazaji</string>
+    <string name="main_title_selected">%d waliochaguliwa</string>
+    <string name="main_menu_clear">Ondoa</string>
+    <string name="main_menu_archive">Hifadhi</string>
+    <string name="main_menu_unarchive">Tambulisha upya</string>
+    <string name="main_menu_delete">Futa</string>
+    <string name="main_menu_add_contact">Ongeza kwa mawasiliano</string>
+    <string name="main_menu_pin">Sogeza juu</string>
+    <string name="main_menu_unpin">Tosha</string>
+    <string name="main_menu_read">Fanya kama umesomwa</string>
+    <string name="main_menu_unread">Fanya kama haujasomwa</string>
+    <string name="select_all">Chagua Zote</string>
+    <string name="deselect_all">Batilisha Chaguo Zote</string>
+    <string name="main_menu_block">Zuia</string>
+    <string name="main_syncing">Kuandaa ujumbe...</string>
+    <string name="main_sender_you">Wewe: %s</string>
+    <string name="main_draft">Rasimu: %s</string>
+    <string name="main_message_results_title">Matokeo katika ujumbe</string>
+    <string name="main_message_results">%d ujumbe</string>
+    <string name="inbox_empty_text">Mazungumzo yako yataonekana hapa</string>
+    <string name="inbox_search_empty_text">Hakuna matokeo</string>
+    <string name="archived_empty_text">Hakuna mazungumzo yaliyohifadhiwa bado..</string>
+    <string name="main_fab_cd">Anza mazungumzo mapya</string>
+    <string name="main_default_sms_title">Upenda Ujumbe?</string>
+    <string name="main_default_sms_message">Fanya programu ya SMS iwe programu yako rasmi ya SMS</string>
+    <string name="main_default_sms_change">Badilisha</string>
+    <string name="main_permission_required">Inahitajika Ruhusa</string>
+    <string name="main_permission_sms">SMS inahitaji ruhusa ya kutuma na kuona ujumbe wa SMS</string>
+    <string name="main_permission_contacts">SMS inahitaji ruhusa ya kuona mawasiliano yako</string>
+    <string name="main_permission_allow">Ruhusu</string>
+    <string name="main_permission_allow_read">Ruhusu Kusoma na Kuandika Ruhusa</string>
+    <string name="drawer_inbox">Kikasha Kuu</string>
+    <string name="drawer_archived">Kikasha Kilichohifadhiwa</string>
+    <string name="drawer_scheduled">Ujumbe Uliopangwa</string>
+    <string name="drawer_blocking">Orodha ya Kuzuia</string>
+    <string name="drawer_calldorado">Mipangilio ya Mwito</string>
+    <string name="drawer_more">Zaidi</string>
+    <string name="drawer_group">Ujumbe wa Kikundi</string>
+    <string name="drawer_settings">Mipangilio</string>
+    <string name="drawer_remove_ads">Ondoa Matangazo</string>
+    <string name="drawer_help">Usaidizi na maoni</string>
+    <string name="drawer_invite">Aalika marafiki</string>
+    <string name="dialog_delete_title">Futa</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Una uhakika ungependa kufuta mazungumzo haya?</item>
+        <item quantity="other">Una uhakika ungependa kufuta mazungumzo %d?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Nakili maandishi</item>
+        <item>Tuma mbele</item>
+        <item>Futa</item>
+    </string-array>
+    <string name="compose_number_picker_title">Chagua namba ya simu</string>
+    <string name="compose_number_picker_default">%s ∙ Chaguo-msingi</string>
+    <string name="compose_number_picker_once">Moja tu</string>
+    <string name="compose_number_picker_always">Mara zote</string>
+    <string name="compose_title_selected">%d waliochaguliwa</string>
+    <string name="compose_subtitle_results">%1$d kati ya %2$d matokeo</string>
+    <string name="contact_selected">%1$d kati ya %2$d Waliochaguliwa</string>
+    <string name="compose_send_group_title">Tuma kama ujumbe wa kikundi</string>
+    <string name="compose_send_group_summary">Wapokeaji na majibu yataonekana kwa kila mtu</string>
+    <string name="compose_messages_empty"> Anza mazungumzo yako. Sema jambo zuri!</string>
+    <string name="compose_vcard_label">Kadi ya mawasiliano</string>
+    <string name="compose_scheduled_for">Imepangwa kwa</string>
+    <string name="compose_scheduled_future"> wakati unapaswa kuwa wa baadaye!</string>
+    <string name="compose_scheduled_toast">Imeongezwa kwa ujumbe uliopangwa</string>
+    <string name="compose_hint">Andika Hapa…</string>
+    <string name="compose_menu_copy">Nakili maandishi</string>
+    <string name="compose_menu_forward">Tuma mbele</string>
+    <string name="compose_menu_delete">Futa</string>
+    <string name="compose_menu_previous">Awali</string>
+    <string name="compose_menu_next">Ifuatayo</string>
+    <string name="compose_menu_clear">Ondoa</string>
+    <string name="compose_details_title">Maelezo ya ujumbe</string>
+    <string name="compose_details_type">Aina: %s</string>
+    <string name="compose_details_from">Kutoka: %s</string>
+    <string name="compose_details_to">Kwa: %s</string>
+    <string name="compose_details_subject">Mada: %s</string>
+    <string name="compose_details_priority">Kipaumbele: %s</string>
+    <string name="compose_details_size">Ukubwa: %s</string>
+    <string name="compose_details_sent">Imetumwa: %s</string>
+    <string name="compose_details_received">Imepokelewa: %s</string>
+    <string name="compose_details_delivered">Imefikishwa: %s</string>
+    <string name="compose_details_error_code">Msimbo wa Kosa: %d</string>
+    <string name="compose_attach_cd">Ongeza kiambishi</string>
+    <string name="compose_gallery_cd">Ambatanisha picha</string>
+    <string name="compose_camera_cd">Piga picha</string>
+    <string name="compose_schedule_cd">Panga ujumbe</string>
+    <string name="compose_contact_cd">Ambatanisha mwasiliano</string>
+    <string name="compose_contact_error">Kosa la kusoma mwasiliano</string>
+    <string name="compose_sim_cd">%s imechaguliwa, badilisha kadi ya SIM</string>
+    <string name="compose_send_cd">Tuma ujumbe</string>
+    <string name="message_status_sending">Inatuma…</string>
+    <string name="message_status_delivered">Imefikishwa %s</string>
+    <string name="message_status_failed">Kushindwa kutuma</string>
+    <string name="info_title">Maelezo ya mwasiliano</string>
+    <string name="info_copied_address">Anwani imenakiliwa</string>
+    <string name="info_name">Kichwa cha mazungumzo</string>
+    <string name="info_notifications">Arifa</string>
+    <string name="info_theme">Mandhari</string>
+    <string name="info_archive">Hifadhi</string>
+    <string name="info_unarchive">Tambulisha tena</string>
+    <string name="info_block">Zuia</string>
+    <string name="info_unblock">Fungua zuio</string>
+    <string name="info_delete">Futa mazungumzo</string>
+    <string name="gallery_error">Haiwezi kupakia media</string>
+    <string name="gallery_toast_saved">Imehifadhiwa kwenye galeria</string>
+    <string name="backup_title">Fanya nakala rudufu na urejeshe</string>
+    <string name="backup_backing_up">Inafanya nakala rudufu ya ujumbe</string>
+    <string name="backup_restoring">Inarejesha kutoka kwa nakala rudufu</string>
+    <string name="backup_last">Nakala rudufu ya mwisho</string>
+    <string name="backup_loading">Inapakia…</string>
+    <string name="backup_never">Kamwe</string>
+    <string name="backup_restore_title">Rejesha</string>
+    <string name="backup_restore_summary">Chagua nakala rudufu</string>
+    <string name="backup_restore_error_plus">Tafadhali fungua SMS+ ili utumie nakala rudufu na urejeshe</string>
+    <string name="backup_restore_error_backup">Fanya nakala rudufu inaendelea…</string>
+    <string name="backup_restore_error_restore">Rejesha inaendelea…</string>
+    <string name="backup_restore_confirm_title">Rejesha kutoka kwa nakala rudufu</string>
+    <string name="backup_restore_confirm_message">Una uhakika ungependa kurejesha ujumbe wako kutoka kwa nakala rudufu hii?</string>
+    <string name="backup_restore_stop_title">Acha kurejesha</string>
+    <string name="backup_restore_stop_message">Ujumbe ambao tayari umerejeshwa utabaki kwenye kifaa chako</string>
+    <string name="backup_restore_dialog_title">Nakala Rudufu</string>
+    <string name="backup_restore_dialog_summary">/SMS Ujumbe/Nakala Rudufu</string>
+    <string name="backup_restore_dialog_empty">Hakuna nakala rudufu zilizopatikana</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">Hakuna ujumbe</item>
+        <item quantity="one">%d ujumbe</item>
+        <item quantity="other">%d ujumbe</item>
+    </plurals>
+    <string name="backup_disclaimer">Mpaka sasa, Tuliunga mkono SMS kupitia Hifadhi na Rejesha!</string>
+    <string name="backup_now">Hifadhi</string>
+    <string name="backup_progress_parsing">Kuchambua hifadhi…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d ujumbe</string>
+    <string name="backup_progress_saving">Kuhifadhi hifadhi…</string>
+    <string name="backup_progress_syncing">Kusawazisha ujumbe…</string>
+    <string name="backup_progress_finished">Imekamilika!</string>
+    <string name="backup_notification_channel_name">Hifadhi na urejeshe</string>
+    <string name="Message_notification_channel_name">Ujumbe wa Ushindani</string>
+    <string name="scheduled_title">Ulipangwa</string>
+    <string name="schedule_guide">Unaweza kuweka ujumbe uliopangwa kwa kubofya kitufe cha kuambatanisha ambacho kimepewa skrini ya mazungumzo ya ujumbe.</string>
+    <string name="scheduled_empty_description">Tuma ujumbe moja kwa moja, katika wakati sahihi unapopenda</string>
+    <string name="scheduled_empty_message_1">Hey! Ni wakati wa kusherehekea?</string>
+    <string name="scheduled_empty_message_2">Ni tarehe 5 Machi</string>
+    <string name="scheduled_empty_message_3">Heyaa! Tazama ni rafiki mzuri ninavyokuwa, nikisherehekea siku yako</string>
+    <string name="scheduled_empty_message_3_timestamp">Tuma Machi 5&#x200A;</string>
+    <string name="scheduled_compose_cd">Panga ujumbe</string>
+    <string name="scheduled_options_title">Ujumbe Uliopangwa</string>
+    <string-array name="scheduled_options">
+        <item>Tuma sasa</item>
+        <item>Nakili maandishi</item>
+        <item>Futa</item>
+    </string-array>
+    <string name="settings_category_appearance">Muonekano</string>
+    <string name="settings_category_general">Jumla</string>
+    <string name="settings_categoryreply">Majibu</string>
+    <string name="settings_night_title">Hali ya usiku</string>
+    <string name="settings_text_size_title">Ukubwa wa fonti</string>
+    <string name="settings_notifications_title">Arifa</string>
+    <string name="settings_notifications_o_summary">Bofya ili kubinafsisha</string>
+    <string name="settings_notification_actions_title">Vitendo</string>
+    <string name="settings_notification_action_1">Kitufe 1</string>
+    <string name="settings_notification_action_2">Kitufe 2</string>
+    <string name="settings_notification_action_3">Kitufe 3</string>
+    <string name="settings_notification_previews_title">Mapitio ya arifa</string>
+    <string name="settings_notification_wake_title">Kuzindua skrini</string>
+    <string name="settings_vibration_title">Mshipa</string>
+    <string name="settings_ringtone_title">Sauti</string>
+    <string name="settings_ringtone_none">Hakuna</string>
+    <string name="settings_reply_title">Jibu</string>
+    <string name="settings_reply_summary">Popapu kwa ujumbe mpya</string>
+    <string name="settings_reply_tap_dismiss_title">Bofya ili kupuuza</string>
+    <string name="settings_reply_tap_dismiss_summary">Bofya nje ya popapu ili kufunga</string>
+    <string name="settings_swipe_actions">Vitendo vya kutua</string>
+    <string name="settings_swipe_actions_right">Kutua kulia</string>
+    <string name="settings_swipe_actions_left">Swishi kushoto</string>
+    <string name="settings_swipe_actions_change">BADILISHA</string>
+    <string name="not_now_txt">Sio sasa</string>
+    <string name="process_title">Mchakato huu utachukua muda kidogo</string>
+    <string name="syncing_done">Ujumbe umesawazishwa....</string>
+    <string name="all_set_txt">Yote imekamilika. Uko tayari kwenda</string>
+    <string name="Personal">Ujumbe wote</string>
+    <string name="Other">Yajulikana </string>
+    <string name="Spam">Taka</string>
+    <string name="setting">Mipangilio</string>
+    <string name="Share">Shiriki</string>
+    <string name="Rate">Tupatie tathmini</string>
+    <string name="edit">hariri</string>
+    <string name="DarkMode">Hali ya Giza</string>
+    <string name="BrightMode">Hali ya Mwangaza</string>
+    <string name="Camera">Kamera</string>
+    <string name="Gallery">Geleria</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">Mawasiliano</string>
+    <string name="Schedule">Panga</string>
+    <string name="Location">Mahali</string>
+    <string name="Notes">Maelezo</string>
+    <string name="no_msg">Hakuna Ujumbe bado…</string>
+    <string name="Start_Chat">Anza Mazungumzo</string>
+    <string name="Language">Lugha</string>
+    <string name="rate_text">Tupendekeze kwa wengine kwa kutupatia \ntathmini kwenye Duka la Google Play!</string>
+    <string name="sort_by">Panga kwa</string>
+    <string-array name="settings_swipe_actions">
+        <item>Hakuna</item>
+        <item>Hifadhi</item>
+        <item>Futa</item>
+        <item>Piga simu</item>
+        <item>Mark as read</item>
+        <item>Mark as unread</item>
+    </string-array>
+    <string name="settings_mms_size_title">Auto-compress Viambatanisho vya MMS</string>
+    <string name="settings_sync_title">Sawazisha ujumbe</string>
+    <string name="settings_sync_summary">Sawazisha upya ujumbe wako na hifadhidata ya ujumbe ya Android ya asili</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Kudhibiti Simu</string>
+    <string name="blocking_manager_sia_title">Je, Nifanyeje?</string>
+    <string name="blocked_messages_title">Ujumbe Ulizuiwa</string>
+    <string name="blocked_messages_empty">Ujumbe uliozuiliwa wako utaonekana hapa</string>
+    <string name="blocking_block_title">Zuia</string>
+    <string name="blocking_unblock_title">Acha kuzuia</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">Endelea hadi %s na zuia namba hii</item>
+        <item quantity="other">Endelea hadi %s na zuia nambari hizi</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">Endelea hadi %s na ruhusu namba hii</item>
+        <item quantity="other">Endelea hadi %s na ruhusu nambari hizi</item>
+    </plurals>
+    <string name="widget_loading">Inapakia…</string>
+    <string name="widget_more">Angalia mazungumzo zaidi</string>
+    <string name="qkreply_menu_read">Mark kama kusomwa</string>
+    <string name="qkreply_menu_call">Piga simu</string>
+    <string name="qkreply_menu_delete">Futa</string>
+    <string name="qkreply_menu_expand">Onyesha zaidi</string>
+    <string name="qkreply_menu_collapse">Onyesha chini</string>
+    <string name="qkreply_menu_view">Fungua mazungumzo</string>
+    <string name="changelog_title">Mpya katika SMS</string>
+    <string name="changelog_version">Toleo %s</string>
+    <string name="changelog_added">Imeongezwa</string>
+    <string name="changelog_improved">Imeboreshwa</string>
+    <string name="changelog_fixed">Imetengenezwa</string>
+    <string name="changelog_more">Zaidi</string>
+    <string name="changelog_dismiss">Kataa</string>
+    <string-array name="notification_actions">
+        <item>Hakuna</item>
+        <item>Mark kama kusomwa</item>
+        <item>Jibu</item>
+        <item>Piga simu</item>
+        <item>Futa</item>
+    </string-array>
+    <string name="button_yes">Ndio</string>
+    <string name="button_continue">Endelea</string>
+    <string name="button_cancel">Ghairi</string>
+    <string name="button_delete">Futa</string>
+    <string name="button_save">Hifadhi</string>
+    <string name="button_stop">Acha</string>
+    <string name="button_more">Zaidi</string>
+    <string name="button_set">Weka</string>
+    <string name="button_undo">Futa</string>
+    <string name="toast_copied">Imeiga</string>
+    <string name="toast_archived">Mazungumzo yamehifadhiwa</string>
+    <string name="toast_sms_plus">Lazima ufungue SMS+ kutumia hii</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Ujumbe Mpya</item>
+        <item quantity="other">%s Ujumbe Mpya</item>
+    </plurals>
+    <string name="notification_message_failed_title">Ujumbe haujatuma</string>
+    <string name="notification_message_failed_text">Ujumbe kwa %s haukutumwa</string>
+    <string name="privacy_policy">Sera ya Faragha</string>
+    <string name="pocket_data_on">Data ya Kifukoni inapaswa kuwa wazi wakati wa kutuma MMS!</string>
+    <string name="inapp_details" translatable="false">Ili kuondoa matangazo, jaribu usajili wa malipo na msaada wa hali ya giza-mwangaza\nMsaada wa ujumbe uliopangwa.</string>
+    <string name="drawer_removeAds">Ondoa Matangazo</string>
+    <string name="in_app_ads">messages_rad</string>
+    <string name="dialog_delete_message">Una uhakika ungependa kufuta ujumbe huu?</string>
+    <string name="compose_bar_not_support">Mpokeaji hauungi mkono majibu</string>
+    <string name="default_name">Ili kutuma au kupokea SMS, lazima uweke kama programu chaguo-msingi. Je! Unataka ujumbe uwe programu yako chaguo-msingi?</string>
+    <string name="confirm_delete">Thibitisha Kufuta</string>
+    <string name="confirm_delete_text">Una uhakika unataka kufuta ujumbe huu?</string>
+    <string name="title">Jina</string>
+    <string name="note">Maelezo</string>
+    <string name="search">Tafuta</string>
+    <string name="settings">Mipangilio</string>
+    <string name="share_to">Shiriki kwa:</string>
+    <string name="sort">Panga</string>
+    <string name="empty_list_text">Bonyeza kitufe kwenye chini kulia ili kuongeza maelezo mapya!</string>
+    <string name="new_note">Maelezo Mapya</string>
+    <string name="undo">Futa</string>
+    <string name="delete">Futa</string>
+    <string name="exception">Kizuizi:</string>
+    <string name="edit_note">Hariri Maelezo</string>
+    <string name="drawer_feedback">Tuma maoni</string>
+    <string name="drawer_mode">Hali ya Mwanga</string>
+    <string name="unlimited_access_user">Ufikiaji Usio na Kikomo \nKwa Vipengele Vyote</string>
+    <string name="pro_user">Wewe ni Mtumiaji Mwandamizi</string>
+    <string name="sub_info_text"><b>Usajili unajirejesha moja kwa moja hadi utakapouzima.</b></string>
+    <string name="cancel_purchase">Unaweza kufuta upya wa usajili wa moja kwa moja kwenye Usajili kwenye Duka la Google Play</string>
+    <string name="remove_ads">Ondoa Matangazo</string>
+    <string name="no_ads">Hakuna Matangazo</string>
+    <string name="free_trial">Kipindi cha jaribio la siku 7, kisha kiotomatiki kujirejesha</string>
+    <string name="can_not_talk_right_now">Samahani, siwezi kuzungumza sasa</string>
+    <string name="can_call_you_later">Naweza kukupigia baadaye?</string>
+    <string name="i_am_on_my_way">Nipo njiani</string>
+    <string name="write_personal_message">Andika ujumbe wa kibinafsi</string>
+    <string name="create_reminder">Unda kumbusho jipya</string>
+    <string name="remind_me_about">Nikumbushe kuhusu</string>
+    <string name="no_title">Hakuna Jina</string>
+    <string name="edit_contact">Hariri Mwasiliani</string>
+    <string name="add_contact">Ongeza Mwasiliani</string>
+    <string name="messages">Ujumbe</string>
+    <string name="send_mail">Tuma Barua pepe</string>
+    <string name="calendar">Kalenda</string>
+    <string name="web">Wavuti</string>
+    <string-array name="night_modes">
+        <item>Mfumo</item>
+        <item>Hali ya Mwangaza</item>
+        <item>Hali ya Giza</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>Onyesha jina na ujumbe</item>
+        <item>Onyesha jina</item>
+        <item>Ficha maudhui</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>Ndogo</item>
+        <item>Kawaida</item>
+        <item>Kubwa</item>
+        <item>Kubwa zaidi</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>Bila kuchelewa</item>
+        <item>Fupi</item>
+        <item>Kati</item>
+        <item>Nzito</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Otomatiki</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>Bila kupunguza</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>Sawa</item>
+        <item>Nipe dakika</item>
+        <item>Nipo njiani</item>
+        <item>Asante</item>
+        <item>Sikiliza vyema</item>
+        <item>Vipi?</item>
+        <item>Kwa makubaliano</item>
+        <item>Hapana</item>
+        <item>Nakupenda</item>
+        <item>Samahani</item>
+        <item>LOL</item>
+        <item>Hakuna shida</item>
+    </string-array>
+    <string name="default_title">Ruhusu programu ya SMS iwe programu kuu</string>
+    <string name="set_as_defaault">Weka kama Chaguo la Msingi</string>
+    <string name="love_app_title">Fanya programu ya SMS iwe programu yako kuu ya SMS</string>
+    <string-array name="gif">
+        <item>Uso wa Wanyama</item>
+        <item>Emoji</item>
+        <item>Majani &amp; Matunda</item>
+        <item>Halloween</item>
+        <item>Mapenzi</item>
+    </string-array>
+    <string name="Sticker">Stika</string>
+    <string name="no_connection">Hakuna uhusiano wa Mtandao.</string>
+    <string-array name="sticker">
+        <item>Mvulana</item>
+        <item>Kartooni</item>
+        <item>Uso</item>
+        <item>Sikukuu</item>
+        <item>Tunda</item>
+        <item>Furaha</item>
+        <item>Msichana</item>
+        <item>Stika za Upendo</item>
+        <item>Nyingine</item>
+        <item>Kondoo</item>
+    </string-array>
+    <string name="open_link_to_browser">Fungua Kiungo kwenye Kivinjari</string>
+    <string name="battery_dialog">Usitake kukosa Ujumbe Muhimu? Zima upangaji wa betri</string>
+    <string name="reason_to_change_battery_optimization_setting">Nenda kwa Maelezo ya Programu &gt; Ya juu &gt; Upangaji wa Betri na chagua ‘Usiopte’</string>
+    <string name="feedback_txt">Tueleze kuhusu uzoefu wako na toa maoni ya kuboresha programu ya Ujumbe.</string>
+    <string name="reason_to_change_battery">Ya juu &gt; Upangaji wa Betri &gt; ‘Usiopte’</string>
+    <string name="drawer_transaction">Shughuli</string>
+    <string name="drawer_promotion">Matangazo</string>
+    <string name="unknown">Isijulikane</string>
+    <string name="priva"><u>Sera ya Faragha</u></string>
+    <string name="smsfilter">Ufungaji wa SMS</string>
+    <string name="by_click_t_c" translatable="false"><u>Kwa kubonyeza unakubali Masharti na Masharti yetu.</u></string>
+    <string name="continue_without_sub"><u>Endelea bila usajili</u></string>
+    <string name="text_free_trial">Furahia Siku X ya Jaribio <b>Bure</b> - Kisha X € / mwezi</string>
+    <string name="calldorado_message">Angalia ujumbe wako wote kabla ya kumaliza simu! Kuna habari</string>
+    <string name="privacy_terms_description">Kwa kuendelea, unakubali na kuidhinisha masharti ya matumizi na sera ya faragha.</string>
+    <string name="draw_over_description">Ili kuonyesha juu ya programu nyingine ujumbe wetu wa SMS. Pata uwezo wote wa vidude vyetu vya wito vya SMS &amp; zaidi</string>
+    <string name="ad_label">MATANGAZO</string>
+    <string name="onboarding_continue_button">Endelea</string>
+    <string name="onboarding_step_1_title">Meneja wa SMS &amp; Ujumbe</string>
+    <string name="onboarding_step_1_subtitle">Jiunge na marafiki, unda vikundi na panga kikasha chako</string>
+    <string name="onboarding_step_1_hight_light">Njia ya Kipekee Kwako</string>
+    <string name="onboarding_step_2_title">Panga &amp; Hifadhi Ujumbe</string>
+    <string name="onboarding_step_2_subtitle">Fanya chelezo &amp; urejeshe ujumbe wako</string>
+    <string name="onboarding_step_2_hight_light">Maelfu ya Watumiaji Wanapenda</string>
+    <string name="onboarding_step_3_title">Furahia Maisha &amp; Tuache Tukushughulikie Kwenye Kikasha</string>
+    <string name="onboarding_step_3_subtitle">Kubali ruhusa ili tuweze kukusaidia kusimamia kikasha chako.</string>
+    <string name="onboarding_step_3_hight_light">Labda Baadaye</string>
+    <string name="onboarding_allow_access_button">Ruhusu Upatikanaji</string>
+    <string name="onboarding_step_4_title">Boresha Betri Yako Kwa Kutuachia Sisi Kufanya Kazi</string>
+    <string name="onboarding_step_4_subtitle">Tutashughulikia usumbufu wa ujumbe wa SMS.</string>
+    <string name="onboarding_step_4_hight_light">Maelfu ya Watumiaji Wanapenda</string>
+    <string name="onboarding_step_5_title">Kazi kwenye Skrini Mbili Wakati Unachati kwenye Programu Nyingine</string>
+    <string name="onboarding_step_5_subtitle">Furahia kibunifu chetu cha simu ambacho kinakuruhusu kufanya kazi nyingi kwa wakati mmoja</string>
+    <string name="onboarding_step_5_hight_light">Maelfu ya Watumiaji Wanapenda</string>
+    <string name="payment_card_title">Chati Sasa!</string>
+    <string name="payment_card_price">Siku 3 bure, %s / %s</string>
+    <string name="payment_card_button">Jaribu Sasa Bure</string>
+    <string name="payment_card_hight_light">Imehakikishiwa na Duka la Play</string>
+    <string name="payment_card_weekly">kila wiki</string>
+    <string name="payment_card_monthly">kila mwezi</string>
+    <string name="payment_card_yearly">kila mwaka</string>
+    <string name="payment_card_auto_renew">usajili unaounganishwa kiotomatiki, ghairi wakati wowote</string>
+    <string name="accessibility_service_description">Maelezo ya Huduma ya Upatikanaji</string>
+    <string name="permission_txt"><font color="#FF8A00">Ruhusa Inayohitajika:</font>\nSoma hali ya simu &amp; Chora juu ya programu nyingine</string>
+    <string name="opt_privacy">Kwa kuendelea, unakubali na uidhinisha masharti ya matumizi na sera ya faragha.</string>
+    <string name="permission_required">Ruhusa Zinazohitajika</string>
+    <string name="permission_dialog_body">Programu hii huenda isifanye kazi kwa usahihi bila ruhusa ya simu. Fuata maagizo hapa chini kuwezesha:\n\n1. Chagua "Ruhusa"\n2. Pata "Simu" kwenye orodha ya ruhusa na bonyeza kuwezesha</string>
+    <string name="go_premium">Nenda <font color = "#FFE600">Premium!</font></string>
+    <string name="unlock_everything">Fungua Kila Kitu &amp; Hakuna Matangazo</string>
+    <string name="start_three_day">Anza Kipindi cha Siku 3 Bure</string>
+    <string name="pro">Pro</string>
+    <string name="more_option">Chaguo Zaidi</string>
+    <string name="rate_us_5">Tupatie Kiwango cha 5 Nyota</string>
+    <string name="help_feedback">Msaada &amp; Maoni</string>
+    <string name="send_message">Tuma Ujumbe</string>
+    <string name="CTA_Button_Text">Gusa ili kufungua Vipengele <font color="#FFFBCD04">vyote</font></string>
+</resources>

@@ -1,0 +1,478 @@
+<resources xmlns:ns0="http://schemas.android.com/tools" ns0:ignore="MissingTranslation">
+    <string name="sugest_update_title">Actualizare disponibilă</string>
+    <string name="sugest_update_message">Este disponibilă o nouă actualizare în Google Play, vă rugăm să actualizați versiunea dvs.</string>
+    <string name="force_update_title">Actualizare disponibilă</string>
+    <string name="force_update_message">Este disponibilă o nouă actualizare în Google Play, vă rugăm să actualizați versiunea dvs.</string>
+    <string name="update_ok">Actualizare</string>
+    <string name="update_no">Nu acum</string>
+    <string name="app_name">#Mesaje</string>
+    <string name="in_app_name">Mesaje</string>
+    <string name="splash_app_name">Mesaje SMS</string>
+    <string name="loading_msg">Vă rugăm să așteptați...</string>
+    <string name="ads_loading_msg">Anunțul se încarcă...</string>
+    <string name="shortcut_compose_long_label">Conversație nouă</string>
+    <string name="shortcut_compose_short_label">Compune</string>
+    <string name="shortcut_compose_disabled_message">Scurtătură dezactivată</string>
+    <string name="title_archived">Mesaje arhivate</string>
+    <string name="title_settings">Setări</string>
+    <string name="title_notification_prefs">Notificări</string>
+    <string name="title_theme">Temă</string>
+    <string name="title_conversations">Căutați numere, nume și mai mult</string>
+    <string name="title_compose">Tastați un nume sau un număr de telefon</string>
+    <string name="setup_skip">Omite</string>
+    <string name="setup_next">Continuați</string>
+    <string name="menu_add_person">Adăugați persoană</string>
+    <string name="menu_call">Apel</string>
+    <string name="menu_info">Detalii</string>
+    <string name="menu_save">Salvați în galerie</string>
+    <string name="menu_share">Partajați</string>
+    <string name="main_drawer_open_cd">Deschideți sertarul de navigație</string>
+    <string name="main_title_selected">%d selectate</string>
+    <string name="main_menu_clear">Șterge</string>
+    <string name="main_menu_archive">Arhivă</string>
+    <string name="main_menu_unarchive">Dezarhivare</string>
+    <string name="main_menu_delete">Ștergere</string>
+    <string name="main_menu_add_contact">Adăugați la contacte</string>
+    <string name="main_menu_pin">Fixare în partea de sus</string>
+    <string name="main_menu_unpin">Eliminați fixarea</string>
+    <string name="main_menu_read">Marcați ca citit</string>
+    <string name="main_menu_unread">Marcați ca necitit</string>
+    <string name="select_all">Selectați tot</string>
+    <string name="deselect_all">Deselectați tot</string>
+    <string name="main_menu_block">Blocare</string>
+    <string name="main_syncing">Organizarea mesajelor...</string>
+    <string name="main_sender_you">Tu: %s</string>
+    <string name="main_draft">Schita: %s</string>
+    <string name="main_message_results_title">Rezultate în mesaje</string>
+    <string name="main_message_results">%d mesaje</string>
+    <string name="inbox_empty_text">Conversațiile tale vor apărea aici</string>
+    <string name="inbox_search_empty_text">Niciun rezultat</string>
+    <string name="archived_empty_text">Nicio conversație arhivată încă...</string>
+    <string name="main_fab_cd">Începeți o conversație nouă</string>
+    <string name="main_default_sms_title">Doriți să trimiteți mesaje SMS?</string>
+    <string name="main_default_sms_message">Faceți din aplicația SMS aplicația dvs. de SMS implicită</string>
+    <string name="main_default_sms_change">Schimbați</string>
+    <string name="main_permission_required">Permisiune necesară</string>
+    <string name="main_permission_sms">SMS-ul necesită permisiunea de a trimite și vizualiza mesaje SMS</string>
+    <string name="main_permission_contacts">SMS-ul necesită permisiunea de a vizualiza contactele dvs.</string>
+    <string name="main_permission_allow">Permiteți</string>
+    <string name="main_permission_allow_read">Permiteți permisiunea de citire și scriere</string>
+    <string name="drawer_inbox">Inbox</string>
+    <string name="drawer_archived">Arhivate</string>
+    <string name="drawer_scheduled">Mesaj Programat</string>
+    <string name="drawer_blocking">Listă blocată</string>
+    <string name="drawer_calldorado">Setări Apelant</string>
+    <string name="drawer_more">Mai mult</string>
+    <string name="drawer_group">Mesaj de grup</string>
+    <string name="drawer_settings">Setări</string>
+    <string name="drawer_remove_ads">Eliminați anunțurile</string>
+    <string name="drawer_help">Ajutor și feedback</string>
+    <string name="drawer_invite">Invitați prietenii</string>
+    <string name="dialog_delete_title">Șterge</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Sigur doriți să ștergeți această conversație?</item>
+        <item quantity="other">Sigur doriți să ștergeți %d conversații?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Copiați textul</item>
+        <item>Redirecționați</item>
+        <item>Ștergeți</item>
+    </string-array>
+    <string name="compose_number_picker_title">Alegeți un număr de telefon</string>
+    <string name="compose_number_picker_default">%s ∙ Implicit</string>
+    <string name="compose_number_picker_once">Doar o dată</string>
+    <string name="compose_number_picker_always">Întotdeauna</string>
+    <string name="compose_title_selected">%d selectate</string>
+    <string name="compose_subtitle_results">%1$d din %2$d rezultate</string>
+    <string name="contact_selected">%1$d din %2$d selectate</string>
+    <string name="compose_send_group_title">Trimiteți ca mesaj de grup</string>
+    <string name="compose_send_group_summary">Destinatarii și răspunsurile vor fi vizibile tuturor</string>
+    <string name="compose_messages_empty"> Începutul conversației dvs. Spuneți ceva grozav!</string>
+    <string name="compose_vcard_label">Card de contact</string>
+    <string name="compose_scheduled_for">Programat pentru</string>
+    <string name="compose_scheduled_future"> ora ar trebui să fie în viitor!</string>
+    <string name="compose_scheduled_toast">Adăugat la mesajele programate</string>
+    <string name="compose_hint">Scrieți aici…</string>
+    <string name="compose_menu_copy">Copiați textul</string>
+    <string name="compose_menu_forward">Redirecționați</string>
+    <string name="compose_menu_delete">Ștergeți</string>
+    <string name="compose_menu_previous">Anterior</string>
+    <string name="compose_menu_next">Următorul</string>
+    <string name="compose_menu_clear">Șterge</string>
+    <string name="compose_details_title">Detalii mesaj</string>
+    <string name="compose_details_type">Tip: %s</string>
+    <string name="compose_details_from">De la: %s</string>
+    <string name="compose_details_to">La: %s</string>
+    <string name="compose_details_subject">Subiect: %s</string>
+    <string name="compose_details_priority">Prioritate: %s</string>
+    <string name="compose_details_size">Dimensiune: %s</string>
+    <string name="compose_details_sent">Trimis: %s</string>
+    <string name="compose_details_received">Primit: %s</string>
+    <string name="compose_details_delivered">Livrat: %s</string>
+    <string name="compose_details_error_code">Cod eroare: %d</string>
+    <string name="compose_attach_cd">Adăugați un atașament</string>
+    <string name="compose_gallery_cd">Atașați o fotografie</string>
+    <string name="compose_camera_cd">Faceți o fotografie</string>
+    <string name="compose_schedule_cd">Programați mesajul</string>
+    <string name="compose_contact_cd">Atașați un contact</string>
+    <string name="compose_contact_error">Eroare la citirea contactului</string>
+    <string name="compose_sim_cd">%s selectat, schimbați cartela SIM</string>
+    <string name="compose_send_cd">Trimiteți mesajul</string>
+    <string name="message_status_sending">Trimitere...</string>
+    <string name="message_status_delivered">Livrat %s</string>
+    <string name="message_status_failed">Nu s-a putut trimite</string>
+    <string name="info_title">Detalii contact</string>
+    <string name="info_copied_address">Adresa copiată</string>
+    <string name="info_name">Titlu conversație</string>
+    <string name="info_notifications">Notificări</string>
+    <string name="info_theme">Temă</string>
+    <string name="info_archive">Arhivă</string>
+    <string name="info_unarchive">Dezarhivare</string>
+    <string name="info_block">Blocare</string>
+    <string name="info_unblock">Deblocare</string>
+    <string name="info_delete">Ștergeți conversația</string>
+    <string name="gallery_error">Nu s-a putut încărca media</string>
+    <string name="gallery_toast_saved">Salvat în galerie</string>
+    <string name="backup_title">Backup și restaurare</string>
+    <string name="backup_backing_up">Se face backup la mesaje</string>
+    <string name="backup_restoring">Se restaurează din backup</string>
+    <string name="backup_last">Ultimul backup</string>
+    <string name="backup_loading">Se încarcă…</string>
+    <string name="backup_never">Niciodată</string>
+    <string name="backup_restore_title">Restaurare</string>
+    <string name="backup_restore_summary">Selectați un backup</string>
+    <string name="backup_restore_error_plus">Vă rugăm să deblocați SMS+ pentru a utiliza backup și restaurare</string>
+    <string name="backup_restore_error_backup">Backup în curs de desfășurare…</string>
+    <string name="backup_restore_error_restore">Restaurare în curs de desfășurare…</string>
+    <string name="backup_restore_confirm_title">Restaurare din backup</string>
+    <string name="backup_restore_confirm_message">Sigur doriți să restaurați mesajele dvs. din acest backup?</string>
+    <string name="backup_restore_stop_title">Oprire restaurare</string>
+    <string name="backup_restore_stop_message">Mesajele care au fost deja restaurate vor rămâne pe dispozitivul dvs.</string>
+    <string name="backup_restore_dialog_title">Backup-uri</string>
+    <string name="backup_restore_dialog_summary">/SMS Mesaje/Backup-uri</string>
+    <string name="backup_restore_dialog_empty">Niciun backup găsit</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">Niciun mesaj</item>
+        <item quantity="one">%d mesaj</item>
+        <item quantity="other">%d mesaje</item>
+    </plurals>
+    <string name="backup_disclaimer">Până acum, am susținut doar SMS-urile prin Backup și Restore!</string>
+    <string name="backup_now">Backup</string>
+    <string name="backup_progress_parsing">Se analizează backup-ul…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d mesaje</string>
+    <string name="backup_progress_saving">Se salvează backup-ul…</string>
+    <string name="backup_progress_syncing">Se sincronizează mesajele…</string>
+    <string name="backup_progress_finished">Finalizat!</string>
+    <string name="backup_notification_channel_name">Backup și restaurare</string>
+    <string name="Message_notification_channel_name">Sincronizare mesaje</string>
+    <string name="scheduled_title">Programat</string>
+    <string name="schedule_guide">Puteți seta mesajul programat făcând clic pe butonul de atașare, care este dat pe ecranul de conversație al mesajelor.</string>
+    <string name="scheduled_empty_description">Trimiteți automat un mesaj, în momentul exact dorit</string>
+    <string name="scheduled_empty_message_1">Hei! Când este momentul să sărbătorim?</string>
+    <string name="scheduled_empty_message_2">Este pe 5 martie</string>
+    <string name="scheduled_empty_message_3">Hei! Uită-te ce prieten minunat sunt, sărbătorindu-ți ziua</string>
+    <string name="scheduled_empty_message_3_timestamp">Trimis pe 5 martie&#x200A;</string>
+    <string name="scheduled_compose_cd">Programați un mesaj</string>
+    <string name="scheduled_options_title">Mesaj programat</string>
+    <string-array name="scheduled_options">
+        <item>Trimiteți acum</item>
+        <item>Copiați textul</item>
+        <item>Ștergeți</item>
+    </string-array>
+    <string name="settings_category_appearance">Aspect</string>
+    <string name="settings_category_general">General</string>
+    <string name="settings_categoryreply">Răspuns</string>
+    <string name="settings_night_title">Modul de noapte</string>
+    <string name="settings_text_size_title">Dimensiune font</string>
+    <string name="settings_notifications_title">Notificări</string>
+    <string name="settings_notifications_o_summary">Atingeți pentru a personaliza</string>
+    <string name="settings_notification_actions_title">Acțiuni</string>
+    <string name="settings_notification_action_1">Buton 1</string>
+    <string name="settings_notification_action_2">Buton 2</string>
+    <string name="settings_notification_action_3">Buton 3</string>
+    <string name="settings_notification_previews_title">Previzualizări notificări</string>
+    <string name="settings_notification_wake_title">Activează ecranul</string>
+    <string name="settings_vibration_title">Vibrație</string>
+    <string name="settings_ringtone_title">Sunet</string>
+    <string name="settings_ringtone_none">Niciunul</string>
+    <string name="settings_reply_title">Răspuns</string>
+    <string name="settings_reply_summary">Popup pentru mesajele noi</string>
+    <string name="settings_reply_tap_dismiss_title">Atingeți pentru a respinge</string>
+    <string name="settings_reply_tap_dismiss_summary">Atingeți în afara popup-ului pentru a-l închide</string>
+    <string name="settings_swipe_actions">Acțiuni de glisare</string>
+    <string name="settings_swipe_actions_right">Glisare la dreapta</string>
+    <string name="settings_swipe_actions_left">Glisare la stânga</string>
+    <string name="settings_swipe_actions_change">SCHIMBĂ</string>
+    <string name="not_now_txt">Nu acum</string>
+    <string name="process_title">Acest proces va dura ceva timp</string>
+    <string name="syncing_done">Sincronizarea mesajelor s-a terminat....</string>
+    <string name="all_set_txt">Totul setat. Ești pregătit să începi</string>
+    <string name="Personal">Toate Mesajele</string>
+    <string name="Other">Cunoscut </string>
+    <string name="Spam">Spam</string>
+    <string name="setting">Setări</string>
+    <string name="Share">Distribuiți</string>
+    <string name="Rate">Evaluarea noastră</string>
+    <string name="edit">editare</string>
+    <string name="DarkMode">Mod Întunecat</string>
+    <string name="BrightMode">Mod Luminos</string>
+    <string name="Camera">Cameră</string>
+    <string name="Gallery">Galerie</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">Contact</string>
+    <string name="Schedule">Programare</string>
+    <string name="Location">Locație</string>
+    <string name="Notes">Note</string>
+    <string name="no_msg">Niciun Mesaj încă…</string>
+    <string name="Start_Chat">Începeți conversația</string>
+    <string name="Language">Limbă</string>
+    <string name="rate_text">Recomandați-ne altora prin evaluarea noastră în Play Store!</string>
+    <string name="sort_by">Sortează după</string>
+    <string-array name="settings_swipe_actions">
+        <item>Niciuna</item>
+        <item>Arhivă</item>
+        <item>Șterge</item>
+        <item>Apel</item>
+        <item>Marchează ca citit</item>
+        <item>Marchează ca necitit</item>
+    </string-array>
+    <string name="settings_mms_size_title">Comprimare automată a atașamentelor MMS</string>
+    <string name="settings_sync_title">Sincronizare mesaje</string>
+    <string name="settings_sync_summary">Re-sincronizează mesajele cu baza de date SMS nativă a Androidului</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Control Apeluri</string>
+    <string name="blocking_manager_sia_title">Ar trebui să răspund?</string>
+    <string name="blocked_messages_title">Mesaje blocate</string>
+    <string name="blocked_messages_empty">Mesajele blocate vor apărea aici</string>
+    <string name="blocking_block_title">Blocare</string>
+    <string name="blocking_unblock_title">Deblocare</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">Continuați la %s și blocați acest număr</item>
+        <item quantity="other">Continuați la %s și blocați aceste numere</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">Continuați la %s și permiteți acest număr</item>
+        <item quantity="other">Continuați la %s și permiteți aceste numere</item>
+    </plurals>
+    <string name="widget_loading">Se încarcă...</string>
+    <string name="widget_more">Vezi mai multe conversații</string>
+    <string name="qkreply_menu_read">Marchează ca citit</string>
+    <string name="qkreply_menu_call">Apel</string>
+    <string name="qkreply_menu_delete">Șterge</string>
+    <string name="qkreply_menu_expand">Arată mai mult</string>
+    <string name="qkreply_menu_collapse">Arată mai puțin</string>
+    <string name="qkreply_menu_view">Deschideți conversația</string>
+    <string name="changelog_title">Nou în SMS</string>
+    <string name="changelog_version">Versiunea %s</string>
+    <string name="changelog_added">Adăugat</string>
+    <string name="changelog_improved">Îmbunătățit</string>
+    <string name="changelog_fixed">Reparat</string>
+    <string name="changelog_more">Mai mult</string>
+    <string name="changelog_dismiss">Respinge</string>
+    <string-array name="notification_actions">
+        <item>Niciunul</item>
+        <item>Marchează ca citit</item>
+        <item>Răspunde</item>
+        <item>Apel</item>
+        <item>Șterge</item>
+    </string-array>
+    <string name="button_yes">Da</string>
+    <string name="button_continue">Continuați</string>
+    <string name="button_cancel">Anulează</string>
+    <string name="button_delete">Șterge</string>
+    <string name="button_save">Salvează</string>
+    <string name="button_stop">Oprește</string>
+    <string name="button_more">Mai mult</string>
+    <string name="button_set">Setează</string>
+    <string name="button_undo">Anulează</string>
+    <string name="toast_copied">Copiat</string>
+    <string name="toast_archived">Conversație arhivată</string>
+    <string name="toast_sms_plus">Trebuie să deblocați SMS+ pentru a folosi asta</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Mesaj nou</item>
+        <item quantity="other">%s mesaje noi</item>
+    </plurals>
+    <string name="notification_message_failed_title">Mesajul nu a fost trimis</string>
+    <string name="notification_message_failed_text">Mesajul către %s nu a putut fi trimis</string>
+    <string name="privacy_policy">Politica de confidențialitate</string>
+    <string name="pocket_data_on">Datele de buzunar trebuie să fie active în timpul trimiterii MMS-urilor!</string>
+    <string name="inapp_details" translatable="false">Pentru a elimina reclamele, încercați abonamentul premium cu suport pentru modul întunecat-luminos, suport pentru SMS-uri programate.</string>
+    <string name="drawer_removeAds">Eliminați reclamele</string>
+    <string name="in_app_ads">messages_rad</string>
+    <string name="dialog_delete_message">Sunteți sigur că doriți să ștergeți acest mesaj?</string>
+    <string name="compose_bar_not_support">Expeditorul nu acceptă răspunsuri</string>
+    <string name="default_name">Pentru a trimite sau a primi un SMS, trebuie să-l setați ca aplicație implicită. Doriți ca mesajul să devină aplicația implicită?</string>
+    <string name="confirm_delete">Confirmare ștergere</string>
+    <string name="confirm_delete_text">Sunteți sigur că doriți să ștergeți această notă?</string>
+    <string name="title">Titlu</string>
+    <string name="note">Notă</string>
+    <string name="search">Căutare</string>
+    <string name="settings">Setări</string>
+    <string name="share_to">Distribuiți către:</string>
+    <string name="sort">Sortare</string>
+    <string name="empty_list_text">Apăsați butonul din dreapta jos pentru a adăuga o notă nouă!</string>
+    <string name="new_note">Notă Nouă</string>
+    <string name="undo">Anulează</string>
+    <string name="delete">Șterge</string>
+    <string name="exception">Excepție:</string>
+    <string name="edit_note">Editare Notă</string>
+    <string name="drawer_feedback">Trimiteți feedback</string>
+    <string name="drawer_mode">Mod Luminos</string>
+    <string name="unlimited_access_user">Acces nelimitat la toate funcțiile</string>
+    <string name="pro_user">Ești utilizator Premium</string>
+    <string name="sub_info_text"><b>Abonamentul se reînnoiește automat până când îl dezactivați.</b></string>
+    <string name="cancel_purchase">Puteți anula reînnoirile automate ale abonamentului în Abonament în Google Play</string>
+    <string name="remove_ads">Eliminați reclamele</string>
+    <string name="no_ads">Fără reclame</string>
+    <string name="free_trial">Proba gratuită de 7 zile, apoi reînnoiește automat</string>
+    <string name="can_not_talk_right_now">Îmi pare rău, nu pot vorbi acum</string>
+    <string name="can_call_you_later">Pot să te sun mai târziu?</string>
+    <string name="i_am_on_my_way">Sunt pe drum</string>
+    <string name="write_personal_message">Scrieți un mesaj personal</string>
+    <string name="create_reminder">Creați o nouă memento</string>
+    <string name="remind_me_about">Amintește-mi despre</string>
+    <string name="no_title">Fără Titlu</string>
+    <string name="edit_contact">Editare Contact</string>
+    <string name="add_contact">Adăugare Contact</string>
+    <string name="messages">Mesaje</string>
+    <string name="send_mail">Trimiteți Mail</string>
+    <string name="calendar">Calendar</string>
+    <string name="web">Web</string>
+    <string-array name="night_modes">
+        <item>Sistem</item>
+        <item>Mod Luminos</item>
+        <item>Mod Întunecat</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>Arată numele și mesajul</item>
+        <item>Arată numele</item>
+        <item>Ascunde conținutul</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>Mic</item>
+        <item>Normal</item>
+        <item>Mare</item>
+        <item>Mai mare</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>Fără întârziere</item>
+        <item>Scurt</item>
+        <item>Mediu</item>
+        <item>Lung</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Automat</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>Fără compresie</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>Okay</item>
+        <item>Dă-mi un moment</item>
+        <item>Sunt în drum</item>
+        <item>Mulțumesc</item>
+        <item>Sună bine</item>
+        <item>Ce mai faci?</item>
+        <item>De acord</item>
+        <item>Nu</item>
+        <item>Te iubesc</item>
+        <item>Scuze</item>
+        <item>LOL</item>
+        <item>E în regulă</item>
+    </string-array>
+    <string name="default_title">Permiteți aplicației SMS să fie aplicația implicită</string>
+    <string name="set_as_defaault">Setați ca implicit</string>
+    <string name="love_app_title">Faceți aplicația SMS aplicația dvs. implicită</string>
+    <string-array name="gif">
+        <item>Față de animal</item>
+        <item>Emoji</item>
+        <item>Fructe și legume</item>
+        <item>Halloween</item>
+        <item>Iubire</item>
+    </string-array>
+    <string name="Sticker">Autocolant</string>
+    <string name="no_connection">Nicio conexiune la internet.</string>
+    <string-array name="sticker">
+        <item>Băiat</item>
+        <item>Desen animat</item>
+        <item>Față</item>
+        <item>Festival</item>
+        <item>Fruct</item>
+        <item>Distracție</item>
+        <item>Fetiță</item>
+        <item>Autocolant de iubire</item>
+        <item>Altele</item>
+        <item>Cățeluș</item>
+    </string-array>
+    <string name="open_link_to_browser">Deschideți linkul în browser</string>
+    <string name="battery_dialog"> Nu vrei să ratezi mesaje importante? \n
+Dezactivați optimizarea bateriei</string>
+    <string name="reason_to_change_battery_optimization_setting">Navigați la Informații aplicație &gt; Avansat &gt; Optimizare baterie \nși selectați „Nu optimizați”</string>
+    <string name="feedback_txt">Spuneți-ne despre experiența dvs. și dați sugestii pentru a îmbunătăți aplicația de mesaje.</string>
+    <string name="reason_to_change_battery"> Avansat &gt; Optimizare baterie &gt; „Nu optimizați”</string>
+    <string name="drawer_transaction">Tranzacții</string>
+    <string name="drawer_promotion">Promoții</string>
+    <string name="unknown">Necunoscut </string>
+    <string name="priva"><u>Politica de Confidențialitate</u></string>
+    <string name="smsfilter">Filtru SMS</string>
+    <string name="by_click_t_c" translatable="false"><u>Făcând clic, acceptați Termenii și condițiile noastre.</u></string>
+    <string name="continue_without_sub"><u>Continuați fără abonament</u></string>
+    <string name="text_free_trial">Bucurați-vă de un <b>Test gratuit</b> de X zile - Apoi X € / lună</string>
+    <string name="calldorado_message">Verificați toate <b>mesajele</b> înainte de a încheia apelul! Sunt vești</string>
+    <string name="privacy_terms_description">Continuând, acceptați și aprobați termenii de utilizare și politica de confidențialitate.</string>
+    <string name="draw_over_description"><![CDATA[Toți potențialii noștri de widget-uri SMS și multe altele.]]></string>
+    <string name="ad_label">ANUNȚ</string>
+    <string name="onboarding_continue_button">Continuă</string>
+    <string name="onboarding_step_1_title">Manager SMS și Messenger</string>
+    <string name="onboarding_step_1_subtitle">Discutați cu prietenii, faceți grupuri și organizați-vă inboxul</string>
+    <string name="onboarding_step_1_hight_light">Abordare unică pentru tine</string>
+    <string name="onboarding_step_2_title">Organizați și stocați mesajele</string>
+    <string name="onboarding_step_2_subtitle">Backup și restaurare mesajele dvs.</string>
+    <string name="onboarding_step_2_hight_light">Mii de utilizatori îl plac</string>
+    <string name="onboarding_step_3_title">Bucurați-vă de viață și lăsați-ne să ne ocupăm de inbox</string>
+    <string name="onboarding_step_3_subtitle">Acceptați permisiunile pentru a ne ajuta să vă gestionăm inboxul.</string>
+    <string name="onboarding_step_3_hight_light">Poate mai târziu</string>
+    <string name="onboarding_allow_access_button">Permite accesul</string>
+    <string name="onboarding_step_4_title">Îmbunătățiți-vă bateria lăsându-ne să facem treaba</string>
+    <string name="onboarding_step_4_subtitle">Vom avea grijă de întreruperile enervante ale SMS-urilor.</string>
+    <string name="onboarding_step_4_hight_light">Mii de utilizatori îl plac</string>
+    <string name="onboarding_step_5_title">Lucrați pe ecran împărțit pe alte aplicații în timp ce discutați</string>
+    <string name="onboarding_step_5_subtitle">Bucurați-vă de widget-ul nostru de apeluri uimitor care vă permite să faceți mai multe lucruri în același timp</string>
+    <string name="onboarding_step_5_hight_light">Mii de utilizatori îl plac</string>
+    <string name="payment_card_title">Chat acum!</string>
+    <string name="payment_card_price"><![CDATA[3 zile gratuite, %s / %s]]></string>
+    <string name="payment_card_button">Încercați acum gratuit</string>
+    <string name="payment_card_hight_light">Securizat cu Play Store</string>
+    <string name="payment_card_weekly">săptămânal</string>
+    <string name="payment_card_monthly"> lunar</string>
+    <string name="payment_card_yearly"> anual</string>
+    <string name="payment_card_auto_renew">abonament cu reînnoire automată, anulați oricând</string>
+    <string name="accessibility_service_description">Descrierea serviciului de accesibilitate</string>
+    <string name="permission_txt"><font color="#FF8A00">Permisiuni necesare:</font>\nCitire starea telefonului și Desenare peste alte aplicații</string>
+    <string name="opt_privacy">Continuând, acceptați și aprobați termenii de utilizare și politica de confidențialitate.</string>
+    <string name="permission_required">Permisiuni necesare</string>
+    <string name="permission_dialog_body">Această aplicație s-ar putea să nu funcționeze corect fără permisiunea pentru telefon. Urmați instrucțiunile de mai jos pentru a o activa:\n\n1. Selectați „Permisiuni”\n2. Găsiți „Telefon” în lista de permisiuni și atingeți pentru a o activa</string>
+    <string name="go_premium">Treceți la <font color = "#FFE600">Premium!</font></string>
+    <string name="unlock_everything">Deblocare Tot &amp; Fără Anunțuri</string>
+    <string name="start_three_day">Începeți Testul Gratuit de 3 Zile</string>
+    <string name="pro">Pro</string>
+    <string name="more_option">Mai multe Opțiuni</string>
+    <string name="rate_us_5">Evaluați-ne cu 5 Stele</string>
+    <string name="help_feedback">Ajutor &amp; Feedback</string>
+    <string name="send_message">Trimite Mesaj</string>
+    <string name="CTA_Button_Text">Atingeți pentru a debloca toate <font color="#FFFBCD04">Funcții</font></string>
+</resources>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contentView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/windowBackground">
+
+    <LinearLayout
+        android:id="@+id/preferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
+        <com.messaging.textrasms.manager.common.widget.PreferenceView
+            android:id="@+id/night"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:icon="@drawable/light_icon"
+            app:title="@string/settings_night_title"
+            tools:summary="Automatic" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.8dp"
+            android:background="@drawable/line_divider"
+            android:visibility="gone" />
+
+        <com.messaging.textrasms.manager.common.widget.PreferenceView
+            android:id="@+id/textSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:icon="?attr/font_size"
+            app:title="@string/settings_text_size_title" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.8dp"
+            android:background="@drawable/line_divider" />
+
+        <com.messaging.textrasms.manager.common.widget.PreferenceView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:icon="@drawable/ic_translate"
+            app:title="@string/Language"
+            tools:summary="English" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.8dp"
+            android:background="@drawable/line_divider"
+            android:visibility="gone" />
+
+        <com.messaging.textrasms.manager.common.widget.PreferenceView
+            android:id="@+id/mmsSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:icon="?attr/compress"
+            app:title="@string/settings_mms_size_title"
+            tools:summary="100KB" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.8dp"
+            android:background="@drawable/line_divider" />
+
+        <com.messaging.textrasms.manager.common.widget.PreferenceView
+            android:id="@+id/backup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:icon="?attr/backup"
+            app:title="@string/backup_title" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.8dp"
+            android:visibility="visible"
+            android:background="@drawable/line_divider" />
+
+        <com.messaging.textrasms.manager.common.widget.PreferenceView
+            android:id="@+id/language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:icon="?attr/languge"
+            app:title="@string/Language" />v
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.8dp"
+            android:background="@drawable/line_divider" />
+
+        <com.messaging.textrasms.manager.common.widget.PreferenceView
+            android:id="@+id/feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:icon="?attr/feedback"
+            app:title="@string/drawer_feedback" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.8dp"
+            android:background="@drawable/line_divider" />
+
+        <com.messaging.textrasms.manager.common.widget.PreferenceView
+            android:id="@+id/sync"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:icon="?attr/sync"
+            app:summary="@string/settings_sync_summary"
+            app:title="@string/settings_sync_title" />
+
+        <ProgressBar
+            android:id="@+id/syncingProgress"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="72dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:indeterminate="true"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.8dp"
+            android:background="@drawable/line_divider" />
+
+        <com.messaging.textrasms.manager.common.widget.PreferenceView
+            android:id="@+id/privacy_policy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:icon="?attr/privacy"
+            app:title="@string/privacy_policy" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.8dp"
+            android:background="@drawable/line_divider" />
+
+        <com.messaging.textrasms.manager.common.widget.PreferenceView
+            android:id="@+id/rateus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:icon="?attr/rate"
+            app:title="@string/Rate" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.8dp"
+            android:background="@drawable/line_divider" />
+
+        <com.messaging.textrasms.manager.common.widget.PreferenceView
+            android:id="@+id/invite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:icon="?attr/share"
+            app:title="@string/drawer_invite" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.8dp"
+            android:background="@drawable/line_divider" />
+
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:text="@string/in_app_name"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/lyout_header"
+            android:text="Sim Card Information"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/adlayout">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcDetailList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/txt"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:id="@+id/txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="10dp"
+                android:visibility="gone">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    app:cardBackgroundColor="@color/colorPrimary"
+                    app:cardCornerRadius="5dp">
+
+                    <TextView
+                        android:id="@+id/txt1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Know SIM Owner Name"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/adlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <include layout="@layout/max_ad_native_layout" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

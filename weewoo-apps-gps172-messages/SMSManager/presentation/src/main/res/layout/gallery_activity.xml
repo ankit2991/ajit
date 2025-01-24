@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/list_background"
+    tools:context="com.messaging.textrasms.manager.feature.gallery.GalleryActivity">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="?android:attr/itemBackground"
+        android:gravity="center_vertical"
+        android:minHeight="56dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <com.messaging.textrasms.manager.common.widget.QkTextView
+                android:id="@+id/toolbarTitle"
+                style="@style/ToolbarText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="start"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textStyle="bold"
+                app:textSize="toolbar"
+                tools:text="Conversations" />
+
+            <com.messaging.textrasms.manager.common.widget.QkTextView
+                android:id="@+id/toolbarSubtitle"
+                style="@style/ToolbarText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:visibility="gone"
+                app:textSize="secondary" />
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+</FrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+    <entry>
+        <key>GPS124_onboarding</key>
+        <value>false</value>
+    </entry>
+
+    <entry>
+        <key>GPS124_payment_card</key>
+        <value>false</value>
+    </entry>
+
+    <entry>
+        <key>GPS124_01_year_sub_flag</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>GPS124_prices_value1</key>
+        <value>"yearly_subscription3"</value>
+    </entry>
+    <entry>
+        <key>GPS124_prices_value2</key>
+        <value>"weekly3"</value>
+    </entry>
+
+</defaultsMap>
+    <!-- END xml_defaults -->

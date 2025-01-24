@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="translatedTvHeight">200dp</dimen>
+    <dimen name="m_16">16dp</dimen>
+    <dimen name="rating_min_height">36dp</dimen>
+    <dimen name="rating_min_width">36dp</dimen>
+
+</resources>

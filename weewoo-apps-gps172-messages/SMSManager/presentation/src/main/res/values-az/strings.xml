@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sugest_update_title">Yeniləmə mövcuddur</string>
+    <string name="sugest_update_message">Yeni yeniləmə Google Play-də mövcuddur, zəhmət olmasa versiyanızı yeniləyin</string>
+    <string name="force_update_title">Yeniləmə mövcuddur</string>
+    <string name="force_update_message">Yeni yeniləmə Google Play-də mövcuddur, zəhmət olmasa versiyanızı yeniləyin</string>
+    <string name="update_ok">Yenilə</string>
+    <string name="update_no">İndi deyil</string>
+    <string name="app_name">#Mesajlar</string>
+    <string name="in_app_name">Mesajlar</string>
+    <string name="splash_app_name">SMS Mesajlar</string>
+    <string name="loading_msg">Zəhmət olmasa gözləyin...</string>
+    <string name="ads_loading_msg">Reklam göstərilir...</string>
+    <string name="shortcut_compose_long_label">Yeni müzakirə</string>
+    <string name="shortcut_compose_short_label">Bəyan et</string>
+    <string name="shortcut_compose_disabled_message">Qısayol deaktiv edildi</string>
+    <string name="title_archived">Arxivlənmiş Mesajlar</string>
+    <string name="title_settings">Ayarlar</string>
+    <string name="title_notification_prefs">Bildirişlər</string>
+    <string name="title_theme">Mövzu</string>
+    <string name="title_conversations">Axtarış nömrələr, adlar və daha çox</string>
+    <string name="title_compose">Ad və ya telefon nömrəsini yazın</string>
+    <string name="setup_skip">Keç</string>
+    <string name="setup_next">Davam edin</string>
+    <string name="menu_add_person">Şəxsi əlavə edin</string>
+    <string name="menu_call">Zəng edin</string>
+    <string name="menu_info">Ətraflı məlumat</string>
+    <string name="menu_save">Qalereyaya yaddaşa salın</string>
+    <string name="menu_share">Paylaşın</string>
+    <string name="main_drawer_open_cd">Naviqasiya çekməsini açın</string>
+    <string name="main_title_selected">%d seçilmiş</string>
+    <string name="main_menu_clear">Təmizlə</string>
+    <string name="main_menu_archive">Arxivlə</string>
+    <string name="main_menu_unarchive">Arxivdən çıxar</string>
+    <string name="main_menu_delete">Sil</string>
+    <string name="main_menu_add_contact">Əlaqələrə əlavə et</string>
+    <string name="main_menu_pin">Üstə qoy</string>
+    <string name="main_menu_unpin">Üstünü sil</string>
+    <string name="main_menu_read">Oxunmuş kimi işarələ</string>
+    <string name="main_menu_unread">Oxunmamış kimi işarələ</string>
+    <string name="select_all">Hamısını seç</string>
+    <string name="deselect_all">Hamısını ləğv edin</string>
+    <string name="main_menu_block">Bloklamaq</string>
+    <string name="main_syncing">Mesajlar tərtib olunur...</string>
+    <string name="main_sender_you">Siz: %s</string>
+    <string name="main_draft">Qaralama: %s</string>
+    <string name="main_message_results_title">Mesajlarda nəticələr</string>
+    <string name="main_message_results">%d mesaj</string>
+    <string name="inbox_empty_text">Sizin müzakirələriniz burada görünəcək</string>
+    <string name="inbox_search_empty_text">Heç bir nəticə yoxdur</string>
+    <string name="archived_empty_text">Hələ ki arxivlənmiş müzakirə yoxdur..</string>
+    <string name="main_fab_cd">Yeni müzakirə başlat</string>
+    <string name="main_default_sms_title">Mesaj göndərməyi sevirsiz?</string>
+    <string name="main_default_sms_message">SMS proqramınızı standart SMS proqramı edin</string>
+    <string name="main_default_sms_change">Dəyişdir</string>
+    <string name="main_permission_required">Tələb olunan icazə</string>
+    <string name="main_permission_sms">SMS, SMS mesajlarını görmək və göndərmək üçün icazəyə ehtiyac duyur</string>
+    <string name="main_permission_contacts">SMS, əlaqələrinizi görüntüləmək üçün icazəyə ehtiyac duyur</string>
+    <string name="main_permission_allow">Razılaşmaq</string>
+    <string name="main_permission_allow_read">Oxuma və Yazma İcazəsini Ver</string>
+    <string name="drawer_inbox">Gələn qutusu</string>
+    <string name="drawer_archived">Arxivlənmiş</string>
+    <string name="drawer_scheduled">Göstərilən Mesaj</string>
+    <string name="drawer_blocking">Bloklanmış siyahı</string>
+    <string name="drawer_calldorado">Zəngərlə bağlı parametrlər</string>
+    <string name="drawer_more">Daha çox</string>
+    <string name="drawer_group">Qrup mesajı</string>
+    <string name="drawer_settings">Ayarlar</string>
+    <string name="drawer_remove_ads">Reklamları çıxarın</string>
+    <string name="drawer_help">Kömək və geribildirim</string>
+    <string name="drawer_invite">Dostları dəvət edin</string>
+    <string name="dialog_delete_title">Sil</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Bu söhbəti silmək istədiyinizə əminsiniz?</item>
+        <item quantity="other">%d söhbəti silmək istədiyinizə əminsiniz?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Mətni kopyalayın</item>
+        <item>İrəli</item>
+        <item>Sil</item>
+    </string-array>
+    <string name="compose_number_picker_title">Telefon nömrəsini seçin</string>
+    <string name="compose_number_picker_default">%s ∙ Standart</string>
+    <string name="compose_number_picker_once">Yalnız bir dəfə</string>
+    <string name="compose_number_picker_always">Həmişə</string>
+    <string name="compose_title_selected">%d seçilib</string>
+    <string name="compose_subtitle_results">%1$d -dən %2$d nəticə</string>
+    <string name="contact_selected">%1$d -dən %2$d Seçilib</string>
+    <string name="compose_send_group_title">Qrup mesajı kimi göndərin</string>
+    <string name="compose_send_group_summary">Alıcılar və cavablar hər kəsin görə biləcəyi şəkildə görsənəcəkdir</string>
+    <string name="compose_messages_empty">Müzakirənizin başlanğıcı. Bir şey gözəl söyləyin!</string>
+    <string name="compose_vcard_label">Əlaqə kartı</string>
+    <string name="compose_scheduled_for">Göstəriləcək zaman</string>
+    <string name="compose_scheduled_future"> vaxt gələcəkdə olmalıdır!</string>
+    <string name="compose_scheduled_toast">Göstəriləcək mesajlara əlavə olundu</string>
+    <string name="compose_hint">Buraya yazın…</string>
+    <string name="compose_menu_copy">Mətni kopyalayın</string>
+    <string name="compose_menu_forward">İrəli</string>
+    <string name="compose_menu_delete">Sil</string>
+    <string name="compose_menu_previous">Əvvəlki</string>
+    <string name="compose_menu_next">Növbəti</string>
+    <string name="compose_menu_clear">Təmizlə</string>
+    <string name="compose_details_title">Mesaj detalları</string>
+    <string name="compose_details_type">Növ: %s</string>
+    <string name="compose_details_from">Göndərən: %s</string>
+    <string name="compose_details_to">Alıcı: %s</string>
+    <string name="compose_details_subject">Mövzu: %s</string>
+    <string name="compose_details_priority">Əhəmiyyət: %s</string>
+    <string name="compose_details_size">Ölçü: %s</string>
+    <string name="compose_details_sent">Göndərildi: %s</string>
+    <string name="compose_details_received">Qəbul edildi: %s</string>
+    <string name="compose_details_delivered">Çatdırıldı: %s</string>
+    <string name="compose_details_error_code">Səhv kod: %d</string>
+    <string name="compose_attach_cd">Əlavə əlavə edin</string>
+    <string name="compose_gallery_cd">Şəkil əlavə edin</string>
+    <string name="compose_camera_cd">Şəkil çəkin</string>
+    <string name="compose_schedule_cd">Mesajı planlaşdırın</string>
+    <string name="compose_contact_cd">Əlaqəni əlavə edin</string>
+    <string name="compose_contact_error">Əlaqə oxuma səhvi</string>
+    <string name="compose_sim_cd">%s seçilib, SIM kartı dəyişin</string>
+    <string name="compose_send_cd">Mesajı göndərin</string>
+    <string name="message_status_sending">Göndərilir…</string>
+    <string name="message_status_delivered">Çatdırıldı %s</string>
+    <string name="message_status_failed">Göndərmə uğursuz oldu</string>
+    <string name="info_title">Əlaqə Detalları</string>
+    <string name="info_copied_address">Ünvan kopyalanmışdır</string>
+    <string name="info_name">Müzakirə başlığı</string>
+    <string name="info_notifications">Bildirişlər</string>
+    <string name="info_theme">Mövzu</string>
+    <string name="info_archive">Arxiv</string>
+    <string name="info_unarchive">Arxivdən çıxar</string>
+    <string name="info_block">Bloklamaq</string>
+    <string name="info_unblock">Blokdan çıxar</string>
+    <string name="info_delete">Müzakirəni sil</string>
+    <string name="gallery_error">Media yüklənmədi</string>
+    <string name="gallery_toast_saved">Qalereyaya yaddaşa verildi</string>
+    <string name="backup_title">Ehtiyat və bərpa</string>
+    <string name="backup_backing_up">Mesajlar ehtiyatlanır</string>
+    <string name="backup_restoring">Bərpa olunur</string>
+    <string name="backup_last">Son ehtiyat</string>
+    <string name="backup_loading">Yüklənir…</string>
+    <string name="backup_never">Heç vaxt</string>
+    <string name="backup_restore_title">Bərpa et</string>
+    <string name="backup_restore_summary">Bir ehtiyat seçin</string>
+    <string name="backup_restore_error_plus">Lütfən, bərpa və bərpa etmək üçün SMS+ ni açın</string>
+    <string name="backup_restore_error_backup">Ehtiyat hazırlanır…</string>
+    <string name="backup_restore_error_restore">Bərpa olunur…</string>
+    <string name="backup_restore_confirm_title">Ehtiyatdan bərpa et</string>
+    <string name="backup_restore_confirm_message">Bu ehtiyatdan mesajlarınızı bərpa etmək istədiyinizə əminsiniz?</string>
+    <string name="backup_restore_stop_title">Bərpaya son verin</string>
+    <string name="backup_restore_stop_message">Artıq bərpa olunmuş mesajlarınız cihazınızda qalacaq</string>
+    <string name="backup_restore_dialog_title">Ehtiyatlar</string>
+    <string name="backup_restore_dialog_summary">/SMS Mesajlar/Ehtiyatlar</string>
+    <string name="backup_restore_dialog_empty">Heç bir ehtiyat tapılmadı</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">Heç bir mesaj yoxdur</item>
+        <item quantity="one">%d mesaj</item>
+        <item quantity="other">%d mesaj</item>
+    </plurals>
+    <string name="backup_disclaimer">Hazırda, Biz yalnızca SMS-i ehtiyatlandırma və bərpa edirik!</string>
+    <string name="backup_now">Ehtiyatlandırma</string>
+    <string name="backup_progress_parsing">Ehtiyatın təhlil edilməsi…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d mesaj</string>
+    <string name="backup_progress_saving">Ehtiyatın saxlanılması…</string>
+    <string name="backup_progress_syncing">Mesajların sinxronizasiyası…</string>
+    <string name="backup_progress_finished">Bitdi!</string>
+    <string name="backup_notification_channel_name">Ehtiyat və bərpa</string>
+    <string name="Message_notification_channel_name">Mesaj Sinxronizasiyası</string>
+    <string name="scheduled_title">Planlanmış</string>
+    <string name="schedule_guide">Mesaj müzakirə ekranında verilmiş əlavə düyməsinə klikləyərək vaxt qüvvəyə alınabilir.</string>
+    <string name="scheduled_empty_description">Mövzunu qeyd et və geri qalanı bırak</string>
+    <string name="scheduled_empty_message_1">Hey! Həyata bərpa etmək vaxtıdır?</string>
+    <string name="scheduled_empty_message_2">Bu 5 martda</string>
+    <string name="scheduled_empty_message_3">Heyaa! Nə qədər gözəl bir dost olduğumu gör</string>
+    <string name="scheduled_empty_message_3_timestamp">Mart 5-də göndərilir&#x200A;</string>
+    <string name="scheduled_compose_cd">Mesajı planlaşdırın</string>
+    <string name="scheduled_options_title">Planlanmış mesaj</string>
+    <string-array name="scheduled_options">
+        <item>Hazırda göndər</item>
+        <item>Mətni kopyalayın</item>
+        <item>Sil</item>
+    </string-array>
+    <string name="settings_category_appearance">Görünüş</string>
+    <string name="settings_category_general">Ümumi</string>
+    <string name="settings_categoryreply">Cavab</string>
+    <string name="settings_night_title">Gecə rejimi</string>
+    <string name="settings_text_size_title">Yazı növü</string>
+    <string name="settings_notifications_title">Bildirişlər</string>
+    <string name="settings_notifications_o_summary">Tənzimləmək üçün toxunun</string>
+    <string name="settings_notification_actions_title">Əməllər</string>
+    <string name="settings_notification_action_1">Düymə 1</string>
+    <string name="settings_notification_action_2">Düymə 2</string>
+    <string name="settings_notification_action_3">Düymə 3</string>
+    <string name="settings_notification_previews_title">Bildirişlərin önizlənməsi</string>
+    <string name="settings_notification_wake_title">Ekranı uyandırmaq</string>
+    <string name="settings_vibration_title">Vibrasiya</string>
+    <string name="settings_ringtone_title">Səs</string>
+    <string name="settings_ringtone_none">Heç biri</string>
+    <string name="settings_reply_title">Cavab</string>
+    <string name="settings_reply_summary">Yeni mesajlar üçün çıxan pəncərə</string>
+    <string name="settings_reply_tap_dismiss_title">Bağlamaq üçün toxunun</string>
+    <string name="settings_reply_tap_dismiss_summary">Pəncərənin xaricinə toxunaraq onu bağlayın</string>
+    <string name="settings_swipe_actions">Sürüş əməlləri</string>
+    <string name="settings_swipe_actions_right">Sağ sürüş</string>
+    <string name="settings_swipe_actions_left">Sol sürüş</string>
+    <string name="settings_swipe_actions_change">DƏYİŞMƏK</string>
+    <string name="not_now_txt">İndi deyil</string>
+    <string name="process_title">Bu proses bir müddət \nçəkəcək</string>
+    <string name="syncing_done">Mesaj sinxronizasiyası bitdi....</string>
+    <string name="all_set_txt">Hamısı hazır. Siz hazırsınız</string>
+    <string name="Personal">Bütün Mesajlar</string>
+    <string name="Other">Tanınmış</string>
+    <string name="Spam">Əlil</string>
+    <string name="setting">Tənzimləmələr</string>
+    <string name="Share">Paylaş</string>
+    <string name="Rate">Bizi Qiymətləndirin</string>
+    <string name="edit">dəyişdir</string>
+    <string name="DarkMode">Qaranlıq rejim</string>
+    <string name="BrightMode">Parlaq rejim</string>
+    <string name="Camera">Kamera</string>
+    <string name="Gallery">Qalereya</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">Əlaqə</string>
+    <string name="Schedule">Planlaşdır</string>
+    <string name="Location">Yer</string>
+    <string name="Notes">Qeydlər</string>
+    <string name="no_msg">Hələ ki, Mesaj yoxdur…</string>
+    <string name="Start_Chat">Söhbətə başla</string>
+    <string name="Language">Dil</string>
+    <string name="rate_text">Bizi digərlərinə təqdim edərək \nPlay Store\'da bizi qiymətləndirin!</string>
+    <string name="sort_by">-a görə sırala</string>
+    <string-array name="settings_swipe_actions">
+        <item>Heç biri</item>
+        <item>Arxiv</item>
+        <item>Sil</item>
+        <item>Zəng</item>
+        <item>Oxunmuş olaraq işarələ</item>
+        <item>Oxunmamış olaraq işarələ</item>
+    </string-array>
+    <string name="settings_mms_size_title">MMS əlavələrinin avtomatik sıxılmasını təyin edin</string>
+    <string name="settings_sync_title">Mesajları sinxronizasiya edin</string>
+    <string name="settings_sync_summary">Mesajlarınızı asılı Android SMS verilənlərin bazası ilə yenidən sinxronizasiya edin</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Zəng nəzarəti</string>
+    <string name="blocking_manager_sia_title">Mənə zəng etməli?</string>
+    <string name="blocked_messages_title">Bloklanmış mesajlar</string>
+    <string name="blocked_messages_empty">Bloklanmış mesajlarınız burada görünəcək</string>
+    <string name="blocking_block_title">Bloklamaq</string>
+    <string name="blocking_unblock_title">Bloklamayı aç</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">%s saytına davam edin və bu nömrəni bloklamaq</item>
+        <item quantity="other">%s saytına davam edin və bu nömrələri bloklamaq</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">%s saytına davam edin və bu nömrəni imkan vermək</item>
+        <item quantity="other">%s saytına davam edin və bu nömrələri imkan vermək</item>
+    </plurals>
+    <string name="widget_loading">Yüklənir…</string>
+    <string name="widget_more">Daha çox müzakirələri göstərin</string>
+    <string name="qkreply_menu_read">Oxunmuş kimi işarələ</string>
+    <string name="qkreply_menu_call">Zəng et</string>
+    <string name="qkreply_menu_delete">Sil</string>
+    <string name="qkreply_menu_expand">Daha çox göstərin</string>
+    <string name="qkreply_menu_collapse">Daha az göstərin</string>
+    <string name="qkreply_menu_view">Müzakirəni aç</string>
+    <string name="changelog_title">SMS-də yeni</string>
+    <string name="changelog_version">Versiya %s</string>
+    <string name="changelog_added">Əlavə edildi</string>
+    <string name="changelog_improved">Yaxşılaşdırıldı</string>
+    <string name="changelog_fixed">Düzəldildi</string>
+    <string name="changelog_more">Daha çox</string>
+    <string name="changelog_dismiss">İmtina et</string>
+    <string-array name="notification_actions">
+        <item>Heç biri</item>
+        <item>Oxunmuş kimi işarələ</item>
+        <item>Cavab ver</item>
+        <item>Zəng et</item>
+        <item>Sil</item>
+    </string-array>
+    <string name="button_yes">Bəli</string>
+    <string name="button_continue">Davam edin</string>
+    <string name="button_cancel">İmtina et</string>
+    <string name="button_delete">Sil</string>
+    <string name="button_save">Yadda saxla</string>
+    <string name="button_stop">Dayandır</string>
+    <string name="button_more">Daha çox</string>
+    <string name="button_set">Təyin edin</string>
+    <string name="button_undo">Geri qaytar</string>
+    <string name="toast_copied">Kopyalandı</string>
+    <string name="toast_archived">Arxivlənmiş müzakirə</string>
+    <string name="toast_sms_plus">Bunu istifadə etmək üçün SMS+ı kilid açmalısınız</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Yeni mesaj</item>
+        <item quantity="other">%s yeni mesaj</item>
+    </plurals>
+    <string name="notification_message_failed_title">Mesaj göndərilmədi</string>
+    <string name="notification_message_failed_text">%s nömrəsinə göndərilən mesaj göndərilmədi</string>
+    <string name="privacy_policy">Gizlilik Siyasəti</string>
+    <string name="pocket_data_on">MMS göndərərkən cib dataları açıq olmalıdır!</string>
+    <string name="inapp_details" translatable="false">Reklamları çıxarmaq üçün, qara-Aydın rejimi dəstəklənməsi ilə prémium abunəyə keçin\n Planlaşdırılmış Sms dəstəyi.</string>
+    <string name="drawer_removeAds">Reklamları çıxar</string>
+    <string name="in_app_ads">messages_rad</string>
+    <string name="dialog_delete_message">Bu mesajı silmək istədiyinizə əminsiniz?</string>
+    <string name="compose_bar_not_support">Göndərənin cavablarını dəstəkləmir</string>
+    <string name="default_name">SMS göndərmək və ya almag üçün onu standart tətbiq etməlisiniz. Mesajı standart tətbiqiniz etmək istəyirsinizmi?</string>
+    <string name="confirm_delete">Silməni təsdiq edin</string>
+    <string name="confirm_delete_text">Bu qeydi silmək istədiyinizə əminsiniz?</string>
+    <string name="title">Başlıq</string>
+    <string name="note">Qeyd</string>
+    <string name="search">Axtarış</string>
+    <string name="settings">Tənzimləmələr</string>
+    <string name="share_to">Paylaşmaq</string>
+    <string name="sort">Sırala</string>
+    <string name="empty_list_text">Yeni bir qeyd əlavə etmək üçün sağ alt tərəfdəki düyməyə basın!</string>
+    <string name="new_note">Yeni qeyd</string>
+    <string name="undo">Geri qaytar</string>
+    <string name="delete">Sil</string>
+    <string name="exception">İstisna:</string>
+    <string name="edit_note">Qeydi redaktə edin</string>
+    <string name="drawer_feedback">Feedback göndərin</string>
+    <string name="drawer_mode">Aydın rejim</string>
+    <string name="unlimited_access_user">Bütün Xüsusiyyətlərə Sınırsız Giriş</string>
+    <string name="pro_user">Siz Premium istifadəçisiniz</string>
+    <string name="sub_info_text"><b>Abunə avtomatik olaraq yenilənənə qədər.</b></string>
+    <string name="cancel_purchase">Abunənin avtomatik yenilənmələrini Google Play\'deki Abunələr bölməsində ləğv edə bilərsiniz</string>
+    <string name="remove_ads">Reklamları çıxar</string>
+    <string name="no_ads">Reklamlar yoxdur</string>
+    <string name="free_trial">7 günlük pulsuz sınaq, sonra avtomatik yenilənir</string>
+    <string name="can_not_talk_right_now">Üzr istəyirəm, indi danışa bilmirəm</string>
+    <string name="can_call_you_later">Sizi sonra zəng edə bilərəmmi?</string>
+    <string name="i_am_on_my_way">Yolda olmuğumu bildirirəm</string>
+    <string name="write_personal_message">Şəxsi mesaj yazın</string>
+    <string name="create_reminder">Yeni xatırlatıcı yaradın</string>
+    <string name="remind_me_about">Məni xatırlayın</string>
+    <string name="no_title">Başlıq yoxdur</string>
+    <string name="edit_contact">Əlaqəni redaktə edin</string>
+    <string name="add_contact">Əlaqəni əlavə edin</string>
+    <string name="messages">Mesajlar</string>
+    <string name="send_mail">Poçt göndər</string>
+    <string name="calendar">Təqvim</string>
+    <string name="web">Veb</string>
+    <string-array name="night_modes">
+        <item>Sistem</item>
+        <item>Aydın rejim</item>
+        <item>Qaranlıq rejim</item>
+    </string-array>
+
+    <string-array name="notification_preview_options">
+        <item>Ad və mesajı göstərin</item>
+        <item>Adı göstərin</item>
+        <item>Məzmunu gizlədin</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>Kiçik</item>
+        <item>Normal</item>
+        <item>Böyük</item>
+        <item>Daha böyük</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>Gecikmə yoxdur</item>
+        <item>Qısa</item>
+        <item>Orta</item>
+        <item>Uzun</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Avtomatik</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>Sıkışdırma yoxdur</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>Yaxşı</item>
+        <item>Bir dəqiqə gözləyin</item>
+        <item>Yolda</item>
+        <item>Çox sağ olun</item>
+        <item>Səslər yaxşıdır</item>
+        <item>Nə var?</item>
+        <item>Razıyam</item>
+        <item>Xeyr</item>
+        <item>Səni sevirəm</item>
+        <item>Bağışlayın</item>
+        <item>Gül-Gül</item>
+        <item>Heç bir şey deyil</item>
+    </string-array>
+    <string name="default_title">Sms Tətbiqini Standart tətbiq edin</string>
+    <string name="set_as_defaault">Standart olaraq təyin edin</string>
+    <string name="love_app_title">SMS tətbiqini standart SMS tətbiqi olaraq təyin edin</string>
+    <string-array name="gif">
+        <item>Heyvan Üzü</item>
+        <item>Emoji</item>
+        <item>Meyvə və Tərəvəz</item>
+        <item>Halloween</item>
+        <item>Məhəbbət</item>
+    </string-array>
+    <string name="Sticker">Sticker</string>
+    <string name="no_connection">İnternet bağlantısı yoxdur.</string>
+    <string-array name="sticker">
+        <item>Oğlan</item>
+        <item>Kartoon</item>
+        <item>Üz</item>
+        <item>Bayram</item>
+        <item>Meyvə</item>
+        <item>Zəfər</item>
+        <item>Qız</item>
+        <item>Məhəbbət Sticker</item>
+        <item>Digərləri</item>
+        <item>Köpək</item>
+    </string-array>
+    <string name="open_link_to_browser">Keçidi brauzerdə açın</string>
+    <string name="battery_dialog">Əsaslı Sms\’i itirmək istəmirsiniz? \n
+Batareya optimallasdırmasını söndürün</string>
+    <string name="reason_to_change_battery_optimization_setting">App Məlumatları &gt; İrəliləmiş &gt; Batareya optimallasdırma \nvə \'Optimallasdırma\' seçin</string>
+    <string name="feedback_txt">Təcrübənizi bizə deyin və Mesaj tətbiqini təkmilləşdirmək üçün tövsiyələr verin. </string>
+    <string name="reason_to_change_battery"> İrəliləmiş &gt; Batareya Optimallasdırma &gt; \'Optimallasdırma\'</string>
+    <string name="drawer_transaction">Əməliyyatlar</string>
+    <string name="drawer_promotion">Promosiyalar</string>
+    <string name="unknown">Naməlum </string>
+    <string name="priva"><u>Gizlilik Siyasəti</u></string>
+    <string name="smsfilter">SMS Filtr</string>
+    <string name="by_click_t_c"><u>Basaraq siz Şərtlərimizi və Qaydalarımızı qəbul edirsiniz.</u></string>
+    <string name="continue_without_sub"><u>Abunəsiz davam et</u></string>
+    <string name="text_free_trial"><b>X gün pulsuz sınaq</b> - Sonra X € / ay</string>
+    <string name="calldorado_message">Zəngi bitdirmədən əvvəl bütün <b>mesajlarınızı</b> yoxlayın! Xəbərlər var</string>
+    <string name="privacy_terms_description">Davam etdikcə, istifadə şərtlərini və gizlilik siyasətini qəbul və təsdiqləyirsiniz.</string>
+    <string name="draw_over_description"><![CDATA[Digər tətbiqlərin üstündə göstərmək üçün SMS Mesajlarımızı göstərin. Bütün potensialımızı əldə edin]]></string>
+    <string name="ad_label">REKLAM</string>
+    <string name="onboarding_continue_button">Davam edin</string>
+    <string name="onboarding_step_1_title">SMS &amp; Messenger meneceri</string>
+    <string name="onboarding_step_1_subtitle">Dostlarınızla söhbət edin, qruplar yaradın və gələn qutunu təşkil edin</string>
+    <string name="onboarding_step_1_hight_light">Sizə özəl yanaşma</string>
+    <string name="onboarding_step_2_title">Mesajları təşkil edin &amp; saxlayın</string>
+    <string name="onboarding_step_2_subtitle">Mesajlarınızın ehtiyatını alın və bərpa edin</string>
+    <string name="onboarding_step_2_hight_light">Minlərlə istifadəçi bunu sevdi</string>
+    <string name="onboarding_step_3_title">Həyatın tadını çıxarın &amp; bizə qutunu idarə etməyə icazə verin</string>
+    <string name="onboarding_step_3_subtitle">Göndəriləcək məlumatlarınızı idarə etməyimiz üçün icazələri qəbul edin.</string>
+    <string name="onboarding_step_3_hight_light">Belə belə</string>
+    <string name="onboarding_allow_access_button">Giriş icazəsi verin</string>
+    <string name="onboarding_step_4_title">Batareyanı yaxşılaşdırın, işi bizə etdirin</string>
+    <string name="onboarding_step_4_subtitle">Biz sizi narahat edən SMS narahatçılıqlarından narahatçılıqlardan azad edəcəyik.</string>
+    <string name="onboarding_step_4_hight_light">Minlərlə istifadəçi bunu sevdi</string>
+    <string name="onboarding_step_5_title">Başqa tətbiqlərdə işləyərək bölünmüş ekran</string>
+    <string name="onboarding_step_5_subtitle">Multitask etməyə imkan verən əla zəng vidget-lərimizdən zövq alın</string>
+    <string name="onboarding_step_5_hight_light">Minlərlə istifadəçi bunu sevdi</string>
+    <string name="payment_card_title">Hazırda söhbət edin!</string>
+    <string name="payment_card_price"><![CDATA[3 günlük pulsuz, %s / %s]]></string>
+    <string name="payment_card_button">İndi pulsuz sınayın</string>
+    <string name="payment_card_hight_light">Play Store tərəfindən təhlükəsizdir</string>
+    <string name="payment_card_weekly">həftəlik</string>
+    <string name="payment_card_monthly">aylıq</string>
+    <string name="payment_card_yearly">illik</string>
+    <string name="payment_card_auto_renew">avtomatik yenilənən abunə, hər hansı bir vaxt ləğv edin</string>
+    <string name="accessibility_service_description">İdarə olunan giriş xidmətiniz haqqında məlumat</string>
+    <string name="permission_txt"><font color="#FF8A00">İcazə tələb olunur:</font>\nTelefon və digər tətbiqlər üstünə qoyun</string>
+    <string name="opt_privacy">Davam edərkən, istifadə şərtlərini və gizlilik siyasətini qəbul və təsdiqləyirsiniz.</string>
+    <string name="permission_required">Tələb olunan İcazələr</string>
+    <string name="permission_dialog_body">Bu tətbiq telefon icazəsi olmadan düzgün işləyə bilməyər. Onu aktivləşdirmək üçün aşağıdakı təlimatları izləyin:\n\n1. "İcazələr"i seçin\n2. "Telefonu" icazələrin siyahısında tapın və aktivləşdirmək üçün toxunun</string>
+    <string name="go_premium"><font color="#FFE600">Premium!</font> olun</string>
+    <string name="unlock_everything">Hər şeyi açın və Reklamları görməyin</string>
+    <string name="start_three_day">3 Gün pulsuz sınağa başlayın</string>
+    <string name="pro">Pro</string>
+    <string name="more_option">Daha çox seçim</string>
+    <string name="rate_us_5">Bizi 5 ulduz ilə qiymətləndirin</string>
+    <string name="help_feedback">Kömək &amp; feedback</string>
+    <string name="send_message">Mesaj göndərin</string>
+    <string name="CTA_Button_Text">Bütün Xüsusiyyətləri açmaq üçün <font color="#FFFBCD04">toxunun</font></string>
+</resources>

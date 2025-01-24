@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:fitsSystemWindows="false">
+
+    <macro.hd.wallpapers.MyCustomView.TransparentPanel
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/rl_photos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_blur"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <fr.castorflex.android.circularprogressbar.CircularProgressBar
+        android:id="@+id/layout_loading"
+        style="@style/CircularThemeProgressBar_centre"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:indeterminate="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rlBottomView"
+        android:gravity="bottom|center_horizontal">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_set_wallpaper"
+            style="@style/MenuButtonsStyle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:src="@mipmap/ic_set_wall"
+            android:visibility="visible" />
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/menu_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="48dp"
+            android:layout_marginBottom="8dp"
+            app:menu_icon="@mipmap/ic_detail_more"
+            fab:menu_animationDelayPerItem="0"
+            fab:menu_colorNormal="@color/transparentBlack"
+            fab:menu_colorPressed="@color/transparentBlack"
+            fab:menu_colorRipple="#FFFFFF"
+            fab:menu_labels_hideAnimation="@anim/jump_to_down"
+            fab:menu_labels_showAnimation="@anim/jump_from_down"
+            fab:menu_labels_style="@style/MenuLabelsStyle"
+            fab:menu_shadowColor="@color/transparentBlack">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/img_pinch_zoom"
+                style="@style/MenuButtonsStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_preview"
+                fab:fab_label="@string/label_pre" />
+
+            <!--<com.github.clans.fab.FloatingActionButton
+                android:id="@+id/fab_set_wallpaper"
+                style="@style/MenuButtonsStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_set_wall"
+                android:visibility="visible"
+                fab:fab_label="Set As Wallpaper" />
+-->
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/fab_download"
+                style="@style/MenuButtonsStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_detail_download"
+                fab:fab_label="@string/label_new_Dwn" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/fab_category"
+                style="@style/MenuButtonsStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_detailcategory"
+                android:visibility="gone"
+                fab:fab_label="Menu item 1" />
+
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/img_share"
+                style="@style/MenuButtonsStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_detail_share"
+                fab:fab_label="@string/menu_share" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/img_report"
+                style="@style/MenuButtonsStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_report"
+                fab:fab_label="@string/label_report_new" />
+
+            <!--  <com.github.clans.fab.FloatingActionButton
+                  android:id="@+id/img_share"
+                  style="@style/MenuButtonsStyle_grey"
+                  android:layout_width="wrap_content" android:layout_alignParentBottom="true"
+                  android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginBottom="8dp"
+                  android:src="@mipmap/ic_detail_share"
+                  fab:fab_label="Share"/>-->
+
+        </com.github.clans.fab.FloatingActionMenu>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/img_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:src="@mipmap/ic_close_black_24dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="#ffffff" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlBottomView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:id="@+id/viewBottomDivider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/divider_color"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/ivBottomView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/viewBottomDivider" />
+    </RelativeLayout>
+
+</RelativeLayout>

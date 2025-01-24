@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+
+    >
+    <RelativeLayout
+        android:id="@+id/ad_layout_history"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="@drawable/bg_ad_view"
+        android:visibility="gone">
+
+        <FrameLayout
+            android:id="@+id/admob_layout_history"
+            android:layout_width="match_parent"
+            android:layout_height="230dp" />
+
+        <FrameLayout
+
+            android:id="@+id/fb_layout_history"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:orientation="vertical" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

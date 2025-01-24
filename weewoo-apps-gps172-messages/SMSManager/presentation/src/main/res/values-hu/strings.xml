@@ -1,0 +1,479 @@
+<resources xmlns:ns0="http://schemas.android.com/tools" ns0:ignore="MissingTranslation">
+    <string name="sugest_update_title">Frissítés elérhető</string>
+    <string name="sugest_update_message">Új frissítés elérhető a Google Play Áruházban, kérjük, frissítse az alkalmazást</string>
+    <string name="force_update_title">Frissítés elérhető</string>
+    <string name="force_update_message">Új frissítés elérhető a Google Play Áruházban, kérjük, frissítse az alkalmazást</string>
+    <string name="update_ok">Frissítés</string>
+    <string name="update_no">Most nem</string>
+    <string name="app_name">#Üzenetek</string>
+    <string name="in_app_name">Üzenetek</string>
+    <string name="splash_app_name">SMS Üzenetek</string>
+    <string name="loading_msg">Kérem, várjon...</string>
+    <string name="ads_loading_msg">Hirdetés megjelenítése...</string>
+    <string name="shortcut_compose_long_label">Új beszélgetés</string>
+    <string name="shortcut_compose_short_label">Írás</string>
+    <string name="shortcut_compose_disabled_message">Parancsikon letiltva</string>
+    <string name="title_archived">Archivált üzenetek</string>
+    <string name="title_settings">Beállítások</string>
+    <string name="title_notification_prefs">Értesítések</string>
+    <string name="title_theme">Téma</string>
+    <string name="title_conversations">Keresés számok, nevek és még több</string>
+    <string name="title_compose">Írjon be egy nevet vagy telefonszámot</string>
+    <string name="setup_skip">Kihagyás</string>
+    <string name="setup_next">Folytatás</string>
+    <string name="menu_add_person">Személy hozzáadása</string>
+    <string name="menu_call">Hívás</string>
+    <string name="menu_info">Részletek</string>
+    <string name="menu_save">Mentés a galériába</string>
+    <string name="menu_share">Megosztás</string>
+    <string name="main_drawer_open_cd">Navigációs fiók megnyitása</string>
+    <string name="main_title_selected">%d kiválasztva</string>
+    <string name="main_menu_clear">Törlés</string>
+    <string name="main_menu_archive">Archiválás</string>
+    <string name="main_menu_unarchive">Archívumból kivéve</string>
+    <string name="main_menu_delete">Törlés</string>
+    <string name="main_menu_add_contact">Hozzáadás a partnerekhez</string>
+    <string name="main_menu_pin">Kitűzés legfelülre</string>
+    <string name="main_menu_unpin">Kitűzés visszavonása</string>
+    <string name="main_menu_read">Olvasottként jelölés</string>
+    <string name="main_menu_unread">Olvasatlanként jelölés</string>
+    <string name="select_all">Összes kijelölése</string>
+    <string name="deselect_all">Összes kijelölés megszüntetése</string>
+    <string name="main_menu_block">Blokkolás</string>
+    <string name="main_syncing">Üzenetek rendezése...</string>
+    <string name="main_sender_you">Ön: %s</string>
+    <string name="main_draft">Vázlat: %s</string>
+    <string name="main_message_results_title">Eredmények az üzenetekben</string>
+    <string name="main_message_results">%d üzenet</string>
+    <string name="inbox_empty_text">Beszélgetései itt fognak megjelenni</string>
+    <string name="inbox_search_empty_text">Nincs találat</string>
+    <string name="archived_empty_text">Még nincsenek archivált beszélgetései..</string>
+    <string name="main_fab_cd">Új beszélgetés indítása</string>
+    <string name="main_default_sms_title">Szereti az üzenetküldést?</string>
+    <string name="main_default_sms_message">Az SMS alkalmazást állítsa be alapértelmezett SMS alkalmazásként</string>
+    <string name="main_default_sms_change">Változtatás</string>
+    <string name="main_permission_required">Engedély szükséges</string>
+    <string name="main_permission_sms">Az SMS-nek engedélyre van szüksége az SMS-üzenetek küldéséhez és megtekintéséhez</string>
+    <string name="main_permission_contacts">Az SMS-nek engedélyre van szüksége a partnerek megtekintéséhez</string>
+    <string name="main_permission_allow">Engedélyezés</string>
+    <string name="main_permission_allow_read">Olvasási és írási engedély engedélyezése</string>
+    <string name="drawer_inbox">Beérkező üzenetek</string>
+    <string name="drawer_archived">Archivált</string>
+    <string name="drawer_scheduled">Ütemezett üzenetek</string>
+    <string name="drawer_blocking">Blokkolt lista</string>
+    <string name="drawer_calldorado">Hívó beállítások</string>
+    <string name="drawer_more">Továbbiak</string>
+    <string name="drawer_group">Csoportos üzenet</string>
+    <string name="drawer_settings">Beállítások</string>
+    <string name="drawer_remove_ads">Hirdetések eltávolítása</string>
+    <string name="drawer_help">Súgó és visszajelzés</string>
+    <string name="drawer_invite">Barátok meghívása</string>
+    <string name="dialog_delete_title">Törlés</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Biztosan törölni szeretné ezt a beszélgetést?</item>
+        <item quantity="other">Biztosan törölni szeretné a(z) %d beszélgetést?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Szöveg másolása</item>
+        <item>Forward</item>
+        <item>Törlés</item>
+    </string-array>
+    <string name="compose_number_picker_title">Válasszon telefonszámot</string>
+    <string name="compose_number_picker_default">%s ∙ Alapértelmezett</string>
+    <string name="compose_number_picker_once">Csak egyszer</string>
+    <string name="compose_number_picker_always">Mindig</string>
+    <string name="compose_title_selected">%d kiválasztva</string>
+    <string name="compose_subtitle_results">%1$d/%2$d eredmény</string>
+    <string name="contact_selected">%1$d/%2$d Kiválasztva</string>
+    <string name="compose_send_group_title">Csoportos üzenetként küldés</string>
+    <string name="compose_send_group_summary">A címzettek és válaszok mindenki számára láthatóak lesznek</string>
+    <string name="compose_messages_empty">Beszélgetés kezdete. Mondjon valami nagyszerűt!</string>
+    <string name="compose_vcard_label">Kapcsolati kártya</string>
+    <string name="compose_scheduled_for">Ütemezve</string>
+    <string name="compose_scheduled_future"> az időpontnak a jövőben kell lennie!</string>
+    <string name="compose_scheduled_toast">Hozzáadva az ütemezett üzenetekhez</string>
+    <string name="compose_hint">Írja ide...</string>
+    <string name="compose_menu_copy">Szöveg másolása</string>
+    <string name="compose_menu_forward">Továbbítás</string>
+    <string name="compose_menu_delete">Törlés</string>
+    <string name="compose_menu_previous">Előző</string>
+    <string name="compose_menu_next">Következő</string>
+    <string name="compose_menu_clear">Törlés</string>
+    <string name="compose_details_title">Üzenet részletei</string>
+    <string name="compose_details_type">Típus: %s</string>
+    <string name="compose_details_from">Feladó: %s</string>
+    <string name="compose_details_to">Címzett: %s</string>
+    <string name="compose_details_subject">Tárgy: %s</string>
+    <string name="compose_details_priority">Prioritás: %s</string>
+    <string name="compose_details_size">Méret: %s</string>
+    <string name="compose_details_sent">Elküldve: %s</string>
+    <string name="compose_details_received">Fogadva: %s</string>
+    <string name="compose_details_delivered">Kézbesítve: %s</string>
+    <string name="compose_details_error_code">Hibakód: %d</string>
+    <string name="compose_attach_cd">Csatolmány hozzáadása</string>
+    <string name="compose_gallery_cd">Fénykép csatolása</string>
+    <string name="compose_camera_cd">Fénykép készítése</string>
+    <string name="compose_schedule_cd">Üzenet ütemezése</string>
+    <string name="compose_contact_cd">Kapcsolat csatolása</string>
+    <string name="compose_contact_error">Hiba a kapcsolat beolvasása közben</string>
+    <string name="compose_sim_cd">%s kiválasztva, SIM-kártya megváltoztatása</string>
+    <string name="compose_send_cd">Üzenet küldése</string>
+    <string name="message_status_sending">Küldés…</string>
+    <string name="message_status_delivered">Kézbesítve: %s</string>
+    <string name="message_status_failed">Nem sikerült elküldeni</string>
+    <string name="info_title">Kapcsolat részletei</string>
+    <string name="info_copied_address">Cím másolva</string>
+    <string name="info_name">Beszélgetés címe</string>
+    <string name="info_notifications">Értesítések</string>
+    <string name="info_theme">Téma</string>
+    <string name="info_archive">Archiválás</string>
+    <string name="info_unarchive">Archívumból kivéve</string>
+    <string name="info_block">Blokkolás</string>
+    <string name="info_unblock">Blokkolás feloldása</string>
+    <string name="info_delete">Beszélgetés törlése</string>
+    <string name="gallery_error">Nem sikerült betölteni a médiát</string>
+    <string name="gallery_toast_saved">Mentve a galériába</string>
+    <string name="backup_title">Biztonsági mentés és visszaállítás</string>
+    <string name="backup_backing_up">Üzenetek biztonsági mentése</string>
+    <string name="backup_restoring">Visszaállítás biztonsági mentésből</string>
+    <string name="backup_last">Utolsó mentés</string>
+    <string name="backup_loading">Betöltés…</string>
+    <string name="backup_never">Soha</string>
+    <string name="backup_restore_title">Visszaállítás</string>
+    <string name="backup_restore_summary">Válasszon egy biztonsági mentést</string>
+    <string name="backup_restore_error_plus">Kérjük, oldja fel az SMS+ zárolását a biztonsági mentés és visszaállítás használatához</string>
+    <string name="backup_restore_error_backup">Biztonsági mentés folyamatban…</string>
+    <string name="backup_restore_error_restore">Visszaállítás folyamatban…</string>
+    <string name="backup_restore_confirm_title">Visszaállítás a biztonsági mentésből</string>
+    <string name="backup_restore_confirm_message">Biztosan szeretné visszaállítani az üzeneteit ebből a biztonsági mentésből?</string>
+    <string name="backup_restore_stop_title">Visszaállítás leállítása</string>
+    <string name="backup_restore_stop_message">Azok az üzenetek, amelyek már vissza lettek állítva, megmaradnak az eszközén</string>
+    <string name="backup_restore_dialog_title">Biztonsági mentések</string>
+    <string name="backup_restore_dialog_summary">/SMS Üzenetek/Biztonsági mentések</string>
+    <string name="backup_restore_dialog_empty">Nincs találat a biztonsági mentések között</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">Nincsenek üzenetek</item>
+        <item quantity="one">%d üzenet</item>
+        <item quantity="other">%d üzenet</item>
+    </plurals>
+    <string name="backup_disclaimer">Eddig csak az SMS-ek biztonsági mentését és visszaállítását támogattuk!</string>
+    <string name="backup_now">Biztonsági mentés</string>
+    <string name="backup_progress_parsing">Biztonsági mentés feldolgozása...</string>
+    <string name="backup_progress_running" formatted="false">%d/%d üzenet</string>
+    <string name="backup_progress_saving">Biztonsági mentés mentése...</string>
+    <string name="backup_progress_syncing">Üzenetek szinkronizálása...</string>
+    <string name="backup_progress_finished">Kész!</string>
+    <string name="backup_notification_channel_name">Biztonsági mentés és visszaállítás</string>
+    <string name="Message_notification_channel_name">Üzenet szinkronizálás</string>
+    <string name="scheduled_title">Ütemezve</string>
+    <string name="schedule_guide">Ütemezett üzenetet állíthat be a beszélgetési képernyőn található csatolás gombra kattintva.</string>
+    <string name="scheduled_empty_description">Automatikusan küldjön üzenetet a pontos időben</string>
+    <string name="scheduled_empty_message_1">Hé! Mikor van a pillanat ünneplésére?</string>
+    <string name="scheduled_empty_message_2">Az Március 5-én lesz </string>
+    <string name="scheduled_empty_message_3">Heja! Nézd, milyen nagyszerű barát vagyok, hogy megünneplem a napodat</string>
+    <string name="scheduled_empty_message_3_timestamp">Küldés Március 5-én</string>
+    <string name="scheduled_compose_cd">Üzenet ütemezése</string>
+    <string name="scheduled_options_title">Ütemezett üzenet</string>
+    <string-array name="scheduled_options">
+        <item>Most küldés</item>
+        <item>Szöveg másolása</item>
+        <item>Törlés</item>
+    </string-array>
+    <string name="settings_category_appearance">Megjelenés</string>
+    <string name="settings_category_general">Általános</string>
+    <string name="settings_categoryreply">Válasz</string>
+    <string name="settings_night_title">Éjszakai mód</string>
+    <string name="settings_text_size_title">Betűméret</string>
+    <string name="settings_notifications_title">Értesítések</string>
+    <string name="settings_notifications_o_summary">Érintse meg a testreszabáshoz</string>
+    <string name="settings_notification_actions_title">Műveletek</string>
+    <string name="settings_notification_action_1">Gomb 1</string>
+    <string name="settings_notification_action_2">Gomb 2</string>
+    <string name="settings_notification_action_3">Gomb 3</string>
+    <string name="settings_notification_previews_title">Értesítés előnézete</string>
+    <string name="settings_notification_wake_title">Ébresztés</string>
+    <string name="settings_vibration_title">Rezgés</string>
+    <string name="settings_ringtone_title">Hang</string>
+    <string name="settings_ringtone_none">Nincs</string>
+    <string name="settings_reply_title">Válasz</string>
+    <string name="settings_reply_summary">Felugró ablak új üzenetekhez</string>
+    <string name="settings_reply_tap_dismiss_title">Koppintás az elutasításhoz</string>
+    <string name="settings_reply_tap_dismiss_summary">Koppintson a felugró ablakon kívül az bezárásához</string>
+    <string name="settings_swipe_actions">Pöccintési műveletek</string>
+    <string name="settings_swipe_actions_right">Jobb pöccintés</string>
+    <string name="settings_swipe_actions_left">Bal pöccintés</string>
+    <string name="settings_swipe_actions_change">VÁLTOZTATÁS</string>
+    <string name="not_now_txt">Most nem</string>
+    <string name="process_title">Ez a folyamat egy ideig \nigénybe fog venni</string>
+    <string name="syncing_done">Az üzenetek szinkronizálása befejeződött....</string>
+    <string name="all_set_txt">Minden rendben. Készen áll a használatra</string>
+    <string name="Personal">Minden üzenet</string>
+    <string name="Other">Ismeretlen</string>
+    <string name="Spam">Levélzsákok</string>
+    <string name="setting">Beállítások</string>
+    <string name="Share">Megosztás</string>
+    <string name="Rate">Értékelés</string>
+    <string name="edit">szerkesztés</string>
+    <string name="DarkMode">Sötét mód</string>
+    <string name="BrightMode">Világos mód</string>
+    <string name="Camera">Kamera</string>
+    <string name="Gallery">Galéria</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">Kapcsolat</string>
+    <string name="Schedule">Ütemezés</string>
+    <string name="Location">Helyszín</string>
+    <string name="Notes">Jegyzetek</string>
+    <string name="no_msg">Még nincsenek üzenetek…</string>
+    <string name="Start_Chat">Beszélgetés indítása</string>
+    <string name="Language">Nyelv</string>
+    <string name="rate_text">Ajánlja másoknak, hogy értékeljen minket a Play Áruházban!</string>
+    <string name="sort_by">Rendezés</string>
+    <string-array name="settings_swipe_actions">
+        <item>None</item>
+        <item>Archiválás</item>
+        <item>Törlés</item>
+        <item>Hívás</item>
+        <item>Megjelölés olvasottként</item>
+        <item>Megjelölés olvasatlanként</item>
+    </string-array>
+    <string name="settings_mms_size_title">MMS-mellékletek automatikus tömörítése</string>
+    <string name="settings_sync_title">Üzenetek szinkronizálása</string>
+    <string name="settings_sync_summary">Az üzenetek újra szinkronizálása az Android SMS adatbázissal</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Hívásvezérlés</string>
+    <string name="blocking_manager_sia_title">Kell Válaszolnom?</string>
+    <string name="blocked_messages_title">Letiltott üzenetek</string>
+    <string name="blocked_messages_empty">Letiltott üzeneteid itt fognak megjelenni</string>
+    <string name="blocking_block_title">Letiltás</string>
+    <string name="blocking_unblock_title">Engedélyezés</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">Folytatás a(z) %s és ennek a számnak a letiltásával</item>
+        <item quantity="other">Folytatás a(z) %s és ezeknek a számoknak a letiltásával</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">Folytatás a(z) %s és ennek a számnak az engedélyezésével</item>
+        <item quantity="other">Folytatás a(z) %s és ezeknek a számoknak az engedélyezésével</item>
+    </plurals>
+    <string name="widget_loading">Betöltés…</string>
+    <string name="widget_more">További beszélgetések megtekintése</string>
+    <string name="qkreply_menu_read">Megjelölés olvasottként</string>
+    <string name="qkreply_menu_call">Hívás</string>
+    <string name="qkreply_menu_delete">Törlés</string>
+    <string name="qkreply_menu_expand">Továbbiak megjelenítése</string>
+    <string name="qkreply_menu_collapse">Kevesebb megjelenítése</string>
+    <string name="qkreply_menu_view">Beszélgetés megnyitása</string>
+    <string name="changelog_title">Újdonságok az SMS-ben</string>
+    <string name="changelog_version">Verzió %s</string>
+    <string name="changelog_added">Hozzáadva</string>
+    <string name="changelog_improved">Javítva</string>
+    <string name="changelog_fixed">Kijavítva</string>
+    <string name="changelog_more">Továbbiak</string>
+    <string name="changelog_dismiss">Bezárás</string>
+    <string-array name="notification_actions">
+        <item>None</item>
+        <item>Megjelölés olvasottként</item>
+        <item>Válasz</item>
+        <item>Hívás</item>
+        <item>Törlés</item>
+    </string-array>
+    <string name="button_yes">Igen</string>
+    <string name="button_continue">Folytatás</string>
+    <string name="button_cancel">Mégse</string>
+    <string name="button_delete">Törlés</string>
+    <string name="button_save">Mentés</string>
+    <string name="button_stop">Leállítás</string>
+    <string name="button_more">Tovább</string>
+    <string name="button_set">Beállítás</string>
+    <string name="button_undo">Visszavonás</string>
+    <string name="toast_copied">Másolva</string>
+    <string name="toast_archived">Archivált beszélgetés</string>
+    <string name="toast_sms_plus">A használatához engedélyezni kell az SMS+-t</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Új üzenet</item>
+        <item quantity="other">%s új üzenet</item>
+    </plurals>
+    <string name="notification_message_failed_title">Az üzenet küldése nem sikerült</string>
+    <string name="notification_message_failed_text">Az %s számra küldött üzenet nem sikerült</string>
+    <string name="privacy_policy">Adatvédelmi irányelvek</string>
+    <string name="pocket_data_on">A zseb-adatoknak be kell lenniük a MMS küldése közben!</string>
+    <string name="inapp_details" translatable="false">Azért, hogy eltávolítsa a hirdetéseket, próbálja ki a prémium előfizetést sötét-világos mód támogatással\nÜtemezett SMS-támogatással.</string>
+    <string name="drawer_removeAds">Hirdetések eltávolítása</string>
+    <string name="in_app_ads">üzenetek_rad</string>
+    <string name="dialog_delete_message">Biztosan törölni szeretné ezt az üzenetet?</string>
+    <string name="compose_bar_not_support">A feladó nem támogatja a válaszokat</string>
+    <string name="default_name">Az SMS küldéséhez vagy fogadásához be kell állítania azt alapértelmezett alkalmazásként. Szeretné, hogy az üzenet az alapértelmezett alkalmazása legyen?</string>
+    <string name="confirm_delete">Törlés megerősítése</string>
+    <string name="confirm_delete_text">Biztosan törölni szeretné ezt a megjegyzést?</string>
+    <string name="title">Cím</string>
+    <string name="note">Megjegyzés</string>
+    <string name="search">Keresés</string>
+    <string name="settings">Beállítások</string>
+    <string name="share_to">Megosztás ide:</string>
+    <string name="sort">Rendezés</string>
+    <string name="empty_list_text">Nyomja meg a jobb alsó gombot egy új megjegyzés hozzáadásához!</string>
+    <string name="new_note">Új megjegyzés</string>
+    <string name="undo">Visszavonás</string>
+    <string name="delete">Törlés</string>
+    <string name="exception">Kivétel:</string>
+    <string name="edit_note">Megjegyzés szerkesztése</string>
+    <string name="drawer_feedback">Visszajelzés küldése</string>
+    <string name="drawer_mode">Világos mód</string>
+    <string name="unlimited_access_user">Korlátlan hozzáférés \nminden funkcióhoz</string>
+    <string name="pro_user">Prémium felhasználó vagy</string>
+    <string name="sub_info_text"><b>Az előfizetés automatikusan megújul, amíg ki nem kapcsolja.</b></string>
+    <string name="cancel_purchase">A Google Play előfizetésben automatikusan megújuló előfizetéseket a Feliratkozások részben tudja leállítani.</string>
+    <string name="remove_ads">Hirdetések eltávolítása</string>
+    <string name="no_ads">Nincsenek hirdetések</string>
+    <string name="free_trial">7 napos ingyenes próbaverzió, majd automatikus megújulás</string>
+    <string name="can_not_talk_right_now">Sajnálom, most nem tudok beszélni</string>
+    <string name="can_call_you_later">Visszahívhatom később?</string>
+    <string name="i_am_on_my_way">Úton vagyok</string>
+    <string name="write_personal_message">Írjon személyes üzenetet</string>
+    <string name="create_reminder">Új emlékeztető létrehozása</string>
+    <string name="remind_me_about">Emlékeztessen erre</string>
+    <string name="no_title">Nincs cím</string>
+    <string name="edit_contact">Kapcsolat szerkesztése</string>
+    <string name="add_contact">Kapcsolat hozzáadása</string>
+    <string name="messages">Üzenetek</string>
+    <string name="send_mail">E-mail küldése</string>
+    <string name="calendar">Naptár</string>
+    <string name="web">Web</string>
+    <string-array name="night_modes">
+        <item>Rendszer</item>
+        <item>Világos mód</item>
+        <item>Sötét mód</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>Név és üzenet megjelenítése</item>
+        <item>Név megjelenítése</item>
+        <item>Tartalom elrejtése</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>Kicsi</item>
+        <item>Normál</item>
+        <item>Nagy</item>
+        <item>Nagyobb</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>Nincs késleltetés</item>
+        <item>Rövid</item>
+        <item>Közepes</item>
+        <item>Hosszú</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Automatikus</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>Nincs tömörítés</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>Rendben</item>
+        <item>Adj egy pillanatot</item>
+        <item>Úton vagyok</item>
+        <item>Köszönöm</item>
+        <item>Jó hangzik</item>
+        <item>Mi újság?</item>
+        <item>Egyetértek</item>
+        <item>Nem</item>
+        <item>Szeretlek</item>
+        <item>Bocsánat</item>
+        <item>LOL</item>
+        <item>Rendben van</item>
+    </string-array>
+    <string name="default_title">Engedélyezi az SMS alkalmazást alapértelmezett alkalmazásként</string>
+    <string name="set_as_defaault">Beállítás alapértelmezettként</string>
+    <string name="love_app_title">Tegye az SMS alkalmazást az alapértelmezett SMS alkalmazásává</string>
+    <string-array name="gif">
+        <item>Állatarc</item>
+        <item>Emoji</item>
+        <item>Gyümölcsök és zöldségek</item>
+        <item>Halloween</item>
+        <item>Szeretet</item>
+    </string-array>
+    <string name="Sticker">Matrica</string>
+    <string name="no_connection">Nincs internetkapcsolat.</string>
+    <string-array name="sticker">
+        <item>Fiu</item>
+        <item>Karikatúra</item>
+        <item>Arc</item>
+        <item>Ünnep</item>
+        <item>Gyümölcs</item>
+        <item>Vicces</item>
+        <item>Lány</item>
+        <item>Szeretet Matrica</item>
+        <item>Egyéb</item>
+        <item>Kutya</item>
+    </string-array>
+    <string name="open_link_to_browser">Link megnyitása a böngészőben</string>
+    <string name="battery_dialog">Nem szeretnék fontos SMS-eket lemaradni? \n
+    Kapcsolja ki az akkumulátor optimalizálását</string>
+    <string name="reason_to_change_battery_optimization_setting">Ugrás az alkalmazás információhoz &gt; Speciális &gt; Akkumulátor optimalizálás \né és válassza ki a „Nem optimalizálás” lehetőséget</string>
+    <string name="feedback_txt">Mondja el tapasztalatait, és adjon javaslatokat az üzenetalkalmazás javítására. </string>
+    <string name="reason_to_change_battery"> Speciális &gt; Akkumulátor optimalizálás &gt; „Nem optimalizálás”</string>
+    <string name="drawer_transaction">Tranzakciók</string>
+    <string name="drawer_promotion">Promóciók</string>
+    <string name="unknown">Ismeretlen </string>
+    <string name="priva"><u>Adatvédelmi irányelvek</u></string>
+    <string name="smsfilter">SMS Szűrő</string>
+    <string name="by_click_t_c" translatable="false"><u>Az Általános Szerződési Feltételeket elfogadva.</u></string>
+    <string name="continue_without_sub"><u>Folytatás előfizetés nélkül</u></string>
+    <string name="text_free_trial">Élvezze a X napos <b>Ingyenes Próbaverziót</b> - Azután X € / hónap</string>
+    <string name="calldorado_message">Ellenőrizze az összes <b>üzenetet</b> mielőtt befejezi a hívást! Van hír</string>
+    <string name="privacy_terms_description">A folytatással elfogadja és jóváhagyja a felhasználási feltételeket és az adatvédelmi irányelveket.</string>
+    <string name="draw_over_description"><![CDATA[Az alkalmazásunk az alkalmazások tetején jelenik meg. Élvezze az összes SMS hívás widgetet és még több lehetőséget.]]></string>
+    <string name="ad_label">HIRDETÉS</string>
+    <string name="onboarding_continue_button">Folytatás</string>
+    <string name="onboarding_step_1_title">SMS és üzenetkezelő</string>
+    <string name="onboarding_step_1_subtitle">Beszélgetés barátaival, csoportok létrehozása és bejövő rendszerezése</string>
+    <string name="onboarding_step_1_hight_light">Egyedi megközelítés Önnek</string>
+    <string name="onboarding_step_2_title">Üzenetek rendezése és tárolása</string>
+    <string name="onboarding_step_2_subtitle">Üzeneteinek biztonsági másolatának készítése és visszaállítása</string>
+    <string name="onboarding_step_2_hight_light">Több ezer felhasználó kedveli</string>
+    <string name="onboarding_step_3_title">Élvezze az életet, hagyja, hogy mi gondoskodjunk a bejövő üzenetekről</string>
+    <string name="onboarding_step_3_subtitle">Elfogadja a jogosultságokat, hogy segítsünk Önnek az üzenetek kezelésében.</string>
+    <string name="onboarding_step_3_hight_light">Lehet később is</string>
+    <string name="onboarding_allow_access_button">Jogosultságok engedélyezése</string>
+    <string name="onboarding_step_4_title">Optimalizálja az akkumulátort, hogy mi végezhessük el a munkát</string>
+    <string name="onboarding_step_4_subtitle">Mi fogjuk intézni az idegesítő SMS-eket.</string>
+    <string name="onboarding_step_4_hight_light">Több ezer felhasználó kedveli</string>
+    <string name="onboarding_step_5_title">Képernyő felosztása más alkalmazásokkal való munka közben</string>
+    <string name="onboarding_step_5_subtitle">Élvezze fantasztikus hívás widgetünket, amely lehetővé teszi az egyszerre több feladat elvégzését</string>
+    <string name="onboarding_step_5_hight_light">Több ezer felhasználó kedveli</string>
+    <string name="payment_card_title">Chat most!</string>
+    <string name="payment_card_price"><![CDATA[3 napos ingyenes próba, %s / %s]]></string>
+    <string name="payment_card_button">Próbálja ki most ingyen</string>
+    <string name="payment_card_hight_light">Biztonságos a Play Áruházzal</string>
+    <string name="payment_card_weekly">heti</string>
+    <string name="payment_card_monthly">havi</string>
+    <string name="payment_card_yearly">éves</string>
+    <string name="payment_card_auto_renew">automatikusan megújuló előfizetés, bármikor lemondható</string>
+    <string name="accessibility_service_description">Az Ön hozzáférhetőségi szolgáltatásának leírása</string>
+    <string name="permission_txt"><font color="#FF8A00">Engedély szükséges:</font>\nTelefonállapot olvasása és Más alkalmazások felett rajzolás</string>
+    <string name="opt_privacy">A folytatással elfogadja és jóváhagyja a felhasználási feltételeket és az adatvédelmi irányelveket.</string>
+    <string name="permission_required">Engedélyek szükségesek</string>
+    <string name="permission_dialog_body">Ez az alkalmazás nem működhet megfelelően a telefon engedély nélkül. Az engedély bekapcsolásához kövesse az alábbi utasításokat:\n\n1. Válassza ki a "Engedélyeket"\n2. Keresse meg a "Telefon" lehetőséget a engedélyek listájában, majd koppintson a bekapcsoláshoz</string>
+    <string name="go_premium">Prémium <font color = "#FFE600">változat!</font></string>
+    <string name="unlock_everything">Minden zárolás feloldása és nincsenek hirdetések</string>
+    <string name="start_three_day">Indítás 3 napos ingyenes próbával</string>
+    <string name="pro">Pro</string>
+    <string name="more_option">További lehetőség</string>
+    <string name="rate_us_5">Értékelje 5 csillaggal</string>
+    <string name="help_feedback">Súgó és visszajelzés</string>
+    <string name="send_message">Üzenet küldése</string>
+    <string name="CTA_Button_Text">Érintse meg az összes funkciót <font color="#FFFBCD04">feloldáshoz</font></string>
+
+</resources>

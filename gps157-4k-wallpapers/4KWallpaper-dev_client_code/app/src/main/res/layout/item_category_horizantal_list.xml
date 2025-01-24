@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/ll_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:id="@+id/ll_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_stock_hashtag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stock_category"
+                android:fontFamily="@font/algeko"
+                android:textColor="?attr/my_textColor_cat"
+                android:textSize="@dimen/category_title_text_size"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvStoryList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_header"
+            android:layout_marginTop="12dp"
+            android:clipToPadding="false"
+            android:orientation="horizontal" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_header_other"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/other_category_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/other_category"
+            android:fontFamily="@font/algeko"
+            android:textColor="?attr/my_textColor_cat"
+            android:textSize="@dimen/category_title_text_size"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

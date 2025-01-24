@@ -4,6 +4,9 @@
 # Ignore build output directories
 **/build/
 
+# Ignore build output directories
+**/out/
+
 # Ignore Android Studio project files
 **/*.iml
 **/.idea/

@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_translucent_frame"
+    tools:context=".activities.camera.CameraActivity">
+
+
+
+    <include
+        android:id="@+id/layout_ocr_image"
+        layout="@layout/layout_ocr_image_preview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/tab_ocr_type"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <include
+        android:id="@+id/layout_ocr_text"
+        layout="@layout/layout_ocr_text_preview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/tab_ocr_type"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_image_captured"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        android:layout_marginBottom="10dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/layout_translate_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_remove_ocr">
+
+        <com.theartofdev.edmodo.cropper.CropImageView
+            android:id="@+id/image_holder"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:cropBorderCornerColor="@color/colorAccent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_ocr_result_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:padding="12dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:id="@+id/view_container_ocr_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/left_rounded_rect_three_d"
+            android:padding="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5">
+
+            <RelativeLayout
+                android:id="@+id/ocr_result_container_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_ocr_input">
+
+
+                <TextView
+                    android:id="@+id/tv_ocr_result_src_lang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="35dp"
+                    android:text="English" />
+
+                <TextView
+                    android:id="@+id/tv_ocr_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_ocr_result_src_lang"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="35dp"
+                    android:layout_marginBottom="15dp"
+                    android:ellipsize="end"
+                    android:maxLines="4"
+                    android:textSize="10sp"
+                    android:text="@string/in_app_name"
+                    android:textColor="@color/black" />
+
+                <ProgressBar
+                    android:id="@+id/progress_ocr"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_below="@+id/tv_ocr_input"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="15dp"
+
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ocr_result_container_output"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ocr_result_container_input"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_ocr_output"
+                android:visibility="gone">
+
+
+                <TextView
+                    android:id="@+id/tv_ocr_result_tar_lang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="35dp"
+                    android:text="French"
+                    android:textColor="@color/white"
+
+                    />
+
+
+                <TextView
+                    android:id="@+id/tv_ocr_output"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_ocr_result_tar_lang"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="35dp"
+                    android:layout_marginBottom="15dp"
+                    android:ellipsize="end"
+                    android:maxLines="4"
+                    android:textSize="10sp"
+                    android:text="@string/in_app_name"
+                    android:textColor="@color/white"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/iv_arrow_ocr_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ocr_result_container_output"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="7dp"
+                android:src="@drawable/ic_arrow_ocr_more"
+                android:visibility="gone" />
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_clear_ocr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/view_container_ocr_result"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/view_container_ocr_result"
+            app:srcCompat="@drawable/ic_cross_ocr_result" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_container_ad_ocr"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:id="@+id/camera_native_admob"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible" />
+
+        <FrameLayout
+            android:id="@+id/camera_native_fb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/iv_remove_ocr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_remove_ocr"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_container_ad_ocr" />
+
+    <RelativeLayout
+        android:id="@+id/layout_lang_ocr_src"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="27dp"
+        android:background="@drawable/bg_ocr_langs"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_remove_ocr"
+        app:layout_constraintEnd_toStartOf="@+id/iv_arrow_lang_forward"
+        app:layout_constraintStart_toEndOf="@+id/iv_remove_ocr"
+        app:layout_constraintTop_toTopOf="@+id/iv_remove_ocr">
+
+        <TextView
+            android:id="@+id/tv_lang_src_ocr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/iv_arrow_left"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingStart="10dp"
+            android:paddingTop="6dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="6dp"
+            android:singleLine="true"
+            android:text="English"
+            android:textColor="#fff" />
+
+        <ImageView
+            android:id="@+id/iv_arrow_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_drop_arrow_langs" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_arrow_lang_forward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_lang_forward"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_remove_ocr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iv_remove_ocr"
+
+        />
+
+    <RelativeLayout
+        android:id="@+id/layout_lang_ocr_tar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/bg_ocr_langs"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_remove_ocr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_arrow_lang_forward"
+        app:layout_constraintTop_toTopOf="@+id/iv_remove_ocr">
+
+        <TextView
+            android:id="@+id/tv_lang_tar_ocr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/iv_arrow_right"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingStart="10dp"
+            android:paddingTop="6dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="6dp"
+            android:singleLine="true"
+            android:text="English"
+            android:textColor="#fff" />
+
+        <ImageView
+            android:id="@+id/iv_arrow_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_drop_arrow_langs" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_translate_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_ocr_translate_btn"
+        android:paddingEnd="8dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/tab_ocr_type"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_globe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"
+            android:visibility="gone"
+            android:src="@drawable/ic_globe_translate" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:paddingStart="@dimen/_5sdp"
+            android:paddingEnd="@dimen/_5sdp"
+            android:layout_toEndOf="@+id/iv_globe"
+            android:text="@string/translate"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            />
+    </RelativeLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_ocr_type"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#3375FD"
+        app:layout_constraintBottom_toTopOf="@id/ads_banner_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tabGravity="center"
+        app:tabIndicatorColor="#fff"
+        app:tabIndicatorHeight="1dp"
+        app:tabTextColor="#fff" />
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ads_banner_parent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="1dp"
+        android:background="@drawable/bg_single_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <FrameLayout
+            android:id="@+id/native_banner_container_home_screen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:orientation="vertical" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <FrameLayout
+        android:id="@+id/main_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

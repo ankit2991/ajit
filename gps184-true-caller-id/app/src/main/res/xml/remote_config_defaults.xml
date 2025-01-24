@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+    <entry>
+        <key>GPS119_Banner_Bottom_flag</key>
+        <value>true</value>
+    </entry>
+
+    <entry>
+        <key>GPS119_Interstitial_flag</key>
+        <value>true</value>
+    </entry>
+
+    <entry>
+        <key>GPS119_App_Open_flag</key>
+        <value>true</value>
+    </entry>
+
+    <entry>
+        <key>GPS119_Native_Main_Menu_flag</key>
+        <value>true</value>
+    </entry>
+
+
+    <entry>
+        <key>GPS119_Native_Small_flag</key>
+        <value>true</value>
+    </entry>
+
+    <entry>
+        <key>GPS184_price_plan</key>
+        <value>weekly_subscription3</value>
+    </entry>
+
+    <entry>
+        <key>GPS184_paymentcard_flag</key>
+        <value>false</value>
+    </entry>
+
+    <entry>
+        <key>GPS184_onboarding_flag</key>
+        <value>false</value>
+    </entry>
+
+    <entry>
+        <key>GPS184_openapp_flag</key>
+        <value>false</value>
+    </entry>
+</defaultsMap>
+    <!-- END xml_defaults -->

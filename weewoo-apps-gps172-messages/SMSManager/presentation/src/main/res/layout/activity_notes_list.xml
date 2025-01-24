@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/list_background">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardtool"
+        style="@style/Toolbar"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_margin="@dimen/_7sdp"
+        android:background="@drawable/rounded_rectangle_24dp"
+        android:elevation="@dimen/_5sdp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:cardCornerRadius="@dimen/_5sdp"
+        app:contentInsetStartWithNavigation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="?android:attr/itemBackground"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center"
+                android:background="?android:attr/itemBackground"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/ic_back_arrow"
+                android:visibility="gone"
+                app:tint="?android:attr/textColorPrimary" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                style="@style/Toolbar"
+                android:background="?android:attr/itemBackground"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                app:contentInsetStartWithNavigation="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.messaging.textrasms.manager.common.widget.QkTextView
+                    android:id="@+id/toolbarTitle"
+                    style="@style/ToolbarText"
+                    android:layout_marginStart="16dp"
+                    android:visibility="gone" />
+
+                <com.messaging.textrasms.manager.common.widget.QkEditText
+                    android:id="@+id/toolbarSearch"
+                    style="@style/ToolbarText"
+                    android:hint="@string/title_conversations"
+                    android:singleLine="true"
+                    android:textColorHint="?android:attr/textColorTertiary"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    app:textSize="primary" />
+
+                <ImageView
+                    android:id="@+id/cancel"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginEnd="8dp"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"
+                    android:padding="8dp"
+                    android:src="@drawable/ic_cancel_black_24dp"
+                    android:visibility="gone"
+                    app:tint="?android:attr/textColorPrimary" />
+
+            </androidx.appcompat.widget.Toolbar>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:id="@+id/cardtool"-->
+    <!--        style="@style/Toolbar"-->
+    <!--        android:layout_marginLeft="@dimen/_8sdp"-->
+    <!--        android:layout_marginRight="@dimen/_8sdp"-->
+    <!--        android:layout_marginTop="@dimen/_8sdp"-->
+    <!--        android:layout_marginBottom="@dimen/_10sdp"-->
+    <!--        android:animateLayoutChanges="true"-->
+    <!--        android:background="@drawable/rounded_rectangle_24dp"-->
+    <!--        android:elevation="@dimen/_8sdp"-->
+    <!--        android:focusable="true"-->
+    <!--        android:focusableInTouchMode="true"-->
+    <!--        app:cardCornerRadius="@dimen/_5sdp"-->
+    <!--        app:contentInsetStartWithNavigation="0dp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent">-->
+    <!--    <androidx.appcompat.widget.Toolbar-->
+    <!--        android:id="@+id/toolbar"-->
+    <!--        style="@style/Toolbar"-->
+    <!--        android:animateLayoutChanges="true"-->
+    <!--        android:focusable="true"-->
+    <!--        android:focusableInTouchMode="true"-->
+    <!--        android:background="?android:attr/itemBackground"-->
+    <!--        app:theme="@style/ThemeToolbar"-->
+    <!--        app:popupTheme="@style/PopupTheme">-->
+
+    <!--        <com.messaging.textrasms.manager.common.widget.QkEditText-->
+    <!--            android:id="@+id/toolbarSearch"-->
+    <!--            android:singleLine="true"-->
+    <!--            android:hint="Search notes..."-->
+    <!--            android:paddingStart="10dp"-->
+    <!--            android:paddingEnd="10dp"-->
+    <!--            android:visibility="gone"-->
+    <!--            android:textCursorDrawable="@drawable/cursor_color"-->
+    <!--            android:textColorHint="?android:attr/textColorTertiary"-->
+    <!--            app:textSize="primary"-->
+    <!--            tools:textSize="16sp"-->
+    <!--            style="@style/ToolbarText"/>-->
+
+    <!--        <com.messaging.textrasms.manager.common.widget.QkTextView-->
+    <!--            android:id="@+id/toolbarTitle"-->
+    <!--            style="@style/ToolbarText"-->
+    <!--            android:text="Notes"-->
+    <!--            android:theme="@style/PopupTheme"-->
+    <!--            android:layout_marginStart="16dp" />-->
+    <!--    </androidx.appcompat.widget.Toolbar>-->
+    <!--    </androidx.cardview.widget.CardView>-->
+
+    <TextView
+        android:id="@+id/tv_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/empty_list_text"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/cardtool"
+        android:layoutAnimation="@anim/layout_animation_fall_down"
+        android:paddingTop="2dp"
+        android:scrollbars="vertical" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/tools_theme"
+        android:onClick="newNote"
+        android:scaleType="center"
+        android:src="@drawable/ic_note"
+        app:fabSize="normal" />
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3375FD</color>
+    <color name="colorPrimaryDark">#286BF4</color>
+    <color name="colorAccent">#FF247EDE</color>
+    <color name="colorSelection">#95546ae9</color>
+    <color name="black_overlay">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gry">#C2C2C2</color>
+    <color name="rating_inactive">#86037BFC</color>
+    <color name="rating_active">#037BFC</color>
+    <color name="home_gradientbottom">#79b4ec</color>
+    <color name="home_gradienttop">#1576d1</color>
+    <color name="titlegrey">#888888</color>
+    <color name="transparent">#005B4CBA</color>
+
+    <color name="text_color">#474747</color>
+    <color name="main_native_ad_colors">#DFE7F4</color>
+    <color name="grey">#BB9B9B9B</color>
+    <color name="btn_text_color">#4286F5</color>
+    <color name="color_blue_history">#4d8af8</color>
+    <color name="color_ad_mob_background">#9C4286F5</color>
+    <color name="color_ad_mob_background_ocr">#650D0E0E</color>
+    <color name="color_top_overlay_transparent">#65999999</color>
+    <color name="grey_300">#CCCACA</color>
+    <color name="amber_300">#FFD54F</color>
+    <color name="dark_grey">#3a3a3a</color>
+    <color name="ripple_color_right">#5DC63F</color>
+    <color name="ripple_color_left">#A943F1</color>
+    <color name="color_rating_normal">#9CC9FD</color>
+    <color name="color_rating_active">#FFC107</color>
+    <color name="color_subscription_text">#E8676767</color>
+    <color name="color_white_light">#8AFFFFFF</color>
+    <color name="black_translucent">#650D0E0E</color>
+    <color name="black_translucent_frame">#ACACAD</color>
+    <color name="rate_us_btn_color">#7A6CF6</color>
+    <color name="rateus_bg">#0099FF</color>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_margin="@dimen/_8sdp"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="@dimen/_20sdp"
+    app:cardElevation="@dimen/_5sdp"
+    app:cardMaxElevation="@dimen/_5sdp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_navigation_route_planner"
+            app:layout_constraintBottom_toTopOf="@+id/clBottom"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/clBottom"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/clBottom"
+                android:layout_width="0dp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:minHeight="@dimen/_32sdp"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+                <com.gpsnavigation.maps.gpsroutefinder.routemap.utility.AutoResizeTextView
+                    android:id="@+id/textView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:gravity="start"
+                    android:focusable="true"
+                    android:paddingStart="@dimen/_8sdp"
+                    android:ellipsize="none"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:singleLine="true"
+                    android:text="@string/route_finder"
+                    android:textColor="@android:color/black"
+                   android:textSize="10.5sp"
+                    app:autoSizeTextType="uniform"
+                    app:autoSizeMinTextSize="@dimen/_5ssp"
+                    app:autoSizeMaxTextSize="@dimen/_12ssp"
+                    app:autoSizeStepGranularity="1sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.gpsnavigation.maps.gpsroutefinder.routemap.utility.AutoResizeTextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:ellipsize="none"
+                    android:focusable="true"
+                    android:visibility="gone"
+                    android:textColor="@color/black"
+                    android:paddingStart="@dimen/_8sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:singleLine="true"
+                    android:textSize="@dimen/_6ssp"
+                    android:text="@string/route_finder"
+                    app:autoSizeTextType="uniform"
+                    app:autoSizeMinTextSize="@dimen/_5ssp"
+                    app:autoSizeMaxTextSize="@dimen/_12ssp"
+                    app:autoSizeStepGranularity="1sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
+

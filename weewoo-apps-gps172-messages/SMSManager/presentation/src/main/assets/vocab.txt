@@ -1,0 +1,13 @@
+card
+netbanking
+withdrawn via atm
+clr bal
+avail bal
+avbl bal
+salary
+debited
+credited
+debit
+credit
+transaction
+bank

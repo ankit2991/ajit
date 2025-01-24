@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sugest_update_title">Agħżel aġġornament</string>
+    <string name="sugest_update_message">Aġġornament ġdid disponibbli fuq Google Play, jekk jogħġbok aġġorna l-verżjoni tiegħek</string>
+    <string name="force_update_title">Aġġornament disponibbli</string>
+    <string name="force_update_message">Aġġornament ġdid disponibbli fuq Google Play, jekk jogħġbok aġġorna l-verżjoni tiegħek</string>
+    <string name="update_ok">Aġġorna</string>
+    <string name="update_no">Lissa mhux</string>
+    <string name="app_name">#Messaġġ</string>
+    <string name="in_app_name">Messaġġ</string>
+    <string name="splash_app_name">Messaġġ SMS</string>
+    <string name="loading_msg">Jekk jogħġbok stenna...</string>
+    <string name="ads_loading_msg">Ħabib juri reklama...</string>
+    <string name="shortcut_compose_long_label">Konverżazzjoni ġdida</string>
+    <string name="shortcut_compose_short_label">Kompoża</string>
+    <string name="shortcut_compose_disabled_message">Shortcut maħruġ</string>
+    <string name="title_archived">Messaġġijiet Mħassra</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_notification_prefs">Notifiki</string>
+    <string name="title_theme">Tematika</string>
+    <string name="title_conversations">Fittex numri, ismijiet &amp; iżjed</string>
+    <string name="title_compose">Ittajpja isem jew Nru tat-telefown</string>
+    <string name="setup_skip">Neħħi</string>
+    <string name="setup_next">Kompli</string>
+    <string name="menu_add_person">Żid persuna</string>
+    <string name="menu_call">Ċempel</string>
+    <string name="menu_info">Details</string>
+    <string name="menu_save">Salva fil-gallarija</string>
+    <string name="menu_share">Ibgħat</string>
+    <string name="main_drawer_open_cd">Ftaħ il-kaxxa ta\' navigazzjoni</string>
+    <string name="main_title_selected">%d magħżula</string>
+    <string name="main_menu_clear">Ċlura</string>
+    <string name="main_menu_archive">Arċiva</string>
+    <string name="main_menu_unarchive">Tneħħi mill-arċiv</string>
+    <string name="main_menu_delete">Ħassar</string>
+    <string name="main_menu_add_contact">Żid għall-kontatti</string>
+    <string name="main_menu_pin">Pin fuq l-ewwel</string>
+    <string name="main_menu_unpin">Neħħi l-pin</string>
+    <string name="main_menu_read">Markja bħala mħallta</string>
+    <string name="main_menu_unread">Markja bħala mhallta</string>
+    <string name="select_all">Agħżel Kollox</string>
+    <string name="deselect_all">Neħħi l-għażla minn kollox</string>
+    <string name="main_menu_block">Blukk</string>
+    <string name="main_syncing">Jorganizza messaġġijiet...</string>
+    <string name="main_sender_you">Int: %s</string>
+    <string name="main_draft">L-Istorja: %s</string>
+    <string name="main_message_results_title">Riżultati fil-messaġġijiet</string>
+    <string name="main_message_results">%d messaġġ</string>
+    <string name="inbox_empty_text">Il-konverżazzjonijiet tiegħek se jidhru hawn</string>
+    <string name="inbox_search_empty_text">L-ebda riżultati</string>
+    <string name="archived_empty_text">L-ebda konverżazzjonijiet mħassra għalissa..</string>
+    <string name="main_fab_cd">Ibda konverżazzjoni ġdida</string>
+    <string name="main_default_sms_title">Tħobb tisserra Messaġġ?</string>
+    <string name="main_default_sms_message">Issa tisserra l-applikazzjoni SMS l-antik tiegħek</string>
+    <string name="main_default_sms_change">Bidla</string>
+    <string name="main_permission_required">Tista\' teħtieġ permess</string>
+    <string name="main_permission_sms">SMS teħtieġ permess biex tibgħat u tara messaġġijiet SMS</string>
+    <string name="main_permission_contacts">SMS teħtieġ permess biex tara l-kontatti tiegħek</string>
+    <string name="main_permission_allow">Ħalli</string>
+    <string name="main_permission_allow_read">Ħalli Permesso ta\' Qari u Kittieb</string>
+    <string name="drawer_inbox">Kaxxa dħul</string>
+    <string name="drawer_archived">Messaġġijiet Mħassra</string>
+    <string name="drawer_scheduled">Messaġġijiet Skedati</string>
+    <string name="drawer_blocking">Lista Blukkata</string>
+    <string name="drawer_calldorado">Settings Caller</string>
+    <string name="drawer_more">Aktar</string>
+    <string name="drawer_group">Messaġġ gruppat</string>
+    <string name="drawer_settings">Settings</string>
+    <string name="drawer_remove_ads">Neħħi l-Annunzji</string>
+    <string name="drawer_help">Għajnuna u feedback</string>
+    <string name="drawer_invite">Ibgħat lill-ħbieb</string>
+    <string name="dialog_delete_title">Ħassar</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Int żgur li tixtieq tħassar din il-konverżazzjoni?</item>
+        <item quantity="other">Int żgur li tixtieq tħassar %d konverżazzjoni?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Kopja tal-test</item>
+        <item>Ibgħat lura</item>
+        <item>Ħassar</item>
+    </string-array>
+    <string name="compose_number_picker_title">Agħżel numru tat-telefown</string>
+    <string name="compose_number_picker_default">%s ∙ Default</string>
+    <string name="compose_number_picker_once">Biss darba</string>
+    <string name="compose_number_picker_always">Dejjem</string>
+    <string name="compose_title_selected">%d magħżula</string>
+    <string name="compose_subtitle_results">%1$d min %2$d riżultat</string>
+    <string name="contact_selected">%1$d min %2$d Magħżula</string>
+    <string name="compose_send_group_title">Ibgħat bħala messaġġ tal-grupp</string>
+    <string name="compose_send_group_summary">Ir-riċipienti u r-risposti ser ikunu viżibbli lil kulħadd</string>
+    <string name="compose_messages_empty">Bidu ta \'konverżazzjoni tiegħek. Għid xi ħaġa sabiħa!</string>
+    <string name="compose_vcard_label">Kard tal-kuntatt</string>
+    <string name="compose_scheduled_for">Skedati għal</string>
+    <string name="compose_scheduled_future"> l-ħin għandu jkun fil-futur!</string>
+    <string name="compose_scheduled_toast">Miżjuda għall-messaġġijiet skedati</string>
+    <string name="compose_hint">Ikteb Hawn ...</string>
+    <string name="compose_menu_copy">Kopja tal-test</string>
+    <string name="compose_menu_forward">Ibgħat lura</string>
+    <string name="compose_menu_delete">Ħassar</string>
+    <string name="compose_menu_previous">Preċedenti</string>
+    <string name="compose_menu_next">Li jmiss</string>
+    <string name="compose_menu_clear">Neħħi l-kollox</string>
+    <string name="compose_details_title">Tagħrif dwar il-messaġġ</string>
+    <string name="compose_details_type">Tip: %s</string>
+    <string name="compose_details_from">Mill: %s</string>
+    <string name="compose_details_to">Lejn: %s</string>
+    <string name="compose_details_subject">Sogħba: %s</string>
+    <string name="compose_details_priority">Priorità: %s</string>
+    <string name="compose_details_size">Daqs: %s</string>
+    <string name="compose_details_sent">Mibgħut: %s</string>
+    <string name="compose_details_received">Irċievut: %s</string>
+    <string name="compose_details_delivered">Dejjem: %s</string>
+    <string name="compose_details_error_code">Kodiċi ta\' żball: %d</string>
+    <string name="compose_attach_cd">Żid allegazzjoni</string>
+    <string name="compose_gallery_cd">Żid ritratt</string>
+    <string name="compose_camera_cd">Żid ritratt</string>
+    <string name="compose_schedule_cd">Messaġġ Skedat</string>
+    <string name="compose_contact_cd">Żid kuntatt</string>
+    <string name="compose_contact_error">Żball qari ta\' kuntatt</string>
+    <string name="compose_sim_cd">%s magħżula, bidla karta SIM</string>
+    <string name="compose_send_cd">Ibgħat messaġġ</string>
+    <string name="message_status_sending">Ibgħat...</string>
+    <string name="message_status_delivered">Mibgħut %s</string>
+    <string name="message_status_failed">Ma seta\'x jitnaqqas</string>
+    <string name="info_title">Tagħrif dwar il-kuntatt</string>
+    <string name="info_copied_address">Indirizz kopjat</string>
+    <string name="info_name">Titolu tal-konverżazzjoni</string>
+    <string name="info_notifications">Notifiki</string>
+    <string name="info_theme">Tematika</string>
+    <string name="info_archive">Arċivju</string>
+    <string name="info_unarchive">Iftaħ mill-arċiv</string>
+    <string name="info_block">Blokk</string>
+    <string name="info_unblock">Neħħi l-blokk</string>
+    <string name="info_delete">Ħassar konverżazzjoni</string>
+    <string name="gallery_error">Ma setax ikkarka l-midja</string>
+    <string name="gallery_toast_saved">Miġbura fil-gallarija</string>
+    <string name="backup_title">Backup u restawr</string>
+    <string name="backup_backing_up">Jintbagħat il-messaġġijiet</string>
+    <string name="backup_restoring">Restawr mill-backup</string>
+    <string name="backup_last">L-aħħar backup</string>
+    <string name="backup_loading">Loading...</string>
+    <string name="backup_never">Qatt</string>
+    <string name="backup_restore_title">Restawr</string>
+    <string name="backup_restore_summary">Agħżel backup</string>
+    <string name="backup_restore_error_plus">Jekk jogħġbok iftah SMS+ biex tuża backup u restawr</string>
+    <string name="backup_restore_error_backup">Backup qed jidħol...</string>
+    <string name="backup_restore_error_restore">Restawr qed jidħol...</string>
+    <string name="backup_restore_confirm_title">Restawr mill-backup</string>
+    <string name="backup_restore_confirm_message">Int żgur li tixtieq restawr il-messaġġijiet tiegħek minn dan il-backup?</string>
+    <string name="backup_restore_stop_title">Skont restawr</string>
+    <string name="backup_restore_stop_message">Il-messaġġijiet li diġà ġew restawrati jibqgħu fuq il-kompjuter tiegħek</string>
+    <string name="backup_restore_dialog_title">Backups</string>
+    <string name="backup_restore_dialog_summary">/SMS Messages/Backups</string>
+    <string name="backup_restore_dialog_empty">L-ebda backups ma ssib</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">L-ebda messaġġ</item>
+        <item quantity="one">%d messaġġ</item>
+        <item quantity="other">%d messaġġi</item>
+    </plurals>
+    <string name="backup_disclaimer">Sahha, sa issa aħna bdew biss bil-Backup u r-Restawr ta\' SMS!</string>
+    <string name="backup_now">Backup</string>
+    <string name="backup_progress_parsing">Parsing tal-Backup...</string>
+    <string name="backup_progress_running" formatted="false">%d/%d messaġġi</string>
+    <string name="backup_progress_saving">Jiġġielda l-Backup...</string>
+    <string name="backup_progress_syncing">Is-Sinkronizzazzjoni tal-messaġġi...</string>
+    <string name="backup_progress_finished">Mħabbat!</string>
+    <string name="backup_notification_channel_name">Backup u Restawr</string>
+    <string name="Message_notification_channel_name">Sinkronizzazzjoni tal-Messaġġ</string>
+    <string name="scheduled_title">Skedati</string>
+    <string name="schedule_guide">Tista\' żżomm messaġġ skedat billi tagħfas fuq il-buttuna ta\' allegazzjoni li issir għall-iskrin tal-konverżazzjoni tal-messaġġ.</string>
+    <string name="scheduled_empty_description">Ibgħat messaġġ awtomatikament, fid-darba preċiża li trid</string>
+    <string name="scheduled_empty_message_1">Hey! Meta huwa ż-żmien li nħajjar moħħok?</string>
+    <string name="scheduled_empty_message_2">Huwa f\'5 ta\' Marzu</string>
+    <string name="scheduled_empty_message_3">Heyaa! Ara x\'ħabib sabiħ għandi, nħajjar jumok</string>
+    <string name="scheduled_empty_message_3_timestamp">Tibgħat f\'5 ta\' Marzu</string>
+    <string name="scheduled_compose_cd">Skeda messaġġ</string>
+    <string name="scheduled_options_title">Messaġġi Skedati</string>
+    <string-array name="scheduled_options">
+        <item>Ibgħat issa</item>
+        <item>Kopja tal-test</item>
+        <item>Ħassar</item>
+    </string-array>
+    <string name="settings_category_appearance">Tqassim</string>
+    <string name="settings_category_general">Ġenerali</string>
+    <string name="settings_categoryreply">Ir-Risposta</string>
+    <string name="settings_night_title">Modalità Nott</string>
+    <string name="settings_text_size_title">Daqs it-Tipi tal-Font</string>
+    <string name="settings_notifications_title">Notifiki</string>
+    <string name="settings_notifications_o_summary">Ikklikkja biex taġġorna</string>
+    <string name="settings_notification_actions_title">Azzjonijiet</string>
+    <string name="settings_notification_action_1">Buttur 1</string>
+    <string name="settings_notification_action_2">Buttur 2</string>
+    <string name="settings_notification_action_3">Buttur 3</string>
+    <string name="settings_notification_previews_title">Preżentazzjonijiet ta\' Notifiki</string>
+    <string name="settings_notification_wake_title">Nfarka l-iskrin</string>
+    <string name="settings_vibration_title">Vibrazzjoni</string>
+    <string name="settings_ringtone_title">Ton</string>
+    <string name="settings_ringtone_none">Xejn</string>
+    <string name="settings_reply_title">Ir-Risposta</string>
+    <string name="settings_reply_summary">Popup għall-messaġġijiet ġodda</string>
+    <string name="settings_reply_tap_dismiss_title">Ikklikkja biex teħles</string>
+    <string name="settings_reply_tap_dismiss_summary">Ikklikkja barra minn il-popup biex tħallasu</string>
+    <string name="settings_swipe_actions">Azzjonijiet ta\' Swip</string>
+    <string name="settings_swipe_actions_right">Swip lemin</string>
+    <string name="settings_swipe_actions_left">Swip lejn ix-xellug</string>
+    <string name="settings_swipe_actions_change">IBDEL</string>
+    <string name="not_now_txt">Mhux issa</string>
+    <string name="process_title">Dan il-proċess ser jieħu żmien</string>
+    <string name="syncing_done">Sinkronizzazzjoni tal-messaġġ taċċompluta....</string>
+    <string name="all_set_txt">Kollox għażiż. Int lest biex timxi</string>
+    <string name="Personal">Kollha Messaġġi</string>
+    <string name="Other">Mhux magħruf</string>
+    <string name="Spam">Sparuta</string>
+    <string name="setting">Settings</string>
+    <string name="Share">Ibgħat</string>
+    <string name="Rate">Valutana</string>
+    <string name="edit">edita</string>
+    <string name="DarkMode">Modalità Skura</string>
+    <string name="BrightMode">Modalità Illum</string>
+    <string name="Camera">Kamera</string>
+    <string name="Gallery">Gallerija</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">Kuntatt</string>
+    <string name="Schedule">Skeda</string>
+    <string name="Location">Post</string>
+    <string name="Notes">Noti</string>
+    <string name="no_msg">L-ebda Messaġġi għaddejjin...</string>
+    <string name="Start_Chat">Ibda Ċatt</string>
+    <string name="Language">Lingwa</string>
+    <string name="rate_text">Rikkomandana lil ħaddieħor billi tagħżelna fil-Play Store!</string>
+    <string name="sort_by">Sorta minn</string>
+    <string-array name="settings_swipe_actions">
+        <item>Xejn</item>
+        <item>Arċiv</item>
+        <item>Ħassar</item>
+        <item>Oħra</item>
+        <item>Maħruġ</item>
+        <item>Bil-qari</item>
+    </string-array>
+    <string name="settings_mms_size_title">Kompresjoni awtomatika ta\' allegazzjonijiet MMS</string>
+    <string name="settings_sync_title">Sinkronizzazzjoni tal-messaġġi</string>
+    <string name="settings_sync_summary">Ri-sinkronizza l-messaġġi tiegħek mal-bazi tad-data SMS tal-Android nattiva</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Kontroll tal-Telefonati</string>
+    <string name="blocking_manager_sia_title">Għandek irrid</string>
+    <string name="blocked_messages_title">Messaġġi imblukkati</string>
+    <string name="blocked_messages_empty">Il-messaġġi imblukkati tiegħek se jidhru hawn</string>
+    <string name="blocking_block_title">Imblokka</string>
+    <string name="blocking_unblock_title">Neħħi l-Imblokkar</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">Kompli lejn %s u imblokka dan in-numru</item>
+        <item quantity="other">Kompli lejn %s u imblokka dawn in-numri</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">Kompli lejn %s u żżid dan in-numru</item>
+        <item quantity="other">Kompli lejn %s u żżid dawn in-numri</item>
+    </plurals>
+    <string name="widget_loading">Qed jinġab</string>
+    <string name="widget_more">Ara aktar konverżazzjonijiet</string>
+    <string name="qkreply_menu_read">Markja bħala miktub</string>
+    <string name="qkreply_menu_call">Telefonata</string>
+    <string name="qkreply_menu_delete">Ħassar</string>
+    <string name="qkreply_menu_expand">Uri aktar</string>
+    <string name="qkreply_menu_collapse">Uri inqas</string>
+    <string name="qkreply_menu_view">Iftaħ il-konverżazzjoni</string>
+    <string name="changelog_title">Ġdid fl-Messaġġi</string>
+    <string name="changelog_version">Verżjoni %s</string>
+    <string name="changelog_added">Żieda</string>
+    <string name="changelog_improved">Mħassra</string>
+    <string name="changelog_fixed">Immendjat</string>
+    <string name="changelog_more">Aktar</string>
+    <string name="changelog_dismiss">Skarta</string>
+    <string-array name="notification_actions">
+        <item>Xejn</item>
+        <item>Markja bħala miktub</item>
+        <item>Risposta</item>
+        <item>Telefonata</item>
+        <item>Ħassar</item>
+    </string-array>
+    <string name="button_yes">Iva</string>
+    <string name="button_continue">Kompli</string>
+    <string name="button_cancel">Ikkanċella</string>
+    <string name="button_delete">Ħassar</string>
+    <string name="button_save">Salva</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_more">Aktar</string>
+    <string name="button_set">Sistemi</string>
+    <string name="button_undo">Ikkanċella l-aġġornament</string>
+    <string name="toast_copied">Kopjat</string>
+    <string name="toast_archived">Konverżazzjoni Mħabbra</string>
+    <string name="toast_sms_plus">Għandek ikkunċella SMS+ biex tuża dan</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Messaġġ ġdid</item>
+        <item quantity="other">%s messaġġ ġdid</item>
+    </plurals>
+    <string name="notification_message_failed_title">Messaġġ ma nbagħatx</string>
+    <string name="notification_message_failed_text">Il-messaġġ għal %s ma nbagħatx</string>
+    <string name="privacy_policy">Politika tal-privatezza</string>
+    <string name="pocket_data_on">Il-ġodda tal-massaġġi trid tiġi dritta waqt l-ibgħat MMS!</string>
+    <string name="inapp_details" translatable="false">Biex tneħħi r-reklami, ipprova s-ottjenti premium billi tagħti suġġeriment għall-mudell skur-wieli\nTnissil tal-Messaġġi skedati.</string>
+    <string name="drawer_removeAds">Neħħi l-Reklami</string>
+    <string name="in_app_ads">messages_rad</string>
+    <string name="dialog_delete_message">Int żgur li tixtieq tħassar dan il-messaġġ?</string>
+    <string name="compose_bar_not_support">Is-sender ma jiddattax irrisposti</string>
+    <string name="default_name">Biex tibgħat jew tirċievi SMS, trid issibha bħala l-applikazzjoni predefinita. Tixtieq li l-messaġġ ikun l-applikazzjoni predefinita tiegħek?</string>
+    <string name="confirm_delete">Ikkonferma l-Ħassar</string>
+    <string name="confirm_delete_text">Int żgur li tixtieq tħassar dan in-nota?</string>
+    <string name="title">Titlu</string>
+    <string name="note">Nota</string>
+    <string name="search">Fittex</string>
+    <string name="settings">Settings</string>
+    <string name="share_to">Ibgħat għal:</string>
+    <string name="sort">Sorta</string>
+    <string name="empty_list_text">Ibqgħu fuq il-buttuna fuq ix-xellug tad-daħl biex taqdi nota ġdida!</string>
+    <string name="new_note">Nota Ġdida</string>
+    <string name="undo">Ikkanċella</string>
+    <string name="delete">Ħassar</string>
+    <string name="exception">Eċċezzjoni:</string>
+    <string name="edit_note">Immodifika Nota</string>
+    <string name="drawer_feedback">Ibgħat feedback</string>
+    <string name="drawer_mode">Modalitàli Ġusta</string>
+    <string name="unlimited_access_user">Aċċess Ilimits għal Kollha l-Karatteristiċi</string>
+    <string name="pro_user">Inti utent Premium</string>
+    <string name="sub_info_text"><b>L-iskejjel se jirrinnovaw awtomatikament sakemm tagħtihom l-ordni li jirrifjuta.</b></string>
+    <string name="cancel_purchase">Tista\' tikkankella l-riġenerazzjonijiet awtomatiċi ta\' iskadenzi fl-Abbonament f\'Play Store</string>
+    <string name="remove_ads">Neħħi l-Reklami</string>
+    <string name="no_ads">L-ebda Reklami</string>
+    <string name="free_trial">7-jiem ta\' prova ħielsa, immedjatament tirkupra l-ordni</string>
+    <string name="can_not_talk_right_now">Sibħ, ma nistax nipparkja issa</string>
+    <string name="can_call_you_later">Nista\' ngħidlek aktar tard?</string>
+    <string name="i_am_on_my_way">Jiena fuq triqtu</string>
+    <string name="write_personal_message">Ikteb messaġġ personali</string>
+    <string name="create_reminder">Oħroġi rimenat ġdid</string>
+    <string name="remind_me_about">Aħżenini dwar</string>
+    <string name="no_title">L-ebda Titlu</string>
+    <string name="edit_contact">Immodifika Kuntatt</string>
+    <string name="add_contact">Żid Kuntatt</string>
+    <string name="messages">Messaġġi</string>
+    <string name="send_mail">Ibgħat Ittri</string>
+    <string name="calendar">Kalendarju</string>
+    <string name="web">Web</string>
+    <string-array name="night_modes">
+        <item>Sistema</item>
+        <item>Modalità Illum</item>
+        <item>Modalità Skura</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>Uri l-isem u l-messaġġ</item>
+        <item>Uri l-isem</item>
+        <item>Aħbiż il-kontenut</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>Żgħir</item>
+        <item>Normali</item>
+        <item>Kbir</item>
+        <item>Akbar</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>L-ebda tard</item>
+        <item>Qasir</item>
+        <item>Medju</item>
+        <item>Tajjeb</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Awtomatiku</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>L-ebda kompressjoni</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>Ok</item>
+        <item>Għibli minn żmien</item>
+        <item>Fuq it-triq tiegħi</item>
+        <item>Grazzi</item>
+        <item>Sentijiet tajbin</item>
+        <item>X\'inhu?</item>
+        <item>Agħrad</item>
+        <item>Le</item>
+        <item>Inħobbek</item>
+        <item>Sorry</item>
+        <item>LOL</item>
+        <item>Dak huwa tajjeb</item>
+    </string-array>
+    <string name="default_title">Ippermetti lill-App ta \'SMS li tkun l-App predefinita</string>
+    <string name="set_as_defaault">Istabli bħala Default</string>
+    <string name="love_app_title">Ippermetti l-App ta \'SMS li tkun l-App predefinita App SMS tiegħek</string>
+    <string-array name="gif">
+        <item>Animal Face</item>
+        <item>Emoji</item>
+        <item>Frott u Ħxejjex</item>
+        <item>Ħalloween</item>
+        <item>Imħabba</item>
+    </string-array>
+    <string name="Sticker">Sticker</string>
+    <string name="no_connection">L-ebda konnessjoni Internet.</string>
+    <string-array name="sticker">
+        <item>Tifel</item>
+        <item>Kartun</item>
+        <item>Viżaġġ</item>
+        <item>Festa</item>
+        <item>Frott</item>
+        <item>Diversjoni</item>
+        <item>Nibda</item>
+        <item>Sticker tal-Imħabba</item>
+        <item>Oħrajn</item>
+        <item>Il-kelb</item>
+    </string-array>
+    <string name="open_link_to_browser">Open Link to Browser</string>
+    <string name="battery_dialog"> Tixtieq tgħamil xi Sms Important? \n
+Żviluppa l-ottimizzazzjoni tal-batterija</string>
+    <string name="reason_to_change_battery_optimization_setting">Mur għal Informazzjoni App &gt; Avvanzat &gt; Ottimizzazzjoni tal-Batterija \n u tagħżel \'M\'għammiex\'</string>
+    <string name="feedback_txt">Igħidilna dwar l-esperjenza tiegħek u tagħti sugġerimenti biex titjieb l-App Messaġġi. </string>
+    <string name="reason_to_change_battery"> Avvanzat &gt; Ottimizzazzjoni tal-Batterija &gt; \'M\'għammiex\'</string>
+    <string name="drawer_transaction">Trasazzjonijiet</string>
+    <string name="drawer_promotion">Promozzjonijiet</string>
+    <string name="unknown">Mhux Magħruf</string>
+    <string name="priva"><u>Politika tal-privatezza</u></string>
+    <string name="smsfilter">SMS Filtru</string>
+    <string name="by_click_t_c" translatable="false"><u>Bil-klikk tiegħek aċċetta it-Termini u l-Kundizzjonijiet tagħna.</u></string>
+    <string name="continue_without_sub"><u>Ikompli mingħand sottomissjoni</u></string>
+    <string name="text_free_trial">Tgawdi X għoxrin <b> Prova Ħielsa </b> - Imbagħad X € / xahar</string>
+    <string name="calldorado_message">Iċċekkja l-messaġġi kollha tiegħek qabel ma tagħfas il-kompjuter! Hemm aħbarijiet</string>
+    <string name="privacy_terms_description">Billi tkompli, aċċetta u japprova it-termini ta\' użu u l-politika tal-privatezza.</string>
+    <string name="draw_over_description"><![CDATA[Biex turi fuq l-isfel tal-applikazzjonijiet oħrajn iMessiġġi SMS tagħna. Irċievi kollu potenzjal ta \'Widgets tal-iMessiġġi SMS tagħna & aktar]]></string>
+    <string name="ad_label">AD</string>
+    <string name="onboarding_continue_button">Kompli</string>
+    <string name="onboarding_step_1_title">Maġġoranza tal-messaġġi SMS</string>
+    <string name="onboarding_step_1_subtitle">Iċċatta ma \'l-għalliema, tagħmel grupp u organizza l-inbox tiegħek</string>
+    <string name="onboarding_step_1_hight_light">Approċċ uniku Għalik</string>
+    <string name="onboarding_step_2_title">Organizza u ħażen il-messaġġi</string>
+    <string name="onboarding_step_2_subtitle">Backup &amp; irristawra l-messaġġi tiegħek</string>
+    <string name="onboarding_step_2_hight_light">Eluf utentijiet Maqed</string>
+    <string name="onboarding_step_3_title">Ibgħat l-ħajja u ħalli niġġib il-jumla għall-inbox</string>
+    <string name="onboarding_step_3_subtitle">Aċċetta l-permessi biex ninfurmak biex ngħinuk l-inbox tiegħek.</string>
+    <string name="onboarding_step_3_hight_light">Forse aktar tard</string>
+    <string name="onboarding_allow_access_button">Ħalli aċċess</string>
+    <string name="onboarding_step_4_title">Tintagħleb il-batterija tiegħek billi nafu aħna jagħmlu l-ħidma</string>
+    <string name="onboarding_step_4_subtitle">Nħallsu mill-messaġġi SMS tfulitanin.</string>
+    <string name="onboarding_step_4_hight_light">Eluf utentijiet Maqed</string>
+    <string name="onboarding_step_5_title">Iskermieq l-iskrin ta \'split fuq applikazzjonijiet oħra waqt li tqiegħad tiċċatta</string>
+    <string name="onboarding_step_5_subtitle">Tħobb il-widget tagħna tal-ħemsa li tħallik multitasking</string>
+    <string name="onboarding_step_5_hight_light">Eluf utentijiet Maqed</string>
+    <string name="payment_card_title">Stqarru issa!</string>
+    <string name="payment_card_price"><![CDATA[3-ġranet ħielsa, %s / %s]]></string>
+    <string name="payment_card_button">Ipprova issa għal ħielsa</string>
+    <string name="payment_card_hight_light">Mgħarraf bil-Play Store</string>
+    <string name="payment_card_weekly">kull ġimgħa</string>
+    <string name="payment_card_monthly">kull xahar</string>
+    <string name="payment_card_yearly">kull sena</string>
+    <string name="payment_card_auto_renew">sottomissjoni rinnovabbli awtomatikament, ifseħ liema ħin</string>
+    <string name="accessibility_service_description">Deskrizzjoni tas-servizz ta \'aċċessibilità tiegħek</string>
+    <string name="permission_txt"><font color="#FF8A00">Permess Meħtieġ:</font>\nAqra l-istat tat-telefon u Tfakkir fuq applikazzjonijiet oħrajn</string>
+    <string name="opt_privacy">Billi tkompli, aċċetta u japprova it-termini ta\' użu u l-politika tal-privatezza.</string>
+    <string name="permission_required">Permessi Meħtieġa</string>
+    <string name="permission_dialog_body">Dan l-App tista \'ma taħdemx b\'sħiħ mingħajr il-permess tal-telefon. Segwi t-tagħrif hawn taħt biex tħalliha attivata:\n\n1. Agħżel "Permessijiet"\n2. Ibda tara "Telefon" fil-lista ta \'permessi u taħbis biex tattiva</string>
+    <string name="go_premium">Mur <font color = "#FFE600">Premium!</font></string>
+    <string name="unlock_everything">Ftah kollox u bla reklami</string>
+    <string name="start_three_day">Ibda 3 Jiem Prova Ħielsa</string>
+    <string name="pro">Pro</string>
+    <string name="more_option">Aktar Għażla</string>
+    <string name="rate_us_5">Valutak bis-5 Stilel</string>
+    <string name="help_feedback">Għajnuna u Feedback</string>
+    <string name="send_message">Ibgħat Messaġġ</string>
+    <string name="CTA_Button_Text">Ikklikkja biex tiftaħ l-<font color="#FFFBCD04">Karaċteristiċi</font></string>
+</resources>

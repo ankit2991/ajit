@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sugest_update_title">Përditësim i disponueshëm</string>
+    <string name="sugest_update_message">Përditësim i ri i disponueshëm në Google Play, ju lutemi bëni përditësimin e versionit tuaj</string>
+    <string name="force_update_title">Përditësim i disponueshëm</string>
+    <string name="force_update_message">Përditësim i ri i disponueshëm në Google Play, ju lutemi bëni përditësimin e versionit tuaj</string>
+    <string name="update_ok">Përditëso</string>
+    <string name="update_no">Tani nuk</string>
+    <string name="app_name">#Mesazhe</string>
+    <string name="in_app_name">Mesazhet</string>
+    <string name="splash_app_name">Mesazhet SMS</string>
+    <string name="loading_msg">Ju lutemi prisni...</string>
+    <string name="ads_loading_msg">Reklama duke u shfaqur...</string>
+    <string name="shortcut_compose_long_label">Bisedë e re</string>
+    <string name="shortcut_compose_short_label">Kompjo</string>
+    <string name="shortcut_compose_disabled_message">Shkurtim i çaktivizuar</string>
+    <string name="title_archived">Mesazhet e arkivuara</string>
+    <string name="title_settings">Cilësimet</string>
+    <string name="title_notification_prefs">Njoftimet</string>
+    <string name="title_theme">Tema</string>
+    <string name="title_conversations">Kërko numra, emra &amp; më shumë</string>
+    <string name="title_compose">Shkruani një emër ose numër telefoni</string>
+    <string name="setup_skip">Anulo</string>
+    <string name="setup_next">Vazhdo</string>
+    <string name="menu_add_person">Shto person</string>
+    <string name="menu_call">Thirr</string>
+    <string name="menu_info">Detajet</string>
+    <string name="menu_save">Ruaj në galeri</string>
+    <string name="menu_share">Ndani</string>
+    <string name="main_drawer_open_cd">Hap sirtarin e navigimit</string>
+    <string name="main_title_selected">%d i zgjedhur</string>
+    <string name="main_menu_clear">Pastro</string>
+    <string name="main_menu_archive">Arkivo</string>
+    <string name="main_menu_unarchive">Dekarkivo</string>
+    <string name="main_menu_delete">Fshi</string>
+    <string name="main_menu_add_contact">Shto në kontakte</string>
+    <string name="main_menu_pin">Fik në krye</string>
+    <string name="main_menu_unpin">Largo fikjen</string>
+    <string name="main_menu_read">Shënjo si të lexuar</string>
+    <string name="main_menu_unread">Shënjo si të palexuar</string>
+    <string name="select_all">Zgjidh të gjitha</string>
+    <string name="deselect_all">Dëzgjidh të gjitha</string>
+    <string name="main_menu_block">Blloko</string>
+    <string name="main_syncing">Organizimi i mesazheve...</string>
+    <string name="main_sender_you">Ju: %s</string>
+    <string name="main_draft">Skica: %s</string>
+    <string name="main_message_results_title">Rezultate në mesazhe</string>
+    <string name="main_message_results">%d mesazhe</string>
+    <string name="inbox_empty_text">Bisedat tuaja do të shfaqen këtu</string>
+    <string name="inbox_search_empty_text">Asnjë rezultat</string>
+    <string name="archived_empty_text">Asnjë bisedë e arkivuar ende...</string>
+    <string name="main_fab_cd">Fillo një bisedë të re</string>
+    <string name="main_default_sms_title">Dëshironi të Mesazhoni ?</string>
+    <string name="main_default_sms_message">Bëjeni aplikacionin SMS si aplikacionin tuaj parazgjedhur SMS</string>
+    <string name="main_default_sms_change">Ndrysho</string>
+    <string name="main_permission_required">Kërkohet leje</string>
+    <string name="main_permission_sms">SMS ka nevojë për leje për të dërguar dhe shikuar mesazhet SMS</string>
+    <string name="main_permission_contacts">SMS-i ka nevojë për leje për të parë kontaktet tuaja</string>
+    <string name="main_permission_allow">Lejo</string>
+    <string name="main_permission_allow_read">Lejo Lejët e Leximit dhe Shkrimit</string>
+    <string name="drawer_inbox">Shqiponi</string>
+    <string name="drawer_archived">Arkivuar</string>
+    <string name="drawer_scheduled">Mesazhe të Planifikuara</string>
+    <string name="drawer_blocking">Lista e Bllokuar</string>
+    <string name="drawer_calldorado">Cilësimet e Thirrjeve</string>
+    <string name="drawer_more">Më shumë</string>
+    <string name="drawer_group">Bisedë e grupit</string>
+    <string name="drawer_settings">Cilësimet</string>
+    <string name="drawer_remove_ads">Hiq reklamat</string>
+    <string name="drawer_help">Ndihma &amp; feedback</string>
+    <string name="drawer_invite">Ftoji miqtë</string>
+    <string name="dialog_delete_title">Fshi</string>
+
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Jeni të sigurtë që dëshironi të fshini këtë bisedë?</item>
+        <item quantity="other">Jeni të sigurtë që dëshironi të fshini %d biseda?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Kopjo tekstin</item>
+        <item>Perpara</item>
+        <item>Fshi</item>
+    </string-array>
+    <string name="compose_number_picker_title">Zgjidhni një numër telefoni</string>
+    <string name="compose_number_picker_default">%s ∙ Parazgjedhur</string>
+    <string name="compose_number_picker_once">Vetëm një herë</string>
+    <string name="compose_number_picker_always">Përgjithmonë</string>
+    <string name="compose_title_selected">%d të zgjedhur</string>
+    <string name="compose_subtitle_results">%1$d prej %2$d rezultateve</string>
+    <string name="contact_selected">%1$d prej %2$d të zgjedhur</string>
+    <string name="compose_send_group_title">Dërgo si bisedë grupi</string>
+    <string name="compose_send_group_summary">Marrësit dhe përgjigjet do të jenë të dukshme për të gjithë</string>
+    <string name="compose_messages_empty"> Filloni bisedën tuaj. Thoni diçka të mrekullueshme!</string>
+    <string name="compose_vcard_label">Kartë kontakti</string>
+    <string name="compose_scheduled_for">E planifikuar për</string>
+    <string name="compose_scheduled_future">koha duhet të jetë në të ardhmen!</string>
+    <string name="compose_scheduled_toast">Shtuar te mesazhet e planifikuara</string>
+    <string name="compose_hint">Shkruani Këtu…</string>
+    <string name="compose_menu_copy">Kopjo tekstin</string>
+    <string name="compose_menu_forward">Përpara</string>
+    <string name="compose_menu_delete">Fshi</string>
+    <string name="compose_menu_previous">Paraprake</string>
+    <string name="compose_menu_next">Pasuese</string>
+    <string name="compose_menu_clear">Pastro</string>
+    <string name="compose_details_title">Detajet e mesazhit</string>
+    <string name="compose_details_type">Lloji: %s</string>
+    <string name="compose_details_from">Nga: %s</string>
+    <string name="compose_details_to">Për: %s</string>
+    <string name="compose_details_subject">Subjekti: %s</string>
+    <string name="compose_details_priority">Prioriteti: %s</string>
+    <string name="compose_details_size">Madhësia: %s</string>
+    <string name="compose_details_sent">Dërguar: %s</string>
+    <string name="compose_details_received">Marrë: %s</string>
+    <string name="compose_details_delivered">Dërguar: %s</string>
+    <string name="compose_details_error_code">Kodi i gabimit: %d</string>
+    <string name="compose_attach_cd">Shtoni një bashkëngjitje</string>
+    <string name="compose_gallery_cd">Bashkëngjit një foto</string>
+    <string name="compose_camera_cd">Bëj një foto</string>
+    <string name="compose_schedule_cd">Planifikoni mesazhin</string>
+    <string name="compose_contact_cd">Bashkëngjit një kontakt</string>
+    <string name="compose_contact_error">Gabim në leximin e kontaktit</string>
+    <string name="compose_sim_cd">%s i zgjedhur, ndryshoni kartën SIM</string>
+    <string name="compose_send_cd">Dërgoni mesazhin</string>
+    <string name="message_status_sending">Duke dërguar…</string>
+    <string name="message_status_delivered">Dërguar %s</string>
+    <string name="message_status_failed">Dështoi të dërgohet</string>
+    <string name="info_title">Detajet e kontaktit</string>
+    <string name="info_copied_address">Adresa u kopjua</string>
+    <string name="info_name">Titulli i bisedës</string>
+    <string name="info_notifications">Njoftimet</string>
+    <string name="info_theme">Tema</string>
+    <string name="info_archive">Arkivo</string>
+    <string name="info_unarchive">Dekarkivo</string>
+    <string name="info_block">Blloko</string>
+    <string name="info_unblock">Hiq bllokimin</string>
+    <string name="info_delete">Fshi bisedën</string>
+    <string name="gallery_error">Nuk mund të ngarkohet media</string>
+    <string name="gallery_toast_saved">U ruajt në galeri</string>
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+    <string name="default_notification_channel_name">Emri i kanalit parazgjedhës i njoftimeve</string>
+    <string name="backup_title">Bakupi dhe rikthimi</string>
+    <string name="backup_backing_up">Duke bërë kopje rezervë të mesazheve</string>
+    <string name="backup_restoring">Duke rikthyer nga kopja rezervë</string>
+    <string name="backup_last">Bakupi i fundit</string>
+    <string name="backup_loading">Duke u ngarkuar…</string>
+    <string name="backup_never">Kurrë</string>
+    <string name="backup_restore_title">Rikthe</string>
+    <string name="backup_restore_summary">Zgjidhni një kopje rezervë</string>
+    <string name="backup_restore_error_plus">Ju lutemi, hapni SMS+ për të përdorur bakupin dhe rikthimin</string>
+    <string name="backup_restore_error_backup">Bakupi në progres…</string>
+    <string name="backup_restore_error_restore">Rikthimi në progres…</string>
+    <string name="backup_restore_confirm_title">Rikthe nga kopja rezervë</string>
+    <string name="backup_restore_confirm_message">Jeni të sigurtë që dëshironi të riktheni mesazhet tuaja nga kjo kopje rezervë?</string>
+    <string name="backup_restore_stop_title">Ndalo rikthimin</string>
+    <string name="backup_restore_stop_message">Mesazhet që tashmë janë rikthyer do të mbeten në pajisjen tuaj</string>
+    <string name="backup_restore_dialog_title">Bakupet</string>
+    <string name="backup_restore_dialog_summary">/SMS Messages/Backupet</string>
+    <string name="backup_restore_dialog_empty">Asnjë bakup i gjetur</string>
+
+    <plurals name="backup_message_count">
+        <item quantity="zero">Asnjë mesazh</item>
+        <item quantity="one">%d mesazh</item>
+        <item quantity="other">%d mesazhe</item>
+    </plurals>
+    <string name="backup_disclaimer">Deri më tani, ne mbështetëm vetëm SMS me Backup dhe Rikthim!</string>
+    <string name="backup_now">Backup</string>
+    <string name="backup_progress_parsing">Duke analizuar backupin…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d mesazhe</string>
+    <string name="backup_progress_saving">Duke ruajtur backupin…</string>
+    <string name="backup_progress_syncing">Duke sinkronizuar mesazhet…</string>
+    <string name="backup_progress_finished">Përfundoi!</string>
+    <string name="backup_notification_channel_name">Backup dhe rikthim</string>
+    <string name="Message_notification_channel_name">Sinkronizimi i mesazheve</string>
+    <string name="scheduled_title">E planifikuar</string>
+    <string name="schedule_guide">Ju mund të vendosni mesazhin e planifikuar duke klikuar në butonin e bashkëngjitur që është dhënë në ekranin e bisedës së mesazhit.</string>
+    <string name="scheduled_empty_description">Dërgoni automatikisht një mesazh, në momentin e sakta që dëshironi</string>
+    <string name="scheduled_empty_message_1">Hej! Kur është koha për të festuar momentin?</string>
+    <string name="scheduled_empty_message_2">Është më 5 mars</string>
+    <string name="scheduled_empty_message_3">Hejaa! Shikoni se sa mik i mirë jam, duke festuar ditën tuaj</string>
+    <string name="scheduled_empty_message_3_timestamp">Duke dërguar më 5 mars&#x200A;</string>
+    <string name="scheduled_compose_cd">Planifikoni një mesazh</string>
+    <string name="scheduled_options_title">Mesazh i planifikuar</string>
+    <string-array name="scheduled_options">
+        <item>Dërgo tani</item>
+        <item>Kopjo tekstin</item>
+        <item>Fshi</item>
+    </string-array>
+    <string name="settings_category_appearance">Pamja</string>
+    <string name="settings_category_general">Përgjithshme</string>
+    <string name="settings_categoryreply">Përgjigjja</string>
+    <string name="settings_night_title">Mënyra e natës</string>
+    <string name="settings_text_size_title">Madhësia e shkronjave</string>
+    <string name="settings_notifications_title">Njoftimet</string>
+    <string name="settings_notifications_o_summary">Kliko për ta përshtatur</string>
+    <string name="settings_notification_actions_title">Veprimet</string>
+    <string name="settings_notification_action_1">Butoni 1</string>
+    <string name="settings_notification_action_2">Butoni 2</string>
+    <string name="settings_notification_action_3">Butoni 3</string>
+    <string name="settings_notification_previews_title">Parapamjet e njoftimeve</string>
+    <string name="settings_notification_wake_title">Ndizja e ekranit</string>
+    <string name="settings_vibration_title">Drithërimi</string>
+    <string name="settings_ringtone_title">Zëri</string>
+    <string name="settings_ringtone_none">Asnjë</string>
+    <string name="settings_reply_title">Përgjigjja</string>
+    <string name="settings_reply_summary">Popup për mesazhet e reja</string>
+    <string name="settings_reply_tap_dismiss_title">Kliko për të mbyllur</string>
+    <string name="settings_reply_tap_dismiss_summary">Kliko jashtë popupit për ta mbyllur atë</string>
+    <string name="settings_swipe_actions">Veprimet e shkundjes</string>
+    <string name="settings_swipe_actions_right">Shkundja e djathtë</string>
+    <string name="settings_swipe_actions_left">Shkundja e majtë</string>
+    <string name="settings_swipe_actions_change">NDYSHO</string>
+    <string name="not_now_txt">Tani nuk</string>
+    <string name="process_title">Ky proces do të \nmbajë një kohë</string>
+    <string name="syncing_done">Përfundoi sinkronizimi i mesazheve....</string>
+    <string name="all_set_txt">Të gjitha të pregatitura. Jeni gati për të filluar</string>
+    <string name="Personal">Të gjitha Mesazhet</string>
+    <string name="Other">Të njohura </string>
+    <string name="Spam">Turpi</string>
+    <string name="setting">Cilësimet</string>
+    <string name="Share">Ndaj</string>
+    <string name="Rate">Na vlerësoni</string>
+    <string name="edit">redakto</string>
+    <string name="DarkMode">Mënyra e Errët</string>
+    <string name="BrightMode">Mënyra e Nxehtë</string>
+    <string name="Camera">Kamera</string>
+    <string name="Gallery">Galeria</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">Kontakt</string>
+    <string name="Schedule">Planifikoni</string>
+    <string name="Location">Vendndodhja</string>
+    <string name="Notes">Shënime</string>
+    <string name="no_msg">Ende nuk ka Mesazhe…</string>
+    <string name="Start_Chat">Filloni Bisedën</string>
+    <string name="Language">Gjuha</string>
+    <string name="rate_text">Na sugjeroni te të tjerët duke \nna vlerësuar në Play Store!</string>
+    <string name="sort_by">Rendit sipas</string>
+    <string-array name="settings_swipe_actions">
+        <item>Asnjë</item>
+        <item>Arkivo</item>
+        <item>Fshi</item>
+        <item>Thirr</item>
+        <item>Shënimi si lexuar</item>
+        <item>Shënimi si e pabërë</item>
+    </string-array>
+
+    <string name="settings_mms_size_title">Automatikisht kompresoni bashkëngjiturat MMS</string>
+    <string name="settings_sync_title">Sinkronizoni mesazhet</string>
+    <string name="settings_sync_summary">Ri-sinkronizoni mesazhet tuaja me bazën e të dhënave SMS native të Androidit</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Kontrolli i thirrjeve</string>
+    <string name="blocking_manager_sia_title">Duhet të përgjigjem?</string>
+    <string name="blocked_messages_title">Mesazhet e bllokuara</string>
+    <string name="blocked_messages_empty">Mesazhet tuaja të bllokuara do të shfaqen këtu</string>
+    <string name="blocking_block_title">Blloko</string>
+    <string name="blocking_unblock_title">Hap bllokimin</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">Vazhdoni në %s dhe bllokoni këtë numër</item>
+        <item quantity="other">Vazhdoni në %s dhe bllokoni këta numra</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">Vazhdoni në %s dhe lejoni këtë numër</item>
+        <item quantity="other">Vazhdoni në %s dhe lejoni këta numra</item>
+    </plurals>
+    <string name="widget_loading">Duke u ngarkuar…</string>
+    <string name="widget_more">Shiko më shumë biseda</string>
+    <string name="qkreply_menu_read">Shënimi si lexuar</string>
+    <string name="qkreply_menu_call">Thirr</string>
+    <string name="qkreply_menu_delete">Fshi</string>
+    <string name="qkreply_menu_expand">Trego më shumë</string>
+    <string name="qkreply_menu_collapse">Trego më pak</string>
+    <string name="qkreply_menu_view">Hap bisedën</string>
+    <string name="changelog_title">Çfarë ka të re në SMS</string>
+    <string name="changelog_version">Versioni %s</string>
+    <string name="changelog_added">Shtuar</string>
+    <string name="changelog_improved">Përmirësuar</string>
+    <string name="changelog_fixed">Rregulluar</string>
+    <string name="changelog_more">Më shumë</string>
+    <string name="changelog_dismiss">Mbyll</string>
+    <string-array name="notification_actions">
+        <item>Asnjë</item>
+        <item>Shënimi si lexuar</item>
+        <item>Përgjigju</item>
+        <item>Thirr</item>
+        <item>Fshi</item>
+    </string-array>
+    <string name="button_yes">Po</string>
+    <string name="button_continue">Vazhdo</string>
+    <string name="button_cancel">Anulo</string>
+    <string name="button_delete">Fshi</string>
+    <string name="button_save">Ruaj</string>
+    <string name="button_stop">Ndalo</string>
+    <string name="button_more">Më shumë</string>
+    <string name="button_set">Vendos</string>
+    <string name="button_undo">Zhbëj</string>
+    <string name="toast_copied">Kopjuar</string>
+    <string name="toast_archived">Biseda u arkivua</string>
+    <string name="toast_sms_plus">Duhet të hapni SMS+ për të përdorur këtë</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Mesazh i ri</item>
+        <item quantity="other">%s mesazhe të reja</item>
+    </plurals>
+    <string name="notification_message_failed_title">Mesazhi nuk u dërgua</string>
+    <string name="notification_message_failed_text">Mesazhi për %s dështoi të dërgohej</string>
+    <string name="privacy_policy">Politika e Privatësisë</string>
+    <string name="pocket_data_on">Të dhënat e xhepave duhet të jenë të ndezura gjatë dërgimit të bashkëngjiturave MMS!</string>
+    <string name="inapp_details" translatable="false">Për të hequr reklamat, provoni abonimin premium me mbështetje për mënyrën Errët-Diell\nMbështetje për mesazhe të planifikuara.</string>
+    <string name="drawer_removeAds">Hiq Reklamat</string>
+    <string name="in_app_ads">messages_rad</string>
+    <string name="dialog_delete_message">Jeni të sigurt se dëshironi të fshini këtë mesazh?</string>
+    <string name="compose_bar_not_support">Dërguesi nuk e përkrah përgjigjen</string>
+    <string name="default_name">Për të dërguar ose për të marrë një SMS, duhet ta vendosni atë si aplikacionin parazgjedhës. Dëshironi që mesazhi të bëhet aplikacioni juaj parazgjedhës?</string>
+    <string name="confirm_delete">Konfirmo Fshirjen</string>
+    <string name="confirm_delete_text">Jeni të sigurt se dëshironi të fshini këtë shënim?</string>
+    <string name="title">Titulli</string>
+    <string name="note">Shënim</string>
+    <string name="search">Kërkim</string>
+    <string name="settings">Cilësimet</string>
+    <string name="share_to">Ndaj në:</string>
+    <string name="sort">Rendit</string>
+    <string name="empty_list_text">Shtypni butonin në këndin e poshtëm të djathtë për të shtuar një shënim të ri!</string>
+    <string name="new_note">Shënim i Ri</string>
+    <string name="undo">Zhbëj</string>
+    <string name="delete">Fshi</string>
+    <string name="exception">Përjashtim:</string>
+    <string name="edit_note">Redakto Shënimin</string>
+    <string name="drawer_feedback">Dërgo komente</string>
+    <string name="drawer_mode">Mënyra e Diellit</string>
+    <string name="unlimited_access_user">Akses i Pakufizuar \ntë të gjitha Veçoritë</string>
+    <string name="pro_user">Ju jeni \nPermium përdorues</string>
+    <string name="sub_info_text"><b>Abonimi riaktivohet automatikisht deri sa ta fikni atë.</b></string>
+    <string name="cancel_purchase">Mund të anuloni riaktivimin automatik të abonimit në Abonim në Google Play</string>
+    <string name="remove_ads">Hiq Reklamat</string>
+    <string name="no_ads">Pa Reklama</string>
+    <string name="free_trial">Provë falas 7-ditore, pastaj riaktivohet automatikisht</string>
+    <string name="can_not_talk_right_now">Më vjen keq, nuk mund të flas për momentin</string>
+    <string name="can_call_you_later">A mund të të telefonoj më vonë?</string>
+    <string name="i_am_on_my_way">Jam në rrugë</string>
+    <string name="write_personal_message">Shkruaj një mesazh personal</string>
+    <string name="create_reminder">Krijo një kujtesë të re</string>
+    <string name="remind_me_about">Më kujto për</string>
+    <string name="no_title">Pa Titull</string>
+    <string name="edit_contact">Redakto Kontaktin</string>
+    <string name="add_contact">Shto Kontakt</string>
+    <string name="messages">Mesazhet</string>
+    <string name="send_mail">Dërgo Postë</string>
+    <string name="calendar">Kalendar</string>
+    <string name="web">Web</string>
+    <string-array name="night_modes">
+        <item>Sistemi</item>
+        <item>Mënyra e Nxehtë</item>
+        <item>Mënyra e Errët</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>Trego emrin dhe mesazhin</item>
+        <item>Trego emrin</item>
+        <item>Fshih përmbajtjen</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>E vogël</item>
+        <item>Normale</item>
+        <item>E madhe</item>
+        <item>Më e madhe</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>Pa vonesë</item>
+        <item>E shkurtër</item>
+        <item>E mesme</item>
+        <item>E gjatë</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Automatik</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>Pa komprimim</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>Okay</item>
+        <item>Ma jepni një moment</item>
+        <item>Jam në rrugë</item>
+        <item>Faleminderit</item>
+        <item>Zëndës</item>
+        <item>Ç’ka të re?</item>
+        <item>Dakord</item>
+        <item>Jo</item>
+        <item>Të dua</item>
+        <item>Më vjen keq</item>
+        <item>LOL</item>
+        <item>Kjo është në rregull</item>
+    </string-array>
+    <string name="default_title">Lejoni App-in Sms të jetë aplikacioni parazgjedhës</string>
+    <string name="set_as_defaault">Vendos si Parazgjedhje</string>
+    <string name="love_app_title">Bëni aplikacionin SMS të aplikacioni juaj parazgjedhës i SMS-ve</string>
+    <string-array name="gif">
+        <item>Fytyra e Kafshës</item>
+        <item>Emoji</item>
+        <item>Fruta &amp; Perime</item>
+        <item>Halloween</item>
+        <item>Dashuri</item>
+    </string-array>
+    <string name="Sticker">Sticker</string>
+    <string name="no_connection">Pa lidhje me internetin.</string>
+    <string-array name="sticker">
+        <item>Djali</item>
+        <item>Kartun</item>
+        <item>Fytyra</item>
+        <item>Festa</item>
+        <item>Fruta</item>
+        <item>Kënaqësi</item>
+        <item>Vajza</item>
+        <item>Stickeri i Dashurisë</item>
+        <item>Të tjera</item>
+        <item>Cucë</item>
+    </string-array>
+    <string name="open_link_to_browser">Hap Lidhjen në Shfletues</string>
+    <string name="battery_dialog"> Nuk dëshironi të humbisni SMS e rëndësishme? \n
+Fikni optimizimin e baterisë</string>
+    <string name="reason_to_change_battery_optimization_setting">Shkoni te Info e Aplikacionit &gt; Avancuar &gt; Optimizimi i Baterisë \ndhe zgjidhni \'Mos e optimizoni\'</string>
+    <string name="feedback_txt">Na tregoni për eksperiencën tuaj dhe japni sugjerime për të përmirësuar aplikacionin e Mesazheve.</string>
+    <string name="reason_to_change_battery"> Avancuar &gt; Optimizimi i Baterisë &gt; ‘Mos e optimizoni’</string>
+    <string name="drawer_transaction">Transaksione</string>
+    <string name="drawer_promotion">Promotime</string>
+    <string name="unknown">I panjohur </string>
+    <string name="priva"><u>Politika e Privatësisë</u></string>
+    <string name="smsfilter">Filtrimi i SMS-ve</string>
+    <string name="by_click_t_c" translatable="false"><u>Duke klikuar ju pranoni Kushtet dhe Kushtet e Përdorimit tanë.</u></string>
+    <string name="continue_without_sub"><u>Vazhdoni pa abonim</u></string>
+    <string name="text_free_trial">Kënaquni me Provë të <b>Pa pagesë</b> për X ditë - Pastaj X € / muaj</string>
+    <string name="calldorado_message">Kontrolloni të gjitha <b>mesazhet</b> tuaja para se të mbyllni telefonatën! Ka lajme</string>
+    <string name="privacy_terms_description">Duke vazhduar, ju pranoni dhe miraton kushtet e përdorimit dhe politikën e privatësisë.</string>
+    <string name="draw_over_description"><![CDATA[Që të shfaqeni mbi aplikacionet e tjera mesazhet tona SMS. Merrni të gjitha potencialet e vidëove tona të thirrjeve SMS dhe më shumë]]></string>
+    <string name="ad_label">REKLAMË</string>
+    <string name="onboarding_continue_button">Vazhdo</string>
+    <string name="onboarding_step_1_title">Menaxheri i SMS-ve &amp; Mesazheve</string>
+    <string name="onboarding_step_1_subtitle">Bisedoni me miqtë, krijoni grupe dhe organizojeni skajzën tuaj të postës hyrëse</string>
+    <string name="onboarding_step_1_hight_light">Qasje unike Për Ju</string>
+    <string name="onboarding_step_2_title">Organizoni &amp; ruani mesazhet</string>
+    <string name="onboarding_step_2_subtitle">Bëni backup &amp; ripristinoni mesazhet tuaja</string>
+    <string name="onboarding_step_2_hight_light">Mijëra përdorues e pëlqejnë</string>
+    <string name="onboarding_step_3_title">Kënaquni me jetën &amp; lejojuni ne të kujdesemi për skajzën tuaj të postës hyrëse</string>
+    <string name="onboarding_step_3_subtitle">Pranoni lejet për të na lejuar të ju ndihmojmë në menaxhimin e skajzës suaj të postës hyrëse.</string>
+    <string name="onboarding_step_3_hight_light">Ndoshta më vonë</string>
+    <string name="onboarding_allow_access_button">Lejo aksesin</string>
+    <string name="onboarding_step_4_title">Përmirësojeni baterinë tuaj duke na lejuar të bëjmë punën</string>
+    <string name="onboarding_step_4_subtitle">Ne do të kujdesemi për ndërprerjet e menjëhershme të SMS-ve të bezdisshme.</string>
+    <string name="onboarding_step_4_hight_light">Mijëra përdorues e pëlqejnë</string>
+    <string name="onboarding_step_5_title">Punoni në ekran të ndarë në dy duke biseduar në aplikacione të tjera</string>
+    <string name="onboarding_step_5_subtitle">Kënaquni me vidëon tonë të mrekullueshme thirrjeje që ju lejon të bëni shumë detyra njëkohësisht</string>
+    <string name="onboarding_step_5_hight_light">Mijëra përdorues e pëlqejnë</string>
+    <string name="payment_card_title">Bisedoni tani!</string>
+    <string name="payment_card_price"><![CDATA[Provë 3-ditore, %s / %s]]></string>
+    <string name="payment_card_button">Provoni tani falas</string>
+    <string name="payment_card_hight_light">I siguruar me Play Store</string>
+    <string name="payment_card_weekly">javore</string>
+    <string name="payment_card_monthly">mujore</string>
+    <string name="payment_card_yearly">vjetore</string>
+    <string name="payment_card_auto_renew">abonim i riperkohshëm automatik, anulohet në çdo kohë</string>
+    <string name="accessibility_service_description">Përshkrimi i shërbimit tuaj të qasshmërisë</string>
+    <string name="permission_txt"><font color="#FF8A00">Lejim i Kërkuar:</font>\nLexoni gjendjen e telefonit &amp;  Vizatoni mbi aplikacionet e tjera</string>
+    <string name="opt_privacy">Duke vazhduar, ju pranoni dhe miraton kushtet e përdorimit dhe politikën e privatësisë.</string>
+    <string name="permission_required">Leje të Kërkuara</string>
+    <string name="permission_dialog_body">Ky aplikacion nuk mund të funksionojë saktësisht pa lejen e telefonit. Ndiqni udhëzimet më poshtë për ta aktivizuar atë:\n\n1. Zgjidhni "Leje"\n2. Gjeni "Telefoni" në listën e lejeve dhe rregullojeni</string>
+    <string name="go_premium">Bëhu <font color = "#FFE600">Premium!</font></string>
+    <string name="unlock_everything">Çlironi Të Gjitha &amp; Pa Reklama</string>
+    <string name="start_three_day">Fillo 3 Dite Provë Pa Pagesë</string>
+    <string name="pro">Pro</string>
+    <string name="more_option">Opsione më shumë</string>
+    <string name="rate_us_5">Na Vlerësoni me 5 Yje</string>
+    <string name="help_feedback">Ndihmë &amp; Feedback</string>
+    <string name="send_message">Dërgo Mesazh</string>
+    <string name="CTA_Button_Text">Trokit për të zhbllokuar të gjitha <font color="#FFFBCD04">Veçoritë</font></string>
+</resources>

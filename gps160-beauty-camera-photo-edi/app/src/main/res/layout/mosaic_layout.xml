@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:background="@color/browser_actions_title_color"
+        app:layout_constraintBottom_toTopOf="@id/mosaicLayout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@id/backgroundView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true" />
+
+        <com.lockerroom.face.features.mosaic.MosaicView
+            android:id="@id/mosaicView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true" />
+
+        <RelativeLayout
+            android:id="@id/loadingView"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent">
+
+            <com.agrawalsuneet.dotsloader.loaders.AllianceLoader
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                app:alliance_animDuration="500"
+                app:alliance_distanceMultiplier="3"
+                app:alliance_dotsRadius="10.0dip"
+                app:alliance_drawOnlyStroke="false"
+                app:alliance_firstDotsColor="@color/ball1"
+                app:alliance_secondDotsColor="@color/ball2"
+                app:alliance_thirdDotsColor="@color/ball3" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@id/undo"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginBottom="15.0dip"
+        android:background="@drawable/border_circle"
+        android:clickable="true"
+        android:elevation="100.0dip"
+        android:foreground="@drawable/ripple"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="10.0dip"
+        android:src="@drawable/ic_undo"
+        app:layout_constraintBottom_toTopOf="@id/mosaicLayout"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageView
+        android:id="@id/redo"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginBottom="15.0dip"
+        android:background="@drawable/border_circle"
+        android:clickable="true"
+        android:elevation="100.0dip"
+        android:foreground="@drawable/ripple"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="10.0dip"
+        android:src="@drawable/ic_redo"
+        app:layout_constraintBottom_toTopOf="@id/mosaicLayout"
+        app:layout_constraintLeft_toRightOf="@id/undo" />
+
+    <LinearLayout
+        android:id="@id/mosaicLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="150.0dip"
+        android:background="@color/dark_grey"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15.0dip"
+        app:layout_constraintBottom_toTopOf="@id/confirmToolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <SeekBar
+            android:id="@id/mosaicSize"
+            style="@style/SeekBaStyle"
+            android:layout_marginBottom="15.0dip"
+            android:background="@null"
+            android:max="75"
+            android:progress="40" />
+
+        <SeekBar
+            android:id="@id/eraseSize"
+            style="@style/SeekBaStyle"
+            android:layout_marginBottom="15.0dip"
+            android:background="@null"
+            android:max="100"
+            android:progress="20" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/rvMosaic"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/rvMagicBush"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/confirmToolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:background="@color/dark_grey_more"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:id="@id/imgClose"
+            android:layout_width="45.0dip"
+            android:layout_height="fill_parent"
+            android:clickable="true"
+            android:foreground="@drawable/ripple"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:src="@drawable/ic_close"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@id/shape"
+            android:layout_width="wrap_content"
+            android:layout_height="0.0dip"
+            android:gravity="center"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="8.0dip"
+            android:text="Mosaic"
+            android:textColor="@color/font_color"
+            android:textSize="16.0sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@id/imgSave"
+            android:layout_width="45.0dip"
+            android:layout_height="fill_parent"
+            android:clickable="true"
+            android:foreground="@drawable/ripple"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:src="@drawable/ic_done_24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

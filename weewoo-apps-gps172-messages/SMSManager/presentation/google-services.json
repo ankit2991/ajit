@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "959893933746",
+    "project_id": "gp-talking-tech",
+    "storage_bucket": "gp-talking-tech.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959893933746:android:4ceab2874e13fe93e403ab",
+        "android_client_info": {
+          "package_name": "com.messaging.textrasms.manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959893933746-up9pa1f4498dc6vpndrtpt97ia7fesu6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAScWiIJjE4VGms0HCanaiTFIWCVCrgDTQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959893933746-up9pa1f4498dc6vpndrtpt97ia7fesu6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4975991316875268~9139624274"
+    }
+  ],
+  "configuration_version": "1"
+}

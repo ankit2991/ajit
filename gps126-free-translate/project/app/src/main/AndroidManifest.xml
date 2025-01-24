@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission
+        android:name = "android.permission.READ_CALL_LOG"
+        tools:node = "remove"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" tools:node="remove"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" tools:node="remove"/>
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" tools:node="remove"/>
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION" tools:node="remove"/>
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" tools:node="remove"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" tools:node="remove"/>
+
+<!--    android:allowBackup="false"-->
+    <application
+        android:name=".AppBase"
+
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/translator_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        tools:replace="android:networkSecurityConfig, android:fullBackupContent"
+        >
+        <activity
+            android:name="com.translate.languagetranslator.freetranslation.activities.adptypaywall.PaywallUi"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name="com.translate.languagetranslator.freetranslation.phrasebook.phrasebookTranslation.PhrasebookTranslation"
+            android:exported="false" />
+        <activity
+            android:name=".phrasebook.PhrasebookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.fictionalLanguage.FictionalLangActivity"
+            android:exported="false" /> <!-- inmobi -->
+
+        <activity
+            android:name=".activities.onboarding.PurchaseActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar.OnBoarding"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.onboarding.OnboardingActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar.OnBoarding">
+
+
+        </activity>
+
+        <activity
+            android:name=".SplashNewActivity"
+            android:exported="true"
+            android:label="@string/in_app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.camera.CameraActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.clipboard.CopyToClipActivity"
+            android:configChanges="orientation"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:label="@string/in_app_name"
+            android:launchMode="singleInstance"
+            android:taskAffinity=".color.copy"
+            android:theme="@style/ClipBoardDialogTheme"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.PROCESS_TEXT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.conversation.SavedChatActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FullScreenActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SubscriptionActivityN"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.camera.OcrActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.details.HistoryDetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.mainScreen.MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.home.HomeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.historyBookmark.HistoryActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.historyBookmark.BookmarkActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.dictionary.DictionaryActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.conversation.ConversationActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.languages.LanguageSelection"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoAction" />
+        <activity
+            android:name=".activities.translate.TranslateActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            android:windowSoftInputMode="stateVisible|adjustPan" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4415366419206256~2785567511"
+            tools:replace="android:value"/>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="ocr" />
+
+
+
+        <service
+            android:name=".activities.clipboard.services.ClipBoardDataManager"
+            android:exported="false"/>
+
+
+
+        <receiver
+            android:name="com.adjust.sdk.AdjustReferrerReceiver"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+
+<!--        calldorado-->
+        <meta-data android:name="com.calldorado.AccountId"
+            android:value="a1-eb465833-bc6e-4e54-b7fa-7e0cd12c635a"/>
+        <meta-data android:name="com.calldorado.AppId"
+            android:value="b0-d7c7a228-33a3-4010-9117-9367af2276c3" />
+
+        <receiver
+            android:name=".calldorado.SetupFragmentReceiver"
+            android:enabled="true"
+            android:exported="true">
+
+            <intent-filter android:priority="999">
+                <action android:name="com.calldorado.android.intent.SEARCH"/>
+                <action android:name="android.intent.action.PHONE_STATE"/>
+            </intent-filter>
+        </receiver>
+
+
+<!--        firebase event calldorado-->
+        <receiver
+            android:name=".receiver.FirebaseEventBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="custom_firebase_event" />
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="com.calldorado.wsf"
+            android:value="true" />
+    </application>
+
+</manifest>

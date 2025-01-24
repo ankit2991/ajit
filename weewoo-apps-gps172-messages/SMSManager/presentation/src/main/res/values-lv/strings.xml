@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sugest_update_title">Pieejama atjaunināšana</string>
+    <string name="sugest_update_message">Jauna atjaunināšana pieejama Google Play, lūdzu, atjauniniet savu versiju</string>
+    <string name="force_update_title">Pieejama atjaunināšana</string>
+    <string name="force_update_message">Jauna atjaunināšana pieejama Google Play, lūdzu, atjauniniet savu versiju</string>
+    <string name="update_ok">Atjaunināt</string>
+    <string name="update_no">Pagaidām ne</string>
+    <string name="app_name">#Ziņojumi</string>
+    <string name="in_app_name">Ziņojumi</string>
+    <string name="splash_app_name">SMS Ziņojumi</string>
+    <string name="loading_msg">Lūdzu, uzgaidiet...</string>
+    <string name="ads_loading_msg">Reklāma tiek rādīta...</string>
+    <string name="shortcut_compose_long_label">Jauna saruna</string>
+    <string name="shortcut_compose_short_label">Rakstīt</string>
+    <string name="shortcut_compose_disabled_message">Saīsinājums ir atspējots</string>
+    <string name="title_archived">Arhivētie ziņojumi</string>
+    <string name="title_settings">Iestatījumi</string>
+    <string name="title_notification_prefs">Paziņojumi</string>
+    <string name="title_theme">Tēma</string>
+    <string name="title_conversations">Meklēt numurus, vārdus un citu</string>
+    <string name="title_compose">Ierakstiet vārdu vai tālruņa numuru</string>
+    <string name="setup_skip">Izlaist</string>
+    <string name="setup_next">Turpināt</string>
+    <string name="menu_add_person">Pievienot personu</string>
+    <string name="menu_call">Zvanīt</string>
+    <string name="menu_info">Detaļas</string>
+    <string name="menu_save">Saglabāt galerijā</string>
+    <string name="menu_share">Kopīgot</string>
+    <string name="main_drawer_open_cd">Atvērt navigācijas izvēlni</string>
+    <string name="main_title_selected">%d atlasīti</string>
+    <string name="main_menu_clear">Notīrīt</string>
+    <string name="main_menu_archive">Arhivēt</string>
+    <string name="main_menu_unarchive">Atiestatīt no arhīva</string>
+    <string name="main_menu_delete">Dzēst</string>
+    <string name="main_menu_add_contact">Pievienot kontaktiem</string>
+    <string name="main_menu_pin">Pievienot virsotnē</string>
+    <string name="main_menu_unpin">Noņemt no virsotnes</string>
+    <string name="main_menu_read">Atzīmēt kā izlasītu</string>
+    <string name="main_menu_unread">Atzīmēt kā neizlasītu</string>
+    <string name="select_all">Atlasīt visu</string>
+    <string name="deselect_all">Noņemt visu atlasi</string>
+    <string name="main_menu_block">Bloķēt</string>
+    <string name="main_syncing">Ziņojumu organizēšana...</string>
+    <string name="main_sender_you">Jūs: %s</string>
+    <string name="main_draft">Melnraksts: %s</string>
+    <string name="main_message_results_title">Rezultāti ziņojumos</string>
+    <string name="main_message_results">%d ziņojumi</string>
+    <string name="inbox_empty_text">Jūsu sarunas parādīsies šeit</string>
+    <string name="inbox_search_empty_text">Nav rezultātu</string>
+    <string name="archived_empty_text">Vēl nav arhivēto sarunu..</string>
+    <string name="main_fab_cd">Sāciet jaunu sarunu</string>
+    <string name="main_default_sms_title">Patīk ziņot?</string>
+    <string name="main_default_sms_message">Padariet SMS lietotni par savu noklusējuma SMS lietotni</string>
+    <string name="main_default_sms_change">Mainīt</string>
+    <string name="main_permission_required">Nepieciešama atļauja</string>
+    <string name="main_permission_sms">SMS vajag atļauju, lai sūtītu un skatītu SMS ziņojumus</string>
+    <string name="main_permission_contacts">SMS vajag atļauju, lai skatītu jūsu kontaktus</string>
+    <string name="main_permission_allow">Atļaut</string>
+    <string name="main_permission_allow_read">Atļaut Lasīt un Rakstīt atļauju</string>
+    <string name="drawer_inbox">Iesūtne</string>
+    <string name="drawer_archived">Arhivētie</string>
+    <string name="drawer_scheduled">Ieplānots ziņojums</string>
+    <string name="drawer_blocking">Bloķēto saraksts</string>
+    <string name="drawer_calldorado">Zvanu iestatījumi</string>
+    <string name="drawer_more">Vairāk</string>
+    <string name="drawer_group">Grupas ziņojums</string>
+    <string name="drawer_settings">Iestatījumi</string>
+    <string name="drawer_remove_ads">Noņemt reklāmas</string>
+    <string name="drawer_help">Palīdzība &amp; atsauksmes</string>
+    <string name="drawer_invite">Ielūgt draugus</string>
+    <string name="dialog_delete_title">Dzēst</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Vai tiešām vēlaties dzēst šo sarunu?</item>
+        <item quantity="other">Vai tiešām vēlaties dzēst %d sarunas?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Kopēt tekstu</item>
+        <item>Pārsūtīt</item>
+        <item>Dzēst</item>
+    </string-array>
+    <string name="compose_number_picker_title">Izvēlieties tālruņa numuru</string>
+    <string name="compose_number_picker_default">%s ∙ Noklusējums</string>
+    <string name="compose_number_picker_once">Tikai vienreiz</string>
+    <string name="compose_number_picker_always">Vienmēr</string>
+    <string name="compose_title_selected">%d atlasīti</string>
+    <string name="compose_subtitle_results">%1$d no %2$d rezultātiem</string>
+    <string name="contact_selected">%1$d no %2$d atlasīti</string>
+    <string name="compose_send_group_title">Sūtīt kā grupas ziņojumu</string>
+    <string name="compose_send_group_summary">Saņēmēji un atbildes būs redzamas visiem</string>
+    <string name="compose_messages_empty">Sāciet savu sarunu. Sakiet kaut ko lielisku!</string>
+    <string name="compose_vcard_label">Kontakta karte</string>
+    <string name="compose_scheduled_for">Ieplānots uz</string>
+    <string name="compose_scheduled_future"> laiks ir jābūt nākotnē!</string>
+    <string name="compose_scheduled_toast">Pievienots ieplānotajiem ziņojumiem</string>
+    <string name="compose_hint">Rakstīt šeit...</string>
+    <string name="compose_menu_copy">Kopēt tekstu</string>
+    <string name="compose_menu_forward">Pārsūtīt</string>
+    <string name="compose_menu_delete">Dzēst</string>
+    <string name="compose_menu_previous">Iepriekšējais</string>
+    <string name="compose_menu_next">Nākamais</string>
+    <string name="compose_menu_clear">Notīrīt</string>
+    <string name="compose_details_title">Ziņojuma detaļas</string>
+    <string name="compose_details_type">Veids: %s</string>
+    <string name="compose_details_from">No: %s</string>
+    <string name="compose_details_to">Uz: %s</string>
+    <string name="compose_details_subject">Temats: %s</string>
+    <string name="compose_details_priority">Prioritāte: %s</string>
+    <string name="compose_details_size">Izmērs: %s</string>
+    <string name="compose_details_sent">Nosūtīts: %s</string>
+    <string name="compose_details_received">Saņemts: %s</string>
+    <string name="compose_details_delivered">Piegādāts: %s</string>
+    <string name="compose_details_error_code">Kļūdas kods: %d</string>
+    <string name="compose_attach_cd">Pievienot pielikumu</string>
+    <string name="compose_gallery_cd">Pievienot fotoattēlu</string>
+    <string name="compose_camera_cd">Uzņemt fotoattēlu</string>
+    <string name="compose_schedule_cd">Ieplānot ziņojumu</string>
+    <string name="compose_contact_cd">Pievienot kontaktu</string>
+    <string name="compose_contact_error">Kļūda lasot kontaktu</string>
+    <string name="compose_sim_cd">%s atlasīts, mainīt SIM karti</string>
+    <string name="compose_send_cd">Nosūtīt ziņojumu</string>
+    <string name="message_status_sending">Nosūta...</string>
+    <string name="message_status_delivered">Piegādāts %s</string>
+    <string name="message_status_failed">Neizdevās nosūtīt</string>
+    <string name="info_title">Kontakta detaļas</string>
+    <string name="info_copied_address">Adrese nokopēta</string>
+    <string name="info_name">Sarunas nosaukums</string>
+    <string name="info_notifications">Paziņojumi</string>
+    <string name="info_theme">Tēma</string>
+    <string name="info_archive">Arhīvs</string>
+    <string name="info_unarchive">Atiestatīt no arhīva</string>
+    <string name="info_block">Bloķēt</string>
+    <string name="info_unblock">Atbloķēt</string>
+    <string name="info_delete">Dzēst sarunu</string>
+    <string name="gallery_error">Neizdevās ielādēt mediju</string>
+    <string name="gallery_toast_saved">Saglabāts galerijā</string>
+    <string name="backup_title">Rezerves kopija un atjaunošana</string>
+    <string name="backup_backing_up">Ziņojumu rezerves kopēšana</string>
+    <string name="backup_restoring">Atjaunošana no rezerves kopijas</string>
+    <string name="backup_last">Pēdējā rezerves kopija</string>
+    <string name="backup_loading">Ielādē...</string>
+    <string name="backup_never">Nekad</string>
+    <string name="backup_restore_title">Atjaunot</string>
+    <string name="backup_restore_summary">Atlasiet rezerves kopiju</string>
+    <string name="backup_restore_error_plus">Lūdzu, atbloķējiet SMS+, lai izmantotu rezerves kopiju un atjaunošanu</string>
+    <string name="backup_restore_error_backup">Rezerves kopija tiek veidota...</string>
+    <string name="backup_restore_error_restore">Atjaunošana tiek veidota...</string>
+    <string name="backup_restore_confirm_title">Atjaunot no rezerves kopijas</string>
+    <string name="backup_restore_confirm_message">Vai tiešām vēlaties atjaunot savus ziņojumus no šīs rezerves kopijas?</string>
+    <string name="backup_restore_stop_title">Apturēt atjaunošanu</string>
+    <string name="backup_restore_stop_message">Ziņojumi, kas jau ir atjaunoti, paliks jūsu ierīcē</string>
+    <string name="backup_restore_dialog_title">Rezerves kopijas</string>
+    <string name="backup_restore_dialog_summary">/SMS Ziņojumi/Rezerves kopijas</string>
+    <string name="backup_restore_dialog_empty">Nav atrastas rezerves kopijas</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">Nav ziņojumu</item>
+        <item quantity="one">%d ziņojums</item>
+        <item quantity="other">%d ziņojumi</item>
+    </plurals>
+    <string name="backup_disclaimer">Līdz šim mēs atbalstījām tikai rezerves kopēšanu un atjaunošanu ar SMS!</string>
+    <string name="backup_now">Rezerves kopija</string>
+    <string name="backup_progress_parsing">Rezerves kopijas analīze…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d ziņojumi</string>
+    <string name="backup_progress_saving">Rezerves kopijas saglabāšana…</string>
+    <string name="backup_progress_syncing">Ziņojumu sinhronizēšana…</string>
+    <string name="backup_progress_finished">Pabeigts!</string>
+    <string name="backup_notification_channel_name">Rezerves kopija un atjaunošana</string>
+    <string name="Message_notification_channel_name">Ziņojumu sinhronizācija</string>
+    <string name="scheduled_title">Ieplānots</string>
+    <string name="schedule_guide">Jūs varat iestatīt ieplānotu ziņojumu, noklikšķinot uz pielikšanas pogas, kas atrodas ziņojuma sarunas ekrānā.</string>
+    <string name="scheduled_empty_description">Automātiski nosūtiet ziņojumu tieši tad, kad to vēlaties</string>
+    <string name="scheduled_empty_message_1">Hei! Kad ir laiks svinēt brīdi?</string>
+    <string name="scheduled_empty_message_2">Tas ir 5. marts </string>
+    <string name="scheduled_empty_message_3">Ej, kaut ko esat labs draugs, svinot jūsu dienu</string>
+    <string name="scheduled_empty_message_3_timestamp">Nosūtīšana 5. martā&#x200A;</string>
+    <string name="scheduled_compose_cd">Ieplānot ziņojumu</string>
+    <string name="scheduled_options_title">Ieplānots ziņojums</string>
+    <string-array name="scheduled_options">
+        <item>Nosūtīt tagad</item>
+        <item>Kopēt tekstu</item>
+        <item>Dzēst</item>
+    </string-array>
+    <string name="settings_category_appearance">Parādīšanās</string>
+    <string name="settings_category_general">Vispārīgi</string>
+    <string name="settings_categoryreply">Atbildēt</string>
+    <string name="settings_night_title">Nakts režīms</string>
+    <string name="settings_text_size_title">Fonta izmērs</string>
+    <string name="settings_notifications_title">Paziņojumi</string>
+    <string name="settings_notifications_o_summary">Pieskarieties, lai pielāgotu</string>
+    <string name="settings_notification_actions_title">Darbības</string>
+    <string name="settings_notification_action_1">Poga 1</string>
+    <string name="settings_notification_action_2">Poga 2</string>
+    <string name="settings_notification_action_3">Poga 3</string>
+    <string name="settings_notification_previews_title">Paziņojumu priekšskati</string>
+    <string name="settings_notification_wake_title">Pamošanās ekrāns</string>
+    <string name="settings_vibration_title">Vibrācija</string>
+    <string name="settings_ringtone_title">Skaņa</string>
+    <string name="settings_ringtone_none">Nav</string>
+    <string name="settings_reply_title">Atbildēt</string>
+    <string name="settings_reply_summary">Izlecošais logiņš jauniem ziņojumiem</string>
+    <string name="settings_reply_tap_dismiss_title">Pieskarieties, lai aizvērtu</string>
+    <string name="settings_reply_tap_dismiss_summary">Noklikšķiniet ārpus izlecošā logiņa, lai to aizvērtu</string>
+    <string name="settings_swipe_actions">Velciet darbības</string>
+    <string name="settings_swipe_actions_right">Pa labi velciet</string>
+    <string name="settings_swipe_actions_left">Pa kreisi velciet</string>
+    <string name="settings_swipe_actions_change">MAINĪT</string>
+    <string name="not_now_txt">Pagaidām ne</string>
+    <string name="process_title">Šis process prasīs \n kādu laiku</string>
+    <string name="syncing_done">Ziņojumu sinhronizācija pabeigta....</string>
+    <string name="all_set_txt">Viss ir iestatīts. Jūs esat gatavs doties</string>
+    <string name="Personal">Visi ziņojumi</string>
+    <string name="Other">Zināmie </string>
+    <string name="Spam">Nelietis</string>
+    <string name="setting">Iestatījumi</string>
+    <string name="Share">Dalīties</string>
+    <string name="Rate">Novērtēt mūs</string>
+    <string name="edit">rediģēt</string>
+    <string name="DarkMode">Tumšais režīms</string>
+    <string name="BrightMode">Gaišais režīms</string>
+    <string name="Camera">Kamera</string>
+    <string name="Gallery">Galerija</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">Kontakts</string>
+    <string name="Schedule">Ieplānot</string>
+    <string name="Location">Atrašanās vieta</string>
+    <string name="Notes">Piezīmes</string>
+    <string name="no_msg">Vēl nav ziņojumu…</string>
+    <string name="Start_Chat">Sāciet sarunu</string>
+    <string name="Language">Valoda</string>
+    <string name="rate_text">Ieteiksim mūs citiem, novērtējot mūs Play veikalā!</string>
+    <string name="sort_by">Kārtot pēc</string>
+    <string-array name="settings_swipe_actions">
+        <item>Nav</item>
+        <item>Arhivēt</item>
+        <item>Dzēst</item>
+        <item>Zvanīt</item>
+        <item>Atzīmēt kā lasītu</item>
+        <item>Atzīmēt kā nelasītu</item>
+    </string-array>
+    <string name="settings_mms_size_title">Automātiski saspiest MMS pielikumus</string>
+    <string name="settings_sync_title">Sinhronizēt ziņojumus</string>
+    <string name="settings_sync_summary">Atkārtoti sinhronizējiet savus ziņojumus ar iebūvēto Android SMS datu bāzi</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Zvanu vadība</string>
+    <string name="blocking_manager_sia_title">Vai es atbildēšu?</string>
+    <string name="blocked_messages_title">Bloķētie ziņojumi</string>
+    <string name="blocked_messages_empty">Jūsu bloķētie ziņojumi parādīsies šeit</string>
+    <string name="blocking_block_title">Bloķēt</string>
+    <string name="blocking_unblock_title">Atbloķēt</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">Turpināt uz %s un bloķēt šo numuru</item>
+        <item quantity="other">Turpināt uz %s un bloķēt šos numurus</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">Turpināt uz %s un atļaut šo numuru</item>
+        <item quantity="other">Turpināt uz %s un atļaut šos numurus</item>
+    </plurals>
+    <string name="widget_loading">Ielādēšana…</string>
+    <string name="widget_more">Skatīt vairāk sarunās</string>
+    <string name="qkreply_menu_read">Atzīmēt kā lasītu</string>
+    <string name="qkreply_menu_call">Zvanīt</string>
+    <string name="qkreply_menu_delete">Dzēst</string>
+    <string name="qkreply_menu_expand">Rādīt vairāk</string>
+    <string name="qkreply_menu_collapse">Rādīt mazāk</string>
+    <string name="qkreply_menu_view">Atvērt sarunu</string>
+    <string name="changelog_title">Jaunumi SMS</string>
+    <string name="changelog_version">Versija %s</string>
+    <string name="changelog_added">Pievienots</string>
+    <string name="changelog_improved">Uzlabots</string>
+    <string name="changelog_fixed">Labots</string>
+    <string name="changelog_more">Vairāk</string>
+    <string name="changelog_dismiss">Aizvērt</string>
+    <string-array name="notification_actions">
+        <item>Nav</item>
+        <item>Atzīmēt kā lasītu</item>
+        <item>Atbildēt</item>
+        <item>Zvanīt</item>
+        <item>Dzēst</item>
+    </string-array>
+    <string name="button_yes">Jā</string>
+    <string name="button_continue">Turpināt</string>
+    <string name="button_cancel">Atcelt</string>
+    <string name="button_delete">Dzēst</string>
+    <string name="button_save">Saglabāt</string>
+    <string name="button_stop">Apturēt</string>
+    <string name="button_more">Vairāk</string>
+    <string name="button_set">Iestatīt</string>
+    <string name="button_undo">Atsaukt</string>
+    <string name="toast_copied">Kopēts</string>
+    <string name="toast_archived">Arhivēta saruna</string>
+    <string name="toast_sms_plus">Lai to izmantotu, jums ir jāatbloķē SMS+</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Jauns ziņojums</item>
+        <item quantity="other">%s jauni ziņojumi</item>
+    </plurals>
+    <string name="notification_message_failed_title">Ziņojums nav nosūtīts</string>
+    <string name="notification_message_failed_text">Ziņojums uz %s netika nosūtīts</string>
+    <string name="privacy_policy">Privātuma politika</string>
+    <string name="pocket_data_on">Kad nosūtat MMS, jābūt ieslēgtam kabata datiem!</string>
+    <string name="inapp_details" translatable="false">Lai noņemtu reklāmas, izmēģiniet premium abonementu ar tumsas un gaišas režīma atbalstu, kā arī ieplānotu Sms atbalstu.</string>
+    <string name="drawer_removeAds">Noņemt reklāmas</string>
+    <string name="in_app_ads">ziņas_rad</string>
+    <string name="dialog_delete_message">Vai tiešām vēlaties dzēst šo ziņojumu?</string>
+    <string name="compose_bar_not_support">Sūtītājs neatbalsta atbildes</string>
+    <string name="default_name">Lai sūtītu vai saņemtu SMS, jums jāiestata tas kā noklusējuma lietojumprogramma. Vai vēlaties, lai ziņojums kļūtu par jūsu noklusējuma lietojumprogrammu?</string>
+    <string name="confirm_delete">Apstiprināt dzēšanu</string>
+    <string name="confirm_delete_text">Vai tiešām vēlaties dzēst šo piezīmi?</string>
+    <string name="title">Nosaukums</string>
+    <string name="note">Piezīme</string>
+    <string name="search">Meklēt</string>
+    <string name="settings">Iestatījumi</string>
+    <string name="share_to">Dalīties ar:</string>
+    <string name="sort">Kārtot</string>
+    <string name="empty_list_text">Lai pievienotu jaunu piezīmi, nospiediet pogu apakšējā labajā stūrī!</string>
+    <string name="new_note">Jauna piezīme</string>
+    <string name="undo">Atsaukt</string>
+    <string name="delete">Dzēst</string>
+    <string name="exception">Izņēmums:</string>
+    <string name="edit_note">Rediģēt piezīmi</string>
+    <string name="drawer_feedback">Nosūtīt atsauksmes</string>
+    <string name="drawer_mode">Gaišais režīms</string>
+    <string name="unlimited_access_user">Neierobežots piekļuve visām funkcijām</string>
+    <string name="pro_user">Jūs esat Premium lietotājs</string>
+    <string name="sub_info_text"><b>Abonements automātiski atjaunosies, līdz to neatslēgsiet.</b></string>
+    <string name="cancel_purchase">Automātiskos abonementu atjaunošanas iespēju var atspējot Google Play abonēšanās sadaļā</string>
+    <string name="remove_ads">Noņemt reklāmas</string>
+    <string name="no_ads">Nav reklāmu</string>
+    <string name="free_trial">Bez maksas 7 dienu izmēģinājums, pēc tam automātiski atjaunojas</string>
+    <string name="can_not_talk_right_now">Atvainojiet, šobrīd es nevaru runāt</string>
+    <string name="can_call_you_later">Vai es vēlāk varu jums zvanīt?</string>
+    <string name="i_am_on_my_way">Es esmu ceļā</string>
+    <string name="write_personal_message">Rakstiet personīgu ziņu</string>
+    <string name="create_reminder">Izveidot jaunu atgādinājumu</string>
+    <string name="remind_me_about">Atgādināt man par</string>
+    <string name="no_title">Bez nosaukuma</string>
+    <string name="edit_contact">Rediģēt kontaktu</string>
+    <string name="add_contact">Pievienot kontaktu</string>
+    <string name="messages">Ziņojumi</string>
+    <string name="send_mail">Sūtīt e-pastu</string>
+    <string name="calendar">Kalendārs</string>
+    <string name="web">Internets</string>
+    <string-array name="night_modes">
+        <item>Sistēma</item>
+        <item>Gaišais režīms</item>
+        <item>Tumšais režīms</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>Rādīt vārdu un ziņojumu</item>
+        <item>Rādīt vārdu</item>
+        <item>Paslēpt saturu</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>Mazs</item>
+        <item>Normāls</item>
+        <item>Liels</item>
+        <item>Vēl lielāks</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>Bez aiztura</item>
+        <item>Īss</item>
+        <item>Vidējs</item>
+        <item>Garš</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Automātisks</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>Bez saspiestiem</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>Labi</item>
+        <item>Atgaidiet mirkli</item>
+        <item>Es esmu ceļā</item>
+        <item>Paldies</item>
+        <item>Skan labi</item>
+        <item>Kā iet?</item>
+        <item>Piekrītu</item>
+        <item>Nē</item>
+        <item>Es tevi mīlu</item>
+        <item>Atvainojiet</item>
+        <item>LOL</item>
+        <item>Viss kārtībā</item>
+    </string-array>
+    <string name="default_title">Atļaut Sms lietotnei būt noklusējuma lietojumprogrammai</string>
+    <string name="set_as_defaault">Iestatīt kā noklusējumu</string>
+    <string name="love_app_title">Padarīt SMS lietotni par jūsu noklusējuma SMS lietotni</string>
+    <string-array name="gif">
+        <item>Dzīvnieka sejas</item>
+        <item>Emoji</item>
+        <item>Augļi un dārzeņi</item>
+        <item>Hellouīns</item>
+        <item>Mīlestība</item>
+    </string-array>
+    <string name="Sticker">Nalīmējums</string>
+    <string name="no_connection">Nav interneta savienojuma.</string>
+    <string-array name="sticker">
+        <item>Puiši</item>
+        <item>Kartoons</item>
+        <item>Sejas</item>
+        <item>Svētki</item>
+        <item>Auglis</item>
+        <item>Jautri</item>
+        <item>Mazmeitiņa</item>
+        <item>Mīlestības nalīmējums</item>
+        <item>Citi</item>
+        <item>Kucēns</item>
+    </string-array>
+    <string name="open_link_to_browser">Atvērt saiti pārlūkā</string>
+    <string name="battery_dialog"> Nevelaties palaist garām svarīgus Sms? Izslēdziet baterijas optimizāciju</string>
+    <string name="reason_to_change_battery_optimization_setting">Doties uz Lietotnes informāciju &gt; Papildus &gt; Baterijas optimizācija un izvēlieties "Neoptimizēt"</string>
+    <string name="feedback_txt">Pastāstiet mums par savu pieredzi un sniedziet ieteikumus, kā uzlabot ziņojumu lietotni.</string>
+    <string name="reason_to_change_battery">Papildus &gt; Baterijas optimizācija &gt; ‘Neoptimizēt’</string>
+    <string name="drawer_transaction">Darījumi</string>
+    <string name="drawer_promotion">Akcijas</string>
+    <string name="unknown">Nezināms</string>
+    <string name="priva"><u>Privātuma politika</u></string>
+    <string name="smsfilter">SMS filtrs</string>
+    <string name="by_click_t_c" translatable="false"><u>Noklikšķinot, jūs piekrītat mūsu Lietošanas noteikumiem un nosacījumiem.</u></string>
+    <string name="continue_without_sub"><u>Turpināt bez abonēšanas</u></string>
+    <string name="text_free_trial">Izmantojiet X dienu <b>Bezmaksas izmēģinājumu</b> - Pēc tam X € / mēnesī</string>
+    <string name="calldorado_message">Pārbaudiet visus savus <b>ziņojumus</b>, pirms beidzat zvanu! Ir jaunumi</string>
+    <string name="privacy_terms_description">Turpinot, jūs apstiprināt un piekrītat lietošanas noteikumiem un privātuma politikai.</string>
+    <string name="draw_over_description"><![CDATA[Lai parādītu pār citām lietojumprogrammām mūsu SMS ziņojumus. Saņemiet visu potenciālo no mūsu SMS zvanu logrīkiem un vairāk]]></string>
+    <string name="ad_label">REK</string>
+    <string name="onboarding_continue_button">Turpināt</string>
+    <string name="onboarding_step_1_title">SMS &amp; Messenger pārvaldnieks</string>
+    <string name="onboarding_step_1_subtitle">Chatojiet ar draugiem, veidojiet grupas un organizējiet savu iesūtni</string>
+    <string name="onboarding_step_1_hight_light">Unikāls piegājiens Tev</string>
+    <string name="onboarding_step_2_title">Organizējiet un saglabājiet ziņojumus</string>
+    <string name="onboarding_step_2_subtitle">Rezerves kopējiet un atstājiet savus ziņojumus</string>
+    <string name="onboarding_step_2_hight_light">Tūkstošiem lietotāju patīk</string>
+    <string name="onboarding_step_3_title">Izbaudiet dzīvi un ļaujiet mums rūpēties par iesūtni</string>
+    <string name="onboarding_step_3_subtitle">Apstipriniet atļaujas, lai mēs varētu palīdzēt jums pārvaldīt savu iesūtni.</string>
+    <string name="onboarding_step_3_hight_light">Varbūt vēlāk</string>
+    <string name="onboarding_allow_access_button">Atļaut piekļuvi</string>
+    <string name="onboarding_step_4_title">Uzlabojiet bateriju, ļaujot mums darīt darbu</string>
+    <string name="onboarding_step_4_subtitle">Mēs parūpēsimies par kaitinošajiem SMS pārtraukumiem.</string>
+    <string name="onboarding_step_4_hight_light">Tūkstošiem lietotāju patīk</string>
+    <string name="onboarding_step_5_title">Divu ekrānu darbs citās lietotnēs, vienlaikus čatojot</string>
+    <string name="onboarding_step_5_subtitle">Izbaudiet mūsu apbrīnojamo zvana logrīku, kas ļauj jums veikt vairākas darbības vienlaikus</string>
+    <string name="onboarding_step_5_hight_light">Tūkstošiem lietotāju patīk</string>
+    <string name="payment_card_title">Chatojiet tagad!</string>
+    <string name="payment_card_price"><![CDATA[3 dienu bezmaksas, %s / %s]]></string>
+    <string name="payment_card_button">Pamēģiniet tagad bez maksas</string>
+    <string name="payment_card_hight_light">Nodrošināts ar Play Store</string>
+    <string name="payment_card_weekly">nedēļā</string>
+    <string name="payment_card_monthly">mēnesī</string>
+    <string name="payment_card_yearly">gadā</string>
+    <string name="payment_card_auto_renew">automātiski atjaunojams abonements, jebkurā laikā atcelšanas iespēja</string>
+    <string name="accessibility_service_description">Jūsu pieejamības pakalpojuma apraksts</string>
+    <string name="permission_txt"><font color="#FF8A00">Nepieciešamā atļauja:</font>\nLasīt tālruņa stāvokli un zīmēt pār citām lietojumprogrammām</string>
+    <string name="opt_privacy">Turpinot, jūs apstiprināt un piekrītat lietošanas noteikumiem un privātuma politikai.</string>
+    <string name="permission_required">Nepieciešamās atļaujas</string>
+    <string name="permission_dialog_body">Šai lietotnei var nebūt pareizi darboties bez tālruņa atļaujas. Lai to iespējotu, ievērojiet zemāk norādītos norādījumus:\n\n1. Izvēlieties "Atļaujas"\n2. Atrodiet "Tālrunis" atļauju sarakstā un pieskarieties, lai to iespējotu</string>
+    <string name="go_premium">Kļūsti <font color = "#FFE600">Premium!</font></string>
+    <string name="unlock_everything">Atbloķējiet visu un bez reklāmām</string>
+    <string name="start_three_day">Sākt 3 dienu bezmaksas izmēģinājumu</string>
+    <string name="pro">Pro</string>
+    <string name="more_option">Vairāk opcijas</string>
+    <string name="rate_us_5">Novērtējiet mūs 5 zvaigznēm</string>
+    <string name="help_feedback">Palīdzība un atsauksmes</string>
+    <string name="send_message">Sūtīt ziņu</string>
+    <string name="CTA_Button_Text">Tap, lai atbloķētu visas <font color="#FFFBCD04">funkcijas</font></string>
+
+</resources>

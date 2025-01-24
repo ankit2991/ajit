@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:clickable="true"
+    android:gravity="center">
+
+
+    <RelativeLayout
+        android:id="@+id/llRvList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="NestedWeights">
+
+
+        <com.yarolegovich.discretescrollview.DiscreteScrollView
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/ic_back_detail"
+            ></ImageView>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:visibility="gone">
+
+            <fr.castorflex.android.circularprogressbar.CircularProgressBar
+                android:id="@+id/layout_loading_search"
+                style="@style/CircularThemeProgressBar_centre"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:indeterminate="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_no_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/txt_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/noCompData"
+                android:textColor="?attr/my_textColor"
+                android:textSize="@dimen/large_text_size"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_actions"
+        android:layout_width="@dimen/detail_tile_witdh"
+        android:layout_height="@dimen/detail_tile_hieght"
+        android:layout_centerInParent="true" android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_like"
+            style="@style/MenuButtonsStyle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="8dp"
+            android:src="@mipmap/ic_detail_like" />
+
+        <com.github.clans.fab.FloatingActionButton
+
+            android:id="@+id/fab_set_wallpaper"
+            style="@style/MenuButtonsStyle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_set_wall" />
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/menu_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="8dp"
+            app:menu_fab_size="normal"
+            app:menu_icon="@mipmap/ic_detail_more"
+            fab:menu_animationDelayPerItem="0"
+            fab:menu_colorNormal="@color/transparentBlack"
+            fab:menu_colorPressed="@color/transparentBlack"
+            fab:menu_colorRipple="#FFFFFF"
+            fab:menu_labels_hideAnimation="@anim/jump_to_down"
+            fab:menu_labels_showAnimation="@anim/jump_from_down"
+            fab:menu_labels_style="@style/MenuLabelsStyle"
+            fab:menu_shadowColor="@color/transparentBlack">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/img_pinch_zoom"
+                style="@style/MenuButtonsStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_preview"
+                android:visibility="visible"
+                fab:fab_label="@string/label_pre" />
+
+            <com.github.clans.fab.FloatingActionButton
+
+                android:id="@+id/fab_download"
+                style="@style/MenuButtonsStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_detail_download"
+                android:visibility="visible"
+                fab:fab_label="@string/label_new_Dwn" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/fab_category"
+                style="@style/MenuButtonsStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_detailcategory"
+                android:visibility="visible"
+                fab:fab_label="@string/label_similar" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/img_share"
+                style="@style/MenuButtonsStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_detail_share"
+                android:visibility="visible"
+                fab:fab_label="@string/menu_share" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/img_report"
+                style="@style/MenuButtonsStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_report"
+                android:visibility="visible"
+                fab:fab_label="@string/label_report_new" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/img_info"
+                style="@style/MenuButtonsStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_detail_info"
+                android:visibility="visible"
+                fab:fab_label="@string/label_info_new" />
+
+        </com.github.clans.fab.FloatingActionMenu>
+    </RelativeLayout>
+
+</RelativeLayout>

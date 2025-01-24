@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/btnDrawerOnToolbar"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivToolbar"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:src="@drawable/ic_back_arrow_white_24"
+                android:elevation="0dp"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/btnDrawerOnToolbar"
+            android:layout_toStartOf="@+id/btnOverFlowMenu"
+            android:paddingStart="@dimen/_5sdp"
+            android:textColor="@color/black_colour"
+            android:textSize="@dimen/_16ssp"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            />
+
+        <ImageButton
+            android:id="@+id/btnOverFlowMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_money_exchange_new"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:visibility="gone"
+            />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

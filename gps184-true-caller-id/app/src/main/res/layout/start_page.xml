@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_weight="1"
+    android:background="@color/background_container_app"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/action_bar_size"
+            android:background="@drawable/bg_action_bar"
+            android:paddingTop="5dp">
+
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/poppins_bold"
+                android:gravity="center"
+                android:src="@drawable/header"
+                android:text="@string/start_page_tile"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:id="@+id/privacy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/privacy_policy"-->
+<!--                    android:layout_width="35dp"-->
+<!--                    android:layout_height="35dp"-->
+<!--                    android:layout_gravity="end"-->
+<!--                    android:adjustViewBounds="true"-->
+<!--                    android:src="@drawable/sel_privacy_policy" />-->
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/header"
+            android:layout_above="@+id/ads_banner"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:id="@+id/relative_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/header"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/layout_native_ad_big"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.4">
+
+                    <FrameLayout
+                        android:id="@+id/app_ad"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginHorizontal="@dimen/_20sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/layout_image_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginHorizontal="@dimen/_24sdp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="0.2"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_start_page" />
+
+                <LinearLayout
+                    android:id="@+id/layout_action"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginBottom="@dimen/_24sdp"
+                    android:layout_weight="0.3"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/blockAds"
+                        android:foreground="?selectableItemBackground"
+                        android:layout_width="@dimen/_260sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/bg_button_remove_ads"
+                        android:paddingVertical="@dimen/_10sdp"
+                        android:paddingStart="@dimen/_24sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_24sdp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_ad" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/poppins_semi_bold"
+                            android:text="Block Ads"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_24sdp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_arrow_next_white" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btnlay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginTop="@dimen/_24sdp"
+                        android:layout_marginEnd="@dimen/_20sdp"
+                        android:paddingHorizontal="@dimen/_12sdp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/start"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical"
+                            android:background="@drawable/bg_button_outline_gray"
+                            android:padding="@dimen/_8sdp"
+                            tools:targetApi="lollipop">
+
+                            <ImageView
+                                android:layout_width="@dimen/_60sdp"
+                                android:layout_height="@dimen/_60sdp"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight="1"
+                                android:adjustViewBounds="true"
+                                android:src="@drawable/sel_start" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="18dp"
+                                android:text="@string/start"
+                                android:fontFamily="@font/poppins_semi_bold"
+                                android:textColor="@color/text_menu_button"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="20dp"
+                            android:layout_height="10dp" />
+
+                        <LinearLayout
+                            android:id="@+id/moreapps"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical"
+                            android:visibility="gone"
+                            tools:targetApi="lollipop">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight="1"
+                                android:adjustViewBounds="true"
+                                android:src="@drawable/sel_more" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="8dp"
+                                android:text="More Apps"
+                                android:textColor="#000"
+                                android:textSize="15dp" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="20dp"
+                            android:layout_height="10dp" />
+
+                        <LinearLayout
+                            android:id="@+id/rate"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical"
+                            android:background="@drawable/bg_button_outline_gray"
+                            android:padding="@dimen/_8sdp"
+                            tools:targetApi="lollipop">
+
+                            <ImageView
+                                android:layout_width="@dimen/_60sdp"
+                                android:layout_height="@dimen/_60sdp"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight="1"
+                                android:adjustViewBounds="true"
+                                android:src="@drawable/sel_rate" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="18dp"
+                                android:text="@string/rate_now"
+                                android:fontFamily="@font/poppins_semi_bold"
+                                android:textColor="@color/text_menu_button"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <FrameLayout
+            android:id="@+id/ads_banner"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/dark_grey">
+
+    <androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/dark_grey_more"
+        android:minHeight="?actionBarSize"
+        android:theme="?actionBarTheme"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="?actionBarPopupTheme"
+        app:title="@string/settings"
+        app:titleTextColor="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20.0dip"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+        <RelativeLayout
+            android:id="@id/rate_us"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:foreground="?selectableItemBackgroundBorderless"
+            android:paddingTop="20.0dip"
+            android:paddingBottom="20.0dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/encode_sans_medium"
+                android:text="@string/rate_us"
+                android:textColor="@color/white"
+                android:textSize="16.0sp" />
+
+            <ImageView
+                android:layout_width="20.0dip"
+                android:layout_height="20.0dip"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/star_icon_black" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/share_app"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:foreground="?selectableItemBackgroundBorderless"
+            android:paddingTop="20.0dip"
+            android:paddingBottom="20.0dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/encode_sans_medium"
+                android:text="@string/share_friend"
+                android:textColor="@color/white"
+                android:textSize="16.0sp" />
+
+            <ImageView
+                android:layout_width="20.0dip"
+                android:layout_height="20.0dip"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/share_icon" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/feedback"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:foreground="?selectableItemBackgroundBorderless"
+            android:paddingTop="20.0dip"
+            android:paddingBottom="20.0dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/encode_sans_medium"
+                android:text="@string/feedback"
+                android:textColor="@color/white"
+                android:textSize="16.0sp" />
+
+            <ImageView
+                android:layout_width="20.0dip"
+                android:layout_height="20.0dip"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/feedback_icon" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/privacy"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:foreground="?selectableItemBackgroundBorderless"
+            android:paddingTop="20.0dip"
+            android:paddingBottom="20.0dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/encode_sans_medium"
+                android:text="@string/privacy_policy"
+                android:textColor="@color/white"
+                android:textSize="16.0sp" />
+
+            <ImageView
+                android:layout_width="20.0dip"
+                android:layout_height="20.0dip"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/follow_us" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

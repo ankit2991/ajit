@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="customActionBarHight" format="dimension"></attr>
+
+
+    <attr name="my_colorPrimary" format="reference|color" />
+    <attr name="searchbar_bg" format="reference|color" />
+    <attr name="searchbar_text" format="reference|color" />
+    <attr name="my_background" format="reference|color" />
+    <attr name="my_textColor" format="reference|color" />
+    <attr name="my_textColor_cat" format="reference|color" />
+    <attr name="my_textColor_left_drawer" format="reference|color" />
+    <attr name="my_cat_gradient" format="reference|color" />
+    <attr name="my_textSize" format="dimension" />
+    <attr name="my_navigation_divider" format="reference|color" />
+    <attr name="my_setting_bg" format="reference|color" />
+    <attr name="my_loading_color" format="reference|color" />
+    <attr name="category_round" format="reference"/>
+    <attr name="setting_devider" format="reference|color"/>
+
+    <declare-styleable name="MaterialBadgeTextView">
+        <attr name="android:background" />
+        <attr name="mbtv_border_width" format="dimension" />
+        <attr name="mbtv_border_color" format="color" />
+        <attr name="mbtv_border_alpha" format="float" />
+        <attr name="mbtv_type" format="enum">
+            <enum name="shadow_gradual" value="1"/>
+            <enum name="shadow_alpha" value="2"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="AppWidgetAttrs">
+        <attr name="appWidgetPadding" format="dimension" />
+        <attr name="appWidgetInnerRadius" format="dimension" />
+        <attr name="appWidgetRadius" format="dimension" />
+    </declare-styleable>
+</resources>

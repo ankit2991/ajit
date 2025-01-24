@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sugest_update_title">Aktualigo havebla</string>
+    <string name="sugest_update_message">Nova aktualigo havebla en Google Play, bonvolu ĝisdatigi vian version</string>
+    <string name="force_update_title">Aktualigo havebla</string>
+    <string name="force_update_message">Nova aktualigo havebla en Google Play, bonvolu ĝisdatigi vian version</string>
+    <string name="update_ok">Ĝisdatigi</string>
+    <string name="update_no">Ne nun</string>
+    <string name="app_name">#Mesaĝoj</string>
+    <string name="in_app_name">Mesaĝoj</string>
+    <string name="splash_app_name">SMS Mesaĝoj</string>
+    <string name="loading_msg">Bonvolu atendi...</string>
+    <string name="ads_loading_msg">Montri reklamojn...</string>
+    <string name="shortcut_compose_long_label">Nova konversacio</string>
+    <string name="shortcut_compose_short_label">Verki</string>
+    <string name="shortcut_compose_disabled_message">Pikotaj malŝalti</string>
+    <string name="title_archived">Arkivitaj Mesaĝoj</string>
+    <string name="title_settings">Agordoj</string>
+    <string name="title_notification_prefs">Sciigoj</string>
+    <string name="title_theme">Temo</string>
+    <string name="title_conversations">Serĉi numerojn, nomojn &amp; pli</string>
+    <string name="title_compose">Entajpu nomon aŭ telefonnumeron</string>
+    <string name="setup_skip">Preterpasi</string>
+    <string name="setup_next">Daŭri</string>
+    <string name="menu_add_person">Aldoni personon</string>
+    <string name="menu_call">Voki</string>
+    <string name="menu_info">Detaloj</string>
+    <string name="menu_save">Konservi en galerio</string>
+    <string name="menu_share">Kunhavigi</string>
+    <string name="main_drawer_open_cd">Malfermi navigad-skatolon</string>
+    <string name="main_title_selected">%d elektitaj</string>
+    <string name="main_menu_clear">Vakigi</string>
+    <string name="main_menu_archive">Arkivi</string>
+    <string name="main_menu_unarchive">Malsolvigi arkivon</string>
+    <string name="main_menu_delete">Forigi</string>
+    <string name="main_menu_add_contact">Aldoni al kontaktoj</string>
+    <string name="main_menu_pin">Alpingi al supro</string>
+    <string name="main_menu_unpin">Malsupigi</string>
+    <string name="main_menu_read">Marki kiel legita</string>
+    <string name="main_menu_unread">Marki kiel nelegita</string>
+    <string name="select_all">Elekti ĉiujn</string>
+    <string name="deselect_all">Diselekti ĉiujn</string>
+    <string name="main_menu_block">Bloki</string>
+    <string name="main_syncing">Organizante mesaĝojn...</string>
+    <string name="main_sender_you">Vi: %s</string>
+    <string name="main_draft">Skizo: %s</string>
+    <string name="main_message_results_title">Rezultoj en mesaĝoj</string>
+    <string name="main_message_results">%d mesaĝoj</string>
+    <string name="inbox_empty_text">Viaj konversacioj aperos ĉi tie</string>
+    <string name="inbox_search_empty_text">Neniu rezulto</string>
+    <string name="archived_empty_text">Neniu arkivita konversacio ankoraŭ..</string>
+    <string name="main_fab_cd">Komenci novan konversacion</string>
+    <string name="main_default_sms_title">Amas mesaĝi ?</string>
+    <string name="main_default_sms_message">Farighu SMS-apo vian defaŭlta SMS-apo</string>
+    <string name="main_default_sms_change">Ŝanĝi</string>
+    <string name="main_permission_required">Permeso postulata</string>
+    <string name="main_permission_sms">SMS postulas permeson por sendi kaj rigardi SMS-mesaĝojn</string>
+    <string name="main_permission_contacts">SMS postulas permeson por rigardi viajn kontaktojn</string>
+    <string name="main_permission_allow">Permesi</string>
+    <string name="main_permission_allow_read">Permesi legi kaj skribi permeson</string>
+    <string name="drawer_inbox">Enpaŝoj</string>
+    <string name="drawer_archived">Arkivitaj</string>
+    <string name="drawer_scheduled">Programitaj Mesaĝoj</string>
+    <string name="drawer_blocking">Bloka Listo</string>
+    <string name="drawer_calldorado">Alvokantaj Agordoj</string>
+    <string name="drawer_more">Pli</string>
+    <string name="drawer_group">Grupo mesaĝo</string>
+    <string name="drawer_settings">Agordoj</string>
+    <string name="drawer_remove_ads">Forigi reklamojn</string>
+    <string name="drawer_help">Helpo &amp; reakcio</string>
+    <string name="drawer_invite">Inviti amikojn</string>
+    <string name="dialog_delete_title">Forigi</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Ĉu vi certas, ke vi volas forigi ĉi tiun konversacion?</item>
+        <item quantity="other">Ĉu vi certas, ke vi volas forigi %d konversaciojn?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Kopii tekston</item>
+        <item>Antaŭenigi</item>
+        <item>Forigi</item>
+    </string-array>
+    <string name="compose_number_picker_title">Elektu telefonnumeron</string>
+    <string name="compose_number_picker_default">%s ∙ Defaŭlta</string>
+    <string name="compose_number_picker_once">Nur unufoje</string>
+    <string name="compose_number_picker_always">Ĉiam</string>
+    <string name="compose_title_selected">%d elektitaj</string>
+    <string name="compose_subtitle_results">%1$d el %2$d rezultoj</string>
+    <string name="contact_selected">%1$d el %2$d Elektitaj</string>
+    <string name="compose_send_group_title">Sendi kiel grupo-mesaĝon</string>
+    <string name="compose_send_group_summary">Ricevantoj kaj respondoj estos videblaj al ĉiuj</string>
+    <string name="compose_messages_empty">Komenco de via konversacio. Diru ion bonegan!</string>
+    <string name="compose_vcard_label">Kontaktkarto</string>
+    <string name="compose_scheduled_for">Planita por</string>
+    <string name="compose_scheduled_future">la tempo devas esti en la estonteco!</string>
+    <string name="compose_scheduled_toast">Aldonita al planitaj mesaĝoj</string>
+    <string name="compose_hint">Skribu ĉi tie…</string>
+    <string name="compose_menu_copy">Kopii tekston</string>
+    <string name="compose_menu_forward">Antaŭenigi</string>
+    <string name="compose_menu_delete">Forigi</string>
+    <string name="compose_menu_previous">Antaŭa</string>
+    <string name="compose_menu_next">Sekva</string>
+    <string name="compose_menu_clear">Vakigi</string>
+    <string name="compose_details_title">Mesaĝaj detaloj</string>
+    <string name="compose_details_type">Tipo: %s</string>
+    <string name="compose_details_from">De: %s</string>
+    <string name="compose_details_to">Al: %s</string>
+    <string name="compose_details_subject">Temo: %s</string>
+    <string name="compose_details_priority">Prioritato: %s</string>
+    <string name="compose_details_size">Grando: %s</string>
+    <string name="compose_details_sent">Sendita: %s</string>
+    <string name="compose_details_received">Ricevita: %s</string>
+    <string name="compose_details_delivered">Liverita: %s</string>
+    <string name="compose_details_error_code">Erarkodo: %d</string>
+    <string name="compose_attach_cd">Aldoni aldonon</string>
+    <string name="compose_gallery_cd">Aldoni foto</string>
+    <string name="compose_camera_cd">Fari foton</string>
+    <string name="compose_schedule_cd">Planita mesaĝo</string>
+    <string name="compose_contact_cd">Aldoni kontakton</string>
+    <string name="compose_contact_error">Eraro legante kontakton</string>
+    <string name="compose_sim_cd">%s elektita, ŝanĝu SIM-karton</string>
+    <string name="compose_send_cd">Sendi mesaĝon</string>
+    <string name="message_status_sending">Sendante…</string>
+    <string name="message_status_delivered">Liverita %s</string>
+    <string name="message_status_failed">Malsukcesis sendi</string>
+    <string name="info_title">Kontaktaj detaloj</string>
+    <string name="info_copied_address">Adreso kopiita</string>
+    <string name="info_name">Titolo de konversacio</string>
+    <string name="info_notifications">Sciigoj</string>
+    <string name="info_theme">Temo</string>
+    <string name="info_archive">Arkivo</string>
+    <string name="info_unarchive">Malarkivo</string>
+    <string name="info_block">Blokigi</string>
+    <string name="info_unblock">Malfiksi blokon</string>
+    <string name="info_delete">Forigi konversacion</string>
+    <string name="gallery_error">Ne povis ŝargi median</string>
+    <string name="gallery_toast_saved">Konservita en galerio</string>
+    <string name="backup_title">Kopii kaj restaŭri</string>
+    <string name="backup_backing_up">Kopiante mesaĝojn</string>
+    <string name="backup_restoring">Restarigante de kopio</string>
+    <string name="backup_last">Lasta kopio</string>
+    <string name="backup_loading">Ŝargante…</string>
+    <string name="backup_never">Neniam</string>
+    <string name="backup_restore_title">Restaŭri</string>
+    <string name="backup_restore_summary">Elektu kopion</string>
+    <string name="backup_restore_error_plus">Bonvolu malŝlosi SMS+ por uzi kopion kaj restaŭrigi</string>
+    <string name="backup_restore_error_backup">Kopio en progreso…</string>
+    <string name="backup_restore_error_restore">Restarigo en progreso…</string>
+    <string name="backup_restore_confirm_title">Restaŭri de kopio</string>
+    <string name="backup_restore_confirm_message">Ĉu vi certas, ke vi volas restaŭri viajn mesaĝojn el ĉi tiu kopio?</string>
+    <string name="backup_restore_stop_title">Ĉesigi restaŭrigon</string>
+    <string name="backup_restore_stop_message">Mesaĝoj, kiuj jam estis restaŭritaj, restos sur via aparato</string>
+    <string name="backup_restore_dialog_title">Kopioj</string>
+    <string name="backup_restore_dialog_summary">/SMS Mesaĝoj/Kopioj</string>
+    <string name="backup_restore_dialog_empty">Neniu kopio trovita</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">Neniu mesaĝo</item>
+        <item quantity="one">%d mesaĝo</item>
+        <item quantity="other">%d mesaĝoj</item>
+    </plurals>
+    <string name="backup_disclaimer">Ĝis nun, ni nur subtenis mesaĝojn per Kopiaĵo kaj Restarigo!</string>
+    <string name="backup_now">Kopiaĵo</string>
+    <string name="backup_progress_parsing">Analizante kopiaĵon…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d mesaĝoj</string>
+    <string name="backup_progress_saving">Konservante kopiaĵon…</string>
+    <string name="backup_progress_syncing">Sinkronigante mesaĝojn…</string>
+    <string name="backup_progress_finished">Finita!</string>
+    <string name="backup_notification_channel_name">Kopiaĵo kaj restarigo</string>
+    <string name="Message_notification_channel_name">Mesaĝa Sinkronigo</string>
+    <string name="scheduled_title">Planita</string>
+    <string name="schedule_guide">Vi povas plani mesaĝon klakante sur aldoni butonon kiu estas donita al mesaĝa konversacia ekrano.</string>
+    <string name="scheduled_empty_description">Aŭtomate sendu mesaĝon, en la preciza momento kiun vi deziras</string>
+    <string name="scheduled_empty_message_1">Saluton! Kiam estas la tempo por festi momenton?</string>
+    <string name="scheduled_empty_message_2">Ĝi estas la 5-a de marto</string>
+    <string name="scheduled_empty_message_3">Saluton! Rigardu kian grandan amikon mi estas, festante vian tagon</string>
+    <string name="scheduled_empty_message_3_timestamp">Sendante la 5-an de marto</string>
+    <string name="scheduled_compose_cd">Planu mesaĝon</string>
+    <string name="scheduled_options_title">Planitaj mesaĝoj</string>
+    <string-array name="scheduled_options">
+        <item>Sendi nun</item>
+        <item>Kopii tekston</item>
+        <item>Forigi</item>
+    </string-array>
+    <string name="settings_category_appearance">Aspekto</string>
+    <string name="settings_category_general">Ĝenerala</string>
+    <string name="settings_categoryreply">Respondi</string>
+    <string name="settings_night_title">Nokta reĝimo</string>
+    <string name="settings_text_size_title">Tipara grandeco</string>
+    <string name="settings_notifications_title">Sciigoj</string>
+    <string name="settings_notifications_o_summary">Klaku por aldonkondiĉi</string>
+    <string name="settings_notification_actions_title">Agoj</string>
+    <string name="settings_notification_action_1">Butono 1</string>
+    <string name="settings_notification_action_2">Butono 2</string>
+    <string name="settings_notification_action_3">Butono 3</string>
+    <string name="settings_notification_previews_title">Sciigo-prezentadoj</string>
+    <string name="settings_notification_wake_title">Veku ekrano</string>
+    <string name="settings_vibration_title">Vibrado</string>
+    <string name="settings_ringtone_title">Sono</string>
+    <string name="settings_ringtone_none">Nenio</string>
+    <string name="settings_reply_title">Respondi</string>
+    <string name="settings_reply_summary">Apera fenestro por novaj mesaĝoj</string>
+    <string name="settings_reply_tap_dismiss_title">Fermi per tuŝo</string>
+    <string name="settings_reply_tap_dismiss_summary">Tuŝu ekster la apera fenestro por fermi ĝin</string>
+    <string name="settings_swipe_actions">Tiraj agoj</string>
+    <string name="settings_swipe_actions_right">Dekstra tiro</string>
+    <string name="settings_swipe_actions_left">Maldekstra tiro</string>
+    <string name="settings_swipe_actions_change">ŜANĜI</string>
+    <string name="not_now_txt">Ne nun</string>
+    <string name="process_title">Ĉi tiu procezo iros iom da tempo</string>
+    <string name="syncing_done">Mesaĝa sinkronigo finita....</string>
+    <string name="all_set_txt">Ĉio pretas. Vi estas preta iri</string>
+    <string name="Personal">Ĉiuj Mesaĝoj</string>
+    <string name="Other">Konataj </string>
+    <string name="Spam">Malbonaj</string>
+    <string name="setting">Agordoj</string>
+    <string name="Share">Partagi</string>
+    <string name="Rate">Rate us</string>
+    <string name="edit">redakti</string>
+    <string name="DarkMode">Nokta Reĝimo</string>
+    <string name="BrightMode">Luma Reĝimo</string>
+    <string name="Camera">Kamerao</string>
+    <string name="Gallery">Galerio</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">Kontakto</string>
+    <string name="Schedule">Planado</string>
+    <string name="Location">Loko</string>
+    <string name="Notes">Notoj</string>
+    <string name="no_msg">Neniu mesaĝo ankoraŭ…</string>
+    <string name="Start_Chat">Komenci Ĉatadon</string>
+    <string name="Language">Lingvo</string>
+    <string name="rate_text">Rekomendu nin al aliaj per \nratante nin en Play Store!</string>
+    <string name="sort_by">Ordigi laŭ</string>
+    <string-array name="settings_swipe_actions">
+        <item>Nenio</item>
+        <item>Arkivo</item>
+        <item>Forigi</item>
+        <item>Voki</item>
+        <item>Marki kiel legita</item>
+        <item>Marki kiel nelegita</item>
+    </string-array>
+    <string name="settings_mms_size_title">Aŭtomate komprimi MMS aldonitaĵojn</string>
+    <string name="settings_sync_title">Sinkronigi mesaĝojn</string>
+    <string name="settings_sync_summary">Re-sinkronigu viajn mesaĝojn kun la integrita Androida SMS-datumbazo</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Vokkontrolo</string>
+    <string name="blocking_manager_sia_title">Ĉu Mi Respondos?</string>
+    <string name="blocked_messages_title">Blokaj mesaĝoj</string>
+    <string name="blocked_messages_empty">Viaj blokitaj mesaĝoj aperos ĉi tie</string>
+    <string name="blocking_block_title">Blokigi</string>
+    <string name="blocking_unblock_title">Malligi</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">Daŭrigi al %s kaj blokigi tiun numeron</item>
+        <item quantity="other">Daŭrigi al %s kaj blokigi tiujn nombrojn</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">Daŭrigi al %s kaj permesi tiun numeron</item>
+        <item quantity="other">Daŭrigi al %s kaj permesi tiujn nombrojn</item>
+    </plurals>
+    <string name="widget_loading">Ŝargante...</string>
+    <string name="widget_more">Vidi pli da konversacioj</string>
+    <string name="qkreply_menu_read">Marki kiel legita</string>
+    <string name="qkreply_menu_call">Voki</string>
+    <string name="qkreply_menu_delete">Forigi</string>
+    <string name="qkreply_menu_expand">Montri pli</string>
+    <string name="qkreply_menu_collapse">Montri malpli</string>
+    <string name="qkreply_menu_view">Malfermi konversacion</string>
+    <string name="changelog_title">Nova en SMS</string>
+    <string name="changelog_version">Versio %s</string>
+    <string name="changelog_added">Aldonita</string>
+    <string name="changelog_improved">Mallongigita</string>
+    <string name="changelog_fixed">Fiksitaj</string>
+    <string name="changelog_more">Pli</string>
+    <string name="changelog_dismiss">Forpeli</string>
+    <string-array name="notification_actions">
+        <item>Nenio</item>
+        <item>Marki kiel legita</item>
+        <item>Respondi</item>
+        <item>Voki</item>
+        <item>Forigi</item>
+    </string-array>
+    <string name="button_yes">Jes</string>
+    <string name="button_continue">Daŭrigi</string>
+    <string name="button_cancel">Nuligi</string>
+    <string name="button_delete">Forigi</string>
+    <string name="button_save">Konservi</string>
+    <string name="button_stop">Halti</string>
+    <string name="button_more">Pli</string>
+    <string name="button_set">Agordi</string>
+    <string name="button_undo">Malfari</string>
+    <string name="toast_copied">Kopiiĝis</string>
+    <string name="toast_archived">Arkivita konversacio</string>
+    <string name="toast_sms_plus">Vi devas malŝlosi SMS+ por uzi tion</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Nova mesaĝo</item>
+        <item quantity="other">%s novaj mesaĝoj</item>
+    </plurals>
+    <string name="notification_message_failed_title">Mesaĝo ne sendita</string>
+    <string name="notification_message_failed_text">La mesaĝo al %s ne sukcesis sendi</string>
+    <string name="privacy_policy">Privateca Politiko</string>
+    <string name="pocket_data_on">Poŝdateno devas esti ŝaltita dum sendado de MMS!</string>
+    <string name="inapp_details" translatable="false">Por forigi reklamojn, provu premian abonon kun subteno de nokta-Luma reĝimo \nSubteno por planitaj mesaĝoj.</string>
+    <string name="drawer_removeAds">Forigi reklamojn</string>
+    <string name="in_app_ads">messages_rad</string>
+    <string name="dialog_delete_message">Ĉu vi certas ke vi volas forigi ĉi tiun mesaĝon?</string>
+    <string name="compose_bar_not_support">La sendanto ne subtenas respondon</string>
+    <string name="default_name">Por sendi aŭ ricevi SMS-on, vi devas agordi ĝin kiel la defaŭlta aplikaĵo. Ĉu vi volas, ke la mesaĝo fariĝu via defaŭlta aplikaĵo?</string>
+    <string name="confirm_delete">Konfirmi forigon</string>
+    <string name="confirm_delete_text">Ĉu vi certas, ke vi volas forigi ĉi tiun noton?</string>
+    <string name="title">Titolo</string>
+    <string name="note">Noto</string>
+    <string name="search">Serĉi</string>
+    <string name="settings">Agordoj</string>
+    <string name="share_to">Kunhavigi al:</string>
+    <string name="sort">Ordigi</string>
+    <string name="empty_list_text">Premu la butonon en la malsupra dekstra angulo por aldoni novan noton!</string>
+    <string name="new_note">Nova Noto</string>
+    <string name="undo">Malfari</string>
+    <string name="delete">Forigi</string>
+    <string name="exception">Ekscepcio:</string>
+    <string name="edit_note">Redakti Noton</string>
+    <string name="drawer_feedback">Sendi reagon</string>
+    <string name="drawer_mode">Luma reĝimo</string>
+    <string name="unlimited_access_user">Senlima aliro al ĉiuj funkcioj</string>
+    <string name="pro_user">Vi estas Premia uzanto</string>
+    <string name="sub_info_text"><b>La abono aŭtomate renoviĝas ĝis vi ĝin malŝaltas.</b></string>
+    <string name="cancel_purchase">Vi povas nuligi la aŭtomatajn abonrenovigojn en Abono en Google Play</string>
+    <string name="remove_ads">Forigi reklamojn</string>
+    <string name="no_ads">Neniu reklamo</string>
+    <string name="free_trial">7-taga senpaga provo, poste aŭtomate renoviĝos</string>
+    <string name="can_not_talk_right_now">Pardonu, mi ne povas paroli nun</string>
+    <string name="can_call_you_later">Ĉu mi povas voki vin poste?</string>
+    <string name="i_am_on_my_way">Mi estas sur mia vojo</string>
+    <string name="write_personal_message">Skribu personan mesaĝon</string>
+    <string name="create_reminder">Krei novan memorigilon</string>
+    <string name="remind_me_about">Memorigu min pri</string>
+    <string name="no_title">Neniu Titolo</string>
+    <string name="edit_contact">Redakti Kontakton</string>
+    <string name="add_contact">Aldoni Kontakton</string>
+    <string name="messages">Mesaĝoj</string>
+    <string name="send_mail">Sendi Retpoŝton</string>
+    <string name="calendar">Kalendaro</string>
+    <string name="web">Retejo</string>
+    <string-array name="night_modes">
+        <item>Sistema</item>
+        <item>Luma Reĝimo</item>
+        <item>Nokta Reĝimo</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>Montri nomon kaj mesaĝon</item>
+        <item>Montri nomon</item>
+        <item>Kaŝi enhavon</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>Mallarĝa</item>
+        <item>Normala</item>
+        <item>Larĝa</item>
+        <item>Pli larĝa</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>Neniu prokrasto</item>
+        <item>Kurta</item>
+        <item>Meza</item>
+        <item>Longa</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Aŭtomata</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>Neniu kompresado</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>Ordone</item>
+        <item>Donu al mi momenton</item>
+        <item>Sur mia vojo</item>
+        <item>Dankon</item>
+        <item>Sonas bone</item>
+        <item>Kio okazas?</item>
+        <item>Konsentite</item>
+        <item>Ne</item>
+        <item>Mi amas vin</item>
+        <item>Pardonu</item>
+        <item>LOL</item>
+        <item>Tio estas bone</item>
+    </string-array>
+    <string name="default_title">Permesi SMS-applikaĵon esti defaŭlta aplikaĵo</string>
+    <string name="set_as_defaault">Agordi kiel defaŭlta</string>
+    <string name="love_app_title">Faru SMS-applikaĵon vian defaŭlta
+ SMS-applikaĵo</string>
+    <string-array name="gif">
+        <item>Besta vizaĝo</item>
+        <item>Emoji</item>
+        <item>Frukoj kaj legomoj</item>
+        <item>Halloween</item>
+        <item>Amo</item>
+    </string-array>
+    <string name="Sticker">Stikero</string>
+    <string name="no_connection">Neniu retkonekto.</string>
+    <string-array name="sticker">
+        <item>Knabo</item>
+        <item>Kartunaĵo</item>
+        <item>Vizaĝo</item>
+        <item>Festivalo</item>
+        <item>Fruktaj Stikeroj</item>
+        <item>Diversio</item>
+        <item>Knabino</item>
+        <item>Amo Stikeroj</item>
+        <item>Aliaj</item>
+        <item>Ŝuromulo</item>
+    </string-array>
+    <string name="open_link_to_browser">Malfermi ligilon en retumilo</string>
+    <string name="battery_dialog">Ĉu vi ne volas manki gravan SMS-on? \n
+Malŝaltu baterio-optimigon</string>
+    <string name="reason_to_change_battery_optimization_setting">Navigi al Informo pri Aplikaĵo &gt; Specialaj &gt; Baterio-Optimigo \nkaj elekti \'Ne optimizi\'</string>
+    <string name="feedback_txt">Rakontu al ni pri via sperto kaj donu sugeston por plibonigi la Mesaĝa aplikaĵo. </string>
+    <string name="reason_to_change_battery">Specialaj &gt; Baterio-Optimigo &gt; \'Ne optimizi\'</string>
+    <string name="drawer_transaction">Transakcioj</string>
+    <string name="drawer_promotion">Promocioj</string>
+    <string name="unknown">Nekonata </string>
+    <string name="priva"><u>Privateca Politiko</u></string>
+    <string name="smsfilter">SMS-Filtrilo</string>
+    <string name="by_click_t_c" translatable="false"><u>Alklakante vi akceptas niajn Uzokondiĉojn.</u></string>
+    <string name="continue_without_sub"><u>Daŭrigi sen abono</u></string>
+    <string name="text_free_trial">Boniĝu dum X tagoj <b>Senkosta Provo</b> - Poste X € / monato</string>
+    <string name="calldorado_message">Kontrolu ĉiujn viajn <b>mesaĝojn</b> antaŭ fino de la voko! Estas novaĵoj</string>
+    <string name="privacy_terms_description">Daŭrigante, vi akceptas kaj aprobas la uzokondiĉojn kaj la privatecajn politikojn.</string>
+    <string name="draw_over_description"><![CDATA[Por montri super aliaj aplikaĵoj niajn SMS-mesaĝojn. Ricevu ĉian eblecon de niaj SMS-alvokaj krom-aparatoj & pli]]></string>
+    <string name="ad_label">REKL</string>
+    <string name="onboarding_continue_button">Daŭrigi</string>
+    <string name="onboarding_step_1_title">SMS- &amp; Menseĝo-gestoro</string>
+    <string name="onboarding_step_1_subtitle">Babilu kun amikoj, kreu grupojn kaj organizu vian enirkeston</string>
+    <string name="onboarding_step_1_hight_light">Unika aliro al Vi</string>
+    <string name="onboarding_step_2_title">Organizu &amp; konservu mesaĝojn</string>
+    <string name="onboarding_step_2_subtitle">Kreu rezervkopiojn &amp; restaŭru viajn mesaĝojn</string>
+    <string name="onboarding_step_2_hight_light">Miloj da uzantoj ŝatas ĝin</string>
+    <string name="onboarding_step_3_title">Ĝuu la vivon &amp; lasu nin zorgi pri la enirkesto</string>
+    <string name="onboarding_step_3_subtitle">Akceptu la permesojn por ke ni povu helpi vin administri vian enirkeston.</string>
+    <string name="onboarding_step_3_hight_light">Eble pli malfrue</string>
+    <string name="onboarding_allow_access_button">Permesi aliron</string>
+    <string name="onboarding_step_4_title">Malkreskigu vian baterion per lasi nin fari la laboron</string>
+    <string name="onboarding_step_4_subtitle">Ni zorgos pri ĝenaj SMS-interrompoj.</string>
+    <string name="onboarding_step_4_hight_light">Miloj da uzantoj ŝatas ĝin</string>
+    <string name="onboarding_step_5_title">Duobla ekranlaboro sur aliaj aplikaĵoj dum babileto</string>
+    <string name="onboarding_step_5_subtitle">Ĝuu nian mirindan vokan krom-aparaton, kiu lasas vin fari plurtaskadon</string>
+    <string name="onboarding_step_5_hight_light">Miloj da uzantoj ŝatas ĝin</string>
+    <string name="payment_card_title">Babilu nun!</string>
+    <string name="payment_card_price"><![CDATA[3-taga senkosta, %s / %s]]></string>
+    <string name="payment_card_button">Provu nun senpage</string>
+    <string name="payment_card_hight_light">Sekurigita per Play Stored</string>
+    <string name="payment_card_weekly">semano</string>
+    <string name="payment_card_monthly">monate</string>
+    <string name="payment_card_yearly">ĉiujare</string>
+    <string name="payment_card_auto_renew">aŭtomata renoviĝanta abono, ĉiam malaktivebla</string>
+    <string name="accessibility_service_description">Via servo de alirebleco priskribo</string>
+    <string name="permission_txt"><font color="#FF8A00">Permeso Bezonata:</font>\nLegi telefona stato &amp; Trakti super aliaj aplikoj</string>
+    <string name="opt_privacy">Daŭrigante, vi akceptas kaj aprobas la uzokondiĉojn kaj la privatecajn politikojn.</string>
+    <string name="permission_required">Permesoj Necesaj</string>
+    <string name="permission_dialog_body">Tiu ĉi aplikaĵo eble ne funkcios ĝuste sen la telefonpermeso. Sekvu la instrukciojn sube por ebligi ĝin:\n\n1. Elektu "Permesojn"\n2. Trovu "Telefono" en la listo de permesoj kaj klaku por ebligi</string>
+    <string name="go_premium">Iru <font color = "#FFE600">Premium!</font></string>
+    <string name="unlock_everything">Malfermu Ĉion &amp; Neniuj Reklamoj</string>
+    <string name="start_three_day">Komencu 3-Dia Senkostan Provon</string>
+    <string name="pro">Pro</string>
+    <string name="more_option">Pli da opcioj</string>
+    <string name="rate_us_5">Doni al ni 5 Stelojn</string>
+    <string name="help_feedback">Helpo &amp; Reakcio</string>
+    <string name="send_message">Sendi Mesaĝon</string>
+    <string name="CTA_Button_Text">Frapu por malŝlosi ĉiujn <font color="#FFFBCD04">funkciojn</font></string>
+</resources>

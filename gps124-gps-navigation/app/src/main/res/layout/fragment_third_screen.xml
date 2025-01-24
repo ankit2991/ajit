@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/onboarding_bg_10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginHorizontal="16dp"
+        android:fontFamily="@font/circular_std"
+        android:gravity="center|top"
+        android:text="@string/new_onboarding_title_three"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+</FrameLayout>

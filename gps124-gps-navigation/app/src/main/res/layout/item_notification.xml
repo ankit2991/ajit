@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/root">
+
+
+    <LinearLayout
+        android:id="@+id/llVerticalViews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@+id/rlActions"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/topView"
+            android:layout_width="@dimen/_2sdp"
+            android:layout_height="@dimen/_10sdp"
+            android:background="@color/light_gray"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/tvStopNumber"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:textAlignment="center"
+            android:text="1"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/white"
+            android:background="@drawable/blue_circle_20dp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/bottomView"
+            android:layout_width="@dimen/_3sdp"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlActions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_toEndOf="@+id/llVerticalViews">
+
+        <ImageView
+            android:id="@+id/btnStop"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/quantum_ic_clear_grey600_24"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            />
+
+        <TextView
+            android:id="@+id/tvPlaceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/btnStop"
+            android:text="ABC name"
+            android:textSize="@dimen/_12ssp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:textColor="@color/black_colour"
+            android:singleLine="true"
+            />
+
+        <TextView
+            android:id="@+id/tvPlaceAddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPlaceName"
+            android:layout_alignStart="@+id/tvPlaceName"
+            android:layout_toStartOf="@+id/btnStop"
+            android:text="ABC name"
+            android:textSize="@dimen/_10ssp"
+            android:singleLine="true"
+            />
+
+        <Button
+            android:id="@+id/btnDone"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/next"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_below="@+id/tvPlaceAddress"
+            android:layout_alignStart="@+id/tvPlaceName"
+            android:background="@drawable/bg_blue_solid_rounded_25sdp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:drawableStart="@drawable/ic_done_direction_white"
+            android:textAlignment="viewStart"
+            android:drawablePadding="@dimen/_7sdp"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingEnd="@dimen/_15sdp"
+            />
+
+        <Button
+            android:id="@+id/btnAllStops"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/all_stops"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_below="@+id/tvPlaceAddress"
+            android:layout_toEndOf="@+id/btnDone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btnDone"
+            app:layout_constraintTop_toBottomOf="@+id/tvPlaceAddress"
+
+            android:background="@drawable/btn_white_rounded_4sdp"
+            android:textColor="@color/colorAccent"
+            android:textAllCaps="false"
+            android:drawableStart="@drawable/ic_all_stops"
+            android:textAlignment="viewStart"
+            android:drawablePadding="@dimen/_7sdp"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingEnd="@dimen/_15sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:elevation="@dimen/_10sdp"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+

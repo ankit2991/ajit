@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:id="@+id/rl_main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:background="@drawable/progressbar_bg"
+    android:orientation="vertical">
+
+    <fr.castorflex.android.circularprogressbar.CircularProgressBar
+        android:id="@+id/progress"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        style="@style/CircularThemeProgressBar_centre"
+        />
+
+    <fr.castorflex.android.circularprogressbar.CircularProgressBar
+        android:id="@+id/layout_loading"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        style="@style/CircularThemeProgressBar_centre"
+        android:visibility="gone"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rl_download" android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!--<ProgressBar
+            android:id="@+id/circularProgressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true" android:visibility="gone"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/circular"
+            android:secondaryProgress="100" />-->
+
+        <antonkozyriatskyi.circularprogressindicator.CircularProgressIndicator
+            android:id="@+id/circularProgressbar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:direction="clockwise"
+            android:layout_centerInParent="true"
+            app:enableProgressAnimation="true"
+            app:progressBackgroundColor="#D7999999"
+            app:progressBackgroundStrokeWidth="3dp"
+            app:progressCap="round"
+            app:progressColor="#ff6b32"
+            app:progressStrokeWidth="8dp"
+            app:startAngle="270"
+            app:textColor="@color/transparent"
+            app:textSize="0sp"
+            app:fillBackground="false" />
+
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center" android:visibility="visible"
+            android:text=""
+            android:fontFamily="@font/baloobhai"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/txt_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progress"
+        android:layout_marginTop="24dp" android:fontFamily="@font/baloobhai"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="@dimen/small_text_size"
+        android:visibility="gone" />
+</RelativeLayout>

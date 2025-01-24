@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sugest_update_title">Mizajou Disponib</string>
+    <string name="sugest_update_message">Nouvo mizajou disponib sou Google Play, tanpri mizajou vèsyon ou</string>
+    <string name="force_update_title">Mizajou Disponib</string>
+    <string name="force_update_message">Nouvo mizajou disponib sou Google Play, tanpri mizajou vèsyon ou</string>
+    <string name="update_ok">Mizajou</string>
+    <string name="update_no">Pa kounye a</string>
+    <string name="app_name">#Mèsaj</string>
+    <string name="in_app_name">Mèsaj</string>
+    <string name="splash_app_name">Mèsaj SMS</string>
+    <string name="loading_msg">Tanpri tann...</string>
+    <string name="ads_loading_msg">Anons Aparèt...</string>
+    <string name="shortcut_compose_long_label">Nouvo Konvèsasyon</string>
+    <string name="shortcut_compose_short_label">Kreye</string>
+    <string name="shortcut_compose_disabled_message">Kout Chemen Dezaktive</string>
+    <string name="title_archived">Mèsaj Achiv</string>
+    <string name="title_settings">Anviwònman</string>
+    <string name="title_notification_prefs">Notifikasyon</string>
+    <string name="title_theme">Tem</string>
+    <string name="title_conversations">Chèche nimewo, non ak plis</string>
+    <string name="title_compose">Tape yon non oswa nimewo telefòn</string>
+    <string name="setup_skip">Pase</string>
+    <string name="setup_next">Kontinye</string>
+    <string name="menu_add_person">Ajoute moun</string>
+    <string name="menu_call">Rele</string>
+    <string name="menu_info">Detay</string>
+    <string name="menu_save">Anrejistre nan galeri</string>
+    <string name="menu_share">Pataje</string>
+    <string name="main_drawer_open_cd">Ouvri dra navigasyon</string>
+    <string name="main_title_selected">%d chwazi</string>
+    <string name="main_menu_clear">Vide</string>
+    <string name="main_menu_archive">Achiv</string>
+    <string name="main_menu_unarchive">Desachiv</string>
+    <string name="main_menu_delete">Efase</string>
+    <string name="main_menu_add_contact">Ajoute nan kontak</string>
+    <string name="main_menu_pin">Epingler sou tèt</string>
+    <string name="main_menu_unpin">Detache</string>
+    <string name="main_menu_read">Mark kòm li</string>
+    <string name="main_menu_unread">Mark kòm pa li</string>
+    <string name="select_all">Chwazi Tout</string>
+    <string name="deselect_all">Deselèksyone Tout</string>
+    <string name="main_menu_block">Bloke</string>
+    <string name="main_syncing">Òganize mèsaj yo...</string>
+    <string name="main_sender_you">Ou: %s</string>
+    <string name="main_draft">Bos: %s</string>
+    <string name="main_message_results_title">Rezilta nan mèsaj yo</string>
+    <string name="main_message_results">%d mèsaj</string>
+    <string name="inbox_empty_text">Konvèsasyon ou yo pral parèt isit la</string>
+    <string name="inbox_search_empty_text">Pa gen rezilta</string>
+    <string name="archived_empty_text">Pa gen konvèsasyon achiv ankò..</string>
+    <string name="main_fab_cd">Kòmanse konvèsasyon nouvo</string>
+    <string name="main_default_sms_title">Renmen Mèsaj la?</string>
+    <string name="main_default_sms_message">Fè aplikasyon SMS la aplikasyon SMS default ou</string>
+    <string name="main_default_sms_change">Chanje</string>
+    <string name="main_permission_required">Pèmisyon nesesè</string>
+    <string name="main_permission_sms">SMS bezwen pèmisyon pou voye ak wè mèsaj SMS</string>
+    <string name="main_permission_contacts">SMS bezwen pèmisyon pou wè kontak ou yo</string>
+    <string name="main_permission_allow">Otorize</string>
+    <string name="main_permission_allow_read">Otorize Pèmisyon Lekti ak Ekri</string>
+    <string name="drawer_inbox">Bwat antre</string>
+    <string name="drawer_archived">Achiv</string>
+    <string name="drawer_scheduled">Mèsaj Pwograme</string>
+    <string name="drawer_blocking">Lis Blòke</string>
+    <string name="drawer_calldorado">Anviwònman Apele</string>
+    <string name="drawer_more">Plis</string>
+    <string name="drawer_group">Mèsaj gwoup</string>
+    <string name="drawer_settings">Anviwònman</string>
+    <string name="drawer_remove_ads">Retire Anons yo</string>
+    <string name="drawer_help">Ed ak Rezilta</string>
+    <string name="drawer_invite">Envite zanmi</string>
+    <string name="dialog_delete_title">Efase</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Èske ou sèten ou vle efase konvèsasyon sa a?</item>
+        <item quantity="other">Èske ou sèten ou vle efase %d konvèsasyon yo?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Kopye tèks</item>
+        <item>Fòwòd</item>
+        <item>Efase</item>
+    </string-array>
+    <string name="compose_number_picker_title">Chwazi yon nimewo telefòn</string>
+    <string name="compose_number_picker_default">%s ∙ Defo</string>
+    <string name="compose_number_picker_once">Jis yon fwa</string>
+    <string name="compose_number_picker_always">Toujou</string>
+    <string name="compose_title_selected">%d chwazi</string>
+    <string name="compose_subtitle_results">%1$d nan %2$d rezilta</string>
+    <string name="contact_selected">%1$d nan %2$d Chwazi</string>
+    <string name="compose_send_group_title">Voye kòm mesaj gwoup</string>
+    <string name="compose_send_group_summary">Reyipyan ak repons yo pral vizib pou tout moun</string>
+    <string name="compose_messages_empty"> Kòmansman konvèsasyon ou a. Di yon bagay bèl!</string>
+    <string name="compose_vcard_label">Kat kontak</string>
+    <string name="compose_scheduled_for">Pwogram pou</string>
+    <string name="compose_scheduled_future"> tan dwe nan avni a!</string>
+    <string name="compose_scheduled_toast">Ajoute nan mesaj pwogram</string>
+    <string name="compose_hint">Ekri isit la…</string>
+    <string name="compose_menu_copy">Kopye tèks</string>
+    <string name="compose_menu_forward">Fòwòd</string>
+    <string name="compose_menu_delete">Efase</string>
+    <string name="compose_menu_previous">Anvan</string>
+    <string name="compose_menu_next">Apre</string>
+    <string name="compose_menu_clear">Vide</string>
+    <string name="compose_details_title">Detay mesaj</string>
+    <string name="compose_details_type">Tipe: %s</string>
+    <string name="compose_details_from">Soti: %s</string>
+    <string name="compose_details_to">Pou: %s</string>
+    <string name="compose_details_subject">Sijè: %s</string>
+    <string name="compose_details_priority">Priyorite: %s</string>
+    <string name="compose_details_size">Gwosè: %s</string>
+    <string name="compose_details_sent">Voye: %s</string>
+    <string name="compose_details_received">Reyevwa: %s</string>
+    <string name="compose_details_delivered">Livri: %s</string>
+    <string name="compose_details_error_code">Kòd erè: %d</string>
+    <string name="compose_attach_cd">Ajoute yon pèsonn</string>
+    <string name="compose_gallery_cd">Pye nan galeyri</string>
+    <string name="compose_camera_cd">Pran yon foto</string>
+    <string name="compose_schedule_cd">Pwogram mesaj</string>
+    <string name="compose_contact_cd">Annex yon kontak</string>
+    <string name="compose_contact_error">Erè lekti kontak la</string>
+    <string name="compose_sim_cd">%s chwazi, chanje kat SIM</string>
+    <string name="compose_send_cd">Voye mesaj</string>
+    <string name="message_status_sending">Anvwaye…</string>
+    <string name="message_status_delivered">Livri %s</string>
+    <string name="message_status_failed">Pa rive voye</string>
+    <string name="info_title">Detay Kontak</string>
+    <string name="info_copied_address">Adrès kopye</string>
+    <string name="info_name">Tit konvèsasyon</string>
+    <string name="info_notifications">Notifikasyon</string>
+    <string name="info_theme">Tem</string>
+    <string name="info_archive">Achiv</string>
+    <string name="info_unarchive">Desachiv</string>
+    <string name="info_block">Bloke</string>
+    <string name="info_unblock">Debloke</string>
+    <string name="info_delete">Efase konvèsasyon</string>
+    <string name="gallery_error">Pa t \'ka chaje medya yo</string>
+    <string name="gallery_toast_saved">Sove nan galeyri</string>
+    <string name="backup_title">Sove ak reveye</string>
+    <string name="backup_backing_up">Sove mèsaj yo</string>
+    <string name="backup_restoring">Reveye soti nan sove</string>
+    <string name="backup_last">Dènye sove</string>
+    <string name="backup_loading">Chajman…</string>
+    <string name="backup_never">Pa janm</string>
+    <string name="backup_restore_title">Reveye</string>
+    <string name="backup_restore_summary">Chwazi yon sove</string>
+    <string name="backup_restore_error_plus">Tanpri debloke SMS+ pou sèvi ak sove ak reveye yo</string>
+    <string name="backup_restore_error_backup">Sove an pwogrè…</string>
+    <string name="backup_restore_error_restore">Reveye an pwogrè…</string>
+    <string name="backup_restore_confirm_title">Reveye soti nan sove</string>
+    <string name="backup_restore_confirm_message">Èske ou sèten ou vle reveye mèsaj ou soti nan sove sa a?</string>
+    <string name="backup_restore_stop_title">Koupe reveye</string>
+    <string name="backup_restore_stop_message">Mesaj ki deja te reveye yo pral rete sou aparey ou a</string>
+    <string name="backup_restore_dialog_title">Sove</string>
+    <string name="backup_restore_dialog_summary">/Mèsaj SMS/Sove</string>
+    <string name="backup_restore_dialog_empty">Pa gen okenn sove jwenn</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">Pa gen mèsaj</item>
+        <item quantity="one">%d mèsaj</item>
+        <item quantity="other">%d mèsaj</item>
+    </plurals>
+    <string name="backup_disclaimer">Jiska kounye a, Nou sèlman sipòte SMS pa Sove ak Reveye!</string>
+    <string name="backup_now">Sove</string>
+    <string name="backup_progress_parsing">Analiz sove a…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d mèsaj</string>
+    <string name="backup_progress_saving">Anrejistre sove a…</string>
+    <string name="backup_progress_syncing">Senkronize mèsaj yo…</string>
+    <string name="backup_progress_finished">Fini!</string>
+    <string name="backup_notification_channel_name">Sove ak reveye</string>
+    <string name="Message_notification_channel_name">Senkronizasyon Mèsaj</string>
+    <string name="scheduled_title">Pwogram</string>
+    <string name="schedule_guide">Ou kapab mete mesaj pwogram nan klouke sou bouton an, ki se bay nan ekran konvèsasyon mèsaj la.</string>
+    <string name="scheduled_empty_description">Voye otomatikman yon mesaj, nan moman eksat ou ta renmen</string>
+    <string name="scheduled_empty_message_1">Woy! Ki lè se moman pou selebre?</string>
+    <string name="scheduled_empty_message_2">Li nan 5 mas</string>
+    <string name="scheduled_empty_message_3">Heeey! Gade kijan yon bon zanmi mwen ye, selebre jou ou</string>
+    <string name="scheduled_empty_message_3_timestamp">Ap voye 5 Mas…</string>
+    <string name="scheduled_compose_cd">Pwogram yon mesaj</string>
+    <string name="scheduled_options_title">Mesaj pwogram</string>
+    <string-array name="scheduled_options">
+        <item>Voye kounye a</item>
+        <item>Kopye tèks</item>
+        <item>Efase</item>
+    </string-array>
+    <string name="settings_category_appearance">Aparans</string>
+    <string name="settings_category_general">Jeneral</string>
+    <string name="settings_categoryreply">Reponn</string>
+    <string name="settings_night_title">Mod Nwit</string>
+    <string name="settings_text_size_title">Gwosè fout</string>
+    <string name="settings_notifications_title">Notifikasyon</string>
+    <string name="settings_notifications_o_summary">Klike pou koutim</string>
+    <string name="settings_notification_actions_title">Aksyon</string>
+    <string name="settings_notification_action_1">Bouton 1</string>
+    <string name="settings_notification_action_2">Bouton 2</string>
+    <string name="settings_notification_action_3">Bouton 3</string>
+    <string name="settings_notification_previews_title">Preview notifikasyon</string>
+    <string name="settings_notification_wake_title">Reveye ekran</string>
+    <string name="settings_vibration_title">Vibra</string>
+    <string name="settings_ringtone_title">Son</string>
+    <string name="settings_ringtone_none">Pa gen</string>
+    <string name="settings_reply_title">Reponn</string>
+    <string name="settings_reply_summary">Popup pou nouvo mèsaj yo</string>
+    <string name="settings_reply_tap_dismiss_title">Klike pou demisyon</string>
+    <string name="settings_reply_tap_dismiss_summary">Klike alyas nan popup la pou fèmen li</string>
+    <string name="settings_swipe_actions">Aksyon Swipe</string>
+    <string name="settings_swipe_actions_right">Swipe dwa</string>
+    <string name="settings_swipe_actions_left">Swipe goch</string>
+    <string name="settings_swipe_actions_change">CHANJE</string>
+    <string name="not_now_txt">Pa kounye a</string>
+    <string name="process_title">Pwosesis sa a pral \npwann yon ti tan</string>
+    <string name="syncing_done">Senkronizasyon mèsaj fini....</string>
+    <string name="all_set_txt">Tout anplase. Ou pare pou ale</string>
+    <string name="Personal">Tout Mesaj</string>
+    <string name="Other">Konnen </string>
+    <string name="Spam">Pouyèt</string>
+    <string name="setting">Anviwònman</string>
+    <string name="Share">Pataje</string>
+    <string name="Rate">Evalye nou</string>
+    <string name="edit">edit</string>
+    <string name="DarkMode">Mod Nwa</string>
+    <string name="BrightMode">Mod Klere</string>
+    <string name="Camera">Kamera</string>
+    <string name="Gallery">Galri</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">Kontak</string>
+    <string name="Schedule">Pwogram</string>
+    <string name="Location">Kote</string>
+    <string name="Notes">Nòt</string>
+    <string name="no_msg">Pa gen Mesaj ankò…</string>
+    <string name="Start_Chat">Kòmanse Chat</string>
+    <string name="Language">Lang</string>
+    <string name="rate_text">Rekòmande nou bay lòt moun pa evalye nou sou Play Store!</string>
+    <string name="sort_by">Tri pa</string>
+    <string-array name="settings_swipe_actions">
+        <item>Pa gen</item>
+        <item>Òchiv</item>
+        <item>Efase</item>
+        <item>Rele</item>
+        <item>Mak kòm li te le</item>
+        <item>Mak kòm li pa te le</item>
+    </string-array>
+
+
+    <string name="settings_mms_size_title">Oto-konprese aksesoar MMS yo</string>
+    <string name="settings_sync_title">Senkronize mèsaj yo</string>
+    <string name="settings_sync_summary">Re-senkronize mèsaj yo ak baz done SMS natif Android la</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Kontwòl apèl</string>
+    <string name="blocking_manager_sia_title">Dwèt mwen reponn</string>
+    <string name="blocked_messages_title">Mèsaj bloke</string>
+    <string name="blocked_messages_empty">Mèsaj yo bloke yo pral parèt isit la</string>
+    <string name="blocking_block_title">Bloke</string>
+    <string name="blocking_unblock_title">Debloke</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">Kontinye sou %s ak bloke nimewo sa a</item>
+        <item quantity="other">Kontinye sou %s ak bloke nimewo sa yo</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">Kontinye sou %s ak pèmèt nimewo sa a</item>
+        <item quantity="other">Kontinye sou %s ak pèmèt nimewo sa yo</item>
+    </plurals>
+    <string name="widget_loading">Chaje…</string>
+    <string name="widget_more">Gade plis konvèsasyon</string>
+    <string name="qkreply_menu_read">Mete kòm li</string>
+    <string name="qkreply_menu_call">Rele</string>
+    <string name="qkreply_menu_delete">Efase</string>
+    <string name="qkreply_menu_expand">Montre plis</string>
+    <string name="qkreply_menu_collapse">Montre mwens</string>
+    <string name="qkreply_menu_view">Ouvri konvèsasyon</string>
+    <string name="changelog_title">Nouvo nan SMS</string>
+    <string name="changelog_version">Vèsyon %s</string>
+    <string name="changelog_added">Ajoute</string>
+    <string name="changelog_improved">Amelyore</string>
+    <string name="changelog_fixed">Repare</string>
+    <string name="changelog_more">Plis</string>
+    <string name="changelog_dismiss">Dismis</string>
+    <string-array name="notification_actions">
+        <item>Pèsonn</item>
+        <item>Mete kòm li</item>
+        <item>Reponn</item>
+        <item>Rele</item>
+        <item>Efase</item>
+    </string-array>
+    <string name="button_yes">Wi</string>
+    <string name="button_continue">Kontinye</string>
+    <string name="button_cancel">Anile</string>
+    <string name="button_delete">Efase</string>
+    <string name="button_save">Sove</string>
+    <string name="button_stop">Sispann</string>
+    <string name="button_more">Plis</string>
+    <string name="button_set">Anviwònman</string>
+    <string name="button_undo">Anilasyon</string>
+    <string name="toast_copied">Kopiyé</string>
+    <string name="toast_archived">Konvèsasyon achiv</string>
+    <string name="toast_sms_plus">Ou dwe deblok SMS+ pou sèvi ak sa a</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Nouvo mesaj</item>
+        <item quantity="other">%s nouvo mesaj</item>
+    </plurals>
+    <string name="notification_message_failed_title">Mesaj pa voye</string>
+    <string name="notification_message_failed_text">Mesaj la pou %s pa rive voye</string>
+    <string name="privacy_policy">Poli prive</string>
+    <string name="pocket_data_on">Done zak poch la dwe nan sou tan ou voye MMS !</string>
+    <string name="inapp_details" translatable="false">Pou retire reklam yo, eseye abò premye ak sipò mod nwa-klere ak sipò pou sms pwograme.</string>
+    <string name="drawer_removeAds">Retire reklam yo</string>
+    <string name="in_app_ads">mesaj_rad</string>
+    <string name="dialog_delete_message">Èske ou vrèman vle efase mesaj sa a?</string>
+    <string name="compose_bar_not_support">Moun ki voye mesaj la pa sipò repons</string>
+    <string name="default_name">Pou voye oswa resevwa yon SMS, ou dwe mete l \' kòm aplikasyon default. Èske ou vle mesaj la tounen aplikasyon default ou?</string>
+    <string name="confirm_delete">Konfime Efase</string>
+    <string name="confirm_delete_text">Èske ou sèten ou vle efase not sa a?</string>
+    <string name="title">Tit</string>
+    <string name="note">Nòt</string>
+    <string name="search">Chèche</string>
+    <string name="settings">Anviwònman</string>
+    <string name="share_to">Pataje nan:</string>
+    <string name="sort">Tri</string>
+    <string name="empty_list_text">Pese bouton an sou dwat anba pou ajoute yon nouvo not!</string>
+    <string name="new_note">Nouvo Nòt</string>
+    <string name="undo">Anile</string>
+    <string name="delete">Efase</string>
+    <string name="exception">Eksepsyon:</string>
+    <string name="edit_note">Edite Not</string>
+    <string name="drawer_feedback">Voye remak</string>
+    <string name="drawer_mode">Mod limyè</string>
+    <string name="unlimited_access_user">Aksè San Limit\nnan Tout Karyè</string>
+    <string name="pro_user">Ou se yon itilizatè premye</string>
+    <string name="sub_info_text"><b>Abò a ap renouvle otomatikman jiska ou deside mete l \' avèk.</b></string>
+    <string name="cancel_purchase">Ou ka anile renouvèlman otomatik abò nan Abò sou Google play</string>
+    <string name="remove_ads">Retire reklam yo</string>
+    <string name="no_ads">Pa gen reklam</string>
+    <string name="free_trial">7 jou gratis, ansuit auto-renouvle</string>
+    <string name="can_not_talk_right_now">Anpil eskize, mwen pa ka pale kounye a</string>
+    <string name="can_call_you_later">Èske mwen ka rele ou pita?</string>
+    <string name="i_am_on_my_way">Mwen nan wout mwen</string>
+    <string name="write_personal_message">Ekriven mesaj pèsonèl</string>
+    <string name="create_reminder">Kreye yon nouvo rapèl</string>
+    <string name="remind_me_about">Ranmase m\' sou</string>
+    <string name="no_title">Pa gen Tit</string>
+    <string name="edit_contact">Edite Kontak</string>
+    <string name="add_contact">Ajoute Kontak</string>
+    <string name="messages">Mesaj</string>
+    <string name="send_mail">Voye Imèl</string>
+    <string name="calendar">Kalendye</string>
+    <string name="web">Tèl</string>
+    <string-array name="night_modes">
+        <item>Sistèm</item>
+        <item>Mod Klere</item>
+        <item>Mod Nwa</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>Afiche non epi mesaj la</item>
+        <item>Afiche non</item>
+        <item>Kache kontni</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>Piti</item>
+        <item>Nòmal</item>
+        <item>Gran</item>
+        <item>Plis Gran</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>Pas de retad</item>
+        <item>Kout</item>
+        <item>Mwayen</item>
+        <item>Long</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Otomatik</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>Pas de konpresyon</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>Dakò</item>
+        <item>Dòn mwen yon moman</item>
+        <item>Mwen sou wout mwen</item>
+        <item>Mèsi</item>
+        <item>Bon koute</item>
+        <item>Kisa ki ap pase?</item>
+        <item>Dakò</item>
+        <item>Non</item>
+        <item>Mwen renmen ou</item>
+        <item>Padon</item>
+        <item>LOL</item>
+        <item>Sa pa fè anyen</item>
+    </string-array>
+    <string name="default_title">Otorize Aplikasyon SMS la kòm aplikasyon default</string>
+    <string name="set_as_defaault">Met kòm Default</string>
+    <string name="love_app_title">Fè aplikasyon SMS la tounen aplikasyon SMS default ou</string>
+    <string-array name="gif">
+        <item>Figi Bèt</item>
+        <item>Emoji</item>
+        <item>Fwi ak Legim</item>
+        <item>Halloween</item>
+        <item>Renmen</item>
+    </string-array>
+    <string name="Sticker">Sticker</string>
+    <string name="no_connection">Pa gen koneksyon entènèt.</string>
+    <string-array name="sticker">
+        <item>Ti gason</item>
+        <item>Katonye</item>
+        <item>Figir</item>
+        <item>Fet</item>
+        <item>Fwi</item>
+        <item>Divètisman</item>
+        <item>Ti fi</item>
+        <item>Sticker Renmen</item>
+        <item>Lòt</item>
+        <item>Chen ti bebe</item>
+    </string-array>
+    <string name="open_link_to_browser">Ouvri Lyen nan Navigatè</string>
+    <string name="battery_dialog"> Pa vle rate Mesaj enpòtan yo? \n
+Desann optimizasyon batri</string>
+    <string name="reason_to_change_battery_optimization_setting">Navige nan Enfo Aplikasyon &gt; Avanse &gt; Optimizasyon Batri \net chwazi ‘Pa optimize’</string>
+    <string name="feedback_txt">Pale nou sou eksperyans ou ak bay sijesyon pou amelyore aplikasyon Mesaj la. </string>
+    <string name="reason_to_change_battery">Avanse &gt; Optimizasyon Batri &gt; ‘Pa optimize’</string>
+    <string name="drawer_transaction">Tranzaksyon</string>
+    <string name="drawer_promotion">Pwomosyon</string>
+    <string name="unknown">Pa konnen</string>
+    <string name="priva"><u>Poli prive</u></string>
+    <string name="smsfilter">Filt SMS</string>
+    <string name="by_click_t_c" translatable="false"><u>An klike ou aksepte tèm ak kondisyon nou yo.</u></string>
+    <string name="continue_without_sub"><u>Kontinye san abò</u></string>
+    <string name="text_free_trial">Jwi yon <b>gratis pou X jou</b> - Apre sa, se X € / mwa</string>
+    <string name="calldorado_message">Verifye tout <b>mesaj</b> ou anvan ou fini ak apèl la! Gen nouvèl</string>
+    <string name="privacy_terms_description">Pou kontinye, ou aksepte ak apwouve tèm itilizasyon ak poli prive a.</string>
+    <string name="draw_over_description"><![CDATA[Pou montre sou tèt lòt aplikasyon nou yo Mesaj SMS nou. Jwenn tout potansyèl widget ak plis SMS nou yo.]]></string>
+    <string name="ad_label">PUB</string>
+    <string name="onboarding_continue_button">Kontinye</string>
+    <string name="onboarding_step_1_title">Majè SMS &amp; Messenger</string>
+    <string name="onboarding_step_1_subtitle">Chat ak zanmi, fè gwoup ak òganize bwat ou yo</string>
+    <string name="onboarding_step_1_hight_light">Aproch ùnike pou ou</string>
+    <string name="onboarding_step_2_title">Òganize &amp; kenbe mesaj yo</string>
+    <string name="onboarding_step_2_subtitle">Sekirize &amp; retabli mesaj ou yo</string>
+    <string name="onboarding_step_2_hight_light">Milye itilizatè ap renmen li</string>
+    <string name="onboarding_step_3_title">Jwi lavi ou &amp; kite nou okipe bwat la</string>
+    <string name="onboarding_step_3_subtitle">Aksepte otorizasyon yo pou nou ka ede ou jere bwat ou.</string>
+    <string name="onboarding_step_3_hight_light">Pwobableman pi ta</string>
+    <string name="onboarding_allow_access_button">Otorize aksè</string>
+    <string name="onboarding_step_4_title">Amelyore batri ou lè n ap travay</string>
+    <string name="onboarding_step_4_subtitle">N ap pran swen anpwisan de enpwotan SMS ki koupe.</string>
+    <string name="onboarding_step_4_hight_light">Milye itilizatè ap renmen li</string>
+    <string name="onboarding_step_5_title">Fenèt divize travay sou lòt aplikasyon pandan ouap pale</string>
+    <string name="onboarding_step_5_subtitle">Toujou sipòte gwo pwodwi nou an ki pèmèt ou fè plizyè bagay nan menm tan</string>
+    <string name="onboarding_step_5_hight_light">Milye itilizatè ap renmen li</string>
+    <string name="payment_card_title">Pale kounye a!</string>
+    <string name="payment_card_price"><![CDATA[3 jou gratis, %s / %s]]></string>
+    <string name="payment_card_button">Esaye kounye a gratis</string>
+    <string name="payment_card_hight_light">An sekirite avèk Play Store</string>
+    <string name="payment_card_weekly">chak semèn</string>
+    <string name="payment_card_monthly">chak mwa</string>
+    <string name="payment_card_yearly">chak an</string>
+    <string name="payment_card_auto_renew">abònman otomatik renouvlab, kansele nenpòt lè</string>
+    <string name="accessibility_service_description">Deskripsyon sèvis aksesibilite ou</string>
+    <string name="permission_txt"><font color="#FF8A00">Otorizasyon Nesesè:</font>\nLi etat telefòn &amp;  Desine sou lòt aplikasyon</string>
+    <string name="opt_privacy">An kontinye, ou aksepte ak apwouve tèm itilizasyon ak politik entim</string>
+    <string name="permission_required">Otorizasyon Nesesè</string>
+    <string name="permission_dialog_body">Aplikasyon sa a pa ka mache kòrèkteman san otorizasyon telefòn. Swiv enstriksyon yo anba pou pèmèt li:\n\n1. Seleksyone "Otorizasyon"\n2. Chèche "Telefòn" nan lis otorizasyon yo ak tape pou pèmèt li</string>
+    <string name="go_premium">Tounen <font color = "#FFE600">Premye!</font></string>
+    <string name="unlock_everything">Debloke Tout &amp; Pa gen Piblikite</string>
+    <string name="start_three_day">Kòmanse 3 Jou Gratis</string>
+    <string name="pro">Pro</string>
+    <string name="more_option">Plis Opòsyon</string>
+    <string name="rate_us_5">Evalye nou ak 5 Estwal</string>
+    <string name="help_feedback">Ede &amp; Feedback</string>
+    <string name="send_message">Voye Mesaj</string>
+    <string name="CTA_Button_Text">Touche pou deverouye tout <font color="#FFFBCD04">Karakteristik</font></string>
+
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/_10sdp"
+    android:paddingEnd="@dimen/_10sdp">
+
+
+    <com.gpsnavigation.maps.gpsroutefinder.routemap.utility.TimelineView
+        android:id="@+id/timeLineView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:endLineColor="@color/quantum_grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lineStyle="normal"
+        app:lineWidth="@dimen/_2sdp"
+        app:markerInCenter="false"
+        app:markerSize="@dimen/_14sdp"
+        app:showText="true"
+        app:startLineColor="@color/quantum_grey"
+        app:text=""
+        app:textColor="@color/white"
+        app:textSize="@dimen/_9ssp" />
+
+
+    <ImageButton
+        android:id="@+id/btnPopUpMenu"
+        android:layout_width="@dimen/_10sdp"
+        android:layout_height="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_more_vert_white_24dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvPlaceName" />
+
+
+    <TextView
+        android:id="@+id/tvPlaceName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:singleLine="true"
+        android:text="Name"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black_colour"
+        android:textSize="@dimen/_12ssp"
+        app:layout_constraintEnd_toStartOf="@+id/tvTime"
+        app:layout_constraintStart_toEndOf="@+id/timeLineView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="34534534534"
+        android:textColor="@color/black_colour"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintEnd_toStartOf="@+id/btnPopUpMenu"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginEnd="@dimen/_15sdp" />
+
+    <TextView
+        android:id="@+id/tvPlaceAddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:singleLine="true"
+        android:text="Address"
+        android:textAlignment="viewStart"
+        android:textColor="@color/light_gray"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintBottom_toTopOf="@+id/btnStartDirection"
+        app:layout_constraintEnd_toStartOf="@+id/btnPopUpMenu"
+        app:layout_constraintStart_toStartOf="@+id/tvPlaceName"
+        app:layout_constraintTop_toBottomOf="@+id/tvPlaceName" />
+
+
+    <Button
+        android:id="@+id/btnStartDirection"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@drawable/bg_blue_solid_rounded"
+        android:drawableStart="@drawable/ic_start_direction"
+        android:gravity="center"
+        android:paddingStart="17dp"
+        android:paddingEnd="17dp"
+        android:drawablePadding="7dp"
+        android:text="@string/restarted"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvPlaceName"
+
+        />
+
+    <Button
+        android:id="@+id/btnDoneDirection"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@drawable/btn_rounded_white"
+        android:drawableStart="@drawable/ic_done_direction"
+        android:paddingStart="19dp"
+        android:paddingEnd="19dp"
+        android:drawablePadding="3dp"
+        android:text="@string/done"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnStartDirection" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

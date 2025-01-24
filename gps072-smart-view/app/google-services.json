@@ -1,0 +1,246 @@
+{
+  "project_info": {
+    "project_number": "791068160283",
+    "project_id": "gps011-01",
+    "storage_bucket": "gps011-01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791068160283:android:eb29c54ec52d6c5b7723be",
+        "android_client_info": {
+          "package_name": "com.crema.instant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791068160283-be7rdhsvoj7ckn9d1bij071uaj8lvs39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3DFYC_Gnzj1TGpoNQy5vbnxqkZT4QgNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791068160283-be7rdhsvoj7ckn9d1bij071uaj8lvs39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791068160283:android:540196c5cfcfeaa07723be",
+        "android_client_info": {
+          "package_name": "com.mtsfreegames.unicornhorserun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791068160283-be7rdhsvoj7ckn9d1bij071uaj8lvs39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3DFYC_Gnzj1TGpoNQy5vbnxqkZT4QgNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791068160283-be7rdhsvoj7ckn9d1bij071uaj8lvs39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4975991316875268~6550233078"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791068160283:android:925b0e11360cab327723be",
+        "android_client_info": {
+          "package_name": "com.socem.predictbabyface.babymaker.future.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791068160283-be7rdhsvoj7ckn9d1bij071uaj8lvs39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3DFYC_Gnzj1TGpoNQy5vbnxqkZT4QgNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791068160283-be7rdhsvoj7ckn9d1bij071uaj8lvs39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791068160283:android:34a2be503994c9df7723be",
+        "android_client_info": {
+          "package_name": "com.socem.roku.tv.remote.control"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791068160283-be7rdhsvoj7ckn9d1bij071uaj8lvs39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3DFYC_Gnzj1TGpoNQy5vbnxqkZT4QgNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791068160283-be7rdhsvoj7ckn9d1bij071uaj8lvs39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791068160283:android:4450271fd58da89f7723be",
+        "android_client_info": {
+          "package_name": "com.socem.smart.screen.mirror.smartview.stream.tv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791068160283-be7rdhsvoj7ckn9d1bij071uaj8lvs39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3DFYC_Gnzj1TGpoNQy5vbnxqkZT4QgNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791068160283-be7rdhsvoj7ckn9d1bij071uaj8lvs39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791068160283:android:057b32f92c85cfa07723be",
+        "android_client_info": {
+          "package_name": "com.sunstar.modern.army.convoy.gunner3d"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791068160283-be7rdhsvoj7ckn9d1bij071uaj8lvs39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3DFYC_Gnzj1TGpoNQy5vbnxqkZT4QgNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791068160283-be7rdhsvoj7ckn9d1bij071uaj8lvs39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791068160283:android:e188bdf7976b38db7723be",
+        "android_client_info": {
+          "package_name": "com.superherofightinggames.superheroironninja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791068160283-be7rdhsvoj7ckn9d1bij071uaj8lvs39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3DFYC_Gnzj1TGpoNQy5vbnxqkZT4QgNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791068160283-be7rdhsvoj7ckn9d1bij071uaj8lvs39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4975991316875268~8100352651"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791068160283:android:c936b17ae15b4a227723be",
+        "android_client_info": {
+          "package_name": "com.trucks.offroad.spintrials"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791068160283-be7rdhsvoj7ckn9d1bij071uaj8lvs39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3DFYC_Gnzj1TGpoNQy5vbnxqkZT4QgNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791068160283-be7rdhsvoj7ckn9d1bij071uaj8lvs39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4975991316875268~3791383380"
+    }
+  ],
+  "configuration_version": "1"
+}
+

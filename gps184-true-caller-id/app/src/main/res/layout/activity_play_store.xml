@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F0F0"
+    android:orientation="vertical"
+    tools:context=".PlayStoreActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_back"
+            android:tint="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Top Free"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:gravity="right|center"
+            android:text="Ads"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_style_yellow_ellipse_shape">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Tips: This Page Will redirect you to Google Play."
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="280dp">
+
+
+                <callerid.truecaller.trackingnumber.phonenumbertracker.block.AutoScrollViewPager
+                    android:id="@+id/viewpager"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp">
+
+                </callerid.truecaller.trackingnumber.phonenumbertracker.block.AutoScrollViewPager>
+
+                <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+                    android:id="@+id/dots_indicator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="15dp"
+                    app:dotsColor="@color/colorPrimary"
+                    app:dotsCornerRadius="8dp"
+                    app:dotsSize="10dp"
+                    app:dotsSpacing="3dp"
+                    app:progressMode="true"
+                    app:selectedDotColor="@color/colorHover" />
+
+            </RelativeLayout>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center|left"
+                        android:text="Top Rated Apps : "
+                        android:textColor="@color/black"
+                        android:textSize="22sp" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recycler_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

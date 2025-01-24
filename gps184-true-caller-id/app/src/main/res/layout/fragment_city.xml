@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_selected_state"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@android:drawable/ic_delete"
+        android:gravity="center_vertical"
+        android:padding="3.0dip"
+        android:text="Gujarat "
+        android:textColor="@android:color/black"
+        android:textSize="18.0dip"
+        android:textStyle="bold|italic"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:fastScrollEnabled="true"
+        android:footerDividersEnabled="false"
+        android:scrollbars="none"
+        android:text="FragA" />
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/subheading"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:id="@+id/simple_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:gravity="center_vertical"
+                android:text="subheading"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageView
+                android:id="@+id/fill_heart"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/fill_heart"
+                app:layout_constraintStart_toEndOf="@+id/simple_text"
+                app:layout_constraintTop_toTopOf="@+id/simple_text" />
+
+            <ImageView
+                android:id="@+id/arrow_img"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:scaleType="centerInside"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/arrow_down"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+
+            android:id="@+id/expandable_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/translated_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:text="subheading"
+                android:textStyle="bold"
+                android:textColor="@color/blue_text"
+                android:textSize="17dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:padding="6dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/translated_text">
+
+                <ImageView
+                    android:id="@+id/heart"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/heart_icon"
+                    app:layout_constraintTop_toBottomOf="@+id/translated_text" />
+
+                <ImageView
+                    android:id="@+id/copy_text"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/copy_icon"
+                    app:layout_constraintTop_toBottomOf="@+id/translated_text" />
+
+                <ImageView
+                    android:id="@+id/text_to_speak"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/volume_icon"
+                    app:layout_constraintTop_toBottomOf="@+id/translated_text" />
+
+                <ImageView
+                    android:id="@+id/share"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/share_icon"
+                    app:layout_constraintTop_toBottomOf="@+id/translated_text" />
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

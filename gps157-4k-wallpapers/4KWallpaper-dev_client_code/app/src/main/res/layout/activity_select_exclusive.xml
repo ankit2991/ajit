@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/my_background"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <FrameLayout
+        android:id="@+id/AdContainer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/transparent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rl_mail"
+                android:layout_width="@dimen/exclusieve_width"
+                android:layout_height="@dimen/exclusieve_hight"
+                android:layout_gravity="center"
+                android:layout_margin="12dp">
+
+                <com.yalantis.ucrop.view.UCropView
+                    android:id="@+id/ucrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="@dimen/card_radius">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/img_result"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/placeholder"
+                            android:scaleType="centerCrop" />
+
+                        <ImageView
+                            android:id="@+id/img_add"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:background="@drawable/add_selector" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/btn_preview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:fontFamily="@font/baloobhai"
+                android:background="@drawable/submit_selector"
+                android:gravity="center"
+                android:minHeight="45dp"
+                android:paddingLeft="@dimen/dialog_padding_left_right"
+                android:paddingTop="@dimen/dialog_padding_top_bottom"
+                android:paddingRight="@dimen/dialog_padding_left_right"
+                android:paddingBottom="@dimen/dialog_padding_top_bottom"
+                android:text="@string/preview_and_set"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

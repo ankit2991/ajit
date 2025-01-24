@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="messageBackground" format="reference" />
+    <attr name="defaultbg" format="reference" />
+    <attr name="default_grey" format="reference" />
+    <attr name="dialog_bg" format="reference" />
+    <attr name="dialog_bg_bottom" format="reference" />
+    <attr name="textcolor" format="color" />
+    <attr name="bubbleColor" format="reference" />
+    <attr name="switchThumbEnabled" format="color" />
+    <attr name="switchThumbDisabled" format="color" />
+    <attr name="switchTrackEnabled" format="color" />
+    <attr name="switchTrackDisabled" format="color" />
+    <attr name="purchase_bg" format="color" />
+    <attr name="dialog_bg_purchase" format="reference" />
+    <attr name="viewcolor" format="color" />
+    <attr name="tabcolor" format="color" />
+    <attr name="tabselectioncolor" format="color" />
+    <attr name="drawercolor" format="color" />
+    <attr name="inbox_icon" format="reference" />
+    <attr name="archive_icon" format="reference" />
+    <attr name="ic_transactions" format="reference" />
+    <attr name="ic_promotions" format="reference" />
+    <attr name="ic_junk" format="reference" />
+    <attr name="ic_filter" format="reference" />
+    <attr name="blocklist_icon" format="reference" />
+    <attr name="schedual_icon" format="reference" />
+    <attr name="setting_icon" format="reference" />
+    <attr name="feedback_icon" format="reference" />
+    <attr name="settings_icon" format="reference" />
+    <attr name="gradiant" format="reference" />
+
+
+    <attr name="font_size" format="reference" />
+    <attr name="compress" format="reference" />
+    <attr name="backup" format="reference" />
+    <attr name="languge" format="reference" />
+    <attr name="feedback" format="reference" />
+    <attr name="sync" format="reference" />
+    <attr name="privacy" format="reference" />
+    <attr name="call_settings" format="reference" />
+    <attr name="rate" format="reference" />
+    <attr name="share" format="reference" />
+
+    <style name="AppLaunchTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@color/backgroundDark</item>
+        <item name="android:windowBackground">@drawable/preview</item>
+        <item name="colorAccent">@color/tools_theme</item>
+        <item name="android:windowDisablePreview">false</item>
+
+
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="preferenceTheme">
+            @style/PreferenceThemeOverlay.v14.Material
+        </item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:divider">@color/separatorLight</item>
+        <item name="android:queryBackground">@color/bubbleLight</item>
+        <item name="android:statusBarColor">#F2F2F2</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorTertiary">@color/text_tertiary</item>
+        <item name="android:windowBackground">@color/backgroundLight</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="actionBarPopupTheme">@style/PopupTheme</item>
+        <item name="bubbleColor">@color/bubbleLight</item>
+        <item name="messageBackground">@color/messageBackgroundLight</item>
+        <item name="colorPrimary">@color/backgroundLight</item>
+        <item name="colorPrimaryDark">@color/toolbarDark</item>
+        <item name="colorAccent">@color/tools_theme</item>
+        <item name="selectableItemBackground">@drawable/ripple</item>
+        <item name="switchThumbEnabled">@color/switchThumbEnabledLight</item>
+        <item name="switchThumbDisabled">@color/switchThumbDisabledLight</item>
+        <item name="switchTrackEnabled">@color/switchTrackEnabledLight</item>
+        <item name="switchTrackDisabled">@color/switchTrackDisabledLight</item>
+        <item name="windowActionBar">false</item>
+        <item name="list_background">@drawable/list_background</item>
+        <item name="drawer_background">@color/white</item>
+        <item name="note_edit_text">@drawable/edit_text_note</item>
+        <item name="android:itemBackground">@color/tools_themetoolbar</item>
+        <item name="defaultbg">@drawable/default_bg</item>
+        <item name="default_grey">@drawable/grey_bg_light</item>
+        <item name="dialog_bg">@drawable/grey_bg_light</item>
+        <item name="textcolor">@color/black</item>
+        <item name="purchase_bg">@color/white</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="android:popupMenuStyle">@style/MyPopupOtherStyle</item>
+        <item name="dialog_bg_bottom">@drawable/gnt_rounded_corners_shape</item>
+        <item name="dialog_bg_purchase">@drawable/bg_button</item>
+        <item name="viewcolor">@color/viewcolor</item>
+        <item name="tabcolor">@color/tabcolor</item>
+        <item name="tabselectioncolor">@color/tools_theme</item>
+        <item name="inbox_icon">@drawable/inbox_icon</item>
+        <item name="archive_icon">@drawable/archive_icon</item>
+        <item name="ic_transactions">@drawable/ic_transactions</item>
+        <item name="ic_promotions">@drawable/ic_promotions</item>
+        <item name="ic_junk">@drawable/ic_junk</item>
+        <item name="blocklist_icon">@drawable/blocklist_icon</item>
+        <item name="schedual_icon">@drawable/schedual_icon</item>
+        <item name="setting_icon">@drawable/setting_light</item>
+        <item name="feedback_icon">@drawable/ic_rate_review</item>
+        <item name="settings_icon">@drawable/settings_icon</item>
+        <item name="gradiant">@drawable/custom_ad_bg</item>
+        <item name="drawercolor">#383737</item>
+        <item name="font_size">@drawable/ic_format_size_black_24dp_black</item>
+        <item name="compress">@drawable/ic_photo_size_select_actual_black_24dp_black</item>
+        <item name="backup">@drawable/backup_icon_black</item>
+        <item name="languge">@drawable/ic_translate_black</item>
+        <item name="feedback">@drawable/feedback_icon_black</item>
+        <item name="sync">@drawable/ic_sync_black_24dp_black</item>
+        <item name="privacy">@drawable/privacy_policy_black</item>
+        <item name="call_settings">@drawable/call_settings_black</item>
+        <item name="rate">@drawable/ic_favorite_black</item>
+        <item name="share">@drawable/share_black</item>
+        <item name="ic_filter">@drawable/ic_filter</item>
+    </style>
+
+    <style name="inapptheme" parent="AppBaseTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+
+    </style>
+
+    <style name="default_bg_theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:itemBackground">@drawable/default_bg</item>
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+
+    <style name="AppThemeDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorTertiary">@color/text_tertiary</item>
+        <item name="android:windowBackground">@color/backgroundLight</item>
+        <item name="actionBarPopupTheme">@style/PopupTheme</item>
+        <item name="bubbleColor">@color/bubbleLight</item>
+        <item name="colorPrimary">@color/backgroundLight</item>
+        <item name="colorPrimaryDark">@color/backgroundLight</item>
+        <item name="selectableItemBackground">@drawable/ripple</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="PopupTheme" parent="ThemeOverlay.AppCompat.Light">
+        <!--      //  <item name="android:colorBackground">@color/backgroundLight</item>-->
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textPrimary</item>
+        <item name="colorControlNormal">@color/text_primary</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/textPrimary</item>
+    </style>
+
+    <style name="ToolbarColoredBackArrow" parent="AppTheme">
+        <item name="android:textColorSecondary">@color/black</item>
+        <item name="android:navigationIcon">@drawable/ic_back_arrow</item>
+    </style>
+    <!-- Black mode. No changes needed when not in night theme -->
+    <style name="AppTheme.Black" />
+
+    <style name="AppThemeDialog.Black" />
+
+    <style name="PopupTheme.Black" />
+
+    <style name="ThemeToolbar" parent="Theme.AppCompat.Light">
+
+        <!-- navigation icon color -->
+
+        <!-- color of the menu overflow icon -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@color/tools_themetoolbar</item>
+        <item name="android:textColorSecondary">@color/backgroundDark</item>
+        <item name="android:textColor">@color/textPrimary</item>
+
+    </style>
+
+    <style name="ProgressBarStyle">
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="maintoolbar" parent="ThemeOverlay.AppCompat.Light">
+        <!--      //  <item name="android:colorBackground">@color/backgroundLight</item>-->
+        <item name="android:textColorSecondary">#8E8F91</item>
+        <item name="colorControlNormal">#8E8F91</item>
+        <item name="android:textColor">#8E8F91</item>
+    </style>
+
+    <style name="MyPopupOtherStyle" parent="@style/Widget.AppCompat.Light.PopupMenu">
+        <!-- Used for the buttons -->
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <!-- Used for the background -->
+        <item name="android:popupBackground">@drawable/grey_bg_light</item>
+        <item name="android:itemBackground">@color/white</item>
+
+    </style>
+
+    <style name="PopupMenu" parent="@style/Widget.AppCompat.Light.PopupMenu">
+        <item name="android:popupBackground">@color/white</item>
+    </style>
+
+</resources>

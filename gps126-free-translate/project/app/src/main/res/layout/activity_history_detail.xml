@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.details.HistoryDetailActivity">
+
+    <RelativeLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/iv_toolbar_back_history_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            app:srcCompat="@drawable/ic_dictionary_back" />
+
+        <TextView
+            android:id="@+id/title_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toStartOf="@+id/iv_crown_detail"
+            android:layout_toEndOf="@+id/iv_toolbar_back_history_detail"
+            android:ellipsize="end"
+            android:fontFamily="@font/segoeui"
+            android:maxLines="1"
+            android:text="History Detail"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_crown_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="12dp"
+            app:srcCompat="@drawable/ic_crown" />
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="true"
+            android:padding="10dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/container_detail_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/bg_input_detail_view"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+                <TextView
+                    android:id="@+id/tv_lang_detail_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/segoeui"
+                    android:text="English"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/tv_history_input_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:fontFamily="@font/segoeuib"
+                    android:minHeight="80dp"
+                    android:text="Hello"
+                    android:textColor="@color/black_overlay"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_lang_detail_input"
+                    app:layout_constraintVertical_bias="0.0" />
+
+
+                <ImageView
+                    android:id="@+id/iv_speak_history_input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:visibility="visible"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_history_input_word"
+                    app:srcCompat="@drawable/ic_speak_word"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_copy_history_input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:visibility="visible"
+                    app:layout_constraintBottom_toBottomOf="@+id/iv_speak_history_input"
+                    app:layout_constraintEnd_toStartOf="@+id/iv_speak_history_input"
+                    app:layout_constraintTop_toTopOf="@+id/iv_speak_history_input"
+                    app:srcCompat="@drawable/ic_copy_input"
+
+                    />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/container_detail_output"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/translation_result_bg"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/container_detail_input"
+                app:layout_constraintVertical_bias="0.0">
+
+                <TextView
+                    android:id="@+id/tv_lang_detail_output"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/segoeui"
+                    android:text="English"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/tv_history_output_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:fontFamily="@font/segoeuib"
+                    android:minHeight="80dp"
+                    android:text="Hello"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_lang_detail_output"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <ImageView
+                    android:id="@+id/iv_more_options_history"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="6dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_history_output_word"
+                    app:srcCompat="@drawable/ic_options_more"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_speaker_translated_word_history"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:visibility="visible"
+                    app:layout_constraintBottom_toBottomOf="@+id/iv_more_options_history"
+                    app:layout_constraintEnd_toStartOf="@+id/iv_more_options_history"
+                    app:layout_constraintTop_toTopOf="@+id/iv_more_options_history"
+                    app:srcCompat="@drawable/ic_speak_word"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_toggle_favorite_history"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/iv_speaker_translated_word_history"
+                    app:layout_constraintEnd_toStartOf="@+id/iv_speaker_translated_word_history"
+                    app:layout_constraintTop_toTopOf="@+id/iv_speaker_translated_word_history"
+                    app:srcCompat="@drawable/ic_un_favorite" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <RelativeLayout
+                android:id="@+id/ad_container_history_detail"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="15dp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/container_detail_output">
+
+                <FrameLayout
+                    android:id="@+id/admob_history_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp" />
+
+                <FrameLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:orientation="vertical" />
+
+            </RelativeLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_container_app"
+    android:orientation="vertical"
+    tools:context="callerid.truecaller.trackingnumber.phonenumbertracker.block.number_location.NumberLocationActivity">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_size"
+        android:background="@drawable/bg_action_bar">
+
+        <ImageView
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_back"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/poppins_bold"
+            android:src="@drawable/header"
+            android:text="Number Location"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="20dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/btnMobNumLoc"
+                    android:layout_width="match_parent"
+                    android:foreground="?selectableItemBackgroundBorderless"
+                    android:layout_height="@dimen/height_item_location"
+                    android:layout_marginHorizontal="@dimen/_32sdp"
+                    android:background="@drawable/bg_button_outline_gray"
+                    android:padding="@dimen/_16sdp">
+
+                    <ImageView
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/icc_call_location" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:fontFamily="@font/poppins_semi_bold"
+                        android:text="Mobile Number \n Location"
+                        android:textAlignment="textEnd"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/btnStdCode"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:foreground="?selectableItemBackgroundBorderless"
+                    android:layout_height="@dimen/height_item_location"
+                    android:layout_marginHorizontal="@dimen/_32sdp"
+                    android:background="@drawable/bg_button_outline_gray"
+                    android:padding="@dimen/_16sdp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/ic_search" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:fontFamily="@font/poppins_semi_bold"
+                        android:text="STD Codes"
+                        android:textAlignment="textEnd"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/btnIsdCode"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:foreground="?selectableItemBackgroundBorderless"
+                    android:layout_height="@dimen/height_item_location"
+                    android:layout_marginHorizontal="@dimen/_32sdp"
+                    android:background="@drawable/bg_button_outline_gray"
+                    android:padding="@dimen/_16sdp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/ic_search_isd" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:fontFamily="@font/poppins_semi_bold"
+                        android:text="ISD Code"
+                        android:textAlignment="textEnd"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/adlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/max_ad_native_layout" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

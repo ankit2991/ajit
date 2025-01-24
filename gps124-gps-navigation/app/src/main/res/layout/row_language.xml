@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_height="wrap_content">
+
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f3f3f3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="13dp" />-->
+
+    <TextView
+        android:id="@+id/tvLanguageName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:fontFamily="sans-serif"
+        android:gravity="start"
+        android:lineSpacingExtra="2.7sp"
+        android:text="Englsih"
+        android:textColor="#1d1d1d"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/radioLangSelecter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <RadioButton
+        android:id="@+id/radioLangSelecter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvLanguageName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvLanguageName" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

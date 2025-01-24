@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:background="@drawable/btn_rounded_white">
+
+
+        <TextView
+            android:id="@+id/labelHeaderDelete"
+            fontPath="LemonMilk.otf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="@string/stop_limit_exceeded"
+            android:textAlignment="center"
+            android:textColor="@color/black_colour"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingPrefix" />
+
+        <View
+            android:id="@+id/viewSeperator"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_margin="@dimen/_15sdp"
+            android:background="@color/quantum_grey400"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/labelHeaderDelete" />
+
+
+        <TextView
+            android:id="@+id/etDeleteDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:hint="@string/time_in_minute_default_1_minute"
+            android:text="@string/stop_limit_exceeded_description"
+            android:textAlignment="center"
+            android:textColor="@color/black_colour"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintEnd_toEndOf="@+id/viewSeperator"
+            app:layout_constraintStart_toStartOf="@+id/viewSeperator"
+            app:layout_constraintTop_toBottomOf="@+id/viewSeperator" />
+
+
+        <Button
+            android:id="@+id/btnUnderstand"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_margin="@dimen/_20sdp"
+            android:background="@drawable/bg_blue_solid_rounded"
+            android:text="@string/understand"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etDeleteDescription"
+            app:layout_constraintWidth_percent="0.45" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

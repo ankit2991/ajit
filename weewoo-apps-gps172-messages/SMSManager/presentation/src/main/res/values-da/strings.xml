@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sugest_update_title">Opdatering tilgængelig</string>
+    <string name="sugest_update_message">Ny opdatering tilgængelig på Google Play, opdater venligst din version</string>
+    <string name="force_update_title">Opdatering tilgængelig</string>
+    <string name="force_update_message">Ny opdatering tilgængelig på Google Play, opdater venligst din version</string>
+    <string name="update_ok">Opdater</string>
+    <string name="update_no">Ikke nu</string>
+    <string name="app_name">#Beskeder</string>
+    <string name="in_app_name">Beskeder</string>
+    <string name="splash_app_name">SMS Beskeder</string>
+    <string name="loading_msg">Vent venligst...</string>
+    <string name="ads_loading_msg">Viser reklamer...</string>
+    <string name="shortcut_compose_long_label">Ny samtale</string>
+    <string name="shortcut_compose_short_label">Opret</string>
+    <string name="shortcut_compose_disabled_message">Genvej deaktiveret</string>
+    <string name="title_archived">Arkiverede beskeder</string>
+    <string name="title_settings">Indstillinger</string>
+    <string name="title_notification_prefs">Underretninger</string>
+    <string name="title_theme">Tema</string>
+    <string name="title_conversations">Søg efter numre, navne og mere</string>
+    <string name="title_compose">Indtast et navn eller et telefonnummer</string>
+    <string name="setup_skip">Spring over</string>
+    <string name="setup_next">Fortsæt</string>
+    <string name="menu_add_person">Tilføj person</string>
+    <string name="menu_call">Ring op</string>
+    <string name="menu_info">Detaljer</string>
+    <string name="menu_save">Gem på galleriet</string>
+    <string name="menu_share">Del</string>
+    <string name="main_drawer_open_cd">Åbn navigationsmenuen</string>
+    <string name="main_title_selected">%d valgt</string>
+    <string name="main_menu_clear">Ryd</string>
+    <string name="main_menu_archive">Arkiver</string>
+    <string name="main_menu_unarchive">Fjern fra arkiv</string>
+    <string name="main_menu_delete">Slet</string>
+    <string name="main_menu_add_contact">Tilføj til kontakter</string>
+    <string name="main_menu_pin">Fastgør øverst</string>
+    <string name="main_menu_unpin">Fjern fra øverst</string>
+    <string name="main_menu_read">Marker som læst</string>
+    <string name="main_menu_unread">Marker som ulæst</string>
+    <string name="select_all">Vælg alle</string>
+    <string name="deselect_all">Fravælg alle</string>
+    <string name="main_menu_block">Bloker</string>
+    <string name="main_syncing">Organiserer beskeder...</string>
+    <string name="main_sender_you">Dig: %s</string>
+    <string name="main_draft">Kladde: %s</string>
+    <string name="main_message_results_title">Resultater i beskeder</string>
+    <string name="main_message_results">%d beskeder</string>
+    <string name="inbox_empty_text">Dine samtaler vises her</string>
+    <string name="inbox_search_empty_text">Ingen resultater</string>
+    <string name="archived_empty_text">Ingen arkiverede samtaler endnu..</string>
+    <string name="main_fab_cd">Start ny samtale</string>
+    <string name="main_default_sms_title">Elsker at beskeder?</string>
+    <string name="main_default_sms_message">Gør SMS-appen til din standard SMS-app</string>
+    <string name="main_default_sms_change">Skift</string>
+    <string name="main_permission_required">Krævet tilladelse</string>
+    <string name="main_permission_sms">SMS kræver tilladelse til at sende og se SMS-beskeder</string>
+    <string name="main_permission_contacts">SMS kræver tilladelse til at se dine kontakter</string>
+    <string name="main_permission_allow">Tillad</string>
+    <string name="main_permission_allow_read">Tillad læse- og skrivetilladelse</string>
+    <string name="drawer_inbox">Indbakke</string>
+    <string name="drawer_archived">Arkiverede</string>
+    <string name="drawer_scheduled">Planlagte beskeder</string>
+    <string name="drawer_blocking">Blokeret liste</string>
+    <string name="drawer_calldorado">Opkaldsindstillinger</string>
+    <string name="drawer_more">Mere</string>
+    <string name="drawer_group">Gruppebesked</string>
+    <string name="drawer_settings">Indstillinger</string>
+    <string name="drawer_remove_ads">Fjern reklamer</string>
+    <string name="drawer_help">Hjælp og feedback</string>
+    <string name="drawer_invite">Inviter venner</string>
+    <string name="dialog_delete_title">Slet</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Er du sikker på, at du vil slette denne samtale?</item>
+        <item quantity="other">Er du sikker på, at du vil slette %d samtaler?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Kopiér tekst</item>
+        <item>Videresend</item>
+        <item>Slet</item>
+    </string-array>
+    <string name="compose_number_picker_title">Vælg et telefonnummer</string>
+    <string name="compose_number_picker_default">%s ∙ Standard</string>
+    <string name="compose_number_picker_once">Bare en gang</string>
+    <string name="compose_number_picker_always">Altid</string>
+    <string name="compose_title_selected">%d valgt</string>
+    <string name="compose_subtitle_results">%1$d af %2$d resultater</string>
+    <string name="contact_selected">%1$d af %2$d valgt</string>
+    <string name="compose_send_group_title">Send som gruppebesked</string>
+    <string name="compose_send_group_summary">Modtagere og svar vil være synlige for alle</string>
+    <string name="compose_messages_empty"> Start på din samtale. Sig noget fantastisk!</string>
+    <string name="compose_vcard_label">Kontaktkort</string>
+    <string name="compose_scheduled_for">Planlagt til</string>
+    <string name="compose_scheduled_future"> tiden skal være i fremtiden!</string>
+    <string name="compose_scheduled_toast">Tilføjet til planlagte beskeder</string>
+    <string name="compose_hint">Skriv her…</string>
+    <string name="compose_menu_copy">Kopiér tekst</string>
+    <string name="compose_menu_forward">Videresend</string>
+    <string name="compose_menu_delete">Slet</string>
+    <string name="compose_menu_previous">Forrige</string>
+    <string name="compose_menu_next">Næste</string>
+    <string name="compose_menu_clear">Ryd</string>
+    <string name="compose_details_title">Beskeddetaljer</string>
+    <string name="compose_details_type">Type: %s</string>
+    <string name="compose_details_from">Fra: %s</string>
+    <string name="compose_details_to">Til: %s</string>
+    <string name="compose_details_subject">Emne: %s</string>
+    <string name="compose_details_priority">Prioritet: %s</string>
+    <string name="compose_details_size">Størrelse: %s</string>
+    <string name="compose_details_sent">Sendt: %s</string>
+    <string name="compose_details_received">Modtaget: %s</string>
+    <string name="compose_details_delivered">Leveret: %s</string>
+    <string name="compose_details_error_code">Fejlkode: %d</string>
+    <string name="compose_attach_cd">Tilføj en vedhæftning</string>
+    <string name="compose_gallery_cd">Vedhæft et foto</string>
+    <string name="compose_camera_cd">Tag et foto</string>
+    <string name="compose_schedule_cd">Planlæg besked</string>
+    <string name="compose_contact_cd">Vedhæft en kontakt</string>
+    <string name="compose_contact_error">Fejl ved læsning af kontakt</string>
+    <string name="compose_sim_cd">%s valgt, skift SIM-kort</string>
+    <string name="compose_send_cd">Send besked</string>
+    <string name="message_status_sending">Sender…</string>
+    <string name="message_status_delivered">Leveret %s</string>
+    <string name="message_status_failed">Kunne ikke sende</string>
+    <string name="info_title">Kontaktdetaljer</string>
+    <string name="info_copied_address">Adresse kopieret</string>
+    <string name="info_name">Samtale titel</string>
+    <string name="info_notifications">Underretninger</string>
+    <string name="info_theme">Tema</string>
+    <string name="info_archive">Arkiv</string>
+    <string name="info_unarchive">Fjern fra arkiv</string>
+    <string name="info_block">Bloker</string>
+    <string name="info_unblock">Fjern blokering</string>
+    <string name="info_delete">Slet samtale</string>
+    <string name="gallery_error">Kunne ikke indlæse medier</string>
+    <string name="gallery_toast_saved">Gemt i galleriet</string>
+    <string name="backup_title">Backup og gendannelse</string>
+    <string name="backup_backing_up">Sikkerhedskopierer beskeder</string>
+    <string name="backup_restoring">Gendanner fra backup</string>
+    <string name="backup_last">Sidste backup</string>
+    <string name="backup_loading">Indlæser…</string>
+    <string name="backup_never">Aldrig</string>
+    <string name="backup_restore_title">Gendan</string>
+    <string name="backup_restore_summary">Vælg en backup</string>
+    <string name="backup_restore_error_plus">Vær venlig at låse SMS+ op for at bruge backup og gendannelse</string>
+    <string name="backup_restore_error_backup">Backup i gang…</string>
+    <string name="backup_restore_error_restore">Gendannelse i gang…</string>
+    <string name="backup_restore_confirm_title">Gendan fra backup</string>
+    <string name="backup_restore_confirm_message">Er du sikker på, at du vil gendanne dine beskeder fra denne backup?</string>
+    <string name="backup_restore_stop_title">Stop gendannelse</string>
+    <string name="backup_restore_stop_message">Beskeder, der allerede er gendannet, forbliver på din enhed</string>
+    <string name="backup_restore_dialog_title">Backup</string>
+    <string name="backup_restore_dialog_summary">/SMS Beskeder/Backup</string>
+    <string name="backup_restore_dialog_empty">Ingen backup fundet</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">Ingen beskeder</item>
+        <item quantity="one">%d besked</item>
+        <item quantity="other">%d beskeder</item>
+    </plurals>
+    <string name="backup_disclaimer">Indtil nu har vi kun understøttet SMS via Backup og Gendannelse!</string>
+    <string name="backup_now">Backup</string>
+    <string name="backup_progress_parsing">Analyserer backup…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d beskeder</string>
+    <string name="backup_progress_saving">Gemmer backup…</string>
+    <string name="backup_progress_syncing">Synkroniserer beskeder…</string>
+    <string name="backup_progress_finished">Færdig!</string>
+    <string name="backup_notification_channel_name">Backup og gendannelse</string>
+    <string name="Message_notification_channel_name">Besked synkronisering</string>
+    <string name="scheduled_title">Planlagt</string>
+    <string name="schedule_guide">Du kan indstille en tidsplan for beskeder ved at klikke på vedhæftningsknappen på beskedkonversationsskærmen.</string>
+    <string name="scheduled_empty_description">Send automatisk en besked på det præcise tidspunkt, du ønsker</string>
+    <string name="scheduled_empty_message_1">Hej! Hvornår er tiden til at fejre øjeblikket?</string>
+    <string name="scheduled_empty_message_2">Det er den 5. marts</string>
+    <string name="scheduled_empty_message_3">Hej! Se, hvad en god ven jeg er, der fejrer din dag</string>
+    <string name="scheduled_empty_message_3_timestamp">Sender den 5. marts</string>
+    <string name="scheduled_compose_cd">Planlæg en besked</string>
+    <string name="scheduled_options_title">Planlagt besked</string>
+    <string-array name="scheduled_options">
+        <item>Send nu</item>
+        <item>Kopiér tekst</item>
+        <item>Slet</item>
+    </string-array>
+    <string name="settings_category_appearance">Udseende</string>
+    <string name="settings_category_general">Generelt</string>
+    <string name="settings_categoryreply">Svar</string>
+    <string name="settings_night_title">Nattilstand</string>
+    <string name="settings_text_size_title">Skriftstørrelse</string>
+    <string name="settings_notifications_title">Underretninger</string>
+    <string name="settings_notifications_o_summary">Tryk for at tilpasse</string>
+    <string name="settings_notification_actions_title">Handlinger</string>
+    <string name="settings_notification_action_1">Knap 1</string>
+    <string name="settings_notification_action_2">Knap 2</string>
+    <string name="settings_notification_action_3">Knap 3</string>
+    <string name="settings_notification_previews_title">Underretningsvisninger</string>
+    <string name="settings_notification_wake_title">Væk skærmen</string>
+    <string name="settings_vibration_title">Vibration</string>
+    <string name="settings_ringtone_title">Lyd</string>
+    <string name="settings_ringtone_none">Ingen</string>
+    <string name="settings_reply_title">Svar</string>
+    <string name="settings_reply_summary">Popup for nye beskeder</string>
+    <string name="settings_reply_tap_dismiss_title">Tryk for at afvise</string>
+    <string name="settings_reply_tap_dismiss_summary">Tryk uden for popup\'en for at lukke den</string>
+    <string name="settings_swipe_actions">Stryg-handlinger</string>
+    <string name="settings_swipe_actions_right">Højre stryg</string>
+    <string name="settings_swipe_actions_left">Venstre stryg</string>
+    <string name="settings_swipe_actions_change">ÆNDRE</string>
+    <string name="not_now_txt">Ikke nu</string>
+    <string name="process_title">Denne proces kommer til at tage lidt tid</string>
+    <string name="syncing_done">Besked synkronisering fuldført....</string>
+    <string name="all_set_txt">Alt er indstillet. Du er klar til at gå i gang</string>
+    <string name="Personal">Alle beskeder</string>
+    <string name="Other">Kendt</string>
+    <string name="Spam">Spam</string>
+    <string name="setting">Indstillinger</string>
+    <string name="Share">Del</string>
+    <string name="Rate">Bedøm os</string>
+    <string name="edit">redigere</string>
+    <string name="DarkMode">Mørk tilstand</string>
+    <string name="BrightMode">Lys tilstand</string>
+    <string name="Camera">Kamera</string>
+    <string name="Gallery">Galleri</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">Kontakt</string>
+    <string name="Schedule">Planlæg</string>
+    <string name="Location">Placering</string>
+    <string name="Notes">Noter</string>
+    <string name="no_msg">Ingen beskeder endnu…</string>
+    <string name="Start_Chat">Start Chat</string>
+    <string name="Language">Sprog</string>
+    <string name="rate_text">Anbefal os til andre ved at bedømme os på Play Butik!</string>
+    <string name="sort_by">Sorter efter</string>
+    <string-array name="settings_swipe_actions">
+        <item>Ingen</item>
+        <item>Arkiv</item>
+        <item>Slet</item>
+        <item>Ring op</item>
+        <item>Marker som læst</item>
+        <item>Marker som ulæst</item>
+    </string-array>
+    <string name="settings_mms_size_title">Auto-komprimer MMS-vedhæftninger</string>
+    <string name="settings_sync_title">Synkronisér beskeder</string>
+    <string name="settings_sync_summary">Gen-synkronisér dine beskeder med den indfødte Android SMS-database</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Opkaldskontrol</string>
+    <string name="blocking_manager_sia_title">Skal jeg svare?</string>
+    <string name="blocked_messages_title">Blokerede beskeder</string>
+    <string name="blocked_messages_empty">Dine blokerede beskeder vises her</string>
+    <string name="blocking_block_title">Bloker</string>
+    <string name="blocking_unblock_title">Fjern blokering</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">Fortsæt til %s og bloker dette nummer</item>
+        <item quantity="other">Fortsæt til %s og bloker disse numre</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">Fortsæt til %s og tillad dette nummer</item>
+        <item quantity="other">Fortsæt til %s og tillad disse numre</item>
+    </plurals>
+    <string name="widget_loading">Indlæser…</string>
+    <string name="widget_more">Se flere samtaler</string>
+    <string name="qkreply_menu_read">Marker som læst</string>
+    <string name="qkreply_menu_call">Opkald</string>
+    <string name="qkreply_menu_delete">Slet</string>
+    <string name="qkreply_menu_expand">Vis mere</string>
+    <string name="qkreply_menu_collapse">Vis mindre</string>
+    <string name="qkreply_menu_view">Åbn samtale</string>
+    <string name="changelog_title">Nyt i SMS</string>
+    <string name="changelog_version">Version %s</string>
+    <string name="changelog_added">Tilføjet</string>
+    <string name="changelog_improved">Forbedret</string>
+    <string name="changelog_fixed">Løst</string>
+    <string name="changelog_more">Mere</string>
+    <string name="changelog_dismiss">Afvis</string>
+    <string-array name="notification_actions">
+        <item>Ingen</item>
+        <item>Marker som læst</item>
+        <item>Svar</item>
+        <item>Opkald</item>
+        <item>Slet</item>
+    </string-array>
+    <string name="button_yes">Ja</string>
+    <string name="button_continue">Fortsæt</string>
+    <string name="button_cancel">Annuller</string>
+    <string name="button_delete">Slet</string>
+    <string name="button_save">Gem</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_more">Mere</string>
+    <string name="button_set">Indstil</string>
+    <string name="button_undo">Fortryd</string>
+    <string name="toast_copied">Kopieret</string>
+    <string name="toast_archived">Arkiveret samtale</string>
+    <string name="toast_sms_plus">Du skal låse SMS+ op for at bruge dette</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Ny besked</item>
+        <item quantity="other">%s nye beskeder</item>
+    </plurals>
+    <string name="notification_message_failed_title">Besked ikke sendt</string>
+    <string name="notification_message_failed_text">Beskeden til %s blev ikke sendt</string>
+    <string name="privacy_policy">Privatlivspolitik</string>
+    <string name="pocket_data_on">Pocket data skal være tændt under afsendelse af MMS !</string>
+    <string name="inapp_details" translatable="false">For at fjerne reklamer, prøv premium-abonnement med mørk-lys tilstandsstøtte\nPlanlagte Sms support.</string>
+    <string name="drawer_removeAds">Fjern reklamer</string>
+    <string name="in_app_ads">beskeder_rad</string>
+    <string name="dialog_delete_message">Er du sikker på, at du vil slette denne besked?</string>
+    <string name="compose_bar_not_support">Afsenderen understøtter ikke svar</string>
+    <string name="default_name">For at sende eller modtage en SMS skal du indstille den som standardapplikation. Vil du have, at beskeden skal være din standardapplikation?</string>
+    <string name="confirm_delete">Bekræft sletning</string>
+    <string name="confirm_delete_text">Er du sikker på, at du vil slette denne note?</string>
+    <string name="title">Titel</string>
+    <string name="note">Note</string>
+    <string name="search">Søg</string>
+    <string name="settings">Indstillinger</string>
+    <string name="share_to">Del til:</string>
+    <string name="sort">Sorter</string>
+    <string name="empty_list_text">Tryk på knappen nederst til højre for at tilføje en ny note!</string>
+    <string name="new_note">Ny note</string>
+    <string name="undo">Fortryd</string>
+    <string name="delete">Slet</string>
+    <string name="exception">Undtagelse:</string>
+    <string name="edit_note">Rediger note</string>
+    <string name="drawer_feedback">Send feedback</string>
+    <string name="drawer_mode">Lys tilstand</string>
+    <string name="unlimited_access_user">Ubegrænset adgang\ntil alle funktioner</string>
+    <string name="pro_user">Du er\nPremium-bruger</string>
+    <string name="sub_info_text"><b>Abonnementet fornyes automatisk, indtil du slår det fra.</b></string>
+    <string name="cancel_purchase">Du kan annullere automatisk abonnementsfornyelse i Abonnement på Google Play</string>
+    <string name="remove_ads">Fjern reklamer</string>
+    <string name="no_ads">Ingen reklamer</string>
+    <string name="free_trial">7 dages gratis prøveperiode, derefter automatisk fornyelse</string>
+    <string name="can_not_talk_right_now">Beklager, jeg kan ikke tale lige nu</string>
+    <string name="can_call_you_later">Kan jeg ringe til dig senere?</string>
+    <string name="i_am_on_my_way">Jeg er på vej</string>
+    <string name="write_personal_message">Skriv personlig besked</string>
+    <string name="create_reminder">Opret ny påmindelse</string>
+    <string name="remind_me_about">Påmind mig om</string>
+    <string name="no_title">Ingen titel</string>
+    <string name="edit_contact">Rediger kontakt</string>
+    <string name="add_contact">Tilføj kontakt</string>
+    <string name="messages">Beskeder</string>
+    <string name="send_mail">Send mail</string>
+    <string name="calendar">Kalender</string>
+    <string name="web">Web</string>
+    <string-array name="night_modes">
+        <item>System</item>
+        <item>Lys tilstand</item>
+        <item>Mørk tilstand</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>Vis navn og besked</item>
+        <item>Vis navn</item>
+        <item>Skjul indhold</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>Lille</item>
+        <item>Normal</item>
+        <item>Stor</item>
+        <item>Større</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>Ingen forsinkelse</item>
+        <item>Kort</item>
+        <item>Mellem</item>
+        <item>Lang</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Automatisk</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>Ingen komprimering</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>Okay</item>
+        <item>Giv mig et øjeblik</item>
+        <item>På vej</item>
+        <item>Tak</item>
+        <item>Lyder godt</item>
+        <item>Hvad så?</item>
+        <item>Enig</item>
+        <item>Nej</item>
+        <item>Elsker dig</item>
+        <item>Undskyld</item>
+        <item>LOL</item>
+        <item>Det er okay</item>
+    </string-array>
+    <string name="default_title">Tillad Sms App som standardapp</string>
+    <string name="set_as_defaault">Indstil som standard</string>
+    <string name="love_app_title">Gør SMS-appen til din standard-SMS-app</string>
+    <string-array name="gif">
+        <item>Dyreface</item>
+        <item>Emoji</item>
+        <item>Frugt &amp; Grøntsager</item>
+        <item>Halloween</item>
+        <item>Kærlighed</item>
+    </string-array>
+    <string name="Sticker">Mærkat</string>
+    <string name="no_connection">Ingen internetforbindelse.</string>
+    <string-array name="sticker">
+        <item>Dreng</item>
+        <item>Tegneserie</item>
+        <item>Ansigte</item>
+        <item>Festival</item>
+        <item>Frukt</item>
+        <item>Sjov</item>
+        <item>Pige</item>
+        <item>Kærlighedsmærkat</item>
+        <item>Andre</item>
+        <item>Hvalp</item>
+    </string-array>
+    <string name="open_link_to_browser">Åbn link til browser</string>
+    <string name="battery_dialog"> Vil du ikke gå glip af vigtige Sms? \n
+Slå batterioptimering fra</string>
+    <string name="reason_to_change_battery_optimization_setting">Gå til App-info &gt; Avanceret &gt; Batterioptimering \nog vælg \'Ikke optimér\'</string>
+    <string name="feedback_txt">Fortæl os om din oplevelse og kom med forslag til forbedring af beskedappen.</string>
+    <string name="reason_to_change_battery"> Avanceret &gt; Batterioptimering &gt; \'Ikke optimér\'</string>
+    <string name="drawer_transaction">Transaktioner</string>
+    <string name="drawer_promotion">Kampagner</string>
+    <string name="unknown">Ukendt </string>
+    <string name="priva"><u>Privatlivspolitik</u></string>
+    <string name="smsfilter">SMS-filtrering</string>
+    <string name="by_click_t_c" translatable="false"><u>Ved at klikke accepterer du vores vilkår og betingelser.</u></string>
+    <string name="continue_without_sub"><u>Fortsæt uden abonnement</u></string>
+    <string name="text_free_trial">Nyd X dages <b>gratis prøveperiode</b> - Derefter X € / måned</string>
+    <string name="calldorado_message">Tjek alle dine <b>beskeder</b> inden afslutningen af opkaldet! Der er nyheder</string>
+    <string name="privacy_terms_description">Ved at fortsætte accepterer og godkender du brugsbetingelserne og privatlivspolitikken.</string>
+    <string name="draw_over_description"><![CDATA[For at vise oven på andre apps vores SMS-beskeder. Modtag alle potentialer fra vores SMS-opkalds-widgets og mere]]></string>
+    <string name="ad_label">ANNONCE</string>
+    <string name="onboarding_continue_button">Fortsæt</string>
+    <string name="onboarding_step_1_title">SMS- og Messenger-manager</string>
+    <string name="onboarding_step_1_subtitle">Chat med venner, lav grupper og organiser din indbakke</string>
+    <string name="onboarding_step_1_hight_light">Unik tilgang Til Dig</string>
+    <string name="onboarding_step_2_title">Organisér &amp; gem beskeder</string>
+    <string name="onboarding_step_2_subtitle">Backup &amp; gendan dine beskeder</string>
+    <string name="onboarding_step_2_hight_light">Tusinder af brugere Kan Lide Det</string>
+    <string name="onboarding_step_3_title">Nyd livet &amp; lad os tage os af indbakken</string>
+    <string name="onboarding_step_3_subtitle">Accepter tilladelserne, så vi kan hjælpe dig med at administrere din indbakke.</string>
+    <string name="onboarding_step_3_hight_light">Måske senere</string>
+    <string name="onboarding_allow_access_button">Tillad adgang</string>
+    <string name="onboarding_step_4_title">Forbedr dit batteri ved at lade os gøre arbejdet</string>
+    <string name="onboarding_step_4_subtitle">Vi tager os af irriterende SMS-afbrydelser.</string>
+    <string name="onboarding_step_4_hight_light">Tusinder af brugere Kan Lide Det</string>
+    <string name="onboarding_step_5_title">Del skærm-arbejde på andre apps under samtale</string>
+    <string name="onboarding_step_5_subtitle">Nyde vores fantastiske opkalds-widget, der giver dig mulighed for at multitaske</string>
+    <string name="onboarding_step_5_hight_light">Tusinder af brugere Kan Lide Det</string>
+    <string name="payment_card_title">Chat nu!</string>
+    <string name="payment_card_price"><![CDATA[3-dages gratis, %s / %s]]></string>
+    <string name="payment_card_button">Prøv nu gratis</string>
+    <string name="payment_card_hight_light">Sikret med Play Butik</string>
+    <string name="payment_card_weekly">ugentlig</string>
+    <string name="payment_card_monthly">månedlig</string>
+    <string name="payment_card_yearly">årlig</string>
+    <string name="payment_card_auto_renew">auto-fornyelig abonnement, afmeld når som helst</string>
+    <string name="accessibility_service_description">Din beskrivelse af tilgængelighedstjenesten</string>
+    <string name="permission_txt"><font color="#FF8A00">Tilladelse påkrævet:</font>\nLæs telefonstatus &amp; Tegn over andre apps</string>
+    <string name="opt_privacy">Ved at fortsætte accepterer og godkender du brugsbetingelserne og privatlivspolitikken.</string>
+    <string name="permission_required">Tilladelser påkrævet</string>
+    <string name="permission_dialog_body">Denne app fungerer måske ikke korrekt uden telefonadgang. Følg instruktionerne nedenfor for at aktivere det:\n\n1. Vælg "Tilladelser"\n2. Find "Telefon" i listen over tilladelser, og tryk for at aktivere</string>
+    <string name="go_premium">Gå <font color = "#FFE600">Premium!</font></string>
+    <string name="unlock_everything">Lås alt op og ingen annoncer</string>
+    <string name="start_three_day">Start 3 dages gratis prøveperiode</string>
+    <string name="pro">Pro</string>
+    <string name="more_option">Flere muligheder</string>
+    <string name="rate_us_5">Bedøm os med 5 stjerner</string>
+    <string name="help_feedback">Hjælp &amp; Feedback</string>
+    <string name="send_message">Send besked</string>
+    <string name="CTA_Button_Text">Tryk for at låse alle funktioner <font color="#FFFBCD04">op</font></string>
+</resources>

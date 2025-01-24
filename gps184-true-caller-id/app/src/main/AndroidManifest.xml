@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACTION_PHONE_STATE_CHANGED" /> <!-- <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" /> -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" /> <!-- <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" /> -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" /> <!-- <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!--    <uses-permission android:name="android.permission.WAKE_LOCK" />-->
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.READ_APP_BADGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" /> <!-- Other permissions -->
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" />
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" />
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" />
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" />
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+    <uses-permission android:name="oppo.permission.OPPO_COMPONENT_SAFE" />
+    <uses-permission android:name="com.huawei.permission.external_app_settings.USE_COMPONENT" />
+
+    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme1"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:networkSecurityConfig"
+        tools:targetApi="n">
+        <activity
+            android:name=".SearchSpamCallerActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".bank_info.BankDetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".ussd.SelectUSSDCodeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
+
+        <service
+            android:name=".services.PushNotificationService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+            <meta-data
+                android:name="com.google.firebase.messaging.default_notification_icon"
+                android:resource="@drawable/app_icon" />
+        </service>
+
+        <activity
+            android:name=".number_location.IsdCodeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".number_location.StdCodeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".SplashActivitynew"
+            android:exported="true"
+            android:label="@string/in_app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".onboarding.OnBoardingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".StartPage"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".setting.SettingCalller"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".setting.Audio_manager_activity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".setting.Caller_info_activity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".setting.Device_info_activity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".setting.System_usage_activity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".sim_info.MainActivity1"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".number_location.SearchMobileNumActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".near_by_place.NearByPlaceActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".bank_info.BankInfoActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".ussd.USSDCodeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".location_info.LocationInfoActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".number_location.NumberLocationActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".sim_info.DetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".recharge.RechargePlanActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".recharge.RechargeDetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".MyCustomDialog"
+            android:exported="false"
+            android:noHistory="true"
+            android:theme="@style/Transparent1"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".MyCustomDialog1"
+            android:exported="false"
+            android:noHistory="true"
+            android:theme="@style/Transparent1"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".ExitActivty"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
+
+        <receiver
+            android:name=".CallReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+            </intent-filter>
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.REBOOT" />
+            </intent-filter>
+        </receiver>
+
+        <!-- meta data -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <!-- <service -->
+        <!-- android:name=".service.MyFirebaseMessagingService" -->
+        <!-- android:exported="true"> -->
+        <!-- <intent-filter android:priority="-500"> -->
+        <!-- <action android:name="com.google.firebase.MESSAGING_EVENT" /> -->
+        <!-- </intent-filter> -->
+        <!-- </service> -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/notification_channel_id" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_notification" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimary" />
+
+        <activity
+            android:name=".PlayStoreActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <!-- Google -->
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+
+        <!-- AdMob ads -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="${ADMOB_APP_ID}"
+            tools:replace="android:value" />
+
+        <!-- Applovin ads-->
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="${APPLOVIN_SDK_KEY}"
+            tools:replace="android:value" />
+
+        <activity
+            android:name=".InAppsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.amazon.device.ads.DTBInterstitialActivity" />
+        <activity
+            android:name="com.amazon.device.ads.DTBAdActivity" />
+
+        <receiver
+            android:name="com.adjust.sdk.AdjustReferrerReceiver"
+            android:exported="false"
+            android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token" />
+
+
+        <!--For Calldorado-->
+        <meta-data
+            android:name="com.calldorado.AccountId"
+            android:value="a1-eb465833-bc6e-4e54-b7fa-7e0cd12c635a" />
+        <meta-data
+            android:name="com.calldorado.AppId"
+            android:value="b0-92d7df1f-55ba-4961-822c-7c0cadabdea7" />
+
+
+        <receiver
+            android:name=".util.calldorado.SetupFragmentReceiver"
+            android:enabled="true"
+            android:exported="false">
+
+            <intent-filter android:priority="999">
+                <action android:name="com.calldorado.android.intent.SEARCH" />
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,479 @@
+<resources xmlns:ns0="http://schemas.android.com/tools" ns0:ignore="MissingTranslation">
+    <string name="sugest_update_title">업데이트 가능</string>
+    <string name="sugest_update_message">Google Play에서 새로운 업데이트가 있습니다. 버전을 업데이트하세요.</string>
+    <string name="force_update_title">업데이트 가능</string>
+    <string name="force_update_message">Google Play에서 새로운 업데이트가 있습니다. 버전을 업데이트하세요.</string>
+    <string name="update_ok">업데이트</string>
+    <string name="update_no">지금은 아니요</string>
+    <string name="app_name">#메시지</string>
+    <string name="in_app_name">메시지</string>
+    <string name="splash_app_name">SMS 메시지</string>
+    <string name="loading_msg">잠시 기다려주세요...</string>
+    <string name="ads_loading_msg">광고 표시 중...</string>
+    <string name="shortcut_compose_long_label">새 대화</string>
+    <string name="shortcut_compose_short_label">작성</string>
+    <string name="shortcut_compose_disabled_message">바로 가기 비활성화됨</string>
+    <string name="title_archived">보관된 메시지</string>
+    <string name="title_settings">설정</string>
+    <string name="title_notification_prefs">알림</string>
+    <string name="title_theme">테마</string>
+    <string name="title_conversations">전화번호, 이름 및 기타 검색</string>
+    <string name="title_compose">이름 또는 전화번호 입력</string>
+    <string name="setup_skip">건너뛰기</string>
+    <string name="setup_next">계속</string>
+    <string name="menu_add_person">사람 추가</string>
+    <string name="menu_call">전화 걸기</string>
+    <string name="menu_info">세부 정보</string>
+    <string name="menu_save">갤러리에 저장</string>
+    <string name="menu_share">공유</string>
+    <string name="main_drawer_open_cd">네비게이션 서랍 열기</string>
+    <string name="main_title_selected">%d 선택됨</string>
+    <string name="main_menu_clear">지우기</string>
+    <string name="main_menu_archive">보관</string>
+    <string name="main_menu_unarchive">보관 해제</string>
+    <string name="main_menu_delete">삭제</string>
+    <string name="main_menu_add_contact">연락처에 추가</string>
+    <string name="main_menu_pin">맨 위로 고정</string>
+    <string name="main_menu_unpin">고정 해제</string>
+    <string name="main_menu_read">읽은 것으로 표시</string>
+    <string name="main_menu_unread">읽지 않은 것으로 표시</string>
+    <string name="select_all">모두 선택</string>
+    <string name="deselect_all">모두 선택 취소</string>
+    <string name="main_menu_block">차단</string>
+    <string name="main_syncing">메시지 정리 중...</string>
+    <string name="main_sender_you">나: %s</string>
+    <string name="main_draft">임시: %s</string>
+    <string name="main_message_results_title">메시지에서 결과</string>
+    <string name="main_message_results">%d개의 메시지</string>
+    <string name="inbox_empty_text">대화가 여기에 표시됩니다</string>
+    <string name="inbox_search_empty_text">결과 없음</string>
+    <string name="archived_empty_text">아직 보관된 대화 없음..</string>
+    <string name="main_fab_cd">새 대화 시작</string>
+    <string name="main_default_sms_title">메시지를 좋아하십니까?</string>
+    <string name="main_default_sms_message">SMS 앱을 기본 SMS 앱으로 설정하세요</string>
+    <string name="main_default_sms_change">변경</string>
+    <string name="main_permission_required">권한 필요</string>
+    <string name="main_permission_sms">SMS는 SMS 메시지를 보내고 보기 위한 권한이 필요합니다.</string>
+    <string name="main_permission_contacts">SMS는 연락처를 보기 위한 권한이 필요합니다.</string>
+    <string name="main_permission_allow">허용</string>
+    <string name="main_permission_allow_read">읽기 및 쓰기 권한 허용</string>
+    <string name="drawer_inbox">받은 편지함</string>
+    <string name="drawer_archived">보관된 편지함</string>
+    <string name="drawer_scheduled">예약된 메시지</string>
+    <string name="drawer_blocking">차단된 목록</string>
+    <string name="drawer_calldorado">전화기설정</string>
+    <string name="drawer_more">더 보기</string>
+    <string name="drawer_group">그룹 메시지</string>
+    <string name="drawer_settings">설정</string>
+    <string name="drawer_remove_ads">광고 제거</string>
+    <string name="drawer_help">도움말 및 피드백</string>
+    <string name="drawer_invite">친구 초대</string>
+    <string name="dialog_delete_title">삭제</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">이 대화를 삭제하시겠습니까?</item>
+        <item quantity="other">%d개의 대화를 삭제하시겠습니까?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>텍스트 복사</item>
+        <item>전송</item>
+        <item>삭제</item>
+    </string-array>
+    <string name="compose_number_picker_title">전화번호 선택</string>
+    <string name="compose_number_picker_default">%s ∙ 기본값</string>
+    <string name="compose_number_picker_once">한 번만</string>
+    <string name="compose_number_picker_always">항상</string>
+    <string name="compose_title_selected">%d개 선택됨</string>
+    <string name="compose_subtitle_results">%1$d/%2$d 결과</string>
+    <string name="contact_selected">%1$d/%2$d 선택됨</string>
+    <string name="compose_send_group_title">그룹 메시지로 전송</string>
+    <string name="compose_send_group_summary">수신자 및 회신이 모두에게 표시됩니다</string>
+    <string name="compose_messages_empty">대화 시작. 멋진 말을 하세요!</string>
+    <string name="compose_vcard_label">연락처 카드</string>
+    <string name="compose_scheduled_for">예약된 시간</string>
+    <string name="compose_scheduled_future">시간은 미래에 있어야 합니다!</string>
+    <string name="compose_scheduled_toast">예약된 메시지에 추가됨</string>
+    <string name="compose_hint">여기에 작성하세요…</string>
+    <string name="compose_menu_copy">텍스트 복사</string>
+    <string name="compose_menu_forward">전송</string>
+    <string name="compose_menu_delete">삭제</string>
+    <string name="compose_menu_previous">이전</string>
+    <string name="compose_menu_next">다음</string>
+    <string name="compose_menu_clear">지우기</string>
+    <string name="compose_details_title">메시지 세부 정보</string>
+    <string name="compose_details_type">유형: %s</string>
+    <string name="compose_details_from">보낸 이: %s</string>
+    <string name="compose_details_to">받는 이: %s</string>
+    <string name="compose_details_subject">제목: %s</string>
+    <string name="compose_details_priority">중요도: %s</string>
+    <string name="compose_details_size">크기: %s</string>
+    <string name="compose_details_sent">보낸 시간: %s</string>
+    <string name="compose_details_received">받은 시간: %s</string>
+    <string name="compose_details_delivered">배달된 시간: %s</string>
+    <string name="compose_details_error_code">오류 코드: %d</string>
+    <string name="compose_attach_cd">첨부 파일 추가</string>
+    <string name="compose_gallery_cd">사진 첨부</string>
+    <string name="compose_camera_cd">사진 촬영</string>
+    <string name="compose_schedule_cd">메시지 예약</string>
+    <string name="compose_contact_cd">연락처 첨부</string>
+    <string name="compose_contact_error">연락처를 읽는 데 오류가 발생했습니다</string>
+    <string name="compose_sim_cd">%s 선택됨, SIM 카드 변경</string>
+    <string name="compose_send_cd">메시지 전송</string>
+    <string name="message_status_sending">전송 중…</string>
+    <string name="message_status_delivered">배달됨 %s</string>
+    <string name="message_status_failed">전송 실패</string>
+    <string name="info_title">연락처 세부 정보</string>
+    <string name="info_copied_address">주소가 복사되었습니다</string>
+    <string name="info_name">대화 제목</string>
+    <string name="info_notifications">알림</string>
+    <string name="info_theme">테마</string>
+    <string name="info_archive">보관</string>
+    <string name="info_unarchive">보관 해제</string>
+    <string name="info_block">차단</string>
+    <string name="info_unblock">차단 해제</string>
+    <string name="info_delete">대화 삭제</string>
+    <string name="gallery_error">미디어를 불러올 수 없습니다</string>
+    <string name="gallery_toast_saved">갤러리에 저장됨</string>
+    <string name="backup_title">백업 및 복원</string>
+    <string name="backup_backing_up">메시지 백업 중</string>
+    <string name="backup_restoring">백업에서 복원 중</string>
+    <string name="backup_last">최근 백업</string>
+    <string name="backup_loading">로드 중…</string>
+    <string name="backup_never">없음</string>
+    <string name="backup_restore_title">복원</string>
+    <string name="backup_restore_summary">백업 선택</string>
+    <string name="backup_restore_error_plus">백업 및 복원을 사용하려면 SMS+를 잠금 해제하십시오</string>
+    <string name="backup_restore_error_backup">백업 진행 중…</string>
+    <string name="backup_restore_error_restore">복원 진행 중…</string>
+    <string name="backup_restore_confirm_title">백업에서 복원</string>
+    <string name="backup_restore_confirm_message">이 백업에서 메시지를 복원하시겠습니까?</string>
+    <string name="backup_restore_stop_title">복원 중지</string>
+    <string name="backup_restore_stop_message">이미 복원된 메시지는 기기에 남아 있습니다</string>
+    <string name="backup_restore_dialog_title">백업</string>
+    <string name="backup_restore_dialog_summary">/SMS Messages/백업</string>
+    <string name="backup_restore_dialog_empty">백업을 찾을 수 없습니다</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">메시지 없음</item>
+        <item quantity="one">%d개의 메시지</item>
+        <item quantity="other">%d개의 메시지</item>
+    </plurals>
+    <string name="backup_disclaimer">지금까지, 백업 및 복원으로는 SMS만 지원되었습니다!</string>
+    <string name="backup_now">백업</string>
+    <string name="backup_progress_parsing">백업 분석 중…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d 메시지</string>
+    <string name="backup_progress_saving">백업 저장 중…</string>
+    <string name="backup_progress_syncing">메시지 동기화 중…</string>
+    <string name="backup_progress_finished">완료!</string>
+    <string name="backup_notification_channel_name">백업 및 복원</string>
+    <string name="Message_notification_channel_name">메시지 동기화</string>
+    <string name="scheduled_title">예약됨</string>
+    <string name="schedule_guide">메시지 대화 화면에서 제공된 첨부 버튼을 클릭하여 일정 메시지를 설정할 수 있습니다.</string>
+    <string name="scheduled_empty_description">원하는 시간에 자동으로 메시지를 보냅니다</string>
+    <string name="scheduled_empty_message_1">안녕하세요! 언제 축하해야 할까요?</string>
+    <string name="scheduled_empty_message_2">3월 5일입니다</string>
+    <string name="scheduled_empty_message_3">안녕하세요! 이렇게 좋은 친구가 되어 다행입니다. 당신의 날을 축하합니다</string>
+    <string name="scheduled_empty_message_3_timestamp">3월 5일에 보내집니다&#x200A;</string>
+    <string name="scheduled_compose_cd">메시지 예약</string>
+    <string name="scheduled_options_title">예약된 메시지</string>
+    <string-array name="scheduled_options">
+        <item>지금 보내기</item>
+        <item>텍스트 복사</item>
+        <item>삭제</item>
+    </string-array>
+    <string name="settings_category_appearance">외형</string>
+    <string name="settings_category_general">일반</string>
+    <string name="settings_categoryreply">답장</string>
+    <string name="settings_night_title">야간 모드</string>
+    <string name="settings_text_size_title">글꼴 크기</string>
+    <string name="settings_notifications_title">알림</string>
+    <string name="settings_notifications_o_summary">사용자 정의하려면 탭하세요</string>
+    <string name="settings_notification_actions_title">작업</string>
+    <string name="settings_notification_action_1">버튼 1</string>
+    <string name="settings_notification_action_2">버튼 2</string>
+    <string name="settings_notification_action_3">버튼 3</string>
+    <string name="settings_notification_previews_title">알림 미리보기</string>
+    <string name="settings_notification_wake_title">화면 켜기</string>
+    <string name="settings_vibration_title">진동</string>
+    <string name="settings_ringtone_title">소리</string>
+    <string name="settings_ringtone_none">없음</string>
+    <string name="settings_reply_title">답장</string>
+    <string name="settings_reply_summary">새 메시지에 대한 팝업</string>
+    <string name="settings_reply_tap_dismiss_title">탭하여 닫기</string>
+    <string name="settings_reply_tap_dismiss_summary">팝업 외부를 탭하여 닫습니다</string>
+    <string name="settings_swipe_actions">스와이프 작업</string>
+    <string name="settings_swipe_actions_right">오른쪽 스와이프</string>
+    <string name="settings_swipe_actions_left">왼쪽 스와이프</string>
+    <string name="settings_swipe_actions_change">변경</string>
+    <string name="not_now_txt">지금은 아니요</string>
+    <string name="process_title">이 프로세스에는 시간이 소요될 것입니다</string>
+    <string name="syncing_done">메시지 동기화 완료....</string>
+    <string name="all_set_txt">모든 준비가 되었습니다. 이제 출발할 준비가 되었습니다</string>
+    <string name="Personal">모든 메시지</string>
+    <string name="Other">알려진</string>
+    <string name="Spam">스팸</string>
+    <string name="setting">설정</string>
+    <string name="Share">공유</string>
+    <string name="Rate">평가하기</string>
+    <string name="edit">편집</string>
+    <string name="DarkMode">다크 모드</string>
+    <string name="BrightMode">밝은 모드</string>
+    <string name="Camera">카메라</string>
+    <string name="Gallery">갤러리</string>
+    <string name="Gif">GIF</string>
+    <string name="Contact">연락처</string>
+    <string name="Schedule">일정</string>
+    <string name="Location">위치</string>
+    <string name="Notes">메모</string>
+    <string name="no_msg">아직 메시지가 없습니다…</string>
+    <string name="Start_Chat">채팅 시작</string>
+    <string name="Language">언어</string>
+    <string name="rate_text">Play Store에서 평가를 통해 다른 사람들에게 추천해주세요!</string>
+    <string name="sort_by">정렬 기준</string>
+    <string-array name="settings_swipe_actions">
+        <item>없음</item>
+        <item>보관</item>
+        <item>삭제</item>
+        <item>전화</item>
+        <item>읽음으로 표시</item>
+        <item>읽지 않음으로 표시</item>
+    </string-array>
+    <string name="settings_mms_size_title">MMS 첨부 파일 자동 압축</string>
+    <string name="settings_sync_title">메시지 동기화</string>
+    <string name="settings_sync_summary">원본 Android SMS 데이터베이스와 메시지를 다시 동기화합니다</string>
+    <string name="blocking_manager_sms_title">SMS 차단</string>
+    <string name="blocking_manager_call_control_title">통화 제어</string>
+    <string name="blocking_manager_sia_title">Should I Answer?</string>
+    <string name="blocked_messages_title">차단된 메시지</string>
+    <string name="blocked_messages_empty">차단된 메시지가 여기에 표시됩니다</string>
+    <string name="blocking_block_title">차단</string>
+    <string name="blocking_unblock_title">차단 해제</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">%s으로 이동하여 이 번호를 차단합니다</item>
+        <item quantity="other">%s으로 이동하여 이러한 번호를 차단합니다</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">%s으로 이동하여 이 번호를 허용합니다</item>
+        <item quantity="other">%s으로 이동하여 이러한 번호를 허용합니다</item>
+    </plurals>
+    <string name="widget_loading">로드 중…</string>
+    <string name="widget_more">더 많은 대화 보기</string>
+    <string name="qkreply_menu_read">읽음으로 표시</string>
+    <string name="qkreply_menu_call">전화</string>
+    <string name="qkreply_menu_delete">삭제</string>
+    <string name="qkreply_menu_expand">더보기</string>
+    <string name="qkreply_menu_collapse">간략히</string>
+    <string name="qkreply_menu_view">대화 열기</string>
+    <string name="changelog_title">SMS에서의 새로운 기능</string>
+    <string name="changelog_version">버전 %s</string>
+    <string name="changelog_added">추가됨</string>
+    <string name="changelog_improved">개선됨</string>
+    <string name="changelog_fixed">수정됨</string>
+    <string name="changelog_more">더 보기</string>
+    <string name="changelog_dismiss">닫기</string>
+    <string-array name="notification_actions">
+        <item>없음</item>
+        <item>읽음으로 표시</item>
+        <item>답장</item>
+        <item>전화</item>
+        <item>삭제</item>
+    </string-array>
+    <string name="button_yes">예</string>
+    <string name="button_continue">계속</string>
+    <string name="button_cancel">취소</string>
+    <string name="button_delete">삭제</string>
+    <string name="button_save">저장</string>
+    <string name="button_stop">중지</string>
+    <string name="button_more">더보기</string>
+    <string name="button_set">설정</string>
+    <string name="button_undo">되돌리기</string>
+    <string name="toast_copied">복사됨</string>
+    <string name="toast_archived">대화가 보관됨</string>
+    <string name="toast_sms_plus">SMS+를 잠금 해제해야 합니다</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">새 메시지</item>
+        <item quantity="other">%s개의 새 메시지</item>
+    </plurals>
+    <string name="notification_message_failed_title">메시지 전송 실패</string>
+    <string name="notification_message_failed_text">%s로의 메시지 전송에 실패했습니다</string>
+    <string name="privacy_policy">개인 정보 보호 정책</string>
+    <string name="pocket_data_on">MMS를 보낼 때 포켓 데이터가 켜져 있어야 합니다!</string>
+    <string name="inapp_details" translatable="false">광고를 제거하려면 프리미엄 구독을 사용하십시오. 다크 및 라이트 모드 지원, 예약된 SMS 지원.</string>
+    <string name="drawer_removeAds">광고 제거</string>
+    <string name="in_app_ads">messages_rad</string>
+    <string name="dialog_delete_message">이 메시지를 삭제하시겠습니까?</string>
+    <string name="compose_bar_not_support">송신자는 답장을 지원하지 않습니다</string>
+    <string name="default_name">SMS를 보내거나 받으려면 기본 애플리케이션으로 설정해야 합니다. 메시지를 기본 애플리케이션으로 설정하시겠습니까?</string>
+    <string name="confirm_delete">삭제 확인</string>
+    <string name="confirm_delete_text">이 노트를 삭제하시겠습니까?</string>
+    <string name="title">제목</string>
+    <string name="note">노트</string>
+    <string name="search">검색</string>
+    <string name="settings">설정</string>
+    <string name="share_to">공유 대상:</string>
+    <string name="sort">정렬</string>
+    <string name="empty_list_text">새로운 노트를 추가하려면 우측 하단의 버튼을 누르세요!</string>
+    <string name="new_note">새로운 노트</string>
+    <string name="undo">실행 취소</string>
+    <string name="delete">삭제</string>
+    <string name="exception">예외:</string>
+    <string name="edit_note">노트 편집</string>
+    <string name="drawer_feedback">피드백 보내기</string>
+    <string name="drawer_mode">라이트 모드</string>
+    <string name="unlimited_access_user">모든 기능에 대한 무제한 액세스</string>
+    <string name="pro_user">프리미엄 사용자입니다</string>
+    <string name="sub_info_text"><b>구독은 해지하기 전까지 자동으로 갱신됩니다.</b></string>
+    <string name="cancel_purchase">Google Play의 구독에서 자동 갱신을 취소할 수 있습니다</string>
+    <string name="remove_ads">광고 제거</string>
+    <string name="no_ads">광고 없음</string>
+    <string name="free_trial">7일 무료 평가판, 그 후 자동 갱신됨</string>
+    <string name="can_not_talk_right_now">죄송합니다, 지금은 이야기할 수 없어요</string>
+    <string name="can_call_you_later">나중에 전화드릴까요?</string>
+    <string name="i_am_on_my_way">길을 가고 있어요</string>
+    <string name="write_personal_message">개인 메시지 작성</string>
+    <string name="create_reminder">새로운 알림 만들기</string>
+    <string name="remind_me_about">다음에 알림</string>
+    <string name="no_title">제목 없음</string>
+    <string name="edit_contact">연락처 편집</string>
+    <string name="add_contact">연락처 추가</string>
+    <string name="messages">메시지</string>
+    <string name="send_mail">이메일 보내기</string>
+    <string name="calendar">캘린더</string>
+    <string name="web">웹</string>
+    <string-array name="night_modes">
+        <item>시스템</item>
+        <item>밝은 모드</item>
+        <item>어두운 모드</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>이름과 메시지 표시</item>
+        <item>이름만 표시</item>
+        <item>내용 숨기기</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>작게</item>
+        <item>보통</item>
+        <item>큼</item>
+        <item>더 큼</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>지연 없음</item>
+        <item>짧게</item>
+        <item>중간</item>
+        <item>길게</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>자동</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>압축 없음</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>알겠어요</item>
+        <item>잠시만 기다려주세요</item>
+        <item>길을 가고 있어요</item>
+        <item>감사합니다</item>
+        <item>좋아 보여요</item>
+        <item>뭐야?</item>
+        <item>동의합니다</item>
+        <item>아니요</item>
+        <item>사랑해요</item>
+        <item>죄송합니다</item>
+        <item>ㅋㅋㅋ</item>
+        <item>괜찮아요</item>
+    </string-array>
+    <string name="default_title">기본 SMS 앱으로 설정</string>
+    <string name="set_as_defaault">기본 설정</string>
+    <string name="love_app_title">SMS 앱을 기본 SMS 앱으로 설정하세요</string>
+    <string-array name="gif">
+        <item>동물 얼굴</item>
+        <item>이모티콘</item>
+        <item>과일 및 채소</item>
+        <item>할로윈</item>
+        <item>사랑</item>
+    </string-array>
+    <string name="Sticker">스티커</string>
+    <string name="no_connection">인터넷 연결 없음.</string>
+    <string-array name="sticker">
+        <item>소년</item>
+        <item>만화</item>
+        <item>얼굴</item>
+        <item>축제</item>
+        <item>과일</item>
+        <item>재미</item>
+        <item>소녀</item>
+        <item>사랑 스티커</item>
+        <item>기타</item>
+        <item>강아지</item>
+    </string-array>
+    <string name="open_link_to_browser">브라우저에서 링크 열기</string>
+    <string name="battery_dialog">중요한 SMS를 놓치고 싶지 않으세요? \n
+    배터리 최적화를 끄세요</string>
+    <string name="reason_to_change_battery_optimization_setting">앱 정보로 이동 &gt; 고급 &gt; 배터리 최적화로 이동하여 ‘최적화하지 않음’을 선택하세요</string>
+    <string name="feedback_txt">경험에 대해 말해주세요. 메시지 앱을 개선하기 위한 제안을 해주세요.</string>
+    <string name="reason_to_change_battery">고급 &gt; 배터리 최적화 &gt; ‘최적화하지 않음’</string>
+    <string name="drawer_transaction">거래</string>
+    <string name="drawer_promotion">프로모션</string>
+    <string name="unknown">알 수 없음</string>
+    <string name="priva"><u>개인 정보 보호 정책</u></string>
+    <string name="smsfilter">SMS 필터</string>
+    <string name="by_click_t_c" translatable="false"><u>클릭하면 약관 및 조건에 동의합니다.</u></string>
+    <string name="continue_without_sub"><u>구독 없이 계속하기</u></string>
+    <string name="text_free_trial"><b>X일 무료 평가판</b> - 그 후 X € / 월</string>
+    <string name="calldorado_message">통화를 종료하기 전에 모든 <b>메시지</b>를 확인하세요! 새로운 소식이 있습니다</string>
+    <string name="privacy_terms_description">계속하면 사용 약관 및 개인 정보 보호 정책을 수락하고 승인합니다.</string>
+    <string name="draw_over_description"><![CDATA[다른 앱 위에 표시되도록 SMS 메시지를 표시합니다. SMS 호출 위젯 및 기타의 모든 잠재력을 받아보세요]]></string>
+    <string name="ad_label">광고</string>
+    <string name="onboarding_continue_button">계속</string>
+    <string name="onboarding_step_1_title">SMS 및 메신저 관리자</string>
+    <string name="onboarding_step_1_subtitle">친구와 채팅하고 그룹을 만들고 메시지를 정리하세요</string>
+    <string name="onboarding_step_1_hight_light">고유한 방법으로 당신에게</string>
+    <string name="onboarding_step_2_title">메시지 정리 및 저장</string>
+    <string name="onboarding_step_2_subtitle">메시지를 백업하고 복원하세요</string>
+    <string name="onboarding_step_2_hight_light">수천 명의 사용자가 좋아합니다</string>
+    <string name="onboarding_step_3_title">인생을 즐기세요. 우리가 받은 메시지를 관리하도록 해주세요.</string>
+    <string name="onboarding_step_3_subtitle">받은 허가를 통해 우리가 당신의 받은 편지함을 관리하는 데 도움을 드리겠습니다.</string>
+    <string name="onboarding_step_3_hight_light">나중에 할게요</string>
+    <string name="onboarding_allow_access_button">액세스 허용</string>
+    <string name="onboarding_step_4_title">우리가 일하게 해서 배터리를 개선하세요.</string>
+    <string name="onboarding_step_4_subtitle">우리가 성가신 SMS 방해를 처리하겠습니다.</string>
+    <string name="onboarding_step_4_hight_light">수천 명의 사용자가 좋아합니다</string>
+    <string name="onboarding_step_5_title">채팅하면서 다른 앱에서 화면 분할 작업</string>
+    <string name="onboarding_step_5_subtitle">멋진 콜 위젯을 즐겨보세요. 여러 작업을 동시에 수행할 수 있습니다</string>
+    <string name="onboarding_step_5_hight_light">수천 명의 사용자가 좋아합니다</string>
+    <string name="payment_card_title">지금 채팅하세요!</string>
+    <string name="payment_card_price"><![CDATA[3일 무료, %s / %s]]></string>
+    <string name="payment_card_button">지금 무료로 시도해보세요</string>
+    <string name="payment_card_hight_light">Play 스토어와 보안됨</string>
+    <string name="payment_card_weekly">주간</string>
+    <string name="payment_card_monthly">월간</string>
+    <string name="payment_card_yearly">연간</string>
+    <string name="payment_card_auto_renew">자동 갱신 구독, 언제든지 취소할 수 있습니다</string>
+    <string name="accessibility_service_description">접근성 서비스 설명</string>
+    <string name="permission_txt"><font color="#FF8A00">필요한 권한:</font>\n전화 상태 읽기 및 다른 앱 위에 그리기</string>
+    <string name="opt_privacy">계속하면 사용 약관 및 개인 정보 보호 정책을 수락하고 승인합니다.</string>
+    <string name="permission_required">필요한 권한</string>
+    <string name="permission_dialog_body">이 앱은 전화 권한 없이 제대로 작동하지 않을 수 있습니다. 아래 지침을 따라 활성화하세요:\n\n1. "권한"을 선택하세요\n2. 목록에서 "전화"를 찾아 탭하여 활성화하세요</string>
+    <string name="go_premium">프리미엄으로 가세요!</string>
+    <string name="unlock_everything">모든 기능 잠금 해제 및 광고 제거</string>
+    <string name="start_three_day">3일 무료 평가판 시작</string>
+    <string name="pro">전문가</string>
+    <string name="more_option">더 많은 옵션</string>
+    <string name="rate_us_5">5점으로 평가하기</string>
+    <string name="help_feedback">도움말 및 피드백</string>
+    <string name="send_message">메시지 보내기</string>
+    <string name="CTA_Button_Text">모든 기능 을 잠금 해제하려면 <font color="#FFFBCD04">탭하세요</font></string>
+
+</resources>

@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sugest_update_title">Даступна абнаўленне</string>
+    <string name="sugest_update_message">Даступна новае абнаўленне ў Google Play, калі ласка, абнавіце вашу версію</string>
+    <string name="force_update_title">Даступна абнаўленне</string>
+    <string name="force_update_message">Даступна новае абнаўленне ў Google Play, калі ласка, абнавіце вашу версію</string>
+    <string name="update_ok">Абнавіць</string>
+    <string name="update_no">Не зараз</string>
+    <string name="app_name">#Паведамленні</string>
+    <string name="in_app_name">Паведамленні</string>
+    <string name="splash_app_name">Паведамленні SMS</string>
+    <string name="loading_msg">Калі ласка, пачакайце...</string>
+    <string name="ads_loading_msg">Паказ рэкламы...</string>
+    <string name="shortcut_compose_long_label">Новы размова</string>
+    <string name="shortcut_compose_short_label">Стварыць</string>
+    <string name="shortcut_compose_disabled_message">Скораціць адключана</string>
+    <string name="title_archived">Архіўныя паведамленні</string>
+    <string name="title_settings">Налады</string>
+    <string name="title_notification_prefs">Спаведанні</string>
+    <string name="title_theme">Тэма</string>
+    <string name="title_conversations">Пошук нумараў, імён і г.д.</string>
+    <string name="title_compose">Тып імя або тэлефонны нумар</string>
+    <string name="setup_skip">Прапусціць</string>
+    <string name="setup_next">Працягнуць</string>
+    <string name="menu_add_person">Дадаць асобу</string>
+    <string name="menu_call">Выклік</string>
+    <string name="menu_info">Падрабязнасці</string>
+    <string name="menu_save">Захаваць ў галерэю</string>
+    <string name="menu_share">Падзяліцца</string>
+    <string name="main_drawer_open_cd">Адкрыць навігацыйныя шухлядкі</string>
+    <string name="main_title_selected">%d абраныя</string>
+    <string name="main_menu_clear">Ачысціць</string>
+    <string name="main_menu_archive">Архіў</string>
+    <string name="main_menu_unarchive">Разархіваваць</string>
+    <string name="main_menu_delete">Выдаліць</string>
+    <string name="main_menu_add_contact">Дадаць у кантакты</string>
+    <string name="main_menu_pin">Закрэпіць уверху</string>
+    <string name="main_menu_unpin">Адкрэпіць</string>
+    <string name="main_menu_read">Пазначыць як прачытанае</string>
+    <string name="main_menu_unread">Пазначыць як непрачытанае</string>
+    <string name="select_all">Выбраць усё</string>
+    <string name="deselect_all">Адмяніць выбар</string>
+    <string name="main_menu_block">Блакаваць</string>
+    <string name="main_syncing">Арганізацыя паведамленняў...</string>
+    <string name="main_sender_you">Вы: %s</string>
+    <string name="main_draft">Чарнавік: %s</string>
+    <string name="main_message_results_title">Вынікі ў паведамленнях</string>
+    <string name="main_message_results">%d паведамленняў</string>
+    <string name="inbox_empty_text">Вашы размовы з\'явяцца тут</string>
+    <string name="inbox_search_empty_text">Няма вынікаў</string>
+    <string name="archived_empty_text">Пакуль няма заархіваваных размоў..</string>
+    <string name="main_fab_cd">Пачаць новую размову</string>
+    <string name="main_default_sms_title">Цікава з паведамленнямі?</string>
+    <string name="main_default_sms_message">Зрабіце SMS аплікацыю вашай па змаўчанні SMS аплікацыяй</string>
+    <string name="main_default_sms_change">Змяніць</string>
+    <string name="main_permission_required">Патрабуецца дазвол</string>
+    <string name="main_permission_sms">SMS патрэбен дазвол на адпраўку і прагляд SMS-паведамленняў</string>
+    <string name="main_permission_contacts">SMS патрэбен дазвол на прагляд вашых кантактаў</string>
+    <string name="main_permission_allow">Дазволіць</string>
+    <string name="main_permission_allow_read">Дазволіць чытанне і запіс пэрмісіён</string>
+    <string name="drawer_inbox">Уваходныя</string>
+    <string name="drawer_archived">Архіўныя</string>
+    <string name="drawer_scheduled">Запланаванае паведамленне</string>
+    <string name="drawer_blocking">Спіс заблакаваных</string>
+    <string name="drawer_calldorado">Налады вызываючага</string>
+    <string name="drawer_more">Больш</string>
+    <string name="drawer_group">Групавое паведамленне</string>
+    <string name="drawer_settings">Налады</string>
+    <string name="drawer_remove_ads">Выдаліць рэкламу</string>
+    <string name="drawer_help">Дапамога і зваротная сувязь</string>
+    <string name="drawer_invite">Запрасіць сяброў</string>
+    <string name="dialog_delete_title">Выдаліць</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Вы ўпэўненыя, што жадаеце выдаліць гэтую размову?</item>
+        <item quantity="other">Вы ўпэўненыя, што жадаеце выдаліць %d размовы?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Скапіяваць тэкст</item>
+        <item>Перапаслаць</item>
+        <item>Выдаліць</item>
+    </string-array>
+    <string name="compose_number_picker_title">Выберыце нумар тэлефона</string>
+    <string name="compose_number_picker_default">%s ∙ Па змаўчанні</string>
+    <string name="compose_number_picker_once">Толькі адзін раз</string>
+    <string name="compose_number_picker_always">Заўсёды</string>
+    <string name="compose_title_selected">%d абрана</string>
+    <string name="compose_subtitle_results">%1$d з %2$d вынікаў</string>
+    <string name="contact_selected">%1$d з %2$d абрана</string>
+    <string name="compose_send_group_title">Адправіць як групавае паведамленне</string>
+    <string name="compose_send_group_summary">Атрымальнікі і адказы будуць бачныя ўсім</string>
+    <string name="compose_messages_empty"> Пачатак вашай размовы. Скажыце нешта вялікае!</string>
+    <string name="compose_vcard_label">Картка кантакта</string>
+    <string name="compose_scheduled_for">Запланавана на</string>
+    <string name="compose_scheduled_future"> час павінен быць у будучыні!</string>
+    <string name="compose_scheduled_toast">Дададзена ў запланаваныя паведамленні</string>
+    <string name="compose_hint">Напішыце тут…</string>
+    <string name="compose_menu_copy">Скапіяваць тэкст</string>
+    <string name="compose_menu_forward">Перапаслаць</string>
+    <string name="compose_menu_delete">Выдаліць</string>
+    <string name="compose_menu_previous">Папярэдні</string>
+    <string name="compose_menu_next">Наступны</string>
+    <string name="compose_menu_clear">Ачысціць</string>
+    <string name="compose_details_title">Дэталі паведамлення</string>
+    <string name="compose_details_type">Тып: %s</string>
+    <string name="compose_details_from">Ад: %s</string>
+    <string name="compose_details_to">Да: %s</string>
+    <string name="compose_details_subject">Тэма: %s</string>
+    <string name="compose_details_priority">Прыватнасць: %s</string>
+    <string name="compose_details_size">Памер: %s</string>
+    <string name="compose_details_sent">Адправлена: %s</string>
+    <string name="compose_details_received">Атрымана: %s</string>
+    <string name="compose_details_delivered">Дастаўлена: %s</string>
+    <string name="compose_details_error_code">Код памылкі: %d</string>
+    <string name="compose_attach_cd">Дадаць дадатак</string>
+    <string name="compose_gallery_cd">Дадаць фота</string>
+    <string name="compose_camera_cd">Зрабіць фота</string>
+    <string name="compose_schedule_cd">Запланаваць паведамленне</string>
+    <string name="compose_contact_cd">Дадаць кантакт</string>
+    <string name="compose_contact_error">Памылка пры чытанні кантакта</string>
+    <string name="compose_sim_cd">%s абраны, зменіце SIM-карту</string>
+    <string name="compose_send_cd">Адправіць паведамленне</string>
+    <string name="message_status_sending">Адпраўка…</string>
+    <string name="message_status_delivered">Дастаўлена %s</string>
+    <string name="message_status_failed">Ня ўдалося адправіць</string>
+    <string name="info_title">Дэталі кантакта</string>
+    <string name="info_copied_address">Адрас скопіраваны</string>
+    <string name="info_name">Назва размовы</string>
+    <string name="info_notifications">Спаведанні</string>
+    <string name="info_theme">Тэма</string>
+    <string name="info_archive">Архіў</string>
+    <string name="info_unarchive">Разархіваць</string>
+    <string name="info_block">Блакаваць</string>
+    <string name="info_unblock">Разблакаваць</string>
+    <string name="info_delete">Выдаліць размову</string>
+    <string name="gallery_error">Немагчыма загрузіць мультымедыю</string>
+    <string name="gallery_toast_saved">Захавана ў галерэю</string>
+    <string name="backup_title">Рэзервовае капіраванне і аднаўленне</string>
+    <string name="backup_backing_up">Рэзервовае капіраванне паведамленняў</string>
+    <string name="backup_restoring">Аднаўленне з рэзервовага копірання</string>
+    <string name="backup_last">Апошняе рэзервовае капіраванне</string>
+    <string name="backup_loading">Загрузка…</string>
+    <string name="backup_never">Ніколі</string>
+    <string name="backup_restore_title">Аднаўленне</string>
+    <string name="backup_restore_summary">Выберыце рэзервовае капіраванне</string>
+    <string name="backup_restore_error_plus">Калі ласка, разблакуйце SMS+, каб выкарыстоўваць рэзервовае капіраванне і аднаўленне</string>
+    <string name="backup_restore_error_backup">Выканаецца рэзервовае капіраванне…</string>
+    <string name="backup_restore_error_restore">Выканаецца аднаўленне…</string>
+    <string name="backup_restore_confirm_title">Аднаўленне з рэзервовага копірання</string>
+    <string name="backup_restore_confirm_message">Вы ўпэўненыя, што жадаеце аднаўліць свае паведамленні з гэтага рэзервовага копірання?</string>
+    <string name="backup_restore_stop_title">Спыніць аднаўленне</string>
+    <string name="backup_restore_stop_message">Паведамленні, якія ўжо былі аднаўленыя, застануцца на вашым прыладзе</string>
+    <string name="backup_restore_dialog_title">Рэзервовыя копіі</string>
+    <string name="backup_restore_dialog_summary">/SMS Messages/Рэзервовыя копіі</string>
+    <string name="backup_restore_dialog_empty">Рэзервовыя копіі не знойдзеныя</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">Няма паведамленняў</item>
+        <item quantity="one">%d паведамленне</item>
+        <item quantity="other">%d паведамленняў</item>
+    </plurals>
+    <string name="backup_disclaimer">Да гэтага часу мы падтрымлівалі толькі SMS па дадзеных рэзервовага копіравання і аднаўлення!</string>
+    <string name="backup_now">Рэзервовае капіраванне</string>
+    <string name="backup_progress_parsing">Разбор рэзервовага копіравання…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d паведамленняў</string>
+    <string name="backup_progress_saving">Захаванне рэзервовага копіравання…</string>
+    <string name="backup_progress_syncing">Сінхранізацыя паведамленняў…</string>
+    <string name="backup_progress_finished">Завершана!</string>
+    <string name="backup_notification_channel_name">Рэзервовае капіраванне і аднаўленне</string>
+    <string name="Message_notification_channel_name">Сінхранізацыя паведамленняў</string>
+    <string name="scheduled_title">Запланавана</string>
+    <string name="schedule_guide">Вы можаце задаць запланаванае паведамленне, націснуўшы кнопку дадавання, якая знаходзіцца на экране размовы паведамленняў.</string>
+    <string name="scheduled_empty_description">Аўтаматычна адправіць паведамленне ў той момант, калі вам захочацца</string>
+    <string name="scheduled_empty_message_1">Прывітанне! Калі час для святкавання моманту?</string>
+    <string name="scheduled_empty_message_2">Гэта 5-га сакавіка </string>
+    <string name="scheduled_empty_message_3">Прывітанне! Паглядзіце, якім вялікім сябром я з\'яўляюся, святкуючы ваш дзень</string>
+    <string name="scheduled_empty_message_3_timestamp">Адправіць 5-га сакавіка&#x200A;</string>
+    <string name="scheduled_compose_cd">Запланаваць паведамленне</string>
+    <string name="scheduled_options_title">Запланаванае паведамленне</string>
+    <string-array name="scheduled_options">
+        <item>Адправіць зараз</item>
+        <item>Скапіяваць тэкст</item>
+        <item>Выдаліць</item>
+    </string-array>
+    <string name="settings_category_appearance">Вонкавы выгляд</string>
+    <string name="settings_category_general">Агульныя</string>
+    <string name="settings_categoryreply">Адказ</string>
+    <string name="settings_night_title">Начны рэжым</string>
+    <string name="settings_text_size_title">Памер шрыфта</string>
+    <string name="settings_notifications_title">Спаведанні</string>
+    <string name="settings_notifications_o_summary">Націсніце, каб наладзіць</string>
+    <string name="settings_notification_actions_title">Дзеянні</string>
+    <string name="settings_notification_action_1">Кнопка 1</string>
+    <string name="settings_notification_action_2">Кнопка 2</string>
+    <string name="settings_notification_action_3">Кнопка 3</string>
+    <string name="settings_notification_previews_title">Прадпрагляды спаведанняў</string>
+    <string name="settings_notification_wake_title">Падняцце экран</string>
+    <string name="settings_vibration_title">Вібрацыя</string>
+    <string name="settings_ringtone_title">Звук</string>
+    <string name="settings_ringtone_none">Няма</string>
+    <string name="settings_reply_title">Адказ</string>
+    <string name="settings_reply_summary">Павідоўка для новых паведамленняў</string>
+    <string name="settings_reply_tap_dismiss_title">Націсніце, каб закрыць</string>
+    <string name="settings_reply_tap_dismiss_summary">Націсніце звонку за межамі павідоўкі, каб закрыць яе</string>
+    <string name="settings_swipe_actions">Дзеянні па ўціскванні</string>
+    <string name="settings_swipe_actions_right">Правым ўціскам</string>
+    <string name="settings_swipe_actions_left">Левым ўціскам</string>
+    <string name="settings_swipe_actions_change">ЗМЕНІЦЬ</string>
+    <string name="not_now_txt">Не зараз</string>
+    <string name="process_title">Гэты працэс займе \nнякое часу</string>
+    <string name="syncing_done">Сінхранізацыя паведамленняў завершана....</string>
+    <string name="all_set_txt">Усё наладжана. Вы гатовыя да пачатку</string>
+    <string name="Personal">Усе паведамленні</string>
+    <string name="Other">Вядомыя </string>
+    <string name="Spam">Сметнік</string>
+    <string name="setting">Налады</string>
+    <string name="Share">Падзяліцца</string>
+    <string name="Rate">Ацаніць нас</string>
+    <string name="edit">змяніць</string>
+    <string name="DarkMode">Цёмны рэжым</string>
+    <string name="BrightMode">Светлы рэжым</string>
+    <string name="Camera">Камера</string>
+    <string name="Gallery">Галерэя</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">Кантакт</string>
+    <string name="Schedule">Запланаваць</string>
+    <string name="Location">Месца</string>
+    <string name="Notes">Нататкі</string>
+    <string name="no_msg">Пакуль няма паведамленняў…</string>
+    <string name="Start_Chat">Пачаць размову</string>
+    <string name="Language">Мова</string>
+    <string name="rate_text">Рэкамендуйце нас іншым, \nпаставіўшы ацэнку ў Play Store!</string>
+    <string name="sort_by">Сартаваць па</string>
+    <string-array name="settings_swipe_actions">
+        <item>Нічога</item>
+        <item>Архівацыя</item>
+        <item>Выдаліць</item>
+        <item>Выклікаць</item>
+        <item>Пазначыць як прачытанае</item>
+        <item>Пазначыць як непрачытанае</item>
+    </string-array>
+
+    <string name="settings_mms_size_title">Аўтаматычна кампрэсаваць прыкладанні MMS</string>
+    <string name="settings_sync_title">Сінхранізаваць паведамленні</string>
+    <string name="settings_sync_summary">Паўторна сінхранізуйце свае паведамленні з базай дадзеных SMS па змаўчанні Android</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Кантроль вызваў</string>
+    <string name="blocking_manager_sia_title">Ці павінны я адказваць?</string>
+    <string name="blocked_messages_title">Заблакаваныя паведамленні</string>
+    <string name="blocked_messages_empty">Вашы заблакаваныя паведамленні з\'явяцца тут</string>
+    <string name="blocking_block_title">Забараніць</string>
+    <string name="blocking_unblock_title">Скасаваць блакаванне</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">Продалжыце да %s і забараніце гэты нумар</item>
+        <item quantity="few">Продалжыце да %s і забараніце гэтыя нумары</item>
+        <item quantity="many">Продалжыце да %s і забараніце гэтыя нумары</item>
+        <item quantity="other">Продалжыце да %s і забараніце гэтыя нумары</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">Продалжыце да %s і дазвольце гэты нумар</item>
+        <item quantity="other">Продалжыце да %s і дазвольце гэтыя нумары</item>
+    </plurals>
+    <string name="widget_loading">Загрузка…</string>
+    <string name="widget_more">Прагледзець больш размоў</string>
+    <string name="qkreply_menu_read">Пазначыць як прачытанае</string>
+    <string name="qkreply_menu_call">Выклік</string>
+    <string name="qkreply_menu_delete">Выдаліць</string>
+    <string name="qkreply_menu_expand">Паказаць больш</string>
+    <string name="qkreply_menu_collapse">Паказаць менш</string>
+    <string name="qkreply_menu_view">Адкрыць размову</string>
+    <string name="changelog_title">Новае ў SMS</string>
+    <string name="changelog_version">Версія %s</string>
+    <string name="changelog_added">Дададзена</string>
+    <string name="changelog_improved">Палепшана</string>
+    <string name="changelog_fixed">Вырашана</string>
+    <string name="changelog_more">Больш</string>
+    <string name="changelog_dismiss">Схаваць</string>
+    <string-array name="notification_actions">
+        <item>Нічога</item>
+        <item>Пазначыць як прачытанае</item>
+        <item>Адказаць</item>
+        <item>Выклік</item>
+        <item>Выдаліць</item>
+    </string-array>
+    <string name="button_yes">Так</string>
+    <string name="button_continue">Працягнуць</string>
+    <string name="button_cancel">Скасаваць</string>
+    <string name="button_delete">Выдаліць</string>
+    <string name="button_save">Захаваць</string>
+    <string name="button_stop">Стоп</string>
+    <string name="button_more">Больш</string>
+    <string name="button_set">Наладзіць</string>
+    <string name="button_undo">Скасаваць</string>
+    <string name="toast_copied">Скапіявана</string>
+    <string name="toast_archived">Архіваваная размова</string>
+    <string name="toast_sms_plus">Вы павінны разблакаваць SMS+, каб выкарыстоўваць гэта</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Новае паведамленне</item>
+        <item quantity="other">%s новых паведамленняў</item>
+    </plurals>
+    <string name="notification_message_failed_title">Паведамленне не адпраўлена</string>
+    <string name="notification_message_failed_text">Паведамленне да %s не было адпраўлена</string>
+    <string name="privacy_policy">Палітыка прыватнасці</string>
+    <string name="pocket_data_on">Пакетныя дадзеныя павінны быць уключаныя падчас адпраўкі MMS!</string>
+    <string name="inapp_details" translatable="false">Каб выдаліць рэкламу, паспрабуйце платную падпіску з падтрымкай тэмнага і светлага рэжыму, падтрымкай запланаваных SMS.</string>
+    <string name="drawer_removeAds">Выдаліць рэкламу</string>
+    <string name="in_app_ads">messages_rad</string>
+    <string name="dialog_delete_message">Вы ўпэўненыя, што хочаце выдаліць гэта паведамленне?</string>
+    <string name="compose_bar_not_support">Адпраўшчык не падтрымлівае адказы</string>
+    <string name="default_name">Каб адпраўляць або атрымліваць SMS, вы павінны наладзіць гэта як праграму па змаўчанні. Хочаце, каб паведамленне стала вашай праграмай па змаўчанні?</string>
+    <string name="confirm_delete">Пацвердзіць выдаленне</string>
+    <string name="confirm_delete_text">Вы ўпэўненыя, што хочаце выдаліць гэта нататку?</string>
+    <string name="title">Загаловак</string>
+    <string name="note">Нататка</string>
+    <string name="search">Пошук</string>
+    <string name="settings">Налады</string>
+    <string name="share_to">Абагуліць да:</string>
+    <string name="sort">Сартаваць</string>
+    <string name="empty_list_text">Націсніце кнопку ў ніжняй частцы, каб дадаць новую нататку!</string>
+    <string name="new_note">Новая нататка</string>
+    <string name="undo">Скасаваць</string>
+    <string name="delete">Выдаліць</string>
+    <string name="exception">Выключэнне:</string>
+    <string name="edit_note">Рэдагаваць нататку</string>
+    <string name="drawer_feedback">Даслаць водгук</string>
+    <string name="drawer_mode">Светлы рэжым</string>
+    <string name="unlimited_access_user">Неабмежаваны доступ да ўсіх магчымасцяў</string>
+    <string name="pro_user">Вы - платны карыстальнік</string>
+    <string name="sub_info_text"><b>Падпіска аўтаматычна падарожваецца, пакуль вы яе не выключыце.</b></string>
+    <string name="cancel_purchase">Вы можаце адмяніць аўтаматычнае падарожжа падпіскі ў Падпіска на Google Play</string>
+    <string name="remove_ads">Выдаліць рэкламу</string>
+    <string name="no_ads">Няма рэкламы</string>
+    <string name="free_trial">7-дзённы бясплатны прабны перыяд, апошні аўтаматычна аднаўляецца</string>
+    <string name="can_not_talk_right_now">Выбачайце, я зараз не магу размаўляць</string>
+    <string name="can_call_you_later">Магу я пазваніць вам пазней?</string>
+    <string name="i_am_on_my_way">Я ў дарозе</string>
+    <string name="write_personal_message">Напішыце асабістае паведамленне</string>
+    <string name="create_reminder">Стварыць новае нагадванне</string>
+    <string name="remind_me_about">Нагадайце мне пра</string>
+    <string name="no_title">Без загаловку</string>
+    <string name="edit_contact">Рэдагаваць кантакт</string>
+    <string name="add_contact">Дадаць кантакт</string>
+    <string name="messages">Паведамленні</string>
+    <string name="send_mail">Адправіць пашту</string>
+    <string name="calendar">Каляндар</string>
+    <string name="web">Web</string>
+    <string-array name="night_modes">
+        <item>Сістэма</item>
+        <item>Светлы рэжым</item>
+        <item>Цёмны рэжым</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>Паказаць імя і паведамленне</item>
+        <item>Паказаць імя</item>
+        <item>Схаваць змесціва</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>Малы</item>
+        <item>Звычайны</item>
+        <item>Вялікі</item>
+        <item>Большы</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>Без затрымкі</item>
+        <item>Кароткі</item>
+        <item>Сярэдні</item>
+        <item>Доўгі</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Аўтаматычны</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>Без кампрэсіі</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>Добра</item>
+        <item>Дай мне хвілінку</item>
+        <item>На шляху</item>
+        <item>Дзякуй</item>
+        <item>Добрае</item>
+        <item>Як справы?</item>
+        <item>Згодна</item>
+        <item>Не</item>
+        <item>Кахаю цябе</item>
+        <item>Прабачце</item>
+        <item>LOL</item>
+        <item>Гэта добра</item>
+    </string-array>
+    <string name="default_title">Дазволіць Sms App стаць па змаўчанні прыкладаннем</string>
+    <string name="set_as_defaault">Станавіць стандартным</string>
+    <string name="love_app_title">Зрабіць SMS-праграму вашым па змаўчанні
+ SMS-праграма</string>
+    <string-array name="gif">
+        <item>Жывёла</item>
+        <item>Смайлікі</item>
+        <item>Фрукты і агароды</item>
+        <item>Хэлловін</item>
+        <item>Любоў</item>
+    </string-array>
+    <string name="Sticker">Налепка</string>
+    <string name="no_connection">Няма злучэння з Інтэрнэтам.</string>
+    <string-array name="sticker">
+        <item>Хлопчык</item>
+        <item>Мультфільм</item>
+        <item>Твар</item>
+        <item>Фестываль</item>
+        <item>Фрукт</item>
+        <item>Вясёлы</item>
+        <item>Дзяўчына</item>
+        <item>Любоўная наклейка</item>
+        <item>Іншае</item>
+        <item>Шчэнёк</item>
+    </string-array>
+    <string name="open_link_to_browser">Адкрыць спасылку ў браўзэры</string>
+    <string name="battery_dialog"> Не хочаце марнаваць важныя Sms? \n
+    Адключыце аптымізацыю батарэі</string>
+    <string name="reason_to_change_battery_optimization_setting">Перайдзіце ў Infо праграмы &gt; Расшырэнае &gt; Аптымізацыя батарэі \nі выберыце «Не аптымізаваць»</string>
+    <string name="feedback_txt">Паведаміце нам аб сваім вопыце і дайце прапанову па паляпшэнню праграмы паведамленняў. </string>
+    <string name="reason_to_change_battery"> Расшырэнае &gt; Аптымізацыя батарэі &gt; «Не аптымізаваць»</string>
+    <string name="drawer_transaction">Транзакцыі</string>
+    <string name="drawer_promotion">Акцыі</string>
+    <string name="unknown">Невядомае </string>
+    <string name="priva"><u>Палітыка прыватнасці</u></string>
+    <string name="smsfilter">Фільтр SMS</string>
+    <string name="by_click_t_c" translatable="false"><u>Націскаючы, вы прымаеце нашы Умовы і палітыку прыватнасці.</u></string>
+    <string name="continue_without_sub"><u>Працягнуць без падпіскі</u></string>
+    <string name="text_free_trial">На ўсём працягу X дзён <b>Бясплатная пробная версія</b> - Пасля X € / месяц</string>
+    <string name="calldorado_message">Праверце ўсе свае <b>паведамленні</b> перад заканчэннем злучэння! Ёсць навіны</string>
+    <string name="privacy_terms_description">Працягваючы, вы прымаеце і затверджаеце ўмовы выкарыстання і палітыку прыватнасці.</string>
+    <string name="draw_over_description"><![CDATA[Для паказу на верхе іншых праграм нашых паведамленняў SMS. Атрымайце ўсе магчымасці нашых віджэтаў SMS-выклікаў і шмат іншага]]></string>
+    <string name="ad_label">РЭКЛАМА</string>
+    <string name="onboarding_continue_button">Працягнуць</string>
+    <string name="onboarding_step_1_title">Менеджэр SMS і паведамленняў</string>
+    <string name="onboarding_step_1_subtitle">Гутарыце з сябрамі, ствараюце групы і арганізуйце сваю скрыню ўваходных паведамленняў</string>
+    <string name="onboarding_step_1_hight_light">Унікальны падыход да вас</string>
+    <string name="onboarding_step_2_title">Арганізуйце і захоўвайце паведамленні</string>
+    <string name="onboarding_step_2_subtitle">Стварыце рэзервную копію і аднаўленьне сваіх паведамленняў</string>
+    <string name="onboarding_step_2_hight_light">Тысячы карыстальнікаў падабаецца</string>
+    <string name="onboarding_step_3_title">Насладжайцеся жыццём і дазвольце нам прадастаўляць паслугі па апрацоўцы ўваходных паведамленняў</string>
+    <string name="onboarding_step_3_subtitle">Прымеце дазволы, каб мы маглі дапамагчы вам кіраваць вашай ўваходнай скрынёй.</string>
+    <string name="onboarding_step_3_hight_light">Магчыма, пазней</string>
+    <string name="onboarding_allow_access_button">Дазволіць доступ</string>
+    <string name="onboarding_step_4_title">Палепшыце сваю батарэю, дазваляючы нам зрабіць усё</string>
+    <string name="onboarding_step_4_subtitle">Мы забяспечым звязваць памяцанне SMS.</string>
+    <string name="onboarding_step_4_hight_light">Тысячы карыстальнікаў падабаецца</string>
+    <string name="onboarding_step_5_title">Разбіць экран на іншыя праграмы падчас гутаркі</string>
+    <string name="onboarding_step_5_subtitle">Атрымайце наш вельмі зручны віджэт для гутаркі, які дазваляе вам паўздымна працаваць</string>
+    <string name="onboarding_step_5_hight_light">Тысячы карыстальнікаў падабаецца</string>
+    <string name="payment_card_title">Гутарце зараз!</string>
+    <string name="payment_card_price"><![CDATA[3-дзён бясплатна, %s / %s]]></string>
+    <string name="payment_card_button">Паспрабуйце зараз бясплатна</string>
+    <string name="payment_card_hight_light">Абаронены з дапамогай Play Store</string>
+    <string name="payment_card_weekly">штотыдзень</string>
+    <string name="payment_card_monthly">штомесяц</string>
+    <string name="payment_card_yearly">штогод</string>
+    <string name="payment_card_auto_renew">автаматычна прадленая падпіска, адменіць у любы час</string>
+    <string name="accessibility_service_description">Апісанне вашай сродкаў даступу</string>
+    <string name="permission_txt"><font color="#FF8A00">Неабходнае дазвол:</font>\nЧытаць стан тэлефона і маляваць паверх іншых прыкладанняў</string>
+    <string name="opt_privacy">Працягваючы, вы прымаеце і затверджаеце ўмовы выкарыстання і палітыку прыватнасці.</string>
+    <string name="permission_required">Патрабуюцца дазволы</string>
+    <string name="permission_dialog_body">Гэта прыкладанне можа не працаваць правільна без дазволу на тэлефон. Выканайце інструкцыі ніжэй, каб ўключыць яго:\n\n1. Абярыце "Дазволы"\n2. Знайдзіце "Тэлефон" у спісе дазволаў і націсніце, каб уключыць</string>
+    <string name="go_premium">Станьце <font color = "#FFE600">прадплатнікам!</font></string>
+    <string name="unlock_everything">Адкрыць усё і без рэкламы</string>
+    <string name="start_three_day">Пачніце 3-дзённую бясплатную пробную версію</string>
+    <string name="pro">Прафесіянал</string>
+    <string name="more_option">Больш варыянтаў</string>
+    <string name="rate_us_5">Ацаніце нас 5 зорак</string>
+    <string name="help_feedback">Дапамога і зваротная сувязь</string>
+    <string name="send_message">Адправіць паведамленне</string>
+    <string name="CTA_Button_Text">Націсніце, каб разблакаваць усе <font color="#FFFBCD04">Функцыі</font></string>
+</resources>

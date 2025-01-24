@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rootViewBSDialog"
+    android:background="@drawable/bg_white_top_rounded_10sdp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bsInternal"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+
+        <TextView
+            android:id="@+id/tvStopPlaceName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Next Stop Adyala "
+            android:textAllCaps="false"
+            android:textColor="@color/black_colour"
+            android:textSize="@dimen/_16ssp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="@dimen/_28sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:gravity="center_vertical|start"
+            android:textAlignment="viewStart"
+            />
+        <Button
+            android:id="@+id/btnDone"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/done"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_blue_solid_rounded_25sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginEnd="@dimen/_25sdp"
+            />
+
+        <View
+            android:id="@+id/viewSeperatorTop"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_1sdp"
+            app:layout_constraintStart_toStartOf="@id/tvStopPlaceName"
+            app:layout_constraintEnd_toEndOf="@id/etAddNotes"
+            app:layout_constraintTop_toBottomOf="@+id/btnDone"
+            android:background="@color/light_gray"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:layout_marginBottom="@dimen/_15sdp"/>
+
+        <EditText
+            android:id="@+id/etAddNotes"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_60sdp"
+            app:layout_constraintStart_toStartOf="@+id/tvStopPlaceName"
+            app:layout_constraintEnd_toEndOf="@+id/btnASAP"
+            app:layout_constraintTop_toBottomOf="@+id/viewSeperatorTop"
+            android:background="@color/white"
+            android:hint="@string/add_notes"
+            android:paddingStart="@dimen/_10sdp"
+            android:maxLines="3"
+            android:maxLength="90"
+            android:scrollbars="vertical"
+            android:textSize="@dimen/_12ssp"
+            />
+
+        <View
+            android:id="@+id/viewSeperatorBelowET"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_1sdp"
+            app:layout_constraintStart_toStartOf="@id/tvStopPlaceName"
+            app:layout_constraintEnd_toEndOf="@id/etAddNotes"
+            app:layout_constraintTop_toBottomOf="@+id/etAddNotes"
+            android:background="@color/light_gray"
+            android:layout_marginBottom="@dimen/_15sdp"/>
+
+        <Button
+            android:id="@+id/btnNormal"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_30sdp"
+            android:text="@string/normal"
+            android:textAllCaps="false"
+            android:focusableInTouchMode="false"
+            android:focusable="true"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_blue_solid_rounded_25sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            app:layout_constraintTop_toBottomOf="@+id/viewSeperatorBelowET"
+            app:layout_constraintStart_toStartOf="@id/tvStopPlaceName"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toStartOf="@+id/btnASAP"/>
+        <Button
+            android:id="@+id/btnASAP"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_30sdp"
+            android:text="@string/asap"
+            android:textAllCaps="false"
+            android:focusableInTouchMode="false"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/bg_blue_corner_rounded_25sdp"
+            android:focusable="true"
+            app:layout_constraintTop_toBottomOf="@+id/viewSeperatorBelowET"
+            app:layout_constraintStart_toEndOf="@+id/btnNormal"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/labelArrivalTimeFrom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/btnNormal"
+            app:layout_constraintTop_toBottomOf="@+id/btnNormal"
+            app:layout_constraintEnd_toEndOf="@+id/btnNormal"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:textColor="@color/black_colour"
+            android:text="@string/arrive_time"
+            android:textSize="@dimen/_12ssp"
+            android:paddingStart="@dimen/_3sdp"
+            />
+
+        <TextView
+            android:id="@+id/labelArrivalTimeTo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/btnASAP"
+            app:layout_constraintTop_toBottomOf="@+id/btnASAP"
+            app:layout_constraintEnd_toEndOf="@+id/btnASAP"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:textColor="@color/black_colour"
+            android:text="@string/and"
+            android:textSize="@dimen/_12ssp"
+            android:paddingStart="@dimen/_5sdp"
+            />
+
+        <TextView
+            android:id="@+id/tvArrivalTimeFrom"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_30sdp"
+            app:layout_constraintStart_toStartOf="@+id/labelArrivalTimeFrom"
+            app:layout_constraintTop_toBottomOf="@+id/labelArrivalTimeFrom"
+            app:layout_constraintEnd_toEndOf="@+id/labelArrivalTimeFrom"
+            android:gravity="center_vertical"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/black_colour"
+            android:hint="@string/now"
+            android:textColorHint="@color/black_colour"
+            android:background="@color/quantum_grey200"
+            android:textSize="@dimen/_12ssp"
+            android:paddingStart="@dimen/_5sdp"
+            />
+
+        <TextView
+            android:id="@+id/tvArrivalTimeTo"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_30sdp"
+            app:layout_constraintStart_toStartOf="@+id/labelArrivalTimeTo"
+            app:layout_constraintTop_toBottomOf="@+id/labelArrivalTimeTo"
+            app:layout_constraintEnd_toEndOf="@+id/labelArrivalTimeTo"
+            android:gravity="center_vertical"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/black_colour"
+            android:hint="@string/anytime"
+            android:textColorHint="@color/black_colour"
+            android:background="@color/quantum_grey200"
+            android:textSize="@dimen/_12ssp"
+            android:paddingStart="@dimen/_5sdp"
+            />
+
+        <TextView
+            android:id="@+id/labelDefaultStopDuration"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/tvArrivalTimeFrom"
+            app:layout_constraintTop_toBottomOf="@+id/tvArrivalTimeTo"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textColor="@color/black_colour"
+            android:text="@string/stop_duration"
+            android:textSize="@dimen/_12ssp"
+            android:paddingStart="@dimen/_5sdp"
+            />
+
+        <TextView
+            android:id="@+id/tvDefaultStopDuration"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_30sdp"
+            app:layout_constraintStart_toStartOf="@+id/labelDefaultStopDuration"
+            app:layout_constraintTop_toBottomOf="@+id/labelDefaultStopDuration"
+            app:layout_constraintEnd_toEndOf="@+id/tvArrivalTimeTo"
+            android:gravity="center_vertical"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/black_colour"
+            android:hint="@string/default_1_min"
+            android:textColorHint="@color/black_colour"
+            android:background="@color/quantum_grey200"
+            android:textSize="@dimen/_12ssp"
+            android:paddingStart="@dimen/_5sdp"
+            />
+
+
+        <Button
+            android:id="@+id/btnDeleteStop"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@android:color/transparent"
+            android:text="@string/delete_stop"
+            android:textColor="@color/quantum_googred"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvDefaultStopDuration"
+            android:layout_margin="@dimen/_40sdp"
+            android:drawableStart="@drawable/ic_delete_24_px"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingStart="@dimen/_70sdp"
+            android:paddingEnd="@dimen/_70sdp"
+            android:textSize="@dimen/_11ssp"
+
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="__picker_common_primary">#ffe1e1e1</color>
+    <color name="__picker_item_photo_border_n">#33ffffff</color>
+    <color name="__picker_item_photo_border_selected">#ff99cc00</color>
+
+    <color name="ball1">#ffffd91c</color>
+    <color name="ball2">#ffff4b4a</color>
+    <color name="ball3">#ff3d8eff</color>
+    <color name="black">#ff17181b</color>
+    <color name="blue_selected">#3580fb</color>
+
+    <color name="browser_actions_bg_grey">#fff5f5f5</color>
+    <color name="browser_actions_divider_color">#1e000000</color>
+    <color name="browser_actions_text_color">#de000000</color>
+    <color name="browser_actions_title_color">#ff646464</color>
+
+    <color name="colorAccent_new">#ff349efe</color>
+    <color name="colorAccent">#64f495</color>
+    <color name="colorAccentDark">#64f495</color>
+    <color name="colorPrimary">#64f495</color>
+    <color name="colorPrimaryDark">#64f495</color>
+    <color name="colorText">#64f495</color>
+
+    <color name="cropiwa_default_border_color">#fff5f5f5</color>
+    <color name="cropiwa_default_corner_color">#fff5f5f5</color>
+    <color name="cropiwa_default_grid_color">#ffffffff</color>
+    <color name="cropiwa_default_overlay_color">#af000000</color>
+    <color name="dark_grey">#6ec6ba</color> <!--#ff1c1d21/-->
+    <color name="dark_grey_more">#4ab2a4</color> <!--#ff232323/-->
+    <color name="tab_header">#6ec6ba</color> <!--#ff232323/-->
+    <color name="font_color">#ccf1d2</color> <!--#ff232323/-->
+    <color name="sticker_recycler">#3C4C78</color>
+
+    <color name="gnt_ad_green">#ff3a6728</color>
+
+    <color name="loader_defalut">#44ffffff</color>
+    <color name="loader_selected">#ffffffff</color>
+
+    <color name="overlay_background_4">#a4ffffff</color>
+
+    <color name="progress_bar_bg_light">#ffb015</color>
+
+    <color name="text_second">#ff888893</color>
+    <color name="tool_bg">#ff303030</color>
+
+    <color name="unselected_color">#ff7d7d7d</color>
+    <color name="white">#ffffffff</color>
+    <color name="seek_bar_thumb_color">#f5bf13</color>
+    <color name="tools_background_color">#eaebed</color>
+    <color name="close_color">#9428f8</color>
+    <color name="light_close_color">#B466FB</color>
+
+    <color name="white_blur">#D2838383</color>
+    <color name="blue_button">#2080ff</color>
+    <color name="yellow">#ffffef00</color>
+    <color name="grey1">#ff17181b</color>
+    <color name="dots_color">#494949</color>
+    <color name="selected_dot_color">#0C0C0C</color>
+
+</resources>

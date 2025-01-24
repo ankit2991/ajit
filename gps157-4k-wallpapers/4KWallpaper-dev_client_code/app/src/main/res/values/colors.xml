@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#09314B</color>
+    <color name="colorPrimaryDark">#09314B</color>-->
+
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="black_transparent">#92000000</color>
+
+    <color name="colorAccent">#000000</color>
+    <color name="colorControlHilight">#33000000</color>
+
+    <color name="colorPrimary1">#202124</color>
+    <color name="colorPrimaryDark1">#77797C</color>
+    <color name="colorAccent1">#FFFFFF</color>
+
+
+    <color name="textColorPrimary">#353535</color>
+    <color name="textColorPrimary1">#ffffff</color>
+    <color name="main_text_color">#444444</color>
+    <color name="navigation_divider">#000000</color>
+
+
+
+    <color name="dialog_title_color">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+
+    <color name="dialogue_color_strok">#e2e1e1</color>
+    <color name="dialogue_color_solid">#ff6b32</color>
+    <color name="dialogue_color_solid_change">#CC6126</color>
+
+    <color name="transparentBlack">#AA000000</color>
+    <color name="transparentBlack1">#77000000</color>
+    <color name="transparentBlackDetail">#55000000</color>
+    <color name="color_black_trans">#99000000</color>
+    <color name="cat_txt_color">#353535</color>
+
+    <color name="placeholder_color">#995F5F5F</color>
+    <color name="transparentBlack_splash">#AA000000</color>
+    <color name="transparentBlack_double">#7A000000</color>
+    <color name="divider_color">#D1D1D1</color>
+    <color name="text_shadow">#7F000000</color>
+
+    <color name="color_1">#E22D8316</color>
+    <color name="color_2">#E2AC3D5D</color>
+    <color name="color_3">#E2276965</color>
+    <color name="color_4">#E227A541</color>
+    <color name="color_5">#E25D8763</color>
+    <color name="color_6">#E20E5511</color>
+    <color name="color_7">#E26DB81F</color>
+    <color name="color_8">#E2344480</color>
+    <color name="color_9">#E2819EC0</color>
+    <color name="color_10">#E2376654</color>
+
+
+
+    <color name="color_11">#03a51a</color>
+    <color name="color_12">#ac0032</color>
+    <color name="color_13">#006963</color>
+    <color name="color_14">#005e09</color>
+    <color name="color_15">#00b084</color>
+    <color name="color_16">#00663f</color>
+    <color name="color_17">#66ce00</color>
+    <color name="color_18">#001b80</color>
+    <color name="color_19">#0058c0</color>
+    <color name="color_20">#00d067</color>
+
+    <color name="color_material_metaphor">#032D68</color>
+    <color name="color_material_bold">#3aa893</color>
+    <color name="color_material_motion">#B71C1C</color>
+    <color name="color_custom_fragment_1">#50473f</color>
+    <color name="color_custom_fragment_2">#558033</color>
+    <color name="color_custom_fragment_5">#252525</color>
+    <color name="color_dark_material_metaphor">#011E45</color>
+    <color name="color_dark_material_bold">#0A8E7F</color>
+    <color name="color_dark_material_motion">#9F1A1A</color>
+    <color name="color_dark_custom_fragment_1">#39322C</color>
+    <color name="color_dark_custom_fragment_2">#3B5924</color>
+    <color name="color_dark_fragment_5">#000000</color>
+
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+    <color name="gplus_color_1">#34A350</color>
+    <color name="gplus_color_2">#F7D23E</color>
+    <color name="gplus_color_3">#375BF1</color>
+    <color name="gplus_color_4">#C93437</color>
+    <color name="grey">#F0F0F0</color>
+    <color name="btn_back">#0C84FF</color>
+
+    <color name="bg_color">#4286F4</color>
+    <color name="bg_color_sel">#254780</color>
+    <color name="snack_action_color">#1CB5E0</color>
+    <color name="light_blue_50">#FFE1F5FE</color>
+    <color name="light_blue_200">#FF81D4FA</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="blackTransparent">#99000000</color>
+    <color name="grey_400">#DCD8D8</color>
+
+    <color name="rate_color_awful">#DE4A3D</color>
+    <color name="rate_color_bad">#E2701C</color>
+    <color name="rate_color_okay">#ECB036</color>
+    <color name="rate_color_good_">#77C179</color>
+    <color name="rate_color_great">#5F9868</color>
+
+    <color name="payment_card_links">#9c8B8B8B</color>
+    <color name="payment_card_price">#A1A1A1</color>
+    <color name="payment_card_button_gs">#242623</color>
+    <color name="payment_card_button_ge">#414345</color>
+</resources>

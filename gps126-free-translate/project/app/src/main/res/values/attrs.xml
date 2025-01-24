@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SimpleRatingBar">
+        <attr name="srb_borderColor" format="color" />
+        <attr name="srb_fillColor" format="color" />
+        <attr name="srb_backgroundColor" format="color" />
+        <attr name="srb_starBackgroundColor" format="color" />
+        <attr name="srb_pressedBorderColor" format="color" />
+        <attr name="srb_pressedFillColor" format="color" />
+        <attr name="srb_pressedBackgroundColor" format="color" />
+        <attr name="srb_pressedStarBackgroundColor" format="color" />
+        <attr name="srb_numberOfStars" format="integer" />
+        <attr name="srb_starSize" format="dimension" />
+        <attr name="srb_maxStarSize" format="dimension" />
+        <attr name="srb_starsSeparation" format="dimension" />
+        <attr name="srb_starBorderWidth" format="float" />
+        <attr name="srb_starCornerRadius" format="float" />
+        <attr name="srb_isIndicator" format="boolean" />
+        <attr name="srb_rating" format="float" />
+        <attr name="srb_stepSize" format="float" />
+        <attr name="srb_drawBorderEnabled" format="boolean" />
+        <attr name="srb_gravity" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

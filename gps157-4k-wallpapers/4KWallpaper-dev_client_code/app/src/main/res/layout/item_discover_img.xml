@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/stock_widht_height"
+    android:layout_height="@dimen/stock_widht_height"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/value_8"
+        card_view:cardBackgroundColor="@color/transparent"
+        card_view:cardCornerRadius="8dp">
+
+        <RelativeLayout
+            android:id="@+id/ll_selector"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?android:attr/selectableItemBackground">
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/postImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="false"
+                android:scaleType="centerCrop" />
+
+            <View
+                android:id="@+id/view_gradiant"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentBottom="true" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@color/color_black_trans"
+                android:gravity="center_horizontal"
+                android:padding="4dp"
+                android:text="@string/set_text"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/STOCK_CATEGORY_TEXT_SIZE" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

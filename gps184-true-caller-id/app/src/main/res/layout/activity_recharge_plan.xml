@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_container_app">
+
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_size"
+        android:background="@drawable/bg_action_bar">
+
+        <ImageView
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_back"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/poppins_bold"
+            android:src="@drawable/header"
+            android:text="Recharge Plans"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adlayout"
+        android:layout_below="@+id/header">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <LinearLayout
+                    android:id="@+id/tab_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00B4D8">
+
+                    <com.google.android.material.tabs.TabLayout
+                        android:id="@+id/tabs_main"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:tabGravity="center"
+                        app:tabIndicatorColor="#fff"
+                        app:tabMode="scrollable"
+                        app:tabPaddingStart="10dp"
+                        app:tabSelectedTextColor="#fff"
+                        app:tabTextColor="#d3d3d3" />
+                </LinearLayout>
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/viewpager_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tab_linear"
+                    android:layout_marginTop="5dp"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="No Internet Connection"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/notfound"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Recharge Plan Not Found..."
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/adlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <include layout="@layout/max_ad_native_layout" />
+    </LinearLayout>
+</RelativeLayout>

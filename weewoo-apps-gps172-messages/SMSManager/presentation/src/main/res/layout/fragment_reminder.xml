@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fillViewport="true"
+        android:orientation="vertical"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/createReminder"
+                android:layout_width="@dimen/_42sdp"
+                android:layout_height="@dimen/_42sdp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="@dimen/_16sdp"
+                android:background="@drawable/compose_bg"
+                android:elevation="@dimen/_6sdp"
+                android:padding="@dimen/_8sdp"
+                android:src="@drawable/ic_add_black_24dp"
+                app:tint="@color/white" />
+
+            <LinearLayout
+                android:id="@+id/setReminderLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/reminderLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_42sdp"
+                        android:layout_height="@dimen/_42sdp"
+                        android:padding="@dimen/_12sdp"
+                        android:src="@drawable/ic_edit_white"
+                        app:tint="@color/black" />
+
+                    <com.messaging.textrasms.manager.common.widget.QkEditText
+                        android:id="@+id/reminderTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:ellipsize="end"
+                        android:hint="@string/remind_me_about"
+                        android:padding="@dimen/_8sdp"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/gray_border"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:customFont="@string/roboto_med" />
+
+                    <ImageView
+                        android:id="@+id/clearTitle"
+                        android:layout_width="@dimen/_42sdp"
+                        android:layout_height="@dimen/_42sdp"
+                        android:padding="@dimen/_10sdp"
+                        android:src="@drawable/ic_cancel_black_24dp"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <com.github.florent37.singledateandtimepicker.SingleDateAndTimePicker
+                    android:id="@+id/startTimeSelect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_76sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:visibility="visible"
+                    app:picker_curved="true"
+                    app:picker_cyclic="true"
+                    app:picker_selectedTextColor="@color/black"
+                    app:picker_selectorColor="@color/white"
+                    app:picker_textColor="@color/gray"
+                    app:picker_textSize="@dimen/_14sdp"
+                    app:picker_visibleItemCount="3" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/reminderColorListView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="true"
+                    android:paddingLeft="@dimen/_12sdp"
+                    android:paddingRight="@dimen/_12sdp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/cancelReminder"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_12sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/message_only"
+                        android:text="@string/button_cancel"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_14sdp" />
+
+                    <Button
+                        android:id="@+id/saveReminder"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_12sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/message_only_blue"
+                        android:text="@string/button_save"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14sdp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/emptyView"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_no_reminder" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/reminderListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+    </ScrollView>
+</layout>

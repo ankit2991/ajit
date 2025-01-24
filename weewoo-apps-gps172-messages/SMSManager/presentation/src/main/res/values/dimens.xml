@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_fab_default">16dp</dimen>
+    <dimen name="padding_text_icon_default">8dp</dimen>
+    <dimen name="text_size_action_button_default">16sp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="padding_normal">16dp</dimen>
+    <dimen name="padding_fab">16dp</dimen>
+    <dimen name="padding_text_icon">8dp</dimen>
+    <dimen name="text_size_fab">16sp</dimen>
+    <dimen name="emoji_grid_view_column_width">36dp</dimen>
+    <dimen name="emoji_grid_view_spacing">6dp</dimen>
+    <dimen name="banner_height">60dp</dimen>
+
+</resources>

@@ -1,0 +1,481 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="sugest_update_title">Uppdatering tillgänglig</string>
+    <string name="sugest_update_message">Ny uppdatering tillgänglig på Google Play, var god uppdatera din version</string>
+    <string name="force_update_title">Uppdatering tillgänglig</string>
+    <string name="force_update_message">Ny uppdatering tillgänglig på Google Play, var god uppdatera din version</string>
+    <string name="update_ok">Uppdatera</string>
+    <string name="update_no">Inte nu</string>
+    <string name="app_name">#Meddelanden</string>
+    <string name="in_app_name">Meddelanden</string>
+    <string name="splash_app_name">SMS-meddelanden</string>
+    <string name="loading_msg">Var god vänta...</string>
+    <string name="ads_loading_msg">Annons visas...</string>
+    <string name="shortcut_compose_long_label">Ny konversation</string>
+    <string name="shortcut_compose_short_label">Skriv</string>
+    <string name="shortcut_compose_disabled_message">Genväg avaktiverad</string>
+    <string name="title_archived">Arkiverade meddelanden</string>
+    <string name="title_settings">Inställningar</string>
+    <string name="title_notification_prefs">Aviseringar</string>
+    <string name="title_theme">Tema</string>
+    <string name="title_conversations">Sök nummer, namn och mer</string>
+    <string name="title_compose">Skriv ett namn eller telefonnummer</string>
+    <string name="setup_skip">Hoppa över</string>
+    <string name="setup_next">Fortsätt</string>
+    <string name="menu_add_person">Lägg till person</string>
+    <string name="menu_call">Ring</string>
+    <string name="menu_info">Detaljer</string>
+    <string name="menu_save">Spara till galleriet</string>
+    <string name="menu_share">Dela</string>
+    <string name="main_drawer_open_cd">Öppna navigeringsfältet</string>
+    <string name="main_title_selected">%d valda</string>
+    <string name="main_menu_clear">Rensa</string>
+    <string name="main_menu_archive">Arkivera</string>
+    <string name="main_menu_unarchive">Avarkivera</string>
+    <string name="main_menu_delete">Radera</string>
+    <string name="main_menu_add_contact">Lägg till i kontakter</string>
+    <string name="main_menu_pin">Fäst högst upp</string>
+    <string name="main_menu_unpin">Ta bort från toppen</string>
+    <string name="main_menu_read">Markera som läst</string>
+    <string name="main_menu_unread">Markera som oläst</string>
+    <string name="select_all">Markera alla</string>
+    <string name="deselect_all">Avmarkera alla</string>
+    <string name="main_menu_block">Blockera</string>
+    <string name="main_syncing">Organisera meddelanden...</string>
+    <string name="main_sender_you">Du: %s</string>
+    <string name="main_draft">Utkast: %s</string>
+    <string name="main_message_results_title">Resultat i meddelanden</string>
+    <string name="main_message_results">%d meddelanden</string>
+    <string name="inbox_empty_text">Dina konversationer visas här</string>
+    <string name="inbox_search_empty_text">Inga resultat</string>
+    <string name="archived_empty_text">Inga arkiverade konversationer än..</string>
+    <string name="main_fab_cd">Starta ny konversation</string>
+    <string name="main_default_sms_title">Älskar att skicka meddelanden?</string>
+    <string name="main_default_sms_message">Gör SMS-appen till din standard-SMS-app</string>
+    <string name="main_default_sms_change">Ändra</string>
+    <string name="main_permission_required">Behörighet krävs</string>
+    <string name="main_permission_sms">SMS behöver behörighet för att skicka och visa SMS-meddelanden</string>
+    <string name="main_permission_contacts">SMS behöver behörighet för att visa dina kontakter</string>
+    <string name="main_permission_allow">Tillåt</string>
+    <string name="main_permission_allow_read">Tillåt läs- och skrivbehörighet</string>
+    <string name="drawer_inbox">Inkorg</string>
+    <string name="drawer_archived">Arkiverade</string>
+    <string name="drawer_scheduled">Planerade Meddelanden</string>
+    <string name="drawer_blocking">Blockerad Lista</string>
+    <string name="drawer_calldorado">Samtal Inställningar</string>
+    <string name="drawer_more">Mer</string>
+    <string name="drawer_group">Gruppmeddelande</string>
+    <string name="drawer_settings">Inställningar</string>
+    <string name="drawer_remove_ads">Ta bort annonser</string>
+    <string name="drawer_help">Hjälp &amp; återkoppling</string>
+    <string name="drawer_invite">Bjud in vänner</string>
+    <string name="dialog_delete_title">Radera</string>
+
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Är du säker på att du vill radera denna konversation?</item>
+        <item quantity="other">Är du säker på att du vill radera %d konversationer?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Kopiera text</item>
+        <item>Skicka vidare</item>
+        <item>Radera</item>
+    </string-array>
+    <string name="compose_number_picker_title">Välj ett telefonnummer</string>
+    <string name="compose_number_picker_default">%s ∙ Standard</string>
+    <string name="compose_number_picker_once">Bara en gång</string>
+    <string name="compose_number_picker_always">Alltid</string>
+    <string name="compose_title_selected">%d valda</string>
+    <string name="compose_subtitle_results">%1$d av %2$d resultat</string>
+    <string name="contact_selected">%1$d av %2$d valda</string>
+    <string name="compose_send_group_title">Skicka som gruppmeddelande</string>
+    <string name="compose_send_group_summary">Mottagare och svar kommer att vara synliga för alla</string>
+    <string name="compose_messages_empty">Början på din konversation. Säg något bra!</string>
+    <string name="compose_vcard_label">Kontaktkort</string>
+    <string name="compose_scheduled_for">Planerad för</string>
+    <string name="compose_scheduled_future">tid måste vara i framtiden!</string>
+    <string name="compose_scheduled_toast">Lagt till i planerade meddelanden</string>
+    <string name="compose_hint">Skriv här…</string>
+    <string name="compose_menu_copy">Kopiera text</string>
+    <string name="compose_menu_forward">Skicka vidare</string>
+    <string name="compose_menu_delete">Radera</string>
+    <string name="compose_menu_previous">Föregående</string>
+    <string name="compose_menu_next">Nästa</string>
+    <string name="compose_menu_clear">Rensa</string>
+    <string name="compose_details_title">Meddelandedetaljer</string>
+    <string name="compose_details_type">Typ: %s</string>
+    <string name="compose_details_from">Från: %s</string>
+    <string name="compose_details_to">Till: %s</string>
+    <string name="compose_details_subject">Ämne: %s</string>
+    <string name="compose_details_priority">Prioritet: %s</string>
+    <string name="compose_details_size">Storlek: %s</string>
+    <string name="compose_details_sent">Skickat: %s</string>
+    <string name="compose_details_received">Mottaget: %s</string>
+    <string name="compose_details_delivered">Levererat: %s</string>
+    <string name="compose_details_error_code">Felkod: %d</string>
+    <string name="compose_attach_cd">Lägg till en bilaga</string>
+    <string name="compose_gallery_cd">Bifoga en bild</string>
+    <string name="compose_camera_cd">Ta en bild</string>
+    <string name="compose_schedule_cd">Planera meddelande</string>
+    <string name="compose_contact_cd">Bifoga en kontakt</string>
+    <string name="compose_contact_error">Fel vid läsning av kontakt</string>
+    <string name="compose_sim_cd">%s vald, byt SIM-kort</string>
+    <string name="compose_send_cd">Skicka meddelande</string>
+    <string name="message_status_sending">Skickar…</string>
+    <string name="message_status_delivered">Levererat %s</string>
+    <string name="message_status_failed">Misslyckades med att skicka</string>
+    <string name="info_title">Kontaktdetaljer</string>
+    <string name="info_copied_address">Adress kopierad</string>
+    <string name="info_name">Konversationstitel</string>
+    <string name="info_notifications">Aviseringar</string>
+    <string name="info_theme">Tema</string>
+    <string name="info_archive">Arkiv</string>
+    <string name="info_unarchive">Avarkivera</string>
+    <string name="info_block">Blockera</string>
+    <string name="info_unblock">Avblockera</string>
+    <string name="info_delete">Radera konversation</string>
+    <string name="gallery_error">Kunde inte ladda media</string>
+    <string name="gallery_toast_saved">Sparad i galleriet</string>
+    <string name="backup_title">Säkerhetskopiera och återställa</string>
+    <string name="backup_backing_up">Säkerhetskopierar meddelanden</string>
+    <string name="backup_restoring">Återställer från säkerhetskopia</string>
+    <string name="backup_last">Senaste säkerhetskopiering</string>
+    <string name="backup_loading">Laddar…</string>
+    <string name="backup_never">Aldrig</string>
+    <string name="backup_restore_title">Återställ</string>
+    <string name="backup_restore_summary">Välj en säkerhetskopia</string>
+    <string name="backup_restore_error_plus">Lås upp SMS+ för att använda säkerhetskopiering och återställning</string>
+    <string name="backup_restore_error_backup">Säkerhetskopiering pågår…</string>
+    <string name="backup_restore_error_restore">Återställning pågår…</string>
+    <string name="backup_restore_confirm_title">Återställ från säkerhetskopia</string>
+    <string name="backup_restore_confirm_message">Är du säker på att du vill återställa dina meddelanden från denna säkerhetskopia?</string>
+    <string name="backup_restore_stop_title">Stoppa återställning</string>
+    <string name="backup_restore_stop_message">Meddelanden som redan har återställts kommer att förbli på din enhet</string>
+    <string name="backup_restore_dialog_title">Säkerhetskopior</string>
+    <string name="backup_restore_dialog_summary">/SMS-meddelanden/Säkerhetskopior</string>
+    <string name="backup_restore_dialog_empty">Inga säkerhetskopior hittades</string>
+
+    <plurals name="backup_message_count">
+        <item quantity="zero">Inga meddelanden</item>
+        <item quantity="one">%d meddelande</item>
+        <item quantity="other">%d meddelanden</item>
+    </plurals>
+    <string name="backup_disclaimer">Hittills har vi bara stött SMS genom säkerhetskopiering och återställning!</string>
+    <string name="backup_now">Säkerhetskopiera</string>
+    <string name="backup_progress_parsing">Analys av säkerhetskopia…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d meddelanden</string>
+    <string name="backup_progress_saving">Sparar säkerhetskopia…</string>
+    <string name="backup_progress_syncing">Synkroniserar meddelanden…</string>
+    <string name="backup_progress_finished">Färdig!</string>
+    <string name="backup_notification_channel_name">Säkerhetskopiera och återställa</string>
+    <string name="Message_notification_channel_name">Meddelandesynkronisering</string>
+    <string name="scheduled_title">Planerade</string>
+    <string name="schedule_guide">Du kan ställa in planerat meddelande genom att klicka på bifoga-knappen som finns på meddelandekonversationskärmen.</string>
+    <string name="scheduled_empty_description">Skicka automatiskt ett meddelande, vid exakt det ögonblick du vill</string>
+    <string name="scheduled_empty_message_1">Hej! När är det dags att fira stunden?</string>
+    <string name="scheduled_empty_message_2">Det är den 5 mars</string>
+    <string name="scheduled_empty_message_3">Hejaa! Kolla vad en fantastisk vän jag är, firar din dag</string>
+    <string name="scheduled_empty_message_3_timestamp">Skickas den 5 mars&#x200A;</string>
+    <string name="scheduled_compose_cd">Planera ett meddelande</string>
+    <string name="scheduled_options_title">Planerat meddelande</string>
+    <string-array name="scheduled_options">
+        <item>Skicka nu</item>
+        <item>Kopiera text</item>
+        <item>Radera</item>
+    </string-array>
+    <string name="settings_category_appearance">Utseende</string>
+    <string name="settings_category_general">Allmänt</string>
+    <string name="settings_categoryreply">Svara</string>
+    <string name="settings_night_title">Nattläge</string>
+    <string name="settings_text_size_title">Textstorlek</string>
+    <string name="settings_notifications_title">Aviseringar</string>
+    <string name="settings_notifications_o_summary">Tryck för att anpassa</string>
+    <string name="settings_notification_actions_title">Åtgärder</string>
+    <string name="settings_notification_action_1">Knapp 1</string>
+    <string name="settings_notification_action_2">Knapp 2</string>
+    <string name="settings_notification_action_3">Knapp 3</string>
+    <string name="settings_notification_previews_title">Förhandsvisningar av aviseringar</string>
+    <string name="settings_notification_wake_title">Väck skärmen</string>
+    <string name="settings_vibration_title">Vibration</string>
+    <string name="settings_ringtone_title">Ljud</string>
+    <string name="settings_ringtone_none">Inget</string>
+    <string name="settings_reply_title">Svara</string>
+    <string name="settings_reply_summary">Popup för nya meddelanden</string>
+    <string name="settings_reply_tap_dismiss_title">Tryck för att avvisa</string>
+    <string name="settings_reply_tap_dismiss_summary">Tryck utanför popup-fönstret för att stänga det</string>
+    <string name="settings_swipe_actions">Svepga åtgärder</string>
+    <string name="settings_swipe_actions_right">Svep höger</string>
+    <string name="settings_swipe_actions_left">Svep vänster</string>
+    <string name="settings_swipe_actions_change">ÄNDRA</string>
+    <string name="not_now_txt">Inte nu</string>
+    <string name="process_title">Detta process kommer att \nta lite tid</string>
+    <string name="syncing_done">Meddelandesynkronisering klar....</string>
+    <string name="all_set_txt">Allt klart. Du är redo att gå</string>
+    <string name="Personal">Alla Meddelanden</string>
+    <string name="Other">Kända</string>
+    <string name="Spam">Skräppost</string>
+    <string name="setting">Inställningar</string>
+    <string name="Share">Dela</string>
+    <string name="Rate">Betygsätt oss</string>
+    <string name="edit">redigera</string>
+    <string name="DarkMode">Mörkt läge</string>
+    <string name="BrightMode">Ljust läge</string>
+    <string name="Camera">Kamera</string>
+    <string name="Gallery">Galleri</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">Kontakt</string>
+    <string name="Schedule">Schema</string>
+    <string name="Location">Plats</string>
+    <string name="Notes">Anteckningar</string>
+    <string name="no_msg">Inga meddelanden ännu…</string>
+    <string name="Start_Chat">Starta Chatt</string>
+    <string name="Language">Språk</string>
+    <string name="rate_text">Rekommendera oss till andra genom att \nbetygsätta oss på Play Butik!</string>
+    <string name="sort_by">Sortera efter</string>
+    <string-array name="settings_swipe_actions">
+        <item>Ingen</item>
+        <item>Arkivera</item>
+        <item>Radera</item>
+        <item>Ring</item>
+        <item>Markera som läst</item>
+        <item>Markera som oläst</item>
+    </string-array>
+
+    <string name="settings_mms_size_title">Automatisk komprimering av MMS-bilagor</string>
+    <string name="settings_sync_title">Synkronisera meddelanden</string>
+    <string name="settings_sync_summary">Synkronisera dina meddelanden med den inbyggda Android SMS-databasen igen</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Samtalskontroll</string>
+    <string name="blocking_manager_sia_title">Borde Jag Svara?</string>
+    <string name="blocked_messages_title">Blockerade meddelanden</string>
+    <string name="blocked_messages_empty">Dina blockerade meddelanden visas här</string>
+    <string name="blocking_block_title">Blockera</string>
+    <string name="blocking_unblock_title">Avblockera</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">Fortsätt till %s och blockera detta nummer</item>
+        <item quantity="other">Fortsätt till %s och blockera dessa nummer</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">Fortsätt till %s och tillåt detta nummer</item>
+        <item quantity="other">Fortsätt till %s och tillåt dessa nummer</item>
+    </plurals>
+    <string name="widget_loading">Laddar…</string>
+    <string name="widget_more">Visa fler konversationer</string>
+    <string name="qkreply_menu_read">Markera som läst</string>
+    <string name="qkreply_menu_call">Ring</string>
+    <string name="qkreply_menu_delete">Radera</string>
+    <string name="qkreply_menu_expand">Visa mer</string>
+    <string name="qkreply_menu_collapse">Visa mindre</string>
+    <string name="qkreply_menu_view">Öppna konversationen</string>
+    <string name="changelog_title">Nytt i SMS</string>
+    <string name="changelog_version">Version %s</string>
+    <string name="changelog_added">Lagt till</string>
+    <string name="changelog_improved">Förbättrat</string>
+    <string name="changelog_fixed">Fastställt</string>
+    <string name="changelog_more">Mer</string>
+    <string name="changelog_dismiss">Avvisa</string>
+    <string-array name="notification_actions">
+        <item>Ingen</item>
+        <item>Markera som läst</item>
+        <item>Svara</item>
+        <item>Ring</item>
+        <item>Radera</item>
+    </string-array>
+    <string name="button_yes">Ja</string>
+    <string name="button_continue">Fortsätt</string>
+    <string name="button_cancel">Avbryt</string>
+    <string name="button_delete">Radera</string>
+    <string name="button_save">Spara</string>
+    <string name="button_stop">Stopp</string>
+    <string name="button_more">Mer</string>
+    <string name="button_set">Ställ in</string>
+    <string name="button_undo">Ångra</string>
+    <string name="toast_copied">Kopierad</string>
+    <string name="toast_archived">Arkiverad konversation</string>
+    <string name="toast_sms_plus">Du måste låsa upp SMS+ för att använda detta</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Nytt meddelande</item>
+        <item quantity="other">%s nya meddelanden</item>
+    </plurals>
+    <string name="notification_message_failed_title">Meddelandet kunde inte skickas</string>
+    <string name="notification_message_failed_text">Meddelandet till %s gick inte att skicka</string>
+    <string name="privacy_policy">Integritetspolicy</string>
+    <string name="pocket_data_on">Fickdata måste vara på när MMS skickas!</string>
+    <string name="inapp_details" translatable="false">För att ta bort annonser, prova premium \nprenumeration med stöd för mörkt/ljust läge\nPlanerat Sms-stöd.</string>
+    <string name="drawer_removeAds">Ta bort annonser</string>
+    <string name="in_app_ads">meddelanden_rad</string>
+    <string name="dialog_delete_message">Är du säker på att du vill radera detta meddelande?</string>
+    <string name="compose_bar_not_support">Avsändaren stöder inte svar</string>
+    <string name="default_name">För att skicka eller ta emot ett SMS måste du ställa in det som standardprogram. Vill du att meddelandet ska bli ditt standardprogram?</string>
+    <string name="confirm_delete">Bekräfta borttagning</string>
+    <string name="confirm_delete_text">Är du säker på att du vill ta bort den här anteckningen?</string>
+    <string name="title">Titel</string>
+    <string name="note">Anteckning</string>
+    <string name="search">Sök</string>
+    <string name="settings">Inställningar</string>
+    <string name="share_to">Dela till:</string>
+    <string name="sort">Sortera</string>
+    <string name="empty_list_text">Tryck på knappen längst ner till höger för att lägga till en ny anteckning!</string>
+    <string name="new_note">Ny anteckning</string>
+    <string name="undo">Ångra</string>
+    <string name="delete">Radera</string>
+    <string name="exception">Undantag:</string>
+    <string name="edit_note">Redigera anteckning</string>
+    <string name="drawer_feedback">Skicka feedback</string>
+    <string name="drawer_mode">Ljust läge</string>
+    <string name="unlimited_access_user">Obegränsad åtkomst till alla funktioner</string>
+    <string name="pro_user">Du är en premiumanvändare</string>
+    <string name="sub_info_text"><b>Prenumerationen förnyas automatiskt tills du stänger av den.</b></string>
+    <string name="cancel_purchase">Du kan avbryta automatiska förnyelser av prenumerationer i Prenumeration på Google Play</string>
+    <string name="remove_ads">Ta bort annonser</string>
+    <string name="no_ads">Inga annonser</string>
+    <string name="free_trial">7-dagars gratis prov, sedan automatisk förnyelse</string>
+    <string name="can_not_talk_right_now">Tyvärr kan jag inte prata just nu</string>
+    <string name="can_call_you_later">Kan jag ringa dig senare?</string>
+    <string name="i_am_on_my_way">Jag är på väg</string>
+    <string name="write_personal_message">Skriv personligt meddelande</string>
+    <string name="create_reminder">Skapa ny påminnelse</string>
+    <string name="remind_me_about">Påminn mig om</string>
+    <string name="no_title">Ingen Titel</string>
+    <string name="edit_contact">Redigera Kontakt</string>
+    <string name="add_contact">Lägg till Kontakt</string>
+    <string name="messages">Meddelanden</string>
+    <string name="send_mail">Skicka E-post</string>
+    <string name="calendar">Kalender</string>
+    <string name="web">Webb</string>
+    <string-array name="night_modes">
+        <item>System</item>
+        <item>Ljust läge</item>
+        <item>Mörkt läge</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>Visa namn och meddelande</item>
+        <item>Visa namn</item>
+        <item>Dölj innehåll</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>Liten</item>
+        <item>Normal</item>
+        <item>Stor</item>
+        <item>Större</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>Ingen fördröjning</item>
+        <item>Kort</item>
+        <item>Medium</item>
+        <item>Lång</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Automatisk</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>Ingen komprimering</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>Okej</item>
+        <item>Ge mig en stund</item>
+        <item>På väg</item>
+        <item>Tack</item>
+        <item>Låter bra</item>
+        <item>Vad händer?</item>
+        <item>Enig</item>
+        <item>Nej</item>
+        <item>Älskar dig</item>
+        <item>Ledsen</item>
+        <item>LOL</item>
+        <item>Det är okej</item>
+    </string-array>
+    <string name="default_title">Tillåt Sms-appen att vara standardapp</string>
+    <string name="set_as_defaault">Ange som standard</string>
+    <string name="love_app_title">Gör SMS-appen till din standard SMS-app</string>
+    <string-array name="gif">
+        <item>Djuransikte</item>
+        <item>Emoji</item>
+        <item>Frukt &amp; Grönsaker</item>
+        <item>Halloween</item>
+        <item>Kärlek</item>
+    </string-array>
+    <string name="Sticker">Sticker</string>
+    <string name="no_connection">Ingen internetanslutning.</string>
+    <string-array name="sticker">
+        <item>Pojke</item>
+        <item>Tecknad</item>
+        <item>Ansikte</item>
+        <item>Festival</item>
+        <item>Frukt</item>
+        <item>Skämt</item>
+        <item>Flicka</item>
+        <item>Kärleksticker</item>
+        <item>Andra</item>
+        <item>Valp</item>
+    </string-array>
+    <string name="open_link_to_browser">Öppna länk i webbläsaren</string>
+    <string name="battery_dialog">Vill du inte missa viktiga sms? \nStäng av batterioptimering</string>
+    <string name="reason_to_change_battery_optimization_setting">Gå till Appinfo &gt; Avancerat &gt; Batterioptimering \noch välj \'Optimera inte\'</string>
+    <string name="feedback_txt">Berätta för oss om din erfarenhet och ge förslag för att förbättra meddelandeappen.</string>
+    <string name="reason_to_change_battery">Avancerat &gt; Batterioptimering &gt; \'Optimera inte\'</string>
+    <string name="drawer_transaction">Transaktioner</string>
+    <string name="drawer_promotion">Kampanjer</string>
+    <string name="unknown">Okänd</string>
+    <string name="priva"><u>Integritetspolicy</u></string>
+    <string name="smsfilter">SMS-filter</string>
+    <string name="by_click_t_c" translatable="false"><u>Genom att klicka accepterar du våra användarvillkor.</u></string>
+    <string name="continue_without_sub"><u>Fortsätt utan prenumeration</u></string>
+    <string name="text_free_trial">Njut av X-dagars <b>gratis prov</b> - Sedan X € / månad</string>
+    <string name="calldorado_message">Kontrollera alla dina <b>meddelanden</b> innan du avslutar samtalet! Det finns nyheter</string>
+    <string name="privacy_terms_description">Genom att fortsätta accepterar och godkänner du användarvillkoren och integritetspolicyn.</string>
+    <string name="draw_over_description"><![CDATA[För att visa över andra appar våra SMS-meddelanden. Få all potential av våra SMS-samtalswidgetar och mer]]></string>
+    <string name="ad_label">ANNONS</string>
+    <string name="onboarding_continue_button">Fortsätt</string>
+    <string name="onboarding_step_1_title">SMS- &amp; Meddelandehanterare</string>
+    <string name="onboarding_step_1_subtitle">Chatta med vänner, skapa grupper och organisera din inkorg</string>
+    <string name="onboarding_step_1_hight_light">Unik till dig</string>
+    <string name="onboarding_step_2_title">Organisera &amp; lagra meddelanden</string>
+    <string name="onboarding_step_2_subtitle">Säkerhetskopiera och återställ dina meddelanden</string>
+    <string name="onboarding_step_2_hight_light">Tusentals användare gillar det</string>
+    <string name="onboarding_step_3_title">Njut av livet &amp; låt oss ta hand om inkorgen</string>
+    <string name="onboarding_step_3_subtitle">Godkänn behörigheterna för att vi ska kunna hjälpa dig att hantera din inkorg.</string>
+    <string name="onboarding_step_3_hight_light">Kanske senare</string>
+    <string name="onboarding_allow_access_button">Tillåt åtkomst</string>
+    <string name="onboarding_step_4_title">Förbättra din batteritid genom att låta oss göra jobbet</string>
+    <string name="onboarding_step_4_subtitle">Vi tar hand om irriterande SMS-avbrott.</string>
+    <string name="onboarding_step_4_hight_light">Tusentals användare gillar det</string>
+    <string name="onboarding_step_5_title">Arbeta med delad skärm på andra appar medan du chattar</string>
+    <string name="onboarding_step_5_subtitle">Njut av vår fantastiska samtalswidget som låter dig göra flera saker samtidigt</string>
+    <string name="onboarding_step_5_hight_light">Tusentals användare gillar det</string>
+    <string name="payment_card_title">Chatta nu!</string>
+    <string name="payment_card_price"><![CDATA[3-dagars gratis, %s / %s]]></string>
+    <string name="payment_card_button">Prova nu gratis</string>
+    <string name="payment_card_hight_light">Säker med Play Butik</string>
+    <string name="payment_card_weekly">veckovis</string>
+    <string name="payment_card_monthly">månadsvis</string>
+    <string name="payment_card_yearly">årligen</string>
+    <string name="payment_card_auto_renew">automatiskt förnybar prenumeration, avbryt när som helst</string>
+    <string name="accessibility_service_description">Beskrivning av din tillgänglighetstjänst</string>
+    <string name="permission_txt"><font color="#FF8A00">Behörighet krävs:</font>\nLäs telefonstatus &amp; Rita över andra appar</string>
+    <string name="opt_privacy">Genom att fortsätta accepterar och godkänner du användarvillkoren och integritetspolicyn.</string>
+    <string name="permission_required">Behörigheter krävs</string>
+    <string name="permission_dialog_body">Den här appen kanske inte fungerar korrekt utan telefonbehörighet. Följ instruktionerna nedan för att aktivera den:\n\n1. Välj "Behörigheter"\n2. Hitta "Telefon" i listan över behörigheter och tryck på för att aktivera</string>
+    <string name="go_premium">Gå <font color = "#FFE600">premium!</font></string>
+    <string name="unlock_everything">Lås upp allt &amp; Inga annonser</string>
+    <string name="start_three_day">Starta 3 dagars gratis provperiod</string>
+    <string name="pro">Pro</string>
+    <string name="more_option">Fler alternativ</string>
+    <string name="rate_us_5">Betygsätt oss 5 stjärnor</string>
+    <string name="help_feedback">Hjälp &amp; Feedback</string>
+    <string name="send_message">Skicka meddelande</string>
+    <string name="CTA_Button_Text">Knacka för att låsa upp alla <font color="#FFFBCD04">funktioner</font></string>
+</resources>

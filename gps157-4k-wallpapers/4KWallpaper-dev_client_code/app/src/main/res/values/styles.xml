@@ -1,0 +1,273 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <item name="my_colorPrimary">@color/colorPrimary</item>
+        <item name="my_textColor">@color/textColorPrimary</item>
+        <item name="my_textColor_cat">@color/cat_txt_color</item>
+        <item name="my_textColor_left_drawer">#444444</item>
+        <item name="my_setting_bg">#6d000000</item>
+        <item name="my_cat_gradient">#eeffffff</item>
+        <item name="my_background">@color/colorPrimary</item>
+        <item name="my_loading_color">@drawable/placeholder</item>
+        <item name="my_textSize">14sp</item>
+        <item name="my_navigation_divider">@color/navigation_divider</item>
+
+        <item name="searchbar_bg">#d2d2d2</item>
+        <item name="searchbar_text">@color/textColorPrimary</item>
+
+        <item name="android:textColorSecondary">@color/grey_500</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="setting_devider">@color/feedbackhint</item>
+        <!-- Color for circle in progress bar -->
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorControlHilight</item>
+
+
+        <item name="android:navigationBarColor">@color/white</item>
+
+        <item name="android:windowLightNavigationBar">true</item>
+
+        <item name="category_round">@drawable/category_gradiant</item>
+    </style>
+
+    <style name="AppThemeFull" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <item name="my_colorPrimary">@color/colorPrimary</item>
+        <item name="my_textColor">@color/textColorPrimary</item>
+        <item name="my_textColor_cat">@color/cat_txt_color</item>
+        <item name="my_cat_gradient">#eeffffff</item>
+        <item name="my_background">@color/colorPrimary</item>
+        <item name="my_textColor_left_drawer">#444444</item>
+        <item name="my_setting_bg">#6d000000</item>
+        <item name="my_loading_color">@drawable/placeholder</item>
+        <item name="my_textSize">14sp</item>
+        <item name="my_navigation_divider">@color/navigation_divider</item>
+
+        <item name="android:textColorSecondary">@color/grey_500</item>
+
+        <item name="android:statusBarColor">@color/transparent</item>
+
+        <!-- Color for circle in progress bar -->
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorControlHilight</item>
+
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="category_round">@drawable/category_gradiant</item>
+    </style>
+
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary1</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark1</item>
+        <item name="colorAccent">@color/colorAccent1</item>
+
+
+        <item name="my_colorPrimary">@color/colorPrimary1</item>
+        <item name="my_textColor">@color/textColorPrimary1</item>
+        <item name="my_textColor_cat">#ffffff</item>
+        <item name="my_textColor_left_drawer">#ffffff</item>
+        <item name="my_setting_bg">#66FFFFFF</item>
+        <item name="my_cat_gradient">#aa000000</item>
+        <item name="my_loading_color">@drawable/placeholder_dark</item>
+        <item name="searchbar_bg">#3C4043</item>
+        <item name="searchbar_text">#9AA0A6</item>
+
+        <item name="my_background">@color/colorPrimary1</item>
+        <item name="my_textSize">14sp</item>
+        <item name="my_navigation_divider">@color/navigation_divider</item>
+        <item name="setting_devider">#67EBE9E9</item>
+
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/colorPrimary1</item>
+
+        <!-- Color for circle in progress bar -->
+        <item name="colorControlActivated">@color/colorAccent1</item>
+        <item name="colorControlHighlight">@color/colorAccent1</item>
+
+        <item name="android:navigationBarColor">@color/colorPrimary1</item>
+        <item name="android:textColorSecondary">@color/grey_500</item>
+        <item name="android:windowLightNavigationBar">false</item>
+
+        <item name="category_round">@drawable/category_gradiant_dark</item>
+    </style>
+
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">@color/colorPrimary1</item>
+        <item name="android:textColor">@color/textColorPrimary1</item>
+        <item name="android:textColorPrimary">#AEAEAE</item>
+        <!--<item name="colorAccent">@color/textColorPrimary1</item>-->
+        <item name="textColorAlertDialogListItem">@color/textColorPrimary1</item>
+    </style>
+
+    <style name="myTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/baloobhai</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="CircularThemeProgressBar" parent="android:Widget.Holo.ProgressBar">
+        <item name="android:layout_width">@dimen/hungama_progress_bar_bottom_new</item>
+        <item name="android:layout_height">@dimen/hungama_progress_bar_bottom_new</item>
+        <item name="cpb_color">@color/gplus_color_1</item>
+        <item name="cpb_stroke_width">3dp</item>
+        <item name="cpb_min_sweep_angle">10</item>
+        <item name="cpb_max_sweep_angle">300</item>
+        <item name="cpb_sweep_speed">1.0</item>
+        <item name="cpb_rotation_speed">1.0</item>
+        <item name="cpb_colors">@array/gplus_colors</item>
+    </style>
+
+    <style name="CircularThemeProgressBar_centre" parent="android:Widget.Holo.ProgressBar">
+        <item name="android:layout_width">@dimen/hungama_progress_bar_bottom_centre</item>
+        <item name="android:layout_height">@dimen/hungama_progress_bar_bottom_centre</item>
+        <item name="cpb_color">@color/gplus_color_1</item>
+        <item name="cpb_stroke_width">3dp</item>
+        <item name="cpb_min_sweep_angle">10</item>
+        <item name="cpb_max_sweep_angle">300</item>
+        <item name="cpb_sweep_speed">1.0</item>
+        <item name="cpb_rotation_speed">1.0</item>
+        <item name="cpb_colors">@array/gplus_colors</item>
+    </style>
+
+
+
+    <style name="MyCustomToolbarTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:paddingLeft">0dip</item>
+        <item name="android:textSize">28sp</item>
+
+        <item name="android:textColorPrimary">?attr/my_textColor</item>
+        <item name="android:textColorSecondary">?attr/my_textColor</item>
+        <item name="android:fontFamily">@font/baloobhai</item>
+        <item name="android:paddingRight">0dip</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="selectableItemBackgroundBorderless">?android:selectableItemBackground</item>
+        <item name="colorControlHighlight">?attr/my_textColor</item>
+       <!-- <item name="android:windowContentOverlay">@drawable/bottom_shadow</item>-->
+    </style>
+
+    <style name="MyCustomToolbarTextTheme" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColorPrimary">?attr/my_textColor</item>
+        <item name="android:textColorSecondary">?attr/my_textColor</item>
+        <item name="android:fontFamily">@font/baloobhai</item>
+    </style>
+
+    <style name="MenuLabelsStyle">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:fontFamily">@font/baloobhai</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+
+    <style name="MenuButtonsStyle">
+        <item name="fab_size">mini</item>
+        <item name="fab_showAnimation">@anim/jump_from_down</item>
+        <item name="fab_hideAnimation">@anim/jump_to_down</item>
+        <item name="fab_shadowColor">@color/transparentBlack</item>
+        <item name="fab_colorNormal">@color/transparentBlack</item>
+        <item name="fab_colorPressed">@color/transparentBlack</item>
+        <item name="fab_colorRipple">#FFFFFF</item>
+    </style>
+    <style name="MenuButtonsStyle1">
+        <item name="fab_size">normal</item>
+        <item name="fab_showAnimation">@anim/jump_from_down</item>
+        <item name="fab_hideAnimation">@anim/jump_to_down</item>
+        <item name="fab_shadowColor">@color/transparentBlack</item>
+        <item name="fab_colorNormal">@color/transparentBlack</item>
+        <item name="fab_colorPressed">@color/transparentBlack</item>
+        <item name="fab_colorRipple">#FFFFFF</item>
+    </style>
+
+    <style name="ThemeOverlay.AppCompat.navTheme">
+
+        <!-- Color of text and icon when SELECTED -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/feedbackhint</item>
+        <!-- Background color when SELECTED -->
+        <item name="colorControlHighlight">@color/grey_300</item>
+
+        <item name="android:fontFamily">@font/baloobhai</item>
+        <item name="android:textSize">13sp</item>
+
+
+    </style>
+    <style name="roundCorner" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <!--        <item name="shapeAppearanceOverlay">@style/DialogCorners</item>-->
+
+        <item name="dialogCornerRadius">20dp</item>
+    </style>
+
+    <style name="DialogCorners">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50dp</item>
+    </style>
+    <style name="CustomDialog" parent="Theme.AppCompat.Dialog">
+        <!-- dialog width and screen ratio -->
+        <item name="android:windowMinWidthMinor">40%</item>
+        <!--        <item name="android:windowMinWidthMajor">70%</item>-->
+        <!-- dialog background color, default is white -->
+        <item name="android:colorBackground">@color/blackTransparent</item>
+    </style>
+    <style name="MineCustomTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/TAB_TEXT_SIZE</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/baloobhai</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="AppTheme.AdAttribution">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:text">@string/ad_attribution</item>
+        <item name="android:background">#FFCC66</item>
+        <item name="android:width">15dp</item>
+        <item name="android:height">15dp</item>
+    </style>
+
+    <style name="Theme.AppCompat.Translucent" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
+
+    <style name="AppTheme.Translucent" parent="@android:style/Theme.Translucent.NoTitleBar" >
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="Widget.4KWallpaperdev_germany_adx.AppWidget.Container" parent="android:Widget">
+        <item name="android:id">@android:id/background</item>
+        <item name="android:background">@color/transparentBlack</item>
+    </style>
+
+    <style name="Widget.4KWallpaperdev_germany_adx.AppWidget.InnerView" parent="android:Widget">
+        <item name="android:background">?android:attr/colorBackground</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <color name="grey_500">#DDDDDD</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_300">#CAC9C9</color>
+    <color name="feedbackhint">#ACA8A8</color>
+</resources>

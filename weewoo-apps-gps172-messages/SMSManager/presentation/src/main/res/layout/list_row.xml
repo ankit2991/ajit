@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/root"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="1dp">
+
+        <RelativeLayout
+            android:id="@+id/main_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="8dp">
+
+            <ImageView
+
+                android:id="@+id/imageViewProfile"
+                android:layout_width="@dimen/_28sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:layout_marginRight="10dp"
+                android:contentDescription="Profile Icon"
+                android:padding="@dimen/_6sdp"
+                android:src="@drawable/ic_filter_block"
+                app:tint="#B6B6B6" />
+
+            <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/spam_layout_select"
+                android:layout_toEndOf="@id/imageViewProfile"
+                android:text="NAME"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:customFont="@string/roboto_med" />
+
+            <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                android:id="@+id/format"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewName"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_toStartOf="@+id/spam_layout_select"
+                android:layout_toEndOf="@id/imageView"
+                android:gravity="start"
+                android:text="dxgbgbgbbb"
+                android:textColor="#9F848485"
+                android:visibility="visible"
+                app:customFont="@string/roboto_med" />
+
+            <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                android:id="@+id/textViewCallDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/format"
+                android:layout_toLeftOf="@+id/spam_layout_select"
+                android:layout_toEndOf="@id/imageViewProfile"
+                android:text="date"
+                android:visibility="gone"
+                app:customFont="@string/roboto_med" />
+
+            <TextView
+                android:id="@+id/textViewCallDuration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/format"
+                android:layout_alignParentRight="true"
+                android:paddingRight="15dp"
+                android:text="300"
+                android:visibility="gone" />
+
+            <ImageView
+
+                android:id="@+id/imageView"
+                android:layout_width="@dimen/_13sdp"
+                android:layout_height="@dimen/_13sdp"
+                android:layout_above="@id/textViewCallDuration"
+                android:layout_below="@id/textViewName"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:layout_toRightOf="@+id/imageViewProfile"
+                android:contentDescription="Call Log Icon"
+                android:paddingLeft="@dimen/_3sdp"
+                android:paddingTop="@dimen/_3sdp"
+                android:paddingRight="@dimen/_1sdp"
+                android:paddingBottom="@dimen/_3sdp"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/spam_layout_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingRight="@dimen/_5sdp"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/spam_image"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/ic_right_arrow"
+                    app:tint="#B6B6B6" />
+
+                <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                    android:id="@+id/spam_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Set Spam"
+                    android:textColor="@color/textPrimary"
+                    android:textSize="@dimen/_10sdp"
+                    android:visibility="gone"
+                    app:customFont="@string/roboto_med" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_below="@+id/imageViewProfile"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_toRightOf="@+id/imageViewProfile"
+                android:background="#88828285" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/frameAdView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/main_layout"
+            android:visibility="gone" />
+    </RelativeLayout>
+</layout>

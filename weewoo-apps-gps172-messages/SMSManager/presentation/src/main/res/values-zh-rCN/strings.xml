@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sugest_update_title">更新可用</string>
+    <string name="sugest_update_message">Google Play 有新版本可用，请更新您的版本</string>
+    <string name="force_update_title">更新可用</string>
+    <string name="force_update_message">Google Play 有新版本可用，请更新您的版本</string>
+    <string name="update_ok">更新</string>
+    <string name="update_no">暂时不更新</string>
+    <string name="app_name">#消息</string>
+    <string name="in_app_name">消息</string>
+    <string name="splash_app_name">短信消息</string>
+    <string name="loading_msg">请稍候...</string>
+    <string name="ads_loading_msg">显示广告...</string>
+    <string name="shortcut_compose_long_label">新对话</string>
+    <string name="shortcut_compose_short_label">撰写</string>
+    <string name="shortcut_compose_disabled_message">快捷方式已禁用</string>
+    <string name="title_archived">已归档消息</string>
+    <string name="title_settings">设置</string>
+    <string name="title_notification_prefs">通知</string>
+    <string name="title_theme">主题</string>
+    <string name="title_conversations">搜索号码、姓名等</string>
+    <string name="title_compose">输入姓名或电话号码</string>
+    <string name="setup_skip">跳过</string>
+    <string name="setup_next">继续</string>
+    <string name="menu_add_person">添加联系人</string>
+    <string name="menu_call">呼叫</string>
+    <string name="menu_info">详情</string>
+    <string name="menu_save">保存到相册</string>
+    <string name="menu_share">分享</string>
+    <string name="main_drawer_open_cd">打开导航抽屉</string>
+    <string name="main_title_selected">%d 个已选中</string>
+    <string name="main_menu_clear">清除</string>
+    <string name="main_menu_archive">归档</string>
+    <string name="main_menu_unarchive">取消归档</string>
+    <string name="main_menu_delete">删除</string>
+    <string name="main_menu_add_contact">添加到联系人</string>
+    <string name="main_menu_pin">置顶</string>
+    <string name="main_menu_unpin">取消置顶</string>
+    <string name="main_menu_read">标记为已读</string>
+    <string name="main_menu_unread">标记为未读</string>
+    <string name="select_all">全选</string>
+    <string name="deselect_all">取消全选</string>
+    <string name="main_menu_block">阻止</string>
+    <string name="main_syncing">正在整理消息...</string>
+    <string name="main_sender_you">您：%s</string>
+    <string name="main_draft">草稿：%s</string>
+    <string name="main_message_results_title">消息中的结果</string>
+    <string name="main_message_results">%d 条消息</string>
+    <string name="inbox_empty_text">您的对话将显示在此处</string>
+    <string name="inbox_search_empty_text">无结果</string>
+    <string name="archived_empty_text">尚无已归档的对话..</string>
+    <string name="main_fab_cd">开始新对话</string>
+    <string name="main_default_sms_title">喜欢使用消息吗？</string>
+    <string name="main_default_sms_message">将消息应用设为您的默认消息应用</string>
+    <string name="main_default_sms_change">更改</string>
+    <string name="main_permission_required">需要权限</string>
+    <string name="main_permission_sms">短信需要权限以发送和查看短信</string>
+    <string name="main_permission_contacts">短信需要权限以查看您的联系人</string>
+    <string name="main_permission_allow">允许</string>
+    <string name="main_permission_allow_read">允许读写权限</string>
+    <string name="drawer_inbox">收件箱</string>
+    <string name="drawer_archived">已归档</string>
+    <string name="drawer_scheduled">已安排的消息</string>
+    <string name="drawer_blocking">被阻止列表</string>
+    <string name="drawer_calldorado">来电设置</string>
+    <string name="drawer_more">更多</string>
+    <string name="drawer_group">群组消息</string>
+    <string name="drawer_settings">设置</string>
+    <string name="drawer_remove_ads">移除广告</string>
+    <string name="drawer_help">帮助与反馈</string>
+    <string name="drawer_invite">邀请好友</string>
+    <string name="dialog_delete_title">删除</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">确定要删除此对话吗？</item>
+        <item quantity="other">确定要删除%d个对话吗？</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>复制文本</item>
+        <item>转发</item>
+        <item>删除</item>
+    </string-array>
+    <string name="compose_number_picker_title">选择电话号码</string>
+    <string name="compose_number_picker_default">%s ∙ 默认</string>
+    <string name="compose_number_picker_once">仅一次</string>
+    <string name="compose_number_picker_always">总是</string>
+    <string name="compose_title_selected">%d个已选中</string>
+    <string name="compose_subtitle_results">%1$d个结果中的%2$d个</string>
+    <string name="contact_selected">%1$d个已选中，共%2$d个</string>
+    <string name="compose_send_group_title">作为群组消息发送</string>
+    <string name="compose_send_group_summary">接收者和回复将对所有人可见</string>
+    <string name="compose_messages_empty">开始您的对话。说点什么吧！</string>
+    <string name="compose_vcard_label">联系人名片</string>
+    <string name="compose_scheduled_for">计划发送时间</string>
+    <string name="compose_scheduled_future">时间应设置为将来时!</string>
+    <string name="compose_scheduled_toast">已添加到计划消息</string>
+    <string name="compose_hint">在这里写...</string>
+    <string name="compose_menu_copy">复制文本</string>
+    <string name="compose_menu_forward">转发</string>
+    <string name="compose_menu_delete">删除</string>
+    <string name="compose_menu_previous">上一个</string>
+    <string name="compose_menu_next">下一个</string>
+    <string name="compose_menu_clear">清除</string>
+    <string name="compose_details_title">消息详情</string>
+    <string name="compose_details_type">类型：%s</string>
+    <string name="compose_details_from">发送方：%s</string>
+    <string name="compose_details_to">接收方：%s</string>
+    <string name="compose_details_subject">主题：%s</string>
+    <string name="compose_details_priority">优先级：%s</string>
+    <string name="compose_details_size">大小：%s</string>
+    <string name="compose_details_sent">发送时间：%s</string>
+    <string name="compose_details_received">接收时间：%s</string>
+    <string name="compose_details_delivered">已送达时间：%s</string>
+    <string name="compose_details_error_code">错误代码：%d</string>
+    <string name="compose_attach_cd">添加附件</string>
+    <string name="compose_gallery_cd">附加照片</string>
+    <string name="compose_camera_cd">拍照</string>
+    <string name="compose_schedule_cd">计划消息</string>
+    <string name="compose_contact_cd">附加联系人</string>
+    <string name="compose_contact_error">读取联系人时出错</string>
+    <string name="compose_sim_cd">已选择%s，更改SIM卡</string>
+    <string name="compose_send_cd">发送消息</string>
+    <string name="message_status_sending">发送中...</string>
+    <string name="message_status_delivered">已送达%s</string>
+    <string name="message_status_failed">发送失败</string>
+    <string name="info_title">联系人详情</string>
+    <string name="info_copied_address">地址已复制</string>
+    <string name="info_name">对话标题</string>
+    <string name="info_notifications">通知</string>
+    <string name="info_theme">主题</string>
+    <string name="info_archive">归档</string>
+    <string name="info_unarchive">取消归档</string>
+    <string name="info_block">阻止</string>
+    <string name="info_unblock">取消阻止</string>
+    <string name="info_delete">删除对话</string>
+    <string name="gallery_error">无法加载媒体</string>
+    <string name="gallery_toast_saved">已保存到相册</string>
+    <string name="backup_title">备份和恢复</string>
+    <string name="backup_backing_up">正在备份消息</string>
+    <string name="backup_restoring">正在从备份中恢复</string>
+    <string name="backup_last">上次备份</string>
+    <string name="backup_loading">加载中...</string>
+    <string name="backup_never">从不</string>
+    <string name="backup_restore_title">恢复</string>
+    <string name="backup_restore_summary">选择一个备份</string>
+    <string name="backup_restore_error_plus">请解锁SMS+以使用备份和恢复</string>
+    <string name="backup_restore_error_backup">备份进行中...</string>
+    <string name="backup_restore_error_restore">恢复进行中...</string>
+    <string name="backup_restore_confirm_title">从备份恢复</string>
+    <string name="backup_restore_confirm_message">确定要从此备份中恢复您的消息吗？</string>
+    <string name="backup_restore_stop_title">停止恢复</string>
+    <string name="backup_restore_stop_message">已恢复的消息将保留在您的设备上</string>
+    <string name="backup_restore_dialog_title">备份</string>
+    <string name="backup_restore_dialog_summary">/SMS Messages/Backups</string>
+    <string name="backup_restore_dialog_empty">未找到备份</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">没有消息</item>
+        <item quantity="one">%d条消息</item>
+        <item quantity="other">%d条消息</item>
+    </plurals>
+    <string name="backup_disclaimer">到目前为止，我们仅支持通过备份和恢复来支持短信！</string>
+    <string name="backup_now">备份</string>
+    <string name="backup_progress_parsing">解析备份中...</string>
+    <string name="backup_progress_running" formatted="false">%d/%d条消息</string>
+    <string name="backup_progress_saving">保存备份中...</string>
+    <string name="backup_progress_syncing">同步消息中...</string>
+    <string name="backup_progress_finished">完成！</string>
+    <string name="backup_notification_channel_name">备份和恢复</string>
+    <string name="Message_notification_channel_name">消息同步</string>
+    <string name="scheduled_title">已计划</string>
+    <string name="schedule_guide">您可以通过单击消息对话屏幕上的附加按钮来设置计划消息。</string>
+    <string name="scheduled_empty_description">在您希望的确切时刻自动发送消息</string>
+    <string name="scheduled_empty_message_1">嘿！什么时候庆祝？</string>
+    <string name="scheduled_empty_message_2">是在3月5日</string>
+    <string name="scheduled_empty_message_3">嘿！看我是多么好的朋友，为您的日子庆祝</string>
+    <string name="scheduled_empty_message_3_timestamp">将于3月5日发送</string>
+    <string name="scheduled_compose_cd">计划消息</string>
+    <string name="scheduled_options_title">计划消息</string>
+    <string-array name="scheduled_options">
+        <item>立即发送</item>
+        <item>复制文本</item>
+        <item>删除</item>
+    </string-array>
+    <string name="settings_category_appearance">外观</string>
+    <string name="settings_category_general">常规</string>
+    <string name="settings_categoryreply">回复</string>
+    <string name="settings_night_title">夜间模式</string>
+    <string name="settings_text_size_title">字体大小</string>
+    <string name="settings_notifications_title">通知</string>
+    <string name="settings_notifications_o_summary">点击进行自定义</string>
+    <string name="settings_notification_actions_title">操作</string>
+    <string name="settings_notification_action_1">按钮1</string>
+    <string name="settings_notification_action_2">按钮2</string>
+    <string name="settings_notification_action_3">按钮3</string>
+    <string name="settings_notification_previews_title">通知预览</string>
+    <string name="settings_notification_wake_title">唤醒屏幕</string>
+    <string name="settings_vibration_title">振动</string>
+    <string name="settings_ringtone_title">声音</string>
+    <string name="settings_ringtone_none">无</string>
+    <string name="settings_reply_title">回复</string>
+    <string name="settings_reply_summary">新消息弹出</string>
+    <string name="settings_reply_tap_dismiss_title">点击关闭</string>
+    <string name="settings_reply_tap_dismiss_summary">点击弹出窗口外部关闭</string>
+    <string name="settings_swipe_actions">滑动操作</string>
+    <string name="settings_swipe_actions_right">右滑</string>
+    <string name="settings_swipe_actions_left">左滑</string>
+    <string name="settings_swipe_actions_change">更改</string>
+    <string name="not_now_txt">暂时不</string>
+    <string name="process_title">此过程需要一些时间</string>
+    <string name="syncing_done">消息同步完成...</string>
+    <string name="all_set_txt">一切都设置好了。您已准备就绪</string>
+    <string name="Personal">所有消息</string>
+    <string name="Other">已知</string>
+    <string name="Spam">垃圾邮件</string>
+    <string name="setting">设置</string>
+    <string name="Share">分享</string>
+    <string name="Rate">给我们评分</string>
+    <string name="edit">编辑</string>
+    <string name="DarkMode">夜间模式</string>
+    <string name="BrightMode">明亮模式</string>
+    <string name="Camera">相机</string>
+    <string name="Gallery">图库</string>
+    <string name="Gif">动态图片</string>
+    <string name="Contact">联系人</string>
+    <string name="Schedule">计划</string>
+    <string name="Location">位置</string>
+    <string name="Notes">备注</string>
+    <string name="no_msg">还没有消息...</string>
+    <string name="Start_Chat">开始聊天</string>
+    <string name="Language">语言</string>
+    <string name="rate_text">通过在Play商店给我们评分向其他人推荐我们！</string>
+    <string name="sort_by">排序方式</string>
+    <string-array name="settings_swipe_actions">
+        <item>无</item>
+        <item>归档</item>
+        <item>删除</item>
+        <item>呼叫</item>
+        <item>标记为已读</item>
+        <item>标记为未读</item>
+    </string-array>
+    <string name="settings_mms_size_title">自动压缩MMS附件</string>
+    <string name="settings_sync_title">同步消息</string>
+    <string name="settings_sync_summary">重新同步您的消息与本机Android短信数据库</string>
+    <string name="blocking_manager_sms_title">短信</string>
+    <string name="blocking_manager_call_control_title">呼叫控制</string>
+    <string name="blocking_manager_sia_title">我应该回答吗？</string>
+    <string name="blocked_messages_title">已屏蔽的消息</string>
+    <string name="blocked_messages_empty">您的已屏蔽的消息将显示在这里</string>
+    <string name="blocking_block_title">阻止</string>
+    <string name="blocking_unblock_title">解除阻止</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">继续到%s并阻止此号码</item>
+        <item quantity="other">继续到%s并阻止这些号码</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">继续到%s并允许此号码</item>
+        <item quantity="other">继续到%s并允许这些号码</item>
+    </plurals>
+    <string name="widget_loading">加载中...</string>
+    <string name="widget_more">查看更多对话</string>
+    <string name="qkreply_menu_read">标记为已读</string>
+    <string name="qkreply_menu_call">呼叫</string>
+    <string name="qkreply_menu_delete">删除</string>
+    <string name="qkreply_menu_expand">显示更多</string>
+    <string name="qkreply_menu_collapse">显示较少</string>
+    <string name="qkreply_menu_view">打开对话</string>
+    <string name="changelog_title">SMS新功能</string>
+    <string name="changelog_version">版本%s</string>
+    <string name="changelog_added">新增</string>
+    <string name="changelog_improved">改进</string>
+    <string name="changelog_fixed">修复</string>
+    <string name="changelog_more">更多</string>
+    <string name="changelog_dismiss">忽略</string>
+    <string-array name="notification_actions">
+        <item>无</item>
+        <item>标记为已读</item>
+        <item>回复</item>
+        <item>呼叫</item>
+        <item>删除</item>
+    </string-array>
+    <string name="button_yes">是</string>
+    <string name="button_continue">继续</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_delete">删除</string>
+    <string name="button_save">保存</string>
+    <string name="button_stop">停止</string>
+    <string name="button_more">更多</string>
+    <string name="button_set">设置</string>
+    <string name="button_undo">撤销</string>
+    <string name="toast_copied">已复制</string>
+    <string name="toast_archived">对话已归档</string>
+    <string name="toast_sms_plus">您必须解锁SMS+才能使用此功能</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">新消息</item>
+        <item quantity="other">%s条新消息</item>
+    </plurals>
+    <string name="notification_message_failed_title">消息未发送</string>
+    <string name="notification_message_failed_text">发送给%s的消息发送失败</string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="pocket_data_on">发送MMS时，必须打开数据！</string>
+    <string name="inapp_details" translatable="false">要删除广告，请尝试具有深色-浅色模式支持的高级订阅\n定时短信支持。</string>
+    <string name="drawer_removeAds">移除广告</string>
+    <string name="in_app_ads">messages_rad</string>
+    <string name="dialog_delete_message">您确定要删除此消息吗？</string>
+    <string name="compose_bar_not_support">发送方不支持回复</string>
+    <string name="default_name">要发送或接收短信，您必须将其设置为默认应用程序。您要将消息设置为默认应用程序吗？</string>
+    <string name="confirm_delete">确认删除</string>
+    <string name="confirm_delete_text">您确定要删除此便笺吗？</string>
+    <string name="title">标题</string>
+    <string name="note">便笺</string>
+    <string name="search">搜索</string>
+    <string name="settings">设置</string>
+    <string name="share_to">分享至：</string>
+    <string name="sort">排序</string>
+    <string name="empty_list_text">按右下角的按钮添加新便笺！</string>
+    <string name="new_note">新便笺</string>
+    <string name="undo">撤销</string>
+    <string name="delete">删除</string>
+    <string name="exception">异常：</string>
+    <string name="edit_note">编辑便笺</string>
+    <string name="drawer_feedback">发送反馈</string>
+    <string name="drawer_mode">明亮模式</string>
+    <string name="unlimited_access_user">拥有所有功能的无限访问</string>
+    <string name="pro_user">您是高级用户</string>
+    <string name="sub_info_text"><b>订阅将自动续订，直到您关闭它。</b></string>
+    <string name="cancel_purchase">您可以在Google Play的订阅中取消自动订阅续订</string>
+    <string name="remove_ads">移除广告</string>
+    <string name="no_ads">没有广告</string>
+    <string name="free_trial">7天免费试用，然后自动续订</string>
+    <string name="can_not_talk_right_now">抱歉，我现在不能讲话</string>
+    <string name="can_call_you_later">稍后可以给你打电话吗？</string>
+    <string name="i_am_on_my_way">我在路上</string>
+    <string name="write_personal_message">编写个人消息</string>
+    <string name="create_reminder">创建新提醒</string>
+    <string name="remind_me_about">提醒我</string>
+    <string name="no_title">无标题</string>
+    <string name="edit_contact">编辑联系人</string>
+    <string name="add_contact">添加联系人</string>
+    <string name="messages">消息</string>
+    <string name="send_mail">发送邮件</string>
+    <string name="calendar">日历</string>
+    <string name="web">网络</string>
+    <string-array name="night_modes">
+        <item>系统</item>
+        <item>明亮模式</item>
+        <item>暗黑模式</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>显示名称和消息</item>
+        <item>显示名称</item>
+        <item>隐藏内容</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>小</item>
+        <item>正常</item>
+        <item>大</item>
+        <item>更大</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>无延迟</item>
+        <item>短</item>
+        <item>中</item>
+        <item>长</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>自动</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>无压缩</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>好的</item>
+        <item>给我一会儿</item>
+        <item>我在路上</item>
+        <item>谢谢</item>
+        <item>听起来不错</item>
+        <item>怎么了？</item>
+        <item>同意</item>
+        <item>不</item>
+        <item>爱你</item>
+        <item>抱歉</item>
+        <item>哈哈</item>
+        <item>没关系</item>
+    </string-array>
+    <string name="default_title">允许将短信应用设置为默认应用程序</string>
+    <string name="set_as_defaault">设置为默认</string>
+    <string name="love_app_title">将短信应用设置为您的默认短信应用</string>
+    <string-array name="gif">
+        <item>动物表情</item>
+        <item>表情符号</item>
+        <item>水果和蔬菜</item>
+        <item>万圣节</item>
+        <item>爱</item>
+    </string-array>
+    <string name="Sticker">贴纸</string>
+    <string name="no_connection">无网络连接。</string>
+    <string-array name="sticker">
+        <item>男孩</item>
+        <item>卡通</item>
+        <item>面部</item>
+        <item>节日</item>
+        <item>水果</item>
+        <item>有趣</item>
+        <item>女孩</item>
+        <item>爱心贴纸</item>
+        <item>其他</item>
+        <item>小狗</item>
+    </string-array>
+    <string name="open_link_to_browser">在浏览器中打开链接</string>
+    <string name="battery_dialog"> 不想错过重要短信？\n 关闭电池优化</string>
+    <string name="reason_to_change_battery_optimization_setting">导航到应用信息&gt;高级&gt;电池优化\n并选择“不优化”</string>
+    <string name="feedback_txt">告诉我们您的体验，并提出改进消息应用的建议。</string>
+    <string name="reason_to_change_battery"> 高级&gt;电池优化&gt;“不优化”</string>
+    <string name="drawer_transaction">交易</string>
+    <string name="drawer_promotion">促销</string>
+    <string name="unknown">未知</string>
+    <string name="priva"><u>隐私政策</u></string>
+    <string name="smsfilter">短信过滤器</string>
+    <string name="by_click_t_c" translatable="false"><u>点击即表示您接受我们的条款和条件。</u></string>
+    <string name="continue_without_sub"><u>无需订阅继续</u></string>
+    <string name="text_free_trial">享受X天<b>免费试用</b> - 然后每月X €</string>
+    <string name="calldorado_message">在结束通话之前，请检查所有<b>消息</b>！有消息</string>
+    <string name="privacy_terms_description">继续即表示您接受并批准使用条款和隐私政策。</string>
+    <string name="draw_over_description"><![CDATA[在其他应用程序顶部显示我们的短信消息。接收我们的短信调用小部件等所有潜力]]></string>
+    <string name="ad_label">广告</string>
+    <string name="onboarding_continue_button">继续</string>
+    <string name="onboarding_step_1_title">短信和通讯管理器</string>
+    <string name="onboarding_step_1_subtitle">与朋友聊天，创建群组并组织您的收件箱</string>
+    <string name="onboarding_step_1_hight_light">独特的方法适合您</string>
+    <string name="onboarding_step_2_title">组织和存储消息</string>
+    <string name="onboarding_step_2_subtitle">备份和恢复您的消息</string>
+    <string name="onboarding_step_2_hight_light">成千上万的用户喜欢它</string>
+    <string name="onboarding_step_3_title">享受生活，让我们来管理收件箱</string>
+    <string name="onboarding_step_3_subtitle">接受权限，以便我们帮助您管理收件箱。</string>
+    <string name="onboarding_step_3_hight_light">稍后再说</string>
+    <string name="onboarding_allow_access_button">允许访问</string>
+    <string name="onboarding_step_4_title">通过让我们做工作来改善您的电池</string>
+    <string name="onboarding_step_4_subtitle">我们将处理烦人的短信中断。</string>
+    <string name="onboarding_step_4_hight_light">成千上万的用户喜欢它</string>
+    <string name="onboarding_step_5_title">在聊天时在其他应用程序上使用分屏</string>
+    <string name="onboarding_step_5_subtitle">享受我们令人惊叹的通话小部件，可以让您进行多任务处理</string>
+    <string name="onboarding_step_5_hight_light">成千上万的用户喜欢它</string>
+    <string name="payment_card_title">立即 聊天！</string>
+    <string name="payment_card_price"><![CDATA[3天免费，%s / %s]]></string>
+    <string name="payment_card_button">现在免费试用</string>
+    <string name="payment_card_hight_light">通过Play Store安全保障</string>
+    <string name="payment_card_weekly">每周</string>
+    <string name="payment_card_monthly">每月</string>
+    <string name="payment_card_yearly">每年</string>
+    <string name="payment_card_auto_renew">自动续订订阅，随时取消</string>
+    <string name="accessibility_service_description">您的无障碍服务描述</string>
+    <string name="permission_txt"><font color="#FF8A00">需要权限：</font>\n读取电话状态和在其他应用上绘制</string>
+    <string name="opt_privacy">继续即表示您接受并批准使用条款和隐私政策。</string>
+    <string name="permission_required">所需权限</string>
+    <string name="permission_dialog_body">未经电话权限，此应用可能无法正常工作。请按照以下说明启用它：\n\n1. 选择“权限”\n2. 在权限列表中找到“电话”，然后点击启用</string>
+    <string name="go_premium">成为<font color = "#FFE600">高级用户！</font></string>
+    <string name="unlock_everything">解锁所有功能和去除广告</string>
+    <string name="start_three_day">开始3天免费试用</string>
+    <string name="pro">专业版</string>
+    <string name="more_option">更多选项</string>
+    <string name="rate_us_5">给我们评5星</string>
+    <string name="help_feedback">帮助与反馈</string>
+    <string name="send_message">发送消息</string>
+    <string name="CTA_Button_Text">点击以解锁所有<font color="#FFFBCD04">功能</font></string>
+
+
+</resources>

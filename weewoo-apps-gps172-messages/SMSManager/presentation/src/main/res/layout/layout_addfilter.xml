@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.messaging.textrasms.manager.common.util.CustomFontTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cancel"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:padding="@dimen/_5sdp"
+        android:text="New Filter"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="@dimen/_22sdp"
+        app:customFont="@string/roboto_bold" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/title"
+        android:background="#A19E9E"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <com.messaging.textrasms.manager.common.util.CustomFontTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:padding="@dimen/_5sdp"
+            android:text="KeyWord"
+            android:textAllCaps="true"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="@dimen/_12sdp"
+            app:customFont="@string/roboto_bold" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/keyword"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:hint="Enter keyword.."
+            android:padding="@dimen/_5sdp"></com.google.android.material.textfield.TextInputEditText>
+
+        <com.messaging.textrasms.manager.common.util.CustomFontTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:lineSpacingExtra="@dimen/_2sdp"
+            android:padding="@dimen/_5sdp"
+            android:text="The keyword will be searched on your messages body or sender to detect whether it is spam or not."
+            android:textColor="#EB848485"
+            android:textSize="@dimen/_12sdp"
+            app:customFont="@string/roboto_regular" />
+
+        <com.messaging.textrasms.manager.common.util.CustomFontTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:padding="@dimen/_5sdp"
+            android:text="Rules"
+            android:textAllCaps="true"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="@dimen/_12sdp"
+            app:customFont="@string/roboto_bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:gravity="start">
+
+                <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                    android:id="@+id/content_layout"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_centerVertical="true"
+                    android:gravity="start|center"
+                    android:padding="@dimen/_3sdp"
+                    android:text="Action"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textSize="@dimen/_12sdp"
+                    app:customFont="@string/roboto_bold" />
+
+                <!--                <LinearLayout-->
+                <!--                    android:layout_width="@dimen/_200sdp"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginTop="@dimen/_20sdp"-->
+                <!--                    android:layout_toRightOf="@+id/content_layout"-->
+
+                <!--                    android:orientation="horizontal">-->
+
+                <com.llollox.androidtoggleswitch.widgets.ToggleSwitch
+                    android:id="@+id/toggle_btn"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_toRightOf="@+id/content_layout"
+                    android:gravity="center"
+                    app:borderRadius="@dimen/_20sdp"
+                    app:borderWidth="@dimen/_1sdp"
+                    app:checkedBackgroundColor="@color/tools_theme"
+                    app:checkedBorderColor="@color/tools_theme"
+                    app:checkedTextColor="@android:color/white"
+                    app:textToggleLeft="Block"
+                    app:textToggleRight="Allow"
+                    app:uncheckedBackgroundColor="@color/white"
+                    app:uncheckedBorderColor="@color/tools_theme"
+                    app:uncheckedTextColor="@color/tools_theme" />
+
+                <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                    android:id="@+id/block"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Block"
+                    android:textColor="@color/tools_theme"
+                    android:textSize="@dimen/_15sdp"
+                    android:visibility="gone"
+                    app:customFont="@string/roboto_regular" />
+
+                <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                    android:id="@+id/allow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/filter_select_bg"
+                    android:gravity="center"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Allow"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15sdp"
+                    android:visibility="gone"
+                    app:borderRadius="@dimen/_20sdp"
+                    app:customFont="@string/roboto_regular" />
+                <!--                </LinearLayout>-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:gravity="start">
+
+                <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                    android:id="@+id/content_layoutfilter"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_centerVertical="true"
+                    android:gravity="start|center"
+                    android:padding="@dimen/_3sdp"
+                    android:text="Filter On"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textSize="@dimen/_12sdp"
+                    app:customFont="@string/roboto_bold" />
+
+                <com.llollox.androidtoggleswitch.widgets.ToggleSwitch
+                    android:id="@+id/toggle_btn2"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_toRightOf="@+id/content_layoutfilter"
+                    android:gravity="center"
+                    app:borderRadius="@dimen/_20sdp"
+                    app:borderWidth="@dimen/_1sdp"
+                    app:checkedBackgroundColor="@color/tools_theme"
+                    app:checkedBorderColor="@color/tools_theme"
+                    app:checkedTextColor="@android:color/white"
+                    app:textToggleLeft="Content"
+                    app:textToggleRight="Sender"
+                    app:uncheckedBackgroundColor="@color/white"
+                    app:uncheckedBorderColor="@color/tools_theme"
+                    app:uncheckedTextColor="@color/tools_theme"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/content_layoutfilter"
+                    android:background="@drawable/filter_bg"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                        android:id="@+id/content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        android:text="Content"
+                        android:textColor="@color/tools_theme"
+                        android:textSize="@dimen/_15sdp"
+                        app:customFont="@string/roboto_regular" />
+
+                    <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                        android:id="@+id/sender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        android:text="Sender"
+                        android:textColor="@color/textPrimary"
+                        android:textSize="@dimen/_15sdp"
+                        app:customFont="@string/roboto_regular" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <com.messaging.textrasms.manager.common.util.CustomFontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:padding="@dimen/_5sdp"
+            android:text="Filter Summary"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="@dimen/_12sdp"
+            app:customFont="@string/roboto_bold" />
+
+
+        <com.messaging.textrasms.manager.common.util.CustomFontTextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:padding="@dimen/_5sdp"
+            android:text="Block Sms when  appears in message Content."
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="@dimen/_12sdp"
+            app:customFont="@string/roboto_regular" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@android:color/transparent"
+        android:text="Cancel"
+        android:textAllCaps="false"
+        android:textColor="@color/tools_theme"
+        android:textSize="@dimen/_13sdp" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@android:color/transparent"
+        android:text="Done"
+        android:textAllCaps="false"
+        android:textColor="@color/tools_theme"
+        android:textSize="@dimen/_13sdp" />
+</RelativeLayout>

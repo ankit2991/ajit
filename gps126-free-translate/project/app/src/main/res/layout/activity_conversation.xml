@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.conversation.ConversationActivity">
+
+    <include
+        android:id="@+id/appBarLayout"
+        layout="@layout/layout_toolbar_conversation"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize" />
+
+    <RelativeLayout
+        android:id="@+id/container_ad_coversation"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+        app:layout_constraintVertical_bias="0.0">
+
+        <FrameLayout
+            android:id="@+id/admob_conversation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <FrameLayout
+            android:id="@+id/fb_conversation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+
+    </RelativeLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_margin="20dp"
+        android:id="@+id/container_conversation_mics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/ads_banner_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+        <RelativeLayout
+            android:id="@+id/selectorUi"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/blue_bg"
+            android:layoutDirection="ltr"
+            app:layout_constraintBottom_toTopOf="@+id/iv_mic_from_conversation"
+            app:layout_constraintEnd_toStartOf="@+id/iv_switch_lang"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tv_from_lang_conversation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:drawableStart="@drawable/dop_down1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:text="English"
+                android:textColor="@color/white" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/iv_mic_from_conversation"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/color_ad_mob_background"
+            android:background="@drawable/blue_bg"
+            android:layoutDirection="ltr"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/iv_switch_lang"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/selectorUi">
+
+            <ImageView
+                android:id="@+id/testidmic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:src="@drawable/ic_mic_black_24dp"
+                app:tint="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/testidmic"
+                android:gravity="start"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:singleLine="true"
+                android:text="Tap to talk"
+                android:textColor="@color/black" />
+
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/iv_switch_lang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:src="@drawable/exchange"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <RelativeLayout
+            android:id="@+id/selectorUi2"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_rounded_yellow"
+            android:layoutDirection="ltr"
+            app:layout_constraintBottom_toTopOf="@+id/iv_mic_to_conversation"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.97"
+            app:layout_constraintStart_toEndOf="@+id/iv_switch_lang"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <TextView
+                android:id="@+id/tv_to_lang_conversation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:drawableStart="@drawable/dop_down1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:text="French"
+                android:textColor="#FFF" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/iv_mic_to_conversation"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="#EFE5CA"
+            android:background="@drawable/bg_rounded_yellow"
+            android:layoutDirection="ltr"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.97"
+            app:layout_constraintStart_toEndOf="@+id/iv_switch_lang"
+            app:layout_constraintTop_toBottomOf="@+id/selectorUi2">
+
+            <ImageView
+                android:id="@+id/testidmic2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:src="@drawable/ic_mic_black_24dp"
+                app:tint="@color/black" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/testidmic2"
+                android:gravity="start"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:singleLine="true"
+                android:text="Tab to talk"
+                android:textColor="@color/black" />
+
+        </RelativeLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_conversations_list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/container_conversation_mics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/container_ad_coversation"
+
+        >
+
+        <RelativeLayout
+            android:id="@+id/iv_clear_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/bg_clear_all"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:text="Clear All"
+                android:textColor="#3a9be8" />
+
+        </RelativeLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_conversation"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
+            android:clipToPadding="false"
+            android:paddingBottom="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_clear_all"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:itemCount="2"
+            tools:listitem="@layout/li_conversation_left" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout_progress"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#37000000"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ProgressBar
+            android:id="@+id/progress_conversation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ads_banner_parent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+
+        android:background="@drawable/bg_single_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+>
+
+        <FrameLayout
+            android:id="@+id/native_banner_container_home_screen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:orientation="vertical" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

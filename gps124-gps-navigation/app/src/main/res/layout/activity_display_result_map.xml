@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_gray">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/layout_toolbar"
+        app:layout_constraintBottom_toTopOf="@+id/map_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/map_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/info_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </FrameLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/info_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/ads_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/map_layout">
+
+        <TextView
+            android:id="@+id/tvPlaceHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/_16sdp"
+            android:text="@string/geo_game_result_description"
+            android:textColor="@color/light_blue"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_32sdp"
+            android:background="@drawable/bg_rounded_black"
+            android:gravity="center"
+            android:paddingHorizontal="@dimen/_32sdp"
+            android:paddingVertical="@dimen/_4sdp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            tools:text="5769.24 kms" />
+
+        <Button
+            android:id="@+id/btnGuessing"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/bg_button_blue"
+            android:text="@string/geo_game_result_button"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/ads_container"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <com.gpsnavigation.maps.gpsroutefinder.routemap.max_ad_manager.MaxAdBannerFrameLayout
+        android:id="@+id/ads_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/banner_height"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineBottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="0dp" />
+
+    <com.gpsnavigation.maps.gpsroutefinder.routemap.view.ProgressIndicator
+        android:id="@+id/progress_bar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:elevation="10dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

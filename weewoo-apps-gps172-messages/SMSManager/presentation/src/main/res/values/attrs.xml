@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="title" format="string" />
+    <attr name="summary" format="string" />
+    <attr name="widget" format="reference" />
+    <attr name="list_background" format="reference" />
+    <attr name="drawer_background" format="reference" />
+    <attr name="note_edit_text" format="reference" />
+
+    <attr name="textColor" format="enum">
+        <enum name="theme" value="0" />
+        <enum name="primaryOnTheme" value="1" />
+        <enum name="secondaryOnTheme" value="2" />
+        <enum name="tertiaryOnTheme" value="3" />
+    </attr>
+
+    <attr name="textSize" format="enum">
+        <enum name="primary" value="0" />
+        <enum name="secondary" value="1" />
+        <enum name="tertiary" value="2" />
+        <enum name="toolbar" value="3" />
+        <enum name="dialog" value="4" />
+        <enum name="emoji" value="5" />
+    </attr>
+
+    <declare-styleable name="QkTextView">
+        <attr name="textColor" />
+        <attr name="textSize" />
+    </declare-styleable>
+
+    <declare-styleable name="QkEditText">
+        <attr name="textColor" />
+        <attr name="textSize" />
+    </declare-styleable>
+
+    <declare-styleable name="PreferenceView">
+        <attr name="title" />
+        <attr name="summary" />
+        <attr name="widget" />
+        <attr name="icon" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RadioPreferenceView">
+        <attr name="title" />
+        <attr name="summary" />
+        <attr name="widget" />
+    </declare-styleable>
+
+    <declare-styleable name="FloatingActionButtonExpandable">
+        <attr name="fab_content" format="string" />
+        <attr name="fab_icon" format="reference" />
+        <attr name="fab_text_color" format="color" />
+        <attr name="fab_bg_color" format="color" />
+        <attr name="fab_padding_text_icon" format="dimension" />
+        <attr name="fab_duration" format="integer" />
+        <attr name="fab_text_size" format="dimension" />
+        <attr name="fab_expanded" format="boolean" />
+        <attr name="fab_padding" format="dimension" />
+        <attr name="fab_typeface" format="string" />
+    </declare-styleable>
+    <declare-styleable name="CustomFontTextView">
+        <attr name="customFont" format="string" />
+    </declare-styleable>
+    <attr name="emojiSize" format="dimension" />
+    <attr name="emojiBackground" format="color|reference" />
+    <attr name="emojiIcons" format="color|reference" />
+    <attr name="emojiDivider" format="color|reference" />
+    <declare-styleable name="EmojiButton">
+        <attr name="emojiSize" />
+    </declare-styleable>
+    <declare-styleable name="EmojiEditText">
+        <attr name="emojiSize" />
+    </declare-styleable>
+    <declare-styleable name="EmojiTextView">
+        <attr name="emojiSize" />
+    </declare-styleable>
+    <declare-styleable name="EmojiAutoCompleteTextView">
+        <attr name="emojiSize" />
+    </declare-styleable>
+    <declare-styleable name="EmojiMultiAutoCompleteTextView">
+        <attr name="emojiSize" />
+    </declare-styleable>
+
+    <declare-styleable name="FastScrollRecyclerView">
+        <attr name="fastScrollThumbColor" format="reference|color" />
+        <attr name="fastScrollThumbInactiveColor" format="reference|color" />
+        <attr name="fastScrollTrackColor" format="reference|color" />
+        <attr name="fastScrollPopupBgColor" format="reference|color" />
+        <attr name="fastScrollPopupTextColor" format="reference|color" />
+        <attr name="fastScrollPopupTextSize" format="reference|dimension" />
+        <attr name="fastScrollPopupTextVerticalAlignmentMode" format="enum">
+            <enum name="text_bounds" value="0" />
+            <enum name="font_metrics" value="1" />
+        </attr>
+        <attr name="fastScrollPopupBackgroundSize" format="reference|dimension" />
+        <attr name="fastScrollPopupPosition" format="enum">
+            <enum name="adjacent" value="0" />
+            <enum name="center" value="1" />
+        </attr>
+        <attr name="fastScrollAutoHide" format="reference|boolean" />
+        <attr name="fastScrollAutoHideDelay" format="reference|integer" />
+        <attr name="fastScrollEnableThumbInactiveColor" format="reference|boolean" />
+        <attr name="fastScrollThumbEnabled" format="reference|boolean" />
+    </declare-styleable>
+</resources>

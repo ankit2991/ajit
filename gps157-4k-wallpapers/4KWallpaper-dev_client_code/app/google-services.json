@@ -1,0 +1,218 @@
+{
+  "project_info": {
+    "project_number": "705989639863",
+    "project_id": "gp-roomb-apps",
+    "storage_bucket": "gp-roomb-apps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705989639863:android:d4c8b6da32da4676a19732",
+        "android_client_info": {
+          "package_name": "com.animatedstickers.maker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705989639863-v3tquqan90atkrp7ims10kdsehfuoqgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMLBWchL55S4bGDFNCsntyOr3-mIIYmZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705989639863-v3tquqan90atkrp7ims10kdsehfuoqgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4975991316875268~7196851905"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705989639863:android:65b0f2c66c290211a19732",
+        "android_client_info": {
+          "package_name": "com.camera.sweet.selfie.beauty.camera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705989639863-v3tquqan90atkrp7ims10kdsehfuoqgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMLBWchL55S4bGDFNCsntyOr3-mIIYmZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705989639863-v3tquqan90atkrp7ims10kdsehfuoqgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4975991316875268~6564777570"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705989639863:android:bf03125030eef582a19732",
+        "android_client_info": {
+          "package_name": "com.gf.supreme.stickman.battle.fight.warriors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705989639863-v3tquqan90atkrp7ims10kdsehfuoqgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMLBWchL55S4bGDFNCsntyOr3-mIIYmZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705989639863-v3tquqan90atkrp7ims10kdsehfuoqgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4975991316875268~3215968540"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705989639863:android:f2ba842f083c009fa19732",
+        "android_client_info": {
+          "package_name": "com.gf.supreme.stickman.project.stick.fight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705989639863-v3tquqan90atkrp7ims10kdsehfuoqgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMLBWchL55S4bGDFNCsntyOr3-mIIYmZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705989639863-v3tquqan90atkrp7ims10kdsehfuoqgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4975991316875268~5222991265"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705989639863:android:a7f260e5c9057724a19732",
+        "android_client_info": {
+          "package_name": "com.mtsfreegames.unicornhorserun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705989639863-v3tquqan90atkrp7ims10kdsehfuoqgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMLBWchL55S4bGDFNCsntyOr3-mIIYmZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705989639863-v3tquqan90atkrp7ims10kdsehfuoqgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705989639863:android:bda3281e15c37776a19732",
+        "android_client_info": {
+          "package_name": "com.socem.smart.screen.mirror.smartview.stream.tv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705989639863-v3tquqan90atkrp7ims10kdsehfuoqgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMLBWchL55S4bGDFNCsntyOr3-mIIYmZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705989639863-v3tquqan90atkrp7ims10kdsehfuoqgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705989639863:android:045778f4f8470450a19732",
+        "android_client_info": {
+          "package_name": "macro.hd.wallpapers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705989639863-v3tquqan90atkrp7ims10kdsehfuoqgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMLBWchL55S4bGDFNCsntyOr3-mIIYmZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705989639863-v3tquqan90atkrp7ims10kdsehfuoqgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4975991316875268~4613559129"
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lockerroom.face.features.picker.widget.TouchImageView android:gravity="center" android:id="@id/iv_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/border_view"
+                                                             xmlns:android="http://schemas.android.com/apk/res/android" />

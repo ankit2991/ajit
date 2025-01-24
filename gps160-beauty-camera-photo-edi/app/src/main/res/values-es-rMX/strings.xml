@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Photo Editor</string>
+    <string name="feedback" translatable="false">Realimentación</string>
+
+    <string name="tap_to_select">Toca para seleccionar</string>
+    <string name="sharpen">Afilar</string>
+
+    <string name="brightness">Brillo</string>
+    <string name="camera">Cámara</string>
+    <string name="dialog_discard_title">Los cambios no se guardarán. Quieres proceder?</string>
+    <string name="discard">Descarte</string>
+    <string name="edit">Editar</string>
+    <string name="collage">Collage</string>
+    <string name="contrast">Contraste</string>
+
+
+    <string name="rate_us">Nos califica</string>
+    <string name="rating_dialog_feedback_title">Realimentación</string>
+    <string name="rating_dialog_maybe_later">Quizas mas tarde</string>
+    <string name="rating_dialog_submit">Enviar</string>
+    <string name="rating_promote">Si Camera Photo Editor Pro te hace feliz y satisfecho. Por favor danos 5 estrellas</string>
+
+    <string name="saturation">Saturación</string>
+    <string name="save">AHORRAR</string>
+    <string name="save_and_share">Guardar y compartir</string>
+
+
+    <string name="settings">Más</string>
+    <string name="share_friend">Compartir aplicación</string>
+    <string name="share_photo">Compartir foto</string>
+
+    <string name="thank_you_2">Que tenga un lindo día</string>
+    <string name="thank_you">Mantenerse en contacto</string>
+    <string name="press_back">Presiona Atrás nuevamente para salir.</string>
+    <string name="agree_to_continue">Aceptar continuar</string>
+    <string name="privacy_policy">Política de privacidad</string>
+    <string name="gallery">Galería</string>
+    <string name="crop">Cultivo</string>
+    <string name="adjust">Ajustar</string>
+    <string name="filters">Filtrar</string>
+    <string name="overlay">Cubrir</string>
+    <string name="sticker">Pegatina</string>
+    <string name="brush">Cepillar</string>
+    <string name="fit">Encajar</string>
+    <string name="blur">Difuminar</string>
+    <string name="splas">Chapoteo</string>
+    <string name="beauty_tool">Belleza</string>
+    <string name="layout">Diseño</string>
+    <string name="border">Frontera</string>
+    <string name="ratio">Proporción</string>
+    <string name="bg">Fondo</string>
+</resources>

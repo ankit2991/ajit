@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/my_background">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_bar"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:orientation="vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="8dp">
+
+
+        <LinearLayout android:id="@+id/ll_border"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/settings_border"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/baloobhai"
+                    android:text="@string/image_visibility_text"
+                    android:textColor="?attr/my_textColor"
+                    android:textSize="15sp" />
+
+                <SeekBar
+                    android:id="@+id/seekBarVisibilityUnlocked"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:max="100"
+                    android:progressBackgroundTint="?attr/my_textColor"
+                    android:progressTint="?attr/my_textColor"
+                    android:thumbTint="?attr/my_textColor" />
+            </LinearLayout>
+
+            <SeekBar
+                android:id="@+id/seekBarDesaturationLocked"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:max="100"
+                android:progressTint="@color/white"
+                android:thumbTint="#000000"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/baloobhai"
+                    android:text="@string/desaturation_home_text"
+                    android:textColor="?attr/my_textColor"
+                    android:textSize="15sp" />
+
+                <SeekBar
+                    android:id="@+id/seekBarDesaturationUnlocked"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:max="100"
+                    android:progressBackgroundTint="?attr/my_textColor"
+                    android:progressTint="?attr/my_textColor"
+                    android:thumbTint="?attr/my_textColor" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/setBgImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/submit_selector_double"
+            android:paddingLeft="12dp" android:paddingTop="6dp" android:paddingBottom="6dp"
+            android:paddingRight="12dp" android:textAllCaps="false"
+             android:text="@string/select_background"
+            android:textColor="?attr/my_textColor"
+            android:fontFamily="@font/baloobhai"
+            android:textSize="13sp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

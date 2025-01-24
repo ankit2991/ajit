@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Photo Editor</string>
+
+    <!--    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>-->
+    <!--    <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--    <string name="admob_inter_id">ca-app-pub-3940256099942544/1033173712</string>-->
+    <!--    <string name="admob_native_id">ca-app-pub-3940256099942544/2247696110</string>-->
+
+    <string name="facebook_id" translatable="false"></string>
+    <string name="firebase_id" translatable="false">1:741192997417:android:ac706f919f4e9433295a38</string>
+    <string name="adjust_id" translatable="false">5e0zj08z5kzk</string>
+
+
+    <string name="facebook_banner_id" translatable="false">IMG_16_9_APP_INSTALL#1156954457977643_1159359654403790</string>
+    <string name="facebook_inter_id" translatable="false">IMG_16_9_APP_INSTALL#1156954457977643_1159359511070471</string>
+    <string name="facebook_inter_start_id" translatable="false">IMG_16_9_APP_INSTALL#1156954457977643_1159359397737149</string>
+    <string name="facebook_native_id" translatable="false">IMG_16_9_APP_INSTALL#1156954457977643_1156959601310462</string>
+    <string name="drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="developerId" translatable="false">your id</string>
+
+    <string name="privacy_policy_url" translatable="false">https://zedlatino.info/privacy-policy-apps.html</string>
+
+    <string name="terms" translatable="false"><![CDATA[
+
+    <h1 class="post-title entry-title"><strong>Privacy policy</strong></h1>
+    <h1 class="post-share-buttons post-share-buttons-top"><strong>&nbsp;</strong></h1>
+    <p><span><span>The </span><span>Locker Room</span><span> will strictly comply with all relevant legislative requirements, and, in the event of any inconsistency, the legislative requirements will override the provisions of this document. We may collect personal information, such as a device ID or other persistent identifier linked to the device or computer, which may be used by a child to play our websites/apps. </span></span></p>
+    <h1 class="post-share-buttons post-share-buttons-top"><strong>&nbsp;</strong></h1>
+    <h3 dir="ltr"><span>How Information is Collected</span><span>: </span></h3>
+    <h1 class="post-share-buttons post-share-buttons-top"><strong>&nbsp;</strong></h1>
+    <div dir="ltr"><span>Information can be collected automatically and programmatically</span></div>
+    <ul>
+        <li><span>When you are browsing our Site</span></li>
+        <li><span>When you are Using/Playing our App/Game</span></li>
+        <li><span>When you contact us through Email/Facebook and/or other Support Channels</span></li>
+    </ul>
+    <h1 class="post-share-buttons post-share-buttons-top"><strong>&nbsp;</strong></h1>
+    <h3 dir="ltr"><span>Information about You That You Share with Us Directly</span></h3>
+    <div dir="ltr"><span>When you use our Services, through a social network , you can provide us information directly. We will store the information you provide us directly on our systems and use it for the purposes described in this Privacy Policy.</span></div>
+    <ul>
+        <li><span>Account and Profile Information</span></li>
+        <li><span>Information about your contacts</span></li>
+        <li><span>Payment Information</span></li>
+        <li><span>Information while getting Customer Support</span></li>
+    </ul>
+    <h1 class="post-share-buttons post-share-buttons-top"><strong>&nbsp;</strong></h1>
+    <h3 dir="ltr"><span>Security</span></h3>
+    <div dir="ltr"><span>The Locker Room has put in place reasonable technical and organizational measures designed to secure users&rsquo; personal information from accidental loss and from unauthorized access, use, alteration or disclosure. However, we cannot guarantee that unauthorized third parties will never be able to overcome those measures or use users&rsquo; personal information for improper purposes. Also please note that email and messaging systems are not considered secure, so our studio discourages users from sending game studio personal information through these mediums.</span></div>
+    <h1 class="post-share-buttons post-share-buttons-top"><strong><br /><br /></strong></h1>
+    <h3 dir="ltr"><span>Sharing Data To Third Parties</span></h3>
+    <div dir="ltr"><span>We may provide aggregated or anonymous information to third parties for the purposes of developing and delivering targeted advertising. We will not share your personal information with such third parties without your consent. We may use information held about you to verify your compliance with any terms and conditions that may apply to the use of our software, applications and/or services.</span></div>
+    <h1 class="post-share-buttons post-share-buttons-top"><strong>&nbsp;</strong></h1>
+    <h3 dir="ltr"><span>Policy Regarding Children</span></h3>
+    <div dir="ltr"><span>The Service is not geared toward children under the age of 13 and does not knowingly collect personal information from children under the age of 13. If users are under 13, they may use and access to the app only with the involvement of a parent or guardian. If a parent believes that his or her child has submitted personal information to the app studio, he or she can contact us through email listed below. If the app studio learns that a child under 13 has provided with personal information , the regarding studio will delete such information from its files as quickly as possible. It recognizes the importance of safeguarding the privacy of children and encourages parents to check and monitor their children\'s use of online activities regularly.</span></div>
+    <h1 class="post-share-buttons post-share-buttons-top"><strong>&nbsp;</strong></h1>
+    <h3 dir="ltr"><span>Contact Us:</span></h3>
+    <div dir="ltr"><span>For more information, contact us at:</span></div>
+    <div dir="ltr"><span data-sheets-userformat="{&quot;2&quot;:515,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:10667209},&quot;12&quot;:0}" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;feedbacklockerroom@gmail.com&quot;}">feedbacklockerroom@gmail.com</span></div>
+    <div class="post-header">&nbsp;</div>
+   ]]></string>
+
+    <string name="email_feedback" translatable="false">lockerroom53@gmail.com</string>
+    <string name="all_image" translatable="false">All Images</string>
+
+    <string name="character_counter_content_description" translatable="false">Characters entered %1$d of %2$d</string>
+    <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    <string name="choose_email" translatable="false">Choose an app</string>
+
+    <string name="define_roundedimageview" translatable="false" />
+
+    <string name="fab_transformation_scrim_behavior" translatable="false">
+         com.google.android.material.transformation.FabTransformationScrimBehavior
+     </string>
+    <string name="fab_transformation_sheet_behavior" translatable="false">
+         com.google.android.material.transformation.FabTransformationSheetBehavior
+     </string>
+
+    <string name="hide_bottom_view_on_scroll_behavior" translatable="false">
+         com.google.android.material.behavior.HideBottomViewOnScrollBehavior
+     </string>
+    <string name="label_background" translatable="false">Background</string>
+    <string name="label_background_full_screen" translatable="false">Full Screen</string>
+    <string name="label_background_height" translatable="false">Padding Height</string>
+    <string name="label_background_radius" translatable="false">Border Radius</string>
+    <string name="label_background_width" translatable="false">Padding Width</string>
+    <string name="label_text" translatable="false">Text</string>
+    <string name="label_text_fonts" translatable="false">Text Font</string>
+    <string name="label_text_shadow" translatable="false">Text Shadow</string>
+    <string name="label_text_size" translatable="false">Text Size</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">
+         com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior
+     </string>
+    <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+
+
+    <string name="s1" translatable="false">Save image</string>
+    <string name="s2" translatable="false">Allow Ad to store image in Picture gallery?</string>
+    <string name="s3" translatable="false">Accept</string>
+    <string name="s4" translatable="false">Decline</string>
+    <string name="s5" translatable="false">Create calendar event</string>
+    <string name="s6" translatable="false">Allow Ad to create a calendar event?</string>
+    <string name="s7" translatable="false">Test Ad</string>
+
+    <string name="search_menu_title" translatable="false">Search</string>
+
+    <string name="splash" translatable="false">All-in-one editor</string>
+    <string name="status_bar_notification_info_overflow" translatable="false">999+</string>
+    <string name="text_images" translatable="false">%1$d Images</string>
+    <string name="text_title_activity_album" translatable="false">Select photos</string>
+    <string name="text_title_dialog_sort_by_album" translatable="false">Sort album by</string>
+    <string name="text_title_dialog_sort_by_photo" translatable="false">Sort photo by</string>
+    <string name="action_sort" translatable="false">sort</string>
+
+    <string-array name="navigation_drawer_items_array">
+        <item>Connect</item>
+        <item>Fixtures</item>
+        <item>Table</item>
+    </string-array>
+
+
+    <string name="feedback" translatable="false">Feed back</string>
+
+    <string name="tap_to_select">Tap to select</string>
+    <string name="sharpen">Sharpen</string>
+
+    <string name="brightness">Brightness</string>
+    <string name="camera">Camera</string>
+    <string name="dialog_discard_title">Changes will not be saved. Do you want to proceed?</string>
+    <string name="discard">Discard</string>
+    <string name="edit">Edit</string>
+    <string name="collage">Collage</string>
+    <string name="contrast">Contrast</string>
+
+
+    <string name="rate_us">Rate us</string>
+    <string name="rating_dialog_feedback_title">Feedback</string>
+    <string name="rating_dialog_maybe_later">Maybe later</string>
+    <string name="rating_dialog_submit">Submit</string>
+    <string name="rating_promote">If Camera Photo Editor Pro makes you happy and satisfy. Please give us 5 stars</string>
+
+    <string name="saturation">Saturation</string>
+    <string name="save">SAVE</string>
+    <string name="save_and_share">Save and Share</string>
+
+
+    <string name="settings">More</string>
+    <string name="share_friend">Share app</string>
+    <string name="share_photo">Share Photo</string>
+
+    <string name="thank_you_2">Have a nice day</string>
+    <string name="thank_you">Keep In touch</string>
+    <string name="press_back">Please press back again to exit</string>
+    <string name="agree_to_continue">Agree To Continue</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="gallery">Gallery</string>
+    <string name="crop">Crop</string>
+    <string name="adjust">Adjust</string>
+    <string name="filters">Filter</string>
+    <string name="overlay">Overlay</string>
+    <string name="sticker">Sticker</string>
+    <string name="brush">Brush</string>
+    <string name="fit">Fit</string>
+    <string name="blur">Blur</string>
+    <string name="splas">Splash</string>
+    <string name="beauty_tool">Beauty</string>
+    <string name="layout">Layout</string>
+    <string name="border">Border</string>
+    <string name="ratio">Ratio</string>
+    <string name="bg">Background</string>
+    <string name="next">Next</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="the_best_customization_for_your_images">The <u>Best Customization</u>  for your images</string>
+    <string name="best_creations"><u>Best creations</u></string>
+    <string name="download_and_use_all_our">Download and use all our </string>
+    <string name="awesome_collages_and_edits">Awesome collages and edits</string>
+    <string name="customize_your_content">Customize your content</string>
+    <string name="create_awesome_picture">Create awesome pictures</string>
+    <string name="get">Get</string>
+    <string name="professional_results"><u>professional results</u></string>
+    <string name="easily">easily</string>
+    <string name="the">The</string>
+    <string name="best_customization"><u>Best Customization</u></string>
+    <string name="for_your_images">for your images</string>
+
+
+    <string name="become_best_creator">Become the best creator</string>
+    <string name="tap_to_unlock">Tap to unlock all tools</string>
+    <string name="all_features_and_possibilities">All features and possibilities in your hands</string>
+    <string name="unlock_filter">Unlock\nFilter</string>
+    <string name="unlock_sticker">Unlock\nSticker</string>
+    <string name="unlock_splash">Unlock\nSplash</string>
+    <string name="unlock_beauty">Unlock\nBeauty</string>
+</resources>

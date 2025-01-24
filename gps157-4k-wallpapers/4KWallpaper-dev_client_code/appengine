@@ -1,0 +1,11 @@
+Issue:
+1. this link is not working
+https://jwapisv1-dot-jesuswallpapper.el.r.appspot.com/jesuswallpaper/privacy_policy.html
+https://jwapisv1-dot-jesuswallpapper.el.r.appspot.com/jesuswallpaper/live_help.html
+
+2. Can we delete file from bucket? below is api for delete images from storage.
+- https://jwapisv1-dot-jesuswallpapper.el.r.appspot.com/jesuswallpaper/v1/delete_post_new.php
+- https://jwapisv1-dot-jesuswallpapper.el.r.appspot.com/jesuswallpaper/v1/delete_post_live_new.php
+- https://jwapisv1-dot-jesuswallpapper.el.r.appspot.com/jesuswallpaper/v1/delete_post_stock_new.php
+
+Query

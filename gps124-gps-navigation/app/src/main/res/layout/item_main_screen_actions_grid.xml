@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:elevation="@dimen/_5sdp"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_8sdp">
+
+
+    <ImageView
+        android:id="@+id/imageNew"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_new"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_geo_earth"
+            app:layout_constraintBottom_toTopOf="@+id/cvButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/cvButton"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:minHeight="@dimen/_32sdp"
+            app:cardCornerRadius="@dimen/_3sdp"
+            app:cardElevation="0dp"
+            android:backgroundTint="@color/transpresnt"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/clBottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.gpsnavigation.maps.gpsroutefinder.routemap.utility.AutoResizeTextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:ellipsize="none"
+                    android:focusable="true"
+                    android:gravity="start"
+                    android:paddingStart="@dimen/_8sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:singleLine="true"
+                    app:autoSizeTextType="uniform"
+                    app:autoSizeMinTextSize="@dimen/_5ssp"
+                    app:autoSizeMaxTextSize="@dimen/_12ssp"
+                    app:autoSizeStepGranularity="1sp"
+                    android:text="@string/route_finder"
+                    android:textColor="@android:color/black"
+                    android:textSize="10.5sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.gpsnavigation.maps.gpsroutefinder.routemap.utility.AutoResizeTextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="none"
+                    android:focusable="true"
+                    android:gravity="start"
+                    android:visibility="gone"
+                    android:textColor="@color/black"
+                    android:paddingStart="@dimen/_8sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:singleLine="true"
+                    android:text="@string/route_finder"
+                    app:autoSizeTextType="uniform"
+                    app:autoSizeMinTextSize="@dimen/_5ssp"
+                    app:autoSizeMaxTextSize="@dimen/_12ssp"
+                    app:autoSizeStepGranularity="2sp"
+                   android:textSize="@dimen/_6ssp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:id="@+id/rlComingSoon"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            android:background="@color/black"
+            android:alpha=".4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <TextView
+                android:id="@+id/txtComingSoon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:fontFamily="@font/mavenpro_bold"
+                android:padding="@dimen/_10sdp"
+                android:text="Coming soon..."
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10ssp"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+

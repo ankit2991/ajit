@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="sugest_update_title">אַפּדייט בנימצא</string>
+    <string name="sugest_update_message">נייַער אַפּדייט בנימצא אויף Google Play, ביטע אַפּדייט דיין ווערסיע</string>
+    <string name="force_update_title">אַפּדייט בנימצא</string>
+    <string name="force_update_message">נייַער אַפּדייט בנימצא אויף Google Play, ביטע אַפּדייט דיין ווערסיע</string>
+    <string name="update_ok">אַפּדייט</string>
+    <string name="update_no">נישט אַרײַן</string>
+    <string name="app_name">#נאָכריכקי</string>
+    <string name="in_app_name">נאָכריכקי</string>
+    <string name="splash_app_name">SMS נאָכריכקי</string>
+    <string name="loading_msg">ביטע ווארטן...</string>
+    <string name="ads_loading_msg">ווערט פֿאַראַן אַד...</string>
+    <string name="shortcut_compose_long_label">נייַ קאָנווערסיישאַן</string>
+    <string name="shortcut_compose_short_label">קאָמפּאָז</string>
+    <string name="shortcut_compose_disabled_message">קאָרט געדריקט</string>
+    <string name="title_archived">אַרכיוועדיק נאָכריכקי</string>
+    <string name="title_settings">ענטווייקלונג</string>
+    <string name="title_notification_prefs">עדות</string>
+    <string name="title_theme">נעכט</string>
+    <string name="title_conversations">זוכן נומער, נאָמען &amp; אַן אַרייַנגענומען</string>
+    <string name="title_compose">טיפּ נאָמען אָדער טעלעפֿאָן נומער</string>
+    <string name="setup_skip">אָפּלייגן</string>
+    <string name="setup_next">ווײַטער</string>
+    <string name="menu_add_person">צולייגן אַ מענטש</string>
+    <string name="menu_call">אָנרופֿן</string>
+    <string name="menu_info">דעטאַלעס</string>
+    <string name="menu_save">שפּעיך צו גאַלעריע</string>
+    <string name="menu_share">שערן</string>
+    <string name="main_drawer_open_cd">אָפּן נאַוויגאַציע דראָווער</string>
+    <string name="main_title_selected">%d אויסגעוואַלט</string>
+    <string name="main_menu_clear">אַראַפֿצייגן</string>
+    <string name="main_menu_archive">אַרכיוועדיק</string>
+    <string name="main_menu_unarchive">אַרכיוועדיק</string>
+    <string name="main_menu_delete">לעשן צופֿאָלן</string>
+    <string name="main_menu_add_contact">צולייגן צו קאָנטאַקטס</string>
+    <string name="main_menu_pin">פּינט צו הערן</string>
+    <string name="main_menu_unpin">אָפּפֿינד</string>
+    <string name="main_menu_read">מאַרק אַז לעזן</string>
+    <string name="main_menu_unread">מאַרק אַז אומקרייען</string>
+    <string name="select_all">אַלע אויסוואַלטן</string>
+    <string name="deselect_all">דעסעלעקט אַלע</string>
+    <string name="main_menu_block">בלאָק</string>
+    <string name="main_syncing">רעגולירן נאָכריכקי...</string>
+    <string name="main_sender_you">איר: %s</string>
+    <string name="main_draft">דראָפֿט: %s</string>
+    <string name="main_message_results_title">רעזולטאַט אין נאָכריכקי</string>
+    <string name="main_message_results">%d נאָכריכקי</string>
+    <string name="inbox_empty_text">דײַן קאָנווערסיישאַנז וועט אַרויסקומען דאָ</string>
+    <string name="inbox_search_empty_text">נישט קיין רעזולטאַטן</string>
+    <string name="archived_empty_text">נישט אַרכיוועדיק קאָנווערסיישאַנז נאָך..</string>
+    <string name="main_fab_cd">אָנהייב נייַ קאָנווערסיישאַן</string>
+    <string name="main_default_sms_title">ליב צו נאָכריכקי ?</string>
+    <string name="main_default_sms_message">מאַכן SMS אַפּ דיין נאָכריכקי אַפּ</string>
+    <string name="main_default_sms_change">שניי</string>
+    <string name="main_permission_required">דערלויבניס נאָטווענדיק</string>
+    <string name="main_permission_sms">SMS דאַרף דערלויבניס צו שיקן און קוקן אוןזערן SMS נאַכריכקי</string>
+    <string name="main_permission_contacts">SMS דאַרף דערלויבניס צו קוקן אייער קאָנטאַקטס</string>
+    <string name="main_permission_allow">אַלאָוו</string>
+    <string name="main_permission_allow_read">לאַבן דורך און שרײַב דערלויבניס</string>
+    <string name="drawer_inbox">קאָנווערסיישאַן</string>
+    <string name="drawer_archived">אַרכיוועדיק</string>
+    <string name="drawer_scheduled">געפֿיקסטער נאָכריכקי</string>
+    <string name="drawer_blocking">געפֿיקסטער ליסטע</string>
+    <string name="drawer_calldorado">קאַלער ענטווייקלונג</string>
+    <string name="drawer_more">מער</string>
+    <string name="drawer_group">גרופּע מעסעדזש</string>
+    <string name="drawer_settings">ענטווייקלונג</string>
+    <string name="drawer_remove_ads">באַוויז רעקלאַמען</string>
+    <string name="drawer_help">הילף &amp; רעזולטאַט</string>
+    <string name="drawer_invite">פֿריינדס פֿאַראַן</string>
+    <string name="dialog_delete_title">לעזן אַרויס</string>
+
+
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">זענס זי זיך איר זיכער אויב איר וואָלט דאָ דעליט דעם געזעצט?</item>
+        <item quantity="other">זענס זי זיך איר זיכער אויב איר וואָלט דאָ דעליט %d געזעצט?</item>
+    </plurals>
+
+    <string-array name="message_options">
+        <item>קאָפּירן טעקסט</item>
+        <item>ווײַטערפֿירן</item>
+        <item>דערלויבן</item>
+    </string-array>
+
+    <string name="compose_number_picker_title">קלייַבן אַ טעלעפאָן נומער</string>
+    <string name="compose_number_picker_default">%s ∙ שטאַנדאַרד</string>
+    <string name="compose_number_picker_once">נאָר אַ דאָס מאָל</string>
+    <string name="compose_number_picker_always">עמעס</string>
+    <string name="compose_title_selected">%d אויסגעוואַלט</string>
+    <string name="compose_subtitle_results">%1$d פון %2$d רעזולטאַטן</string>
+    <string name="contact_selected">%1$d פון %2$d אויסגעוואַלט</string>
+    <string name="compose_send_group_title">שיקן ווי גרופּע מעסעדזש</string>
+    <string name="compose_send_group_summary">מיטוואָרטער און ענטוואָרטן וועט זיין זעהן צו אַלע</string>
+    <string name="compose_messages_empty">אָנהייב איר קאָנווערסיישאַן. זאָגט אַזוי אַגרעאַט!</string>
+    <string name="compose_vcard_label">קאָנטאַקט קאָרטע</string>
+    <string name="compose_scheduled_for">אַראָפּ אויף</string>
+    <string name="compose_scheduled_future"> צייַט מוז בייַן אין די צוקונפֿט!</string>
+    <string name="compose_scheduled_toast">אַנגעלייגט צו געפֿיקסטער מעסעדזשעס</string>
+    <string name="compose_hint">שרײַבן דאָ...</string>
+    <string name="compose_menu_copy">קאָפּירן טעקסט</string>
+    <string name="compose_menu_forward">ווײַטערפֿירן</string>
+    <string name="compose_menu_delete">דערלויבן</string>
+    <string name="compose_menu_previous">אַרײַנמאַכן</string>
+    <string name="compose_menu_next">נעקסט</string>
+    <string name="compose_menu_clear">קלערן</string>
+    <string name="compose_details_title">מעסעדזש דעטאַלעס</string>
+    <string name="compose_details_type">אַרט: %s</string>
+    <string name="compose_details_from">פון: %s</string>
+    <string name="compose_details_to">צו: %s</string>
+    <string name="compose_details_subject">סוביעקט: %s</string>
+    <string name="compose_details_priority">פּרייאָריטעט: %s</string>
+    <string name="compose_details_size">גרייס: %s</string>
+    <string name="compose_details_sent">אַפּגעשיקט: %s</string>
+    <string name="compose_details_received">אָנגענומען: %s</string>
+    <string name="compose_details_delivered">אַפּגעשטעלט: %s</string>
+    <string name="compose_details_error_code">פֿעהלער קאָד: %d</string>
+    <string name="compose_attach_cd">דערלויבן אַ צוליקונג</string>
+    <string name="compose_gallery_cd">צולייגן אַ פֿאָטאָ</string>
+    <string name="compose_camera_cd">נעמן אַ פֿאָטאָ</string>
+    <string name="compose_schedule_cd">געפֿיקסטער מעסעדזש שטעלן</string>
+    <string name="compose_contact_cd">צולייגן אַ קאָנטאַקט</string>
+    <string name="compose_contact_error">ערער קרייעט אַ קאָנטאַקט</string>
+    <string name="compose_sim_cd">%s אויסגעוואַלט, שניי SIM קאַרט</string>
+    <string name="compose_send_cd">שיקן מעסעדזשע</string>
+    <string name="message_status_sending">שיקן…</string>
+    <string name="message_status_delivered">אַפּגעשטעלט %s</string>
+    <string name="message_status_failed">שיקן אַריין געפֿאַלן</string>
+    <string name="info_title">קאָנטאַקט דעטאַלעס</string>
+    <string name="info_copied_address">אַדרעס אַקאַפּעס</string>
+    <string name="info_name">קאָנווערסיישאַן טיטל</string>
+    <string name="info_notifications">עדות</string>
+    <string name="info_theme">נעכט</string>
+    <string name="info_archive">אַרכיוועדיק</string>
+    <string name="info_unarchive">אַרכיוועדיק</string>
+    <string name="info_block">בלאָק</string>
+    <string name="info_unblock">אָפּבלאָק</string>
+    <string name="info_delete">דעליט קאָנווערסיישאַן</string>
+    <string name="gallery_error">קען נישט לאָודן מעדיע</string>
+    <string name="gallery_toast_saved">אַפּגעלייגט צו גאַלעריע</string>
+    <string name="backup_title">באַקאַפּ און ריסטאָר</string>
+    <string name="backup_backing_up">באַקאַפּ מעסעדזשעס</string>
+    <string name="backup_restoring">ריסטאָר מיט אונטערן באַקאַפּ</string>
+    <string name="backup_last">לעצט באַקאַפּ</string>
+    <string name="backup_loading">לאָודן…</string>
+    <string name="backup_never">נימאָל</string>
+    <string name="backup_restore_title">ריסטאָר</string>
+    <string name="backup_restore_summary">אַוועקצייכן אַ באַקאַפּ</string>
+    <string name="backup_restore_error_plus">ביטע נאַפּרייען SMS+ צו נוצן באַקאַפּ און ריסטאָר</string>
+    <string name="backup_restore_error_backup">באַקאַפּ אין פּראָגרעס…</string>
+    <string name="backup_restore_error_restore">ריסטאָר אין פּראָגרעס…</string>
+    <string name="backup_restore_confirm_title">ריסטאָר פֿון באַקאַפּ</string>
+    <string name="backup_restore_confirm_message">זענס זי זיך איר זיכער אויב איר וואָלט ריסטאָר דײַן מעסעדזשעס פֿון דעם באַקאַפּ?</string>
+    <string name="backup_restore_stop_title">אויפּהערן ריסטאָר</string>
+    <string name="backup_restore_stop_message">מעסעדזשעס וואָס האָבן שוין גערעסטאָרען וועט בלייַבן אויף דײַן גערעט</string>
+    <string name="backup_restore_dialog_title">באַקאַפּס</string>
+    <string name="backup_restore_dialog_summary">/SMS מעסעדזשעס/באַקאַפּס</string>
+    <string name="backup_restore_dialog_empty">נישט באַקאַפּס געפֿונען</string>
+
+    <plurals name="backup_message_count">
+        <item quantity="zero">נישט קיין מעסעדזשעס</item>
+        <item quantity="one">%d מעסעדזשע</item>
+        <item quantity="other">%d מעסעדזשעס</item>
+    </plurals>
+
+
+    <string name="backup_disclaimer">ביז צו דאַרף, מיר האָבן בישעטן נאָר SMS דורך זיכערונג און ווידערשטעלן!</string>
+    <string name="backup_now">זיכערונג</string>
+    <string name="backup_progress_parsing">דערקליינען זיכערונג…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d מעלדונגען</string>
+    <string name="backup_progress_saving">ראַטן זיכערונג…</string>
+    <string name="backup_progress_syncing">סינקינג מעלדונגען…</string>
+    <string name="backup_progress_finished">אָפּגעשפּילט!</string>
+    <string name="backup_notification_channel_name">זיכערונג און אַרויף הערשטעלן</string>
+    <string name="Message_notification_channel_name">שעכער מעלדונג</string>
+    <string name="scheduled_title">געשטעלט</string>
+    <string name="schedule_guide">איר קענט געשטעלן אַ מעלדונג דורך קליקן אויף דער צוגלייך באַטן וואס איז געווען צו מעלדונג קאָנווערסאַטיאָן סקרין.</string>
+    <string name="scheduled_empty_description">אַוטאָמאַטיש שיקן אַ מעלדונג, ביי די אַקזאַקט מאָמענט איר\'ד ליב</string>
+    <string name="scheduled_empty_message_1">הי! אויף וואָס איז די צייט צו פייערן מאָמענט?</string>
+    <string name="scheduled_empty_message_2">עס\'ס אויף 5 טן מאַרץ </string>
+    <string name="scheduled_empty_message_3">היי! קוק אויף וואָס אַ גרויסער פריינד איך בין, פייערט אייער טאָג</string>
+    <string name="scheduled_empty_message_3_timestamp">שיקט אויף מאַרץ 5טן&#x200A;</string>
+    <string name="scheduled_compose_cd">געשטעלן אַ מעלדונג</string>
+    <string name="scheduled_options_title">געשטעלט מעלדונג</string>
+    <string-array name="scheduled_options">
+        <item>איצט שיקן</item>
+        <item>עקספּירט טעקסט</item>
+        <item>אויסמעקן</item>
+    </string-array>
+    <string name="settings_category_appearance">אַרויסזעהן</string>
+    <string name="settings_category_general">גענעראַל</string>
+    <string name="settings_categoryreply">אַנטוואָרט</string>
+    <string name="settings_night_title">נאַכט מאָדע</string>
+    <string name="settings_text_size_title">שריפּט גרייס</string>
+    <string name="settings_notifications_title">אָנהייבן</string>
+    <string name="settings_notifications_o_summary">קלאַפּן צו פֿאַרבעסערן</string>
+    <string name="settings_notification_actions_title">אַקציעס</string>
+    <string name="settings_notification_action_1">קנעפּט יאַ</string>
+    <string name="settings_notification_action_2">קנעפּט צו</string>
+    <string name="settings_notification_action_3">קנעפּט דריי</string>
+    <string name="settings_notification_previews_title">באַשטעטיגונג פּרעוויו</string>
+    <string name="settings_notification_wake_title">וואַקע שקערן</string>
+    <string name="settings_vibration_title">ווייבראַציע</string>
+    <string name="settings_ringtone_title">שלעגן</string>
+    <string name="settings_ringtone_none">קיין</string>
+    <string name="settings_reply_title">אַנטוואָרט</string>
+    <string name="settings_reply_summary">פאָפּ-אָפּענונג פֿאַר נייַע מעלדונגן</string>
+    <string name="settings_reply_tap_dismiss_title">קלאַץ צו דיסמיס</string>
+    <string name="settings_reply_tap_dismiss_summary">קלאַץ אויסן פֿון די פּאָפּ-אָפּענונג צו שליסן עס</string>
+    <string name="settings_swipe_actions">שוועפּ טעגנונג</string>
+    <string name="settings_swipe_actions_right">רעכטן שוועפּ</string>
+    <string name="settings_swipe_actions_left">לינקס שוועפּ</string>
+    <string name="settings_swipe_actions_change">שניי</string>
+    <string name="not_now_txt">איצט נישט</string>
+    <string name="process_title">דעם פּראָצעס איז אַפֿגעגאַנגען אַ צייַט</string>
+    <string name="syncing_done">מעלדונג סינקינג געדאָאַן....</string>
+    <string name="all_set_txt">אַלע זעצן. איר זענט ברייט צו גיין</string>
+    <string name="Personal">אַלע מעלדונגן</string>
+    <string name="Other">באַקאַנט </string>
+    <string name="Spam">שפאַם</string>
+    <string name="setting">אַיינשטעלונג</string>
+    <string name="Share">טיילן</string>
+    <string name="Rate">באַווערט אונז</string>
+    <string name="edit">רעדאַקטירן</string>
+    <string name="DarkMode">דאַרק מאָדע</string>
+    <string name="BrightMode">העלל מאָדע</string>
+    <string name="Camera">קאַמעראַ</string>
+    <string name="Gallery">גאַלעריע</string>
+    <string name="Gif">גיף</string>
+    <string name="Contact">קאָנטאַקט</string>
+    <string name="Schedule">געשטעלט</string>
+    <string name="Location">לאָקאַטיאָן</string>
+    <string name="Notes">הערות</string>
+    <string name="no_msg">ניט קיין מעלדונגן אָבער…</string>
+    <string name="Start_Chat">אָנהייב מעלדונג</string>
+    <string name="Language">שפּראַך</string>
+    <string name="rate_text">רעקאָמענדירן אונז צו אנדערע ביי \nבאַווערט אונז אויף פּליי מאַרק!</string>
+    <string name="sort_by">רעדזירן דורך</string>
+    <string-array name="settings_swipe_actions">
+        <item>קיין</item>
+        <item>אַרכיוון</item>
+        <item>אויסמעקן</item>
+        <item>רופֿן</item>
+        <item>מאַרק ווי געלעזן</item>
+        <item>מאַרק אַלס אונגעלעזן</item>
+    </string-array>
+    <string name="settings_mms_size_title">אַוטאָ-קאַמפּרעס ממטשען מצורפים</string>
+    <string name="settings_sync_title">סינכראָן מעלדונגען</string>
+    <string name="settings_sync_summary">רי-סינכראָן דײַן מעלדונגען מיט די נאַטיווע אַנדרויד SMS דאַטאַבאַז</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">אָפּרופּן קאָנטראָל</string>
+    <string name="blocking_manager_sia_title">זאָל איך אַנטוואָרטן?</string>
+    <string name="blocked_messages_title">געשפּערעטע נאָטיצן</string>
+    <string name="blocked_messages_empty">דײַנע געשפּערעטע נאָטיצן וועט אָפּטראָגן דאָ</string>
+    <string name="blocking_block_title">בלאָקירן</string>
+    <string name="blocking_unblock_title">אָנבלאָק</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">קאָנטיניו צו %s און בלאָק דעם נומער האָט ערשטעקט</item>
+        <item quantity="other">קאָנטיניו צו %s און בלאָק די נומערס די האָבן ערשטעקט</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">קאָנטיניו צו %s און אַללאָו דעם נומער די האָט ערשטעקט</item>
+        <item quantity="other">קאָנטיניו צו %s און אַללאָו די נומערס די האָבן ערשטעקט</item>
+    </plurals>
+    <string name="widget_loading">לאַדן…</string>
+    <string name="widget_more">זען מער געשפּרעכן</string>
+    <string name="qkreply_menu_read">אַריינלייגן אויסלעגן</string>
+    <string name="qkreply_menu_call">אָפֿרופֿן</string>
+    <string name="qkreply_menu_delete">לעשן אָפֿ</string>
+    <string name="qkreply_menu_expand">מפֿער אַרויפֿהיטן</string>
+    <string name="qkreply_menu_collapse">וויו וויו</string>
+    <string name="qkreply_menu_view">אָפּענן דיא געשפּרעכ</string>
+    <string name="changelog_title">נײַ אין SMS</string>
+    <string name="changelog_version">פֿאַרזיאָן %s</string>
+    <string name="changelog_added">צוגעפּלוסט</string>
+    <string name="changelog_improved">פֿאַרבעסערט</string>
+    <string name="changelog_fixed">פֿיקסד</string>
+    <string name="changelog_more">מער</string>
+    <string name="changelog_dismiss">אָפֿווײַזן</string>
+    <string-array name="notification_actions">
+        <item>נישט</item>
+        <item>אַריינלייגן אויסלעגן</item>
+        <item>אַנטוואָרטן</item>
+        <item>אָפֿרופֿן</item>
+        <item>לעשן אָפֿ</item>
+    </string-array>
+    <string name="button_yes">יא</string>
+    <string name="button_continue">פּרייַן פֿאָרטזעצן</string>
+    <string name="button_cancel">אַנולירן</string>
+    <string name="button_delete">לעשן אָפֿ</string>
+    <string name="button_save">שפּעכן</string>
+    <string name="button_stop">אָפֿקיירן</string>
+    <string name="button_more">מער</string>
+    <string name="button_set">סעטן</string>
+    <string name="button_undo">אַנדאָ</string>
+    <string name="toast_copied">קאָפּיד</string>
+    <string name="toast_archived">אַרכיווירט קאָנווערסאַטיאָן</string>
+    <string name="toast_sms_plus">איר דאַרפֿט שפּערן SMS+ ווערן ניצן דעם קנעפּל.</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">נײַ מעשׂסעדזש</item>
+        <item quantity="other">%s נייַ מעסעדזשעס</item>
+    </plurals>
+    <string name="notification_message_failed_title">מעשׂסעדזש נישט געשיקט</string>
+    <string name="notification_message_failed_text">די מעשׂסעדזש אַן %s האָט נישט געשיקט</string>
+    <string name="privacy_policy">פּריוואַטקייט ריכטליינג</string>
+    <string name="pocket_data_on">פּאַקט דאַטע מוסט בײַן וווּרד אין די געשיקט פֿון שיקן MMS!</string>
+    <string name="inapp_details" translatable="false">צו רעמאָווע אַדס, פֿאַרזוכן פּרעמיער נאָרמאַל אויפֿלאַגן מיט דאַרק-ליכט מאָדע שטיצן\nגעשפּערטע SMS מיט שטיצן.</string>
+    <string name="drawer_removeAds">אַרויסנעמען אַדס</string>
+    <string name="in_app_ads">מעססאַגעס_רעד</string>
+    <string name="dialog_delete_message">ביסט איר זיכער וואָס איר וואָלט ווילן די לעשון דעם מעסעדזש?</string>
+    <string name="compose_bar_not_support">די אויסטעלער אָנהייבער איז נישט שטיצן אַנטוואָרטן</string>
+    <string name="default_name">צו שיקן אָדער צו באַקומען אַן SMS, מוז איר אַנסטעלן עס ווי די שטאַנדאַרט אַפּ. ווילן איר אַלץ אַ דעפֿאַולט אַפּליקאַציע צו ווערן?</string>
+    <string name="confirm_delete">לעשטעטיק די לעשון</string>
+    <string name="confirm_delete_text">ביסט איר זיכער וואָס איר וואָלט ווילן דעמאָלע די ציט?</string>
+    <string name="title">טיטל</string>
+    <string name="note">מערקונג</string>
+    <string name="search">זוכן</string>
+    <string name="settings">עסטעלונגען</string>
+    <string name="share_to">טיילן צו:</string>
+    <string name="sort">סאָרט</string>
+    <string name="empty_list_text">דרוק די קנעפּל אויף די אונטן רעכט, אויף אַנלייגן אַ נײַע מערקונג!</string>
+    <string name="new_note">נײַע מערקונג</string>
+    <string name="undo">אַנדאָ</string>
+    <string name="delete">לעשון אָפֿ</string>
+    <string name="exception">אַסנד</string>
+    <string name="edit_note">רעדאַגירן מערקונג</string>
+    <string name="drawer_feedback">שיקן אַרויספֿירן</string>
+    <string name="drawer_mode">ליכט מאָדע</string>
+    <string name="unlimited_access_user">אָנלימיטיד אַקסעס צו אַלע פֿיגורן</string>
+    <string name="pro_user">איר זענט אַ פּרעמיער ניצן</string>
+    <string name="sub_info_text"><b>די אַבאָנעמענט רעניווס אויטאָמאַטיש דערוינט אַפּ ביז איר דרייַט זי אָפּ.</b></string>
+    <string name="cancel_purchase">איר קענט אָפֿשאַפּן אַוטאָמאַטיש רעניווינגען אין אַבאָנעמענט אויף גוגל פּליי</string>
+    <string name="remove_ads">אַרויסנעמען אַדס</string>
+    <string name="no_ads">קיין אַדס</string>
+    <string name="free_trial">7 טעגע פֿרייַ פֿריש פֿאַרזוכן, דאָן אויטאָ-רעניווינגען</string>
+    <string name="can_not_talk_right_now">סאָרי, איך קען נישט רעדן רײַט אַרויס</string>
+    <string name="can_call_you_later">קען איך רופן דיר שפּעטער?</string>
+    <string name="i_am_on_my_way">איך בין אויף מײַן וועג</string>
+    <string name="write_personal_message">שרייבן אַ פּערזאָנאַל מעסעדזש</string>
+    <string name="create_reminder">שאַפֿן נייַער רעמינדער</string>
+    <string name="remind_me_about">רעמינדער מיר וועגן</string>
+    <string name="no_title">נישט טיטל</string>
+    <string name="edit_contact">רעדאַגירן קאָנטאַקט</string>
+    <string name="add_contact">אַרייַנגיין קאָנטאַקט</string>
+    <string name="messages">מעסעדזשעס</string>
+    <string name="send_mail">שפּיץ מעל</string>
+    <string name="calendar">קאַלענדאַר</string>
+    <string name="web">וועב</string>
+    <string-array name="night_modes">
+        <item>סיסטעם</item>
+        <item>הייל טון</item>
+        <item>דאַרק טון</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>ווייַזן נאָמען און מעסעדזש</item>
+        <item>ווייַזן נאָמען</item>
+        <item>פאַרבאַרגן מעקער</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>קליין</item>
+        <item>נאָרמאַל</item>
+        <item>גרויס</item>
+        <item>גרעסער</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>קיין פּרעזענט</item>
+        <item>קורץ</item>
+        <item>מיטל</item>
+        <item>לאַנג</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>אַווטאָמאַטיש</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>קיין דרוק</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>אָקיי</item>
+        <item>געב מיר אַ מאָמענט</item>
+        <item>איך בין אויף מײַן וועג</item>
+        <item>דאַנק</item>
+        <item>זאונט גוט</item>
+        <item>אַ וואס איז דאָס?</item>
+        <item>איינגעשריבן</item>
+        <item>ניין</item>
+        <item>איך האב דיך ליב</item>
+        <item>עס טוט מיר לעיד</item>
+        <item>LOL</item>
+        <item>דאָס איז אָקיי</item>
+    </string-array>
+    <string name="default_title">אַלאַו סמס אַפּ צו זיין דיפֿאָלט אַפּ</string>
+    <string name="set_as_defaault">זעט אַז דיפֿאָלט</string>
+    <string name="love_app_title">מאַכן סמס אַפּ צו דײן דיפֿאָלט
+ סמס אַפּ</string>
+    <string-array name="gif">
+        <item>טייער פֿינגער</item>
+        <item>Emoji</item>
+        <item>פריכטער און גרינזן</item>
+        <item>האַלאָווינין</item>
+        <item>אַהאָבע</item>
+    </string-array>
+    <string name="Sticker">שטיקער</string>
+    <string name="no_connection">קיין אינטערנעץ פֿאַרבינדונג.</string>
+    <string-array name="sticker">
+        <item>בוי</item>
+        <item>קאַרטון</item>
+        <item>פֿאָלטש</item>
+        <item>פֿריילינג</item>
+        <item>פֿרוכט</item>
+        <item>פֿון</item>
+        <item>מיידל</item>
+        <item>אַהאָבע שטיקער</item>
+        <item>אַנדערע</item>
+        <item>וועלף</item>
+    </string-array>
+    <string name="open_link_to_browser">אָפֿנעמען לינק צו בראָוזער</string>
+    <string name="battery_dialog"> ניט וואָלן צו פֿאַרמיסן וויכטיק סמס? \n
+טיירן אויף באַטעריע אָפּטימיזאַציע</string>
+    <string name="reason_to_change_battery_optimization_setting">נאַוויגייט צו אַפּ אינפֿאָ &gt; אַדוואַנסירט &gt; באַטעריי אָפּטימיזאַטיאָן \nאון אויסוואַלן ‘קיין אָפּטימייז’</string>
+    <string name="feedback_txt">זאָגן אונדז אָפּ אײַער ערפֿאַרונג און געבן פֿאַרבעסערונג צו פֿאַרבעסערן מעסעדזש אַפּ.</string>
+    <string name="reason_to_change_battery"> אַדוואַנסירט &gt; באַטעריי אָפּטימיזאַטיאָן &gt; ‘קיין אָפּטימייז’</string>
+    <string name="drawer_transaction">טראַנזאַקציעס</string>
+    <string name="drawer_promotion">פּראָמאָציעס</string>
+    <string name="unknown">אומבאַקאַנט </string>
+    <string name="priva"><u>דאַטער שטאָל</u></string>
+    <string name="smsfilter">סמס פֿילטער</string>
+    <string name="by_click_t_c" translatable="false"><u>אינדעם קליקן דו אָקצעפּטירן אונדזער נוציצונגען און די פֿאַרטרעטן און באדינגונגען.</u></string>
+    <string name="continue_without_sub"><u>ווײַטער אָן אָן אָבאָ</u></string>
+    <string name="text_free_trial">געניס דעם טאָג <b> פֿרייַ פּרובירן</b> - דעננישן דעננען € / מאָנאַט</string>
+    <string name="calldorado_message">קוקן אַלע דײַן <b>מעסעדזשעס</b> פֿאָר די סוף פון דער אָנרוף! עס איז נייַעס</string>
+    <string name="privacy_terms_description">אַפּרובירן, איר נעמן און טוישן די נוציצונגען פון נוצן און די דאַטער שטאָל.</string>
+    <string name="draw_over_description"><![CDATA[צו ווייזן אויף טאָפּ פון אנדערע אפּפּס אונדזער סמס מעסעדזש. באַקומען אַלער פאָטענציע פון אונדזער סמס אַרופּרופּ איצטעלן און מער]]></string>
+    <string name="ad_label">רעקלאַמע</string>
+    <string name="onboarding_continue_button">ווײַטער</string>
+    <string name="onboarding_step_1_title">SMS און מעסעדזשער מענדזשער</string>
+    <string name="onboarding_step_1_subtitle">שמועסן מיט פריינדס, מאַכן גרופּן און ארגאַניזירן דיין אינבאָקס</string>
+    <string name="onboarding_step_1_hight_light">יוניק צוגאַנג צו איר</string>
+    <string name="onboarding_step_2_title">אָרגאַניזירן &amp; געשעפֿט מעסעדזשעס</string>
+    <string name="onboarding_step_2_subtitle">באַקאַפּ און ריסטאָר דיין מעסעדזשעס</string>
+    <string name="onboarding_step_2_hight_light">דויזנדס ניצערס ווי עס</string>
+    <string name="onboarding_step_3_title">געניס לעבן &amp; לאָזן אונדז נעמען זיך פֿאַר די אינבאָקס</string>
+    <string name="onboarding_step_3_subtitle">אַננעמען די פּערמישאָנס אין אָרדער פֿאַר אונדז צו העלפֿן איינריכן דיין אינבאָקס.</string>
+    <string name="onboarding_step_3_hight_light">וואס און וואס ליגט</string>
+    <string name="onboarding_allow_access_button">אַלאַו צוטריט</string>
+    <string name="onboarding_step_4_title">פֿאַרבעסערן דײַן באַטעריע אַבער לאָזן אונדז טאָן די אַרבעט</string>
+    <string name="onboarding_step_4_subtitle">מיר וועלן נעמען זיך פֿון דרייַגע סמס אינטעראַפּציעס.</string>
+    <string name="onboarding_step_4_hight_light">דויזנדס ניצערס ווי עס</string>
+    <string name="onboarding_step_5_title">ספּליט סקרין ארבעט אויף אנדערע אפּפּס ווי טשאַטט</string>
+    <string name="onboarding_step_5_subtitle">געניס אונדזער וואַן דערוואַנדערלעך קאַלל ווידזשעט וואָס לאָזט איר מאַלטיטאַסק</string>
+    <string name="onboarding_step_5_hight_light">דויזנדס ניצערס ווי עס</string>
+    <string name="payment_card_title">טשאַט איצט!</string>
+    <string name="payment_card_price"><![CDATA[3 טאָג פֿרייַ, %s / %s]]></string>
+    <string name="payment_card_button">פֿאַרזוכן נאָך פֿרייַ</string>
+    <string name="payment_card_hight_light">געזיכערט מיט שפּיל סטאָרע</string>
+    <string name="payment_card_weekly">וועכליך</string>
+    <string name="payment_card_monthly">מאָנאַטלעך</string>
+    <string name="payment_card_yearly">יאָרלעך</string>
+    <string name="payment_card_auto_renew">אַוטאָ רעניואַבאַלע אַבאָנעמענט, קאַנסעל גלייך איצט</string>
+    <string name="accessibility_service_description">דיין באַניצערבאַרקייט סערוויס באַשרייַבונג</string>
+    <string name="permission_txt"><font color="#FF8A00">באַדאַרף אַזוייכנט:</font>\n לייענען טעלעפֿאָן שטאַט און דראָן יבער אנדערע אפּפּס</string>
+    <string name="opt_privacy">ווײַטער, איר אַקסעפּטירן און גאָדקייטיגן די נוציצונגען פון נוצן און די דאַטער שטאָל.</string>
+    <string name="permission_required">אויסלייגן איבערגעבן</string>
+    <string name="permission_dialog_body">דעם אַפּ קען ניט ארבעטן ריכטיק אָן אָן אָפּ אָן איינער פּערמישאָן. פֿאָלגן די אנווייזונגען צו דערהיינט עס:\n\n1. סעלעקטירן "איבערגעבען"\n2. פינדן "טעלעפֿאָן" אין די ליסט פון באַדאַרפֿנונגען און טאַפּ צו באַדינגן</string>
+    <string name="go_premium">גיי <font color = "#FFE600">פּרעמיום!</font></string>
+    <string name="unlock_everything">אָנלאָק אַלעס &amp; קיינם רעקלאַמע</string>
+    <string name="start_three_day">אָנהייבן 3 טעג פֿרייַ פּרובירן</string>
+    <string name="pro">פּראָ</string>
+    <string name="more_option">מער אָפּציע</string>
+    <string name="rate_us_5">באויט וואַס 5 סטערן</string>
+    <string name="help_feedback">הילף &amp; פֿידבעק</string>
+    <string name="send_message">שיקן מעסעדזש</string>
+    <string name="CTA_Button_Text">צאַפּן צו ופשליסן אַלע <font color="#FFFBCD04"> פֿעיִקייטן</font></string>
+
+
+</resources>

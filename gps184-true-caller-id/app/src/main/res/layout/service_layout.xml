@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icbutton1"
+        android:padding="5dp">
+
+        <RelativeLayout
+            android:id="@+id/laymoving1111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icbutton2"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <ImageView
+                android:id="@+id/imageViewCallScreen"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:padding="8dp"
+                android:src="@drawable/ic_call"
+                android:tint="@color/white" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/imageViewCallScreen"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.95"
+                        android:gravity="left|center_vertical|center_horizontal|center"
+                        android:text="Unknown Number"
+                        android:textColor="#fff"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/textViewCallScreen"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:layout_weight="0.95"
+                        android:ellipsize="marquee"
+                        android:gravity="left|center_vertical|center_horizontal|center"
+                        android:textColor="#ff0b0b61"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/laymoving1111">
+
+            <TextView
+                android:id="@+id/mobilenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Number not Available "
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/operator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mobilenumber"
+                android:layout_marginLeft="10dp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:layout_marginRight="10dp"
+        android:clickable="true"
+        android:text="Close"
+        android:textColor="@android:color/black"
+        android:textSize="20dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/close" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_container_app">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_size"
+        android:background="@drawable/bg_action_bar">
+
+        <ImageView
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_back"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/poppins_bold"
+            android:src="@drawable/header"
+            android:text="Recharge Plans"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/bg_button_outline_gray"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_sim" />
+
+                    <Spinner
+                        android:id="@+id/spinnerCompany"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/bg_button_outline_gray"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_location" />
+
+                    <Spinner
+                        android:id="@+id/spinnerLocation"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/l_btn_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:background="@drawable/bg_button_remove_ads"
+                    android:layout_marginTop="25dp"
+                    android:paddingStart="@dimen/_16sdp"
+                    android:layout_marginHorizontal="@dimen/_40sdp">
+
+                    <ImageView
+                        android:layout_alignParentStart="true"
+                        android:layout_width="@dimen/_24sdp"
+                        android:layout_height="@dimen/_24sdp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_recharge_plan_white"/>
+
+                    <TextView
+                        android:id="@+id/btn_getPlan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/poppins_semi_bold"
+                        android:text="Get Plan"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="#fff"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:layout_width="@dimen/_24ssp"
+                        android:layout_height="@dimen/_36sdp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_arrow_next_white" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include layout="@layout/max_ad_native_layout" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

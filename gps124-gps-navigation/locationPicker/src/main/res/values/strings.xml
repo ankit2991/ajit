@@ -1,0 +1,405 @@
+<resources>
+    <string name="app_name">GPS Road Map</string>
+    <!--<string name="google_maps_key" translatable="false">AIzaSyDqHKAC2tl3GKHPvqs54uQMahrqcpGezt4</string>-->
+    <string name="google_maps_key_part1" translatable="false">AIzaSyDq</string>>
+    <string name="google_maps_key_part2" translatable="false">HKAC2tl3G</string>>
+    <string name="google_maps_key_part3" translatable="false">KHPvqs54uQMah</string>>
+    <string name="google_maps_key_part4" translatable="false">rqcpGezt4</string>>
+
+
+    <!--In House Dev key-->
+    <!--<string name="google_maps_key" translatable="false">AIzaSyCMSNbq-AQ9V4DjNbB7eGseVTTy-M6ysF4</string>>-->
+    <string name="permisson_denied">Permission Denied</string>
+    <string name="no_address_name_found">\"No Address Name Found \"</string>
+    <string name="no_address_found">No Address Found</string>
+    <string name="login_with_email"><u>Login with email</u></string>
+    <string name="txt_continue">Continue</string>
+    <string name="email">Email</string>
+    <string name="hint_email">Enter email here</string>
+    <string name="hint_password">Enter password here</string>
+    <string name="login">Login</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="manage_subscription">Manage Subscription</string>
+    <string name="new_route">New Route</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="edit_route">Edit Route</string>
+    <string name="not_registered_create_new_account">Not registered! Create new account</string>
+    <string name="sign_up">Sign up</string>
+    <string name="map">Map</string>
+    <string name="start_and_end_location">Start &amp; End Location</string>
+    <string name="select_home_location">Start location(home,depot)</string>
+    <string name="select">Select</string>
+    <string name="select_dest_location">End location(home,depot)</string>
+    <string name="stops">Stops</string>
+    <string name="no_stop_added_yet">No Stops Added yet</string>
+    <string name="no_stop_added_yet_description">Add your stops to Route Planner, and it will produce the best possible route between them.</string>
+    <string name="my_routes">My Routes</string>
+    <string name="add_stop">Add Stop</string>
+    <string name="start">Start</string>
+    <string name="restarted">Restart</string>
+    <string name="stop">Stop</string>
+    <string name="delete_route">Delete Route</string>
+    <string name="rename_route">Rename Route</string>
+    <string name="duplicate_route">Duplicate Route</string>
+    <string name="couldn_t_verify_your_email">Couldn\'t verify your email!</string>
+    <string name="varify_email_desction_before">"Open the email we\'ve sent to "</string>
+    <string name="varify_email_desction_after">" and click the link inside. Once you\'ve done that, press the Retry button below."</string>
+    <string name="free_trial_subscription_title">"Your trial expires in a few days!"</string>
+    <string name="free_trial_subscription_description">"we recommend subscribing beforehand to avoid any interruptionduring your routes"</string>
+    <string name="subscribe_me">Subscribe me</string>
+    <string name="later"><u>Later</u></string>
+    <string name="days">Days</string>
+    <string name="rate_us">Rate us</string>
+    <string name="share">Share</string>
+    <string name="signout">SignOut</string>
+    <string name="upgrade_to_premium">Upgrade to premium</string>
+    <string name="routes">Routes</string>
+    <string name="add_route">Add New Route</string>
+    <string name="done">Done</string>
+    <string name="set">Set</string>
+    <string name="stop_add">Stop Add</string>
+    <string name="clear_stops"><u>Clear all</u></string>
+    <string name="add_more"><u>Add more</u></string>
+    <string name="finish_route">Finish Route</string>
+    <string name="finish">Finish</string>
+    <string name="optimize_route">Optimize Route</string>
+    <string name="edit_stop">Edit Stop</string>
+    <string name="add_notes">Add notes (instructions, recipients, ...)</string>
+    <string name="normal">Normal</string>
+    <string name="asap" translatable="false">Urgent</string>
+    <string name="arrive_time">Arrive between</string>
+    <string name="and">And</string>
+    <string name="stop_duration">Stop Duration</string>
+    <string name="delete_stop">Delete stop</string>
+    <string name="cancel_any_time_underline"><u>Cancel any time</u></string>
+    <string name="cancel_underline"><u>Cancel</u></string>
+    <string name="set_time">Set Time</string>
+    <string name="minutes">Minutes</string>
+    <string name="time_in_minute_default_1_minute">Time in minutes</string>
+    <string name="delete">Delete</string>
+    <string name="delete_dialog_title">Delete ?</string>
+    <string name="are_you_sure_you_have_to_delete_it">Are you sure?</string>
+    <string name="stop_deleted">Stop has been deleted</string>
+    <string name="optimize">Optimize</string>
+    <string name="arranging_stops">Arranging stops</string>
+    <string name="finalizing_optimising">Finalizing optimization</string>
+    <string name="label_location_permission_description">GPS Road Map requires your location to produce an optimized route and provide accurate time &amp;distance</string>
+    <string name="ok">OK</string>
+    <string name="location_permission_required">Location permission required</string>
+    <string name="title_location_off">Location is turned off on your device</string>
+    <string name="label_description_gps_off">Enable \'Location Services\' in your phone\'s settings to continue.</string>
+    <string name="save">Save</string>
+    <string name="subscription_plan_one_stops">200 Stops per month</string>
+    <string name="subscription_plan_one_month_price">PKR 2900.00 per month</string>
+    <string name="subscription_plan_two_stops">Unlimited Stops per month</string>
+    <string name="subscription_plan_two_month_price">PKR 2300.00 per month</string>
+    <string name="change_plan">Change plan</string>
+    <string name="free_trial">Free Trial</string>
+    <string name="current_plan">Current Plan</string>
+    <string name="_2_days_remaining">2 days remaining</string>
+    <string name="route_setup">Route Setup</string>
+    <string name="all_stops">All stops</string>
+    <string name="setting">Settings</string>
+    <string name="distance_unit">Distance Unit</string>
+    <string name="vehicle_type">Vehicle Type</string>
+    <string name="distance_init">Distance unit</string>
+    <string name="pref_vehicle_type" translatable="false">pref_vehicle_type</string>
+    <string name="pref_distance_unit" translatable="false">pref_distance_unit</string>
+    <string name="pref_map_type" translatable="false">pref_map_type</string>
+    <string name="pref_navigation_app" translatable="false">pref_navigation_app</string>
+    <string name="pref_average_stop_time" translatable="false">pref_average_stop_time</string>
+    <string name="pref_traffic_visibility" translatable="false">pref_traffic_visibility</string>
+    <string name="map_type">Map Type</string>
+    <string name="defaut">Default</string>
+    <string name="sattelite">Satellite</string>
+    <string name="terrian">Terrian</string>
+    <string name="night">Night</string>
+    <string name="car">Car</string>
+    <string name="bike">Bike</string>
+    <string name="kilometers">Kilometers</string>
+    <string name="miles">Miles</string>
+    <string name="navigation_app">Navigation app</string>
+    <string name="google_maps">Google Maps</string>
+    <string name="waze">Waze</string>
+    <string name="others">Others</string>
+    <string name="average_stop_time">Average time of stop</string>
+    <string name="traffic_visibility">Show Traffic</string>
+    <string name="conformation">Confirmation</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="txt_continue_with_google">Continue with Google</string>
+    <string name="press_edit_button_to_add_editor_remove_stops">Press edit button to add, edit or remove stops</string>
+    <string name="send_again"><u>Send Email Again</u></string>
+    <string name="route_planner">Route Planner</string>
+    <string name="enable_location">Enable location</string>
+    <string name="okay">Okay</string>
+    <string name="cancel">Cancel</string>
+    <string name="why_login_description">Route Planner automatically synchronizes your routes and current progress between each device with which you are logged in. This ensures that you always have a backup so you lose a route.\n    We never sell or transfer your data to any third party. </string>
+    <string name="change_account">Change Account</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="forgot_password_ul"><u>Forgot password</u></string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+    <string name="can_not_find_closest_road">Can not find closest road</string>
+    <string name="automatically_optimize_your_stops_avoid_traffic_and_get_home_earlier">Automatically optimize your stops, avoid traffic and get home earlier.</string>
+    <string name="e_mail_address">E-mail address</string>
+    <string name="password">Password</string>
+    <string name="why_must_be_login">WHY MUST BE LOGIN ?</string>
+    <string name="route_name">Route name</string>
+    <string name="hint_set_home_location">Enter your home location to start your navigation</string>
+    <string name="hint_set_destination_location">Enter your destination location so you can arrive quickly</string>
+    <string name="pick_location">Pick Location</string>
+    <string name="search_here">Search here</string>
+    <string name="clear_stop">Clear Stop</string>
+    <string name="are_you_sure_to_remote_all_stop">Are you sure you want to remove all stops from this route?</string>
+    <string name="continue_without_adding_destination">Are you sure to  continue without adding destination of stops?</string>
+    <string name="general_preferences">General preferences</string>
+    <string name="bike_google_map_only">Bike ( Google maps only )</string>
+    <string name="now">Now</string>
+    <string name="anytime">Anytime</string>
+    <string name="default_1_min">Default (1 min)</string>
+    <string name="can_not_fint_closest_route">We can\'t find closest road to you destination</string>
+    <string name="optimizing_your_stops">Optimizing your stops</string>
+    <string name="added">Added</string>
+    <string name="cant_delete_default_route">You can not delete default Route</string>
+    <string name="route_finished">Route finished</string>
+    <string name="enter_time">Enter time</string>
+    <string name="minutes_mustbe_between_1_to_60">Minutes must be in range between 1 to 60!</string>
+    <string name="optimization_fail_try_again">Optimization fail try again</string>
+    <string name="add_destination">Kindly add destination</string>
+    <string name="add_atleast_one_stop">Kindly add at least one stop or destination</string>
+    <string name="do_you_want_to_exit">Do you want to exit ?</string>
+    <string name="enjoying_this_app">Enjoying this app?</string>
+    <string name="no_stop_found_in_route_add_stop">No stop found in route.Add stop to share route</string>
+    <string name="first_draw_route_then_share">Kindly first draw route then share it</string>
+    <string name="create_new_route">Create New Route</string>
+    <string name="duplicated">Duplicated</string>
+    <string name="deleted">Deleted</string>
+    <!--inapp strings..................................-->
+    <string name="choose_your_plann">Choose Your Plan</string>
+    <string name="_3_days_free">3 Days Free</string>
+    <string name="an_auto_renewable_subscription_will_be_activated_at_the_end_of_the_selected_period">
+        Auto-renewable Subscriptions can be cancelled anytime in the Google Play Store
+    </string>
+    <string name="monthly">Monthly</string>
+    <string name="yearly">Yearly</string>
+    <string name="year">Year</string>
+    <string name="month">Month</string>
+    <string name="our_term_of_services_applies_to_all_purchases"><![CDATA[Our <a href="https://zedlatino.info/privacy-policy-apps.html">Term of Services </a> applies to all Purchases]]></string>
+    <string name="start_free_trail">Start Free Trail</string>
+    <string name="free_trial_heading1">Get home from work one hour earlier</string>
+    <string name="free_trial_new_description">
+        - You can add multiple stops in your route \n
+        - Unlimited daily route optimization \n
+        - Unlimited routes and locations \n
+        - Cancel for free during 3 Days Free Trial \n
+        - 3 Days Free, then $ 49.99 per year \n
+        - No More ads
+    </string>
+    <string name="skip">Skip</string>
+    <string name="are_you_sure_you_want_to_sign_out">When you sign up for an account, you can save all your route data and easily login anywhere.</string>
+    <string name="signout_alert">Sign up</string>
+    <string name="feedback">Feedback</string>
+    <string name="sign_in">Sign in</string>
+    <string name="stop_limit_exceeded">Stops Limit Exceed</string>
+    <string name="stop_limit_exceeded_description">You can only add 25 stops at this time. Wait for the update to add more stops.</string>
+    <string name="understand">Understand</string>
+    <string name="subscribe_to_create_routes_with_more_than_10_stops">Subscribe to create routes with more than 10 stops</string>
+    <string name="more_info">More info</string>
+
+    <string name="more_apps">More Apps</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="voice_search">Voice Search</string>
+    <string name="near_by_places">Nearby places</string>
+    <string name="route_finder">Route finder</string>
+    <string name="current_address">Current Address</string>
+    <string name="app_name_on_splash">GPS Road Map</string>
+    <string name="privacy_header">
+        Dear user,to use this app,the permissions below are required please grant them on upcoming permission window.
+    </string>
+    <string name="privacy_text"> <![CDATA[By tapping start means you agreed with <a href="https://zedlatino.info/privacy-policy-apps.html">Privacy Policy</a>]]></string>
+    <string name="loading">Loading...</string>
+    <string name="edit">Edit</string>
+    <string name="start_your_trial_to_unlock_your_route">Start your trial to unlock your route</string>
+    <string name="subscription_heading"><![CDATA[GPS Road Map \n & Route Planner]]></string>
+    <string name="splash_header_description">Route optimizer for multi-stop destination</string>
+    <string name="premium">Premium</string>
+    <string name="subscription_includes">Subscription Includes</string>
+    <string name="six_month">6 Month</string>
+    <string name="navigation_route_finder"><![CDATA[Navigation & Route Finder]]></string>
+    <string name="crush_your_complex_route">Get the fastest way to your destination</string>
+    <string name="main_screen_title"><![CDATA[GPS & Route Planner]]></string>
+    <string name="language_selection">Select language</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="full_access">Full Access</string>
+    <string name="continue_to_get_access">Continue To Get Access</string>
+    <string name="offer_includes">Offer includes</string>
+    <string name="my_location">My Location</string>
+    <string name="view_organize_share"><![CDATA[View, Organize & Share]]></string>
+    <string name="voice_navigation">Voice Navigation</string>
+    <string name="direction_through_voice">Get Directions Through Voice</string>
+    <string name="nearby_places">Nearby Places</string>
+    <string name="find_any_place_around_you">Find restraurants, bars &amp; locations</string>
+    <string name="live_traffic">Live Traffic</string>
+    <string name="trafic_updates">Avoid traffic jams and delays</string>
+    <string name="satellite_view">Satellite View</string>
+    <string name="two_d_three_d_view"><![CDATA[2D & 3D world views]]></string>
+    <string name="local_transport">Local Transport</string>
+    <string name="info_about_transport">Transport information</string>
+    <string name="navigation_route_planner"><![CDATA[Navigation & Route planner]]></string>
+    <string name="pro">Pro</string>
+    <string name="pro_for_remove_ads">Pro for remove ads</string>
+    <string name="language">Language</string>
+    <string name="block_ads">Block Ads</string>
+    <string name="gps_navigation_is_supported_by_ads">GPS Road Map is supported by Ads but now you can remove them by upgrading to GPS Road Map Pro.</string>
+    <string name="get_pro_now">get pro now</string>
+    <string name="copy">Copy</string>
+    <string name="show_on_map">Show on Map</string>
+    <string name="no_location_found">No location found</string>
+    <string name="tap_amp_speak_to_navigate"><![CDATA[Tap & Speak to Navigate]]></string>
+    <string name="navigate">Navigate</string>
+    <string name="airport">Airport</string>
+    <string name="train_station">Train Station</string>
+    <string name="bus_station">Bus Station</string>
+    <string name="bank">Bank</string>
+    <string name="atm">ATM</string>
+    <string name="real_estate_agency">Real Estate Agency</string>
+    <string name="mosque">Mosque</string>
+    <string name="temple">Temple</string>
+    <string name="doctor">Doctor</string>
+    <string name="veterinary_care">Veterinary Care</string>
+    <string name="dentist">Dentist</string>
+    <string name="pharmacy">Pharmacy</string>
+    <string name="fire_station">Fire Station</string>
+    <string name="gas_station">Gas Station</string>
+    <string name="car_wash">Car Wash</string>
+    <string name="car_repair">Car Repair</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="cafe">Cafe</string>
+    <string name="shopping_mall">Shopping Mall</string>
+    <string name="department_store">Department Store</string>
+    <string name="jewelry_store">Jewelry Store</string>
+    <string name="night_club">Night Club</string>
+    <string name="casino">Casino</string>
+    <string name="beauti_saloon">Beauty Salon</string>
+    <string name="bar">Bar</string>
+    <string name="zoo">Zoo</string>
+    <string name="movie_theater">Movie Theater</string>
+    <string name="school">School</string>
+    <string name="book_store">Book Store</string>
+    <string name="library">Library</string>
+    <string name="stadium">Stadium</string>
+    <string name="park">Park</string>
+    <string name="aquarium">Aquarium</string>
+    <string name="campground">Campground</string>
+    <string name="city_hall">City Hall</string>
+    <string name="museum">Museum</string>
+    <string name="exit">Exit</string>
+    <string name="are_you_sure_to_exit_app">Are you sure to exit App?</string>
+    <string name="we_will_greatly_appreciated_if_you_rate_us">We will greatly appreciated if you Rate Us</string>
+    <string name="enter_route_name">Enter Route Name</string>
+    <string name="remove_annoying_ads_forever">Remove Annoying Ads Forever</string>
+    <string name="btn_continue">Continue</string>
+
+    <string name="continue_with_ads"><u>Continue with ads</u></string>
+    <string name="terms_and_conditions"><u><![CDATA[Terms & Conditions]]></u></string>
+    <string name="privacy_policies"><u>Privacy Policies</u></string>
+    <string name="onboarding_text_one">Gain worldwide navigation information in real time updates</string>
+    <string name="onboarding_text_two">Get daily optimization of your routes &amp; timings</string>
+    <string name="onboarding_text_three">Add multiple stops to any route &amp; check your estimate time of arrival</string>
+    <string name="button_text_continue">Continue</string>
+    <string name="button_text_subscribe">Try now for free</string>
+    <string name="gps_navigation_route_amp_map"><![CDATA[GPS Road Map route & map]]></string>
+    <string name="premium_access">Premium Access</string>
+
+    <string name="enjoy_a">Enjoy a</string>
+    <string name="three_day_trial">3 Day trial then</string>
+    <string name="per_month">/ month.</string>
+    <string name="per_year">/ year.</string>
+    <string name="per_week">/ week.</string>
+    <string name="cancel_anytime">Cancel anytime.</string>
+    <string name="tap_to_unlock">Tap to unlock all features</string>
+    <string name="internet_not_connected">Internet is not connected</string>
+    <string name="subs_feature_one">• Unlimited routes &amp; location</string>
+    <string name="subs_feature_two">• Daily routes and optimization</string>
+    <string name="subs_feature_three">• Get rid of ads</string>
+    <string name="subs_feature_four">• Add multiple steps in your route</string>
+    <string name="full_access_caps">FULL ACCESS</string>
+    <string name="subscribe_monthly">Subscribe monthly</string>
+    <string name="continue_to_trial">Continue To Trial</string>
+    <string name="cancel_renewal">Cancel anytime at least 24 hours before renewal.</string>
+
+    <string name="content_feature"><![CDATA[• Unlimited routes & location \n• Daily routes and optimization \n• Get rid of ads \n• Add multiple steps in your route]]></string>
+
+    <string name="subscribe_yearly">Subscribe yearly</string>
+
+    <string name="unlock_pro_version">UNLOCK PRO VERSION</string>
+    <string name="one_tap_away_to_get_faster_to_your_destination">One tap away to get faster to your destination</string>
+    <string name="get_unlimited_access_to_maps_amp_routs"><![CDATA[Get Unlimited Access to Maps & Routs]]></string>
+    <string name="geo_guessing_game">Geo Guessing Game</string>
+    <string name="gussing_location">Guess locations, win rewards</string>
+    <string name="gps_maps_amp_route"><![CDATA[GPS MAPS & ROUTE]]></string>
+
+    <string name="new_onboarding_title_one">Explore the world</string>
+    <string name="new_onboarding_title_two">Navigate your way through the city</string>
+    <string name="new_onboarding_title_three">Complete your Quiz to Improve Your Exp.</string>
+
+    <string name="new_onboarding_des_one">Get to your destiny fast and on time</string>
+    <string name="new_onboarding_des_two">Make your commute a breeze</string>
+    <string name="new_onboarding_des_three">Enjoy fun geography mini-games while travelling</string>
+
+    <string name="terms_and_service">By continuing, you accept out <u>Terms of Service</u> and acknowledge receipt of our <u>Privacy Policy.</u></string>
+    <string name="get_started">Get Started</string>
+    <string name="new_premium_title">Access the world\nfrom your phone</string>
+    <string name="new_premium_des">Subscribe to Unlock premium</string>
+    <string name="auto_renewable_cancel_anytime">Auto renewable, cancel anytime </string>
+    <string name="discount">76% discount!</string>
+    <string name="start_trial">Start Trial</string>
+
+    <string name="main_activity_title">Maps &amp; Navigation</string>
+    <string name="navigation_activity_title">Maps</string>
+    <string name="popular_places_activity_title">Popular Places</string>
+    <string name="geo_game_activity_title">Geo Game</string>
+    <string name="language_activity_title">Change Language</string>
+    <string name="address_activity_title">Change Your Address</string>
+
+    <string name="main_activity_navigation_item">Navigation</string>
+    <string name="main_activity_popular_places_item">Popular Places</string>
+    <string name="main_activity_geo_game_item">Geo Game</string>
+    <string name="main_activity_voice_gps_item">Voice GPS</string>
+
+    <string name="geo_game_button">Guess the place</string>
+    <string name="geo_game_description">Browse the map to find out where you are!</string>
+    <string name="geo_game_pick_location_button">Pick Location</string>
+    <string name="geo_game_pick_location_description">Select the place that you think correspond</string>
+    <string name="geo_game_result_description">You were away from the selected point</string>
+    <string name="geo_game_result_button">Try Again!</string>
+
+    <string name="settings_powerfull_navigation">Powerfull\nNavigation</string>
+    <string name="settings_address">Change your Address</string>
+    <string name="settings_change_language">Change Language</string>
+    <string name="settings_rate_us">Rate Us</string>
+    <string name="settings_feedback">Feedback &amp; Troubleshooting</string>
+
+    <string name="app_new_name">GPS Navigation</string>
+    <string name="address_hint">Enter Your Address</string>
+    <string name="tag_name_hint">Enter Your Tag Name</string>
+
+    <string name="tutorial_first_title">Important Information</string>
+    <string name="tutorial_first_desc">If you include your address, you can quickly be guided to your home</string>
+    <string name="tutorial_first_warn">this information is only saved locally on your phone, we do not have access to your data.</string>
+
+    <string name="tutorial_second_title">Add Your Address</string>
+    <string name="tutorial_second_desc">Include your address, it will only be saved on your phone, no one will be able to access your address</string>
+
+    <string name="tutorial_third_title">Add Your Tag Name</string>
+    <string name="tutorial_third_desc">Add the name you want to your address, only you will be able to see it</string>
+
+    <string name="tutorial_fourth_title">Select Your Pin</string>
+    <string name="tutorial_fourth_desc">Here you can choose the pin you want to be able to locate your house on the map</string>
+
+
+
+</resources>

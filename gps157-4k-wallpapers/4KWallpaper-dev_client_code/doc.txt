@@ -1,0 +1,932 @@
+2,4,5,6
+
+1,3,7
+
+8 test
+
+AAAAtlBH9JM:APA91bG8tKwLiorog5vLAWQIJjT_h6kR5Rievx-gjoC3lWc9FN_x-jfRC_VIetcXpFV8NFXUL2Qh14vwLWw2eO4GQ-HkK8JHv13thO8v1DBhBohVggcRvpK9NtL8z6NwqotQXHLwwYiy
+
+https://android-arsenal.com/details/1/6987
+https://github.com/JakeWharton/Android-DirectionalViewPager
+https://android-arsenal.com/details/1/6839
+
+http://mobilerechargehub.com/jesuswallpaper/upload_wallpaper.php
+http://mobilerechargehub.com/jesuswallpaper/send_fcm_test.php
+
+http://mobilerechargehub.com/jesuswallpaper/upload_video_wallpaper.php
+http://mobilerechargehub.com/jesuswallpaper/upload_stock_wallpaper.php
+
+http://mobilerechargehub.com/jesuswallpaper/delete_post_live.php?post_id=154
+
+http://mobilerechargehub.com/jesuswallpaper/uhd/10861_uhd.jpg
+
+
+http://backgroundhd.androidstation.info/api/category/get_all_categories
+PageNo=1&
+
+{
+	"status": "success",
+	"categories": [{
+		"id": "64",
+		"category": "50,000+ Downloads",
+		"photo": "application\/upload\/category\/6aca669ce393911f3daae528ea01ea74.jpg",
+		"status": "y",
+		"imageCount": "60",
+		"photo_thumb": "application\/upload\/category\/thumb_small\/6aca669ce393911f3daae528ea01ea74.jpg"
+	}, {
+		"id": "56",
+		"category": "Abstract",
+		"photo": "application\/upload\/category\/82942fa7d096d0f04065da91aad08fcb.jpg",
+		"status": "y",
+		"imageCount": "426",
+		"photo_thumb": "application\/upload\/category\/thumb_small\/82942fa7d096d0f04065da91aad08fcb.jpg"
+	}, {
+		"id": "16",
+		"category": "Animals",
+		"photo": "application\/upload\/category\/ad9641ac12d4e16609ebc937960b60e2.jpg",
+		"status": "y",
+		"imageCount": "434",
+		"photo_thumb": "application\/upload\/category\/thumb_small\/ad9641ac12d4e16609ebc937960b60e2.jpg"
+	}, {
+		"id": "57",
+		"category": "Astronomy",
+		"photo": "application\/upload\/category\/17ce42722d6adbc07609459608d2e56d.jpg",
+		"status": "y",
+		"imageCount": "93",
+		"photo_thumb": "application\/upload\/category\/thumb_small\/17ce42722d6adbc07609459608d2e56d.jpg"
+	}, {
+		"id": "18",
+		"category": "Autumn",
+		"photo": "application\/upload\/category\/6a456dd328f4c1f404824e72802e17c4.jpg",
+		"status": "y",
+		"imageCount": "534",
+		"photo_thumb": "application\/upload\/category\/thumb_small\/6a456dd328f4c1f404824e72802e17c4.jpg"
+	}, {
+		"id": "44",
+		"category": "Babies & Kids",
+		"photo": "application\/upload\/category\/3d94145862b4188556416b6fb4daad38.jpg",
+		"status": "y",
+		"imageCount": "243",
+		"photo_thumb": "application\/upload\/category\/thumb_small\/3d94145862b4188556416b6fb4daad38.jpg"
+	}, {
+		"id": "20",
+		"category": "Birds",
+		"photo": "application\/upload\/category\/2efbe646ec49669a1bcab5ffb2eb4003.jpg",
+		"status": "y",
+		"imageCount": "292",
+		"photo_thumb": "application\/upload\/category\/thumb_small\/2efbe646ec49669a1bcab5ffb2eb4003.jpg"
+	}, {
+		"id": "45",
+		"category": "Blue & Purple",
+		"photo": "application\/upload\/category\/74de2ef48cb0c0a8d3daddb3b451ca32.jpg",
+		"status": "y",
+		"imageCount": "3170",
+		"photo_thumb": "application\/upload\/category\/thumb_small\/74de2ef48cb0c0a8d3daddb3b451ca32.jpg"
+	}, {
+		"id": "21",
+		"category": "Bokeh",
+		"photo": "application\/upload\/category\/5177dd96e21b24465aa06bac0ea7da43.jpg",
+		"status": "y",
+		"imageCount": "446",
+		"photo_thumb": "application\/upload\/category\/thumb_small\/5177dd96e21b24465aa06bac0ea7da43.jpg"
+	}, {
+		"id": "15",
+		"category": "Cats",
+		"photo": "application\/upload\/category\/3e475b092e7b426c9df2589f6616437b.jpeg",
+		"status": "y",
+		"imageCount": "125",
+		"photo_thumb": "application\/upload\/category\/thumb_small\/3e475b092e7b426c9df2589f6616437b.jpeg"
+	}, {
+		"id": "24",
+		"category": "City & Buildings",
+		"photo": "application\/upload\/category\/164852646ae57178d8406f50ca424008.jpg",
+		"status": "y",
+		"imageCount": "984",
+		"photo_thumb": "application\/upload\/category\/thumb_small\/164852646ae57178d8406f50ca424008.jpg"
+	}, {
+		"id": "50",
+		"category": "Classic",
+		"photo": "application\/upload\/category\/eac0d53c1ed59f8e91d42257dbc4fc49.jpg",
+		"status": "y",
+		"imageCount": "356",
+		"photo_thumb": "application\/upload\/category\/thumb_small\/eac0d53c1ed59f8e91d42257dbc4fc49.jpg"
+	}, {
+		"id": "23",
+		"category": "Colorful ",
+		"photo": "application\/upload\/category\/005757df6f7d443e399b37c7be512819.jpg",
+		"status": "y",
+		"imageCount": "820",
+		"photo_thumb": "application\/upload\/category\/thumb_small\/005757df6f7d443e399b37c7be512819.jpg"
+	}, {
+		"id": "17",
+		"category": "Dogs",
+		"photo": "application\/upload\/category\/796ffc6d8a4d2dfa84dcce2b810d2f39.jpg",
+		"status": "y",
+		"imageCount": "97",
+		"photo_thumb": "application\/upload\/category\/thumb_small\/796ffc6d8a4d2dfa84dcce2b810d2f39.jpg"
+	}, {
+		"id": "59",
+		"category": "Dusk",
+		"photo": "application\/upload\/category\/173cbc5c92d7d35882b12da20e3b684b.jpg",
+		"status": "y",
+		"imageCount": "685",
+		"photo_thumb": "application\/upload\/category\/thumb_small\/173cbc5c92d7d35882b12da20e3b684b.jpg"
+	}, {
+		"id": "40",
+		"category": "Fantasy",
+		"photo": "application\/upload\/category\/069d462e490efa98e035e94db9f93710.jpg",
+		"status": "y",
+		"imageCount": "595",
+		"photo_thumb": "application\/upload\/category\/thumb_small\/069d462e490efa98e035e94db9f93710.jpg"
+	}, {
+		"id": "43",
+		"category": "Fashion",
+		"photo": "application\/upload\/category\/133a79d69bb951552195d3f94fc99fb1.jpg",
+		"status": "y",
+		"imageCount": "70",
+		"photo_thumb": "application\/upload\/category\/thumb_small\/133a79d69bb951552195d3f94fc99fb1.jpg"
+	}, {
+		"id": "41",
+		"category": "Festivals",
+		"photo": "application\/upload\/category\/d44c870a5bfa783f171b5d9b99371be7.jpg",
+		"status": "y",
+		"imageCount": "138",
+		"photo_thumb": "application\/upload\/category\/thumb_small\/d44c870a5bfa783f171b5d9b99371be7.jpg"
+	}, {
+		"id": "19",
+		"category": "Flowers",
+		"photo": "application\/upload\/category\/52c608fba0cb599a411e9156e77e08d7.jpg",
+		"status": "y",
+		"imageCount": "1403",
+		"photo_thumb": "application\/upload\/category\/thumb_small\/52c608fba0cb599a411e9156e77e08d7.jpg"
+	}, {
+		"id": "47",
+		"category": "Food & Drinks",
+		"photo": "application\/upload\/category\/149966f6e526fba3991c63a773ad94c5.jpg",
+		"status": "y",
+		"imageCount": "177",
+		"photo_thumb": "application\/upload\/category\/thumb_small\/149966f6e526fba3991c63a773ad94c5.jpg"
+	}]
+}
+{"status":"success","categories":[{"id":"14","category":"Girly","photo":"application\/upload\/category\/521ae062153cc82c6b9c771d412a4efa.jpg","status":"y","imageCount":"341","photo_thumb":"application\/upload\/category\/thumb_small\/521ae062153cc82c6b9c771d412a4efa.jpg"},{"id":"42","category":"Interior & Architecture","photo":"application\/upload\/category\/4c001afc00631d20aae206e4875994fb.jpg","status":"y","imageCount":"98","photo_thumb":"application\/upload\/category\/thumb_small\/4c001afc00631d20aae206e4875994fb.jpg"},{"id":"49","category":"Landscape Mode","photo":"application\/upload\/category\/5e55126dc12742c1cf1b1e70f34e4df9.jpg","status":"y","imageCount":"8445","photo_thumb":"application\/upload\/category\/thumb_small\/5e55126dc12742c1cf1b1e70f34e4df9.jpg"},{"id":"25","category":"Love & Hearts","photo":"application\/upload\/category\/d39e4c250b43cdb7e0eb582ff4165eb6.jpg","status":"y","imageCount":"706","photo_thumb":"application\/upload\/category\/thumb_small\/d39e4c250b43cdb7e0eb582ff4165eb6.jpg"},{"id":"62","category":"Minimalistic","photo":"application\/upload\/category\/9dad912ddddfc8c3cab587bd456724c9.jpg","status":"y","imageCount":"39","photo_thumb":"application\/upload\/category\/thumb_small\/9dad912ddddfc8c3cab587bd456724c9.jpg"},{"id":"31","category":"Monochrome","photo":"application\/upload\/category\/88e4fefa548e97f70ddae5566f1bb3d2.jpg","status":"y","imageCount":"705","photo_thumb":"application\/upload\/category\/thumb_small\/88e4fefa548e97f70ddae5566f1bb3d2.jpg"},{"id":"26","category":"Mountains","photo":"application\/upload\/category\/6e1697722f6699ccce648d61264f88d6.jpg","status":"y","imageCount":"766","photo_thumb":"application\/upload\/category\/thumb_small\/6e1697722f6699ccce648d61264f88d6.jpg"},{"id":"27","category":"Music","photo":"application\/upload\/category\/6f16bd71107865bce637276bb384a483.jpg","status":"y","imageCount":"174","photo_thumb":"application\/upload\/category\/thumb_small\/6f16bd71107865bce637276bb384a483.jpg"},{"id":"28","category":"Nature","photo":"application\/upload\/category\/03fb7375fc8cc5553ec81c44afb8e399.jpg","status":"y","imageCount":"825","photo_thumb":"application\/upload\/category\/thumb_small\/03fb7375fc8cc5553ec81c44afb8e399.jpg"},{"id":"58","category":"Night","photo":"application\/upload\/category\/115c50005cac965a8bf2a58060dc7b77.jpg","status":"y","imageCount":"1120","photo_thumb":"application\/upload\/category\/thumb_small\/115c50005cac965a8bf2a58060dc7b77.jpg"},{"id":"53","category":"Ocean","photo":"application\/upload\/category\/30493ceb796a53a6dd6b9c296df70e35.jpg","status":"y","imageCount":"824","photo_thumb":"application\/upload\/category\/thumb_small\/30493ceb796a53a6dd6b9c296df70e35.jpg"},{"id":"29","category":"Patterns & Designs","photo":"application\/upload\/category\/e7e77508ecbc77358003d385a61c4198.jpg","status":"y","imageCount":"436","photo_thumb":"application\/upload\/category\/thumb_small\/e7e77508ecbc77358003d385a61c4198.jpg"},{"id":"30","category":"Pink","photo":"application\/upload\/category\/e2ba30f347e522f9d6a4dc9a7d7965a4.jpg","status":"y","imageCount":"978","photo_thumb":"application\/upload\/category\/thumb_small\/e2ba30f347e522f9d6a4dc9a7d7965a4.jpg"},{"id":"51","category":"Portrait Mode","photo":"application\/upload\/category\/b4a05163f15737becc54d124120260ab.jpg","status":"y","imageCount":"3926","photo_thumb":"application\/upload\/category\/thumb_small\/b4a05163f15737becc54d124120260ab.jpg"},{"id":"48","category":"Quotes","photo":"application\/upload\/category\/597b54dfc1f89476ff3850d46ba1927d.jpg","status":"y","imageCount":"93","photo_thumb":"application\/upload\/category\/thumb_small\/597b54dfc1f89476ff3850d46ba1927d.jpg"},{"id":"32","category":"Rain & Water Drops","photo":"application\/upload\/category\/dce95f4b99328ae8e1669071b60d2658.jpg","status":"y","imageCount":"424","photo_thumb":"application\/upload\/category\/thumb_small\/dce95f4b99328ae8e1669071b60d2658.jpg"},{"id":"60","category":"Randoms","photo":"application\/upload\/category\/cc006e221d6ffd90ac17bdff71b2d5f2.jpg","status":"y","imageCount":"301","photo_thumb":"application\/upload\/category\/thumb_small\/cc006e221d6ffd90ac17bdff71b2d5f2.jpg"},{"id":"33","category":"Red","photo":"application\/upload\/category\/0f90a1b4b4abc55e3da22ef9ae79f72f.jpg","status":"y","imageCount":"1598","photo_thumb":"application\/upload\/category\/thumb_small\/0f90a1b4b4abc55e3da22ef9ae79f72f.jpg"},{"id":"61","category":"Sadness","photo":"application\/upload\/category\/6e9c080419b88faf1f8abe2341a33e5e.jpg","status":"y","imageCount":"91","photo_thumb":"application\/upload\/category\/thumb_small\/6e9c080419b88faf1f8abe2341a33e5e.jpg"},{"id":"54","category":"Ship & Boat","photo":"application\/upload\/category\/7a34cf9e7c961890b67701634025416b.jpg","status":"y","imageCount":"209","photo_thumb":"application\/upload\/category\/thumb_small\/7a34cf9e7c961890b67701634025416b.jpg"}]}
+
+
+http://backgroundhd.androidstation.info/api/category/get_category
+
+PageNo=1&ID=44&
+Hashkey : FKIwGhaJIO/61ZGgLcidB2ys3kE=
+
+http://backgroundhd.androidstation.info/application/upload/picture/eaa7a78bf7bd4da388d033f1d5dad887.jpg
+
+Babies & Kids(44) (243 count)
+Ocean (53) (824 count)
+vehicles (22) (320 count)
+
+
+https://mrdroidproductions.xyz/data/script/get_trending_order.php
+sort : downloads
+
+https://www.mrdroidsuper.com/data/images/thumb/starwars14.jpg
+https://www.mrdroidsuper.com/data/images/Full_HD/starwars14.jpg
+https://mrdroidproductions.xyz/data/images/small/deadpool206.jpg
+
+
+-----------
+Animal
+https://bgh.ogqcorp.com/api/v4/categories/5ac90738-d9d9-489c-a1c3-4e3f40600acb/backgrounds
+
+Cartoon
+https://bgh.ogqcorp.com/api/v4/categories/ba509306-16db-4da3-b31f-f47ce207dbb2/backgrounds
+
+Flowers
+https://bgh.ogqcorp.com/api/v4/categories/62e024ef-ac05-419f-8a7e-b1b1e7437e2e/backgrounds
+
+Food
+https://bgh.ogqcorp.com/api/v4/categories/034d439a-9bea-4dbf-af7b-a5f31a2f29d5/backgrounds
+
+Love
+https://bgh.ogqcorp.com/api/v4/categories/68d65369-1f76-4393-bb3e-ad90d1631b52/backgrounds
+
+Sports
+https://bgh.ogqcorp.com/api/v4/categories/d1555545-c0cb-40b5-b566-b4bf8124af1f/backgrounds
+
+
+
+-------------
+
+
+Title : Craft Wall : 4k Wallpapers, HD Backgrounds, live wallpaper Changer
+
+sort desc : Auto Wallpaper Changer & 4k Wallpapers | Background for you with daily updates.
+
+Description:
+
+Daily updates of free and awesome HD Wallpapers.
+
+☆ The free App provides thousands of HD Wallpapers and HD Backgrounds to make your screen unique and elegant
+
+☆ Simple Design, UI with faster access and greater performance
+
+☆ Frequent updates which keep your screen stunning with the new HD Wallpapers and HD Backgrounds you have ever seen...
+
+If you're a Jesus loving person, you definitely ought to have Jesus Live Wallpaper! Fill your phone with different Jesus pictures or pictures of cross and enrich it with a unique religious live wallpaper!
+
+
+Features of 4k wallpapers & Live Wallpapers Changer app:
+
+👉 Live Wallpapers | Auto Wallpaper Changer:
+- This features changes Mobile Desktop Background Automatically. User can choose time frequency to change Wallpapers Automatically.
+
+👉 Simple, Fast and light:
+- We focuses on simplicity of the app, which gives great performance. It is battery efficient.
+
+👉 Setting background as Wallpaper:
+- You can set wallpaper in just one click. No need to hasitate to open gallery and find images.
+
+👉 Favorites:
+- All favorited backgrounds are placed under one roof which make it easy to view.
+
+👉 Save:
+- You can choose between 4K HD version of Image to save in your phone.
+
+👉 Share:
+- You can also share wallpaper to whats app, facebook, instagram and much more.
+
+👉 Collection:
+- It has more than 5000+ uhd wallpapers and best backgrounds.
+
+
+Categories:
+- We provide large amount of wallpapers and backgrounds sorted across 13+ categories which includes:
+
+  SuperHero, Sports, Animal, Ocean, Aircrafts, Babies, Flowers, Celebrity, Vehicles, Abstract, Cartoon, Food, Jesus wallpaper, Love, Nature.
+
+
+Disclaimer:
+
+All the wallpapers in this app are under common creative license and the credit goes to their respective owners. These images are not endorsed by any of the prospective owners, and the images are used simply for aesthetic purposes. No copyright infringement is intended, and any request to remove one of the images/logos/names will be honored.
+
+
+
+Screen1
+Perfect HD wallpapers for every mobile devices
+Decorate your home screen with large collection of 4K jesus wallpapers
+Best 4K wallpapers accross 18+ different Categories
+
+
+https://android-arsenal.com/details/1/7785
+https://android-arsenal.com/details/1/7773
+https://android-arsenal.com/details/1/7638
+https://android-arsenal.com/details/1/6505
+https://android-arsenal.com/details/1/1850
+
+
+-------------wall spy
+
+http://codehive.website/script/casual/2.0/fetchcategories.php?type=Stock
+
+[{"id":"50","name":"Samsung","thumb":"samsung.jpg"},{"id":"51","name":"iPhone","thumb":"iphone.jpg"},{"id":"52","name":"Huawei","thumb":"huawei.jpg"},{"id":"53","name":"Sony","thumb":"sony.jpg"},{"id":"54","name":"Xiaomi","thumb":"xiaomi.jpg"},{"id":"55","name":"Google","thumb":"google.jpg"},{"id":"56","name":"LG","thumb":"lg.jpg"},{"id":"57","name":"Nokia","thumb":"nokia.jpg"},{"id":"58","name":"OnePlus","thumb":"oneplus.jpg"},{"id":"59","name":"ZTE","thumb":"zte.jpg"},{"id":"60","name":"HTC","thumb":"htc.jpg"},{"id":"61","name":"Oppo","thumb":"oppo.jpg"},{"id":"62","name":"BlackBerry","thumb":"blackberry.jpg"},{"id":"63","name":"Vivo","thumb":"vivo.jpg"},{"id":"64","name":"Motorola","thumb":"motorola.jpg"},{"id":"65","name":"Meizu","thumb":"meizu.jpg"},{"id":"66","name":"Asus","thumb":"asus.jpg"},{"id":"67","name":"Lenovo","thumb":"lenovo.jpg"},{"id":"68","name":"IUNI","thumb":"iuni.jpg"},{"id":"69","name":"Alcatel","thumb":"alcatel.jpg"},{"id":"70","name":"Gionee","thumb":"gionee.jpg"},{"id":"71","name":"Razer","thumb":"razer.jpg"},{"id":"72","name":"YunOS","thumb":"yunos.jpg"},{"id":"73","name":"FlymeOS","thumb":"flymeos.jpg"},{"id":"74","name":"Micromax","thumb":"micromax.jpg"}]
+
+
+http://codehive.website/script/casual/2.0/fetchcategorieswallpapers.php?type=Samsung&offset=0&what=Recent
+[{"id":"3945","name":"Samsung Galaxy J7 Duo","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/galaxy_j7_duo_wall_droidviews_04.jpg","img_url":"stock\/Samsung\/image\/galaxy_j7_duo_wall_droidviews_04.jpg","size":"140 KB","premium":"no","downloads":"147","views":"621"},{"id":"3944","name":"Samsung Galaxy J7 Duo","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/galaxy_j7_duo_wall_droidviews_03.jpg","img_url":"stock\/Samsung\/image\/galaxy_j7_duo_wall_droidviews_03.jpg","size":"140 KB","premium":"no","downloads":"37","views":"158"},{"id":"3943","name":"Samsung Galaxy J7 Duo","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/galaxy_j7_duo_wall_droidviews_02.jpg","img_url":"stock\/Samsung\/image\/galaxy_j7_duo_wall_droidviews_02.jpg","size":"122 KB","premium":"no","downloads":"23","views":"105"},{"id":"3942","name":"Samsung Galaxy J7 Duo","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/galaxy_j7_duo_wall_droidviews_01.jpg","img_url":"stock\/Samsung\/image\/galaxy_j7_duo_wall_droidviews_01.jpg","size":"133 KB","premium":"no","downloads":"62","views":"219"},{"id":"3200","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews_18.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews_18.jpg","size":"2.49 MB","premium":"no","downloads":"45","views":"310"},{"id":"3199","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews_15.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews_15.jpg","size":"2.34 MB","premium":"no","downloads":"56","views":"272"},{"id":"3198","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews_08.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews_08.jpg","size":"2.24 MB","premium":"no","downloads":"201","views":"1195"},{"id":"3197","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_17.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_17.jpg","size":"1.79 MB","premium":"no","downloads":"95","views":"388"},{"id":"3196","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_16.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_16.jpg","size":"2.06 MB","premium":"no","downloads":"40","views":"243"},{"id":"3195","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_14.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_14.jpg","size":"2.03 MB","premium":"no","downloads":"421","views":"2585"},{"id":"3194","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_13.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_13.jpg","size":"1.55 MB","premium":"no","downloads":"215","views":"1168"},{"id":"3193","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_12.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_12.jpg","size":"269 KB","premium":"no","downloads":"22","views":"135"},{"id":"3192","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_11.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_11.jpg","size":"385 KB","premium":"no","downloads":"39","views":"165"},{"id":"3191","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_10.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_10.jpg","size":"638 KB","premium":"no","downloads":"28","views":"155"},{"id":"3190","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_09.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_09.jpg","size":"621 KB","premium":"no","downloads":"72","views":"271"},{"id":"3189","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_07.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_07.jpg","size":"2.78 MB","premium":"no","downloads":"294","views":"1392"},{"id":"3188","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_06.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_06.jpg","size":"2.16 MB","premium":"no","downloads":"73","views":"278"},{"id":"3187","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_05.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_05.jpg","size":"1.57 MB","premium":"no","downloads":"32","views":"129"},{"id":"3186","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_04.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_04.jpg","size":"2.85 MB","premium":"no","downloads":"238","views":"1102"},{"id":"3185","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_03.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_03.jpg","size":"1.38 MB","premium":"no","downloads":"267","views":"924"},{"id":"3184","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_02.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_02.jpg","size":"1.50 MB","premium":"no","downloads":"386","views":"1776"},{"id":"3183","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_01.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_01.jpg","size":"2.60 MB","premium":"no","downloads":"293","views":"1274"},{"id":"1644","name":"Galaxy A8 (2018),","category":"Samsung","thumb_url":"stock\/thumb\/samsung_galaxy_a8_2018_droidviews_09.jpg","img_url":"stock\/image\/samsung_galaxy_a8_2018_droidviews_09.jpg","size":"553 KB","premium":"no","downloads":"22","views":"121"},{"id":"1643","name":"Galaxy A8 (2018),","category":"Samsung","thumb_url":"stock\/thumb\/samsung_galaxy_a8_2018_droidviews_08.jpg","img_url":"stock\/image\/samsung_galaxy_a8_2018_droidviews_08.jpg","size":"219 KB","premium":"no","downloads":"22","views":"85"},{"id":"1642","name":"Galaxy A8 (2018),","category":"Samsung","thumb_url":"stock\/thumb\/samsung_galaxy_a8_2018_droidviews_07.jpg","img_url":"stock\/image\/samsung_galaxy_a8_2018_droidviews_07.jpg","size":"259 KB","premium":"no","downloads":"46","views":"165"},{"id":"1641","name":"Galaxy A8 (2018),","category":"Samsung","thumb_url":"stock\/thumb\/samsung_galaxy_a8_2018_droidviews_06.jpg","img_url":"stock\/image\/samsung_galaxy_a8_2018_droidviews_06.jpg","size":"259 KB","premium":"no","downloads":"45","views":"199"},{"id":"1640","name":"Galaxy A8 (2018),","category":"Samsung","thumb_url":"stock\/thumb\/samsung_galaxy_a8_2018_droidviews_05.jpg","img_url":"stock\/image\/samsung_galaxy_a8_2018_droidviews_05.jpg","size":"447 KB","premium":"no","downloads":"35","views":"103"},{"id":"1639","name":"Galaxy A8 (2018),","category":"Samsung","thumb_url":"stock\/thumb\/samsung_galaxy_a8_2018_droidviews_04.jpg","img_url":"stock\/image\/samsung_galaxy_a8_2018_droidviews_04.jpg","size":"239 KB","premium":"no","downloads":"65","views":"175"},{"id":"1638","name":"Galaxy A8 (2018),","category":"Samsung","thumb_url":"stock\/thumb\/samsung_galaxy_a8_2018_droidviews_03.jpg","img_url":"stock\/image\/samsung_galaxy_a8_2018_droidviews_03.jpg","size":"428 KB","premium":"no","downloads":"40","views":"120"},{"id":"1637","name":"Galaxy A8 (2018),","category":"Samsung","thumb_url":"stock\/thumb\/samsung_galaxy_a8_2018_droidviews_02.jpg","img_url":"stock\/image\/samsung_galaxy_a8_2018_droidviews_02.jpg","size":"566 KB","premium":"no","downloads":"51","views":"144"}]
+
+
+
+
+
+http://codehive.website/script/casual/2.0/fetchcategorieswallpapers.php?type=Samsung&offset=0&what=Popular
+
+
+[{"id":"3195","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_14.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_14.jpg","size":"2.03 MB","premium":"no","downloads":"421","views":"2585"},{"id":"3184","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_02.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_02.jpg","size":"1.50 MB","premium":"no","downloads":"386","views":"1776"},{"id":"1108","name":"Galaxy S8,","category":"Samsung","thumb_url":"thumb\/samsung_galaxy_s8_fhd_droidviews_01.jpg","img_url":"image\/samsung_galaxy_s8_fhd_droidviews_01.jpg","size":"1.21 MB","premium":"no","downloads":"364","views":"1618"},{"id":"3189","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_07.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_07.jpg","size":"2.78 MB","premium":"no","downloads":"294","views":"1392"},{"id":"3183","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_01.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_01.jpg","size":"2.60 MB","premium":"no","downloads":"293","views":"1274"},{"id":"3198","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews_08.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews_08.jpg","size":"2.24 MB","premium":"no","downloads":"201","views":"1195"},{"id":"3194","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_13.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_13.jpg","size":"1.55 MB","premium":"no","downloads":"215","views":"1168"},{"id":"3186","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_04.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_04.jpg","size":"2.85 MB","premium":"no","downloads":"238","views":"1102"},{"id":"1126","name":"Galaxy S8,","category":"Samsung","thumb_url":"thumb\/samsung_galaxy_s8_qhd_droidviews_15.jpg","img_url":"image\/samsung_galaxy_s8_qhd_droidviews_15.jpg","size":"1.46 MB","premium":"no","downloads":"316","views":"1027"},{"id":"3185","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_03.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_03.jpg","size":"1.38 MB","premium":"no","downloads":"267","views":"924"},{"id":"3945","name":"Samsung Galaxy J7 Duo","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/galaxy_j7_duo_wall_droidviews_04.jpg","img_url":"stock\/Samsung\/image\/galaxy_j7_duo_wall_droidviews_04.jpg","size":"140 KB","premium":"no","downloads":"147","views":"621"},{"id":"1127","name":"Galaxy S8,","category":"Samsung","thumb_url":"thumb\/samsung_galaxy_s8_qhd_droidviews_16.jpg","img_url":"image\/samsung_galaxy_s8_qhd_droidviews_16.jpg","size":"0.97 MB","premium":"no","downloads":"112","views":"535"},{"id":"914","name":"Galaxy Note 8","category":"Samsung","thumb_url":"thumb\/galaxy_note_8_walls_droidviews_01.jpg","img_url":"image\/galaxy_note_8_walls_droidviews_01.jpg","size":"420 KB","premium":"no","downloads":"115","views":"402"},{"id":"3197","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_17.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_17.jpg","size":"1.79 MB","premium":"no","downloads":"95","views":"388"},{"id":"1114","name":"Galaxy S8,","category":"Samsung","thumb_url":"thumb\/samsung_galaxy_s8_qhd_droidviews_03.jpg","img_url":"image\/samsung_galaxy_s8_qhd_droidviews_03.jpg","size":"1.68 MB","premium":"no","downloads":"99","views":"371"},{"id":"1109","name":"Galaxy S8,","category":"Samsung","thumb_url":"thumb\/samsung_galaxy_s8_fhd_droidviews_02.jpg","img_url":"image\/samsung_galaxy_s8_fhd_droidviews_02.jpg","size":"1.05 MB","premium":"no","downloads":"85","views":"354"},{"id":"921","name":"Galaxy Note 8","category":"Samsung","thumb_url":"thumb\/galaxy_note_8_walls_droidviews_08.jpg","img_url":"image\/galaxy_note_8_walls_droidviews_08.jpg","size":"1.14 MB","premium":"no","downloads":"71","views":"347"},{"id":"924","name":"Galaxy Note 8","category":"Samsung","thumb_url":"thumb\/galaxy_note_8_walls_droidviews_12.jpg","img_url":"image\/galaxy_note_8_walls_droidviews_12.jpg","size":"469 KB","premium":"no","downloads":"59","views":"331"},{"id":"1270","name":"Abstract Galaxy Rainbow","category":"Abstract","thumb_url":"thumb\/Abstract Samsung Galaxy Rainbow Android Wallpaper.jpg","img_url":"image\/Abstract Samsung Galaxy Rainbow Android Wallpaper.jpg","size":"129 KB","premium":"no","downloads":"82","views":"325"},{"id":"1187","name":"Galaxy C9,","category":"Samsung","thumb_url":"stock\/thumb\/c9-pro-wallpaper-droidviews-06.jpg","img_url":"stock\/image\/c9-pro-wallpaper-droidviews-06.jpg","size":"267 KB","premium":"no","downloads":"83","views":"323"},{"id":"3200","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews_18.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews_18.jpg","size":"2.49 MB","premium":"no","downloads":"45","views":"310"},{"id":"929","name":"Galaxy C8","category":"Samsung","thumb_url":"thumb\/samsung_galaxy_c8_droidviews_04.jpg","img_url":"image\/samsung_galaxy_c8_droidviews_04.jpg","size":"981 KB","premium":"no","downloads":"77","views":"298"},{"id":"3188","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_06.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_06.jpg","size":"2.16 MB","premium":"no","downloads":"73","views":"278"},{"id":"1122","name":"Galaxy S8,","category":"Samsung","thumb_url":"thumb\/samsung_galaxy_s8_qhd_droidviews_11.jpg","img_url":"image\/samsung_galaxy_s8_qhd_droidviews_11.jpg","size":"725 KB","premium":"no","downloads":"58","views":"274"},{"id":"3199","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews_15.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews_15.jpg","size":"2.34 MB","premium":"no","downloads":"56","views":"272"},{"id":"3190","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_09.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_09.jpg","size":"621 KB","premium":"no","downloads":"72","views":"271"},{"id":"1188","name":"Galaxy C9,","category":"Samsung","thumb_url":"stock\/thumb\/c9-pro-wallpaper-droidviews-07.jpg","img_url":"stock\/image\/c9-pro-wallpaper-droidviews-07.jpg","size":"297 KB","premium":"no","downloads":"83","views":"263"},{"id":"1121","name":"Galaxy S8,","category":"Samsung","thumb_url":"thumb\/samsung_galaxy_s8_qhd_droidviews_10.jpg","img_url":"image\/samsung_galaxy_s8_qhd_droidviews_10.jpg","size":"884 KB","premium":"no","downloads":"77","views":"263"},{"id":"1124","name":"Galaxy S8,","category":"Samsung","thumb_url":"thumb\/samsung_galaxy_s8_qhd_droidviews_13.jpg","img_url":"image\/samsung_galaxy_s8_qhd_droidviews_13.jpg","size":"876 KB","premium":"no","downloads":"61","views":"256"},{"id":"3196","name":"Samsung Galaxy S9","category":"Samsung","thumb_url":"stock\/Samsung\/thumb\/samsung-galaxy-s9-wall_droidviews.com_16.jpg","img_url":"stock\/Samsung\/image\/samsung-galaxy-s9-wall_droidviews.com_16.jpg","size":"2.06 MB","premium":"no","downloads":"40","views":"243"}]
+
+
+http://codehive.website/script/casual/2.0/totalwallpapers.php?category=iPhone
+
+http://codehive.website/casual/stock/Samsung/thumb/galaxy_j7_duo_wall_droidviews_04.jpg
+
+http://codehive.website/casual/stock/Samsung/image/samsung-galaxy-s9-wall_droidviews.com_14.jpg
+
+------------------------------
+
+http://screenspro.com/screenspro/v2/wallpapers?page=0&items_per_page=12&is_portrait=1
+
+{"error_code":0,"num_wallpapers":384,"wallpapers":[{"id":434,"name":"Summer Falls","is_promote":0,"pack_id":5,"thumbnail":"15625287323844_t.jpg"},{"id":433,"name":"Sparks","is_promote":0,"pack_id":5,"thumbnail":"15612135781084_t.jpg"},{"id":432,"name":"Rainbow Aurora","is_promote":0,"pack_id":5,"thumbnail":"15571408957384_t.jpg"},{"id":431,"name":"Galaxy Flight 2","is_promote":0,"pack_id":5,"thumbnail":"15508574655514_t.jpg"},{"id":430,"name":"Star Dust","is_promote":0,"pack_id":5,"thumbnail":"15488652810314_t.jpg"},{"id":429,"name":"Galaxy Spin","is_promote":0,"pack_id":5,"thumbnail":"15444559190354_t.jpg"},{"id":428,"name":"Space Aurora","is_promote":0,"pack_id":5,"thumbnail":"15435769769594_t.jpg"},{"id":427,"name":"Alien Embryo","is_promote":0,"pack_id":5,"thumbnail":"15430566022054_t.jpg"},{"id":426,"name":"Liquid Galaxy","is_promote":0,"pack_id":5,"thumbnail":"15423832495564_t.jpg"},{"id":425,"name":"Ghost Flames","is_promote":0,"pack_id":5,"thumbnail":"15418505724274_t.jpg"},{"id":424,"name":"Mountain Sky","is_promote":0,"pack_id":5,"thumbnail":"15403803174764_t.jpg"},{"id":423,"name":"Lake Sunset","is_promote":0,"pack_id":5,"thumbnail":"15391838107024_t.jpg"}]}
+http://screenspro.com/screenspro/v2/wallpapers?page=1&items_per_page=12&is_portrait=1
+{"error_code":0,"num_wallpapers":384,"wallpapers":[{"id":422,"name":"Slowmo Pool","is_promote":0,"pack_id":5,"thumbnail":"15381414582644_t.jpg"},{"id":421,"name":"Orbit Flare","is_promote":0,"pack_id":5,"thumbnail":"15365886897754_t.jpg"},{"id":420,"name":"Shanghai","is_promote":0,"pack_id":5,"thumbnail":"15349391524584_t.jpg"},{"id":419,"name":"Space 2001","is_promote":0,"pack_id":5,"thumbnail":"15343297581554_t.jpg"},{"id":418,"name":"Spake Lake","is_promote":0,"pack_id":5,"thumbnail":"15323597865044_t.jpg"},{"id":417,"name":"Turquoise ","is_promote":0,"pack_id":5,"thumbnail":"15313035963794_t.jpg"},{"id":416,"name":"Forest Storm","is_promote":0,"pack_id":5,"thumbnail":"15294018159684_t.jpg"},{"id":415,"name":"Rainy Night","is_promote":0,"pack_id":5,"thumbnail":"15271695787634_t.jpg"},{"id":414,"name":"Glow drops","is_promote":0,"pack_id":5,"thumbnail":"15253397692684_t.jpg"},{"id":413,"name":"Ocean Drone","is_promote":0,"pack_id":5,"thumbnail":"15241326775404_t.jpg"},{"id":412,"name":"Galaxy Swirl ","is_promote":0,"pack_id":5,"thumbnail":"15232847318034_t.jpg"},{"id":411,"name":"Digital Rain","is_promote":0,"pack_id":5,"thumbnail":"15226681218554_t.jpg"}]}
+
+http://screenspro.com/screenspro/getvideo.php?cdn=1&density=xxhdpi&orientation=0&id=432
+
+http://screenspro-btwsabfxth.stackpathdns.com/videos/2019/05/06/15571408957311_p.mov
+Xapands Account details
+Registered Email ID: kautikpatel@gmail.c
+
+
+https://github.com/libgdx/libgdx/blob/master/backends/gdx-backend-android/src/com/badlogic/gdx/backends/android/AndroidLiveWallpaper.java
+
+// wallspy category
+http://codehive.website/script/casual/2.0/fetchcategories.php?type=Shit
+[{"id":"2","name":"Abstract","thumb":"abstract.jpg"},{"id":"28","name":"Amoled","thumb":"amoled.jpg"},{"id":"4","name":"Animal","thumb":"animal.jpg"},{"id":"3","name":"Anime","thumb":"anime.jpg"},{"id":"22","name":"Art & Drawing","thumb":"art.jpg"},{"id":"7","name":"Car & Vehicle","thumb":"car.jpg"},{"id":"75","name":"Cartoon & Funny","thumb":"cartoon.jpg"},{"id":"8","name":"City & Building","thumb":"city.jpg"},{"id":"27","name":"Dark & Horror","thumb":"dark.jpg"},{"id":"10","name":"Flower","thumb":"flower.jpg"},{"id":"9","name":"Food","thumb":"food.jpg"},{"id":"11","name":"Game","thumb":"game.jpg"},{"id":"12","name":"Girl","thumb":"girl.jpg"},{"id":"24","name":"Love & Hearts","thumb":"love.jpg"},{"id":"29","name":"Material","thumb":"material.jpg"},{"id":"23","name":"Minimal","thumb":"minimal.jpg"},{"id":"13","name":"Movie","thumb":"movie.jpg"},{"id":"14","name":"Music","thumb":"music.jpg"},{"id":"15","name":"Nature","thumb":"nature.jpg"},{"id":"21","name":"Other","thumb":"other.jpg"},{"id":"20","name":"Pattern","thumb":"pattern.jpg"},{"id":"26","name":"Sayings","thumb":"saying.jpg"},{"id":"25","name":"Space","thumb":"space.jpg"},{"id":"16","name":"Sport","thumb":"sport.jpg"},{"id":"6","name":"Superhero","thumb":"comics.jpg"},{"id":"17","name":"Technology","thumb":"technology.jpg"},{"id":"18","name":"Texture","thumb":"texture.jpg"}]
+
+
+http://codehive.website/script/casual/2.0/fetchcategorieswallpapers.php?type=Nature&offset=0&what=Recent
+
+[{"id":"6470","name":"12345","category":"Nature","thumb_url":"Nature\/thumb\/16-20.jpg","img_url":"Nature\/image\/16-20.jpg","size":"511 KB","premium":"no","downloads":"30","views":"156"},{"id":"6469","name":"19","category":"Nature","thumb_url":"Nature\/thumb\/19.jpg","img_url":"Nature\/image\/19.jpg","size":"843 KB","premium":"no","downloads":"24","views":"137"},{"id":"6468","name":"8-1","category":"Nature","thumb_url":"Nature\/thumb\/8-1.jpg","img_url":"Nature\/image\/8-1.jpg","size":"658 KB","premium":"no","downloads":"7","views":"49"},{"id":"6467","name":"15","category":"Nature","thumb_url":"Nature\/thumb\/15.jpeg","img_url":"Nature\/image\/15.jpeg","size":"667 KB","premium":"no","downloads":"10","views":"37"},{"id":"6466","name":"29","category":"Nature","thumb_url":"Nature\/thumb\/29.jpg","img_url":"Nature\/image\/29.jpg","size":"788 KB","premium":"no","downloads":"4","views":"28"},{"id":"6456","name":"Nature-10fb87c7-e6dd-3690-9722-0a0b1c8c0b45","category":"Nature","thumb_url":"Nature\/thumb\/Nature-10fb87c7-e6dd-3690-9722-0a0b1c8c0b45.jpg","img_url":"Nature\/image\/Nature-10fb87c7-e6dd-3690-9722-0a0b1c8c0b45.jpg","size":"64 KB","premium":"no","downloads":"24","views":"115"},{"id":"6451","name":"Space_Canyon-d1b6e279-a2f0-3b26-babb-4e28ab97d12b","category":"Space","thumb_url":"Space\/thumb\/Space_Canyon-d1b6e279-a2f0-3b26-babb-4e28ab97d12b.jpg","img_url":"Space\/image\/Space_Canyon-d1b6e279-a2f0-3b26-babb-4e28ab97d12b.jpg","size":"182 KB","premium":"no","downloads":"32","views":"127"},{"id":"6447","name":"-1148261580","category":"Nature","thumb_url":"Nature\/thumb\/-1148261580.jpg","img_url":"Nature\/image\/-1148261580.jpg","size":"3.53 MB","premium":"no","downloads":"20","views":"103"},{"id":"6439","name":"-1998715279","category":"Nature","thumb_url":"Nature\/thumb\/-1998715279.jpg","img_url":"Nature\/image\/-1998715279.jpg","size":"3.8 MB","premium":"no","downloads":"22","views":"116"},{"id":"6432","name":"Awesome Wallpaper","category":"Nature","thumb_url":"Nature\/thumb\/20549_@OsumWalls-Dope-Walls-v111-(4).png","img_url":"Nature\/image\/20549_@OsumWalls-Dope-Walls-v111-(4).png","size":"2.36 MB","premium":"no","downloads":"46","views":"263"},{"id":"6396","name":"Nature Wallpaper","category":"Nature","thumb_url":"Nature\/thumb\/17.jpg","img_url":"Nature\/image\/17.jpg","size":"1.1 MB","premium":"no","downloads":"62","views":"205"},{"id":"6387","name":"47352_WALLPEPER-COLLECTION-134-(48)","category":"Nature","thumb_url":"Nature\/thumb\/47352_WALLPEPER-COLLECTION-134-(48).png","img_url":"Nature\/image\/47352_WALLPEPER-COLLECTION-134-(48).png","size":"1.7 MB","premium":"no","downloads":"66","views":"317"},{"id":"6348","name":"Xiaomi Mi A3383","category":"Nature","thumb_url":"Nature\/thumb\/Xiaomi Mi A33832.jpg","img_url":"Nature\/image\/Xiaomi Mi A33832.jpg","size":"1.6 MB","premium":"no","downloads":"35","views":"172"},{"id":"6347","name":"CoolShow 6.02033.","category":"Nature","thumb_url":"Nature\/thumb\/CoolShow 6.02033.jpg","img_url":"Nature\/image\/CoolShow 6.02033.jpg","size":"274 KB","premium":"no","downloads":"13","views":"115"},{"id":"6338","name":"LRM_EXPORT","category":"Nature","thumb_url":"Nature\/thumb\/LRM_EXPORT_191259016151726_20190703_165522598.jpeg.jpg","img_url":"Nature\/image\/LRM_EXPORT_191259016151726_20190703_165522598.jpeg.jpg","size":"3.04 MB","premium":"no","downloads":"12","views":"67"},{"id":"6070","name":"Nature Wallpaper","category":"Nature","thumb_url":"Nature\/thumb\/yosemite-dusk-5k-12-1080x1920.jpg","img_url":"Nature\/image\/yosemite-dusk-5k-12-1080x1920.jpg","size":"361 KB","premium":"no","downloads":"28","views":"116"},{"id":"6069","name":"Nature Wallpaper","category":"Nature","thumb_url":"Nature\/thumb\/yosemite-4k-ua-1080x1920.jpg","img_url":"Nature\/image\/yosemite-4k-ua-1080x1920.jpg","size":"1.62 MB","premium":"no","downloads":"23","views":"83"},{"id":"6068","name":"Nature Wallpaper","category":"Nature","thumb_url":"Nature\/thumb\/yoesmite-valley-waterfall-is-1080x1920.jpg","img_url":"Nature\/image\/yoesmite-valley-waterfall-is-1080x1920.jpg","size":"244 KB","premium":"no","downloads":"21","views":"93"},{"id":"6067","name":"Nature Wallpaper","category":"Nature","thumb_url":"Nature\/thumb\/winter-road-snow-frozen-trees-on-sides-5k-27-1080x1920.jpg","img_url":"Nature\/image\/winter-road-snow-frozen-trees-on-sides-5k-27-1080x1920.jpg","size":"596 KB","premium":"no","downloads":"14","views":"41"},{"id":"6066","name":"Nature Wallpaper","category":"Nature","thumb_url":"Nature\/thumb\/winter-mountains-snow-5k-qc-1080x1920.jpg","img_url":"Nature\/image\/winter-mountains-snow-5k-qc-1080x1920.jpg","size":"757 KB","premium":"no","downloads":"11","views":"48"},{"id":"6065","name":"Nature Wallpaper","category":"Nature","thumb_url":"Nature\/thumb\/white-black-moon-evening-night-time-seascape-5k-d1-1080x1920.jpg","img_url":"Nature\/image\/white-black-moon-evening-night-time-seascape-5k-d1-1080x1920.jpg","size":"1.07 MB","premium":"no","downloads":"19","views":"50"},{"id":"6064","name":"Nature Wallpaper","category":"Nature","thumb_url":"Nature\/thumb\/waves-sunset-5k-xs-1080x1920.jpg","img_url":"Nature\/image\/waves-sunset-5k-xs-1080x1920.jpg","size":"139 KB","premium":"no","downloads":"21","views":"66"},{"id":"6063","name":"Nature Wallpaper","category":"Nature","thumb_url":"Nature\/thumb\/waves-cloudscape-dark-orange-4k-vr-1080x1920.jpg","img_url":"Nature\/image\/waves-cloudscape-dark-orange-4k-vr-1080x1920.jpg","size":"391 KB","premium":"no","downloads":"11","views":"54"},{"id":"6062","name":"Nature Wallpaper","category":"Nature","thumb_url":"Nature\/thumb\/waters-sea-sun-dusk-evening-c3-1080x1920.jpg","img_url":"Nature\/image\/waters-sea-sun-dusk-evening-c3-1080x1920.jpg","size":"101 KB","premium":"no","downloads":"34","views":"74"},{"id":"6061","name":"Nature Wallpaper","category":"Nature","thumb_url":"Nature\/thumb\/water-splash-bubble-drop-4k-vj-1080x1920.jpg","img_url":"Nature\/image\/water-splash-bubble-drop-4k-vj-1080x1920.jpg","size":"60.7 KB","premium":"no","downloads":"18","views":"106"},{"id":"6060","name":"Nature Wallpaper","category":"Nature","thumb_url":"Nature\/thumb\/waterfall-scenery-5k-9a-1080x1920.jpg","img_url":"Nature\/image\/waterfall-scenery-5k-9a-1080x1920.jpg","size":"492 KB","premium":"no","downloads":"6","views":"33"},{"id":"6059","name":"Nature Wallpaper","category":"Nature","thumb_url":"Nature\/thumb\/volcano-sunset-flower-purple-dreamy-landscape-4k-5k-yf-1080x1920.jpg","img_url":"Nature\/image\/volcano-sunset-flower-purple-dreamy-landscape-4k-5k-yf-1080x1920.jpg","size":"647 KB","premium":"no","downloads":"19","views":"48"},{"id":"6058","name":"Nature Wallpaper","category":"Nature","thumb_url":"Nature\/thumb\/volcano-eruption-i2-1080x1920.jpg","img_url":"Nature\/image\/volcano-eruption-i2-1080x1920.jpg","size":"306 KB","premium":"no","downloads":"23","views":"82"},{"id":"6057","name":"Nature Wallpaper","category":"Nature","thumb_url":"Nature\/thumb\/vibrant-sunset-evening-landscape-4k-by-1080x1920.jpg","img_url":"Nature\/image\/vibrant-sunset-evening-landscape-4k-by-1080x1920.jpg","size":"636 KB","premium":"no","downloads":"5","views":"15"},{"id":"6056","name":"Nature Wallpaper","category":"Nature","thumb_url":"Nature\/thumb\/vibrant-nature-ocean-4k-nk-1080x1920.jpg","img_url":"Nature\/image\/vibrant-nature-ocean-4k-nk-1080x1920.jpg","size":"667 KB","premium":"no","downloads":"14","views":"48"}]
+
+
+nature  nature1(150).jpg
+food    Food359.jpg
+vehicle vehicles331.jpg
+cartoon Cartoon86.jpg
+
+
+http://codehive.website/script/casual/2.0/fetchcategorieswallpapers.php?type=Car%20%26%20Vehicle&offset=0&what=Popular
+http://codehive.website/script/casual/2.0/fetchcategorieswallpapers.php?type=Cartoon%20%26%20Funny&offset=0&what=Recent
+
+http://www.367labs.a2hosted.com/script/casual/2.0/fetchcategorieswallpapers.php?type=Art%20%26%20Drawing&offset=0&what=Popular
+http://www.367labs.a2hosted.com/casual/Art/thumb/dcd34f5bb92b.jpg
+
+-----pixabay
+{"totalHits":500,"hits":[{"largeImageURL":"https://pixabay.com/get/55e0d340485aa814f6da8c7dda79367d1336d9ed56526c48702972d4934ac35abd_1280.jpg","webformatHeight":426,"webformatWidth":640,"likes":1006,"imageWidth":6000,"id":3063284,"user_id":1564471,"views":650808,"comments":225,"pageURL":"https://pixabay.com/photos/rose-flower-petal-floral-noble-3063284/","imageHeight":4000,"webformatURL":"https://pixabay.com/get/55e0d340485aa814f6da8c7dda79367d1336d9ed56526c48702972d4934ac35abd_640.jpg","type":"photo","previewHeight":99,"tags":"rose, flower, petal","downloads":415934,"user":"annca","favorites":870,"imageSize":3574625,"previewWidth":150,"userImageURL":"https://cdn.pixabay.com/user/2015/11/27/06-58-54-609_250x250.jpg","previewURL":"https://cdn.pixabay.com/photo/2018/01/05/16/24/rose-3063284_150.jpg"}],"total":21167}
+
+
+---- Pixel
+{"total_results":58,"page":1,"per_page":15,"photos":[{"id":1112048,"width":3953,"height":2635,"url":"https://www.pexels.com/photo/brown-book-page-1112048/","photographer":"Wendy van Zyl","photographer_url":"https://www.pexels.com/@wendy-van-zyl-312082","photographer_id":312082,"src":{"original":"https://images.pexels.com/photos/1112048/pexels-photo-1112048.jpeg","large2x":"https://images.pexels.com/photos/1112048/pexels-photo-1112048.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","large":"https://images.pexels.com/photos/1112048/pexels-photo-1112048.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","medium":"https://images.pexels.com/photos/1112048/pexels-photo-1112048.jpeg?auto=compress&cs=tinysrgb&h=350","small":"https://images.pexels.com/photos/1112048/pexels-photo-1112048.jpeg?auto=compress&cs=tinysrgb&h=130","portrait":"https://images.pexels.com/photos/1112048/pexels-photo-1112048.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800","landscape":"https://images.pexels.com/photos/1112048/pexels-photo-1112048.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200","tiny":"https://images.pexels.com/photos/1112048/pexels-photo-1112048.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"}}],"next_page":"https://api.pexels.com/v1/search/?page=2&per_page=15&query=jesus"}
+
+
+
+
+Placement ID
+2753727354657276_3109964132366928
+
+APP ID: 2753727354657276
+
+Token
+EAAnIgBzIWfwBAE5vUnd3eGQZAVJkPMho8xAyyyqdAm0uCjaJzVdeaNrBmBC0Ffpo7en133qjwnOxfxqQxZAoOGHYKphTWIp6ehZAMlmHx6Ezyl9D3dbL9IB4mWILGblLEvQO0CZAohqHE6RapHQ6JH8DwRCX3YNiY2EuQjQKpYARNkoure1n
+
+
+
+http://bonjourtechies.o18.click/c?o=873585&m=2156&a=48572&aff_sub1={clickid}&aff_sub2={google_aid}&googleaid={google_aid}
+http://affzik.o18.click/c?o=837231&m=1703&a=39321&aff_sub1={clickid}&aff_sub2={google_aid}&googleaid={google_aid}
+
+
+- Added smart searching wallpapers option
+- Bug fixed and memory optimization
+- Pinch zoom for HD images
+
+
+ <b>Search:</b>
+- A searching system will help you to select 4K wallpapers, which you want to set up as your mobile screen pattern.
+
+
+------------ amole
+http://www.dabsterapps.com/App/category_wallpaper/api/catagory_list.php
+main_cat_id=1&device=Portrait
+
+{"status":"true","data":[{"id":"1","category_name":"Abstract","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/icon\/1.jpg","wallpaper_count":"287"},{"id":"9","category_name":"Music","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/icon\/9.jpg","wallpaper_count":"25"},{"id":"16","category_name":"Vehicle","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/icon\/16.jpg","wallpaper_count":"99"},{"id":"13","category_name":"Space","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/icon\/13.jpg","wallpaper_count":"99"},{"id":"10","category_name":"Nature","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/icon\/10.jpg","wallpaper_count":"100"},{"id":"8","category_name":"Minimal","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/icon\/8.jpg","wallpaper_count":"52"},{"id":"17","category_name":"Others","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/icon\/17.jpg","wallpaper_count":"96"},{"id":"5","category_name":"Flowers","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/icon\/5.jpg","wallpaper_count":"98"},{"id":"11","category_name":"People","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/icon\/11.jpg","wallpaper_count":"95"},{"id":"3","category_name":"Anime","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/icon\/3.jpg","wallpaper_count":"97"},{"id":"2","category_name":"Animals","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/icon\/2.jpg","wallpaper_count":"93"},{"id":"4","category_name":"Architecture","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/icon\/4.jpg","wallpaper_count":"92"},{"id":"12","category_name":"Skull","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/icon\/12.jpg","wallpaper_count":"35"},{"id":"15","category_name":"Typography","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/icon\/15.jpg","wallpaper_count":"97"}]}
+
+
+(list from category)
+http://www.dabsterapps.com/App/category_wallpaper/api/image_list.php
+category_id=2&device=Portrait
+{"status":"true","data":[{"id":"296","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait\/296.jpg","thumb":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait_thumb\/296.jpg","tag":"amoled,animals,black,snake","auther":"","sources":"","licence":"Free"},{"id":"340","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait\/340.jpg","thumb":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait_thumb\/340.jpg","tag":"amoled,animals,fish","auther":"","sources":"","licence":"Free"},{"id":"369","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait\/369.jpg","thumb":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait_thumb\/369.jpg","tag":"amoled,animals","auther":"","sources":"","licence":"Free"},{"id":"305","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait\/305.jpg","thumb":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait_thumb\/305.jpg","tag":"amoled,animals,tigor","auther":"","sources":"","licence":"Free"},{"id":"334","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait\/334.jpg","thumb":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait_thumb\/334.jpg","tag":"amoled,animals,deer","auther":"","sources":"","licence":"Free"},{"id":"342","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait\/342.jpg","thumb":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait_thumb\/342.jpg","tag":"amoled,animals,face","auther":"","sources":"","licence":"Free"},{"id":"304","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait\/304.jpg","thumb":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait_thumb\/304.jpg","tag":"amoled,animals,dog","auther":"","sources":"","licence":"Free"},{"id":"368","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait\/368.jpg","thumb":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait_thumb\/368.jpg","tag":"amoled,animals","auther":"","sources":"","licence":"Free"},{"id":"364","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait\/364.jpg","thumb":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait_thumb\/364.jpg","tag":"amoled,animals","auther":"","sources":"","licence":"Free"},{"id":"367","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait\/367.jpg","thumb":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait_thumb\/367.jpg","tag":"amoled,animals","auther":"","sources":"","licence":"Free"},{"id":"314","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait\/314.jpg","thumb":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait_thumb\/314.jpg","tag":"amoled,animals,face,monkey","auther":"","sources":"","licence":"Free"},{"id":"345","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait\/345.jpg","thumb":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait_thumb\/345.jpg","tag":"amoled,animals","auther":"","sources":"","licence":"Free"},{"id":"354","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait\/354.jpg","thumb":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait_thumb\/354.jpg","tag":"amoled,animals","auther":"","sources":"","licence":"Free"},{"id":"323","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait\/323.jpg","thumb":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait_thumb\/323.jpg","tag":"amoled,animals,lion","auther":"","sources":"","licence":"Free"},{"id":"366","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait\/366.jpg","thumb":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait_thumb\/366.jpg","tag":"amoled,animals","auther":"","sources":"","licence":"Free"},{"id":"298","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait\/298.jpg","thumb":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait_thumb\/298.jpg","tag":"amoled,animals,lion,face","auther":"","sources":"","licence":"Free"},{"id":"374","image":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait\/374.jpg","thumb":"http:\/\/www.dabsterapps.com\/App\/category_wallpaper\/images\/Animals\/portrait_thumb\/374.jpg","tag":"amoled,animals","auther":"","sources":"","licence":"Free"}]}
+
+
+http://www.dabsterapps.com/App/category_wallpaper/api/latest_list.php
+category_id=1&device=portrait
+
+
+http://mobilerechargehub.com/jesuswallpaper/update_catgory.php?cat_id=53&status=0
+http://mobilerechargehub.com/jesuswallpaper/update_catgory.php?cat_id=53&status=1
+
+
+5ca46df9dd65f
+5d00454316c67
+5ca4882a2fd2a
+
+https://youtu.be/qn9H-oUPxYU
+
+
+- invalid position issue (Done)
+- change text parallex to parenorm (Done)
+- crashlytics issues (Done)
+- performance sdk (Done)
+- firebase events not showing in dashboard ()
+- Back handle when drawer open (Done)
+- fb download ad when back press (Done)
+
+
+------------------------ 28022020--------------
+- Event for push receive or not (Done)
+- change tabbar like wallspy (Done)
+- change bottom loader (Done)
+- display snack bar instead of toast when download image (Done)
+- Custom auto wallpaper changer
+- custom exclusive wallpaper added by user (Done)
+- restricted app as per package name (Deep violetion issue) (Done)
+- change design of google native adverise (Done)
+- remove fabric and add firebase crashlytics
+- event for push notification recieve and open (Done)
+- update application remove dialogue and display snakbar from native library (Done)
+- added app tour option in left menu (Done)
+- full screen detail wallcarft (Done)
+- out of index issues (Done)
+- favorite added for live wallpaper and exclusive wallpaper (Done)
+
+--------- dd -----------
+https://android-arsenal.com/details/1/5241
+https://android-arsenal.com/details/1/7697
+https://android-arsenal.com/details/1/6935
+https://android-arsenal.com/details/1/6005
+https://github.com/myinnos/AwesomeImagePicker
+
+------------------- v5.5--------------------
+- viewpager api call (Done)
+- exclusive as favortie (Done)
+- autowallpaper custom add (pending)
+- remove fabric and add firebase crashlytics
+- 4D Parralax wallpaper
+- recycleview issue. index out of bound
+- push notification display time random for user. (server side)
+- interstital after splash (Done)
+- in app purchase (Done)
+
+
+http://mobilerechargehub.com/jesuswallpaper/update_user.php?device_id=9744d969ac82f2c5&in_app_purchase_id=GPA.3386-6868-6561-47943&purchaseToken=haajgcjfdigdnnbcdnghhncf.AO-J1OzazJyade4059P1DFPOrwUfDhe5qb4yzZ68TopHLa40WGxDgzriWUtPRNiHo2dmc0ysjVJfJ1LNYJ2D90SZHnbW4Ar58yBeewQf8oBonsLJLWad45y-47Q6miwuR_5AUJ7VMnFL&user_id=48038
+
+qureka
+https://vcommission.g2afse.com/click?pid=79&offer_id=35&sub2={google_aid}&sub1={clickid}&googleaid={google_aid}
+
+- Remove Ads - Lifetime
+
+HDFC : 132  60
+Khatabook : 463  232
+Ok Credit : 85  0
+
+missing
+cricket 18
+golive 9
+
+4k_interstitial_splash
+fb = 2753727354657276_3579721015391235
+
+17042020
+https://github.com/AdevintaSpain/Parallax-Layer-Layout
+https://github.com/Paul-Hi/Tiles
+https://github.com/tvbarthel/ParallaxSampleGitHub
+
+new app link
+https://android-arsenal.com/details/1/708
+https://android-arsenal.com/details/1/2043#!description
+https://android-arsenal.com/details/1/5779
+https://android-arsenal.com/details/1/4180
+https://android-arsenal.com/details/1/7548
+
+21042020
+- Ad id from server (Done)
+- banner Ad load count (Done)
+- first api security (Done)
+- vpn security (Done)
+- Change icon (Done)
+- added women and macro category (Done)
+- FB nativ ad issue (not getting)
+- pagination on detail page (Done)
+- display file size when loading in live and exclusive wall (Done)
+- Update Auto wallpaper changer issue.(Done)
+- solved exclusive wallpaper issue. (Done)
+
+
+    <string name="ad_unit_banner_id">ca-app-pub-1398961721366968/9748199608</string>
+    <string name="ad_unit_id">ca-app-pub-1398961721366968/3816736733</string>
+    <string name="ad_unit_inters_splash">ca-app-pub-1398961721366968/2499561017</string>
+    <string name="ad_unit_native_id">ca-app-pub-1398961721366968/9785906828</string>
+
+    public static final String FB_ID_BANNER = "2753727354657276_3168274339869240";
+    public static String FB_ID="2753727354657276_2753794641317214";
+    public static String FB_NATIVE_ID="2753727354657276_2753732231323455";
+
+
+
+------- 6.1 -------
+- Sensor.TYPE_ROTATION_VECTOR sensor not available condition (Done)
+- add Candle(135), vehicles (292), Love(297), Girl(173,done), Cartoon(305), texture(217), bokeh(205), Macro(236)
+- add network condintion (Done)
+- add ssl function (Done)
+- FCM token send condition
+- Edge wallpaper (Done)
+
+
+https://play.google.com/store/apps/details?id=com.app.livewallpaper&referrer=god_wallpaper_new
+https://play.google.com/store/apps/details?id=com.wallpaper.parallax.live&referrer=parallax
+
+---------- 6.4--------
+- Added country code in user DB. - Done
+- Reducing rating after getting several notices to rate the app after already rating it. - Done
+- Search analysis - Done
+- Update text for update alert dialog. - Done
+- There is no option to remove favourite wallpaper - done
+- Image on subdomain - Done
+- localize wallpaper - show wallpaper as per festival - Done
+- add edge wallpaper in introduction - Done
+- Animal's wallpapers is not good. added animal wall. (Done)
+- flowers upset me a little. There are always 2 flowers in the picture.fix it(Done)
+
+---------- 6.5--------
+- Category selection wallpaper in auto wallpaper changer. (Done)
+- Live wallpaper not working.(Add help) (Done)
+- Change to 29 api (https://developer.android.com/distribute/best-practices/develop/target-sdk.html) (Done)
+- Ad count increment change. remove for left menu some option. (Done)
+- My Download Option (Done)
+- Flurry Events (Done)
+
+--------------6.7**-----------------
+- viewpager in intermediate screen. (done)
+- download 2 images for autowallpaper changer.
+- Change different tile color while loading (N\A)
+
+--------------6.9-------------
+- add native ad in category screen, intermediate screen.(Done)
+- Added favorite and download at top (Done)
+- pagination not working in category listing screen. (Done)
+- add admob banner if FB failed in intermediate screen. (Done)
+- category push notification (Done)
+- crossfading in imageview intermediate screen(Done)
+- support for tablet (Galaxy Tab3 Lite) (Done)
+- intermediate screen like zedge(Done)
+- exclusive wallpaper download (Done)
+
+--------------7.0-------------
+- in app purchase issue. (Done)
+- festival videos Live wallpaper share (Done)
+- change loading of preview with progress bar round (Done)
+- full screen when touch in preview screen.(Done)
+- Change exclusive wallpaper blurr loading image (Done)
+- add similar option in intermediate screen (Done)
+- Open ad advertisement (Done)(ca-app-pub-1398961721366968/8552480113)
+- Add delete option in my download screen (Done)
+
+--------7.1---------------
+The application takes a long time to load and when it is charged, it automatically turns off.
+Excellent beautiful wallpaper, but the application hangs and that's it. Does not work
+NOTHING OF VARIETY AND ITS IMAGES ARE ABSURD OR NOT ATTRACTIVE TO THE USA, IT DOES NOT HAVE MODERN TASTE OR FOR YOUNG PEOPLE ... DESEPTIONING.
+I see its good but i can't select any photos because it always crashes I'm using oppo A5S please fix it
+Hang in Samsung Galaxy A20s
+I am using one plus 7t and all the wallpaper is not getting in the same size as shown. It is being cropped and set as wallpaper. What can I do?
+Be aware that some wallpapers are not opening
+VERY BEAUTIFUL BUT MOST OF IT DOES NOT OPEN SO 4 POINTS
+I never load the app, it only stayed in the presentation image
+- Added features category in popular screen (most download wallpaper category) -- done
+- change trending wallpaper logic (add timestamp in post) -- Done
+- filter option for wallpaper (popular(most download),new added(recent), random) -- Done
+- User wise wallpaper(category store in cache) -- Pending
+- Change splash images -- done
+- update open ad logic. show after wallpaper download. mean multiple ad show -- Done
+- change intro screen bg color --Done
+- search live wallpaper -- Done
+- crash -- Done
+- remove status condition from search -- Done
+- filter added in loadmore in intermediate screen -- Done
+- showcase view -- Done
+- Work on auto wallpaper changer
+
+
+
+- You are fine, nice, but you are constantly sending notifications slt side is the wallpaper application, blank notifications are unnecessarily disturbing
+- Live wallpapers disappear after the first reboot. Also live wallpaper freezes. That's what 3 stars are for. Developers, work on this.
+- Winter ? Christmas ? Mountaians ? Sommer ? Thank
+- 1-The application is beautiful, but the live wallpapers are only wallpaper or there is both a wall and a lock screen. 2-I write something in the search section, I write very unrelated things, for example, ronaldo, but I write a lot of other things. Wallpapers need to come out 4-in-one col ad will come out better or less
+- Wallpapers are not downloaded so I put 1 (Huawei G526)
+- It does not open(Huawei HUAWEI Mate 20 lite, Samsung Galaxy S8+)
+- Do not install it, I downloaded it, my phone became so slow that it froze and I removed it. (Samsung Galaxy A5(2016))
+
+- in app review api https://developer.android.com/guide/playcore/in-app-review/
+- add metadata for automatically add in personalize category (vijay mobile)(N\A)
+
+
+--------7.3---------------
+- Change exclusive wallpaper login as per application demo (N/A)
+- added Summer, city & building, mountain,flags category (Done)
+- change category wallpaper. (Done)
+- Work on auto wallpaper changer
+- User wise wallpaper(category store in cache)
+- work on filter apis
+- change carousal category
+- Next marketing in south korea and italy
+- Samsung Galaxy Tab S7 (The App is great the only problem is that after setting a wallpaper in auto change mode the wallpaper does not fit the screen properly after switching between horizontal to vertical and vice versa...)
+- Nice app with cool wallpapers, however it does not give the ability to set your own backround from file, and is obnoxious with notifications which you cannot disable in app. Why would I want to change my background evry few hours?! Also, after blocking the notifications inside android system, my background magically set itself to default after few days. Nice scam.
+- I want a picture of black power as I searched in the result and that's what I got a gorilla I find that highly offensive and very racist to have that in the algorithm for "black power" sort yourselves out and get it removed I'll definitely be putting this on your app review
+-- Very good app,add more new items as rain, forests, etc
+- I was just curious it seems like every couple of days or something I look at a different app or something that has nothing to do with wallpaper and I'll go back to my home screen and the wallpaper I have is gone and then I have to go through and find it all over again today I can't even find it could you please let me know what's going on perhaps maybe fix this or maybe I need to find a different wallpaper place just let me know so I can get this taken care of thank you
+
+- The app is good in itself but eats up a lot of battery
+- I would like more roles from the universe, planets and the like
+- The program is very beautiful if it had football backgrounds
+-We've detected that this app is using an old version of Google Play Billing. By 1 November 2021, all app updates must use billing library version 3 or newer. Update to billing library 3 before this date
+The application is just super but there is one but no blackpink wallpaper
+
+Overall Excellent , need some improvement ,like Add superheroes images one more in option even actor and actress also .
+
+ However, they also move wayyyy to fast. Especially the fire and space wallpapers. Amazing to look at but annoying to not have a speed option. That's my only complaint but will update to 5 stars if the devs decide to add this feature. Thanks.
+
+
+Samsung Galaxy J6+ (The videos do not load)
+
+nature
+flowers
+Game
+Men Category add
+
+
+
+
+
+Samsung Galaxy A20s
+Samsung Galaxy A50s
+Samsung Galaxy J7 Prime (I give it 3 stars ☆☆☆ Because if I delete the application, the background that I put will go away😞 I still like the app🙄
+
+)
+Samsung Galaxy J1 Ace
+Samsung Galaxy A11
+Samsung Galaxy A51
+Samsung Galaxy Tab A (2016)
+
+
+
+For compress image
+https://tinypng.com/
+
+
+Resize image
+https://www.iloveimg.com/resize-image
+
+Resize with widht and height
+https://www.birme.net/?target_height=2400
+
+http://mobilerechargehub.com/jesuswallpaper/send_fcm_category.php?category=vehicles
+http://mobilerechargehub.com/jesuswallpaper/send_fcm_test_normal.php
+http://mobilerechargehub.com/jesuswallpaper/send_fcm_test.php
+
+-------- Deeplink--------
+android-app://com.android.vending/market/details?id=com.app.jesuslivewallpaper
+
+4kwallpapers://com.app.jesuslivewallpaper
+4kwallpapers://com.app.jesuslivewallpaper/category/Halloween
+
+craftwall://com.app.jesuslivewallpaper
+craftwall://com.app.jesuslivewallpaper/category/Helloween
+
+http://mobilerechargehub.com/.*
+http://mobilerechargehub.com/category/Helloween
+
+
+// new banner intermediate
+ca-app-pub-1398961721366968/4128864428
+
+30 03 * * *  root php /var/www/html/jesuswallpaper/send_fcm_events.php > /var/www/html/jesuswallpaper/events.txt
+30 16 * * *  root php /var/www/html/jesuswallpaper/send_fcm_category.php > /var/www/html/jesuswallpaper/category.txt
+
+https://emojipedia.org/new-years-eve/
+
+Wallpapers apps for your pleasure!
+
+https://firebase.google.com/docs/perf-mon/troubleshooting?authuser=0&platform=android#faq-real-time-data
+
+
+ 1225087027890840_1226129661119910 native
+
+1225087027890840_1237494686650074 ractagle
+
+1225087027890840_1354608374938704 interstial download
+
+
+ 1225087027890840_1226129661119910 native
+
+1225087027890840_1237494686650074 ractagle
+
+1225087027890840_1354608374938704 interstial download
+
+GreedyGame Id
+Banner : float-6645
+Banner Detail : float-6660
+Interstiatal : float-6644
+Interstital splash : float-6652
+Native : float-6646,float-6647,float-6648
+
+- Change package name done
+- change google-services.json done
+- Change email addess (AppConstant.EMAIL) done
+- Change Bitly (AppConstant.STORE_LINK) done
+- Change Policy link (Apccontant.TERMS_URL) done
+- Change flurry analytics id done
+-
+
+
+am broadcast -a com.android.vending.INSTALL_REFERRER -n macro.hd.wallpapers/com.google.android.gms.analytics.CampaignTrackingReceiver --es "referrer" "4K_123456789"
+am broadcast -a com.android.vending.INSTALL_REFERRER -n macro.hd.wallpapers/com.google.android.apps.analytics.AnalyticsReceiver --es "referrer" "4K_123456789"
+
+Conn.php
+category_list_update.php
+
+This application is no longer supported so please install new application using below button. \n\nAlso, you have to re-set your current live if already set. after this uninstall old application
+We are no longer support this application due to some technical issue. Please install new application from below button. \n\nAlso, you have to re-set your current live if already set. \nNote:Remove old application after install
+We are no longer support this application due to some technical issue. Please install new application from below button. \n\nAlso, you have to re-set your current live if already set. \nNote:Remove old application after install
+
+DELETE FROM `post_download` WHERE `download_id` BETWEEN 95215171 AND 96253146
+DELETE FROM `search_keyword` WHERE `id` BETWEEN 1619228 AND 2619228
+SELECT * FROM `user` WHERE `app_version` BETWEEN 58 AND 63
+SELECT COUNT(user_id), country_code FROM user WHERE referrer LIKE '%organic%' and created_date LIKE '%2021-06-02%' GROUP BY country_code
+
+App id : 847599942538777
+FB Native : 847599942538777_847600905872014
+FB Banner : 847599942538777_847601902538581
+FB intersti down : 847599942538777_848291369136301
+
+https://developers.facebook.com/docs/audience-network/setting-up/ad-setup/android/native
+
+Banner : ca-app-pub-1398961721366968/4873695107
+interstitia : ca-app-pub-1398961721366968/1834073571
+splash inter : ca-app-pub-1398961721366968/9050218612
+native : ca-app-pub-1398961721366968/2345209461
+open ad : ca-app-pub-1398961721366968/7499858442
+Banner detail : ca-app-pub-1398961721366968/2184942264
+
+Why do you have photos of the flags of all countries in the world except Iran ??
+
+netherlands
+France
+
+italy : 3
+Ukrain
+
+south africa
+
+30 16 * * *  root php /var/www/html/jesuswallpaper/send_fcm_test_normal.php > /var/www/html/jesuswallpaper/fcm_macro_normal.txt
+
+promotion text :
+developer icon 512*512
+header image 4096*2304
+feature app
+
+
+-----
+- Add Fantasy, Mask and Neon wallpapers
+- add stock category wallpapers
+- Update downloaled folder to picture folder (Done)
+- Add open ad greedy game advertise (Done)
+- fb mediation open bidding
+-
+
+http://206.189.141.200/jesuswallpaper/DeleteUserFCMID.php?start_id=3540818&end_id=3640818
+http://206.189.141.200/jesuswallpaper/RemoveFCM.php?LIMIT=100000&is_delete=1
+
+author
+source_link
+license
+
+Report Item ID: 11163
+
+
+Philippines  11 crore
+Ukrain 5 crore 1.13 4562
+Indonesia 27 crore 1.44 2568
+
+Egypt 10 crore 1.18 3188
+Thailand 7 crore 1.17 2671
+
+
+ https://www.androidhive.info/2017/11/android-building-image-filters-like-instagram/
+ https://github.com/cats-oss/android-gpuimage
+ https://github.com/Zomato/AndroidPhotoFilters
+ https://github.com/burhanrashid52/PhotoEditor
+
+1800 896999
+
+Testing
+admob : inter,inter splash, native, banner, banner detail, open ad
+FB : native, detail banner, interstital
+ad manager :interst, intersplash, native ,banner, open ad
+GG : inter, intespa, native, banner, opne ad
+
+need to pro
+a0aa0fe533363457
+338364b9362d2998
+1677239f882d69a1
+
+
+
+IntegrationHelper: GAID is: 97a80d6c-7fe5-4a38-9d92-22e75712ce53 (use this for test devices)
+
+Festival link
+https://assets-global.website-files.com/6060bea07a71c73512f838b3/6080851d8fc12e5003bd71f6_Holiday-Calendar-2021-Flow12-22.pdf
+https://www.calendarr.com/united-states/observances-2021/
+https://www.qppstudio.net/global-holidays-observances/2021.htm
+https://www.bankbazaar.com/holiday/international-holidays.html
+
+/22387492205,22480406939/macro.hd.wallpapers.Banner0.1619260109
+/22387492205,22480406939/macro.hd.wallpapers.Native0.1619260117#/22387492205,22480406939/macro.hd.wallpapers.Native1.1619260120#/22387492205,22480406939/macro.hd.wallpapers.Native2.1619260121
+
+- double wallpaper load more : done
+- remove rating diolog when rat us click : done
+- add banner in home screeen : done
+- add in app rating : done
+
+Admob native id : ca-app-pub-1398961721366968/2345209461
+
+Your Service Request has been submitted successfully and your Service Request number is SR785806837. Please note the same for your future interaction.
+
+helloween
+diwali
+Light and fire
+Nature
+candle
+Bokeh
+amoled
+baby
+helloween
+diwali
+abstract
+cartoon
+macro
+Neon
+architect
+Minimal
+artdrawing
+Alone
+mask
+4d
+girl
+sport
+food
+tourism
+winter
+flower
+flag
+anime
+summer
+3d
+animal
+ocean
+texture
+love
+vehicle
+mountain
+space
+music
+aircraft
+fantasy
+games
+aesthetic
+kawaii
+qoutes
+
+Google
+oppo
+nokia
+meizu
+micromax
+alcatel
+motorola
+iphone
+asus
+sony
+vivo
+oneplus
+gionee
+huawei
+lemovo
+samsung
+xiomi
+htc
+lg
+
+
+red
+green
+pink
+blue
+
+gold
+black
+white
+
+----- need to upload
+Live - done
+Neon - done
+Mask - done
+Alone - done
+3d - done
+4d - done
+
+-  check event for app open ad - done
+-  rating dialogue - done
+-  gradient wallpaper - done
+-  category screen - done
+-  change font - done
+-  app widget - done
+-  color wallpaper - done
+-  clear cache - done
+- change advertisement logic for banner
+- API target 30 - done
+
+13563fc36fb26898
+13563fc36fb26898

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/layout_cross_free_trial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/ic_circle_cross_grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/ic_cross_free" />
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bg_free_trial_dialog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_cross_free_trial"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/tv_title_free_trial"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="14dp"
+            android:gravity="center"
+            android:text="Do you really wanna quit Free Trial?"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="14dp"
+            android:gravity="center"
+            android:text="Premium features below are FREE to TRY now. You can CANCEL ANYTIME"
+            android:textSize="11sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title_free_trial"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <LinearLayout
+            android:id="@+id/layout_top_features"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:layout_constraintVertical_bias="0.0">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="18dp"
+                    android:background="@drawable/bg_button_translation">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RelativeLayout
+                            android:id="@+id/logo_iv_translation"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/ic_circle_cross">
+
+                            <ImageView
+                                android:id="@+id/iv_logo_trans"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/ic_dlg_translation" />
+
+                        </RelativeLayout>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/logo_iv_translation"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="Translator"
+                            android:textColor="@color/white"
+                            android:textSize="11sp"
+
+                            />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="18dp"
+                    android:background="@drawable/bg_button_camera">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RelativeLayout
+                            android:id="@+id/logo_iv_camera"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/ic_circle_cross">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/ic_dlg_camera" />
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/logo_iv_camera"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:gravity="center"
+                            android:text="Camera Translator"
+                            android:textColor="@color/white"
+                            android:textSize="11sp"
+
+                            />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_second_features"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layout_top_features"
+            app:layout_constraintVertical_bias="0.0">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="18dp"
+                    android:background="@drawable/bg_button_conversation">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center">
+
+                        <RelativeLayout
+                            android:id="@+id/logo_iv_conversation"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/ic_circle_cross">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/ic_dlg_conversation" />
+
+                        </RelativeLayout>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/logo_iv_conversation"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="Conversation"
+                            android:textColor="@color/white"
+                            android:textSize="11sp"
+
+                            />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="18dp"
+                    android:background="@drawable/bg_button_dictionary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center">
+
+                        <RelativeLayout
+                            android:id="@+id/logo_iv_no_ads"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/ic_circle_cross">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/ic_dlg_no_ads" />
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/logo_iv_no_ads"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:gravity="center"
+                            android:text="No Ads"
+                            android:textColor="@color/white"
+                            android:textSize="11sp"
+
+                            />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_subscribe_free_trial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/bg_dlg_free_trial"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layout_second_features">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="60dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="60dp"
+                android:paddingBottom="10dp"
+                android:text="Try For Free"
+                android:textColor="#fff" />
+        </RelativeLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

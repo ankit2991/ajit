@@ -1,0 +1,240 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
+
+android {
+
+    namespace 'com.translate.languagetranslator.freetranslation'
+
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.translate.languagetranslator.freetranslation"
+        minSdkVersion 24
+        targetSdkVersion 34
+        versionCode 40050500
+        versionName "4.5.5"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+        setProperty("archivesBaseName", "GPS126-01_${versionCode}")
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            debuggable false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            resValue "string", "dictionarykey", "dict.1.1.20190829T120527Z.1053a4fd9501ccbf.3bcfebc90e8e4ad36d051926017d4a584a5ae16a"
+            resValue "string", "in_app_key", "remove_ads"
+        }
+        debug {
+            minifyEnabled false
+            debuggable true
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            resValue "string", "dictionarykey", "dict.1.1.20190829T120527Z.1053a4fd9501ccbf.3bcfebc90e8e4ad36d051926017d4a584a5ae16a"
+            resValue "string", "in_app_key", "android.test.purchased"
+
+
+        }
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+
+    compileOptions {
+        sourceCompatibility = 17
+        targetCompatibility = 17
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/LICENSE.md'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE.md'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+        exclude("META-INF/*.kotlin_module")
+    }
+    buildFeatures {
+        buildConfig = true
+    }
+    dataBinding {
+        enabled = true
+    }
+    ndkVersion '21.3.6528147'
+
+    configurations.all {
+        resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+            if (details.requested.group == 'com.google.android.gms' &&
+                    details.requested.name.contains('play-services-location')) {
+                details.useVersion '19.0.1'
+                details.because 'forcing to work'
+            }
+        }
+    }
+
+}
+
+
+
+dependencies {
+
+
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.browser:browser:1.8.0'
+    final SUPPORT_LIBRARY_VERSION = "28.0.0"
+    final lottieVersion = '6.5.2'
+
+    implementation 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1'
+
+    implementation fileTree(dir: 'libs', include: ['*.aar'])
+    implementation files('libs\\Quimera.aar')
+
+    constraints {
+        implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0") {
+            because("kotlin-stdlib-jdk7 is now a part of kotlin-stdlib")
+        }
+        implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0") {
+            because("kotlin-stdlib-jdk8 is now a part of kotlin-stdlib")
+        }
+    }
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'androidx.core:core-ktx:1.13.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+    implementation 'com.google.android.material:material:1.12.0'
+
+    implementation "com.android.support:support-vector-drawable:$SUPPORT_LIBRARY_VERSION"
+    //implementation 'com.google.firebase:firebase-config:20.0.2'
+    implementation 'com.github.florent37:tutoshowcase:1.0.2'
+
+    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation 'com.google.firebase:firebase-messaging'
+
+
+    // Declare the dependency for the Analytics library
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+
+
+
+    implementation platform('com.google.firebase:firebase-bom:32.3.1')
+    // Declare the dependency for the Analytics library
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-config'
+    implementation 'com.google.firebase:firebase-core:21.1.1'
+
+    // sdp
+
+    implementation 'com.intuit.sdp:sdp-android:1.1.1'
+
+    implementation 'com.daimajia.numberprogressbar:library:1.4@aar'
+    implementation 'com.github.AppIntro:AppIntro:5.1.0'
+    implementation 'com.android.support:multidex:1.0.3'
+
+
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.21'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation project(':fcm')
+
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation('com.squareup.retrofit2:retrofit:2.9.0') { exclude module: 'okhttp' }
+    implementation 'com.google.code.gson:gson:2.11.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.11.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.11.0'
+    implementation 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'
+
+
+    def room_version = "2.6.1"
+
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+
+    // To use Kotlin annotation processing tool (kapt)
+    kapt "androidx.room:room-compiler:$room_version"
+
+    implementation project(':AdsManager')
+    implementation project(':autoimageslider')
+    implementation project(':adaptyUi')
+
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+    implementation "com.android.billingclient:billing:7.1.1"
+
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+    implementation 'com.google.android.gms:play-services-vision:20.1.3'
+    implementation 'com.google.android.gms:play-services-mlkit-text-recognition:19.0.1'
+
+    implementation 'com.nabinbhandari.android:permissions:3.8'
+    implementation "com.airbnb.android:lottie:$lottieVersion"
+
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3"
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    kapt "android.arch.lifecycle:compiler:1.1.1"
+    implementation "androidx.fragment:fragment-ktx:1.8.4"
+
+// Koin AndroidX Scope feature
+    implementation "org.koin:koin-core:$koin_version"
+    implementation "org.koin:koin-android:$koin_version"
+    implementation "org.koin:koin-androidx-scope:$koin_version"
+    // Koin AndroidX ViewModel feature
+    implementation "org.koin:koin-androidx-viewmodel:$koin_version"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.8.6"
+
+
+    implementation 'androidx.exifinterface:exifinterface:1.3.7'
+
+
+    //anko kotlin
+    implementation "org.jetbrains.anko:anko-commons:$anko_version"
+    implementation "org.jetbrains.anko:anko-design:$anko_version"
+
+
+    /*                           In App Review           */
+    // This dependency is downloaded from the Google’s Maven repository.
+    // So, make sure you also include that repository in your project's build.gradle file.
+    implementation("com.google.android.play:review:2.0.1")
+
+    // For Kotlin users also import the Kotlin extensions library for Play In-App Review:
+    implementation("com.google.android.play:review-ktx:2.0.1")
+
+    implementation 'com.adjust.sdk:adjust-android:5.0.1'
+    implementation 'com.android.installreferrer:installreferrer:2.2'
+
+    api 'com.romandanylyk:pageindicatorview:1.0.3'
+
+    annotationProcessor 'com.android.databinding:compiler:8.7.0'
+    implementation "androidx.multidex:multidex:2.0.1"
+
+    implementation('com.calldorado:calldorado-release:8.1.8.3839@aar') {
+        transitive = true
+    }
+
+    implementation 'com.karumi:dexter:6.2.3'
+
+
+    implementation 'com.google.android.ump:user-messaging-platform:3.0.0'
+
+//    Android – Install Adapty SDK
+    implementation 'io.adapty:android-sdk:2.11.5'
+
+}

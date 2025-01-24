@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/circular_std"
+        android:gravity="center"
+        android:text="@string/tutorial_third_title"
+        android:textColor="@color/color_blue"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:fontFamily="@font/circular_std"
+        android:gravity="center"
+        android:text="@string/tutorial_third_desc"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <EditText
+        android:id="@+id/tag"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_blue_stroke_rounded_10sdp"
+        android:drawableStart="@drawable/ic_address_marker"
+        android:drawablePadding="@dimen/_10sdp"
+        android:ellipsize="end"
+        android:hint="@string/address_hint"
+        android:inputType="textMultiLine"
+        android:maxLength="256"
+        android:maxLines="2"
+        android:paddingHorizontal="@dimen/_16sdp"
+        android:textColor="@color/text_color_gray"
+        android:textColorHint="@color/text_color_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDes"
+        tools:ignore="Autofill,LabelFor"
+        tools:text="My Beautiful House :D..." />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="0dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="309dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/tutorial_3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

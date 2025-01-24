@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transpresnt"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        app:cardCornerRadius="5dp"
+        card_view:cardElevation="8dp"
+        card_view:cardPreventCornerOverlap="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:background="@color/colorPrimary"
+                android:id="@+id/liner_pick_gallery"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="0dp">
+
+                <ImageView
+                    android:layout_centerInParent="true"
+                    app:srcCompat="@drawable/ic_location_pointer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    tools:ignore="VectorDrawableCompat" />
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/liner_pick_custom"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="0dp">
+                <TextView
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="center_vertical"
+                    android:text="In order to get the most of the app you will be asked to allow the app to Access To your current device location."
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black_colour"
+                    />
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20sdp"
+            >
+
+                <Button
+                    android:id="@+id/btn_notnow"
+                    android:textColor="@color/colorPrimary"
+                    android:text="NOT NOW"
+                    android:background="@color/transpresnt"
+                    android:layout_toLeftOf="@+id/btn_continue"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_40sdp" />
+
+
+                <Button
+                    android:id="@+id/btn_continue"
+                    android:textColor="@color/colorPrimary"
+                    android:text="CONTINUE"
+                    android:background="@color/transpresnt"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_40sdp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

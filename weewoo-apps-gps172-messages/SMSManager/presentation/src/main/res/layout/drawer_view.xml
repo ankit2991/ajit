@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/drawer_background"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="8dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/remove_ad_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150sdp"
+                android:background="@drawable/go_premium_bg"
+                android:paddingBottom="@dimen/_20sdp"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/upgrade_img"
+                    android:layout_width="@dimen/_58sdp"
+                    android:layout_height="@dimen/_58sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_42sdp"
+                    android:src="@drawable/go_premium_icon"
+                    android:visibility="visible" />
+
+                <com.messaging.textrasms.manager.common.widget.QkTextView
+                    android:id="@+id/upgrade_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/upgrade_img"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:contentDescription="Ads remove 2.99$ lifetime"
+                    android:fontFamily="@string/Robot_meduim"
+                    android:gravity="center"
+                    android:padding="@dimen/_7sdp"
+                    android:visibility="gone"
+                    android:text="Upgrade to Premium"
+                    android:textAllCaps="true"
+                    android:textColor="#ECA83C"
+                    android:textSize="@dimen/_15sdp"
+                    app:textAllCaps="true" />
+
+                <LinearLayout
+                    android:id="@+id/premium_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="@dimen/_31sdp"
+                    android:layout_toEndOf="@+id/upgrade_img"
+                    android:orientation="vertical">
+
+                    <com.messaging.textrasms.manager.utils.FontFitTextView
+                        android:id="@+id/tv_go_premium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/roboto_reg_test"
+                        android:lines="1"
+                        android:visibility="gone"
+                        android:text="@string/go_premium"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_20sdp" />
+
+                    <com.messaging.textrasms.manager.common.widget.QkTextView
+                        android:id="@+id/tv_go_premium_en"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_3sdp"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/roboto_reg_test"
+                        android:lines="1"
+                        android:text="@string/go_premium"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_23sdp" />
+
+                    <com.messaging.textrasms.manager.utils.FontFitTextView
+                        android:id="@+id/tv_unlock_everything"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:ellipsize="end"
+                        android:layout_marginEnd="@dimen/_10sdp"                        android:fontFamily="@font/roboto_bold_test"
+                        android:lines="1"
+                        android:visibility="gone"
+                        android:text="@string/unlock_everything"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12sdp" />
+
+                    <TextView
+                        android:id="@+id/tv_unlock_everything_en"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:ellipsize="end"
+                        android:layout_marginEnd="@dimen/_3sdp"
+                        android:fontFamily="@font/roboto_bold_test"
+                        android:lines="1"
+                        android:text="@string/unlock_everything"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12sdp" />
+
+                    <LinearLayout
+                        android:id="@+id/price_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/upgrade_txt"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_10sdp"                        android:paddingHorizontal="@dimen/_5sdp"
+                        android:visibility="gone"
+                        android:background="@drawable/price"
+                        android:gravity="center">
+
+                        <com.messaging.textrasms.manager.utils.FontFitTextView
+                            android:id="@+id/price_txt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:lines="1"
+                            android:ellipsize="end"
+                            android:fontFamily="@string/roboto_regular"
+                            android:gravity="center"
+                            android:paddingTop="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_5sdp"
+                            android:paddingHorizontal="@dimen/_5sdp"
+                            android:text="@string/start_three_day"
+                            android:textColor="#206CED"
+                            android:textSize="@dimen/_11sdp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/price_layout_en"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/upgrade_txt"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_3sdp"
+                        android:paddingHorizontal="@dimen/_5sdp"
+
+                        android:background="@drawable/price"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/price_txt_en"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:lines="1"
+                            android:ellipsize="end"
+                            android:fontFamily="@string/roboto_regular"
+                            android:gravity="center"
+                            android:paddingTop="@dimen/_6sdp"
+                            android:paddingBottom="@dimen/_6sdp"
+                            android:paddingHorizontal="@dimen/_10sdp"
+                            android:text="@string/start_three_day"
+                            android:textColor="#206CED"
+                            android:textSize="@dimen/_11sdp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/benefits"
+                    android:layout_width="@dimen/_180sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/premium_layout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:visibility="gone">
+
+                    <com.messaging.textrasms.manager.common.widget.QkTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:contentDescription="Ads remove 2.99$ lifetime"
+                        android:fontFamily="@string/Robot_meduim"
+                        android:gravity="center"
+                        android:padding="@dimen/_8sdp"
+                        android:text="See Benefits"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12sdp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentStart="true"
+                android:layout_margin="@dimen/_10sdp"
+                android:padding="@dimen/_8sdp"
+                android:src="@drawable/back"
+                android:visibility="gone"
+                app:tint="?attr/purchase_bg" />
+
+            <ImageView
+                android:id="@+id/invite"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/_10sdp"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/light_icon"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <com.messaging.textrasms.manager.common.widget.QkTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:fontFamily="@string/Robot_meduim"
+            android:padding="@dimen/_5sdp"
+            android:text="App Settings"
+            android:textAllCaps="true"
+            android:textColor="#797979"
+            android:textSize="@dimen/_15sdp"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="#34C4C2C2"
+            android:visibility="gone" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp" />
+
+        <LinearLayout
+            android:id="@+id/inbox"
+            style="@style/DrawerRow"
+            >
+
+            <ImageView
+                android:id="@+id/inboxIcon"
+                style="@style/DrawerIcon"
+                android:src="?attr/inbox_icon" />
+
+            <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                style="@style/DrawerText"
+                android:text="@string/drawer_inbox"
+                app:customFont="@string/roboto_med" />
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:padding="@dimen/_1sdp"
+                android:src="@drawable/arrow_right"
+                android:visibility="gone"
+                app:tint="?android:attr/textColorPrimary" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#7C929090"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/archived"
+            style="@style/DrawerRow">
+
+            <ImageView
+                android:id="@+id/archivedIcon"
+                style="@style/DrawerIcon"
+                android:src="?attr/archive_icon" />
+
+            <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                style="@style/DrawerText"
+                android:text="@string/drawer_archived"
+                app:customFont="@string/roboto_med" />
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:padding="@dimen/_1sdp"
+                android:src="@drawable/arrow_right"
+                android:visibility="visible"
+                app:tint="?android:attr/textColorPrimary" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#7C929090"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/transaction"
+            style="@style/DrawerRow">
+
+            <ImageView
+                style="@style/DrawerIcon"
+                android:src="?attr/ic_transactions" />
+
+            <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                style="@style/DrawerText"
+                android:text="@string/drawer_transaction"
+                app:customFont="@string/roboto_med" />
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:padding="@dimen/_1sdp"
+                android:src="@drawable/arrow_right"
+                android:visibility="visible"
+                app:tint="?android:attr/textColorPrimary" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#7C929090"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/promotion"
+            style="@style/DrawerRow">
+
+            <ImageView
+                style="@style/DrawerIcon"
+                android:src="?attr/ic_promotions" />
+
+            <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                style="@style/DrawerText"
+                android:text="@string/drawer_promotion"
+                app:customFont="@string/roboto_med" />
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:padding="@dimen/_1sdp"
+                android:src="@drawable/arrow_right"
+                android:visibility="visible"
+                app:tint="?android:attr/textColorPrimary" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#7C929090"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/spam"
+            style="@style/DrawerRow">
+
+            <ImageView
+                style="@style/DrawerIcon"
+                android:padding="@dimen/_4sdp"
+                android:src="?attr/ic_junk" />
+
+            <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                style="@style/DrawerText"
+                android:text="@string/Spam"
+                app:customFont="@string/roboto_med" />
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:padding="@dimen/_1sdp"
+                android:src="@drawable/arrow_right"
+                android:visibility="visible"
+                app:tint="?android:attr/textColorPrimary" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#7C929090"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/filter"
+            style="@style/DrawerRow">
+
+            <ImageView
+                style="@style/DrawerIcon"
+
+                android:layout_height="32dp"
+                android:src="?attr/ic_filter" />
+
+            <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                style="@style/DrawerText"
+                android:text="@string/smsfilter"
+                app:customFont="@string/roboto_med" />
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:padding="@dimen/_1sdp"
+                android:src="@drawable/arrow_right"
+                android:visibility="visible"
+                app:tint="?android:attr/textColorPrimary" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#7C929090"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/blocking"
+            style="@style/DrawerRow">
+
+            <ImageView
+                style="@style/DrawerIcon"
+                android:src="?attr/blocklist_icon" />
+
+            <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                style="@style/DrawerText"
+                android:text="@string/drawer_blocking"
+                app:customFont="@string/roboto_med" />
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:padding="@dimen/_1sdp"
+                android:src="@drawable/arrow_right"
+                android:visibility="visible"
+                app:tint="?android:attr/textColorPrimary" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#7C929090"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/calldorado"
+            style="@style/DrawerRow">
+
+            <ImageView
+                style="@style/DrawerIconFew"
+                android:layout_marginEnd="28dp"
+                android:src="?attr/settings_icon" />
+
+            <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                style="@style/DrawerText"
+                android:text="@string/drawer_calldorado"
+                app:customFont="@string/roboto_med" />
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:padding="@dimen/_1sdp"
+                android:src="@drawable/arrow_right"
+                android:visibility="visible"
+                app:tint="?android:attr/textColorPrimary" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#40B3AAAA"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/backup1"
+            style="@style/DrawerRow"
+            android:visibility="gone">
+
+            <ImageView
+                style="@style/DrawerIcon"
+                android:src="@drawable/backup_icon" />
+
+            <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                style="@style/DrawerText"
+                android:text="@string/backup_title"
+                app:customFont="@string/roboto_med" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="#40B3AAAA"
+            android:visibility="gone" />
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/scheduled"-->
+<!--            style="@style/DrawerRow">-->
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/schedule_mode"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent">-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/schedule_icon"-->
+<!--                        style="@style/DrawerIcon"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:src="?attr/schedual_icon" />-->
+
+<!--                    <com.messaging.textrasms.manager.common.util.CustomFontTextView-->
+<!--                        style="@style/DrawerText"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_toRightOf="@+id/schedule_icon"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="@string/drawer_scheduled"-->
+<!--                        app:customFont="@string/roboto_med" />-->
+<!--                </RelativeLayout>-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/pro1"-->
+<!--                    android:layout_width="@dimen/_25sdp"-->
+<!--                    android:layout_height="@dimen/_25sdp"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:layout_marginStart="@dimen/_3sdp"-->
+<!--                    android:layout_toEndOf="@+id/schedule_mode"-->
+<!--                    android:src="@drawable/ic_proicon" />-->
+
+<!--            </RelativeLayout>-->
+<!--        </LinearLayout>-->
+
+        <LinearLayout
+            android:id="@+id/scheduled"
+            style="@style/DrawerRow"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/schedule_icon"
+                style="@style/DrawerIconFew"
+                android:padding="@dimen/_5sdp"
+                android:layout_centerVertical="true"
+                android:src="?attr/schedual_icon" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/schedule_mode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                        style="@style/DrawerText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/drawer_scheduled"
+                        app:customFont="@string/roboto_med" />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/pro1"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/schedule_mode"
+                    android:src="@drawable/ic_proicon" />
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:padding="@dimen/_1sdp"
+                    android:src="@drawable/arrow_right"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:visibility="visible"
+                    app:tint="?android:attr/textColorPrimary" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="?attr/viewcolor"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/group"
+            style="@style/DrawerRow"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="28dp"
+                android:src="@drawable/ic_group" />
+
+            <com.messaging.textrasms.manager.common.widget.QkTextView
+                style="@style/DrawerText"
+                android:text="@string/drawer_group" />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginStart="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="#40B3AAAA"
+            android:visibility="gone" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginStart="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="#40B3AAAA"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/removeAds"
+            style="@style/DrawerRow"
+            android:visibility="gone">
+
+            <ImageView
+                style="@style/DrawerIcon"
+                android:src="@drawable/removeads_icon" />
+
+            <com.messaging.textrasms.manager.common.widget.QkTextView
+                style="@style/DrawerText"
+                android:text="@string/drawer_remove_ads" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line_ad"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginStart="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="#40B3AAAA"
+            android:visibility="gone" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginStart="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="#40B3AAAA"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#7C929090" />
+
+        <LinearLayout
+            android:id="@id/invite1"
+            style="@style/DrawerRow"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/inviteicon"
+                style="@style/DrawerIconFew"
+                android:padding="@dimen/_5sdp"
+                android:background="@drawable/round"
+                android:layout_centerVertical="true"
+                android:src="@drawable/night_icon"
+                app:tint="#606060" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/relative_mode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                        android:id="@+id/invitetext"
+                        style="@style/DrawerText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/drawer_mode"
+                        app:customFont="@string/roboto_med" />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/pro2"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/relative_mode"
+                    android:src="@drawable/ic_proicon" />
+
+
+
+                <com.messaging.textrasms.manager.common.widget.PreferenceView
+                    android:id="@+id/invite1"
+                    style="@style/DrawerText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:icon="@drawable/light_icon"
+                    app:title="@string/drawer_mode"
+                    tools:summary="Automatic" />
+                <!--            <ImageView-->
+                <!--                style="@style/DrawerIcon"-->
+                <!--                android:src="@drawable/light_icon" />-->
+
+                <!--            <com.messaging.textrasms.manager.common.widget.QkTextView-->
+                <!--                style="@style/DrawerText"-->
+                <!--                android:text="@string/drawer_mode" />-->
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#7C929090"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/settings"
+            style="@style/DrawerRow"
+            android:visibility="visible">
+
+            <ImageView
+                style="@style/DrawerIconFew"
+                android:padding="@dimen/_2sdp"
+                android:src="?attr/setting_icon"
+                android:visibility="visible" />
+
+            <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                style="@style/DrawerText"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/drawer_settings"
+                app:customFont="@string/roboto_med" />
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:padding="@dimen/_1sdp"
+                android:src="@drawable/arrow_right"
+                android:visibility="visible"
+                app:tint="?android:attr/textColorPrimary" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#7C929090"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/help"
+            style="@style/DrawerRow"
+            android:visibility="visible">
+
+            <ImageView
+                style="@style/DrawerIconFew"
+                android:src="?attr/feedback_icon"
+                android:visibility="visible" />
+
+            <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                style="@style/DrawerText"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/drawer_feedback"
+                app:customFont="@string/roboto_med" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#7C929090"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/rate_us"
+            style="@style/DrawerRow"
+            android:visibility="gone">
+
+            <ImageView
+                style="@style/DrawerIcon"
+                android:src="@drawable/ic_rate_review"
+                android:visibility="visible" />
+
+            <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                style="@style/DrawerText"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/Rate"
+                app:customFont="@string/roboto_med" />
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:padding="@dimen/_1sdp"
+                android:src="@drawable/arrow_right"
+                android:visibility="gone"
+                app:tint="?android:attr/textColorPrimary" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#7C929090"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/share"
+            style="@style/DrawerRow"
+            android:visibility="gone">
+
+            <ImageView
+                style="@style/DrawerIcon"
+                android:src="?attr/share"
+                android:visibility="visible" />
+
+            <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                style="@style/DrawerText"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/Share"
+                app:customFont="@string/roboto_med" />
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:padding="@dimen/_1sdp"
+                android:src="@drawable/arrow_right"
+                android:visibility="gone"
+                app:tint="?android:attr/textColorPrimary" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#7C929090"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@id/language"
+            style="@style/DrawerRow"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/languageicon"
+                style="@style/DrawerIcon"
+                android:src="@drawable/ic_translate"
+                app:tint="#85578D" />
+
+            <com.messaging.textrasms.manager.common.widget.QkTextView
+                android:id="@+id/languagetxt"
+                style="@style/DrawerText"
+                android:text="@string/Language" />
+
+            <com.messaging.textrasms.manager.common.widget.PreferenceView
+                android:id="@+id/language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:icon="@drawable/ic_translate"
+                app:title="@string/Language"
+                tools:summary="English" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#7C929090"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</ScrollView>

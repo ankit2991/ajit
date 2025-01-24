@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".activity.MainActivity">
+
+    <item
+            android:id="@+id/action_privacy_policy"
+            android:title="@string/privacy_policy"
+            app:showAsAction="never"/>
+    <!--<item
+            android:id="@+id/action_more_apps"
+            android:title="@string/more_apps"
+            app:showAsAction="never"/>-->
+    <item
+            android:id="@+id/action_list"
+            android:title="Remove"
+            android:icon="@drawable/ic_ad_block"
+            app:showAsAction="always"/>
+</menu>

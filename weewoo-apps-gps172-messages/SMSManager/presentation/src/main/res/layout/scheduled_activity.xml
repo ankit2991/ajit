@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/list_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ad_view_container"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                style="@style/Toolbar"
+                android:background="?android:attr/itemBackground">
+
+                <com.messaging.textrasms.manager.common.widget.QkTextView
+                    android:id="@+id/toolbarTitle"
+                    style="@style/ToolbarText"
+                    android:textStyle="bold"
+                    tools:text="@string/scheduled_title" />
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_below="@+id/toolbar"
+                android:background="#65656669" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_below="@+id/view"
+                android:layout_weight="6"
+                android:paddingTop="@dimen/_4sdp">
+
+                <!--        <androidx.core.widget.NestedScrollView-->
+                <!--            android:id="@+id/nested_view"-->
+                <!--            android:layout_width="match_parent"-->
+                <!--            android:layout_height="wrap_content"-->
+                <!--            android:layout_above="@+id/compose"-->
+                <!--            android:layout_alignParentTop="true"-->
+                <!--            android:paddingTop="@dimen/_4sdp"-->
+                <!--            >-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/empty"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingStart="24dp"
+                        android:paddingEnd="24dp"
+                        android:visibility="visible">
+
+
+                        <com.messaging.textrasms.manager.common.widget.QkTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="8dp"
+                            android:gravity="start"
+                            android:text="@string/scheduled_empty_description" />
+
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp" />
+
+                        <com.messaging.textrasms.manager.common.widget.TightTextView
+                            style="@style/ScheduledSampleTextStyle"
+                            android:layout_gravity="end"
+                            android:background="@drawable/message_only_blue"
+                            android:text="@string/scheduled_empty_message_1"
+                            android:textColor="@color/white" />
+
+                        <com.messaging.textrasms.manager.common.widget.TightTextView
+                            android:id="@+id/sampleMessage"
+                            style="@style/ScheduledSampleTextStyle"
+                            android:layout_marginTop="16dp"
+                            android:background="@drawable/message_only"
+                            android:text="@string/scheduled_empty_message_2" />
+
+                        <com.messaging.textrasms.manager.common.widget.TightTextView
+                            style="@style/ScheduledSampleTextStyle"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="16dp"
+                            android:background="@drawable/message_only_blue"
+                            android:text="@string/scheduled_empty_message_3"
+                            android:textColor="@color/white" />
+
+                        <com.messaging.textrasms.manager.common.widget.QkTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="16dp"
+                            android:gravity="end"
+                            android:text="@string/scheduled_empty_message_3_timestamp"
+                            android:textColor="?android:attr/textColorSecondary"
+                            android:textStyle="italic"
+                            app:textSize="secondary" />
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp" />
+
+                    </LinearLayout>
+
+<!--                    <androidx.core.widget.NestedScrollView-->
+<!--                        android:id="@+id/nested_view"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingTop="@dimen/_4sdp"-->
+<!--                        android:visibility="visible">-->
+
+<!--                        <androidx.recyclerview.widget.RecyclerView-->
+<!--                            android:id="@+id/messages"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:paddingTop="8dp"-->
+<!--                            android:paddingBottom="8dp"-->
+<!--                            android:visibility="visible"-->
+<!--                            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"-->
+<!--                            tools:listitem="@layout/scheduled_message_list_item" />-->
+<!--                    </androidx.core.widget.NestedScrollView>-->
+                </LinearLayout>
+
+
+                <!--        </androidx.core.widget.NestedScrollView>-->
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/schedule_guide"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_22sdp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:gravity="center"
+                android:padding="@dimen/_3sdp"
+                android:src="@drawable/ic_schedule_guide"
+
+                />
+
+            <LinearLayout
+                android:id="@+id/compose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="@dimen/_14sdp"
+                android:background="@drawable/default_btn_bg"
+                android:contentDescription="@string/scheduled_compose_cd"
+                android:gravity="center"
+                android:padding="@dimen/_6sdp"
+                android:visibility="visible">
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/ic_message_white_24dp" />
+
+                <com.messaging.textrasms.manager.common.widget.QkTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_3sdp"
+                    android:gravity="start"
+                    android:paddingTop="@dimen/_3sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    android:paddingBottom="@dimen/_3sdp"
+                    android:text="@string/Start_Chat"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_12sdp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/ad_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible" />
+</RelativeLayout>

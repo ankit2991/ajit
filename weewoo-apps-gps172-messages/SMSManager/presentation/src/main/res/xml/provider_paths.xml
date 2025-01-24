@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path
+        name="external_files"
+        path="." />
+    <external-path
+        name="all_files"
+        path="Android/" />
+    <cache-path
+        name="cache_files"
+        path="." />
+    <files-path
+        name="file_path"
+        path="." />
+</paths>

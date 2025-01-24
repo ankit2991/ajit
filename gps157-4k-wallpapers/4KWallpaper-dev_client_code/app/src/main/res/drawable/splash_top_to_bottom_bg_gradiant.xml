@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <gradient
+        android:angle="270"
+        android:endColor="@color/transparent"
+        android:startColor="@color/transparentBlack_splash"
+        android:type="linear" />
+    <!--<gradient
+        android:angle="270"
+        android:endColor="@color/white_trans1"
+        android:centerColor="@color/white_trans1"
+        android:startColor="@color/white_trans1"
+        android:type="linear" />-->
+
+</shape>

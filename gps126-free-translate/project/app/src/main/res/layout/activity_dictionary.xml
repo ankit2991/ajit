@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.dictionary.DictionaryActivity">
+
+    <RelativeLayout
+        android:id="@+id/toolbar_dictionary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:id="@+id/layout_top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_arrow_back_dic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                app:srcCompat="@drawable/ic_dictionary_back" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_toStartOf="@+id/layout_language_select_dictionary"
+                android:layout_toEndOf="@+id/iv_arrow_back_dic"
+                android:fontFamily="@font/segoeui"
+                android:text="Dictionary"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+
+
+                />
+
+            <RelativeLayout
+                android:id="@+id/layout_language_select_dictionary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/oval_background_white"
+                android:paddingStart="16dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/tv_lang_dic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="English"
+                    android:textColor="@color/black_overlay" />
+
+                <ImageView
+                    android:id="@+id/iv_arrow_drop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@+id/tv_lang_dic"
+                    app:srcCompat="@drawable/drop_down_lang"
+
+                    />
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_top_bar">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/bg_input_detail_view"
+                android:gravity="center_vertical">
+
+                <EditText
+                    android:id="@+id/et_input_dictionary"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:layout_toStartOf="@+id/iv_clear_input_dictionary"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="Search"
+                    android:imeOptions="actionSearch"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:singleLine="true"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_clear_input_dictionary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:padding="12dp"
+                    app:srcCompat="@drawable/ic_cross_et"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_container_ad_dictionary"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_dictionary"
+        app:layout_constraintVertical_bias="0.0">
+
+        <FrameLayout
+            android:id="@+id/admob_dictionary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <FrameLayout
+            android:id="@+id/fb_dictionary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_detail_dictionary"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/ads_banner_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_container_ad_dictionary"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/layout_buttons_container"
+            android:layout_marginBottom="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:id="@+id/detail_layout_dictionary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!--                    synonyms-->
+                    <RelativeLayout
+                        android:id="@+id/layout_synonyms"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/bg_dictionary_row"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/tv_synonym_header"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/segoeui"
+                            android:gravity="start"
+                            android:text="Synonyms:"
+                            android:textColor="@color/rating_inactive"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_word_type"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_synonym_header"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/segoeui"
+                            android:gravity="start"
+                            android:text="Noun"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/list_synonyms"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_word_type"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                            app:spanCount="4" />
+
+
+                    </RelativeLayout>
+
+
+                    <!--                // word-->
+                    <RelativeLayout
+                        android:id="@+id/layout_word_original"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/bg_dictionary_row"
+                        android:visibility="visible">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/tv_word_header"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/segoeui"
+                                android:gravity="start"
+                                android:text="Word:"
+                                android:textColor="@color/rating_inactive"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/tv_definition_word"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/tv_word_header"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/segoeui"
+                                android:text="Definition:"
+
+                                android:textColor="@color/black_overlay"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/tv_word_original"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/tv_word_header"
+                                android:layout_margin="10dp"
+                                android:layout_toEndOf="@+id/tv_definition_word"
+                                android:fontFamily="@font/segoeui"
+                                android:text="Clean"
+                                android:textColor="@color/black_overlay"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <!--                // Sample sentences-->
+                    <RelativeLayout
+                        android:id="@+id/layout_sample_sentences"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/bg_dictionary_row"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/tv_sample_sentence_header"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/segoeui"
+                            android:gravity="start"
+                            android:text="Sample Sentences"
+                            android:textColor="@color/rating_inactive"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_sample_sentence_first"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_sample_sentence_header"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/segoeui"
+                            android:gravity="start"
+                            android:text="1   Sample Sentences"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_sample_sentence_second"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_sample_sentence_first"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/segoeui"
+                            android:gravity="start"
+                            android:text="2   Sample Sentences"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+
+                    </RelativeLayout>
+
+                    <!--                    web definitions-->
+                    <RelativeLayout
+                        android:id="@+id/layout_web_definitions"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/bg_dictionary_row"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/tv_web_header"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/segoeui"
+                            android:gravity="start"
+                            android:text="Web Definitions"
+                            android:textColor="@color/rating_inactive"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_web_first"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_web_header"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/segoeui"
+                            android:gravity="start"
+                            android:text="1   Sample Sentences"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_web_sentence_second"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_web_first"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/segoeui"
+                            android:gravity="start"
+                            android:text="2   Sample Sentences"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_above="@+id/layout_buttons_container"
+            android:background="@color/black_overlay" />
+
+        <RelativeLayout
+            android:id="@+id/layout_buttons_container"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+                    android:id="@+id/iv_copy_dictionary_word"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:src="@drawable/copy_btn"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_speak_dictionary_word"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:src="@drawable/speak_btn" />
+
+                <ImageView
+                    android:id="@+id/iv_share_dictionary_word"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:src="@drawable/share_btn" />
+
+                <ImageView
+                    android:id="@+id/iv_cancel_dictionary"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:src="@drawable/cancel_btn" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1">
+
+
+                    <TextView
+                        android:id="@+id/iv_translate_dictionary_word"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/bg_btn_translate"
+                        android:gravity="clip_vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="7dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="7dp"
+                        android:text="Translator"
+                        android:textColor="#fff"
+                        android:textSize="10sp" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#37000000"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/progress_conversation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ads_banner_parent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:background="@drawable/bg_single_color"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <FrameLayout
+            android:id="@+id/native_banner_container_home_screen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:orientation="vertical" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

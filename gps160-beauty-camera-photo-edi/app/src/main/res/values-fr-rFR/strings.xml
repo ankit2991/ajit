@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tap_to_select">Appuyez pour sélectionner</string>
+    <string name="sharpen">Affûter</string>
+    <string name="brightness">Luminosité</string>
+    <string name="camera">Caméra</string>
+    <string name="dialog_discard_title">Les modifications ne seront pas enregistrées. Voulez-vous poursuivre?</string>
+    <string name="discard">Jeter</string>
+    <string name="edit">Éditer</string>
+    <string name="collage">Collage</string>
+    <string name="contrast">Contraste</string>
+    <string name="rate_us">Évaluez nous</string>
+    <string name="rating_dialog_feedback_title">Retour d\'information</string>
+    <string name="rating_dialog_maybe_later">Peut-être plus tard</string>
+    <string name="rating_dialog_submit">Soumettre</string>
+    <string name="rating_promote">Si Camera Photo Editor Pro vous rend heureux et satisfait. Veuillez nous donner 5 étoiles</string>
+    <string name="saturation">Saturation</string>
+    <string name="save">ENREGISTRER</string>
+    <string name="save_and_share">Sauvegarder et partager</string>
+    <string name="settings">Suite</string>
+    <string name="share_friend">Partager l\'application</string>
+    <string name="share_photo">Partager Photo</string>
+    <string name="thank_you_2">Bonne journée</string>
+    <string name="thank_you">Rester en contact</string>
+    <string name="press_back">Veuillez appuyer à nouveau pour quitter</string>
+    <string name="agree_to_continue">Accepter de continuer</string>
+    <string name="privacy_policy">Politique de confidentialité</string>
+    <string name="gallery">Galerie</string>
+    <string name="crop">Recadrer</string>
+    <string name="adjust">Régler</string>
+    <string name="filters">Filtre</string>
+    <string name="overlay">Recouvrir</string>
+    <string name="sticker">Autocollant</string>
+    <string name="brush">Brosser</string>
+    <string name="fit">Ajuster</string>
+    <string name="blur">Se brouiller</string>
+    <string name="splas">Éclaboussure</string>
+    <string name="beauty_tool">Beauté</string>
+    <string name="layout">Disposition</string>
+    <string name="border">Frontière</string>
+    <string name="ratio">Rapport</string>
+    <string name="bg">Fond</string>
+    <string name="feedback" translatable="false">Retour d\'information</string>
+
+</resources>

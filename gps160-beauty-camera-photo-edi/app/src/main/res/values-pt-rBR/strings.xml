@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Photo Editor</string>
+
+
+
+    <string name="feedback" translatable="false">Comentários</string>
+
+    <string name="tap_to_select">Toque para selecionar</string>
+    <string name="sharpen">Afiada</string>
+
+    <string name="brightness">Brilho</string>
+    <string name="camera">Câmera</string>
+    <string name="dialog_discard_title">As alterações não serão salvas. Você quer prosseguir?</string>
+    <string name="discard">Descartar</string>
+    <string name="edit">Editar</string>
+    <string name="collage">Colagem</string>
+    <string name="contrast">Contraste</string>
+
+
+    <string name="rate_us">Nos avalie</string>
+    <string name="rating_dialog_feedback_title">Comentários</string>
+    <string name="rating_dialog_maybe_later">Talvez mais tarde</string>
+    <string name="rating_dialog_submit">Enviar</string>
+    <string name="rating_promote">Se o Camera Photo Editor Pro te faz feliz e satisfeito. Por favor, dê-nos 5 estrelas</string>
+
+    <string name="saturation">Saturação</string>
+    <string name="save">SALVE</string>
+    <string name="save_and_share">Salvar e compartilhar</string>
+
+
+    <string name="settings">Mais</string>
+    <string name="share_friend">Compartilhe o aplicativo</string>
+    <string name="share_photo">Compartilhar foto</string>
+
+    <string name="thank_you_2">Tenha um bom dia</string>
+    <string name="thank_you">Mantenha contato</string>
+    <string name="press_back">Por favor, pressione novamente para sair</string>
+    <string name="agree_to_continue">Concordo em continuar</string>
+    <string name="privacy_policy">Política de Privacidade</string>
+    <string name="gallery">Galeria</string>
+    <string name="crop">Cortar</string>
+    <string name="adjust">Ajustar</string>
+    <string name="filters">Filtro</string>
+    <string name="overlay">Sobreposição</string>
+    <string name="sticker">Autocolante</string>
+    <string name="brush">Escovar</string>
+    <string name="fit">Ajustar</string>
+    <string name="blur">Borrão</string>
+    <string name="splas">Splash</string>
+    <string name="beauty_tool">Beleza</string>
+    <string name="layout">Layout</string>
+    <string name="border">Fronteira</string>
+    <string name="ratio">Razão</string>
+    <string name="bg">Fundo</string>
+</resources>

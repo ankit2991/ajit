@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid
+                android:angle="270.0"
+                android:color="@color/tools_theme" />
+        </shape>
+    </item>
+    <item android:top="146dp">
+        <shape>
+            <solid
+                android:angle="270.0"
+                android:color="#FFFFFF" />
+            <corners
+                android:topLeftRadius="@dimen/_12sdp"
+                android:topRightRadius="@dimen/_12sdp" />
+        </shape>
+    </item>
+</layer-list>

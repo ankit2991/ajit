@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRoutes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#f5f5f5"
+        app:layout_constraintBottom_toTopOf="@+id/btnAddNewRoute"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAddNewRoute"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_button_blue"
+        android:text="@string/add_route"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rvRoutes" />
+
+
+    <ProgressBar
+        android:id="@+id/loadingProgressBar"
+        android:layout_width="@dimen/_37sdp"
+        android:layout_height="@dimen/_37sdp"
+        app:indicatorColor="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

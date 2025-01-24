@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="aircel_balance">
+        <item>Check main balance and validity of Aircel [*125#]</item>
+        <item>Check GPRS or internet balance of Aircel [*126*1#]</item>
+        <item>Free SMS balance and validity [*126*2]</item>
+        <item>Voice Dedicated Account Balance and Validity [*126*1#]</item>
+        <item>Check Aircel Local mobile call balance [*111*4#]</item>
+    </array>
+    <array name="aircel_offer">
+        <item>Special deals and discounts [*789#]</item>
+    </array>
+    <array name="aircel_service">
+        <item>Service packs(what’s new, festival pack, love shayri..) [*123#]</item>
+    </array>
+    <array name="aircel_utils">
+        <item>Customer Care Number -198</item>
+        <item>Know your Aircel Number [*234*4#]</item>
+        <item>Aircel Balance Transfer [*122*666#]</item>
+        <item>Check IMIS number [*222#]</item>
+    </array>
+    <array name="airtel_balance">
+        <item>Check main balance and validity of Airtel [*123#]</item>
+        <item>Check 2G data balance [*123*10#]</item>
+        <item>Check 3G data balance of Airtel [*123*11#]</item>
+        <item>SMS balance of Airtel [*123*7#]</item>
+        <item>Airtel to Airtel Minute Balance [*123*1#]</item>
+        <item>Local Airtel to Airtel Night Minutes Balance [*123*6#]</item>
+        <item>Free STD Minutes Balance [*123*8#]</item>
+        <item>Daily count of SMS [*125*5#]</item>
+        <item>To know last 5 transactions [*121*7#]</item>
+    </array>
+    <array name="airtel_offer">
+        <item>My Airtel My Offer [*121#]</item>
+        <item>Daily Pack 2G internet [*555*2#]</item>
+        <item>Mobile check-ins, Airtel Special Offers and Rewards [*566#]</item>
+    </array>
+    <array name="airtel_service">
+        <item>Airtel Live Services(Music, Movies, etc.) [*321#]</item>
+        <item>Missed Call Alert Services [*888#]</item>
+        <item>Activate/Deactivate GPRS Services [*567#]</item>
+        <item>Facebook Access @1 Rs per day [*325#]</item>
+        <item>Start Twitter service [*515#]</item>
+        <item>Airtel Gift Service [*141#]</item>
+    </array>
+    <array name="airtel_utility">
+        <item>Customer Care Number -121</item>
+        <item>Check your Airtel Number [*121*9#]</item>
+        <item>Set your Hello Tune [*678#]</item>
+        <item>For Local National SMS packs [*777#]</item>
+        <item>To manage dish TV account [*121#]</item>
+    </array>
+    <array name="bsnl_balance">
+        <item>Check main balance [*123#]</item>
+        <item>Check GPRS or internet balance [*112#]</item>
+        <item>Check free SMS balance [*112#]</item>
+        <item>Local SMS [*123*1#]</item>
+        <item>National SMS [*123*2#]</item>
+        <item>Check Main Balance [*123*6#]</item>
+        <item>Check GPRS Internet Balance [*123*6#]</item>
+    </array>
+    <array name="bsnl_offer">
+        <item>Night GPRS pack [*123*8#]</item>
+        <item>To know special packs [*777#]</item>
+    </array>
+    <array name="bsnl_service">
+        <item>All active STV’s by SMS [*112#]</item>
+        <item>To know about USSD subscribed active services [*456*00#]</item>
+        <item>Get Voice Packs Info – (RC200) [*126#]</item>
+        <item>FnF(Friends and Family) Numbers Enquiry [*124#]</item>
+    </array>
+    <array name="bsnl_utils">
+        <item>Customer Care Number -1503</item>
+        <item>Toll Free numbers -18001801503</item>
+        <item>Data one Broadband -18004241600</item>
+        <item>Landline Call Center -1500</item>
+        <item>Suggestions and complaints mail portalcom@bsnl.co.in</item>
+        <item>Official site www.bsnl.co.in</item>
+    </array>
+    <array name="idea_balance">
+        <item>Balance Check [*212#]</item>
+        <item>Account balance [*456#]</item>
+        <item>Check GPRS Balance [*125#]</item>
+        <item>SMS Balance [*451#]</item>
+    </array>
+    <array name="idea_offer">
+        <item>Idea Menu [*111#]</item>
+        <item>To view free benefits [*167*1#]</item>
+        <item>To view usage benefits [*167*3#]</item>
+        <item>To activate Idea night, local SMS, call packs [*369#]</item>
+    </array>
+    <array name="idea_service">
+        <item>Idea Service Menu [*147#]</item>
+        <item>Idea Pack [*369#]</item>
+        <item>Idea Price [*567#]</item>
+        <item>To activateeactivate Call waiting service [*43#]</item>
+    </array>
+    <array name="idea_utils">
+        <item>Check Your Number [*1#]</item>
+        <item>Customer Care Number -198</item>
+    </array>
+    <array name="loop_balance">
+        <item>Check Balance [*100#]</item>
+        <item>Free std balance [*104#]</item>
+    </array>
+    <array name="loop_offer">
+        <item>Local l2l calls [*101#]</item>
+    </array>
+    <array name="loop_service">
+        <item>Sms pack balance [*102#]</item>
+        <item>Free local call [*103#]</item>
+        <item>E-recharge [*105#]</item>
+    </array>
+    <array name="loop_utils">
+        <item>Free loop to others balance [*106#]</item>
+        <item>Free local + national sms [*107#]</item>
+    </array>
+    <array name="mtnl_balance">
+        <item>Check Balance [*123#]</item>
+    </array>
+    <array name="mtnl_offer">
+        <item>Update coming soon</item>
+    </array>
+    <array name="mtnl_service">
+        <item>Your mobile number [*8888#]</item>
+    </array>
+    <array name="mtnl_utils">
+        <item>Update coming soon</item>
+    </array>
+    <array name="mts_balance">
+        <item>Check Balance [*123#]</item>
+    </array>
+    <array name="mts_offer">
+        <item>Update coming soon</item>
+    </array>
+    <array name="mts_service">
+        <item>Your mobile number [*222*4#]</item>
+        <item>To Activate Net [*109*210#]</item>
+    </array>
+    <array name="mts_utils">
+        <item>Update coming soon</item>
+    </array>
+    <array name="place_type">
+        <item>airport</item>
+        <item>atm</item>
+        <item>bank</item>
+        <item>bus_station</item>
+        <item>church</item>
+        <item>doctor</item>
+        <item>hospital</item>
+        <item>mosque</item>
+        <item>movie_theater</item>
+        <item>hindu_temple</item>
+        <item>restaurant</item>
+    </array>
+    <array name="place_type_name">
+        <item>Airport</item>
+        <item>ATM</item>
+        <item>Bank</item>
+        <item>Bus Station</item>
+        <item>Church</item>
+        <item>Doctor</item>
+        <item>Hospital</item>
+        <item>Mosque</item>
+        <item>Movie Theater</item>
+        <item>Hindu Temple</item>
+        <item>Restaurant</item>
+    </array>
+    <array name="planets_array">
+        <item>Airtel Mobile</item>
+        <item>Vodafone Mobile</item>
+        <item>Idea Mobile</item>
+        <item>Telenor Mobile</item>
+        <item>Aircel Mobile</item>
+        <item>Reliance Mobile</item>
+        <item>BSNL Mobile</item>
+        <item>DOCOMO Mobile</item>
+        <item>Videocon Mobile</item>
+        <item>MTS Mobile</item>
+        <item>MTNL Mobile</item>
+        <item>Virgin Mobile</item>
+        <item>LOOP Mobile</item>
+    </array>
+    <array name="reliance_balance">
+        <item>Check main balance of Reliance [*367#]</item>
+        <item>Check GPRS or internet balance [*333*1*3*#]</item>
+        <item>Check free SMS balance of Reliance [*367*2#]</item>
+        <item>Check local call minutes [*367*2#]</item>
+        <item>Check Latest Balance information [*333*1*2*1#]</item>
+        <item>Check VAS balance of Reliance [*333*1*4*1#]</item>
+    </array>
+    <array name="reliance_offer">
+        <item>Special deals and discounts [*789#]</item>
+        <item>To know special packs [*777#]</item>
+    </array>
+    <array name="reliance_service">
+        <item>Activate miss call alert ( charges apply) [*333*3*2*1#]</item>
+        <item>Deactivate Miss call alert [*333*3*2*2#]</item>
+        <item>Activate Caller Tune in Reliance(charges apply) [*333*3*1*1#]</item>
+        <item>Deactivate caller tune in Reliance [*333*3*1*2#]</item>
+        <item>Service packs(hot news..etc ) [*123#]</item>
+    </array>
+    <array name="reliance_utils">
+        <item>Know your Reliance Number [*1#]</item>
+        <item>Customer Care Number -198</item>
+        <item>To get caller tunes [*999#]</item>
+        <item>To get free internet [*123*099#]</item>
+        <item>To check validity period [*333*1*1*1#]</item>
+    </array>
+    <array name="tata_balance">
+        <item>To check balance [*111#]</item>
+        <item>GPRS or Internet Data Check [*111*1#]</item>
+        <item>Balance Inquiry [*191*2#]</item>
+        <item>Status of free usage(Pool Balance) [*191*6#]</item>
+        <item>Prepaid Bill Request [*191*9*6#]</item>
+    </array>
+    <array name="tata_offer">
+        <item>Special Offers [*191*9*8#]</item>
+        <item>3G Internet Packs [*141*1#]</item>
+        <item>New Internet Packs [*141*4#]</item>
+        <item>Daily/Weekly Packs [*141*5#]</item>
+    </array>
+    <array name="tata_service">
+        <item>Service Request [*191*8#]</item>
+        <item>Service Points [*191*4#]</item>
+        <item>Start/Stop Services [*191*7#]</item>
+    </array>
+    <array name="tata_utils">
+        <item>Validity [*191*3#]</item>
+        <item>Last 3 Recharge History [*191*5#]</item>
+        <item>Customer Preference [*191*9*1#]</item>
+        <item>Daily SMS Count [*191*9*3#]</item>
+        <item>Music Unlimited [*141*6#]</item>
+        <item>Discount Zone [*141*8#]</item>
+    </array>
+    <array name="telenor_balance">
+        <item>Check Balance [*363*4#]</item>
+        <item>Check Main Balance [*222*2#]</item>
+    </array>
+    <array name="telenor_offer">
+        <item>To Know Tariff Plans Call at - 50001</item>
+    </array>
+    <array name="telenor_service">
+        <item>Your mobile number [*222*4#]</item>
+        <item>To Activate Caller Tune [*444#]</item>
+        <item>To Deactivate Caller Tune [*444*9#]</item>
+    </array>
+    <array name="telenor_utils">
+        <item>Roaming Details [*363*4#]</item>
+    </array>
+    <array name="videocon_balance">
+        <item>Check Balance [*123#]</item>
+    </array>
+    <array name="videocon_offer">
+        <item>Update coming soon</item>
+    </array>
+    <array name="videocon_service">
+        <item>Update coming soon</item>
+    </array>
+    <array name="videocon_utils">
+        <item>Update coming soon</item>
+    </array>
+    <array name="virgin_balance">
+        <item>Check Balance [*111#]</item>
+    </array>
+    <array name="virgin_offer">
+        <item>Update coming soon</item>
+    </array>
+    <array name="virgin_service">
+        <item>Know your Number [*1#]</item>
+    </array>
+    <array name="virgin_utils">
+        <item>Customer care - 121</item>
+    </array>
+    <array name="vodafone_balance">
+        <item>Check free SMS balance of Vodafone [*157#]</item>
+        <item>Check Mobile number with main balance [*111*2#]</item>
+        <item>To know Free local minutes [*148#]</item>
+        <item>Know 3G data card balance [*111*5*2#]</item>
+        <item>To check free minutes in Vodafone [*156#]</item>
+    </array>
+    <array name="vodafone_offer">
+        <item>Vodafone Best fit offers [*121#]</item>
+        <item>Know best offers [*111*8#]</item>
+    </array>
+    <array name="vodafone_service">
+        <item>To know about Low balance services [*111*9#]</item>
+        <item>To know Vodafone delights [*111*1#]</item>
+        <item>To know Last three calls [*111*3*1#]</item>
+        <item>To know last three SMS [*111*3*2#]</item>
+        <item>To know Last three charges [*111*4#]</item>
+        <item>To know last three Recharges [*111*5#]</item>
+    </array>
+    <array name="vodafone_utils">
+        <item>Customer Care Number -198</item>
+        <item>Check Mobile number [*111*2#]</item>
+        <item>Vodafone Alert [*123#]</item>
+        <item>To check validity of Vodafone number [*146#]</item>
+        <item>To know Vodafone to Vodafone night minutes [*147#]</item>
+        <item>To activate Data plan [*111*6*1#]</item>
+        <item>To activate one day Vodafone internet [*444*5#]</item>
+        <item>To activate Rs 8, 20 Mb 3G plan [*444*8#]</item>
+        <item>1 day GPRS 2G pack [*121*05#]</item>
+        <item>3 days GPRS 2G pack [*121*14#]</item>
+        <item>7 days GPRS pack [*121*25#]</item>
+        <item>15 days GPRS pack [*121*49#]</item>
+        <item>1 month GPRS pack [*121*98#]</item>
+        <item>5 GB 1 month 3G GPRS pack [*121*851#]</item>
+        <item>8 GB 1 month 3G GPRS pack [*121*1251#]</item>
+    </array>
+</resources>

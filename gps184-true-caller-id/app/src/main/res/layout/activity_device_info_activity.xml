@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_container_app"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_size"
+        android:background="@drawable/bg_action_bar">
+
+        <ImageView
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_back"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/poppins_bold"
+            android:src="@drawable/header"
+            android:text="@string/device_info"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adlayout"
+        android:layout_below="@+id/header">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:padding="@dimen/_8sdp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg_button_outline_gray"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/text_device_info_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="Device Name" />
+
+                    <TextView
+                        android:id="@+id/device_user_name"
+                        style="@style/text_device_info_value_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="SAMSUNG" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/text_device_info_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="Model Name" />
+
+                    <TextView
+                        android:id="@+id/device_name"
+                        style="@style/text_device_info_value_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="SAMSUNG" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/text_device_info_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="Brand Name" />
+
+                    <TextView
+                        android:id="@+id/brand_name"
+                        style="@style/text_device_info_value_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="SAMSUNG" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/text_device_info_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="Product Code" />
+
+                    <TextView
+                        android:id="@+id/product_name"
+                        style="@style/text_device_info_value_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="SAMSUNG" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/text_device_info_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="IMEI No." />
+
+                    <TextView
+                        android:id="@+id/imei_name"
+                        style="@style/text_device_info_value_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="SAMSUNG" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg_button_outline_gray"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_16sdp"
+                        android:fontFamily="@font/poppins_semi_bold"
+                        android:text="Screen"
+                        android:textColor="@color/text_menu_button"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/colorPrimary"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/text_device_info_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="Resolution" />
+
+                    <TextView
+                        android:id="@+id/resolution"
+                        style="@style/text_device_info_value_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="cheese_ipsum" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/text_device_info_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="Screen Density" />
+
+                    <TextView
+                        android:id="@+id/density"
+                        style="@style/text_device_info_value_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="SAMSUNG" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/text_device_info_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="Refresh Rate" />
+
+                    <TextView
+                        android:id="@+id/refresh"
+                        style="@style/text_device_info_value_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="SAMSUNG" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/text_device_info_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="Physical Size" />
+
+                    <TextView
+                        android:id="@+id/physical_size"
+                        style="@style/text_device_info_value_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="SAMSUNG" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg_button_outline_gray"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_16sdp"
+                        android:fontFamily="@font/poppins_semi_bold"
+                        android:text="Camera"
+                        android:textColor="@color/text_menu_button"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/colorPrimary"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/text_device_info_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="Front Camera" />
+
+                    <TextView
+                        android:id="@+id/front_camera"
+                        style="@style/text_device_info_value_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="cheese_ipsum" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/text_device_info_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="Back Camera" />
+
+                    <TextView
+                        android:id="@+id/back_camera"
+                        style="@style/text_device_info_value_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="cheese_ipsum" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg_button_outline_gray"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_16sdp"
+                        android:layout_weight="0.5"
+                        android:fontFamily="@font/poppins_semi_bold"
+                        android:text="Android OS"
+                        android:textColor="@color/text_menu_button"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/colorPrimary"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/text_device_info_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="Android Ver" />
+
+                    <TextView
+                        android:id="@+id/version"
+                        style="@style/text_device_info_value_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="cheese_ipsum" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/text_device_info_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="API Level" />
+
+                    <TextView
+                        android:id="@+id/api_level"
+                        style="@style/text_device_info_value_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="SAMSUNG" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg_button_outline_gray"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_16sdp"
+                        android:fontFamily="@font/poppins_semi_bold"
+                        android:text="CPU Info"
+                        android:textColor="@color/text_menu_button"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/colorPrimary"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/text_device_info_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="CPU Core" />
+
+                    <TextView
+                        android:id="@+id/core"
+                        style="@style/text_device_info_value_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="SAMSUNG" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/text_device_info_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="Max Frequency" />
+
+                    <TextView
+                        android:id="@+id/max_frequency"
+                        style="@style/text_device_info_value_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="SAMSUNG" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/text_device_info_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="Instruction Set" />
+
+                    <TextView
+                        android:id="@+id/instruction_set"
+                        style="@style/text_device_info_value_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="Instruction Set" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg_button_outline_gray"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_16sdp"
+                        android:fontFamily="@font/poppins_semi_bold"
+                        android:text="Network Info"
+                        android:textColor="@color/text_menu_button"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/colorPrimary"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/text_device_info_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="Network Type" />
+
+                    <TextView
+                        android:id="@+id/network_type"
+                        style="@style/text_device_info_value_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="cheese_ipsum" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/text_device_info_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="IP Address" />
+
+                    <TextView
+                        android:id="@+id/ip_add"
+                        style="@style/text_device_info_value_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="cheese_ipsum" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/text_device_info_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="MAC Address" />
+
+                    <TextView
+                        android:id="@+id/wifi_add"
+                        style="@style/text_device_info_value_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="cheese_ipsum" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg_button_outline_gray"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_16sdp"
+                        android:fontFamily="@font/poppins_semi_bold"
+                        android:text="Operator and Country"
+                        android:textColor="@color/text_menu_button"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/colorPrimary"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/text_device_info_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="Operator" />
+
+                    <TextView
+                        android:id="@+id/operator"
+                        style="@style/text_device_info_value_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="Not Available" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/text_device_info_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="Country" />
+
+                    <TextView
+                        android:id="@+id/country"
+                        style="@style/text_device_info_value_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:capitalize="characters"
+                        android:gravity="center"
+                        android:text="cheese_ipsum" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/text_device_info_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="Roaming" />
+
+                    <TextView
+                        android:id="@+id/roaming"
+                        style="@style/text_device_info_value_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="SAMSUNG" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/text_device_info_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="Service State" />
+
+                    <TextView
+                        android:id="@+id/service_state"
+                        style="@style/text_device_info_value_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="Not Available" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/adlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <include layout="@layout/max_ad_native_layout" />
+    </LinearLayout>
+</RelativeLayout>

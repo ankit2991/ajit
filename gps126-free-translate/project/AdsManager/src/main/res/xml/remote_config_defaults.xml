@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<defaultsMap>
+<entry>
+    <key>title</key>
+    <value>Android</value>
+</entry>
+<entry>
+    <key>GPS126-01_year_sub</key>
+    <value>ture</value>
+</entry>
+<entry>
+    <key>GPS126-01_ads_sub</key>
+    <value>ture</value>
+</entry>
+    <entry>
+        <key>ads</key>
+        <value>ture</value>
+    </entry>
+</defaultsMap>

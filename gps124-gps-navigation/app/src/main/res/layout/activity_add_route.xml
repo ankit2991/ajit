@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/quantum_grey100">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/layout_toolbar"
+        app:layout_constraintBottom_toTopOf="@+id/scroll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        app:layout_constraintBottom_toTopOf="@+id/btnDoneEditing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/labelEnterRouteName"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_44sdp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/_20sdp"
+                android:text="@string/enter_route_name"
+                android:textColor="@color/black_colour"
+                android:textSize="@dimen/_16ssp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/clRouteName"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:background="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/labelEnterRouteName">
+
+
+                <ImageView
+                    android:id="@+id/ivRNIcon"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:src="@drawable/ic_route_new"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvRouteName"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:hint="@string/select_home_location"
+                    android:paddingStart="@dimen/_5sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:singleLine="true"
+                    android:textColor="@color/black_colour"
+                    android:textSize="@dimen/_12ssp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/btnEditRouteName"
+                    app:layout_constraintStart_toEndOf="@+id/ivRNIcon"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/btnEditRouteName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_27sdp"
+                    android:layout_marginEnd="@dimen/_12sdp"
+                    android:background="@drawable/bg_blue_solid_rounded_25sdp"
+                    android:gravity="center"
+                    android:minWidth="@dimen/_50sdp"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:text="@string/edit"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12ssp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/labelStartEndLocation"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_44sdp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/_20sdp"
+                android:text="@string/start_and_end_location"
+                android:textColor="@color/black_colour"
+                android:textSize="@dimen/_16ssp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/clRouteName" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvSelectLocation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:cardElevation="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/labelStartEndLocation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:layout_marginEnd="@dimen/_12sdp"
+                    android:orientation="vertical">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:clickable="true"
+                        android:foreground="?selectableItemBackground"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/ivIcon"
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:src="@drawable/ic_home_location"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/btnSelectHomeLocation"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_27sdp"
+                            android:background="@drawable/bg_blue_solid_rounded_25sdp"
+                            android:gravity="center"
+                            android:minWidth="@dimen/_50sdp"
+                            android:padding="5dp"
+                            android:singleLine="true"
+                            android:text="@string/set"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12ssp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <LinearLayout
+                            android:id="@+id/llSAddress"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_37sdp"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:layout_marginEnd="@dimen/_5sdp"
+                            android:orientation="vertical"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/btnSelectHomeLocation"
+                            app:layout_constraintStart_toEndOf="@+id/ivIcon"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <TextView
+                                android:id="@+id/tvPlaceName"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center_vertical"
+                                android:hint="@string/select_home_location"
+                                android:paddingStart="@dimen/_5sdp"
+                                android:paddingEnd="@dimen/_5sdp"
+                                android:singleLine="true"
+                                android:textColor="@color/black_colour"
+                                android:textSize="@dimen/_12ssp"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/tvPlaceAddress"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center_vertical"
+                                android:paddingStart="@dimen/_10sdp"
+                                android:paddingEnd="@dimen/_5sdp"
+                                android:singleLine="true"
+                                android:text=""
+                                android:textColor="@color/light_gray"
+                                android:textSize="@dimen/_10ssp"
+                                android:visibility="gone"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/tvPlaceName" />
+
+                        </LinearLayout>
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp"
+                        android:layout_marginStart="@dimen/_1sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_18sdp"
+                        android:background="@color/quantum_grey400" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:clickable="true"
+                        android:foreground="?selectableItemBackground"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/ivDestIcon"
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:src="@drawable/ic_destination_location"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/btnSelectDestLocation"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_27sdp"
+                            android:background="@drawable/bg_blue_solid_rounded_25sdp"
+                            android:gravity="center"
+                            android:minWidth="@dimen/_50sdp"
+                            android:padding="5dp"
+                            android:singleLine="true"
+                            android:text="@string/set"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12ssp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <LinearLayout
+                            android:id="@+id/llDestAddress"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_37sdp"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:layout_marginEnd="@dimen/_5sdp"
+                            android:orientation="vertical"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/btnSelectDestLocation"
+                            app:layout_constraintStart_toEndOf="@+id/ivDestIcon"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <TextView
+                                android:id="@+id/tvDestPlaceName"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center_vertical"
+                                android:hint="@string/select_dest_location"
+                                android:paddingStart="@dimen/_5sdp"
+                                android:paddingEnd="@dimen/_5sdp"
+                                android:singleLine="true"
+                                android:textColor="@color/black_colour"
+                                android:textSize="@dimen/_12ssp" />
+
+                            <TextView
+                                android:id="@+id/tvDestPlaceAddress"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center_vertical"
+                                android:paddingStart="@dimen/_5sdp"
+                                android:paddingEnd="@dimen/_5sdp"
+                                android:singleLine="true"
+                                android:text=""
+                                android:textColor="@color/light_gray"
+                                android:textSize="@dimen/_10ssp"
+                                android:visibility="gone" />
+                        </LinearLayout>
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/labelStopAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:drawableStart="@drawable/ic_location_pointer_24dp"
+                android:drawablePadding="@dimen/_5sdp"
+                android:lineSpacingExtra="3.3sp"
+                android:text="@string/stops"
+                android:textAllCaps="true"
+                android:textColor="@color/black_colour"
+                android:textSize="@dimen/_16ssp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/labelStartEndLocation"
+                app:layout_constraintTop_toBottomOf="@+id/cvSelectLocation" />
+
+            <Button
+                android:id="@+id/btnClearStops"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:background="@android:color/transparent"
+                android:text="@string/clear_stops"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:visibility="gone"
+                app:layout_constraintBottom_toTopOf="@+id/viewSeperator2"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <View
+                android:id="@+id/viewSeperator2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@color/quantum_grey400"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/labelStopAdd" />
+
+
+            <RelativeLayout
+                android:id="@+id/rlStopsList"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/quantum_white_100"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/viewSeperator2">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvStops"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/btnAddMoreStop" />
+
+                <LinearLayout
+                    android:id="@+id/layoutNoStopAdded"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/labelNoStopAdded"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/no_stop_added_yet"
+                        android:textAlignment="center"
+                        android:textColor="@color/black_colour"
+                        android:textSize="@dimen/_14ssp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/tvDescriptionNoStopAdded"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:text="@string/no_stop_added_yet_description"
+                        android:textAlignment="center"
+                        android:textColor="@color/quantum_grey500"
+                        android:textSize="@dimen/_11ssp"
+                        android:visibility="visible" />
+
+                    <Button
+                        android:id="@+id/btnAddStops"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_27sdp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/bg_blue_solid_rounded_25sdp"
+                        android:elevation="0dp"
+                        android:gravity="center"
+                        android:padding="7dp"
+                        android:text="@string/add_stop"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12ssp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnAddMoreStop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_7sdp"
+                    android:background="@android:color/transparent"
+                    android:text="@string/add_more"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/_14ssp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/btnDoneEditing"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_button_blue"
+        android:text="@string/done"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/ads_container"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.gpsnavigation.maps.gpsroutefinder.routemap.max_ad_manager.MaxAdBannerFrameLayout
+        android:id="@+id/ads_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/banner_height"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineBottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

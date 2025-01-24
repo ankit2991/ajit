@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sugest_update_title">به‌روزرسانی موجود است</string>
+    <string name="sugest_update_message">به‌روزرسانی جدید در Google Play موجود است، لطفاً نسخهٔ خود را به‌روز کنید</string>
+    <string name="force_update_title">به‌روزرسانی موجود است</string>
+    <string name="force_update_message">به‌روزرسانی جدید در Google Play موجود است، لطفاً نسخهٔ خود را به‌روز کنید</string>
+    <string name="update_ok">به‌روزرسانی</string>
+    <string name="update_no">فعلاً نه</string>
+    <string name="app_name">#پیام‌ها</string>
+    <string name="in_app_name">پیام‌ها</string>
+    <string name="splash_app_name">پیام‌های پیامکی</string>
+    <string name="loading_msg">لطفاً منتظر بمانید...</string>
+    <string name="ads_loading_msg">نمایش تبلیغات...</string>
+    <string name="shortcut_compose_long_label">گفتگوی جدید</string>
+    <string name="shortcut_compose_short_label">ترکیب</string>
+    <string name="shortcut_compose_disabled_message">میانبر غیرفعال شده است</string>
+    <string name="title_archived">پیام‌های آرشیو شده</string>
+    <string name="title_settings">تنظیمات</string>
+    <string name="title_notification_prefs">اعلان‌ها</string>
+    <string name="title_theme">تم</string>
+    <string name="title_conversations">جستجو در شماره‌ها، نام‌ها و بیشتر</string>
+    <string name="title_compose">یک نام یا شماره تلفن تایپ کنید</string>
+    <string name="setup_skip">رد کردن</string>
+    <string name="setup_next">ادامه</string>
+    <string name="menu_add_person">افزودن شخص</string>
+    <string name="menu_call">تماس</string>
+    <string name="menu_info">جزئیات</string>
+    <string name="menu_save">ذخیره در گالری</string>
+    <string name="menu_share">اشتراک‌گذاری</string>
+    <string name="main_drawer_open_cd">باز کردن کشویی ناوبری</string>
+    <string name="main_title_selected">%d انتخاب شده</string>
+    <string name="main_menu_clear">پاک کردن</string>
+    <string name="main_menu_archive">آرشیو</string>
+    <string name="main_menu_unarchive">خارج از آرشیو</string>
+    <string name="main_menu_delete">حذف</string>
+    <string name="main_menu_add_contact">افزودن به مخاطبین</string>
+    <string name="main_menu_pin">سنجاق به بالا</string>
+    <string name="main_menu_unpin">لغو سنجاق</string>
+    <string name="main_menu_read">علامت‌گذاری به عنوان خوانده‌شده</string>
+    <string name="main_menu_unread">علامت‌گذاری به عنوان خوانده‌نشده</string>
+    <string name="select_all">انتخاب همه</string>
+    <string name="deselect_all">لغو انتخاب همه</string>
+    <string name="main_menu_block">مسدود کردن</string>
+    <string name="main_syncing">سازماندهی پیام‌ها...</string>
+    <string name="main_sender_you">شما: %s</string>
+    <string name="main_draft">پیش نویس: %s</string>
+    <string name="main_message_results_title">نتایج در پیام‌ها</string>
+    <string name="main_message_results">%d پیام</string>
+    <string name="inbox_empty_text">گفتگو‌های شما در اینجا نمایش داده می‌شوند</string>
+    <string name="inbox_search_empty_text">نتیجه‌ای یافت نشد</string>
+    <string name="archived_empty_text">هنوز گفتگوی آرشیو شده‌ای وجود ندارد..</string>
+    <string name="main_fab_cd">شروع گفتگوی جدید</string>
+    <string name="main_default_sms_title">از ارسال پیام‌ها لذت ببرید؟</string>
+    <string name="main_default_sms_message">اپلیکیشن پیامک را به عنوان اپلیکیشن پیش‌فرض پیامک خود قرار دهید</string>
+    <string name="main_default_sms_change">تغییر</string>
+    <string name="main_permission_required">نیازمند مجوز</string>
+    <string name="main_permission_sms">پیامک نیاز به مجوز برای ارسال و مشاهده پیامک‌ها دارد</string>
+    <string name="main_permission_contacts">پیامک نیاز به مجوز برای مشاهده مخاطبین شما دارد</string>
+    <string name="main_permission_allow">اجازه دادن</string>
+    <string name="main_permission_allow_read">اجازه خواندن و نوشتن را بدهید</string>
+    <string name="drawer_inbox">صندوق ورودی</string>
+    <string name="drawer_archived">آرشیو شده</string>
+    <string name="drawer_scheduled">پیام‌های زمانبندی‌شده</string>
+    <string name="drawer_blocking">لیست مسدود‌شده‌ها</string>
+    <string name="drawer_calldorado">تنظیمات تماس‌دهنده</string>
+    <string name="drawer_more">بیشتر</string>
+    <string name="drawer_group">گروه‌پیام</string>
+    <string name="drawer_settings">تنظیمات</string>
+    <string name="drawer_remove_ads">حذف تبلیغات</string>
+    <string name="drawer_help">کمک و بازخورد</string>
+    <string name="drawer_invite">دعوت دوستان</string>
+    <string name="dialog_delete_title">حذف</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">آیا از حذف این گفتگو اطمینان دارید؟</item>
+        <item quantity="other">آیا از حذف %d گفتگو اطمینان دارید؟</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>کپی متن</item>
+        <item>ارسال به جلو</item>
+        <item>حذف</item>
+    </string-array>
+    <string name="compose_number_picker_title">یک شماره تلفن را انتخاب کنید</string>
+    <string name="compose_number_picker_default">%s ∙ پیش‌فرض</string>
+    <string name="compose_number_picker_once">فقط یکبار</string>
+    <string name="compose_number_picker_always">همیشه</string>
+    <string name="compose_title_selected">%d انتخاب شده</string>
+    <string name="compose_subtitle_results">%1$d از %2$d نتیجه</string>
+    <string name="contact_selected">%1$d از %2$d انتخاب شده</string>
+    <string name="compose_send_group_title">ارسال به عنوان پیام گروهی</string>
+    <string name="compose_send_group_summary">گیرندگان و پاسخ‌ها برای همه قابل مشاهده خواهند بود</string>
+    <string name="compose_messages_empty">آغاز گفتگوی شما. چیزی عالی بگویید!</string>
+    <string name="compose_vcard_label">کارت تماس</string>
+    <string name="compose_scheduled_for">زمان زمانبندی شده برای</string>
+    <string name="compose_scheduled_future"> زمان باید در آینده باشد!</string>
+    <string name="compose_scheduled_toast">به پیام‌های زمانبندی شده افزوده شد</string>
+    <string name="compose_hint">اینجا بنویسید…</string>
+    <string name="compose_menu_copy">کپی متن</string>
+    <string name="compose_menu_forward">ارسال به جلو</string>
+    <string name="compose_menu_delete">حذف</string>
+    <string name="compose_menu_previous">قبلی</string>
+    <string name="compose_menu_next">بعدی</string>
+    <string name="compose_menu_clear">پاک کردن</string>
+    <string name="compose_details_title">جزئیات پیام</string>
+    <string name="compose_details_type">نوع: %s</string>
+    <string name="compose_details_from">از: %s</string>
+    <string name="compose_details_to">به: %s</string>
+    <string name="compose_details_subject">موضوع: %s</string>
+    <string name="compose_details_priority">اولویت: %s</string>
+    <string name="compose_details_size">اندازه: %s</string>
+    <string name="compose_details_sent">ارسال شده: %s</string>
+    <string name="compose_details_received">دریافت شده: %s</string>
+    <string name="compose_details_delivered">تحویل داده شده: %s</string>
+    <string name="compose_details_error_code">کد خطا: %d</string>
+    <string name="compose_attach_cd">افزودن پیوست</string>
+    <string name="compose_gallery_cd">افزودن عکس</string>
+    <string name="compose_camera_cd">گرفتن عکس</string>
+    <string name="compose_schedule_cd">زمانبندی پیام</string>
+    <string name="compose_contact_cd">افزودن مخاطب</string>
+    <string name="compose_contact_error">خطا در خواندن مخاطب</string>
+    <string name="compose_sim_cd">%s انتخاب شده، کارت SIM را تغییر دهید</string>
+    <string name="compose_send_cd">ارسال پیام</string>
+    <string name="message_status_sending">در حال ارسال…</string>
+    <string name="message_status_delivered">تحویل داده شده در %s</string>
+    <string name="message_status_failed">ارسال ناموفق بود</string>
+    <string name="info_title">جزئیات مخاطب</string>
+    <string name="info_copied_address">آدرس کپی شده</string>
+    <string name="info_name">عنوان گفتگو</string>
+    <string name="info_notifications">اعلان‌ها</string>
+    <string name="info_theme">تم</string>
+    <string name="info_archive">آرشیو</string>
+    <string name="info_unarchive">خارج کردن از آرشیو</string>
+    <string name="info_block">مسدود کردن</string>
+    <string name="info_unblock">رفع مسدودیت</string>
+    <string name="info_delete">حذف گفتگو</string>
+    <string name="gallery_error">نمی‌توان رسانه را بارگذاری کرد</string>
+    <string name="gallery_toast_saved">در گالری ذخیره شد</string>
+    <string name="backup_title">پشتیبان‌گیری و بازیابی</string>
+    <string name="backup_backing_up">در حال پشتیبان‌گیری از پیام‌ها</string>
+    <string name="backup_restoring">در حال بازیابی از پشتیبان</string>
+    <string name="backup_last">آخرین پشتیبان‌گیری</string>
+    <string name="backup_loading">بارگذاری…</string>
+    <string name="backup_never">هرگز</string>
+    <string name="backup_restore_title">بازیابی</string>
+    <string name="backup_restore_summary">یک پشتیبان را انتخاب کنید</string>
+    <string name="backup_restore_error_plus">لطفاً SMS+ را باز کنید تا از پشتیبان‌گیری و بازیابی استفاده کنید</string>
+    <string name="backup_restore_error_backup">پشتیبان‌گیری در حال انجام است…</string>
+    <string name="backup_restore_error_restore">بازیابی در حال انجام است…</string>
+    <string name="backup_restore_confirm_title">بازیابی از پشتیبان</string>
+    <string name="backup_restore_confirm_message">آیا از بازیابی پیام‌های خود از این پشتیبان اطمینان دارید؟</string>
+    <string name="backup_restore_stop_title">توقف بازیابی</string>
+    <string name="backup_restore_stop_message">پیام‌هایی که قبلاً بازیابی شده‌اند، بر روی دستگاه شما باقی می‌مانند</string>
+    <string name="backup_restore_dialog_title">پشتیبان‌ها</string>
+    <string name="backup_restore_dialog_summary">/پیام‌های SMS/پشتیبان‌ها</string>
+    <string name="backup_restore_dialog_empty">هیچ پشتیبانی یافت نشد</string>
+
+    <plurals name="backup_message_count">
+        <item quantity="zero">بدون پیام</item>
+        <item quantity="one">%d پیام</item>
+        <item quantity="other">%d پیام</item>
+    </plurals>
+    <string name="backup_disclaimer">تاکنون ،ما فقط پشتیبان‌گیری و بازیابی از طریق پیام‌های متنی را پشتیبانی می‌کرده‌ایم!</string>
+    <string name="backup_now">پشتیبان‌گیری</string>
+    <string name="backup_progress_parsing">تجزیه پشتیبان…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d پیام</string>
+    <string name="backup_progress_saving">ذخیره پشتیبان…</string>
+    <string name="backup_progress_syncing">همگام‌سازی پیام‌ها…</string>
+    <string name="backup_progress_finished">تمام شد!</string>
+    <string name="backup_notification_channel_name">پشتیبان‌گیری و بازیابی</string>
+    <string name="Message_notification_channel_name">پیام ها</string>
+    <string name="scheduled_title">زمانبندی شده</string>
+    <string name="schedule_guide">شما می‌توانید پیام را زمانبندی کنید با کلیک روی دکمه پیوست که در صفحه گفتگوی پیام داده شده است.</string>
+    <string name="scheduled_empty_description">به طور خودکار پیامی را در لحظه دقیقی که می‌خواهید ارسال کنید</string>
+    <string name="scheduled_empty_message_1">سلام! زمانی برای جشن چیه؟</string>
+    <string name="scheduled_empty_message_2">تاریخ ۵ مارس است </string>
+    <string name="scheduled_empty_message_3">هیا! نگاه کنید چه دوست عالی‌ای من هستم، جشن روز شما رو گرفتم</string>
+    <string name="scheduled_empty_message_3_timestamp">ارسال در ۵ مارس</string>
+    <string name="scheduled_compose_cd">زمانبندی پیام</string>
+    <string name="scheduled_options_title">پیام زمانبندی شده</string>
+    <string-array name="scheduled_options">
+        <item>هم اکنون ارسال شود</item>
+        <item>کپی متن</item>
+        <item>حذف</item>
+    </string-array>
+    <string name="settings_category_appearance">ظاهر</string>
+    <string name="settings_category_general">عمومی</string>
+    <string name="settings_categoryreply">پاسخ</string>
+    <string name="settings_night_title">حالت شب</string>
+    <string name="settings_text_size_title">اندازه قلم</string>
+    <string name="settings_notifications_title">اعلان‌ها</string>
+    <string name="settings_notifications_o_summary">برای سفارشی کردن ضربه بزنید</string>
+    <string name="settings_notification_actions_title">اقدامات</string>
+    <string name="settings_notification_action_1">دکمه ۱</string>
+    <string name="settings_notification_action_2">دکمه ۲</string>
+    <string name="settings_notification_action_3">دکمه ۳</string>
+    <string name="settings_notification_previews_title">پیش‌نمایش‌های اعلان</string>
+    <string name="settings_notification_wake_title">برانگیختن صفحه</string>
+    <string name="settings_vibration_title">لرزش</string>
+    <string name="settings_ringtone_title">صدا</string>
+    <string name="settings_ringtone_none">هیچ</string>
+    <string name="settings_reply_title">پاسخ</string>
+    <string name="settings_reply_summary">پنجره‌ی پاپ‌آپ برای پیام‌های جدید</string>
+    <string name="settings_reply_tap_dismiss_title">ضربه برای رد کردن</string>
+    <string name="settings_reply_tap_dismiss_summary">برای بستن آن بیرون از پنجره کلیک کنید</string>
+    <string name="settings_swipe_actions">اقدامات خیز</string>
+    <string name="settings_swipe_actions_right">خیز به راست</string>
+    <string name="settings_swipe_actions_left">خیز به چپ</string>
+    <string name="settings_swipe_actions_change">تغییر</string>
+    <string name="not_now_txt">هم اکنون نه</string>
+    <string name="process_title">این فرایند نیاز به \nمدتی دارد</string>
+    <string name="syncing_done">همگام‌سازی پیام انجام شد...</string>
+    <string name="all_set_txt">همه چیز آماده است. شما آماده‌اید</string>
+    <string name="Personal">همه پیام‌ها</string>
+    <string name="Other">شناخته‌شده</string>
+    <string name="Spam">هرزنامه</string>
+    <string name="setting">تنظیمات</string>
+    <string name="Share">به اشتراک گذاری</string>
+    <string name="Rate">امتیازدهی به ما</string>
+    <string name="edit">ویرایش</string>
+    <string name="DarkMode">حالت تاریک</string>
+    <string name="BrightMode">حالت روشن</string>
+    <string name="Camera">دوربین</string>
+    <string name="Gallery">گالری</string>
+    <string name="Gif">جیف</string>
+    <string name="Contact">مخاطب</string>
+    <string name="Schedule">زمانبندی</string>
+    <string name="Location">موقعیت</string>
+    <string name="Notes">یادداشت‌ها</string>
+    <string name="no_msg">هنوز پیامی نیست…</string>
+    <string name="Start_Chat">شروع گفت‌وگو</string>
+    <string name="Language">زبان</string>
+    <string name="rate_text">ما را به دیگران پیشنهاد دهید با دادن امتیاز به ما در فروشگاه Play!</string>
+    <string name="sort_by">مرتب سازی بر اساس</string>
+    <string-array name="settings_swipe_actions">
+        <item>هیچ</item>
+        <item>آرشیو</item>
+        <item>حذف</item>
+        <item>تماس</item>
+        <item>علامت‌گذاری به عنوان خوانده‌شده</item>
+        <item>علامت‌گذاری به عنوان خوانده‌نشده</item>
+    </string-array>
+    <string name="settings_mms_size_title">فشرده‌سازی خودکار پیوست‌های MMS</string>
+    <string name="settings_sync_title">همگام‌سازی پیام‌ها</string>
+    <string name="settings_sync_summary">پیام‌های خود را با پایگاه داده پیام‌های متنی Android همگام‌سازی کنید</string>
+    <string name="blocking_manager_sms_title">پیام‌های متنی</string>
+    <string name="blocking_manager_call_control_title">کنترل تماس</string>
+    <string name="blocking_manager_sia_title">آیا باید پاسخ دهم؟</string>
+    <string name="blocked_messages_title">پیام‌های مسدود شده</string>
+    <string name="blocked_messages_empty">پیام‌های مسدود شده شما در اینجا نمایش داده می‌شود</string>
+    <string name="blocking_block_title">مسدود کردن</string>
+    <string name="blocking_unblock_title">رفع مسدودیت</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">ادامه به %s و مسدود کردن این شماره</item>
+        <item quantity="other">ادامه به %s و مسدود کردن این شماره‌ها</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">ادامه به %s و اجازه دادن به این شماره</item>
+        <item quantity="other">ادامه به %s و اجازه دادن به این شماره‌ها</item>
+    </plurals>
+    <string name="widget_loading">در حال بارگذاری…</string>
+    <string name="widget_more">مشاهده گفت‌وگوهای بیشتر</string>
+    <string name="qkreply_menu_read">علامت‌گذاری به عنوان خوانده‌شده</string>
+    <string name="qkreply_menu_call">تماس</string>
+    <string name="qkreply_menu_delete">حذف</string>
+    <string name="qkreply_menu_expand">نمایش بیشتر</string>
+    <string name="qkreply_menu_collapse">نمایش کمتر</string>
+    <string name="qkreply_menu_view">باز کردن گفتگو</string>
+    <string name="changelog_title">جدید در SMS</string>
+    <string name="changelog_version">نسخه %s</string>
+    <string name="changelog_added">افزوده شده</string>
+    <string name="changelog_improved">بهبود یافته</string>
+    <string name="changelog_fixed">تصحیح شده</string>
+    <string name="changelog_more">بیشتر</string>
+    <string name="changelog_dismiss">رد کردن</string>
+    <string-array name="notification_actions">
+        <item>هیچکدام</item>
+        <item>علامت‌گذاری به عنوان خوانده‌شده</item>
+        <item>پاسخ</item>
+        <item>تماس</item>
+        <item>حذف</item>
+    </string-array>
+    <string name="button_yes">بله</string>
+    <string name="button_continue">ادامه</string>
+    <string name="button_cancel">لغو</string>
+    <string name="button_delete">حذف</string>
+    <string name="button_save">ذخیره</string>
+    <string name="button_stop">توقف</string>
+    <string name="button_more">بیشتر</string>
+    <string name="button_set">تنظیم</string>
+    <string name="button_undo">بازگشت</string>
+    <string name="toast_copied">کپی شد</string>
+    <string name="toast_archived">گفتگوی آرشیو شد</string>
+    <string name="toast_sms_plus">برای استفاده از این، باید SMS+ را باز کنید</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">پیام جدید</item>
+        <item quantity="other">%s پیام جدید</item>
+    </plurals>
+    <string name="notification_message_failed_title">پیام ارسال نشد</string>
+    <string name="notification_message_failed_text">ارسال پیام به %s ناموفق بود</string>
+    <string name="privacy_policy">سیاست حفظ حریم خصوصی</string>
+    <string name="pocket_data_on">داده‌های Pocket باید در حالت روشن باشد در هنگام ارسال MMS!</string>
+    <string name="inapp_details" translatable="false">برای حذف تبلیغات، امتحان کنید اشتراک پریمیوم با پشتیبانی از حالت تاریک و روشن\nپشتیبانی از ارسال پیام‌های زمان‌بندی شده.</string>
+    <string name="drawer_removeAds">حذف تبلیغات</string>
+    <string name="in_app_ads">messages_rad</string>
+    <string name="dialog_delete_message">آیا از حذف این پیام اطمینان دارید؟</string>
+    <string name="compose_bar_not_support">فرستنده پاسخ‌دهی را پشتیبانی نمی‌کند</string>
+    <string name="default_name">برای ارسال یا دریافت یک پیام متنی، باید آن را به عنوان برنامه پیش‌فرض تنظیم کنید. آیا می‌خواهید پیام به برنامه پیش‌فرض شما تبدیل شود؟</string>
+    <string name="confirm_delete">تایید حذف</string>
+    <string name="confirm_delete_text">آیا از حذف این یادداشت اطمینان دارید؟</string>
+    <string name="title">عنوان</string>
+    <string name="note">یادداشت</string>
+    <string name="search">جستجو</string>
+    <string name="settings">تنظیمات</string>
+    <string name="share_to">اشتراک‌گذاری با:</string>
+    <string name="sort">مرتب‌سازی</string>
+    <string name="empty_list_text">برای افزودن یک یادداشت جدید، دکمه در پایین راست را فشار دهید!</string>
+    <string name="new_note">یادداشت جدید</string>
+    <string name="undo">بازگشت</string>
+    <string name="delete">حذف</string>
+    <string name="exception">استثناء:</string>
+    <string name="edit_note">ویرایش یادداشت</string>
+    <string name="drawer_feedback">ارسال بازخورد</string>
+    <string name="drawer_mode">حالت روشن</string>
+    <string name="unlimited_access_user">دسترسی نامحدود به همه ویژگی‌ها</string>
+    <string name="pro_user">شما کاربر پریمیوم هستید</string>
+    <string name="sub_info_text"><b>اشتراک به طور خودکار تا زمانی که آن را خاموش نکنید، تجدید می‌شود.</b></string>
+    <string name="cancel_purchase">شما می‌توانید تجدید اشتراک‌های خودکار را در بخش اشتراک در Google Play لغو کنید</string>
+    <string name="remove_ads">حذف تبلیغات</string>
+    <string name="no_ads">بدون تبلیغات</string>
+    <string name="free_trial">7 روز آزمایشی رایگان، سپس به طور خودکار تجدید می‌شود</string>
+    <string name="can_not_talk_right_now">متاسفم، در حال حاضر نمی‌توانم صحبت کنم</string>
+    <string name="can_call_you_later">می‌توانم بعدا به شما زنگ بزنم؟</string>
+    <string name="i_am_on_my_way">در راهم</string>
+    <string name="write_personal_message">نوشتن پیام شخصی</string>
+    <string name="create_reminder">ایجاد یادآوری جدید</string>
+    <string name="remind_me_about">یادآوری کن درباره</string>
+    <string name="no_title">بدون عنوان</string>
+    <string name="edit_contact">ویرایش مخاطب</string>
+    <string name="add_contact">افزودن مخاطب</string>
+    <string name="messages">پیام‌ها</string>
+    <string name="send_mail">ارسال ایمیل</string>
+    <string name="calendar">تقویم</string>
+    <string name="web">وب</string>
+    <string-array name="night_modes">
+        <item>سیستم</item>
+        <item>حالت روشن</item>
+        <item>حالت تاریک</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>نمایش نام و پیام</item>
+        <item>نمایش نام</item>
+        <item>مخفی کردن محتوا</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>کوچک</item>
+        <item>معمولی</item>
+        <item>بزرگ</item>
+        <item>بزرگتر</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>بدون تأخیر</item>
+        <item>کوتاه</item>
+        <item>متوسط</item>
+        <item>طولانی</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>خودکار</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>بدون فشرده‌سازی</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>خب</item>
+        <item>یک لحظه صبر کنید</item>
+        <item>در راهم</item>
+        <item>متشکرم</item>
+        <item>خوب است</item>
+        <item>چه خبر؟</item>
+        <item>موافقم</item>
+        <item>نه</item>
+        <item>عاشقتم</item>
+        <item>متأسفم</item>
+        <item>خنده</item>
+        <item>خوبه</item>
+    </string-array>
+    <string name="default_title">اجازه دادن به برنامه پیامک برای تنظیم به عنوان برنامه پیش‌فرض</string>
+    <string name="set_as_defaault">تنظیم به عنوان پیش‌فرض</string>
+    <string name="love_app_title">به برنامه پیامک خود تبدیل به برنامه پیش‌فرض پیامک خود کنید</string>
+    <string-array name="gif">
+        <item>صورت حیوانات</item>
+        <item>ایموجی</item>
+        <item>میوه‌ها و سبزیجات</item>
+        <item>هالووین</item>
+        <item>عشق</item>
+    </string-array>
+    <string name="Sticker">استیکر</string>
+    <string name="no_connection">اتصال اینترنتی موجود نیست.</string>
+    <string-array name="sticker">
+        <item>پسر</item>
+        <item>کارتون</item>
+        <item>صورت</item>
+        <item>جشنواره</item>
+        <item>میوه</item>
+        <item>سرگرمی</item>
+        <item>دختر</item>
+        <item>استیکر عشق</item>
+        <item>دیگر</item>
+        <item>سگ‌کوچولو</item>
+    </string-array>
+    <string name="open_link_to_browser">باز کردن پیوند در مرورگر</string>
+    <string name="battery_dialog">نمی‌خواهید پیام‌های مهم را از دست بدهید؟ \n خاموش کردن بهینه‌سازی باتری</string>
+    <string name="reason_to_change_battery_optimization_setting">به تنظیمات برنامه بروید و باتری را انتخاب کرده و بر روی ‘بهینه‌سازی نکن’ کلیک کنید</string>
+    <string name="feedback_txt">درباره تجربه خود با برنامه پیام و پیشنهادات خود بهبود آن را به ما بگویید.</string>
+    <string name="reason_to_change_battery">به تنظیمات برنامه بروید و باتری را انتخاب کرده و بر روی ‘بهینه‌سازی نکن’ کلیک کنید</string>
+    <string name="drawer_transaction">تراکنش‌ها</string>
+    <string name="drawer_promotion">تبلیغات</string>
+    <string name="unknown">نامشخص</string>
+    <string name="priva"><u>سیاست حفظ حریم خصوصی</u></string>
+    <string name="smsfilter">فیلتر پیام‌های متنی</string>
+    <string name="by_click_t_c" translatable="false"><u>با کلیک کردن، شما شرایط و ضوابط ما را قبول می‌کنید.</u></string>
+    <string name="continue_without_sub"><u>ادامه بدون اشتراک</u></string>
+    <string name="text_free_trial">از آزمایش رایگان X روزه <b>لذت ببرید</b> - سپس X € / ماه</string>
+    <string name="calldorado_message">قبل از پایان تماس، تمام <b>پیام‌های</b> خود را بررسی کنید! اخباری وجود دارد</string>
+    <string name="privacy_terms_description">با ادامه، شما شرایط استفاده و سیاست حفظ حریم خصوصی را پذیرفته و تأیید می‌کنید.</string>
+    <string name="draw_over_description"><![CDATA[برای نمایش بر روی برنامه‌های دیگر پیامک‌های ما. از تمام قابلیت‌های امکانات ما مانند ابزارک‌های تماس پیامک‌ها بهره‌مند شوید]]></string>
+    <string name="ad_label">تبلیغ</string>
+    <string name="onboarding_continue_button">ادامه</string>
+    <string name="onboarding_step_1_title">مدیریت پیامک و پیام‌رسان</string>
+    <string name="onboarding_step_1_subtitle">با دوستان گپ بزنید، گروه‌ها را ایجاد کنید و صندوق پیام‌های خود را سازماندهی کنید</string>
+    <string name="onboarding_step_1_hight_light">رویکرد منحصر به فرد برای شما</string>
+    <string name="onboarding_step_2_title">سازماندهی و ذخیره پیام‌ها</string>
+    <string name="onboarding_step_2_subtitle">پشتیبان‌گیری و بازیابی پیام‌های خود</string>
+    <string name="onboarding_step_2_hight_light">هزاران کاربر این را دوست دارند</string>
+    <string name="onboarding_step_3_title">از زندگی لذت ببرید و به ما اجازه دهید از صندوق پیام‌های خود مراقبت کنیم</string>
+    <string name="onboarding_step_3_subtitle">اجازه دسترسی را برای ما بدهید تا به شما در مدیریت صندوق پیام‌هایتان کمک کنیم.</string>
+    <string name="onboarding_step_3_hight_light">شاید بعداً</string>
+    <string name="onboarding_allow_access_button">دسترسی را اجازه دهید</string>
+    <string name="onboarding_step_4_title">با اجازه‌ی ما، باتری‌تان را بهبود دهید</string>
+    <string name="onboarding_step_4_subtitle">ما در رفع مزاحمت‌های پیام‌کوتاه به شما کمک می‌کنیم.</string>
+    <string name="onboarding_step_4_hight_light">هزاران کاربر این را دوست دارند</string>
+    <string name="onboarding_step_5_title">در حال چت کردن در برنامه‌های دیگر همزمان با استفاده از صفحه‌بندی تقسیم شده</string>
+    <string name="onboarding_step_5_subtitle">از ابزارک تماس عالی ما که به شما امکان موازی انجام کارها را می‌دهد، لذت ببرید</string>
+    <string name="onboarding_step_5_hight_light">هزاران کاربر این را دوست دارند</string>
+    <string name="payment_card_title">همین الان چت کنید!</string>
+    <string name="payment_card_price"><![CDATA[3 روز رایگان، %s / %s]]></string>
+    <string name="payment_card_button">همین الان برای رایگان امتحان کنید</string>
+    <string name="payment_card_hight_light">امن با فروشگاه Play</string>
+    <string name="payment_card_weekly">هفتگی</string>
+    <string name="payment_card_monthly">ماهیانه</string>
+    <string name="payment_card_yearly">سالیانه</string>
+    <string name="payment_card_auto_renew">اشتراک خودکار قابل لغو، هر زمانی</string>
+    <string name="accessibility_service_description">توضیحات خدمات دسترسی</string>
+    <string name="permission_txt"><font color="#FF8A00">مجوز مورد نیاز:</font>\nخواندن وضعیت تلفن و کشیدن روی برنامه‌های دیگر</string>
+    <string name="opt_privacy">با ادامه، شما شرایط استفاده و سیاست حفظ حریم خصوصی را پذیرفته و تأیید می‌کنید.</string>
+    <string name="permission_required">مجوزهای مورد نیاز</string>
+    <string name="permission_dialog_body">این برنامه ممکن است بدون مجوز تلفن، به درستی کار نکند. دستورالعمل‌های زیر را برای فعال کردن آن دنبال کنید:\n\n1. "مجوزها" را انتخاب کنید\n2. "تلفن" را در لیست مجوزها پیدا کرده و برای فعال کردن روی آن کلیک کنید</string>
+    <string name="go_premium">پریمیوم شوید!</string>
+    <string name="unlock_everything">همه چیز را باز کنید و بدون تبلیغات</string>
+    <string name="start_three_day">شروع آزمایشی ۳ روزه</string>
+    <string name="pro">پرو</string>
+    <string name="more_option">گزینه‌های بیشتر</string>
+    <string name="rate_us_5">به ما امتیاز ۵ بدهید</string>
+    <string name="help_feedback">راهنما و بازخورد</string>
+    <string name="send_message">ارسال پیام</string>
+    <string name="CTA_Button_Text">برای باز کردن همه ویژگی‌ها ضربه<font color="#FFFBCD04"> بزنید</font></string>
+
+</resources>

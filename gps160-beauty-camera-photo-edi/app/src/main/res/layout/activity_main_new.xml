@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivityNew">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.8"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/ad_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+              android:layout_margin="5dp"
+                android:elevation="1dp"
+
+                android:visibility="visible">
+
+                <include
+                    layout="@layout/max_native_ad" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/start"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/start_btn"
+                android:padding="3dp" />
+
+            <Button
+                android:id="@+id/rate"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/rate_us_btn" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,173 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/my_background">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <LinearLayout android:id="@+id/ll_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_bar"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/settings_border"
+        android:orientation="vertical"
+        android:paddingLeft="8.0dp"
+        android:paddingRight="8.0dp"
+        android:paddingBottom="8.0dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:text="@string/notch_width"
+                        android:fontFamily="@font/baloobhai"
+                        android:textColor="?attr/my_textColor"
+                        android:textSize="18sp" />
+
+                    <SeekBar
+                        android:id="@+id/seekBarNotchWidth"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:max="400"
+                        android:progressBackgroundTint="?attr/my_textColor"
+                        android:progressTint="?attr/my_textColor"
+                        android:thumbTint="?attr/my_textColor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:text="@string/notch_height"
+                        android:fontFamily="@font/baloobhai"
+                        android:textColor="?attr/my_textColor"
+                        android:textSize="18sp" />
+
+                    <SeekBar
+                        android:id="@+id/seekBarNotchHeight"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:max="260"
+                        android:progressBackgroundTint="?attr/my_textColor"
+                        android:progressTint="?attr/my_textColor"
+                        android:thumbTint="?attr/my_textColor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:text="@string/notch_radius"
+                        android:fontFamily="@font/baloobhai"
+                        android:textColor="?attr/my_textColor"
+                        android:textSize="18sp" />
+
+                    <SeekBar
+                        android:id="@+id/seekBarNotchRadiusTop"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:max="80"
+                        android:progressBackgroundTint="?attr/my_textColor"
+                        android:progressTint="?attr/my_textColor"
+                        android:thumbTint="?attr/my_textColor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:text="@string/notch_b_radius"
+                        android:fontFamily="@font/baloobhai"
+                        android:textColor="?attr/my_textColor"
+                        android:textSize="18sp" />
+
+                    <SeekBar
+                        android:id="@+id/seekBarNotchRadiusBottom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:max="80"
+                        android:progressBackgroundTint="?attr/my_textColor"
+                        android:progressTint="?attr/my_textColor"
+                        android:thumbTint="?attr/my_textColor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:text="@string/bottom_fullness"
+                        android:fontFamily="@font/baloobhai"
+                        android:textColor="?attr/my_textColor"
+                        android:textSize="18sp" />
+
+                    <SeekBar
+                        android:id="@+id/seekBarNotchFullness"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:max="100"
+                        android:progressBackgroundTint="?attr/my_textColor"
+                        android:progressTint="?attr/my_textColor"
+                        android:thumbTint="?attr/my_textColor" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

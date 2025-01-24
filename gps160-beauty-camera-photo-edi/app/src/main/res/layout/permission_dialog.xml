@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Permission Required"
+        android:textSize="20sp"
+        android:fontFamily="@font/encode_sans_black"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For better experience, the following permissions are requested:"
+        android:textColor="#918C8C"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/encode_sans_medium"
+        />
+
+    <LinearLayout
+        android:id="@+id/download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:padding="8dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:fontFamily="@font/encode_sans_black"
+            android:text="Album" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#918C8C"
+            android:layout_gravity="center_vertical"
+            android:textSize="10sp"
+            android:fontFamily="@font/encode_sans_black"
+            android:text="To save photos." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/shareLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:fontFamily="@font/encode_sans_black"
+            android:text="Camera" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="10sp"
+            android:textColor="#918C8C"
+            android:fontFamily="@font/encode_sans_black"
+            android:text="To take photos." />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:id="@+id/btn"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="end"
+        android:background="@color/black"
+        android:fontFamily="@font/encode_sans_black"
+        android:text="Got it" />
+
+</LinearLayout>

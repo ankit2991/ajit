@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/root_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/bg_conversation_right"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_input_conv_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="40dp"
+            android:gravity="start"
+            android:maxWidth="250dp"
+            android:text="hello"
+            android:textColor="#2b95cb"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view_line"
+            android:layout_width="0dp"
+            android:layout_height="0.9dp"
+            android:layout_marginTop="12dp"
+
+            android:background="#fff"
+            app:layout_constraintEnd_toEndOf="@+id/tv_out_conv_right"
+            app:layout_constraintStart_toStartOf="@+id/tv_out_conv_right"
+            app:layout_constraintTop_toBottomOf="@+id/tv_input_conv_right" />
+
+        <TextView
+            android:id="@+id/tv_out_conv_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="40dp"
+            android:gravity="start"
+
+            android:maxWidth="250dp"
+            android:text="Hello how are you"
+            android:textColor="#1d608d"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_line" />
+
+        <ImageView
+            android:id="@+id/iv_speaker_right_conv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="12dp"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_out_conv_right"
+            app:layout_constraintTop_toBottomOf="@+id/tv_out_conv_right"
+            app:srcCompat="@drawable/ic_volume"
+            app:tint="#1d608d" />
+
+        <ImageView
+            android:id="@+id/iv_copy_right_conv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_out_conv_right"
+            android:padding="14dp"
+            app:srcCompat="@drawable/ic_copy_conversation"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_speaker_right_conv"
+            app:layout_constraintEnd_toStartOf="@+id/iv_speaker_right_conv"
+            app:layout_constraintTop_toTopOf="@+id/iv_speaker_right_conv"
+            app:tint="#1d608d"
+
+
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_splash"
+    android:fillViewport="true"
+    android:orientation="vertical">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/btn_close"
+            android:layout_width="@dimen/_48sdp"
+            android:layout_height="@dimen/_48sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:padding="18dp"
+            android:src="@drawable/ic_close" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_top"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_160sdp"
+                android:layout_above="@id/txt_name_app"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/inapp" />
+
+            <TextView
+                android:id="@+id/txt_name_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/img_five_star"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="bottom|center"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/montserrat_semi_bold"
+                android:text="True Call ID &amp;\nSpam Blocker"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_five_star"
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:layout_above="@id/txt_premium"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginVertical="@dimen/_10sdp"
+                android:src="@drawable/five_star" />
+
+            <TextView
+                android:id="@+id/txt_premium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/txt_description"
+                android:background="@color/orange"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:paddingTop="@dimen/_2sdp"
+                android:text="PREMIUM ACCESS"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@id/txt_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/layout_custom_price"
+                android:layout_marginHorizontal="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:fontFamily="@font/montserrat_semi_bold"
+                android:text="✓ Quick searching unknown number\n\n✓ Easily Search ISD &amp; STD Number Code\n\n✓ Caller screen display "
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:id="@+id/layout_custom_price"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_above="@id/cancel_text"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/inter"
+                    android:text="Enjoy a "
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/inter_bold"
+                    android:text="3 Day Free Trial, "
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/inter"
+                    android:text="then "
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/price_period"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/inter_bold"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/cancel_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/continue_with_ads"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:fontFamily="@font/inter"
+                android:text="Cancel your subscription anytime"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                tools:text="Cancel your subscription anytime" />
+
+            <RelativeLayout
+                android:id="@+id/continue_with_ads"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_48sdp"
+                android:layout_above="@id/subscribe_btn"
+                android:layout_marginHorizontal="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:background="@drawable/bg_try_now"
+                android:foreground="?selectableItemBackgroundBorderless">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/avenir_bold"
+                    android:text="@string/try_now_for_free"
+                    android:textColor="#FF6B00"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="@dimen/_14sdp"
+                    android:layout_height="@dimen/_14sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_6sdp"
+                    android:src="@drawable/arrow_orange" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/subscribe_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_48sdp"
+                android:layout_above="@id/img_secured"
+                android:layout_marginHorizontal="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/bg_subscribe"
+                android:foreground="?selectableItemBackgroundBorderless">
+
+                <TextView
+                    android:id="@+id/txt_purchase"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/avenir_bold"
+                    android:text="@string/subscribe_text"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="@dimen/_14sdp"
+                    android:layout_height="@dimen/_14sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_6sdp"
+                    android:src="@drawable/arrow_white" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/img_secured"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_above="@id/layout_bot"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:src="@drawable/img_secured_gp" />
+
+            <LinearLayout
+                android:id="@+id/layout_bot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="@dimen/_8sdp">
+
+                <TextView
+                    android:id="@+id/privacy"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:foreground="?selectableItemBackgroundBorderless"
+                    android:gravity="center"
+                    android:padding="@dimen/_8sdp"
+                    android:text="Privacy Policies"
+                    android:textColor="#9CF1F1F1" />
+
+                <TextView
+                    android:id="@+id/terms"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:foreground="?selectableItemBackgroundBorderless"
+                    android:gravity="center"
+                    android:padding="@dimen/_8sdp"
+                    android:text="Terms &amp; Conditions"
+                    android:textColor="#9CF1F1F1" />
+            </LinearLayout>
+
+        </LinearLayout>
+        
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

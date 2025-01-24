@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sugest_update_title">Uuendus saadaval</string>
+    <string name="sugest_update_message">Uus uuendus on saadaval Google Play poes, palun uuenda oma versiooni</string>
+    <string name="force_update_title">Uuendus saadaval</string>
+    <string name="force_update_message">Uus uuendus on saadaval Google Play poes, palun uuenda oma versiooni</string>
+    <string name="update_ok">Uuenda</string>
+    <string name="update_no">Praegu mitte</string>
+    <string name="app_name">#Sõnumid</string>
+    <string name="in_app_name">Sõnumid</string>
+    <string name="splash_app_name">SMS Sõnumid</string>
+    <string name="loading_msg">Palun oodake...</string>
+    <string name="ads_loading_msg">Reklaami kuvamine...</string>
+    <string name="shortcut_compose_long_label">Uus vestlus</string>
+    <string name="shortcut_compose_short_label">Koosta</string>
+    <string name="shortcut_compose_disabled_message">Lühend pole lubatud</string>
+    <string name="title_archived">Arhiveeritud sõnumid</string>
+    <string name="title_settings">Seaded</string>
+    <string name="title_notification_prefs">Teatised</string>
+    <string name="title_theme">Teema</string>
+    <string name="title_conversations">Otsige numbreid, nimesid ja rohkem</string>
+    <string name="title_compose">Sisestage nimi või telefoninumber</string>
+    <string name="setup_skip">Jäta vahele</string>
+    <string name="setup_next">Jätkake</string>
+    <string name="menu_add_person">Lisa isik</string>
+    <string name="menu_call">Kõne</string>
+    <string name="menu_info">Detailid</string>
+    <string name="menu_save">Salvesta galeriisse</string>
+    <string name="menu_share">Jaga</string>
+    <string name="main_drawer_open_cd">Ava navigeerimisikoon</string>
+    <string name="main_title_selected">%d valitud</string>
+    <string name="main_menu_clear">Kustuta</string>
+    <string name="main_menu_archive">Arhiveeri</string>
+    <string name="main_menu_unarchive">Eemalda arhiveerimine</string>
+    <string name="main_menu_delete">Kustuta</string>
+    <string name="main_menu_add_contact">Lisa kontaktidesse</string>
+    <string name="main_menu_pin">Kinnita ülaosas</string>
+    <string name="main_menu_unpin">Lahku kinnitusest</string>
+    <string name="main_menu_read">Märgi loetuks</string>
+    <string name="main_menu_unread">Märgi lugematuks</string>
+    <string name="select_all">Vali kõik</string>
+    <string name="deselect_all">Tühista kõigi valik</string>
+    <string name="main_menu_block">Blokeeri</string>
+    <string name="main_syncing">Sõnumite korraldamine...</string>
+    <string name="main_sender_you">Sina: %s</string>
+    <string name="main_draft">Mustand: %s</string>
+    <string name="main_message_results_title">Tulemused sõnumites</string>
+    <string name="main_message_results">%d sõnumit</string>
+    <string name="inbox_empty_text">Teie vestlused ilmuvad siia</string>
+    <string name="inbox_search_empty_text">Tulemusi pole</string>
+    <string name="archived_empty_text">Arhiveeritud vestlusi veel pole..</string>
+    <string name="main_fab_cd">Alusta uut vestlust</string>
+    <string name="main_default_sms_title">Armastad sõnumeid?</string>
+    <string name="main_default_sms_message">Muutke SMS-rakendus oma vaikimisi SMS-rakenduseks</string>
+    <string name="main_default_sms_change">Muuda</string>
+    <string name="main_permission_required">Nõutud luba</string>
+    <string name="main_permission_sms">SMS vajab luba SMS-sõnumite saatmiseks ja vaatamiseks</string>
+    <string name="main_permission_contacts">SMS vajab luba teie kontaktide vaatamiseks</string>
+    <string name="main_permission_allow">Luba</string>
+    <string name="main_permission_allow_read">Luba lugemis- ja kirjutusluba</string>
+    <string name="drawer_inbox">Sisendkaust</string>
+    <string name="drawer_archived">Arhiveeritud</string>
+    <string name="drawer_scheduled">Ajastatud sõnum</string>
+    <string name="drawer_blocking">Blokeeritud loend</string>
+    <string name="drawer_calldorado">Helistaja seaded</string>
+    <string name="drawer_more">Rohkem</string>
+    <string name="drawer_group">Grupisõnum</string>
+    <string name="drawer_settings">Seaded</string>
+    <string name="drawer_remove_ads">Eemalda reklaamid</string>
+    <string name="drawer_help">Abi ja tagasiside</string>
+    <string name="drawer_invite">Kutsu sõpru</string>
+    <string name="dialog_delete_title">Kustuta</string>
+    <plurals name="dialog_delete_conversion">
+        <item quantity="one">Kas olete kindel, et soovite selle vestluse kustutada?</item>
+        <item quantity="other">Kas olete kindel, et soovite kustutada %d vestlust?</item>
+    </plurals>
+    <string-array name="message_options">
+        <item>Kopeeri tekst</item>
+        <item>Edasta</item>
+        <item>Kustuta</item>
+    </string-array>
+    <string name="compose_number_picker_title">Valige telefoninumber</string>
+    <string name="compose_number_picker_default">%s ∙ Vaikimisi</string>
+    <string name="compose_number_picker_once">Ainult üks kord</string>
+    <string name="compose_number_picker_always">Alati</string>
+    <string name="compose_title_selected">%d valitud</string>
+    <string name="compose_subtitle_results">%1$d of %2$d tulemust</string>
+    <string name="contact_selected">%1$d of %2$d valitud</string>
+    <string name="compose_send_group_title">Saada grupivestlusena</string>
+    <string name="compose_send_group_summary">Saajad ja vastused on kõigile nähtavad</string>
+    <string name="compose_messages_empty">Alustage oma vestlust. Öelge midagi suurepärast!</string>
+    <string name="compose_vcard_label">Kontaktkaart</string>
+    <string name="compose_scheduled_for">Ajastatud</string>
+    <string name="compose_scheduled_future"> aeg peaks olema tulevikus!</string>
+    <string name="compose_scheduled_toast">Lisatud ajastatud sõnumitesse</string>
+    <string name="compose_hint">Kirjutage siia...</string>
+    <string name="compose_menu_copy">Kopeeri tekst</string>
+    <string name="compose_menu_forward">Edasta</string>
+    <string name="compose_menu_delete">Kustuta</string>
+    <string name="compose_menu_previous">Eelmine</string>
+    <string name="compose_menu_next">Järgmine</string>
+    <string name="compose_menu_clear">Tühjenda</string>
+    <string name="compose_details_title">Sõnumi detailid</string>
+    <string name="compose_details_type">Tüüp: %s</string>
+    <string name="compose_details_from">Saaja: %s</string>
+    <string name="compose_details_to">Saaja: %s</string>
+    <string name="compose_details_subject">Teema: %s</string>
+    <string name="compose_details_priority">Prioriteet: %s</string>
+    <string name="compose_details_size">Suurus: %s</string>
+    <string name="compose_details_sent">Saadetud: %s</string>
+    <string name="compose_details_received">Saadud: %s</string>
+    <string name="compose_details_delivered">Kohale toimetatud: %s</string>
+    <string name="compose_details_error_code">Vea kood: %d</string>
+    <string name="compose_attach_cd">Lisa manus</string>
+    <string name="compose_gallery_cd">Lisa foto</string>
+    <string name="compose_camera_cd">Tee foto</string>
+    <string name="compose_schedule_cd">Ajasta sõnum</string>
+    <string name="compose_contact_cd">Lisa kontakt</string>
+    <string name="compose_contact_error">Viga kontakti lugemisel</string>
+    <string name="compose_sim_cd">%s valitud, muuda SIM-kaarti</string>
+    <string name="compose_send_cd">Saada sõnum</string>
+    <string name="message_status_sending">Saadetakse…</string>
+    <string name="message_status_delivered">Kohale toimetatud %s</string>
+    <string name="message_status_failed">Saatmine ebaõnnestus</string>
+    <string name="info_title">Kontakti detailid</string>
+    <string name="info_copied_address">Aadress kopeeritud</string>
+    <string name="info_name">Vestluse pealkiri</string>
+    <string name="info_notifications">Teatised</string>
+    <string name="info_theme">Teema</string>
+    <string name="info_archive">Arhiveeri</string>
+    <string name="info_unarchive">Eemalda arhiveerimine</string>
+    <string name="info_block">Blokeeri</string>
+    <string name="info_unblock">Tühistamise blokeerimine</string>
+    <string name="info_delete">Kustuta vestlus</string>
+    <string name="gallery_error">Meediat ei õnnestunud laadida</string>
+    <string name="gallery_toast_saved">Salvestatud galeriisse</string>
+    <string name="backup_title">Varundamine ja taastamine</string>
+    <string name="backup_backing_up">Sõnumite varundamine</string>
+    <string name="backup_restoring">Taastamine varundist</string>
+    <string name="backup_last">Viimane varukoopia</string>
+    <string name="backup_loading">Laadimine...</string>
+    <string name="backup_never">Kunagi</string>
+    <string name="backup_restore_title">Taasta</string>
+    <string name="backup_restore_summary">Valige varukoopia</string>
+    <string name="backup_restore_error_plus">Palun avage SMS+ kasutamiseks varundus ja taastamine</string>
+    <string name="backup_restore_error_backup">Varundamine käib...</string>
+    <string name="backup_restore_error_restore">Taastamine käib...</string>
+    <string name="backup_restore_confirm_title">Taasta varukoopiast</string>
+    <string name="backup_restore_confirm_message">Kas olete kindel, et soovite sellest varundusest oma sõnumid taastada?</string>
+    <string name="backup_restore_stop_title">Peata taastamine</string>
+    <string name="backup_restore_stop_message">Sõnumid, mis on juba taastatud, jäävad teie seadmesse</string>
+    <string name="backup_restore_dialog_title">Varukoopiad</string>
+    <string name="backup_restore_dialog_summary">/SMS Sõnumid/Varukoopiad</string>
+    <string name="backup_restore_dialog_empty">Ühtegi varukoopiat ei leitud</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">Ühtegi sõnumit</item>
+        <item quantity="one">%d sõnum</item>
+        <item quantity="other">%d sõnumit</item>
+    </plurals>
+    <string name="backup_disclaimer">Seni oleme toetanud ainult SMS-iga varundamist ja taastamist!</string>
+    <string name="backup_now">Varunda</string>
+    <string name="backup_progress_parsing">Varundatud sõnumite analüüsimine…</string>
+    <string name="backup_progress_running" formatted="false">%d/%d sõnumit</string>
+    <string name="backup_progress_saving">Varukoopia salvestamine…</string>
+    <string name="backup_progress_syncing">Sõnumite sünkroonimine…</string>
+    <string name="backup_progress_finished">Valmis!</string>
+    <string name="backup_notification_channel_name">Varundamine ja taastamine</string>
+    <string name="Message_notification_channel_name">Sõnumi sünkroonimine</string>
+    <string name="scheduled_title">Ajastatud</string>
+    <string name="schedule_guide">Saate ajastada sõnumi, klõpsates vestlusakna kinnitamisnupul.</string>
+    <string name="scheduled_empty_description">Saadetud sõnum automaatselt täpsel hetkel, millal soovite</string>
+    <string name="scheduled_empty_message_1">Hei! Millal on aeg tähistamiseks?</string>
+    <string name="scheduled_empty_message_2">See on 5. märtsil </string>
+    <string name="scheduled_empty_message_3">Hei! Vaata, milline suurepärane sõber ma olen, tähistades sinu päeva</string>
+    <string name="scheduled_empty_message_3_timestamp">Saadetakse 5. märtsil&#x200A;</string>
+    <string name="scheduled_compose_cd">Ajasta sõnum</string>
+    <string name="scheduled_options_title">Ajastatud sõnum</string>
+    <string-array name="scheduled_options">
+        <item>Saada kohe</item>
+        <item>Kopeeri tekst</item>
+        <item>Kustuta</item>
+    </string-array>
+    <string name="settings_category_appearance">Välimus</string>
+    <string name="settings_category_general">Üldine</string>
+    <string name="settings_categoryreply">Vasta</string>
+    <string name="settings_night_title">Öörežiim</string>
+    <string name="settings_text_size_title">Fonti suurus</string>
+    <string name="settings_notifications_title">Teatised</string>
+    <string name="settings_notifications_o_summary">Puudutage kohandamiseks</string>
+    <string name="settings_notification_actions_title">Toimingud</string>
+    <string name="settings_notification_action_1">Nupp 1</string>
+    <string name="settings_notification_action_2">Nupp 2</string>
+    <string name="settings_notification_action_3">Nupp 3</string>
+    <string name="settings_notification_previews_title">Teatiste eelvaated</string>
+    <string name="settings_notification_wake_title">Ekraani äratamine</string>
+    <string name="settings_vibration_title">Vibratsioon</string>
+    <string name="settings_ringtone_title">Heli</string>
+    <string name="settings_ringtone_none">Puudub</string>
+    <string name="settings_reply_title">Vasta</string>
+    <string name="settings_reply_summary">Hüpikaken uute sõnumite jaoks</string>
+    <string name="settings_reply_tap_dismiss_title">Puudutage tühistamiseks</string>
+    <string name="settings_reply_tap_dismiss_summary">Väljumiseks puudutage hüpikakna väljaspool</string>
+    <string name="settings_swipe_actions">Pühkige toimingud</string>
+    <string name="settings_swipe_actions_right">Parem pühkimine</string>
+    <string name="settings_swipe_actions_left">Vasak pühkimine</string>
+    <string name="settings_swipe_actions_change">MUUDA</string>
+    <string name="not_now_txt">Praegu mitte</string>
+    <string name="process_title">See protsess võtab aega</string>
+    <string name="syncing_done">Sõnumi sünkroonimine lõppenud....</string>
+    <string name="all_set_txt">Kõik on seatud. Olete valmis minema</string>
+    <string name="Personal">Kõik sõnumid</string>
+    <string name="Other">Tuntud </string>
+    <string name="Spam">Tühi</string>
+    <string name="setting">Seaded</string>
+    <string name="Share">Jaga</string>
+    <string name="Rate">Hinda meid</string>
+    <string name="edit">muuda</string>
+    <string name="DarkMode">Tume režiim</string>
+    <string name="BrightMode">Hele režiim</string>
+    <string name="Camera">Kaamera</string>
+    <string name="Gallery">Galerii</string>
+    <string name="Gif">Gif</string>
+    <string name="Contact">Kontakt</string>
+    <string name="Schedule">Graafik</string>
+    <string name="Location">Asukoht</string>
+    <string name="Notes">Märkmed</string>
+    <string name="no_msg">Ühtegi sõnumit veel...</string>
+    <string name="Start_Chat">Alusta vestlust</string>
+    <string name="Language">Keel</string>
+    <string name="rate_text">Soovitage meid teistele, hinnates meid Play poes!</string>
+    <string name="sort_by">Sorteerimine</string>
+    <string-array name="settings_swipe_actions">
+        <item>Ühtegi</item>
+        <item>Arhiveeri</item>
+        <item>Kustuta</item>
+        <item>Kutsu</item>
+        <item>Märgi loetuks</item>
+        <item>Märgi loetuks märgituks</item>
+    </string-array>
+    <string name="settings_mms_size_title">MMS-mitmekompressi automaatne sättimine</string>
+    <string name="settings_sync_title">Sõnumite sünkroonimine</string>
+    <string name="settings_sync_summary">Sünkroonige oma sõnumid uuesti Androidi sõnumite andmebaasiga</string>
+    <string name="blocking_manager_sms_title">SMS</string>
+    <string name="blocking_manager_call_control_title">Kõnede juhtimine</string>
+    <string name="blocking_manager_sia_title">Kas peaksin vastama?</string>
+    <string name="blocked_messages_title">Blokeeritud sõnumid</string>
+    <string name="blocked_messages_empty">Teie blokeeritud sõnumid ilmuvad siia</string>
+    <string name="blocking_block_title">Blokeeri</string>
+    <string name="blocking_unblock_title">Blokeeringu tühistamine</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">Jätka %s ja blokeeri see number</item>
+        <item quantity="other">Jätka %s ja blokeeri need numbrid</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">Jätka %s ja luba see number</item>
+        <item quantity="other">Jätka %s ja luba need numbrid</item>
+    </plurals>
+    <string name="widget_loading">Laadimine…</string>
+    <string name="widget_more">Kuva rohkem vestlusi</string>
+    <string name="qkreply_menu_read">Märgi loetuks</string>
+    <string name="qkreply_menu_call">Helista</string>
+    <string name="qkreply_menu_delete">Kustuta</string>
+    <string name="qkreply_menu_expand">Näita rohkem</string>
+    <string name="qkreply_menu_collapse">Näita vähem</string>
+    <string name="qkreply_menu_view">Ava vestlus</string>
+    <string name="changelog_title">Uus SMS-is</string>
+    <string name="changelog_version">Versioon %s</string>
+    <string name="changelog_added">Lisatud</string>
+    <string name="changelog_improved">Parandatud</string>
+    <string name="changelog_fixed">Parandatud</string>
+    <string name="changelog_more">Rohkem</string>
+    <string name="changelog_dismiss">Loobu</string>
+    <string-array name="notification_actions">
+        <item>Ühtegi</item>
+        <item>Märgi loetuks</item>
+        <item>Vasta</item>
+        <item>Helista</item>
+        <item>Kustuta</item>
+    </string-array>
+    <string name="button_yes">Jah</string>
+    <string name="button_continue">Jätka</string>
+    <string name="button_cancel">Tühista</string>
+    <string name="button_delete">Kustuta</string>
+    <string name="button_save">Salvesta</string>
+    <string name="button_stop">Peata</string>
+    <string name="button_more">Rohkem</string>
+    <string name="button_set">Määra</string>
+    <string name="button_undo">Võta tagasi</string>
+    <string name="toast_copied">Kopeeritud</string>
+    <string name="toast_archived">Arhiveeritud vestlus</string>
+    <string name="toast_sms_plus">Selleks peate avama SMS+</string>
+    <plurals name="notification_new_messages">
+        <item quantity="one">Uus sõnum</item>
+        <item quantity="other">%s uut sõnumit</item>
+    </plurals>
+    <string name="notification_message_failed_title">Sõnumi saatmine ebaõnnestus</string>
+    <string name="notification_message_failed_text">Sõnum %s-le saatmine ebaõnnestus</string>
+    <string name="privacy_policy">Privaatsuspoliitika</string>
+    <string name="pocket_data_on">MMS-i saatmiseks peab olema sisse lülitatud taskus olevad andmed!</string>
+    <string name="inapp_details" translatable="false">Reklaamide eemaldamiseks proovige tasulist tellimust koos tume-hele režiimi toe\nAjastatud SMS-i toe.</string>
+    <string name="drawer_removeAds">Eemalda reklaamid</string>
+    <string name="in_app_ads">sõnumid_rad</string>
+    <string name="dialog_delete_message">Kas soovite selle sõnumi kustutada?</string>
+    <string name="compose_bar_not_support">Saaja ei toeta vastuseid</string>
+    <string name="default_name">Sõnumi saatmiseks või vastuvõtmiseks peate selle määrama vaikimisi rakenduseks. Kas soovite, et sõnumist saaks teie vaikimisi rakendus?</string>
+    <string name="confirm_delete">Kinnita kustutamine</string>
+    <string name="confirm_delete_text">Kas soovite selle märkme kustutada?</string>
+    <string name="title">Pealkiri</string>
+    <string name="note">Märge</string>
+    <string name="search">Otsing</string>
+    <string name="settings">Seaded</string>
+    <string name="share_to">Jaga:</string>
+    <string name="sort">Sorteeri</string>
+    <string name="empty_list_text">Uue märkme lisamiseks vajutage nuppu paremal all!</string>
+    <string name="new_note">Uus märge</string>
+    <string name="undo">Võta tagasi</string>
+    <string name="delete">Kustuta</string>
+    <string name="exception">Erind:</string>
+    <string name="edit_note">Muuda märget</string>
+    <string name="drawer_feedback">Saada tagasisidet</string>
+    <string name="drawer_mode">Hele režiim</string>
+    <string name="unlimited_access_user">Piiramatu juurdepääs\nKõikidele funktsioonidele</string>
+    <string name="pro_user">Olete\nPremium kasutaja</string>
+    <string name="sub_info_text"><b>Tellimus uueneb automaatselt, kuni selle välja lülitad.</b></string>
+    <string name="cancel_purchase">Saate tühistada automaatse tellimuse uuendamise Google Play tellimustes</string>
+    <string name="remove_ads">Eemalda reklaamid</string>
+    <string name="no_ads">Reklaame pole</string>
+    <string name="free_trial">7-päevane tasuta prooviversioon, seejärel uueneb automaatselt</string>
+    <string name="can_not_talk_right_now">Vabandust, hetkel ma ei saa rääkida</string>
+    <string name="can_call_you_later">Kas ma võin hiljem helistada?</string>
+    <string name="i_am_on_my_way">Olen teel</string>
+    <string name="write_personal_message">Kirjutage isiklik sõnum</string>
+    <string name="create_reminder">Loo uus meeldetuletus</string>
+    <string name="remind_me_about">Meenuta mulle</string>
+    <string name="no_title">Pealkirja pole</string>
+    <string name="edit_contact">Muuda kontakti</string>
+    <string name="add_contact">Lisa kontakt</string>
+    <string name="messages">Sõnumid</string>
+    <string name="send_mail">Saada e-kiri</string>
+    <string name="calendar">Kalender</string>
+    <string name="web">Veeb</string>
+    <string-array name="night_modes">
+        <item>Süsteem</item>
+        <item>Hele režiim</item>
+        <item>Tume režiim</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>Kuva nimi ja sõnum</item>
+        <item>Kuva nimi</item>
+        <item>Peida sisu</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>Väike</item>
+        <item>Tavaline</item>
+        <item>Suur</item>
+        <item>Suurem</item>
+    </string-array>
+    <string-array name="delayed_sending_labels">
+        <item>Ilma viivituseta</item>
+        <item>Lühike</item>
+        <item>Keskmine</item>
+        <item>Pikk</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>Automaatne</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>Ilma kokkusurumiseta</item>
+    </string-array>
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="qk_responses">
+        <item>Olgu</item>
+        <item>Oota natuke</item>
+        <item>Olen teel</item>
+        <item>Aitäh</item>
+        <item>Kõlab hästi</item>
+        <item>Mis toimub?</item>
+        <item>Nõustun</item>
+        <item>Ei</item>
+        <item>Armastan sind</item>
+        <item>Vabandust</item>
+        <item>LOL</item>
+        <item>See on korras</item>
+    </string-array>
+    <string name="default_title">Luba SMS-rakendus vaikimisi rakendusena</string>
+    <string name="set_as_defaault">Määra vaikimisi rakenduseks</string>
+    <string name="love_app_title">Tehke SMS-rakendus oma vaikimisi SMS-rakenduseks</string>
+    <string-array name="gif">
+        <item>Looma nägu</item>
+        <item>Emoji</item>
+        <item>Puuviljad ja köögiviljad</item>
+        <item>Halloween</item>
+        <item>Armastus</item>
+    </string-array>
+    <string name="Sticker">Kleebis</string>
+    <string name="no_connection">Puudub internetiühendus.</string>
+    <string-array name="sticker">
+        <item>Poiss</item>
+        <item>Koomiks</item>
+        <item>Nägu</item>
+        <item>Festival</item>
+        <item>Puuvili</item>
+        <item>Lõbu</item>
+        <item>Tüdruk</item>
+        <item>Armastuse kleebis</item>
+        <item>Muud</item>
+        <item>Kutsikas</item>
+    </string-array>
+    <string name="open_link_to_browser">Ava link brauseris</string>
+    <string name="battery_dialog">Ei soovi tähtsaid sõnumeid maha magada? \nLülitage aku optimeerimine välja</string>
+    <string name="reason_to_change_battery_optimization_setting">Avage rakenduse teave &gt; Täpsem &gt; Aku optimeerimine \nja valige "Ära optimeeri"</string>
+    <string name="feedback_txt">Räägi meile oma kogemusest ja anna soovitusi sõnumirakenduse paremaks muutmiseks.</string>
+    <string name="reason_to_change_battery"> Täpsem &gt; Aku optimeerimine &gt; "Ära optimeeri"</string>
+    <string name="drawer_transaction">Tehingud</string>
+    <string name="drawer_promotion">Reklaamid</string>
+    <string name="unknown">Tundmatu</string>
+    <string name="priva"><u>Privaatsuspoliitika</u></string>
+    <string name="smsfilter">SMS-i filter</string>
+    <string name="by_click_t_c" translatable="false"><u>Klõpsates nõustute meie kasutustingimustega.</u></string>
+    <string name="continue_without_sub"><u>Jätka ilma tellimata</u></string>
+    <string name="text_free_trial">Naudi X päeva <b>Tasuta prooviversiooni</b> - Seejärel X € / kuu</string>
+    <string name="calldorado_message">Kontrollige kõiki <b>sõnumeid</b> enne kõne lõpetamist! On uudiseid</string>
+    <string name="privacy_terms_description">Jätkates, nõustute ja kinnitate kasutustingimuste ning privaatsuspoliitikaga.</string>
+    <string name="draw_over_description"><![CDATA[Kuvamaks teiste rakenduste kohal meie SMS-sõnumeid. Saate kõik potentsiaali kasutada SMS-kõnede vidinaid ja muud]]></string>
+    <string name="ad_label">REKLAAM</string>
+    <string name="onboarding_continue_button">Jätka</string>
+    <string name="onboarding_step_1_title">SMS-i ja sõnumite haldur</string>
+    <string name="onboarding_step_1_subtitle">Vestle sõpradega, loo gruppe ja korralda oma postkasti</string>
+    <string name="onboarding_step_1_hight_light">Unikaalne lähenemine Sinule</string>
+    <string name="onboarding_step_2_title">Sõnumite korraldamine ja salvestamine</string>
+    <string name="onboarding_step_2_subtitle">Varundage ja taastage oma sõnumid</string>
+    <string name="onboarding_step_2_hight_light">Tuhandeid kasutajaid meeldib see</string>
+    <string name="onboarding_step_3_title">Naudi elu ja laseme meil postkasti hoolitseda</string>
+    <string name="onboarding_step_3_subtitle">Lubage õigused, et saaksime aidata teil oma postkasti hallata.</string>
+    <string name="onboarding_step_3_hight_light">Võib-olla hiljem</string>
+    <string name="onboarding_allow_access_button">Luba ligipääs</string>
+    <string name="onboarding_step_4_title">Parandage oma aku, lastes meil töö ära teha</string>
+    <string name="onboarding_step_4_subtitle">Me hoolitseme tüütute SMS-häirete eest.</string>
+    <string name="onboarding_step_4_hight_light">Tuhandeid kasutajaid meeldib see</string>
+    <string name="onboarding_step_5_title">Töö teiste rakendustega jagatud ekraanil, samal ajal vesteldes</string>
+    <string name="onboarding_step_5_subtitle">Nautige meie hämmastavat kõnevidinat, mis võimaldab teil mitmeid ülesandeid teha</string>
+    <string name="onboarding_step_5_hight_light">Tuhandeid kasutajaid meeldib see</string>
+    <string name="payment_card_title">Vestle kohe!</string>
+    <string name="payment_card_price"><![CDATA[3-päevane tasuta, %s / %s]]></string>
+    <string name="payment_card_button">Proovi kohe tasuta</string>
+    <string name="payment_card_hight_light">Turvaline Play poes</string>
+    <string name="payment_card_weekly">nädalas</string>
+    <string name="payment_card_monthly">kuus</string>
+    <string name="payment_card_yearly">aastas</string>
+    <string name="payment_card_auto_renew">automaatne uuendamine, tühistage igal ajal</string>
+    <string name="accessibility_service_description">Teie ligipääsetavuse teenuse kirjeldus</string>
+    <string name="permission_txt"><font color="#FF8A00">Nõutav luba:</font>\nLoe telefoni olekut ja joonista teiste rakenduste kohal</string>
+    <string name="opt_privacy">Jätkates nõustute ja kinnitate kasutustingimused ning privaatsuspoliitika.</string>
+    <string name="permission_required">Nõutavad load</string>
+    <string name="permission_dialog_body">See rakendus ei pruugi õigesti töötada ilma telefoniloata. Järgige allpool toodud juhiseid, et see lubada:\n\n1. Valige „Lubadused“\n2. Leidke loendist „Telefon“ ja puudutage, et lubada</string>
+    <string name="go_premium">Mine <font color = "#FFE600">Premiumiks!</font></string>
+    <string name="unlock_everything">Lukusta kõik ja reklaame pole</string>
+    <string name="start_three_day">Alusta 3-päevast tasuta prooviversiooni</string>
+    <string name="pro">Pro</string>
+    <string name="more_option">Rohkem valikuid</string>
+    <string name="rate_us_5">Hinda meid 5 tärniga</string>
+    <string name="help_feedback">Abi ja tagasiside</string>
+    <string name="send_message">Saada sõnum</string>
+    <string name="CTA_Button_Text">Puuduta, et avada kõik <font color="#FFFBCD04">omadused</font></string>
+
+</resources>

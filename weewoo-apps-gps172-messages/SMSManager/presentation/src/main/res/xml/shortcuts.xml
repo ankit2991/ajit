@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_shortcut_compose"
+        android:shortcutDisabledMessage="@string/shortcut_compose_disabled_message"
+        android:shortcutId="compose"
+        android:shortcutLongLabel="@string/shortcut_compose_long_label"
+        android:shortcutShortLabel="@string/shortcut_compose_short_label">
+
+        <intent
+            android:action="com.messaging.textrasms.manager.START"
+            android:targetClass="com.messaging.textrasms.manager.feature.compose.ComposeActivity"
+            android:targetPackage="com.messaging.textrasms.manager" />
+
+        <categories android:name="android.shortcut.conversation" />
+
+    </shortcut>
+
+</shortcuts>

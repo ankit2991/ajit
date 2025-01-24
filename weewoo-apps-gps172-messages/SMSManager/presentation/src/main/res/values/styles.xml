@@ -1,0 +1,203 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="TextPrimary">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="textSize">primary</item>
+    </style>
+
+    <style name="TextSecondary">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="textSize">secondary</item>
+    </style>
+
+    <style name="TextTertiary">
+        <item name="android:textColor">?android:attr/textColorTertiary</item>
+        <item name="textSize">tertiary</item>
+    </style>
+    <!--    <style name="background">-->
+    <!--        <item name="android:background">@color/tools_themetoolbar</item>-->
+    <!--    </style>-->
+    <style name="TextButton">
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="textSize">secondary</item>
+    </style>
+
+    <style name="Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_45sdp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColorSecondary">@color/textPrimary</item>
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:homeAsUpIndicator">@drawable/back_icon</item>
+
+    </style>
+
+    <style name="ToolbarText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+
+    <style name="PreferenceCategory">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+        <item name="android:layout_marginStart">72dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="textColor">theme</item>
+        <item name="textSize">secondary</item>
+    </style>
+
+    <style name="CollapsingToolbarCollapsedText">
+        <item name="textSize">toolbar</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CollapsingToolbarExpandedText">
+        <item name="android:textSize">44dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ScheduledSampleTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">44dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="textSize">primary</item>
+    </style>
+
+    <style name="DrawerRow">
+        <item name="android:layout_height">@dimen/_40sdp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+
+    <style name="DrawerText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:lines">1</item>
+        <item name="theme">@style/PopupTheme</item>
+        <item name="android:textStyle">bold</item>
+        <item name="textSize">primary</item>
+    </style>
+
+    <style name="DrawerIcon">
+        <item name="android:layout_height">@dimen/_25sdp</item>
+        <item name="android:layout_width">@dimen/_25sdp</item>
+        <item name="android:layout_marginEnd">28dp</item>
+        <item name="android:padding">@dimen/_5sdp</item>
+    </style>
+
+    <style name="DrawerIconFew">
+        <item name="android:layout_height">@dimen/_25sdp</item>
+        <item name="android:layout_width">@dimen/_25sdp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+        <item name="android:padding">@dimen/_3sdp</item>
+    </style>
+
+    <style name="popup_window_animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.Dialog">
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/gnt_rounded_corners_shape</item>
+    </style>
+
+    <style name="MyRatingBarTwo" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_fill</item>
+        <item name="colorControlNormal">#C1C1C1</item>
+        <item name="colorControlActivated">#FDDD3F</item>
+    </style>
+
+    <style name="Theme_Dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowMinWidthMajor">85%</item>
+        <item name="android:windowMinWidthMinor">85%</item>
+    </style>
+
+    <style name="OverflowButton">
+        <item name="srcCompat">@drawable/more_icon</item>
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+    <style name="scrollbar_shape_style">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">false</item>
+        <item name="android:scrollbarThumbVertical">@drawable/thumb</item>
+        <item name="android:scrollbarTrackVertical">@drawable/track</item>
+        <item name="android:scrollbarSize">8dp</item>
+    </style>
+
+    <style name="roundedPlayImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="FullScreenNoActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="colorPrimary">@color/default_secondary</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/default_secondary</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges
+        </item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <!--set  back arraw color of action bar-->
+        <item name="colorControlNormal">@color/black</item>
+        <item name="android:popupBackground">@android:color/white</item>
+        <item name="windowActionModeOverlay">true</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="BlackAlertDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">@color/permission_dialog_clr</item> <!-- Set the background color to black -->
+        <item name="android:textColor">@android:color/white</item> <!-- Set the text color to white -->
+    </style>
+</resources>

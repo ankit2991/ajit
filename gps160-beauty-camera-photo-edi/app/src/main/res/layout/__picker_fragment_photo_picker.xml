@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ccf1d2"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/rv_photos"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:gravity="center" />
+
+    <RelativeLayout
+        android:id="@id/adsContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@id/admob_banner_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:id="@+id/bannerContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/bannerTvLoading"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/banner_height"
+                android:gravity="center"
+                android:background="@color/white"
+                android:text="Loading Ad"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                />  <FrameLayout
+                android:id="@id/admob_banner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@id/fb_banner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@id/wrap_folder"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dip"
+        android:background="#6ec6ba"
+        android:elevation="20.0dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@id/directIcon"
+            android:layout_width="20.0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="20.0dip"
+            android:src="@drawable/arrow_up" />
+
+        <TextView
+            android:id="@id/folder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:text="@string/all_image"
+            android:textColor="@android:color/white"
+            android:textSize="18.0sp" />
+    </LinearLayout>
+</LinearLayout>

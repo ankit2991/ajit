@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED"
+    tools:context=".activities.conversation.SavedChatActivity">
+
+    <include
+        android:id="@+id/toolbar_personal_chat"
+        layout="@layout/layout_toolbar_saved_chat"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_saved_chat"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="12dp"
+        android:clipToPadding="false"
+        android:paddingBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_personal_chat"
+        tools:itemCount="2"
+        tools:listitem="@layout/li_saved_chat" />
+
+    <TextView
+        android:id="@+id/tv_no_saved_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/segoeuib"
+        android:gravity="center"
+        android:text="No saved chat."
+        android:textColor="@color/black_overlay"
+        android:textSize="16sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

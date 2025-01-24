@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <queries>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="https" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="http" />
+        </intent>
+
+        <!-- Camera -->
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+
+        <!-- Gallery -->
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT" />
+        </intent>
+    </queries>
+    <application
+        android:name=".PhotoApp"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/app_main_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/app_main_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+
+        <property
+            android:name="android.adservices.AD_SERVICES_CONFIG"
+            android:resource="@xml/gma_ad_services_config"
+            tools:replace="android:resource" />
+        <activity
+            android:name="com.lockerroom.face.activities.onboardingScreen.MainOnBoardingScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="false">
+        </activity>
+        <activity android:name=".activities.MainActivityNew" android:exported="false"/>
+        <activity android:name="com.lockerroom.face.activities.PrivacyPolicy" android:exported="false"/>
+        <activity
+            android:name="com.lockerroom.face.activities.StartActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.lockerroom.face.activities.ThankYouActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.lockerroom.face.changer.mustache.beard.handsome.free.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" />
+<!--        <meta-data-->
+<!--            android:name="applovin.sdk.key"-->
+<!--            android:value="59v9HZhBTwxUt2m2NJ9Ngx121LBrBuwNqtRCC-DtSgFreoPmuTSiCkJX-zkEVfuBVQkKdm7iDCilBJLrwoARk7" />-->
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name="com.lockerroom.face.activities.EditorSplashActivity"
+            android:exported="true"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lockerroom.face.activities.SubscriptionActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.lockerroom.face.activities.MainActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.lockerroom.face.activities.EditImageActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".features.picker.PhotoPickerActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".features.picker.PhotoPagerActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.lockerroom.face.activities.PuzzleViewActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".features.puzzle.photopicker.activity.PickImageActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.lockerroom.face.activities.SaveAndShareActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.lockerroom.face.activities.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.karumi.dexter.DexterActivity"
+            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true"/>
+
+        <!-- Max sdk Key -->
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="59v9HZhBTwxUt2m2NJ9Ngx121LBrBuwNqtRCC-DtSgFreoPmuTSiCkJX-zkEVfuBVQkKdm7iDCilBJLrwoARk7" />
+
+    </application>
+
+</manifest>

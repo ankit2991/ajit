@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/btnLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/_15sdp"
+    android:layout_marginTop="@dimen/_8sdp"
+    android:layout_marginRight="@dimen/_15sdp"
+    android:layout_marginBottom="@dimen/_8sdp"
+    android:orientation="vertical"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:padding="@dimen/_6sdp">
+
+
+        <com.messaging.textrasms.manager.common.widget.SquareImageView
+            android:id="@+id/app_icon"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:padding="@dimen/_2sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/messages_app_icon"></com.messaging.textrasms.manager.common.widget.SquareImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/install_btn"
+            android:layout_toRightOf="@+id/app_icon"
+            android:gravity="start"
+            android:orientation="vertical">
+
+            <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                android:id="@+id/app_text"
+                style="@style/TextPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_4sdp"
+                android:paddingLeft="@dimen/_4sdp"
+                android:paddingRight="@dimen/_4sdp"
+
+                android:text="Share app"
+                android:textSize="@dimen/_13sdp"
+                app:customFont="@string/fontName" />
+
+            <com.messaging.textrasms.manager.common.util.CustomFontTextView
+                android:id="@+id/text_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_4sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_toLeftOf="@+id/install_btn"
+                android:layout_toRightOf="@+id/share_icon"
+                android:paddingLeft="@dimen/_4sdp"
+                android:paddingRight="@dimen/_4sdp"
+                android:text="Get 25 coins by watching video"
+                android:textColor="#1D71E7"
+                android:textSize="@dimen/_10sdp"
+                app:customFont="@string/roboto_med" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/install_btn"
+            android:layout_width="@dimen/_74sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:background="@drawable/install"
+            android:text="Install"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_11sdp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:background="#7CE1E1E2"
+        android:visibility="gone" />
+</LinearLayout>

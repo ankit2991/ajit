@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        app:cardBackgroundColor="@color/tools_theme"
+        app:cardCornerRadius="@dimen/_5sdp">
+
+        <RelativeLayout
+            android:id="@+id/root_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            tools:ignore="UselessParent">
+
+            <!--View while view is collapsed-->
+            <RelativeLayout
+                android:id="@+id/collapse_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <!--Icon of floating widget -->
+                <ImageView
+                    android:id="@+id/collapsed_iv"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/messages_app_icon"
+                    tools:ignore="ContentDescription" />
+
+                <com.messaging.textrasms.manager.common.widget.QkTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_toRightOf="@+id/collapsed_iv"
+                    android:text="@string/in_app_name"
+                    android:textColor="@color/white" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/collapse_view"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center_horizontal"
+                android:lineSpacingExtra="6sp"
+                android:text="@string/reason_to_change_battery"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+            <!--View while view is expanded-->
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

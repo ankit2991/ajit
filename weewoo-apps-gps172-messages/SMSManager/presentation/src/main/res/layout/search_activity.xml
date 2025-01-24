@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/list_background"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:background="?attr/default_grey"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:contentInsetStartWithNavigation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_3sdp"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/ic_back_arrow"
+            app:tint="?android:attr/textColorPrimary" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/Toolbar"
+
+
+            app:contentInsetStartWithNavigation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.messaging.textrasms.manager.common.widget.QkTextView
+                android:id="@+id/toolbarTitle"
+                style="@style/ToolbarText"
+                android:layout_marginStart="16dp"
+                android:visibility="gone" />
+
+            <com.messaging.textrasms.manager.common.widget.QkEditText
+                android:id="@+id/toolbarSearch"
+                style="@style/ToolbarText"
+                android:hint="@string/title_conversations"
+                android:singleLine="true"
+                android:textColorHint="#8E8F91"
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:textStyle="bold"
+                app:customFont="@string/fontName"
+                app:textSize="primary" />
+
+            <ImageView
+                android:id="@+id/cancel"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginEnd="8dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:padding="8dp"
+                android:src="@drawable/ic_cancel_black_24dp"
+                android:visibility="gone"
+                app:tint="?android:attr/textColorPrimary" />
+
+        </androidx.appcompat.widget.Toolbar>
+    </LinearLayout>
+    <!--    </androidx.cardview.widget.CardView>-->
+    <!--        </androidx.cardview.widget.CardView>-->
+    <com.messaging.textrasms.manager.common.widget.QkTextView
+        android:id="@+id/people"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_layout"
+        android:layout_gravity="start"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:gravity="start"
+        android:padding="@dimen/_3sdp"
+        android:text="Recent"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold"
+        tools:text="People"
+        tools:visibility="visible" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_recent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/people"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:scrollbars="vertical" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/recyclerView_recent"
+        android:visibility="visible"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/conversation_list_item" />
+
+    <com.messaging.textrasms.manager.common.widget.QkTextView
+        android:id="@+id/empty"
+        style="@style/TextSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="56dp"
+        tools:text="Your conversations will appear here"
+        tools:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/no_search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/recent"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:src="@drawable/recent_search"
+            app:tint="?android:attr/textColorPrimary" />
+
+        <com.messaging.textrasms.manager.common.widget.QkTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="No Recent Searches..."
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="@dimen/_16sdp" />
+    </LinearLayout>
+</RelativeLayout>
+

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:background="@drawable/bg_pop_up_all"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgCross"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:src="@drawable/ic_cross"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvAlertTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/like_our_app"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvAlertText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arial_bold"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="@string/if_you_enjoy_using_our_app_nplease_rate_us"
+            android:textColor="@color/grey"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvAlertTitle" />
+
+        <androidx.appcompat.widget.AppCompatRatingBar
+            android:id="@+id/rating_bar"
+            style="@style/RatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:isIndicator="true"
+            android:max="5"
+            android:progressTint="@color/color_rating_active"
+            android:rating="5"
+            android:secondaryProgressTint="@color/transparent"
+            android:stepSize="1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvAlertText"
+            app:layout_constraintWidth_percent=".8" />
+
+        <TextView
+            android:id="@+id/tvDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arial_bold"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="@string/we_are_trying_our_best_to_improve"
+            android:textColor="@color/grey"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rating_bar" />
+
+        <Button
+            android:id="@+id/btnRateUs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:background="@drawable/ad_btn_bg"
+            android:backgroundTint="@color/rate_us_btn_color"
+            android:fontFamily="@font/arial_bold"
+            android:gravity="center"
+            android:text="@string/rate_us"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvDes"
+            app:layout_constraintWidth_percent=".6" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
