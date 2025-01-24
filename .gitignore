@@ -1,0 +1,50 @@
+# Ignore Gradle-related files
+**/.gradle/
+
+# Ignore build output directories
+**/build/
+
+# Ignore Android Studio project files
+**/*.iml
+**/.idea/
+**/captures/
+**/local.properties
+
+# Ignore Gradle cache files
+.gradle/
+build/
+out/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore generated APKs and ProGuard files
+*.apk
+*.ap_
+*.mapping
+*.class
+
+# Ignore dependency caches
+!gradle/wrapper/gradle-wrapper.jar
+
+# Ignore log files
+*.log
+
+# Ignore miscellaneous binaries
+*.so
+*.dll
+*.exe
+*.dylib
+
+# Ignore temporary files
+*.swp
+*.swo
+*.tmp
+*.temp
+*.orig
+
+# Ignore Android NDK files
+**/obj/
+**/.externalNativeBuild/
+**/cmake-build-debug/
